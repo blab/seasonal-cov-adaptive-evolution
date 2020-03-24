@@ -1,0 +1,3575 @@
+{
+  "meta": {
+    "colorings": [
+      {
+        "key": "num_date",
+        "title": "Sampling date",
+        "type": "continuous"
+      },
+      {
+        "key": "gt",
+        "title": "Genotype",
+        "type": "categorical"
+      },
+      {
+        "key": "country",
+        "title": "country",
+        "type": "categorical"
+      }
+    ],
+    "display_defaults": {
+      "color_by": "country",
+      "map_triplicate": true
+    },
+    "filters": [
+      "host"
+    ],
+    "genome_annotations": {
+      "HE": {
+        "end": 1275,
+        "seqid": "config/oc43_he_reference.gb",
+        "start": 1,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "nuc": {
+        "end": 1275,
+        "seqid": "config/oc43_he_reference.gb",
+        "start": 1,
+        "strand": "+",
+        "type": "source"
+      }
+    },
+    "maintainers": [
+      {
+        "name": "Katie Kistler"
+      }
+    ],
+    "panels": [
+      "tree"
+    ],
+    "title": "Genetic diversity of OC43 beta-coronaviruses data collected by Vipr",
+    "updated": "2020-03-23"
+  },
+  "tree": {
+    "branch_attrs": {
+      "mutations": {}
+    },
+    "children": [
+      {
+        "branch_attrs": {
+          "mutations": {}
+        },
+        "children": [
+          {
+            "branch_attrs": {
+              "mutations": {}
+            },
+            "children": [
+              {
+                "branch_attrs": {
+                  "labels": {
+                    "aa": "HE: P367L, P389S"
+                  },
+                  "mutations": {
+                    "HE": [
+                      "P367L",
+                      "P389S"
+                    ],
+                    "nuc": [
+                      "C1100T",
+                      "C1165T"
+                    ]
+                  }
+                },
+                "name": "OC43/human/USA/851_15/1985_he",
+                "node_attrs": {
+                  "accession": "KF530060_he",
+                  "country": {
+                    "confidence": {
+                      "usa": 1.0
+                    },
+                    "entropy": -1.000088900581841e-12,
+                    "value": "usa"
+                  },
+                  "div": 0.00947228304171762,
+                  "num_date": {
+                    "confidence": [
+                      1985.0205479452054,
+                      1985.0205479452054
+                    ],
+                    "value": 1985.0205479452054
+                  }
+                }
+              },
+              {
+                "branch_attrs": {
+                  "labels": {
+                    "aa": "HE: L365F"
+                  },
+                  "mutations": {
+                    "HE": [
+                      "L365F"
+                    ],
+                    "nuc": [
+                      "T480C",
+                      "C627T",
+                      "T927C",
+                      "C1093T"
+                    ]
+                  }
+                },
+                "name": "OC43/human/USA/873_6/1987_he",
+                "node_attrs": {
+                  "accession": "KF530087_he",
+                  "country": {
+                    "confidence": {
+                      "usa": 1.0
+                    },
+                    "entropy": -1.000088900581841e-12,
+                    "value": "usa"
+                  },
+                  "div": 0.011047433560883176,
+                  "num_date": {
+                    "confidence": [
+                      1987.1739726027397,
+                      1987.1739726027397
+                    ],
+                    "value": 1987.1739726027397
+                  }
+                }
+              },
+              {
+                "branch_attrs": {
+                  "mutations": {}
+                },
+                "children": [
+                  {
+                    "branch_attrs": {
+                      "mutations": {}
+                    },
+                    "name": "OC43/human/USA/832_27/1983_he",
+                    "node_attrs": {
+                      "accession": "KF530093_he",
+                      "country": {
+                        "confidence": {
+                          "usa": 0.9999999999999999
+                        },
+                        "entropy": -9.99866855976916e-13,
+                        "value": "usa"
+                      },
+                      "div": 0.007898530284714168,
+                      "num_date": {
+                        "confidence": [
+                          1983.1493150684933,
+                          1983.1493150684933
+                        ],
+                        "value": 1983.1493150684933
+                      }
+                    }
+                  },
+                  {
+                    "branch_attrs": {
+                      "mutations": {}
+                    },
+                    "children": [
+                      {
+                        "branch_attrs": {
+                          "mutations": {
+                            "nuc": [
+                              "T132C"
+                            ]
+                          }
+                        },
+                        "name": "OC43/human/USA/871_25/1987_he",
+                        "node_attrs": {
+                          "accession": "KF530085_he",
+                          "country": {
+                            "confidence": {
+                              "usa": 1.0
+                            },
+                            "entropy": -1.000088900581841e-12,
+                            "value": "usa"
+                          },
+                          "div": 0.008683896939113568,
+                          "num_date": {
+                            "confidence": [
+                              1987.058904109589,
+                              1987.058904109589
+                            ],
+                            "value": 1987.058904109589
+                          }
+                        }
+                      },
+                      {
+                        "branch_attrs": {
+                          "labels": {
+                            "aa": "HE: D183G"
+                          },
+                          "mutations": {
+                            "HE": [
+                              "D183G"
+                            ],
+                            "nuc": [
+                              "A548G"
+                            ]
+                          }
+                        },
+                        "children": [
+                          {
+                            "branch_attrs": {
+                              "labels": {
+                                "aa": "HE: A345T"
+                              },
+                              "mutations": {
+                                "HE": [
+                                  "A345T"
+                                ],
+                                "nuc": [
+                                  "T351C",
+                                  "G1033A"
+                                ]
+                              }
+                            },
+                            "name": "OC43/human/USA/873_16/1987_he",
+                            "node_attrs": {
+                              "accession": "KF530077_he",
+                              "country": {
+                                "confidence": {
+                                  "usa": 1.0
+                                },
+                                "entropy": -1.000088900581841e-12,
+                                "value": "usa"
+                              },
+                              "div": 0.010255680839635782,
+                              "num_date": {
+                                "confidence": [
+                                  1987.1931506849314,
+                                  1987.1931506849314
+                                ],
+                                "value": 1987.1931506849314
+                              }
+                            }
+                          },
+                          {
+                            "branch_attrs": {
+                              "mutations": {}
+                            },
+                            "children": [
+                              {
+                                "branch_attrs": {
+                                  "labels": {
+                                    "aa": "HE: H422Y"
+                                  },
+                                  "mutations": {
+                                    "HE": [
+                                      "H422Y"
+                                    ],
+                                    "nuc": [
+                                      "C1264T"
+                                    ]
+                                  }
+                                },
+                                "name": "OC43/human/USA/873_19/1987_he",
+                                "node_attrs": {
+                                  "accession": "KF530083_he",
+                                  "country": {
+                                    "confidence": {
+                                      "usa": 1.0
+                                    },
+                                    "entropy": -1.000088900581841e-12,
+                                    "value": "usa"
+                                  },
+                                  "div": 0.009469866980978445,
+                                  "num_date": {
+                                    "confidence": [
+                                      1987.2068493150684,
+                                      1987.2068493150684
+                                    ],
+                                    "value": 1987.2068493150684
+                                  }
+                                }
+                              },
+                              {
+                                "branch_attrs": {
+                                  "mutations": {}
+                                },
+                                "name": "OC43/human/USA/872_5/1987_he",
+                                "node_attrs": {
+                                  "accession": "KF530086_he",
+                                  "country": {
+                                    "confidence": {
+                                      "usa": 1.0
+                                    },
+                                    "entropy": -1.000088900581841e-12,
+                                    "value": "usa"
+                                  },
+                                  "div": 0.008684130716943097,
+                                  "num_date": {
+                                    "confidence": [
+                                      1987.1109589041096,
+                                      1987.1109589041096
+                                    ],
+                                    "value": 1987.1109589041096
+                                  }
+                                }
+                              }
+                            ],
+                            "name": "NODE_0000008",
+                            "node_attrs": {
+                              "country": {
+                                "confidence": {
+                                  "usa": 0.9999723091903792
+                                },
+                                "entropy": 0.00034645664534142914,
+                                "value": "usa"
+                              },
+                              "div": 0.008684130716943097,
+                              "num_date": {
+                                "confidence": [
+                                  1983.9534850244427,
+                                  1987.1109589041096
+                                ],
+                                "value": 1986.7563032689948
+                              }
+                            }
+                          }
+                        ],
+                        "name": "NODE_0000014",
+                        "node_attrs": {
+                          "country": {
+                            "confidence": {
+                              "usa": 0.9999627988182099
+                            },
+                            "entropy": 0.00045441406240529923,
+                            "value": "usa"
+                          },
+                          "div": 0.008684130716943097,
+                          "num_date": {
+                            "confidence": [
+                              1983.9061694824377,
+                              1987.0960066225332
+                            ],
+                            "value": 1984.769539074982
+                          }
+                        }
+                      }
+                    ],
+                    "name": "NODE_0000006",
+                    "node_attrs": {
+                      "country": {
+                        "confidence": {
+                          "usa": 0.9999597340202511
+                        },
+                        "entropy": 0.0004886716085266238,
+                        "value": "usa"
+                      },
+                      "div": 0.007898530284714168,
+                      "num_date": {
+                        "confidence": [
+                          1981.7744134880677,
+                          1985.1743431419432
+                        ],
+                        "value": 1984.2648277422775
+                      }
+                    }
+                  }
+                ],
+                "name": "NODE_0000007",
+                "node_attrs": {
+                  "country": {
+                    "confidence": {
+                      "usa": 0.9999735676435682
+                    },
+                    "entropy": 0.00033191105954988325,
+                    "value": "usa"
+                  },
+                  "div": 0.007898530284714168,
+                  "num_date": {
+                    "confidence": [
+                      1982.0794403477903,
+                      1983.1493150684933
+                    ],
+                    "value": 1983.1493150684933
+                  }
+                }
+              }
+            ],
+            "name": "NODE_0000013",
+            "node_attrs": {
+              "country": {
+                "confidence": {
+                  "usa": 0.9999948876767933
+                },
+                "entropy": 7.221053946332941e-05,
+                "value": "usa"
+              },
+              "div": 0.007898530284714168,
+              "num_date": {
+                "confidence": [
+                  1981.259583410584,
+                  1982.9712609426986
+                ],
+                "value": 1982.360784709671
+              }
+            }
+          },
+          {
+            "branch_attrs": {
+              "labels": {
+                "aa": "HE: D20H"
+              },
+              "mutations": {
+                "HE": [
+                  "D20H"
+                ],
+                "nuc": [
+                  "G58C"
+                ]
+              }
+            },
+            "children": [
+              {
+                "branch_attrs": {
+                  "labels": {
+                    "aa": "HE: S164P, Y186H"
+                  },
+                  "mutations": {
+                    "HE": [
+                      "S164P",
+                      "Y186H"
+                    ],
+                    "nuc": [
+                      "T490C",
+                      "T556C"
+                    ]
+                  }
+                },
+                "children": [
+                  {
+                    "branch_attrs": {
+                      "mutations": {}
+                    },
+                    "name": "OC43/human/USA/8912_37/1989_he",
+                    "node_attrs": {
+                      "accession": "KF530073_he",
+                      "country": {
+                        "confidence": {
+                          "usa": 1.0
+                        },
+                        "entropy": -1.000088900581841e-12,
+                        "value": "usa"
+                      },
+                      "div": 0.010253892154127812,
+                      "num_date": {
+                        "confidence": [
+                          1989.9712328767123,
+                          1989.9712328767123
+                        ],
+                        "value": 1989.9712328767123
+                      }
+                    }
+                  },
+                  {
+                    "branch_attrs": {
+                      "mutations": {}
+                    },
+                    "children": [
+                      {
+                        "branch_attrs": {
+                          "mutations": {}
+                        },
+                        "name": "OC43/human/USA/901_33/1990_he",
+                        "node_attrs": {
+                          "accession": "KF530066_he",
+                          "country": {
+                            "confidence": {
+                              "usa": 1.0
+                            },
+                            "entropy": -1.000088900581841e-12,
+                            "value": "usa"
+                          },
+                          "div": 0.010253892154127812,
+                          "num_date": {
+                            "confidence": [
+                              1990.0424657534247,
+                              1990.0424657534247
+                            ],
+                            "value": 1990.0424657534247
+                          }
+                        }
+                      },
+                      {
+                        "branch_attrs": {
+                          "mutations": {}
+                        },
+                        "children": [
+                          {
+                            "branch_attrs": {
+                              "mutations": {}
+                            },
+                            "name": "OC43/human/USA/901_43/1990_he",
+                            "node_attrs": {
+                              "accession": "KF530061_he",
+                              "country": {
+                                "confidence": {
+                                  "usa": 1.0
+                                },
+                                "entropy": -1.000088900581841e-12,
+                                "value": "usa"
+                              },
+                              "div": 0.010253892154127812,
+                              "num_date": {
+                                "confidence": [
+                                  1990.0506849315068,
+                                  1990.0506849315068
+                                ],
+                                "value": 1990.0506849315068
+                              }
+                            }
+                          },
+                          {
+                            "branch_attrs": {
+                              "mutations": {}
+                            },
+                            "name": "OC43/human/USA/901_41/1990_he",
+                            "node_attrs": {
+                              "accession": "KF530065_he",
+                              "country": {
+                                "confidence": {
+                                  "usa": 1.0
+                                },
+                                "entropy": -1.000088900581841e-12,
+                                "value": "usa"
+                              },
+                              "div": 0.010253892154127812,
+                              "num_date": {
+                                "confidence": [
+                                  1990.045205479452,
+                                  1990.045205479452
+                                ],
+                                "value": 1990.045205479452
+                              }
+                            }
+                          }
+                        ],
+                        "name": "NODE_0000016",
+                        "node_attrs": {
+                          "country": {
+                            "confidence": {
+                              "usa": 0.9999740997672893
+                            },
+                            "entropy": 0.0003257890557383053,
+                            "value": "usa"
+                          },
+                          "div": 0.010253892154127812,
+                          "num_date": {
+                            "confidence": [
+                              1988.6165071989576,
+                              1990.045205479452
+                            ],
+                            "value": 1990.045205479452
+                          }
+                        }
+                      }
+                    ],
+                    "name": "NODE_0000015",
+                    "node_attrs": {
+                      "country": {
+                        "confidence": {
+                          "usa": 0.9999721997137522
+                        },
+                        "entropy": 0.00034762913914947787,
+                        "value": "usa"
+                      },
+                      "div": 0.010253892154127812,
+                      "num_date": {
+                        "confidence": [
+                          1988.4443450445372,
+                          1990.0302532033552
+                        ],
+                        "value": 1988.9865843317853
+                      }
+                    }
+                  }
+                ],
+                "name": "NODE_0000009",
+                "node_attrs": {
+                  "country": {
+                    "confidence": {
+                      "usa": 0.9999360490778239
+                    },
+                    "entropy": 0.0007465244420233648,
+                    "value": "usa"
+                  },
+                  "div": 0.010253892154127812,
+                  "num_date": {
+                    "confidence": [
+                      1987.595172780422,
+                      1989.9712328767123
+                    ],
+                    "value": 1988.9865843317853
+                  }
+                }
+              },
+              {
+                "branch_attrs": {
+                  "labels": {
+                    "aa": "HE: F225L"
+                  },
+                  "mutations": {
+                    "HE": [
+                      "F225L"
+                    ],
+                    "nuc": [
+                      "T673C",
+                      "G1047A",
+                      "T1164C"
+                    ]
+                  }
+                },
+                "children": [
+                  {
+                    "branch_attrs": {
+                      "mutations": {}
+                    },
+                    "children": [
+                      {
+                        "branch_attrs": {
+                          "mutations": {
+                            "nuc": [
+                              "T165C"
+                            ]
+                          }
+                        },
+                        "name": "OC43/human/USA/931_85/1993_he",
+                        "node_attrs": {
+                          "accession": "KF530090_he",
+                          "country": {
+                            "confidence": {
+                              "usa": 1.0
+                            },
+                            "entropy": -1.000088900581841e-12,
+                            "value": "usa"
+                          },
+                          "div": 0.011824398391206086,
+                          "num_date": {
+                            "confidence": [
+                              1993.0698630136985,
+                              1993.0698630136985
+                            ],
+                            "value": 1993.0698630136985
+                          }
+                        }
+                      },
+                      {
+                        "branch_attrs": {
+                          "mutations": {}
+                        },
+                        "children": [
+                          {
+                            "branch_attrs": {
+                              "mutations": {}
+                            },
+                            "name": "OC43/human/USA/9211_43/1992_he",
+                            "node_attrs": {
+                              "accession": "KF530097_he",
+                              "country": {
+                                "confidence": {
+                                  "usa": 1.0
+                                },
+                                "entropy": -1.000088900581841e-12,
+                                "value": "usa"
+                              },
+                              "div": 0.011040805456673956,
+                              "num_date": {
+                                "confidence": [
+                                  1992.9139344262296,
+                                  1992.9139344262296
+                                ],
+                                "value": 1992.9139344262296
+                              }
+                            }
+                          },
+                          {
+                            "branch_attrs": {
+                              "mutations": {}
+                            },
+                            "name": "OC43/human/USA/9212_33/1992_he",
+                            "node_attrs": {
+                              "accession": "KF530074_he",
+                              "country": {
+                                "confidence": {
+                                  "usa": 1.0
+                                },
+                                "entropy": -1.000088900581841e-12,
+                                "value": "usa"
+                              },
+                              "div": 0.011040805456673956,
+                              "num_date": {
+                                "confidence": [
+                                  1992.957650273224,
+                                  1992.957650273224
+                                ],
+                                "value": 1992.957650273224
+                              }
+                            }
+                          }
+                        ],
+                        "name": "NODE_0000018",
+                        "node_attrs": {
+                          "country": {
+                            "confidence": {
+                              "usa": 0.9999735701435646
+                            },
+                            "entropy": 0.00033188898490684116,
+                            "value": "usa"
+                          },
+                          "div": 0.011040805456673956,
+                          "num_date": {
+                            "confidence": [
+                              1991.7954999475805,
+                              1992.9139344262296
+                            ],
+                            "value": 1992.9139344262296
+                          }
+                        }
+                      }
+                    ],
+                    "name": "NODE_0000017",
+                    "node_attrs": {
+                      "country": {
+                        "confidence": {
+                          "usa": 0.9999544061724343
+                        },
+                        "entropy": 0.0005475520585952796,
+                        "value": "usa"
+                      },
+                      "div": 0.011040805456673956,
+                      "num_date": {
+                        "confidence": [
+                          1990.282056063242,
+                          1992.898982188369
+                        ],
+                        "value": 1991.8721190073559
+                      }
+                    }
+                  },
+                  {
+                    "branch_attrs": {
+                      "mutations": {
+                        "nuc": [
+                          "C276T",
+                          "T921C",
+                          "G1023A"
+                        ]
+                      }
+                    },
+                    "children": [
+                      {
+                        "branch_attrs": {
+                          "labels": {
+                            "aa": "HE: H20Y"
+                          },
+                          "mutations": {
+                            "HE": [
+                              "H20Y"
+                            ],
+                            "nuc": [
+                              "C58T",
+                              "T1134C"
+                            ]
+                          }
+                        },
+                        "name": "OC43/human/USA/953_23/1995_he",
+                        "node_attrs": {
+                          "accession": "KF530075_he",
+                          "country": {
+                            "confidence": {
+                              "usa": 1.0
+                            },
+                            "entropy": -1.000088900581841e-12,
+                            "value": "usa"
+                          },
+                          "div": 0.014965658355832637,
+                          "num_date": {
+                            "confidence": [
+                              1995.1849315068494,
+                              1995.1849315068494
+                            ],
+                            "value": 1995.1849315068494
+                          }
+                        }
+                      },
+                      {
+                        "branch_attrs": {
+                          "labels": {
+                            "aa": "HE: T242S"
+                          },
+                          "mutations": {
+                            "HE": [
+                              "T242S"
+                            ],
+                            "nuc": [
+                              "C294T",
+                              "C725G"
+                            ]
+                          }
+                        },
+                        "children": [
+                          {
+                            "branch_attrs": {
+                              "labels": {
+                                "aa": "HE: P380H"
+                              },
+                              "mutations": {
+                                "HE": [
+                                  "P380H"
+                                ],
+                                "nuc": [
+                                  "C1139A"
+                                ]
+                              }
+                            },
+                            "children": [
+                              {
+                                "branch_attrs": {
+                                  "mutations": {}
+                                },
+                                "name": "OC43/human/USA/9712_13/1997_he",
+                                "node_attrs": {
+                                  "accession": "KF530072_he",
+                                  "country": {
+                                    "confidence": {
+                                      "usa": 1.0
+                                    },
+                                    "entropy": -1.000088900581841e-12,
+                                    "value": "usa"
+                                  },
+                                  "div": 0.015754761691204076,
+                                  "num_date": {
+                                    "confidence": [
+                                      1997.9438356164383,
+                                      1997.9438356164383
+                                    ],
+                                    "value": 1997.9438356164383
+                                  }
+                                }
+                              },
+                              {
+                                "branch_attrs": {
+                                  "mutations": {}
+                                },
+                                "name": "OC43/human/USA/9712_31/1997_he",
+                                "node_attrs": {
+                                  "accession": "KF530080_he",
+                                  "country": {
+                                    "confidence": {
+                                      "usa": 1.0
+                                    },
+                                    "entropy": -1.000088900581841e-12,
+                                    "value": "usa"
+                                  },
+                                  "div": 0.015754761691204076,
+                                  "num_date": {
+                                    "confidence": [
+                                      1997.9630136986302,
+                                      1997.9630136986302
+                                    ],
+                                    "value": 1997.9630136986302
+                                  }
+                                }
+                              }
+                            ],
+                            "name": "NODE_0000003",
+                            "node_attrs": {
+                              "country": {
+                                "confidence": {
+                                  "usa": 0.9999682768053987
+                                },
+                                "entropy": 0.00039261096107261873,
+                                "value": "usa"
+                              },
+                              "div": 0.015754761691204076,
+                              "num_date": {
+                                "confidence": [
+                                  1996.3122970825393,
+                                  1997.9438356164383
+                                ],
+                                "value": 1997.5891799813235
+                              }
+                            }
+                          },
+                          {
+                            "branch_attrs": {
+                              "mutations": {}
+                            },
+                            "children": [
+                              {
+                                "branch_attrs": {
+                                  "mutations": {}
+                                },
+                                "name": "OC43/human/USA/9612_9/1996_he",
+                                "node_attrs": {
+                                  "accession": "KF530064_he",
+                                  "country": {
+                                    "confidence": {
+                                      "usa": 1.0
+                                    },
+                                    "entropy": -1.000088900581841e-12,
+                                    "value": "usa"
+                                  },
+                                  "div": 0.014967938756984631,
+                                  "num_date": {
+                                    "confidence": [
+                                      1996.9248633879781,
+                                      1996.9248633879781
+                                    ],
+                                    "value": 1996.9248633879781
+                                  }
+                                }
+                              },
+                              {
+                                "branch_attrs": {
+                                  "mutations": {}
+                                },
+                                "children": [
+                                  {
+                                    "branch_attrs": {
+                                      "labels": {
+                                        "aa": "HE: P383L"
+                                      },
+                                      "mutations": {
+                                        "HE": [
+                                          "P383L"
+                                        ],
+                                        "nuc": [
+                                          "C1148T"
+                                        ]
+                                      }
+                                    },
+                                    "name": "OC43/human/USA/008_5/2000_he",
+                                    "node_attrs": {
+                                      "accession": "KF530092_he",
+                                      "country": {
+                                        "confidence": {
+                                          "usa": 1.0
+                                        },
+                                        "entropy": -1.000088900581841e-12,
+                                        "value": "usa"
+                                      },
+                                      "div": 0.015753898951251892,
+                                      "num_date": {
+                                        "confidence": [
+                                          2000.6024590163934,
+                                          2000.6024590163934
+                                        ],
+                                        "value": 2000.6024590163934
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "branch_attrs": {
+                                      "mutations": {}
+                                    },
+                                    "name": "OC43/human/USA/9612_29/1996_he",
+                                    "node_attrs": {
+                                      "accession": "KF530078_he",
+                                      "country": {
+                                        "confidence": {
+                                          "usa": 1.0
+                                        },
+                                        "entropy": -1.000088900581841e-12,
+                                        "value": "usa"
+                                      },
+                                      "div": 0.014967938756984631,
+                                      "num_date": {
+                                        "confidence": [
+                                          1996.9603825136612,
+                                          1996.9603825136612
+                                        ],
+                                        "value": 1996.9603825136612
+                                      }
+                                    }
+                                  }
+                                ],
+                                "name": "NODE_0000022",
+                                "node_attrs": {
+                                  "country": {
+                                    "confidence": {
+                                      "usa": 0.999949699485207
+                                    },
+                                    "entropy": 0.0005993834207108776,
+                                    "value": "usa"
+                                  },
+                                  "div": 0.014967938756984631,
+                                  "num_date": {
+                                    "confidence": [
+                                      1995.90673809962,
+                                      1996.9603825136612
+                                    ],
+                                    "value": 1996.9603825136612
+                                  }
+                                }
+                              }
+                            ],
+                            "name": "NODE_0000023",
+                            "node_attrs": {
+                              "country": {
+                                "confidence": {
+                                  "usa": 0.9999721864913013
+                                },
+                                "entropy": 0.0003477799173480981,
+                                "value": "usa"
+                              },
+                              "div": 0.014967938756984631,
+                              "num_date": {
+                                "confidence": [
+                                  1995.2998580586705,
+                                  1996.843542976023
+                                ],
+                                "value": 1996.322100097785
+                              }
+                            }
+                          }
+                        ],
+                        "name": "NODE_0000001",
+                        "node_attrs": {
+                          "country": {
+                            "confidence": {
+                              "usa": 0.9999603862748031
+                            },
+                            "entropy": 0.00048129933282929,
+                            "value": "usa"
+                          },
+                          "div": 0.014967938756984631,
+                          "num_date": {
+                            "confidence": [
+                              1993.8547109886772,
+                              1996.8885753626707
+                            ],
+                            "value": 1995.2950888357802
+                          }
+                        }
+                      }
+                    ],
+                    "name": "NODE_0000004",
+                    "node_attrs": {
+                      "country": {
+                        "confidence": {
+                          "usa": 0.9999235484313425
+                        },
+                        "entropy": 0.0008788550587730882,
+                        "value": "usa"
+                      },
+                      "div": 0.013396206422319623,
+                      "num_date": {
+                        "confidence": [
+                          1991.0011209083314,
+                          1995.0761137570084
+                        ],
+                        "value": 1993.1679874800002
+                      }
+                    }
+                  }
+                ],
+                "name": "NODE_0000005",
+                "node_attrs": {
+                  "country": {
+                    "confidence": {
+                      "usa": 0.9997714531770505
+                    },
+                    "entropy": 0.0023772844555503612,
+                    "value": "usa"
+                  },
+                  "div": 0.011040805456673956,
+                  "num_date": {
+                    "confidence": [
+                      1986.6790249883334,
+                      1992.8840242194224
+                    ],
+                    "value": 1988.8901070062057
+                  }
+                }
+              }
+            ],
+            "name": "NODE_0000010",
+            "node_attrs": {
+              "country": {
+                "confidence": {
+                  "usa": 0.9997185014295547
+                },
+                "entropy": 0.0028679610437081725,
+                "value": "usa"
+              },
+              "div": 0.008684294712667151,
+              "num_date": {
+                "confidence": [
+                  1981.6372620904538,
+                  1989.524864521063
+                ],
+                "value": 1984.619968795868
+              }
+            }
+          }
+        ],
+        "name": "NODE_0000012",
+        "node_attrs": {
+          "country": {
+            "confidence": {
+              "usa": 0.9993806790326721
+            },
+            "entropy": 0.005831929658883773,
+            "value": "usa"
+          },
+          "div": 0.007898530284714168,
+          "num_date": {
+            "confidence": [
+              1980.3588318519528,
+              1982.908062979891
+            ],
+            "value": 1981.707194471077
+          }
+        }
+      },
+      {
+        "branch_attrs": {
+          "labels": {
+            "aa": "HE: D20Y, V63A, A116S, V156A, R159T, F161L, T166S, Y220D, F247L, L277F, A345S, H387Y, Y412H"
+          },
+          "mutations": {
+            "HE": [
+              "D20Y",
+              "V63A",
+              "A116S",
+              "V156A",
+              "R159T",
+              "F161L",
+              "T166S",
+              "Y220D",
+              "F247L",
+              "L277F",
+              "A345S",
+              "H387Y",
+              "Y412H"
+            ],
+            "nuc": [
+              "G58T",
+              "T188C",
+              "G192A",
+              "C294T",
+              "G346T",
+              "T467C",
+              "G476C",
+              "T481C",
+              "C497G",
+              "T658G",
+              "T739C",
+              "A813T",
+              "C829T",
+              "C945T",
+              "G990A",
+              "T1002C",
+              "G1033T",
+              "T1101C",
+              "T1116C",
+              "C1159T",
+              "T1234C"
+            ]
+          }
+        },
+        "children": [
+          {
+            "branch_attrs": {
+              "labels": {
+                "aa": "HE: F225L"
+              },
+              "mutations": {
+                "HE": [
+                  "F225L"
+                ],
+                "nuc": [
+                  "T673C",
+                  "T1269C"
+                ]
+              }
+            },
+            "name": "OC43/human/USA/912_10/1991_he",
+            "node_attrs": {
+              "accession": "KF530067_he",
+              "country": {
+                "confidence": {
+                  "usa": 1.0
+                },
+                "entropy": -1.000088900581841e-12,
+                "value": "usa"
+              },
+              "div": 0.01024463754757672,
+              "num_date": {
+                "confidence": [
+                  1991.1027397260275,
+                  1991.1027397260275
+                ],
+                "value": 1991.1027397260275
+              }
+            }
+          },
+          {
+            "branch_attrs": {
+              "labels": {
+                "aa": "HE: L365H"
+              },
+              "mutations": {
+                "HE": [
+                  "L365H"
+                ],
+                "nuc": [
+                  "C1080T",
+                  "T1094A"
+                ]
+              }
+            },
+            "children": [
+              {
+                "branch_attrs": {
+                  "mutations": {}
+                },
+                "name": "OC43/human/USA/911_38/1991_he",
+                "node_attrs": {
+                  "accession": "KF530096_he",
+                  "country": {
+                    "confidence": {
+                      "usa": 1.0
+                    },
+                    "entropy": -1.000088900581841e-12,
+                    "value": "usa"
+                  },
+                  "div": 0.010247795152027393,
+                  "num_date": {
+                    "confidence": [
+                      1991.0397260273974,
+                      1991.0397260273974
+                    ],
+                    "value": 1991.0397260273974
+                  }
+                }
+              },
+              {
+                "branch_attrs": {
+                  "labels": {
+                    "aa": "HE: Y224F"
+                  },
+                  "mutations": {
+                    "HE": [
+                      "Y224F"
+                    ],
+                    "nuc": [
+                      "A671T"
+                    ]
+                  }
+                },
+                "name": "OC43/human/USA/912_6/1991_he",
+                "node_attrs": {
+                  "accession": "KF530095_he",
+                  "country": {
+                    "confidence": {
+                      "usa": 1.0
+                    },
+                    "entropy": -1.000088900581841e-12,
+                    "value": "usa"
+                  },
+                  "div": 0.011032151217624632,
+                  "num_date": {
+                    "confidence": [
+                      1991.0972602739726,
+                      1991.0972602739726
+                    ],
+                    "value": 1991.0972602739726
+                  }
+                }
+              }
+            ],
+            "name": "NODE_0000027",
+            "node_attrs": {
+              "country": {
+                "confidence": {
+                  "usa": 0.999964990061586
+                },
+                "entropy": 0.0004298985552541099,
+                "value": "usa"
+              },
+              "div": 0.010247795152027393,
+              "num_date": {
+                "confidence": [
+                  1989.05740302395,
+                  1991.0397260273974
+                ],
+                "value": 1990.5668518472444
+              }
+            }
+          },
+          {
+            "branch_attrs": {
+              "labels": {
+                "aa": "HE: L267F, D376V"
+              },
+              "mutations": {
+                "HE": [
+                  "L267F",
+                  "D376V"
+                ],
+                "nuc": [
+                  "G801T",
+                  "A1127T"
+                ]
+              }
+            },
+            "children": [
+              {
+                "branch_attrs": {
+                  "mutations": {
+                    "nuc": [
+                      "C48T"
+                    ]
+                  }
+                },
+                "name": "OC43/human/USA/911_11/1991_he",
+                "node_attrs": {
+                  "accession": "KF530076_he",
+                  "country": {
+                    "confidence": {
+                      "usa": 0.9999999999999999
+                    },
+                    "entropy": -9.99866855976916e-13,
+                    "value": "usa"
+                  },
+                  "div": 0.011029885548182369,
+                  "num_date": {
+                    "confidence": [
+                      1991.0068493150684,
+                      1991.0068493150684
+                    ],
+                    "value": 1991.0068493150684
+                  }
+                }
+              },
+              {
+                "branch_attrs": {
+                  "mutations": {
+                    "nuc": [
+                      "C1107T"
+                    ]
+                  }
+                },
+                "name": "OC43/human/USA/901_54/1990_he",
+                "node_attrs": {
+                  "accession": "KF530088_he",
+                  "country": {
+                    "confidence": {
+                      "usa": 1.0
+                    },
+                    "entropy": -1.000088900581841e-12,
+                    "value": "usa"
+                  },
+                  "div": 0.011029885548182369,
+                  "num_date": {
+                    "confidence": [
+                      1990.0616438356165,
+                      1990.0616438356165
+                    ],
+                    "value": 1990.0616438356165
+                  }
+                }
+              },
+              {
+                "branch_attrs": {
+                  "mutations": {}
+                },
+                "children": [
+                  {
+                    "branch_attrs": {
+                      "mutations": {}
+                    },
+                    "name": "OC43/human/USA/911_58/1991_he",
+                    "node_attrs": {
+                      "accession": "KF530091_he",
+                      "country": {
+                        "confidence": {
+                          "usa": 1.0
+                        },
+                        "entropy": -1.000088900581841e-12,
+                        "value": "usa"
+                      },
+                      "div": 0.010246891149533744,
+                      "num_date": {
+                        "confidence": [
+                          1991.0643835616438,
+                          1991.0643835616438
+                        ],
+                        "value": 1991.0643835616438
+                      }
+                    }
+                  },
+                  {
+                    "branch_attrs": {
+                      "mutations": {}
+                    },
+                    "name": "OC43/human/USA/925_1/1992_he",
+                    "node_attrs": {
+                      "accession": "KF530071_he",
+                      "country": {
+                        "confidence": {
+                          "usa": 1.0
+                        },
+                        "entropy": -1.000088900581841e-12,
+                        "value": "usa"
+                      },
+                      "div": 0.010246891149533744,
+                      "num_date": {
+                        "confidence": [
+                          1992.3401639344263,
+                          1992.3401639344263
+                        ],
+                        "value": 1992.3401639344263
+                      }
+                    }
+                  }
+                ],
+                "name": "NODE_0000026",
+                "node_attrs": {
+                  "country": {
+                    "confidence": {
+                      "usa": 0.9999728788045159
+                    },
+                    "entropy": 0.0003399422577948942,
+                    "value": "usa"
+                  },
+                  "div": 0.010246891149533744,
+                  "num_date": {
+                    "confidence": [
+                      1989.426380040783,
+                      1991.0643835616438
+                    ],
+                    "value": 1991.0397599390053
+                  }
+                }
+              }
+            ],
+            "name": "NODE_0000028",
+            "node_attrs": {
+              "country": {
+                "confidence": {
+                  "usa": 0.9999990870787693
+                },
+                "entropy": 1.44839316915397e-05,
+                "value": "usa"
+              },
+              "div": 0.010246891149533744,
+              "num_date": {
+                "confidence": [
+                  1988.3855457465581,
+                  1990.0616438356165
+                ],
+                "value": 1989.0195602092424
+              }
+            }
+          },
+          {
+            "branch_attrs": {
+              "mutations": {}
+            },
+            "children": [
+              {
+                "branch_attrs": {
+                  "labels": {
+                    "aa": "HE: S181F"
+                  },
+                  "mutations": {
+                    "HE": [
+                      "S181F"
+                    ],
+                    "nuc": [
+                      "C542T"
+                    ]
+                  }
+                },
+                "name": "OC43/human/USA/913_29/1991_he",
+                "node_attrs": {
+                  "accession": "KF530079_he",
+                  "country": {
+                    "confidence": {
+                      "usa": 0.9999999999999999
+                    },
+                    "entropy": -9.99866855976916e-13,
+                    "value": "usa"
+                  },
+                  "div": 0.009462175022232766,
+                  "num_date": {
+                    "confidence": [
+                      1991.1986301369864,
+                      1991.1986301369864
+                    ],
+                    "value": 1991.1986301369864
+                  }
+                }
+              },
+              {
+                "branch_attrs": {
+                  "mutations": {}
+                },
+                "children": [
+                  {
+                    "branch_attrs": {
+                      "mutations": {}
+                    },
+                    "name": "OC43/human/USA/911_66/1991_he",
+                    "node_attrs": {
+                      "accession": "KF530089_he",
+                      "country": {
+                        "confidence": {
+                          "usa": 1.0
+                        },
+                        "entropy": -1.000088900581841e-12,
+                        "value": "usa"
+                      },
+                      "div": 0.00867873395808199,
+                      "num_date": {
+                        "confidence": [
+                          1991.0780821917808,
+                          1991.0780821917808
+                        ],
+                        "value": 1991.0780821917808
+                      }
+                    }
+                  },
+                  {
+                    "branch_attrs": {
+                      "mutations": {}
+                    },
+                    "children": [
+                      {
+                        "branch_attrs": {
+                          "mutations": {}
+                        },
+                        "name": "OC43/human/USA/912_11/1991_he",
+                        "node_attrs": {
+                          "accession": "KF530082_he",
+                          "country": {
+                            "confidence": {
+                              "usa": 1.0
+                            },
+                            "entropy": -1.000088900581841e-12,
+                            "value": "usa"
+                          },
+                          "div": 0.00867873395808199,
+                          "num_date": {
+                            "confidence": [
+                              1991.1027397260275,
+                              1991.1027397260275
+                            ],
+                            "value": 1991.1027397260275
+                          }
+                        }
+                      },
+                      {
+                        "branch_attrs": {
+                          "mutations": {}
+                        },
+                        "name": "OC43/human/USA/912_36/1991_he",
+                        "node_attrs": {
+                          "accession": "KF530094_he",
+                          "country": {
+                            "confidence": {
+                              "usa": 1.0
+                            },
+                            "entropy": -1.000088900581841e-12,
+                            "value": "usa"
+                          },
+                          "div": 0.00867873395808199,
+                          "num_date": {
+                            "confidence": [
+                              1991.1438356164383,
+                              1991.1438356164383
+                            ],
+                            "value": 1991.1438356164383
+                          }
+                        }
+                      }
+                    ],
+                    "name": "NODE_0000032",
+                    "node_attrs": {
+                      "country": {
+                        "confidence": {
+                          "usa": 0.9999741310522732
+                        },
+                        "entropy": 0.00032542975352829707,
+                        "value": "usa"
+                      },
+                      "div": 0.00867873395808199,
+                      "num_date": {
+                        "confidence": [
+                          1990.3256739744443,
+                          1991.1027397260275
+                        ],
+                        "value": 1991.0256170714001
+                      }
+                    }
+                  }
+                ],
+                "name": "NODE_0000030",
+                "node_attrs": {
+                  "country": {
+                    "confidence": {
+                      "usa": 0.9999732371643049
+                    },
+                    "entropy": 0.00033572400102962487,
+                    "value": "usa"
+                  },
+                  "div": 0.00867873395808199,
+                  "num_date": {
+                    "confidence": [
+                      1988.9305091689891,
+                      1991.0780821917808
+                    ],
+                    "value": 1990.5644590687277
+                  }
+                }
+              }
+            ],
+            "name": "NODE_0000029",
+            "node_attrs": {
+              "country": {
+                "confidence": {
+                  "usa": 0.9999699000224535
+                },
+                "entropy": 0.0003741020965812856,
+                "value": "usa"
+              },
+              "div": 0.00867873395808199,
+              "num_date": {
+                "confidence": [
+                  1988.033635226642,
+                  1990.454530299506
+                ],
+                "value": 1989.0228998087819
+              }
+            }
+          },
+          {
+            "branch_attrs": {
+              "labels": {
+                "aa": "HE: V48G, L161F, D220H, P346S"
+              },
+              "mutations": {
+                "HE": [
+                  "V48G",
+                  "L161F",
+                  "D220H",
+                  "P346S"
+                ],
+                "nuc": [
+                  "T143G",
+                  "T237C",
+                  "C481T",
+                  "T555C",
+                  "G658C",
+                  "C1036T"
+                ]
+              }
+            },
+            "children": [
+              {
+                "branch_attrs": {
+                  "mutations": {
+                    "nuc": [
+                      "G630A",
+                      "C1101T"
+                    ]
+                  }
+                },
+                "name": "OC43/human/USA/951_18/1995_he",
+                "node_attrs": {
+                  "accession": "KF530084_he",
+                  "country": {
+                    "confidence": {
+                      "usa": 0.9999999999999999
+                    },
+                    "entropy": -9.99866855976916e-13,
+                    "value": "usa"
+                  },
+                  "div": 0.014963119886211873,
+                  "num_date": {
+                    "confidence": [
+                      1995.031506849315,
+                      1995.031506849315
+                    ],
+                    "value": 1995.031506849315
+                  }
+                }
+              },
+              {
+                "branch_attrs": {
+                  "mutations": {}
+                },
+                "name": "OC43/human/USA/965_6/1996_he",
+                "node_attrs": {
+                  "accession": "KF530098_he",
+                  "country": {
+                    "confidence": {
+                      "usa": 1.0
+                    },
+                    "entropy": -1.000088900581841e-12,
+                    "value": "usa"
+                  },
+                  "div": 0.013394936109029287,
+                  "num_date": {
+                    "confidence": [
+                      1996.3565573770493,
+                      1996.3565573770493
+                    ],
+                    "value": 1996.3565573770493
+                  }
+                }
+              },
+              {
+                "branch_attrs": {
+                  "mutations": {
+                    "nuc": [
+                      "A519T"
+                    ]
+                  }
+                },
+                "children": [
+                  {
+                    "branch_attrs": {
+                      "mutations": {
+                        "nuc": [
+                          "C255T",
+                          "G1047T"
+                        ]
+                      }
+                    },
+                    "children": [
+                      {
+                        "branch_attrs": {
+                          "labels": {
+                            "aa": "HE: S256F, N358S"
+                          },
+                          "mutations": {
+                            "HE": [
+                              "S256F",
+                              "N358S"
+                            ],
+                            "nuc": [
+                              "C540T",
+                              "C767T",
+                              "A1073G",
+                              "C1098T"
+                            ]
+                          }
+                        },
+                        "name": "OC43/human/USA/991_5/1999_he",
+                        "node_attrs": {
+                          "accession": "KF530081_he",
+                          "country": {
+                            "confidence": {
+                              "usa": 0.9999999999999999
+                            },
+                            "entropy": -9.99866855976916e-13,
+                            "value": "usa"
+                          },
+                          "div": 0.018886704319052774,
+                          "num_date": {
+                            "confidence": [
+                              1999.017808219178,
+                              1999.017808219178
+                            ],
+                            "value": 1999.017808219178
+                          }
+                        }
+                      },
+                      {
+                        "branch_attrs": {
+                          "mutations": {}
+                        },
+                        "children": [
+                          {
+                            "branch_attrs": {
+                              "mutations": {}
+                            },
+                            "name": "OC43/human/USA/991_19/1999_he",
+                            "node_attrs": {
+                              "accession": "KF530070_he",
+                              "country": {
+                                "confidence": {
+                                  "usa": 1.0
+                                },
+                                "entropy": -1.000088900581841e-12,
+                                "value": "usa"
+                              },
+                              "div": 0.015743922262825345,
+                              "num_date": {
+                                "confidence": [
+                                  1999.0397260273974,
+                                  1999.0397260273974
+                                ],
+                                "value": 1999.0397260273974
+                              }
+                            }
+                          },
+                          {
+                            "branch_attrs": {
+                              "mutations": {}
+                            },
+                            "name": "OC43/human/USA/007_11/2000_he",
+                            "node_attrs": {
+                              "accession": "KF530068_he",
+                              "country": {
+                                "confidence": {
+                                  "usa": 1.0
+                                },
+                                "entropy": -1.000088900581841e-12,
+                                "value": "usa"
+                              },
+                              "div": 0.015743922262825345,
+                              "num_date": {
+                                "confidence": [
+                                  2000.5696721311476,
+                                  2000.5696721311476
+                                ],
+                                "value": 2000.5696721311476
+                              }
+                            }
+                          }
+                        ],
+                        "name": "NODE_0000037",
+                        "node_attrs": {
+                          "country": {
+                            "confidence": {
+                              "usa": 0.9999628342137233
+                            },
+                            "entropy": 0.00045409832546171357,
+                            "value": "usa"
+                          },
+                          "div": 0.015743922262825345,
+                          "num_date": {
+                            "confidence": [
+                              1996.7071230990935,
+                              1999.0397260273974
+                            ],
+                            "value": 1999.0397260273974
+                          }
+                        }
+                      }
+                    ],
+                    "name": "NODE_0000034",
+                    "node_attrs": {
+                      "country": {
+                        "confidence": {
+                          "usa": 0.9999459010706061
+                        },
+                        "entropy": 0.0006406556283546161,
+                        "value": "usa"
+                      },
+                      "div": 0.015743922262825345,
+                      "num_date": {
+                        "confidence": [
+                          1995.1496521798722,
+                          1997.5866781320894
+                        ],
+                        "value": 1996.3502541277767
+                      }
+                    }
+                  },
+                  {
+                    "branch_attrs": {
+                      "labels": {
+                        "aa": "HE: V359I"
+                      },
+                      "mutations": {
+                        "HE": [
+                          "V359I"
+                        ],
+                        "nuc": [
+                          "G1075A"
+                        ]
+                      }
+                    },
+                    "children": [
+                      {
+                        "branch_attrs": {
+                          "labels": {
+                            "aa": "HE: F207L"
+                          },
+                          "mutations": {
+                            "HE": [
+                              "F207L"
+                            ],
+                            "nuc": [
+                              "T420C",
+                              "T619C"
+                            ]
+                          }
+                        },
+                        "name": "OC43/human/USA/982_4/1998_he",
+                        "node_attrs": {
+                          "accession": "KF530069_he",
+                          "country": {
+                            "confidence": {
+                              "usa": 0.9999999999999999
+                            },
+                            "entropy": -9.99866855976916e-13,
+                            "value": "usa"
+                          },
+                          "div": 0.016525519498496115,
+                          "num_date": {
+                            "confidence": [
+                              1998.0972602739726,
+                              1998.0972602739726
+                            ],
+                            "value": 1998.0972602739726
+                          }
+                        }
+                      },
+                      {
+                        "branch_attrs": {
+                          "mutations": {
+                            "nuc": [
+                              "T675C"
+                            ]
+                          }
+                        },
+                        "children": [
+                          {
+                            "branch_attrs": {
+                              "labels": {
+                                "aa": "HE: L4F"
+                              },
+                              "mutations": {
+                                "HE": [
+                                  "L4F"
+                                ],
+                                "nuc": [
+                                  "C10T"
+                                ]
+                              }
+                            },
+                            "name": "OC43/human/USA/9612_48/1996_he",
+                            "node_attrs": {
+                              "accession": "KF530063_he",
+                              "country": {
+                                "confidence": {
+                                  "usa": 1.0
+                                },
+                                "entropy": -1.000088900581841e-12,
+                                "value": "usa"
+                              },
+                              "div": 0.016524563710366886,
+                              "num_date": {
+                                "confidence": [
+                                  1996.9959016393443,
+                                  1996.9959016393443
+                                ],
+                                "value": 1996.9959016393443
+                              }
+                            }
+                          },
+                          {
+                            "branch_attrs": {
+                              "labels": {
+                                "aa": "HE: P23L"
+                              },
+                              "mutations": {
+                                "HE": [
+                                  "P23L"
+                                ],
+                                "nuc": [
+                                  "C68T"
+                                ]
+                              }
+                            },
+                            "name": "OC43/human/USA/971_5/1997_he",
+                            "node_attrs": {
+                              "accession": "KF530099_he",
+                              "country": {
+                                "confidence": {
+                                  "usa": 1.0
+                                },
+                                "entropy": -1.000088900581841e-12,
+                                "value": "usa"
+                              },
+                              "div": 0.016524563710366886,
+                              "num_date": {
+                                "confidence": [
+                                  1997.004109589041,
+                                  1997.004109589041
+                                ],
+                                "value": 1997.004109589041
+                              }
+                            }
+                          }
+                        ],
+                        "name": "NODE_0000038",
+                        "node_attrs": {
+                          "country": {
+                            "confidence": {
+                              "usa": 0.9999747778163488
+                            },
+                            "entropy": 0.00031798444479551883,
+                            "value": "usa"
+                          },
+                          "div": 0.015741911422313033,
+                          "num_date": {
+                            "confidence": [
+                              1995.3939786889773,
+                              1996.666541053856
+                            ],
+                            "value": 1996.4120767289696
+                          }
+                        }
+                      },
+                      {
+                        "branch_attrs": {
+                          "mutations": {}
+                        },
+                        "children": [
+                          {
+                            "branch_attrs": {
+                              "labels": {
+                                "aa": "HE: A261S"
+                              },
+                              "mutations": {
+                                "HE": [
+                                  "A261S"
+                                ],
+                                "nuc": [
+                                  "T186C",
+                                  "G781T"
+                                ]
+                              }
+                            },
+                            "children": [
+                              {
+                                "branch_attrs": {
+                                  "labels": {
+                                    "aa": "HE: V415L"
+                                  },
+                                  "mutations": {
+                                    "HE": [
+                                      "V415L"
+                                    ],
+                                    "nuc": [
+                                      "C48T",
+                                      "C504T",
+                                      "G1206C",
+                                      "G1243T"
+                                    ]
+                                  }
+                                },
+                                "name": "HCoV_OC43/Seattle/USA/SC0841/2019_he",
+                                "node_attrs": {
+                                  "accession": "MN306043_he",
+                                  "country": {
+                                    "confidence": {
+                                      "usa": 0.9999999999999999
+                                    },
+                                    "entropy": -9.99866855976916e-13,
+                                    "value": "usa"
+                                  },
+                                  "div": 0.019664428969689136,
+                                  "num_date": {
+                                    "confidence": [
+                                      2019.0013698630137,
+                                      2019.8767348463664
+                                    ],
+                                    "value": 2019.0013698630137
+                                  }
+                                }
+                              },
+                              {
+                                "branch_attrs": {
+                                  "labels": {
+                                    "aa": "HE: Y20H, G48V, A173V"
+                                  },
+                                  "mutations": {
+                                    "HE": [
+                                      "Y20H",
+                                      "G48V",
+                                      "A173V"
+                                    ],
+                                    "nuc": [
+                                      "T58C",
+                                      "G143T",
+                                      "C518T"
+                                    ]
+                                  }
+                                },
+                                "children": [
+                                  {
+                                    "branch_attrs": {
+                                      "labels": {
+                                        "aa": "HE: G75D, L410F"
+                                      },
+                                      "mutations": {
+                                        "HE": [
+                                          "G75D",
+                                          "L410F"
+                                        ],
+                                        "nuc": [
+                                          "G224A",
+                                          "C1056T",
+                                          "C1168T",
+                                          "G1230T"
+                                        ]
+                                      }
+                                    },
+                                    "name": "HCoV_OC43/UK/London/2011_he",
+                                    "node_attrs": {
+                                      "accession": "KU131570_he",
+                                      "country": {
+                                        "confidence": {
+                                          "united_kingdom": 1.0
+                                        },
+                                        "entropy": -1.000088900581841e-12,
+                                        "value": "united_kingdom"
+                                      },
+                                      "div": 0.022013343876908262,
+                                      "num_date": {
+                                        "confidence": [
+                                          2011.6342465753426,
+                                          2011.6342465753426
+                                        ],
+                                        "value": 2011.6342465753426
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "branch_attrs": {
+                                      "mutations": {}
+                                    },
+                                    "children": [
+                                      {
+                                        "branch_attrs": {
+                                          "labels": {
+                                            "aa": "HE: V151L"
+                                          },
+                                          "mutations": {
+                                            "HE": [
+                                              "V151L"
+                                            ],
+                                            "nuc": [
+                                              "G451C",
+                                              "A798T"
+                                            ]
+                                          }
+                                        },
+                                        "name": "HCoV_OC43/USA/ACRI_0052/2016_he",
+                                        "node_attrs": {
+                                          "accession": "MF314143_he",
+                                          "country": {
+                                            "confidence": {
+                                              "usa": 1.0
+                                            },
+                                            "entropy": -1.000088900581841e-12,
+                                            "value": "usa"
+                                          },
+                                          "div": 0.02044004562101407,
+                                          "num_date": {
+                                            "confidence": [
+                                              2016.181693989071,
+                                              2016.181693989071
+                                            ],
+                                            "value": 2016.181693989071
+                                          }
+                                        }
+                                      },
+                                      {
+                                        "branch_attrs": {
+                                          "mutations": {
+                                            "nuc": [
+                                              "C540T",
+                                              "G1167T"
+                                            ]
+                                          }
+                                        },
+                                        "children": [
+                                          {
+                                            "branch_attrs": {
+                                              "mutations": {}
+                                            },
+                                            "name": "HCoV_OC43/Seattle/USA/SC2476/2015_he",
+                                            "node_attrs": {
+                                              "accession": "KY967360_he",
+                                              "country": {
+                                                "confidence": {
+                                                  "usa": 1.0
+                                                },
+                                                "entropy": -1.000088900581841e-12,
+                                                "value": "usa"
+                                              },
+                                              "div": 0.020439435382559514,
+                                              "num_date": {
+                                                "confidence": [
+                                                  2015.0769369586299,
+                                                  2015.9986301369863
+                                                ],
+                                                "value": 2015.9986301369863
+                                              }
+                                            }
+                                          },
+                                          {
+                                            "branch_attrs": {
+                                              "mutations": {
+                                                "nuc": [
+                                                  "C1200T"
+                                                ]
+                                              }
+                                            },
+                                            "name": "OC43_KLF_02_2017_he",
+                                            "node_attrs": {
+                                              "accession": "MN026165_he",
+                                              "country": {
+                                                "confidence": {
+                                                  "kenya": 0.9999999999999999
+                                                },
+                                                "entropy": -9.99866855976916e-13,
+                                                "value": "kenya"
+                                              },
+                                              "div": 0.02122252206204106,
+                                              "num_date": {
+                                                "confidence": [
+                                                  2017.9054794520548,
+                                                  2017.9054794520548
+                                                ],
+                                                "value": 2017.9054794520548
+                                              }
+                                            }
+                                          }
+                                        ],
+                                        "name": "NODE_0000043",
+                                        "node_attrs": {
+                                          "country": {
+                                            "confidence": {
+                                              "kenya": 0.09050643657779388,
+                                              "united_kingdom": 0.00262464601374664,
+                                              "usa": 0.9065047820466247
+                                            },
+                                            "entropy": 0.3248892854942804,
+                                            "value": "usa"
+                                          },
+                                          "div": 0.020439435382559514,
+                                          "num_date": {
+                                            "confidence": [
+                                              2014.1709229610326,
+                                              2015.892739229485
+                                            ],
+                                            "value": 2015.6869815276514
+                                          }
+                                        }
+                                      }
+                                    ],
+                                    "name": "NODE_0000042",
+                                    "node_attrs": {
+                                      "country": {
+                                        "confidence": {
+                                          "kenya": 0.011168004275249237,
+                                          "united_kingdom": 0.023807867798702028,
+                                          "usa": 0.964648292810269
+                                        },
+                                        "entropy": 0.17686776537578658,
+                                        "value": "usa"
+                                      },
+                                      "div": 0.018874144279355385,
+                                      "num_date": {
+                                        "confidence": [
+                                          2009.3438586253685,
+                                          2015.713270527094
+                                        ],
+                                        "value": 2010.331264850075
+                                      }
+                                    }
+                                  }
+                                ],
+                                "name": "NODE_0000041",
+                                "node_attrs": {
+                                  "country": {
+                                    "confidence": {
+                                      "kenya": 0.006074962641435548,
+                                      "united_kingdom": 0.09049908229294629,
+                                      "usa": 0.9028006906911763
+                                    },
+                                    "entropy": 0.3453477464875697,
+                                    "value": "usa"
+                                  },
+                                  "div": 0.018874144279355385,
+                                  "num_date": {
+                                    "confidence": [
+                                      2007.8468663210406,
+                                      2010.8151112824312
+                                    ],
+                                    "value": 2009.4536518294353
+                                  }
+                                }
+                              }
+                            ],
+                            "name": "NODE_0000040",
+                            "node_attrs": {
+                              "country": {
+                                "confidence": {
+                                  "kenya": 0.0035202878775808934,
+                                  "mexico": 0.0011203155343879408,
+                                  "united_kingdom": 0.027362864917277702,
+                                  "usa": 0.9679965316707536
+                                },
+                                "entropy": 0.1574513886935235,
+                                "value": "usa"
+                              },
+                              "div": 0.01652546136142267,
+                              "num_date": {
+                                "confidence": [
+                                  2002.9066873685363,
+                                  2009.3834509709604
+                                ],
+                                "value": 2005.381669903228
+                              }
+                            }
+                          },
+                          {
+                            "branch_attrs": {
+                              "labels": {
+                                "aa": "HE: P149S, A160S, N180K"
+                              },
+                              "mutations": {
+                                "HE": [
+                                  "P149S",
+                                  "A160S",
+                                  "N180K"
+                                ],
+                                "nuc": [
+                                  "C445T",
+                                  "G478T",
+                                  "C540A",
+                                  "T711A",
+                                  "C1056T",
+                                  "G1206C"
+                                ]
+                              }
+                            },
+                            "children": [
+                              {
+                                "branch_attrs": {
+                                  "labels": {
+                                    "aa": "HE: Y150H, V188L, H220Y, S221T, A261S, D388H"
+                                  },
+                                  "mutations": {
+                                    "HE": [
+                                      "Y150H",
+                                      "V188L",
+                                      "H220Y",
+                                      "S221T",
+                                      "A261S",
+                                      "D388H"
+                                    ],
+                                    "nuc": [
+                                      "T105C",
+                                      "C237T",
+                                      "T448C",
+                                      "T507C",
+                                      "T510C",
+                                      "G562C",
+                                      "C658T",
+                                      "G662C",
+                                      "G781T",
+                                      "G1162C"
+                                    ]
+                                  }
+                                },
+                                "name": "HCoV_OC43/Seattle/USA/SC9428/2018_he",
+                                "node_attrs": {
+                                  "accession": "MN310476_he",
+                                  "country": {
+                                    "confidence": {
+                                      "usa": 1.0
+                                    },
+                                    "entropy": -1.000088900581841e-12,
+                                    "value": "usa"
+                                  },
+                                  "div": 0.02757872984983692,
+                                  "num_date": {
+                                    "confidence": [
+                                      2019.0013698630137,
+                                      2019.8975527249247
+                                    ],
+                                    "value": 2019.0013698630137
+                                  }
+                                }
+                              },
+                              {
+                                "branch_attrs": {
+                                  "labels": {
+                                    "aa": "HE: D376Y"
+                                  },
+                                  "mutations": {
+                                    "HE": [
+                                      "D376Y"
+                                    ],
+                                    "nuc": [
+                                      "C1086T",
+                                      "C1116T",
+                                      "G1126T"
+                                    ]
+                                  }
+                                },
+                                "children": [
+                                  {
+                                    "branch_attrs": {
+                                      "mutations": {
+                                        "nuc": [
+                                          "T492C"
+                                        ]
+                                      }
+                                    },
+                                    "name": "OC43/human/Mex/LRTI_238/2011_he",
+                                    "node_attrs": {
+                                      "accession": "KX344031_he",
+                                      "country": {
+                                        "confidence": {
+                                          "mexico": 1.0
+                                        },
+                                        "entropy": -1.000088900581841e-12,
+                                        "value": "mexico"
+                                      },
+                                      "div": 0.022830408261297376,
+                                      "num_date": {
+                                        "confidence": [
+                                          2011.1082191780822,
+                                          2011.1082191780822
+                                        ],
+                                        "value": 2011.1082191780822
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "branch_attrs": {
+                                      "labels": {
+                                        "aa": "HE: I13V, G48V"
+                                      },
+                                      "mutations": {
+                                        "HE": [
+                                          "I13V",
+                                          "G48V"
+                                        ],
+                                        "nuc": [
+                                          "A37G",
+                                          "G143T",
+                                          "C190T",
+                                          "C270T"
+                                        ]
+                                      }
+                                    },
+                                    "children": [
+                                      {
+                                        "branch_attrs": {
+                                          "labels": {
+                                            "aa": "HE: V151F, P380L"
+                                          },
+                                          "mutations": {
+                                            "HE": [
+                                              "V151F",
+                                              "P380L"
+                                            ],
+                                            "nuc": [
+                                              "T243C",
+                                              "C423T",
+                                              "G451T",
+                                              "C1139T"
+                                            ]
+                                          }
+                                        },
+                                        "name": "HCoV_OC43/Seattle/USA/SC2924/2015_he",
+                                        "node_attrs": {
+                                          "accession": "KY967356_he",
+                                          "country": {
+                                            "confidence": {
+                                              "usa": 1.0
+                                            },
+                                            "entropy": -1.000088900581841e-12,
+                                            "value": "usa"
+                                          },
+                                          "div": 0.028353208569349503,
+                                          "num_date": {
+                                            "confidence": [
+                                              2015.120273277624,
+                                              2015.9986301369863
+                                            ],
+                                            "value": 2015.9986301369863
+                                          }
+                                        }
+                                      },
+                                      {
+                                        "branch_attrs": {
+                                          "labels": {
+                                            "aa": "HE: Y186*"
+                                          },
+                                          "mutations": {
+                                            "HE": [
+                                              "Y186*"
+                                            ],
+                                            "nuc": [
+                                              "T558G"
+                                            ]
+                                          }
+                                        },
+                                        "children": [
+                                          {
+                                            "branch_attrs": {
+                                              "mutations": {
+                                                "nuc": [
+                                                  "C960T"
+                                                ]
+                                              }
+                                            },
+                                            "name": "HCoV_OC43/USA/TCNP_0070/2016_he",
+                                            "node_attrs": {
+                                              "accession": "MF374983_he",
+                                              "country": {
+                                                "confidence": {
+                                                  "usa": 1.0
+                                                },
+                                                "entropy": -1.000088900581841e-12,
+                                                "value": "usa"
+                                              },
+                                              "div": 0.026770554112406544,
+                                              "num_date": {
+                                                "confidence": [
+                                                  2016.0860655737704,
+                                                  2016.0860655737704
+                                                ],
+                                                "value": 2016.0860655737704
+                                              }
+                                            }
+                                          },
+                                          {
+                                            "branch_attrs": {
+                                              "labels": {
+                                                "aa": "HE: F211S"
+                                              },
+                                              "mutations": {
+                                                "HE": [
+                                                  "F211S"
+                                                ],
+                                                "nuc": [
+                                                  "T632C"
+                                                ]
+                                              }
+                                            },
+                                            "children": [
+                                              {
+                                                "branch_attrs": {
+                                                  "mutations": {
+                                                    "nuc": [
+                                                      "T954C"
+                                                    ]
+                                                  }
+                                                },
+                                                "name": "HCoV_OC43/Seattle/USA/SC2345/2015_he",
+                                                "node_attrs": {
+                                                  "accession": "KY967361_he",
+                                                  "country": {
+                                                    "confidence": {
+                                                      "usa": 1.0
+                                                    },
+                                                    "entropy": -1.000088900581841e-12,
+                                                    "value": "usa"
+                                                  },
+                                                  "div": 0.02755546263862122,
+                                                  "num_date": {
+                                                    "confidence": [
+                                                      2015.0013698630137,
+                                                      2015.9986301369863
+                                                    ],
+                                                    "value": 2015.9490740788608
+                                                  }
+                                                }
+                                              },
+                                              {
+                                                "branch_attrs": {
+                                                  "labels": {
+                                                    "aa": "HE: L212F"
+                                                  },
+                                                  "mutations": {
+                                                    "HE": [
+                                                      "L212F"
+                                                    ],
+                                                    "nuc": [
+                                                      "G636T"
+                                                    ]
+                                                  }
+                                                },
+                                                "name": "HCoV_OC43/Seattle/USA/SC2770/2015_he",
+                                                "node_attrs": {
+                                                  "accession": "KY967358_he",
+                                                  "country": {
+                                                    "confidence": {
+                                                      "usa": 1.0
+                                                    },
+                                                    "entropy": -1.000088900581841e-12,
+                                                    "value": "usa"
+                                                  },
+                                                  "div": 0.027556048861656492,
+                                                  "num_date": {
+                                                    "confidence": [
+                                                      2015.0013698630137,
+                                                      2015.9986301369863
+                                                    ],
+                                                    "value": 2015.8177326252535
+                                                  }
+                                                }
+                                              },
+                                              {
+                                                "branch_attrs": {
+                                                  "mutations": {}
+                                                },
+                                                "name": "HCoV_OC43/Seattle/USA/SC3118/2015_he",
+                                                "node_attrs": {
+                                                  "accession": "KY983588_he",
+                                                  "country": {
+                                                    "confidence": {
+                                                      "usa": 1.0
+                                                    },
+                                                    "entropy": -1.000088900581841e-12,
+                                                    "value": "usa"
+                                                  },
+                                                  "div": 0.026769268263032844,
+                                                  "num_date": {
+                                                    "confidence": [
+                                                      2015.0013698630137,
+                                                      2015.9986301369863
+                                                    ],
+                                                    "value": 2015.8218672694593
+                                                  }
+                                                }
+                                              },
+                                              {
+                                                "branch_attrs": {
+                                                  "mutations": {
+                                                    "nuc": [
+                                                      "C465A",
+                                                      "T669C"
+                                                    ]
+                                                  }
+                                                },
+                                                "name": "OC43_KLF_01_2018_he",
+                                                "node_attrs": {
+                                                  "accession": "MN026164_he",
+                                                  "country": {
+                                                    "confidence": {
+                                                      "kenya": 1.0
+                                                    },
+                                                    "entropy": -1.000088900581841e-12,
+                                                    "value": "kenya"
+                                                  },
+                                                  "div": 0.028345078543317585,
+                                                  "num_date": {
+                                                    "confidence": [
+                                                      2018.0479452054794,
+                                                      2018.0479452054794
+                                                    ],
+                                                    "value": 2018.0479452054794
+                                                  }
+                                                }
+                                              },
+                                              {
+                                                "branch_attrs": {
+                                                  "mutations": {}
+                                                },
+                                                "name": "HCoV_OC43/Seattle/USA/SC2854/2015_he",
+                                                "node_attrs": {
+                                                  "accession": "KY983585_he",
+                                                  "country": {
+                                                    "confidence": {
+                                                      "usa": 1.0
+                                                    },
+                                                    "entropy": -1.000088900581841e-12,
+                                                    "value": "usa"
+                                                  },
+                                                  "div": 0.026769268263032844,
+                                                  "num_date": {
+                                                    "confidence": [
+                                                      2015.0013698630137,
+                                                      2015.9986301369863
+                                                    ],
+                                                    "value": 2015.8218672694593
+                                                  }
+                                                }
+                                              },
+                                              {
+                                                "branch_attrs": {
+                                                  "mutations": {}
+                                                },
+                                                "name": "HCoV_OC43/Seattle/USA/SC2730/2015_he",
+                                                "node_attrs": {
+                                                  "accession": "KY967359_he",
+                                                  "country": {
+                                                    "confidence": {
+                                                      "usa": 1.0
+                                                    },
+                                                    "entropy": -1.000088900581841e-12,
+                                                    "value": "usa"
+                                                  },
+                                                  "div": 0.026769268263032844,
+                                                  "num_date": {
+                                                    "confidence": [
+                                                      2015.0013698630137,
+                                                      2015.9986301369863
+                                                    ],
+                                                    "value": 2015.8218672694593
+                                                  }
+                                                }
+                                              },
+                                              {
+                                                "branch_attrs": {
+                                                  "mutations": {}
+                                                },
+                                                "name": "HCoV_OC43/Seattle/USA/SC2481/2015_he",
+                                                "node_attrs": {
+                                                  "accession": "KY983583_he",
+                                                  "country": {
+                                                    "confidence": {
+                                                      "usa": 1.0
+                                                    },
+                                                    "entropy": -1.000088900581841e-12,
+                                                    "value": "usa"
+                                                  },
+                                                  "div": 0.026769268263032844,
+                                                  "num_date": {
+                                                    "confidence": [
+                                                      2015.0013698630137,
+                                                      2015.9986301369863
+                                                    ],
+                                                    "value": 2015.8218672694593
+                                                  }
+                                                }
+                                              },
+                                              {
+                                                "branch_attrs": {
+                                                  "labels": {
+                                                    "aa": "HE: G244S"
+                                                  },
+                                                  "mutations": {
+                                                    "HE": [
+                                                      "G244S"
+                                                    ],
+                                                    "nuc": [
+                                                      "G730A"
+                                                    ]
+                                                  }
+                                                },
+                                                "children": [
+                                                  {
+                                                    "branch_attrs": {
+                                                      "mutations": {}
+                                                    },
+                                                    "name": "HCoV_OC43/Seattle/USA/SC9741/2016_he",
+                                                    "node_attrs": {
+                                                      "accession": "KY369907_he",
+                                                      "country": {
+                                                        "confidence": {
+                                                          "usa": 1.0
+                                                        },
+                                                        "entropy": -1.000088900581841e-12,
+                                                        "value": "usa"
+                                                      },
+                                                      "div": 0.02755537742556447,
+                                                      "num_date": {
+                                                        "confidence": [
+                                                          2016.0013661202186,
+                                                          2016.9986338797814
+                                                        ],
+                                                        "value": 2016.850144880139
+                                                      }
+                                                    }
+                                                  },
+                                                  {
+                                                    "branch_attrs": {
+                                                      "mutations": {}
+                                                    },
+                                                    "name": "HCoV_OC43/USA/TCNP_00212/2017_he",
+                                                    "node_attrs": {
+                                                      "accession": "MF374985_he",
+                                                      "country": {
+                                                        "confidence": {
+                                                          "usa": 1.0
+                                                        },
+                                                        "entropy": -1.000088900581841e-12,
+                                                        "value": "usa"
+                                                      },
+                                                      "div": 0.02755537742556447,
+                                                      "num_date": {
+                                                        "confidence": [
+                                                          2017.045205479452,
+                                                          2017.045205479452
+                                                        ],
+                                                        "value": 2017.045205479452
+                                                      }
+                                                    }
+                                                  }
+                                                ],
+                                                "name": "NODE_0000058",
+                                                "node_attrs": {
+                                                  "country": {
+                                                    "confidence": {
+                                                      "usa": 0.9999749269844876
+                                                    },
+                                                    "entropy": 0.0003162386460863535,
+                                                    "value": "usa"
+                                                  },
+                                                  "div": 0.02755537742556447,
+                                                  "num_date": {
+                                                    "confidence": [
+                                                      2015.2968652759432,
+                                                      2016.9911567417255
+                                                    ],
+                                                    "value": 2016.0994571191459
+                                                  }
+                                                }
+                                              },
+                                              {
+                                                "branch_attrs": {
+                                                  "mutations": {}
+                                                },
+                                                "children": [
+                                                  {
+                                                    "branch_attrs": {
+                                                      "labels": {
+                                                        "aa": "HE: P5S"
+                                                      },
+                                                      "mutations": {
+                                                        "HE": [
+                                                          "P5S"
+                                                        ],
+                                                        "nuc": [
+                                                          "C13T"
+                                                        ]
+                                                      }
+                                                    },
+                                                    "children": [
+                                                      {
+                                                        "branch_attrs": {
+                                                          "labels": {
+                                                            "aa": "HE: Y223F, D423Y"
+                                                          },
+                                                          "mutations": {
+                                                            "HE": [
+                                                              "Y223F",
+                                                              "D423Y"
+                                                            ],
+                                                            "nuc": [
+                                                              "G240A",
+                                                              "A668T",
+                                                              "G1267T"
+                                                            ]
+                                                          }
+                                                        },
+                                                        "name": "HCoV_OC43/Seattle/USA/SC9430/2018_he",
+                                                        "node_attrs": {
+                                                          "accession": "MN306053_he",
+                                                          "country": {
+                                                            "confidence": {
+                                                              "usa": 0.9999999999999999
+                                                            },
+                                                            "entropy": -9.99866855976916e-13,
+                                                            "value": "usa"
+                                                          },
+                                                          "div": 0.029922193408715145,
+                                                          "num_date": {
+                                                            "confidence": [
+                                                              2019.1213093839115,
+                                                              2019.9986301369863
+                                                            ],
+                                                            "value": 2019.9986301369863
+                                                          }
+                                                        }
+                                                      },
+                                                      {
+                                                        "branch_attrs": {
+                                                          "mutations": {}
+                                                        },
+                                                        "children": [
+                                                          {
+                                                            "branch_attrs": {
+                                                              "mutations": {
+                                                                "nuc": [
+                                                                  "C888T"
+                                                                ]
+                                                              }
+                                                            },
+                                                            "name": "HCoV_OC43/Seattle/USA/SC0810/2019_he",
+                                                            "node_attrs": {
+                                                              "accession": "MN306041_he",
+                                                              "country": {
+                                                                "confidence": {
+                                                                  "usa": 1.0
+                                                                },
+                                                                "entropy": -1.000088900581841e-12,
+                                                                "value": "usa"
+                                                              },
+                                                              "div": 0.028343044739987545,
+                                                              "num_date": {
+                                                                "confidence": [
+                                                                  2019.0013698630137,
+                                                                  2019.9986301369863
+                                                                ],
+                                                                "value": 2019.0013698630137
+                                                              }
+                                                            }
+                                                          },
+                                                          {
+                                                            "branch_attrs": {
+                                                              "mutations": {}
+                                                            },
+                                                            "children": [
+                                                              {
+                                                                "branch_attrs": {
+                                                                  "labels": {
+                                                                    "aa": "HE: L409F"
+                                                                  },
+                                                                  "mutations": {
+                                                                    "HE": [
+                                                                      "L409F"
+                                                                    ],
+                                                                    "nuc": [
+                                                                      "G1227T"
+                                                                    ]
+                                                                  }
+                                                                },
+                                                                "name": "HCoV_OC43/Seattle/USA/SC0682/2019_he",
+                                                                "node_attrs": {
+                                                                  "accession": "MN306036_he",
+                                                                  "country": {
+                                                                    "confidence": {
+                                                                      "usa": 1.0
+                                                                    },
+                                                                    "entropy": -1.000088900581841e-12,
+                                                                    "value": "usa"
+                                                                  },
+                                                                  "div": 0.028342963007703923,
+                                                                  "num_date": {
+                                                                    "confidence": [
+                                                                      2019.0013698630137,
+                                                                      2019.9986301369863
+                                                                    ],
+                                                                    "value": 2019.7796807415566
+                                                                  }
+                                                                }
+                                                              },
+                                                              {
+                                                                "branch_attrs": {
+                                                                  "mutations": {}
+                                                                },
+                                                                "children": [
+                                                                  {
+                                                                    "branch_attrs": {
+                                                                      "mutations": {
+                                                                        "nuc": [
+                                                                          "T951C"
+                                                                        ]
+                                                                      }
+                                                                    },
+                                                                    "name": "HCoV_OC43/Seattle/USA/SC0776/2019_he",
+                                                                    "node_attrs": {
+                                                                      "accession": "MN310478_he",
+                                                                      "country": {
+                                                                        "confidence": {
+                                                                          "usa": 1.0
+                                                                        },
+                                                                        "entropy": -1.000088900581841e-12,
+                                                                        "value": "usa"
+                                                                      },
+                                                                      "div": 0.028342375597153576,
+                                                                      "num_date": {
+                                                                        "confidence": [
+                                                                          2019.1450745898373,
+                                                                          2019.9986301369863
+                                                                        ],
+                                                                        "value": 2019.9986301369863
+                                                                      }
+                                                                    }
+                                                                  },
+                                                                  {
+                                                                    "branch_attrs": {
+                                                                      "mutations": {}
+                                                                    },
+                                                                    "name": "HCoV_OC43/Seattle/USA/SC0839/2019_he",
+                                                                    "node_attrs": {
+                                                                      "accession": "MN306042_he",
+                                                                      "country": {
+                                                                        "confidence": {
+                                                                          "usa": 1.0
+                                                                        },
+                                                                        "entropy": -1.000088900581841e-12,
+                                                                        "value": "usa"
+                                                                      },
+                                                                      "div": 0.0275555135375983,
+                                                                      "num_date": {
+                                                                        "confidence": [
+                                                                          2019.0013698630137,
+                                                                          2019.8653704364185
+                                                                        ],
+                                                                        "value": 2019.0013698630137
+                                                                      }
+                                                                    }
+                                                                  }
+                                                                ],
+                                                                "name": "NODE_0000054",
+                                                                "node_attrs": {
+                                                                  "country": {
+                                                                    "confidence": {
+                                                                      "usa": 0.9999741336019674
+                                                                    },
+                                                                    "entropy": 0.00032540040069829073,
+                                                                    "value": "usa"
+                                                                  },
+                                                                  "div": 0.0275555135375983,
+                                                                  "num_date": {
+                                                                    "confidence": [
+                                                                      2018.014248764378,
+                                                                      2019.16154413337
+                                                                    ],
+                                                                    "value": 2018.8866056304917
+                                                                  }
+                                                                }
+                                                              }
+                                                            ],
+                                                            "name": "NODE_0000053",
+                                                            "node_attrs": {
+                                                              "country": {
+                                                                "confidence": {
+                                                                  "usa": 0.9999733223975672
+                                                                },
+                                                                "entropy": 0.0003347416699542564,
+                                                                "value": "usa"
+                                                              },
+                                                              "div": 0.0275555135375983,
+                                                              "num_date": {
+                                                                "confidence": [
+                                                                  2017.1844813397763,
+                                                                  2019.1720168601237
+                                                                ],
+                                                                "value": 2018.3429098569175
+                                                              }
+                                                            }
+                                                          }
+                                                        ],
+                                                        "name": "NODE_0000052",
+                                                        "node_attrs": {
+                                                          "country": {
+                                                            "confidence": {
+                                                              "usa": 0.9999727053672294
+                                                            },
+                                                            "entropy": 0.0003418308668982635,
+                                                            "value": "usa"
+                                                          },
+                                                          "div": 0.0275555135375983,
+                                                          "num_date": {
+                                                            "confidence": [
+                                                              2016.154455339433,
+                                                              2019.1150193754168
+                                                            ],
+                                                            "value": 2017.9420858460228
+                                                          }
+                                                        }
+                                                      }
+                                                    ],
+                                                    "name": "NODE_0000049",
+                                                    "node_attrs": {
+                                                      "country": {
+                                                        "confidence": {
+                                                          "usa": 0.9999533655675662
+                                                        },
+                                                        "entropy": 0.0005591477676098191,
+                                                        "value": "usa"
+                                                      },
+                                                      "div": 0.0275555135375983,
+                                                      "num_date": {
+                                                        "confidence": [
+                                                          2015.1966094773143,
+                                                          2018.7489564954642
+                                                        ],
+                                                        "value": 2016.7259353774768
+                                                      }
+                                                    }
+                                                  },
+                                                  {
+                                                    "branch_attrs": {
+                                                      "mutations": {}
+                                                    },
+                                                    "children": [
+                                                      {
+                                                        "branch_attrs": {
+                                                          "mutations": {}
+                                                        },
+                                                        "children": [
+                                                          {
+                                                            "branch_attrs": {
+                                                              "mutations": {}
+                                                            },
+                                                            "name": "HCoV_OC43/Seattle/USA/SC831/2016_he",
+                                                            "node_attrs": {
+                                                              "accession": "KY369905_he",
+                                                              "country": {
+                                                                "confidence": {
+                                                                  "usa": 1.0
+                                                                },
+                                                                "entropy": -1.000088900581841e-12,
+                                                                "value": "usa"
+                                                              },
+                                                              "div": 0.026769268263032844,
+                                                              "num_date": {
+                                                                "confidence": [
+                                                                  2016.0013661202186,
+                                                                  2016.9986338797814
+                                                                ],
+                                                                "value": 2016.5608151818703
+                                                              }
+                                                            }
+                                                          },
+                                                          {
+                                                            "branch_attrs": {
+                                                              "mutations": {}
+                                                            },
+                                                            "name": "HCoV_OC43/Seattle/USA/SC622/2016_he",
+                                                            "node_attrs": {
+                                                              "accession": "KY369906_he",
+                                                              "country": {
+                                                                "confidence": {
+                                                                  "usa": 1.0
+                                                                },
+                                                                "entropy": -1.000088900581841e-12,
+                                                                "value": "usa"
+                                                              },
+                                                              "div": 0.026769268263032844,
+                                                              "num_date": {
+                                                                "confidence": [
+                                                                  2016.0013661202186,
+                                                                  2016.9986338797814
+                                                                ],
+                                                                "value": 2016.5608151818703
+                                                              }
+                                                            }
+                                                          }
+                                                        ],
+                                                        "name": "NODE_0000056",
+                                                        "node_attrs": {
+                                                          "country": {
+                                                            "confidence": {
+                                                              "usa": 0.9999741081656245
+                                                            },
+                                                            "entropy": 0.0003256925353766688,
+                                                            "value": "usa"
+                                                          },
+                                                          "div": 0.026769268263032844,
+                                                          "num_date": {
+                                                            "confidence": [
+                                                              2015.1157360305003,
+                                                              2016.927415416696
+                                                            ],
+                                                            "value": 2016.1131249780608
+                                                          }
+                                                        }
+                                                      },
+                                                      {
+                                                        "branch_attrs": {
+                                                          "mutations": {}
+                                                        },
+                                                        "children": [
+                                                          {
+                                                            "branch_attrs": {
+                                                              "mutations": {}
+                                                            },
+                                                            "name": "HCoV_OC43/Seattle/USA/SC2269/2016_he",
+                                                            "node_attrs": {
+                                                              "accession": "KY684759_he",
+                                                              "country": {
+                                                                "confidence": {
+                                                                  "usa": 0.9999999999999999
+                                                                },
+                                                                "entropy": -9.99866855976916e-13,
+                                                                "value": "usa"
+                                                              },
+                                                              "div": 0.026769268263032844,
+                                                              "num_date": {
+                                                                "confidence": [
+                                                                  2016.0013661202186,
+                                                                  2016.9986338797814
+                                                                ],
+                                                                "value": 2016.733687083949
+                                                              }
+                                                            }
+                                                          },
+                                                          {
+                                                            "branch_attrs": {
+                                                              "mutations": {}
+                                                            },
+                                                            "children": [
+                                                              {
+                                                                "branch_attrs": {
+                                                                  "mutations": {}
+                                                                },
+                                                                "name": "HCoV_OC43/USA/TCNP_00204/2017_he",
+                                                                "node_attrs": {
+                                                                  "accession": "MF374984_he",
+                                                                  "country": {
+                                                                    "confidence": {
+                                                                      "usa": 1.0
+                                                                    },
+                                                                    "entropy": -1.000088900581841e-12,
+                                                                    "value": "usa"
+                                                                  },
+                                                                  "div": 0.026769268263032844,
+                                                                  "num_date": {
+                                                                    "confidence": [
+                                                                      2017.0068493150684,
+                                                                      2017.0068493150684
+                                                                    ],
+                                                                    "value": 2017.0068493150684
+                                                                  }
+                                                                }
+                                                              },
+                                                              {
+                                                                "branch_attrs": {
+                                                                  "mutations": {}
+                                                                },
+                                                                "name": "HCoV_OC43/USA/ACRI_0213/2016_he",
+                                                                "node_attrs": {
+                                                                  "accession": "MH121121_he",
+                                                                  "country": {
+                                                                    "confidence": {
+                                                                      "usa": 1.0
+                                                                    },
+                                                                    "entropy": -1.000088900581841e-12,
+                                                                    "value": "usa"
+                                                                  },
+                                                                  "div": 0.026769268263032844,
+                                                                  "num_date": {
+                                                                    "confidence": [
+                                                                      2016.9658469945355,
+                                                                      2016.9658469945355
+                                                                    ],
+                                                                    "value": 2016.9658469945355
+                                                                  }
+                                                                }
+                                                              }
+                                                            ],
+                                                            "name": "NODE_0000059",
+                                                            "node_attrs": {
+                                                              "country": {
+                                                                "confidence": {
+                                                                  "usa": 0.9999741333861414
+                                                                },
+                                                                "entropy": 0.000325402869180246,
+                                                                "value": "usa"
+                                                              },
+                                                              "div": 0.026769268263032844,
+                                                              "num_date": {
+                                                                "confidence": [
+                                                                  2016.1837726910653,
+                                                                  2016.9658469945355
+                                                                ],
+                                                                "value": 2016.7294099044589
+                                                              }
+                                                            }
+                                                          }
+                                                        ],
+                                                        "name": "NODE_0000057",
+                                                        "node_attrs": {
+                                                          "country": {
+                                                            "confidence": {
+                                                              "usa": 0.9999733153443262
+                                                            },
+                                                            "entropy": 0.00033482239338388084,
+                                                            "value": "usa"
+                                                          },
+                                                          "div": 0.026769268263032844,
+                                                          "num_date": {
+                                                            "confidence": [
+                                                              2015.3585741849945,
+                                                              2016.933792221018
+                                                            ],
+                                                            "value": 2016.1416412094554
+                                                          }
+                                                        }
+                                                      }
+                                                    ],
+                                                    "name": "NODE_0000055",
+                                                    "node_attrs": {
+                                                      "country": {
+                                                        "confidence": {
+                                                          "usa": 0.9999724789216863
+                                                        },
+                                                        "entropy": 0.000344426473926201,
+                                                        "value": "usa"
+                                                      },
+                                                      "div": 0.026769268263032844,
+                                                      "num_date": {
+                                                        "confidence": [
+                                                          2015.0080124591993,
+                                                          2016.858078051886
+                                                        ],
+                                                        "value": 2015.676475529669
+                                                      }
+                                                    }
+                                                  }
+                                                ],
+                                                "name": "NODE_0000050",
+                                                "node_attrs": {
+                                                  "country": {
+                                                    "confidence": {
+                                                      "usa": 0.9999726785786404
+                                                    },
+                                                    "entropy": 0.0003421369975510873,
+                                                    "value": "usa"
+                                                  },
+                                                  "div": 0.026769268263032844,
+                                                  "num_date": {
+                                                    "confidence": [
+                                                      2014.6344398648184,
+                                                      2016.7503168026808
+                                                    ],
+                                                    "value": 2015.665338300717
+                                                  }
+                                                }
+                                              }
+                                            ],
+                                            "name": "NODE_0000048",
+                                            "node_attrs": {
+                                              "country": {
+                                                "confidence": {
+                                                  "usa": 0.999999999998668
+                                                },
+                                                "entropy": 3.601105303783903e-11,
+                                                "value": "usa"
+                                              },
+                                              "div": 0.026769268263032844,
+                                              "num_date": {
+                                                "confidence": [
+                                                  2014.0991018207817,
+                                                  2015.8051799340567
+                                                ],
+                                                "value": 2014.9680165473278
+                                              }
+                                            }
+                                          }
+                                        ],
+                                        "name": "NODE_0000047",
+                                        "node_attrs": {
+                                          "country": {
+                                            "confidence": {
+                                              "usa": 0.9998803874954583
+                                            },
+                                            "entropy": 0.0012787008264301865,
+                                            "value": "usa"
+                                          },
+                                          "div": 0.0259830229100173,
+                                          "num_date": {
+                                            "confidence": [
+                                              2012.9589878627262,
+                                              2015.1399700066759
+                                            ],
+                                            "value": 2014.454868597967
+                                          }
+                                        }
+                                      }
+                                    ],
+                                    "name": "NODE_0000046",
+                                    "node_attrs": {
+                                      "country": {
+                                        "confidence": {
+                                          "mexico": 0.00335701644096377,
+                                          "usa": 0.9964456466164389
+                                        },
+                                        "entropy": 0.024480277999644303,
+                                        "value": "usa"
+                                      },
+                                      "div": 0.025196190998822827,
+                                      "num_date": {
+                                        "confidence": [
+                                          2011.034266911653,
+                                          2014.222497996058
+                                        ],
+                                        "value": 2012.846529690321
+                                      }
+                                    }
+                                  }
+                                ],
+                                "name": "NODE_0000045",
+                                "node_attrs": {
+                                  "country": {
+                                    "confidence": {
+                                      "kenya": 0.0012926272936445043,
+                                      "mexico": 0.13454946787860775,
+                                      "usa": 0.8634433118392203
+                                    },
+                                    "entropy": 0.410433017204659,
+                                    "value": "usa"
+                                  },
+                                  "div": 0.02204458417401929,
+                                  "num_date": {
+                                    "confidence": [
+                                      2007.8231344810133,
+                                      2010.995481938408
+                                    ],
+                                    "value": 2009.4795223658375
+                                  }
+                                }
+                              }
+                            ],
+                            "name": "NODE_0000044",
+                            "node_attrs": {
+                              "country": {
+                                "confidence": {
+                                  "kenya": 0.002090410729773197,
+                                  "mexico": 0.04092529928961008,
+                                  "united_kingdom": 0.0011885094996078632,
+                                  "usa": 0.9557957804810089
+                                },
+                                "entropy": 0.19491336324557973,
+                                "value": "usa"
+                              },
+                              "div": 0.019685912482093632,
+                              "num_date": {
+                                "confidence": [
+                                  2003.724465691865,
+                                  2008.9804427315046
+                                ],
+                                "value": 2005.4096301150787
+                              }
+                            }
+                          }
+                        ],
+                        "name": "NODE_0000039",
+                        "node_attrs": {
+                          "country": {
+                            "confidence": {
+                              "mexico": 0.0014733177582327815,
+                              "united_kingdom": 0.0010832555533939804,
+                              "usa": 0.9968752884519552
+                            },
+                            "entropy": 0.024368222835406912,
+                            "value": "usa"
+                          },
+                          "div": 0.01495986932441607,
+                          "num_date": {
+                            "confidence": [
+                              1994.3928412057714,
+                              1998.9923676100248
+                            ],
+                            "value": 1996.3872126284261
+                          }
+                        }
+                      }
+                    ],
+                    "name": "NODE_0000036",
+                    "node_attrs": {
+                      "country": {
+                        "confidence": {
+                          "usa": 0.9999947703650912
+                        },
+                        "entropy": 7.452999152431841e-05,
+                        "value": "usa"
+                      },
+                      "div": 0.01495986932441607,
+                      "num_date": {
+                        "confidence": [
+                          1994.567120512471,
+                          1996.4538871738296
+                        ],
+                        "value": 1995.2839600664863
+                      }
+                    }
+                  }
+                ],
+                "name": "NODE_0000033",
+                "node_attrs": {
+                  "country": {
+                    "confidence": {
+                      "usa": 0.9999730363836767
+                    },
+                    "entropy": 0.0003380496385035523,
+                    "value": "usa"
+                  },
+                  "div": 0.014177595276905137,
+                  "num_date": {
+                    "confidence": [
+                      1992.8847552000198,
+                      1995.5784228062123
+                    ],
+                    "value": 1994.8405422184553
+                  }
+                }
+              }
+            ],
+            "name": "NODE_0000031",
+            "node_attrs": {
+              "country": {
+                "confidence": {
+                  "usa": 0.999996127158775
+                },
+                "entropy": 5.586045404445758e-05,
+                "value": "usa"
+              },
+              "div": 0.013394936109029287,
+              "num_date": {
+                "confidence": [
+                  1991.4410787762813,
+                  1995.031506849315
+                ],
+                "value": 1993.121263358169
+              }
+            }
+          }
+        ],
+        "name": "NODE_0000020",
+        "node_attrs": {
+          "country": {
+            "confidence": {
+              "usa": 0.9999999258587197
+            },
+            "entropy": 1.35322614653072e-06,
+            "value": "usa"
+          },
+          "div": 0.00867873395808199,
+          "num_date": {
+            "confidence": [
+              1987.3931677780263,
+              1989.9400357765924
+            ],
+            "value": 1987.954625780007
+          }
+        }
+      }
+    ],
+    "name": "NODE_0000000",
+    "node_attrs": {
+      "country": {
+        "confidence": {
+          "kenya": 0.019421274642856593,
+          "mexico": 0.012285398980489661,
+          "united_kingdom": 0.011942461833010154,
+          "usa": 0.9563508645436437
+        },
+        "entropy": 0.22615387915428287,
+        "value": "usa"
+      },
+      "div": 0,
+      "num_date": {
+        "confidence": [
+          1958.3136672086582,
+          1977.0963901348482
+        ],
+        "value": 1970.3039570639487
+      }
+    }
+  },
+  "version": "v2"
+}

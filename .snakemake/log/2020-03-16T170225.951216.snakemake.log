@@ -1,0 +1,171 @@
+Building DAG of jobs...
+Using shell: /bin/bash
+Provided cores: 4
+Rules claiming more threads will be scaled down.
+Job counts:
+	count	jobs
+	2	align
+	1	all
+	2	ancestral
+	2	export
+	2	filter
+	2	parse
+	2	refine
+	2	traits
+	2	translate
+	2	tree
+	19
+
+[Mon Mar 16 17:02:26 2020]
+Job 21: Parsing fasta into sequences and metadata
+
+
+[Mon Mar 16 17:02:26 2020]
+Job 16: Parsing fasta into sequences and metadata
+
+[Mon Mar 16 17:02:31 2020]
+Finished job 16.
+1 of 19 steps (5%) done
+
+[Mon Mar 16 17:02:31 2020]
+Job 35: 
+        Filtering to
+          - 5000 sequence(s) per country
+          - minimum genome length of 1000
+        
+
+[Mon Mar 16 17:02:31 2020]
+Finished job 21.
+2 of 19 steps (11%) done
+
+[Mon Mar 16 17:02:31 2020]
+Job 36: 
+        Filtering to
+          - 5000 sequence(s) per country
+          - minimum genome length of 1000
+        
+
+[Mon Mar 16 17:02:34 2020]
+Finished job 35.
+3 of 19 steps (16%) done
+
+[Mon Mar 16 17:02:34 2020]
+Job 30: 
+        Aligning sequences to config/229e_genome_reference.gb
+          - filling gaps with N
+        
+
+[Mon Mar 16 17:02:34 2020]
+Finished job 36.
+4 of 19 steps (21%) done
+
+[Mon Mar 16 17:02:34 2020]
+Job 32: 
+        Aligning sequences to config/nl63_genome_reference.gb
+          - filling gaps with N
+        
+
+[Mon Mar 16 17:30:35 2020]
+Finished job 30.
+5 of 19 steps (26%) done
+
+[Mon Mar 16 17:30:35 2020]
+Job 29: Building tree
+
+[Mon Mar 16 17:30:46 2020]
+Finished job 29.
+6 of 19 steps (32%) done
+
+[Mon Mar 16 17:30:46 2020]
+Job 15: 
+        Refining tree
+        
+
+[Mon Mar 16 17:38:41 2020]
+Finished job 15.
+7 of 19 steps (37%) done
+
+[Mon Mar 16 17:38:41 2020]
+Job 18: Reconstructing ancestral sequences and mutations
+
+
+[Mon Mar 16 17:38:41 2020]
+Job 17: Inferring ancestral traits for country
+
+[Mon Mar 16 17:38:49 2020]
+Finished job 17.
+8 of 19 steps (42%) done
+[Mon Mar 16 17:39:05 2020]
+Finished job 18.
+9 of 19 steps (47%) done
+
+[Mon Mar 16 17:39:05 2020]
+Job 19: Translating amino acid sequences
+
+[Mon Mar 16 17:39:09 2020]
+Finished job 19.
+10 of 19 steps (53%) done
+
+[Mon Mar 16 17:39:09 2020]
+Job 3: Exporting data files for for auspice
+
+[Mon Mar 16 17:39:12 2020]
+Finished job 3.
+11 of 19 steps (58%) done
+[Mon Mar 16 18:06:57 2020]
+Finished job 32.
+12 of 19 steps (63%) done
+
+[Mon Mar 16 18:06:57 2020]
+Job 31: Building tree
+
+[Mon Mar 16 18:07:18 2020]
+Finished job 31.
+13 of 19 steps (68%) done
+
+[Mon Mar 16 18:07:18 2020]
+Job 20: 
+        Refining tree
+        
+
+[Mon Mar 16 18:18:36 2020]
+Finished job 20.
+14 of 19 steps (74%) done
+
+[Mon Mar 16 18:18:36 2020]
+Job 23: Reconstructing ancestral sequences and mutations
+
+
+[Mon Mar 16 18:18:36 2020]
+Job 22: Inferring ancestral traits for country
+
+[Mon Mar 16 18:18:47 2020]
+Finished job 22.
+15 of 19 steps (79%) done
+[Mon Mar 16 18:19:09 2020]
+Finished job 23.
+16 of 19 steps (84%) done
+
+[Mon Mar 16 18:19:09 2020]
+Job 24: Translating amino acid sequences
+
+[Mon Mar 16 18:19:11 2020]
+Finished job 24.
+17 of 19 steps (89%) done
+
+[Mon Mar 16 18:19:11 2020]
+Job 4: Exporting data files for for auspice
+
+[Mon Mar 16 18:19:13 2020]
+Finished job 4.
+18 of 19 steps (95%) done
+
+[Mon Mar 16 18:19:13 2020]
+localrule all:
+    input: auspice/seasonal_corona_oc43.json, auspice/seasonal_corona_hku1.json, auspice/seasonal_corona_229e.json, auspice/seasonal_corona_nl63.json
+    jobid: 0
+
+[Mon Mar 16 18:19:13 2020]
+Finished job 0.
+19 of 19 steps (100%) done
+Complete log: /Users/katekistler/nextstrain/seasonal-corona-genome/.snakemake/log/2020-03-16T170225.951216.snakemake.log

@@ -1,0 +1,1038 @@
+{
+  "meta": {
+    "colorings": [
+      {
+        "key": "num_date",
+        "title": "Sampling date",
+        "type": "continuous"
+      },
+      {
+        "key": "gt",
+        "title": "Genotype",
+        "type": "categorical"
+      },
+      {
+        "key": "country",
+        "title": "country",
+        "type": "categorical"
+      }
+    ],
+    "display_defaults": {
+      "color_by": "country",
+      "map_triplicate": true
+    },
+    "filters": [
+      "host"
+    ],
+    "genome_annotations": {
+      "HCHV1gp3": {
+        "end": 4071,
+        "seqid": "config/hku1_spike_reference.gb",
+        "start": 1,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "nuc": {
+        "end": 4071,
+        "seqid": "config/hku1_spike_reference.gb",
+        "start": 1,
+        "strand": "+",
+        "type": "source"
+      }
+    },
+    "maintainers": [
+      {
+        "name": "Katie Kistler"
+      }
+    ],
+    "panels": [
+      "tree"
+    ],
+    "title": "Genetic diversity of OC43 beta-coronaviruses data collected by Vipr",
+    "updated": "2020-03-23"
+  },
+  "tree": {
+    "branch_attrs": {
+      "mutations": {}
+    },
+    "children": [
+      {
+        "branch_attrs": {
+          "labels": {
+            "aa": "HCHV1gp3: N272D, S653F, F1105L"
+          },
+          "mutations": {
+            "HCHV1gp3": [
+              "N272D",
+              "S653F",
+              "F1105L"
+            ],
+            "nuc": [
+              "A814G",
+              "C1368T",
+              "C1482T",
+              "C1958T",
+              "C3279T",
+              "T3313C",
+              "G3498A",
+              "C3570T"
+            ]
+          }
+        },
+        "name": "Caen1_spike",
+        "node_attrs": {
+          "accession": "HM034837_spike",
+          "country": {
+            "confidence": {
+              "france": 1.0
+            },
+            "entropy": -1.000088900581841e-12,
+            "value": "france"
+          },
+          "div": 0.0017047238875142609,
+          "num_date": {
+            "confidence": [
+              2005.1712328767123,
+              2005.1712328767123
+            ],
+            "value": 2005.1712328767123
+          }
+        }
+      },
+      {
+        "branch_attrs": {
+          "mutations": {}
+        },
+        "children": [
+          {
+            "branch_attrs": {
+              "mutations": {
+                "nuc": [
+                  "G2301T"
+                ]
+              }
+            },
+            "children": [
+              {
+                "branch_attrs": {
+                  "labels": {
+                    "aa": "HCHV1gp3: A709T"
+                  },
+                  "mutations": {
+                    "HCHV1gp3": [
+                      "A709T"
+                    ],
+                    "nuc": [
+                      "G2125A"
+                    ]
+                  }
+                },
+                "name": "HKU1_spike",
+                "node_attrs": {
+                  "accession": "AY597011_spike",
+                  "country": {
+                    "confidence": {
+                      "usa": 1.0
+                    },
+                    "entropy": -1.000088900581841e-12,
+                    "value": "usa"
+                  },
+                  "div": 0.000991828805967675,
+                  "num_date": {
+                    "confidence": [
+                      2014.0013698630137,
+                      2014.898904109589
+                    ],
+                    "value": 2014.0013698630137
+                  }
+                }
+              },
+              {
+                "branch_attrs": {
+                  "mutations": {
+                    "nuc": [
+                      "T1836C",
+                      "T3330C"
+                    ]
+                  }
+                },
+                "children": [
+                  {
+                    "branch_attrs": {
+                      "mutations": {}
+                    },
+                    "name": "HKU1/HTBEC_lab/BRA/HKU1_21/2006_spike",
+                    "node_attrs": {
+                      "accession": "KF430198_spike",
+                      "country": {
+                        "confidence": {
+                          "brazil": 1.0
+                        },
+                        "entropy": -1.000088900581841e-12,
+                        "value": "brazil"
+                      },
+                      "div": 0.0011803396217994488,
+                      "num_date": {
+                        "confidence": [
+                          2006.0013698630137,
+                          2006.9986301369863
+                        ],
+                        "value": 2006.264994832374
+                      }
+                    }
+                  },
+                  {
+                    "branch_attrs": {
+                      "labels": {
+                        "aa": "HCHV1gp3: N686S"
+                      },
+                      "mutations": {
+                        "HCHV1gp3": [
+                          "N686S"
+                        ],
+                        "nuc": [
+                          "A2057G"
+                        ]
+                      }
+                    },
+                    "name": "HKU1/HTBEC_lab/BRA/HKU1_23/2006_spike",
+                    "node_attrs": {
+                      "accession": "KF430203_spike",
+                      "country": {
+                        "confidence": {
+                          "brazil": 1.0
+                        },
+                        "entropy": -1.000088900581841e-12,
+                        "value": "brazil"
+                      },
+                      "div": 0.0014635563746731729,
+                      "num_date": {
+                        "confidence": [
+                          2006.0013698630137,
+                          2006.9986301369863
+                        ],
+                        "value": 2006.8735743615496
+                      }
+                    }
+                  },
+                  {
+                    "branch_attrs": {
+                      "labels": {
+                        "aa": "HCHV1gp3: V387I, H512R, V565A"
+                      },
+                      "mutations": {
+                        "HCHV1gp3": [
+                          "V387I",
+                          "H512R",
+                          "V565A"
+                        ],
+                        "nuc": [
+                          "G1159A",
+                          "A1535G",
+                          "T1694C",
+                          "T2703C",
+                          "T2715C",
+                          "T2880C"
+                        ]
+                      }
+                    },
+                    "children": [
+                      {
+                        "branch_attrs": {
+                          "labels": {
+                            "aa": "HCHV1gp3: N454I, M739I, F907I"
+                          },
+                          "mutations": {
+                            "HCHV1gp3": [
+                              "N454I",
+                              "M739I",
+                              "F907I"
+                            ],
+                            "nuc": [
+                              "T712C",
+                              "A1361T",
+                              "G2217T",
+                              "T2719A",
+                              "G3141A"
+                            ]
+                          }
+                        },
+                        "name": "SC2628_spike",
+                        "node_attrs": {
+                          "accession": "KY983584_spike",
+                          "country": {
+                            "confidence": {
+                              "usa": 1.0
+                            },
+                            "entropy": -1.000088900581841e-12,
+                            "value": "usa"
+                          },
+                          "div": 0.0040107360810186345,
+                          "num_date": {
+                            "confidence": [
+                              2015.1168983810062,
+                              2015.9986301369863
+                            ],
+                            "value": 2015.9986301369863
+                          }
+                        }
+                      },
+                      {
+                        "branch_attrs": {
+                          "mutations": {}
+                        },
+                        "name": "HKU1/human/USA/HKU1_15/2009_spike",
+                        "node_attrs": {
+                          "accession": "KF686344_spike",
+                          "country": {
+                            "confidence": {
+                              "usa": 1.0
+                            },
+                            "entropy": -1.000088900581841e-12,
+                            "value": "usa"
+                          },
+                          "div": 0.0025956881158631638,
+                          "num_date": {
+                            "confidence": [
+                              2009.990410958904,
+                              2009.990410958904
+                            ],
+                            "value": 2009.990410958904
+                          }
+                        }
+                      }
+                    ],
+                    "name": "NODE_0000000",
+                    "node_attrs": {
+                      "country": {
+                        "confidence": {
+                          "brazil": 0.11321748407794693,
+                          "china": 0.0028049093050998477,
+                          "france": 0.002191555858469662,
+                          "usa": 0.8817860507584836
+                        },
+                        "entropy": 0.38747378226623364,
+                        "value": "usa"
+                      },
+                      "div": 0.0025956881158631546,
+                      "num_date": {
+                        "confidence": [
+                          2007.199690119334,
+                          2009.990410958904
+                        ],
+                        "value": 2009.940373995014
+                      }
+                    }
+                  },
+                  {
+                    "branch_attrs": {
+                      "labels": {
+                        "aa": "HCHV1gp3: L1256F"
+                      },
+                      "mutations": {
+                        "HCHV1gp3": [
+                          "L1256F"
+                        ],
+                        "nuc": [
+                          "T729C",
+                          "T801C",
+                          "C1542T",
+                          "C3766T"
+                        ]
+                      }
+                    },
+                    "children": [
+                      {
+                        "branch_attrs": {
+                          "mutations": {}
+                        },
+                        "name": "BJ01_p3_spike",
+                        "node_attrs": {
+                          "accession": "KT779555_spike",
+                          "country": {
+                            "confidence": {
+                              "china": 1.0
+                            },
+                            "entropy": -1.000088900581841e-12,
+                            "value": "china"
+                          },
+                          "div": 0.0021243514373836215,
+                          "num_date": {
+                            "confidence": [
+                              2009.3082191780823,
+                              2009.3082191780823
+                            ],
+                            "value": 2009.3082191780823
+                          }
+                        }
+                      },
+                      {
+                        "branch_attrs": {
+                          "mutations": {}
+                        },
+                        "name": "BJ01_p9_spike",
+                        "node_attrs": {
+                          "accession": "KT779556_spike",
+                          "country": {
+                            "confidence": {
+                              "china": 1.0
+                            },
+                            "entropy": -1.000088900581841e-12,
+                            "value": "china"
+                          },
+                          "div": 0.0021243514373836215,
+                          "num_date": {
+                            "confidence": [
+                              2009.3082191780823,
+                              2009.3082191780823
+                            ],
+                            "value": 2009.3082191780823
+                          }
+                        }
+                      }
+                    ],
+                    "name": "NODE_0000004",
+                    "node_attrs": {
+                      "country": {
+                        "confidence": {
+                          "brazil": 0.03742539758567519,
+                          "china": 0.9487959126042327,
+                          "france": 0.0010109653949503244,
+                          "usa": 0.01276772441514179
+                        },
+                        "entropy": 0.23547822103901042,
+                        "value": "china"
+                      },
+                      "div": 0.0021243514373836215,
+                      "num_date": {
+                        "confidence": [
+                          2008.4158722425884,
+                          2009.3082191780823
+                        ],
+                        "value": 2009.3082191780823
+                      }
+                    }
+                  }
+                ],
+                "name": "NODE_0000001",
+                "node_attrs": {
+                  "country": {
+                    "confidence": {
+                      "brazil": 0.813534316473161,
+                      "china": 0.009750664125291847,
+                      "usa": 0.17613961325895375
+                    },
+                    "entropy": 0.5231918464315454,
+                    "value": "brazil"
+                  },
+                  "div": 0.0011803396217994488,
+                  "num_date": {
+                    "confidence": [
+                      1935.258231805889,
+                      2006.967706843066
+                    ],
+                    "value": 2006.0443770544853
+                  }
+                }
+              }
+            ],
+            "name": "NODE_0000005",
+            "node_attrs": {
+              "country": {
+                "confidence": {
+                  "brazil": 0.21652135839641515,
+                  "china": 0.006090174706575171,
+                  "france": 0.0187286902727789,
+                  "usa": 0.7586597766242308
+                },
+                "entropy": 0.6463987699318143,
+                "value": "usa"
+              },
+              "div": 0.0007083020603189036,
+              "num_date": {
+                "confidence": [
+                  1901.3891462425074,
+                  2006.9077487275483
+                ],
+                "value": 2003.901017394218
+              }
+            }
+          },
+          {
+            "branch_attrs": {
+              "labels": {
+                "aa": "HCHV1gp3: F617Y, S752F"
+              },
+              "mutations": {
+                "HCHV1gp3": [
+                  "F617Y",
+                  "S752F"
+                ],
+                "nuc": [
+                  "C864T",
+                  "T1850A",
+                  "C2255T",
+                  "G3288A",
+                  "T3552C"
+                ]
+              }
+            },
+            "children": [
+              {
+                "branch_attrs": {
+                  "labels": {
+                    "aa": "HCHV1gp3: L879S"
+                  },
+                  "mutations": {
+                    "HCHV1gp3": [
+                      "L879S"
+                    ],
+                    "nuc": [
+                      "T1062C",
+                      "T2636C",
+                      "C3207T",
+                      "A3612G"
+                    ]
+                  }
+                },
+                "children": [
+                  {
+                    "branch_attrs": {
+                      "mutations": {}
+                    },
+                    "name": "HKU1/human/USA/HKU1_20/2010_spike",
+                    "node_attrs": {
+                      "accession": "KF686345_spike",
+                      "country": {
+                        "confidence": {
+                          "usa": 0.9999999999999999
+                        },
+                        "entropy": -9.99866855976916e-13,
+                        "value": "usa"
+                      },
+                      "div": 0.002598815031216147,
+                      "num_date": {
+                        "confidence": [
+                          2010.0808219178082,
+                          2010.0808219178082
+                        ],
+                        "value": 2010.0808219178082
+                      }
+                    }
+                  },
+                  {
+                    "branch_attrs": {
+                      "mutations": {}
+                    },
+                    "name": "HKU1/human/USA/HKU1_16/2010_spike",
+                    "node_attrs": {
+                      "accession": "KF430200_spike",
+                      "country": {
+                        "confidence": {
+                          "usa": 0.9999999999999999
+                        },
+                        "entropy": -9.99866855976916e-13,
+                        "value": "usa"
+                      },
+                      "div": 0.002598815031216147,
+                      "num_date": {
+                        "confidence": [
+                          2010.0205479452054,
+                          2010.0205479452054
+                        ],
+                        "value": 2010.0205479452054
+                      }
+                    }
+                  }
+                ],
+                "name": "NODE_0000013",
+                "node_attrs": {
+                  "country": {
+                    "confidence": {
+                      "brazil": 0.002192825047085402,
+                      "usa": 0.9966584664053333
+                    },
+                    "entropy": 0.025289144817678723,
+                    "value": "usa"
+                  },
+                  "div": 0.002598815031216147,
+                  "num_date": {
+                    "confidence": [
+                      2009.3202944702914,
+                      2010.0205479452054
+                    ],
+                    "value": 2010.0205479452054
+                  }
+                }
+              },
+              {
+                "branch_attrs": {
+                  "mutations": {
+                    "nuc": [
+                      "T1818C",
+                      "T3528C"
+                    ]
+                  }
+                },
+                "children": [
+                  {
+                    "branch_attrs": {
+                      "mutations": {}
+                    },
+                    "name": "HKU1/human/USA/HKU1_5/2009_spike",
+                    "node_attrs": {
+                      "accession": "KF686340_spike",
+                      "country": {
+                        "confidence": {
+                          "usa": 0.9999999999999999
+                        },
+                        "entropy": -9.99866855976916e-13,
+                        "value": "usa"
+                      },
+                      "div": 0.0021260643636575424,
+                      "num_date": {
+                        "confidence": [
+                          2009.9082191780822,
+                          2009.9082191780822
+                        ],
+                        "value": 2009.9082191780822
+                      }
+                    }
+                  },
+                  {
+                    "branch_attrs": {
+                      "mutations": {}
+                    },
+                    "name": "HKU1/human/USA/HKU1_3/2009_spike",
+                    "node_attrs": {
+                      "accession": "KF686339_spike",
+                      "country": {
+                        "confidence": {
+                          "usa": 0.9999999999999999
+                        },
+                        "entropy": -9.99866855976916e-13,
+                        "value": "usa"
+                      },
+                      "div": 0.002126064363657554,
+                      "num_date": {
+                        "confidence": [
+                          2009.831506849315,
+                          2009.831506849315
+                        ],
+                        "value": 2009.831506849315
+                      }
+                    }
+                  }
+                ],
+                "name": "NODE_0000022",
+                "node_attrs": {
+                  "country": {
+                    "confidence": {
+                      "brazil": 0.002192825047085402,
+                      "usa": 0.9966584664053333
+                    },
+                    "entropy": 0.025289144817678723,
+                    "value": "usa"
+                  },
+                  "div": 0.0021260643636575424,
+                  "num_date": {
+                    "confidence": [
+                      2008.9077518520078,
+                      2009.831506849315
+                    ],
+                    "value": 2009.831506849315
+                  }
+                }
+              },
+              {
+                "branch_attrs": {
+                  "mutations": {
+                    "nuc": [
+                      "C1615T",
+                      "G3747T"
+                    ]
+                  }
+                },
+                "children": [
+                  {
+                    "branch_attrs": {
+                      "labels": {
+                        "aa": "HCHV1gp3: L708S"
+                      },
+                      "mutations": {
+                        "HCHV1gp3": [
+                          "L708S"
+                        ],
+                        "nuc": [
+                          "T2123C"
+                        ]
+                      }
+                    },
+                    "name": "HKU1/human/USA/HKU1_13/2010_spike",
+                    "node_attrs": {
+                      "accession": "KF686343_spike",
+                      "country": {
+                        "confidence": {
+                          "usa": 1.0
+                        },
+                        "entropy": -1.000088900581841e-12,
+                        "value": "usa"
+                      },
+                      "div": 0.002410183168821648,
+                      "num_date": {
+                        "confidence": [
+                          2010.0205479452054,
+                          2010.0205479452054
+                        ],
+                        "value": 2010.0205479452054
+                      }
+                    }
+                  },
+                  {
+                    "branch_attrs": {
+                      "mutations": {}
+                    },
+                    "children": [
+                      {
+                        "branch_attrs": {
+                          "mutations": {}
+                        },
+                        "name": "HKU1/human/USA/HKU1_12/2010_spike",
+                        "node_attrs": {
+                          "accession": "KF686346_spike",
+                          "country": {
+                            "confidence": {
+                              "usa": 1.0
+                            },
+                            "entropy": -1.000088900581841e-12,
+                            "value": "usa"
+                          },
+                          "div": 0.002126426674772578,
+                          "num_date": {
+                            "confidence": [
+                              2010.0232876712328,
+                              2010.0232876712328
+                            ],
+                            "value": 2010.0232876712328
+                          }
+                        }
+                      },
+                      {
+                        "branch_attrs": {
+                          "mutations": {}
+                        },
+                        "name": "HKU1/human/USA/HKU1_11/2009_spike",
+                        "node_attrs": {
+                          "accession": "KF686342_spike",
+                          "country": {
+                            "confidence": {
+                              "usa": 1.0
+                            },
+                            "entropy": -1.000088900581841e-12,
+                            "value": "usa"
+                          },
+                          "div": 0.002126426674772578,
+                          "num_date": {
+                            "confidence": [
+                              2009.9493150684932,
+                              2009.9493150684932
+                            ],
+                            "value": 2009.9493150684932
+                          }
+                        }
+                      }
+                    ],
+                    "name": "NODE_0000010",
+                    "node_attrs": {
+                      "country": {
+                        "confidence": {
+                          "brazil": 0.0024028008989955807,
+                          "usa": 0.9963406844931981
+                        },
+                        "entropy": 0.027360842977033988,
+                        "value": "usa"
+                      },
+                      "div": 0.002126426674772568,
+                      "num_date": {
+                        "confidence": [
+                          2009.1664610024773,
+                          2009.9493150684932
+                        ],
+                        "value": 2009.9493150684932
+                      }
+                    }
+                  }
+                ],
+                "name": "NODE_0000023",
+                "node_attrs": {
+                  "country": {
+                    "confidence": {
+                      "brazil": 0.0025465093616783368,
+                      "usa": 0.9961653109869201
+                    },
+                    "entropy": 0.028450254447675315,
+                    "value": "usa"
+                  },
+                  "div": 0.0021264266747725415,
+                  "num_date": {
+                    "confidence": [
+                      2008.2015615428768,
+                      2009.8874705491455
+                    ],
+                    "value": 2009.1596863603531
+                  }
+                }
+              },
+              {
+                "branch_attrs": {
+                  "mutations": {}
+                },
+                "children": [
+                  {
+                    "branch_attrs": {
+                      "labels": {
+                        "aa": "HCHV1gp3: P479S"
+                      },
+                      "mutations": {
+                        "HCHV1gp3": [
+                          "P479S"
+                        ],
+                        "nuc": [
+                          "C1435T"
+                        ]
+                      }
+                    },
+                    "name": "HKU1/human/USA/HKU1_18/2010_spike",
+                    "node_attrs": {
+                      "accession": "KF430201_spike",
+                      "country": {
+                        "confidence": {
+                          "usa": 1.0
+                        },
+                        "entropy": -1.000088900581841e-12,
+                        "value": "usa"
+                      },
+                      "div": 0.0019377547384113129,
+                      "num_date": {
+                        "confidence": [
+                          2010.058904109589,
+                          2010.058904109589
+                        ],
+                        "value": 2010.058904109589
+                      }
+                    }
+                  },
+                  {
+                    "branch_attrs": {
+                      "mutations": {}
+                    },
+                    "children": [
+                      {
+                        "branch_attrs": {
+                          "mutations": {}
+                        },
+                        "name": "HKU1/human/USA/HKU1_14/2009_spike",
+                        "node_attrs": {
+                          "accession": "KF430199_spike",
+                          "country": {
+                            "confidence": {
+                              "usa": 0.9999999999999999
+                            },
+                            "entropy": -9.99866855976916e-13,
+                            "value": "usa"
+                          },
+                          "div": 0.0016538143164194822,
+                          "num_date": {
+                            "confidence": [
+                              2009.990410958904,
+                              2009.990410958904
+                            ],
+                            "value": 2009.990410958904
+                          }
+                        }
+                      },
+                      {
+                        "branch_attrs": {
+                          "mutations": {}
+                        },
+                        "children": [
+                          {
+                            "branch_attrs": {
+                              "mutations": {}
+                            },
+                            "name": "HKU1/human/USA/HKU1_7/2010_spike",
+                            "node_attrs": {
+                              "accession": "KF430202_spike",
+                              "country": {
+                                "confidence": {
+                                  "usa": 1.0
+                                },
+                                "entropy": -1.000088900581841e-12,
+                                "value": "usa"
+                              },
+                              "div": 0.0016538143164195084,
+                              "num_date": {
+                                "confidence": [
+                                  2010.0068493150684,
+                                  2010.0068493150684
+                                ],
+                                "value": 2010.0068493150684
+                              }
+                            }
+                          },
+                          {
+                            "branch_attrs": {
+                              "mutations": {}
+                            },
+                            "name": "HKU1/human/USA/HKU1_10/2010_spike",
+                            "node_attrs": {
+                              "accession": "KF686341_spike",
+                              "country": {
+                                "confidence": {
+                                  "usa": 1.0
+                                },
+                                "entropy": -1.000088900581841e-12,
+                                "value": "usa"
+                              },
+                              "div": 0.0016538143164195084,
+                              "num_date": {
+                                "confidence": [
+                                  2010.0424657534247,
+                                  2010.0424657534247
+                                ],
+                                "value": 2010.0424657534247
+                              }
+                            }
+                          }
+                        ],
+                        "name": "NODE_0000015",
+                        "node_attrs": {
+                          "country": {
+                            "confidence": {
+                              "brazil": 0.0024374811606737495,
+                              "usa": 0.9962928046813724
+                            },
+                            "entropy": 0.02766622363531736,
+                            "value": "usa"
+                          },
+                          "div": 0.0016538143164194987,
+                          "num_date": {
+                            "confidence": [
+                              2009.3300828840563,
+                              2010.0068493150684
+                            ],
+                            "value": 2010.0068493150684
+                          }
+                        }
+                      }
+                    ],
+                    "name": "NODE_0000014",
+                    "node_attrs": {
+                      "country": {
+                        "confidence": {
+                          "brazil": 0.0027942608077228953,
+                          "usa": 0.9957961795045377
+                        },
+                        "entropy": 0.030800008006188102,
+                        "value": "usa"
+                      },
+                      "div": 0.0016538143164194724,
+                      "num_date": {
+                        "confidence": [
+                          2008.6876744387328,
+                          2009.9450047573646
+                        ],
+                        "value": 2009.833684553498
+                      }
+                    }
+                  }
+                ],
+                "name": "NODE_0000011",
+                "node_attrs": {
+                  "country": {
+                    "confidence": {
+                      "brazil": 0.002603658141523701,
+                      "usa": 0.9960907097054686
+                    },
+                    "entropy": 0.02891753945928132,
+                    "value": "usa"
+                  },
+                  "div": 0.0016538143164194462,
+                  "num_date": {
+                    "confidence": [
+                      2007.563571400456,
+                      2009.8831602094506
+                    ],
+                    "value": 2008.763481085557
+                  }
+                }
+              }
+            ],
+            "name": "NODE_0000012",
+            "node_attrs": {
+              "country": {
+                "confidence": {
+                  "brazil": 0.0010629703648726528,
+                  "usa": 0.998668956428828
+                },
+                "entropy": 0.010886862576839199,
+                "value": "usa"
+              },
+              "div": 0.00165381431641942,
+              "num_date": {
+                "confidence": [
+                  2003.8938118039696,
+                  2009.769647729651
+                ],
+                "value": 2007.4355999736351
+              }
+            }
+          }
+        ],
+        "name": "NODE_0000006",
+        "node_attrs": {
+          "country": {
+            "confidence": {
+              "brazil": 0.08719754145050404,
+              "china": 0.006745387746302534,
+              "france": 0.06699577653649673,
+              "usa": 0.8390612942666967
+            },
+            "entropy": 0.5747741622496887,
+            "value": "usa"
+          },
+          "div": 0.0004722072148884869,
+          "num_date": {
+            "confidence": [
+              1876.393450945614,
+              2006.8537559378947
+            ],
+            "value": 2002.8389297283331
+          }
+        }
+      }
+    ],
+    "name": "NODE_0000002",
+    "node_attrs": {
+      "country": {
+        "confidence": {
+          "brazil": 0.06354933123670382,
+          "china": 0.02248436432304021,
+          "france": 0.43939037955234617,
+          "usa": 0.4745759248879097
+        },
+        "entropy": 0.9755223390136477,
+        "value": "usa"
+      },
+      "div": 0,
+      "num_date": {
+        "confidence": [
+          1770.693933288262,
+          2005.1712328767123
+        ],
+        "value": 1993.8182679818797
+      }
+    }
+  },
+  "version": "v2"
+}

@@ -1,0 +1,942 @@
+{
+  "generated_by": {
+    "program": "augur",
+    "version": "6.4.1"
+  },
+  "models": {
+    "country": {
+      "alphabet": [
+        "china",
+        "haiti",
+        "kenya",
+        "south_korea",
+        "usa",
+        "?"
+      ],
+      "equilibrium_probabilities": [
+        0.10948845376594149,
+        0.20156137192545054,
+        0.1972994446581238,
+        0.15831212611080708,
+        0.33333860353967704
+      ],
+      "rate": 66.91054945123317,
+      "transition_matrix": [
+        [
+          0.0,
+          1.8458818963938115,
+          1.3651126502550626,
+          0.9182816617148803,
+          2.7831211939771383
+        ],
+        [
+          1.8458818963938115,
+          0.0,
+          0.9154346200928113,
+          0.9166879542595406,
+          0.9230177709282803
+        ],
+        [
+          1.3651126502550626,
+          0.9154346200928113,
+          0.0,
+          1.1669343486534727,
+          1.2374426472680575
+        ],
+        [
+          0.9182816617148803,
+          0.9166879542595406,
+          1.1669343486534727,
+          0.0,
+          1.2654242599139225
+        ],
+        [
+          2.7831211939771383,
+          0.9230177709282803,
+          1.2374426472680575,
+          1.2654242599139225,
+          0.0
+        ]
+      ]
+    }
+  },
+  "nodes": {
+    "CBJ123_spike": {
+      "country": "china",
+      "country_confidence": {
+        "china": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "CBJ_037_spike": {
+      "country": "china",
+      "country_confidence": {
+        "china": 0.9999999999999999
+      },
+      "country_entropy": -9.99866855976916e-13
+    },
+    "CN0601/14_spike": {
+      "country": "south_korea",
+      "country_confidence": {
+        "south_korea": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "ChinaGD01_spike": {
+      "country": "china",
+      "country_confidence": {
+        "china": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "ChinaGD02_spike": {
+      "country": "china",
+      "country_confidence": {
+        "china": 0.9999999999999999
+      },
+      "country_entropy": -9.99866855976916e-13
+    },
+    "ChinaGD03_spike": {
+      "country": "china",
+      "country_confidence": {
+        "china": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "ChinaGD04_spike": {
+      "country": "china",
+      "country_confidence": {
+        "china": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "ChinaGD05_spike": {
+      "country": "china",
+      "country_confidence": {
+        "china": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "HCoV_NL63/Haiti_1/2015_spike": {
+      "country": "haiti",
+      "country_confidence": {
+        "haiti": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "HCoV_NL63/Seattle/USA/SC0179/2018_spike": {
+      "country": "usa",
+      "country_confidence": {
+        "usa": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "HCoV_NL63/Seattle/USA/SC0768/2019_spike": {
+      "country": "usa",
+      "country_confidence": {
+        "usa": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "HCoV_NL63/Seattle/USA/SC2940/2015_spike": {
+      "country": "usa",
+      "country_confidence": {
+        "usa": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "Kilifi_HH_0511_01_Jun_2010_spike": {
+      "country": "kenya",
+      "country_confidence": {
+        "kenya": 0.9999999999999999
+      },
+      "country_entropy": -9.99866855976916e-13
+    },
+    "Kilifi_HH_0512_04_Jun_2010_spike": {
+      "country": "kenya",
+      "country_confidence": {
+        "kenya": 0.9999999999999999
+      },
+      "country_entropy": -9.99866855976916e-13
+    },
+    "Kilifi_HH_0522_21_May_2010_spike": {
+      "country": "kenya",
+      "country_confidence": {
+        "kenya": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "Kilifi_HH_1602_01_Jun_2010_spike": {
+      "country": "kenya",
+      "country_confidence": {
+        "kenya": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "Kilifi_HH_3807_11_May_2010_spike": {
+      "country": "kenya",
+      "country_confidence": {
+        "kenya": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "Kilifi_HH_3808_24_May_2010_spike": {
+      "country": "kenya",
+      "country_confidence": {
+        "kenya": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "Kilifi_HH_5401_20_May_2010_spike": {
+      "country": "kenya",
+      "country_confidence": {
+        "kenya": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "Kilifi_HH_5402_20_May_2010_spike": {
+      "country": "kenya",
+      "country_confidence": {
+        "kenya": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "Kilifi_HH_5709_19_May_2010_spike": {
+      "country": "kenya",
+      "country_confidence": {
+        "kenya": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "N06_1144B_spike": {
+      "country": "usa",
+      "country_confidence": {
+        "usa": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "N07_185B_spike": {
+      "country": "usa",
+      "country_confidence": {
+        "usa": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "N07_196B_spike": {
+      "country": "usa",
+      "country_confidence": {
+        "usa": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "N07_262B_spike": {
+      "country": "usa",
+      "country_confidence": {
+        "usa": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "N07_324B_182X_spike": {
+      "country": "usa",
+      "country_confidence": {
+        "usa": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "N07_468B_176X_spike": {
+      "country": "usa",
+      "country_confidence": {
+        "usa": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "N07_64B_spike": {
+      "country": "usa",
+      "country_confidence": {
+        "usa": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "N07_6B_spike": {
+      "country": "usa",
+      "country_confidence": {
+        "usa": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "NL63/DEN/2005/1062_spike": {
+      "country": "usa",
+      "country_confidence": {
+        "usa": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "NL63/DEN/2005/1120_spike": {
+      "country": "usa",
+      "country_confidence": {
+        "usa": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "NL63/DEN/2005/1862_spike": {
+      "country": "usa",
+      "country_confidence": {
+        "usa": 0.9999999999999999
+      },
+      "country_entropy": -9.99866855976916e-13
+    },
+    "NL63/DEN/2005/1876_spike": {
+      "country": "usa",
+      "country_confidence": {
+        "usa": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "NL63/DEN/2005/193_spike": {
+      "country": "usa",
+      "country_confidence": {
+        "usa": 0.9999999999999999
+      },
+      "country_entropy": -9.99866855976916e-13
+    },
+    "NL63/DEN/2005/232_spike": {
+      "country": "usa",
+      "country_confidence": {
+        "usa": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "NL63/DEN/2005/235_spike": {
+      "country": "usa",
+      "country_confidence": {
+        "usa": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "NL63/DEN/2005/271_spike": {
+      "country": "usa",
+      "country_confidence": {
+        "usa": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "NL63/DEN/2005/291_spike": {
+      "country": "usa",
+      "country_confidence": {
+        "usa": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "NL63/DEN/2005/347_spike": {
+      "country": "usa",
+      "country_confidence": {
+        "usa": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "NL63/DEN/2005/449_spike": {
+      "country": "usa",
+      "country_confidence": {
+        "usa": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "NL63/DEN/2008/16_spike": {
+      "country": "usa",
+      "country_confidence": {
+        "usa": 0.9999999999999999
+      },
+      "country_entropy": -9.99866855976916e-13
+    },
+    "NL63/DEN/2009/14_spike": {
+      "country": "usa",
+      "country_confidence": {
+        "usa": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "NL63/DEN/2009/15_spike": {
+      "country": "usa",
+      "country_confidence": {
+        "usa": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "NL63/DEN/2009/20_spike": {
+      "country": "usa",
+      "country_confidence": {
+        "usa": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "NL63/DEN/2009/22_spike": {
+      "country": "usa",
+      "country_confidence": {
+        "usa": 0.9999999999999999
+      },
+      "country_entropy": -9.99866855976916e-13
+    },
+    "NL63/DEN/2009/31_spike": {
+      "country": "usa",
+      "country_confidence": {
+        "usa": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "NL63/DEN/2009/6_spike": {
+      "country": "usa",
+      "country_confidence": {
+        "usa": 0.9999999999999999
+      },
+      "country_entropy": -9.99866855976916e-13
+    },
+    "NL63/DEN/2009/9_spike": {
+      "country": "usa",
+      "country_confidence": {
+        "usa": 0.9999999999999999
+      },
+      "country_entropy": -9.99866855976916e-13
+    },
+    "NL63/Haiti_2/2015_spike": {
+      "country": "haiti",
+      "country_confidence": {
+        "haiti": 0.9999999999999999
+      },
+      "country_entropy": -9.99866855976916e-13
+    },
+    "NL63/Haiti_3/2015_spike": {
+      "country": "haiti",
+      "country_confidence": {
+        "haiti": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "NL63/Haiti_4/2015_spike": {
+      "country": "haiti",
+      "country_confidence": {
+        "haiti": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "NL63/RPTEC/2004_spike": {
+      "country": "usa",
+      "country_confidence": {
+        "usa": 0.9999999999999999
+      },
+      "country_entropy": -9.99866855976916e-13
+    },
+    "NL63/UF_1/2015_spike": {
+      "country": "usa",
+      "country_confidence": {
+        "usa": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "NL63/UF_2/2015_spike": {
+      "country": "usa",
+      "country_confidence": {
+        "usa": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "NL63/human/USA/0111_25/2001_spike": {
+      "country": "usa",
+      "country_confidence": {
+        "usa": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "NL63/human/USA/012_31/2001_spike": {
+      "country": "usa",
+      "country_confidence": {
+        "usa": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "NL63/human/USA/838_9/1983_spike": {
+      "country": "usa",
+      "country_confidence": {
+        "usa": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "NL63/human/USA/8712_17/1987_spike": {
+      "country": "usa",
+      "country_confidence": {
+        "usa": 0.9999999999999999
+      },
+      "country_entropy": -9.99866855976916e-13
+    },
+    "NL63/human/USA/891_4/1989_spike": {
+      "country": "usa",
+      "country_confidence": {
+        "usa": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "NL63/human/USA/891_6/1989_spike": {
+      "country": "usa",
+      "country_confidence": {
+        "usa": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "NL63/human/USA/901_24/1990_spike": {
+      "country": "usa",
+      "country_confidence": {
+        "usa": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "NL63/human/USA/903_28/1990_spike": {
+      "country": "usa",
+      "country_confidence": {
+        "usa": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "NL63/human/USA/904_20/1990_spike": {
+      "country": "usa",
+      "country_confidence": {
+        "usa": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "NL63/human/USA/905_25/1990_spike": {
+      "country": "usa",
+      "country_confidence": {
+        "usa": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "NL63/human/USA/911_56/1991_spike": {
+      "country": "usa",
+      "country_confidence": {
+        "usa": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "NL63_KLF_01_2018_spike": {
+      "country": "kenya",
+      "country_confidence": {
+        "kenya": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "NODE_0000000": {
+      "country": "usa",
+      "country_confidence": {
+        "china": 0.002727431239608395,
+        "usa": 0.9956055796530084
+      },
+      "country_entropy": 0.03290267705291495
+    },
+    "NODE_0000002": {
+      "country": "usa",
+      "country_confidence": {
+        "usa": 0.9998433391718162
+      },
+      "country_entropy": 0.0016664231004921443
+    },
+    "NODE_0000004": {
+      "country": "usa",
+      "country_confidence": {
+        "usa": 0.9998815984436638
+      },
+      "country_entropy": 0.001292666402636911
+    },
+    "NODE_0000005": {
+      "country": "usa",
+      "country_confidence": {
+        "usa": 0.9998890599482901
+      },
+      "country_entropy": 0.0012201272740373582
+    },
+    "NODE_0000006": {
+      "country": "usa",
+      "country_confidence": {
+        "usa": 0.9999938533022887
+      },
+      "country_entropy": 8.332889079848855e-05
+    },
+    "NODE_0000007": {
+      "country": "usa",
+      "country_confidence": {
+        "usa": 0.9998819578493625
+      },
+      "country_entropy": 0.0012892313813251141
+    },
+    "NODE_0000008": {
+      "country": "usa",
+      "country_confidence": {
+        "usa": 0.999889078846947
+      },
+      "country_entropy": 0.0012199467277101263
+    },
+    "NODE_0000009": {
+      "country": "usa",
+      "country_confidence": {
+        "usa": 0.9998886725040355
+      },
+      "country_entropy": 0.001223882841292379
+    },
+    "NODE_0000010": {
+      "country": "usa",
+      "country_confidence": {
+        "usa": 0.9998894191209633
+      },
+      "country_entropy": 0.0012166694370362653
+    },
+    "NODE_0000011": {
+      "country": "usa",
+      "country_confidence": {
+        "usa": 0.9999911864245083
+      },
+      "country_entropy": 0.00011806104699354765
+    },
+    "NODE_0000012": {
+      "country": "china",
+      "country_confidence": {
+        "china": 0.998149244604863,
+        "usa": 0.0012195141552028559
+      },
+      "country_entropy": 0.015050697850840228
+    },
+    "NODE_0000014": {
+      "country": "haiti",
+      "country_confidence": {
+        "china": 0.02293183477503442,
+        "haiti": 0.9764793321761271
+      },
+      "country_entropy": 0.11467557296713286
+    },
+    "NODE_0000015": {
+      "country": "usa",
+      "country_confidence": {
+        "usa": 0.9999895775934531
+      },
+      "country_entropy": 0.00013605935064219394
+    },
+    "NODE_0000016": {
+      "country": "haiti",
+      "country_confidence": {
+        "haiti": 0.9994413390632813
+      },
+      "country_entropy": 0.004878072085961115
+    },
+    "NODE_0000017": {
+      "country": "usa",
+      "country_confidence": {
+        "usa": 0.9982651083995207
+      },
+      "country_entropy": 0.014732551630337098
+    },
+    "NODE_0000018": {
+      "country": "usa",
+      "country_confidence": {
+        "china": 0.002765528861671043,
+        "kenya": 0.013266783859835117,
+        "south_korea": 0.017571689424339322,
+        "usa": 0.9659208599462082
+      },
+      "country_entropy": 0.1817788117942775
+    },
+    "NODE_0000019": {
+      "country": "usa",
+      "country_confidence": {
+        "china": 0.01019519213300494,
+        "kenya": 0.23386341932323218,
+        "south_korea": 0.3093182537645313,
+        "usa": 0.4423327408755417
+      },
+      "country_entropy": 1.133706758960534
+    },
+    "NODE_0000020": {
+      "country": "usa",
+      "country_confidence": {
+        "usa": 0.9982797688892223
+      },
+      "country_entropy": 0.01468848567448221
+    },
+    "NODE_0000021": {
+      "country": "usa",
+      "country_confidence": {
+        "usa": 0.9999994730464343
+      },
+      "country_entropy": 8.34392607628308e-06
+    },
+    "NODE_0000022": {
+      "country": "usa",
+      "country_confidence": {
+        "usa": 0.9998832704533323
+      },
+      "country_entropy": 0.0012764337414237327
+    },
+    "NODE_0000023": {
+      "country": "usa",
+      "country_confidence": {
+        "usa": 0.999883608413198
+      },
+      "country_entropy": 0.0012732040781219041
+    },
+    "NODE_0000024": {
+      "country": "usa",
+      "country_confidence": {
+        "usa": 0.9998891624601194
+      },
+      "country_entropy": 0.0012191414589115528
+    },
+    "NODE_0000025": {
+      "country": "kenya",
+      "country_confidence": {
+        "kenya": 0.9999766221197856
+      },
+      "country_entropy": 0.00030148285940158554
+    },
+    "NODE_0000026": {
+      "country": "kenya",
+      "country_confidence": {
+        "kenya": 0.9999832100086462
+      },
+      "country_entropy": 0.0002224168150872612
+    },
+    "NODE_0000027": {
+      "country": "kenya",
+      "country_confidence": {
+        "kenya": 0.9999826281936606
+      },
+      "country_entropy": 0.00022951878642831107
+    },
+    "NODE_0000028": {
+      "country": "usa",
+      "country_confidence": {
+        "usa": 0.9998696002916956
+      },
+      "country_entropy": 0.001408191297625394
+    },
+    "NODE_0000029": {
+      "country": "usa",
+      "country_confidence": {
+        "usa": 0.9998370767163535
+      },
+      "country_entropy": 0.0017299849354851153
+    },
+    "NODE_0000030": {
+      "country": "usa",
+      "country_confidence": {
+        "usa": 0.9999938190793238
+      },
+      "country_entropy": 8.3754680995501e-05
+    },
+    "NODE_0000031": {
+      "country": "usa",
+      "country_confidence": {
+        "usa": 0.9998891261495095
+      },
+      "country_entropy": 0.0012194833946421876
+    },
+    "NODE_0000032": {
+      "country": "usa",
+      "country_confidence": {
+        "usa": 0.9998894425135995
+      },
+      "country_entropy": 0.0012164448792908703
+    },
+    "NODE_0000033": {
+      "country": "kenya",
+      "country_confidence": {
+        "kenya": 0.9999833187718262
+      },
+      "country_entropy": 0.0002210606599394408
+    },
+    "NODE_0000034": {
+      "country": "usa",
+      "country_confidence": {
+        "usa": 0.9997874930315088
+      },
+      "country_entropy": 0.002197315820882714
+    },
+    "NODE_0000035": {
+      "country": "usa",
+      "country_confidence": {
+        "usa": 0.9998087090339346
+      },
+      "country_entropy": 0.0020030093149426154
+    },
+    "NODE_0000036": {
+      "country": "usa",
+      "country_confidence": {
+        "usa": 0.999874402731581
+      },
+      "country_entropy": 0.0013621959784518563
+    },
+    "NODE_0000037": {
+      "country": "usa",
+      "country_confidence": {
+        "usa": 0.9998035307004747
+      },
+      "country_entropy": 0.0020493329308846164
+    },
+    "NODE_0000038": {
+      "country": "usa",
+      "country_confidence": {
+        "usa": 0.9998044526323704
+      },
+      "country_entropy": 0.002040980622475414
+    },
+    "NODE_0000039": {
+      "country": "usa",
+      "country_confidence": {
+        "usa": 0.9998854318501044
+      },
+      "country_entropy": 0.0012555896073655252
+    },
+    "NODE_0000040": {
+      "country": "kenya",
+      "country_confidence": {
+        "kenya": 0.9999830347703418
+      },
+      "country_entropy": 0.00022453141978807153
+    },
+    "NODE_0000041": {
+      "country": "kenya",
+      "country_confidence": {
+        "kenya": 0.999983325758721
+      },
+      "country_entropy": 0.0002209748335151217
+    },
+    "NODE_0000042": {
+      "country": "china",
+      "country_confidence": {
+        "china": 0.94610629808616,
+        "haiti": 0.009310683653452176,
+        "usa": 0.043664108699716965
+      },
+      "country_entropy": 0.23967045423038777
+    },
+    "NODE_0000043": {
+      "country": "china",
+      "country_confidence": {
+        "china": 0.9630452100654165,
+        "haiti": 0.019640470713361138,
+        "usa": 0.016708387650927636
+      },
+      "country_entropy": 0.18668486946202323
+    },
+    "NODE_0000044": {
+      "country": "china",
+      "country_confidence": {
+        "china": 0.9963352455486443,
+        "usa": 0.002808197592079351
+      },
+      "country_entropy": 0.026394798530146688
+    },
+    "NODE_0000045": {
+      "country": "china",
+      "country_confidence": {
+        "china": 0.9952219750847485,
+        "usa": 0.004720714443544958
+      },
+      "country_entropy": 0.030652054173808646
+    },
+    "NODE_0000046": {
+      "country": "china",
+      "country_confidence": {
+        "china": 0.9716316062298628,
+        "usa": 0.027983427030925278
+      },
+      "country_entropy": 0.1314420786916567
+    },
+    "NODE_0000047": {
+      "country": "china",
+      "country_confidence": {
+        "china": 0.9909193729308469,
+        "usa": 0.008916413047070477
+      },
+      "country_entropy": 0.05263932141277296
+    },
+    "NODE_0000048": {
+      "country": "china",
+      "country_confidence": {
+        "china": 0.9794878148781355,
+        "usa": 0.020183862106528037
+      },
+      "country_entropy": 0.10203316582634134
+    },
+    "NODE_0000049": {
+      "country": "china",
+      "country_confidence": {
+        "china": 0.9995232128836857
+      },
+      "country_entropy": 0.004213611132683002
+    },
+    "NODE_0000050": {
+      "country": "china",
+      "country_confidence": {
+        "china": 0.9654998823943415,
+        "kenya": 0.005453622489185019,
+        "usa": 0.028865927562967773
+      },
+      "country_entropy": 0.16629516105268288
+    },
+    "NODE_0000051": {
+      "country": "usa",
+      "country_confidence": {
+        "usa": 0.999888443302952
+      },
+      "country_entropy": 0.0012260872095415669
+    },
+    "NODE_0000052": {
+      "country": "usa",
+      "country_confidence": {
+        "usa": 0.999889407053802
+      },
+      "country_entropy": 0.0012167847348545846
+    },
+    "NODE_0000053": {
+      "country": "china",
+      "country_confidence": {
+        "china": 0.9835545164242223,
+        "haiti": 0.015228413789399669,
+        "usa": 0.001035600926640288
+      },
+      "country_entropy": 0.08881339742363843
+    },
+    "NODE_0000054": {
+      "country": "usa",
+      "country_confidence": {
+        "usa": 0.9998825298466899
+      },
+      "country_entropy": 0.001283510638418202
+    },
+    "NODE_0000056": {
+      "country": "kenya",
+      "country_confidence": {
+        "kenya": 0.9996591977307114
+      },
+      "country_entropy": 0.0031758957105742654
+    },
+    "NODE_0000057": {
+      "country": "usa",
+      "country_confidence": {
+        "usa": 0.9998500872543211
+      },
+      "country_entropy": 0.001602682331968487
+    },
+    "NODE_0000061": {
+      "country": "usa",
+      "country_confidence": {
+        "usa": 0.9998872317353914
+      },
+      "country_entropy": 0.0012379469130649214
+    },
+    "NODE_0000064": {
+      "country": "usa",
+      "country_confidence": {
+        "china": 0.002347853530850216,
+        "usa": 0.9976110116358204
+      },
+      "country_entropy": 0.017060409541284335
+    }
+  }
+}

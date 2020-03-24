@@ -1,0 +1,384 @@
+{
+  "generated_by": {
+    "program": "augur",
+    "version": "6.4.1"
+  },
+  "models": {
+    "country": {
+      "alphabet": [
+        "germany",
+        "haiti",
+        "italy",
+        "netherlands",
+        "usa",
+        "?"
+      ],
+      "equilibrium_probabilities": [
+        0.16042598085774273,
+        0.15925212646519601,
+        0.15912726303877053,
+        0.15854800253995893,
+        0.3626466270983318
+      ],
+      "rate": 110.28467505304643,
+      "transition_matrix": [
+        [
+          0.0,
+          0.9801673132431685,
+          0.9815192055848332,
+          0.984243877847589,
+          1.4809819320937085
+        ],
+        [
+          0.9801673132431685,
+          0.0,
+          0.981263288798995,
+          0.9808474451768987,
+          1.5102220564128817
+        ],
+        [
+          0.9815192055848332,
+          0.981263288798995,
+          0.0,
+          0.9933091216234126,
+          1.5345020163621015
+        ],
+        [
+          0.984243877847589,
+          0.9808474451768987,
+          0.9933091216234126,
+          0.0,
+          1.5347691963925438
+        ],
+        [
+          1.4809819320937085,
+          1.5102220564128817,
+          1.5345020163621015,
+          1.5347691963925438,
+          0.0
+        ]
+      ]
+    }
+  },
+  "nodes": {
+    "0349_spike": {
+      "country": "netherlands",
+      "country_confidence": {
+        "netherlands": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "229E/Haiti_1/2016_spike": {
+      "country": "haiti",
+      "country_confidence": {
+        "haiti": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "229E/human/USA/892_11/1989_spike": {
+      "country": "usa",
+      "country_confidence": {
+        "usa": 0.9999999999999999
+      },
+      "country_entropy": -9.99866855976916e-13
+    },
+    "229E/human/USA/932_72/1993_spike": {
+      "country": "usa",
+      "country_confidence": {
+        "usa": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "229E/human/USA/933_40/1993_spike": {
+      "country": "usa",
+      "country_confidence": {
+        "usa": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "229E/human/USA/933_50/1993_spike": {
+      "country": "usa",
+      "country_confidence": {
+        "usa": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "229E/human/USA/953_49/1995_spike": {
+      "country": "usa",
+      "country_confidence": {
+        "usa": 0.9999999999999999
+      },
+      "country_entropy": -9.99866855976916e-13
+    },
+    "HCoV_229E/BN1/GER/2015_spike": {
+      "country": "germany",
+      "country_confidence": {
+        "germany": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "HCoV_229E/Seattle/USA/SC0865/2019_spike": {
+      "country": "usa",
+      "country_confidence": {
+        "usa": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "HCoV_229E/Seattle/USA/SC1073/2016_spike": {
+      "country": "usa",
+      "country_confidence": {
+        "usa": 0.9999999999999999
+      },
+      "country_entropy": -9.99866855976916e-13
+    },
+    "HCoV_229E/Seattle/USA/SC1143/2016_spike": {
+      "country": "usa",
+      "country_confidence": {
+        "usa": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "HCoV_229E/Seattle/USA/SC1212/2016_spike": {
+      "country": "usa",
+      "country_confidence": {
+        "usa": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "HCoV_229E/Seattle/USA/SC2282/2017_spike": {
+      "country": "usa",
+      "country_confidence": {
+        "usa": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "HCoV_229E/Seattle/USA/SC2872/2015_spike": {
+      "country": "usa",
+      "country_confidence": {
+        "usa": 0.9999999999999999
+      },
+      "country_entropy": -9.99866855976916e-13
+    },
+    "HCoV_229E/Seattle/USA/SC3112/2015_spike": {
+      "country": "usa",
+      "country_confidence": {
+        "usa": 0.9999999999999999
+      },
+      "country_entropy": -9.99866855976916e-13
+    },
+    "HCoV_229E/Seattle/USA/SC379/2016_spike": {
+      "country": "usa",
+      "country_confidence": {
+        "usa": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "HCoV_229E/Seattle/USA/SC399/2016_spike": {
+      "country": "usa",
+      "country_confidence": {
+        "usa": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "HCoV_229E/Seattle/USA/SC579/2016_spike": {
+      "country": "usa",
+      "country_confidence": {
+        "usa": 0.9999999999999999
+      },
+      "country_entropy": -9.99866855976916e-13
+    },
+    "HCoV_229E/Seattle/USA/SC677/2016_spike": {
+      "country": "usa",
+      "country_confidence": {
+        "usa": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "HCoV_229E/Seattle/USA/SC9724/2018_spike": {
+      "country": "usa",
+      "country_confidence": {
+        "usa": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "HCoV_229E/Seattle/USA/SC9731/2016_spike": {
+      "country": "usa",
+      "country_confidence": {
+        "usa": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "HCoV_229E/Seattle/USA/SC9773/2016_spike": {
+      "country": "usa",
+      "country_confidence": {
+        "usa": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "J0304_spike": {
+      "country": "italy",
+      "country_confidence": {
+        "italy": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "N08_434B_spike": {
+      "country": "usa",
+      "country_confidence": {
+        "usa": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "NODE_0000000": {
+      "country": "usa",
+      "country_confidence": {
+        "germany": 0.0028026171004422915,
+        "italy": 0.02590862439952474,
+        "netherlands": 0.030485563820859686,
+        "usa": 0.9389821202842307
+      },
+      "country_entropy": 0.28813548227215613
+    },
+    "NODE_0000001": {
+      "country": "usa",
+      "country_confidence": {
+        "germany": 0.0035887784067298234,
+        "italy": 0.10131858102619683,
+        "netherlands": 0.0157570482286365,
+        "usa": 0.8761018287032319
+      },
+      "country_entropy": 0.45199848101304274
+    },
+    "NODE_0000002": {
+      "country": "usa",
+      "country_confidence": {
+        "italy": 0.0032587602937526623,
+        "usa": 0.9950446064770981
+      },
+      "country_entropy": 0.03621234187859321
+    },
+    "NODE_0000003": {
+      "country": "usa",
+      "country_confidence": {
+        "usa": 0.999231467091256
+      },
+      "country_entropy": 0.0072919215946757
+    },
+    "NODE_0000004": {
+      "country": "usa",
+      "country_confidence": {
+        "usa": 0.999474373304699
+      },
+      "country_entropy": 0.005221996725126737
+    },
+    "NODE_0000005": {
+      "country": "usa",
+      "country_confidence": {
+        "usa": 0.9990524925244011
+      },
+      "country_entropy": 0.008856135392221937
+    },
+    "NODE_0000006": {
+      "country": "usa",
+      "country_confidence": {
+        "haiti": 0.001778019315092603,
+        "italy": 0.0018326600522295645,
+        "netherlands": 0.0018260800798001336,
+        "usa": 0.9928382865609698
+      },
+      "country_entropy": 0.0524338937059393
+    },
+    "NODE_0000007": {
+      "country": "usa",
+      "country_confidence": {
+        "germany": 0.005222464571303049,
+        "italy": 0.008612284204623512,
+        "netherlands": 0.09718987191404331,
+        "usa": 0.8872412456736073
+      },
+      "country_entropy": 0.41212122204691143
+    },
+    "NODE_0000008": {
+      "country": "usa",
+      "country_confidence": {
+        "germany": 0.011351622990801702,
+        "netherlands": 0.0042086022744274925,
+        "usa": 0.9836741962692086
+      },
+      "country_entropy": 0.09602953199524221
+    },
+    "NODE_0000010": {
+      "country": "usa",
+      "country_confidence": {
+        "usa": 0.99947257622649
+      },
+      "country_entropy": 0.005046346901529153
+    },
+    "NODE_0000011": {
+      "country": "usa",
+      "country_confidence": {
+        "usa": 0.9995519911229214
+      },
+      "country_entropy": 0.0045227828362952305
+    },
+    "NODE_0000013": {
+      "country": "usa",
+      "country_confidence": {
+        "haiti": 0.05784491857372051,
+        "italy": 0.0010936292774421086,
+        "netherlands": 0.0010992767390642548,
+        "usa": 0.9389057963141294
+      },
+      "country_entropy": 0.2462315580527571
+    },
+    "NODE_0000014": {
+      "country": "usa",
+      "country_confidence": {
+        "usa": 0.9995519911229214
+      },
+      "country_entropy": 0.0045227828362952305
+    },
+    "NODE_0000015": {
+      "country": "usa",
+      "country_confidence": {
+        "usa": 0.9984244158520548
+      },
+      "country_entropy": 0.013560777474159914
+    },
+    "NODE_0000016": {
+      "country": "usa",
+      "country_confidence": {
+        "usa": 0.9994890602239217
+      },
+      "country_entropy": 0.005089124417682551
+    },
+    "NODE_0000017": {
+      "country": "usa",
+      "country_confidence": {
+        "usa": 0.9994543517562811
+      },
+      "country_entropy": 0.0053990063758091456
+    },
+    "NODE_0000018": {
+      "country": "usa",
+      "country_confidence": {
+        "usa": 0.9995490142836458
+      },
+      "country_entropy": 0.004550279973889162
+    },
+    "NODE_0000019": {
+      "country": "usa",
+      "country_confidence": {
+        "usa": 0.9999724323169414
+      },
+      "country_entropy": 0.0003551781837232965
+    },
+    "NODE_0000021": {
+      "country": "usa",
+      "country_confidence": {
+        "usa": 0.9999720609623841
+      },
+      "country_entropy": 0.0003595964028603686
+    }
+  }
+}

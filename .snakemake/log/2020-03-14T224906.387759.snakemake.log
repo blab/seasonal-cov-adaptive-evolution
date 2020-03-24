@@ -1,0 +1,73 @@
+Building DAG of jobs...
+Using shell: /bin/bash
+Provided cores: 4
+Rules claiming more threads will be scaled down.
+Job counts:
+	count	jobs
+	1	all
+	4	ancestral
+	6	export
+	4	refine
+	6	traits
+	4	translate
+	4	tree
+	29
+
+[Sat Mar 14 22:49:06 2020]
+Job 33: Building tree
+
+
+[Sat Mar 14 22:49:06 2020]
+Job 39: Building tree
+
+
+[Sat Mar 14 22:49:06 2020]
+Job 41: Building tree
+
+
+[Sat Mar 14 22:49:06 2020]
+Job 35: Building tree
+
+[Sat Mar 14 22:49:12 2020]
+[Sat Mar 14 22:49:12 2020]
+Error in rule tree:
+Error in rule tree:
+    jobid: 41
+    jobid: 35
+    output: results/tree_raw_hku1_he.nwk
+[Sat Mar 14 22:49:12 2020]
+    output: results/tree_raw_oc43_he.nwk
+    shell:
+        
+        augur tree             --alignment results/aligned_hku1_he.fasta             --output results/tree_raw_hku1_he.nwk
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+Error in rule tree:
+    shell:
+        
+        augur tree             --alignment results/aligned_oc43_he.fasta             --output results/tree_raw_oc43_he.nwk
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+    jobid: 39
+
+    output: results/tree_raw_hku1_spike.nwk
+    shell:
+        
+        augur tree             --alignment results/aligned_hku1_spike.fasta             --output results/tree_raw_hku1_spike.nwk
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+[Sat Mar 14 22:49:12 2020]
+Error in rule tree:
+    jobid: 33
+    output: results/tree_raw_oc43_spike.nwk
+    shell:
+        
+        augur tree             --alignment results/aligned_oc43_spike.fasta             --output results/tree_raw_oc43_spike.nwk
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Shutting down, this might take some time.
+Exiting because a job execution failed. Look above for error message
+Complete log: /Users/katekistler/nextstrain/seasonal-corona/.snakemake/log/2020-03-14T224906.387759.snakemake.log

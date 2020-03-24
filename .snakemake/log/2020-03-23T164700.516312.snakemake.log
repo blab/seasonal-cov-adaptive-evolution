@@ -1,0 +1,133 @@
+Building DAG of jobs...
+Using shell: /bin/bash
+Provided cores: 4
+Rules claiming more threads will be scaled down.
+Job counts:
+	count	jobs
+	2	align
+	1	all
+	2	ancestral
+	2	export
+	2	refine
+	2	traits
+	2	translate
+	2	tree
+	15
+
+[Mon Mar 23 16:47:00 2020]
+Job 41: 
+        Aligning sequences to config/oc43_he_reference.gb
+          - filling gaps with N
+        
+
+
+[Mon Mar 23 16:47:00 2020]
+Job 47: 
+        Aligning sequences to config/hku1_he_reference.gb
+          - filling gaps with N
+        
+
+[Mon Mar 23 16:47:11 2020]
+Finished job 47.
+1 of 15 steps (7%) done
+
+[Mon Mar 23 16:47:11 2020]
+Job 46: Building tree
+
+[Mon Mar 23 16:47:12 2020]
+Finished job 41.
+2 of 15 steps (13%) done
+
+[Mon Mar 23 16:47:12 2020]
+Job 40: Building tree
+
+[Mon Mar 23 16:47:20 2020]
+Finished job 46.
+3 of 15 steps (20%) done
+
+[Mon Mar 23 16:47:20 2020]
+Job 22: 
+        Refining tree
+        
+
+[Mon Mar 23 16:47:20 2020]
+Finished job 40.
+4 of 15 steps (27%) done
+
+[Mon Mar 23 16:47:20 2020]
+Job 12: 
+        Refining tree
+        
+
+[Mon Mar 23 16:48:01 2020]
+Finished job 22.
+5 of 15 steps (33%) done
+
+[Mon Mar 23 16:48:01 2020]
+Job 25: Reconstructing ancestral sequences and mutations
+
+
+[Mon Mar 23 16:48:01 2020]
+Job 24: Inferring ancestral traits for country
+
+[Mon Mar 23 16:48:10 2020]
+Finished job 25.
+6 of 15 steps (40%) done
+
+[Mon Mar 23 16:48:10 2020]
+Job 26: Translating amino acid sequences
+
+[Mon Mar 23 16:48:12 2020]
+Finished job 24.
+7 of 15 steps (47%) done
+[Mon Mar 23 16:48:19 2020]
+Finished job 26.
+8 of 15 steps (53%) done
+
+[Mon Mar 23 16:48:19 2020]
+Job 4: Exporting data files for for auspice
+
+[Mon Mar 23 16:48:26 2020]
+Finished job 4.
+9 of 15 steps (60%) done
+[Mon Mar 23 16:49:02 2020]
+Finished job 12.
+10 of 15 steps (67%) done
+
+[Mon Mar 23 16:49:02 2020]
+Job 15: Reconstructing ancestral sequences and mutations
+
+
+[Mon Mar 23 16:49:02 2020]
+Job 14: Inferring ancestral traits for country
+
+[Mon Mar 23 16:49:12 2020]
+Finished job 15.
+11 of 15 steps (73%) done
+
+[Mon Mar 23 16:49:12 2020]
+Job 16: Translating amino acid sequences
+
+[Mon Mar 23 16:49:14 2020]
+Finished job 14.
+12 of 15 steps (80%) done
+[Mon Mar 23 16:49:19 2020]
+Finished job 16.
+13 of 15 steps (87%) done
+
+[Mon Mar 23 16:49:19 2020]
+Job 2: Exporting data files for for auspice
+
+[Mon Mar 23 16:49:26 2020]
+Finished job 2.
+14 of 15 steps (93%) done
+
+[Mon Mar 23 16:49:26 2020]
+localrule all:
+    input: auspice/seasonal_corona_oc43_spike.json, auspice/seasonal_corona_oc43_he.json, auspice/seasonal_corona_hku1_spike.json, auspice/seasonal_corona_hku1_he.json, auspice/seasonal_corona_229e_spike.json, auspice/seasonal_corona_nl63_spike.json
+    jobid: 0
+
+[Mon Mar 23 16:49:26 2020]
+Finished job 0.
+15 of 15 steps (100%) done
+Complete log: /Users/katekistler/nextstrain/seasonal-corona-test/.snakemake/log/2020-03-23T164700.516312.snakemake.log

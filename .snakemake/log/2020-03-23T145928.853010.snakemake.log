@@ -1,0 +1,180 @@
+Building DAG of jobs...
+Using shell: /bin/bash
+Provided cores: 4
+Rules claiming more threads will be scaled down.
+Job counts:
+	count	jobs
+	3	align
+	1	all
+	3	ancestral
+	3	download
+	3	export
+	3	filter
+	3	parse
+	3	refine
+	3	traits
+	3	translate
+	3	tree
+	31
+
+[Mon Mar 23 14:59:28 2020]
+Job 21: Downloading sequences from fauna
+
+
+[Mon Mar 23 14:59:28 2020]
+Job 24: Downloading sequences from fauna
+
+
+[Mon Mar 23 14:59:28 2020]
+Job 27: Downloading sequences from fauna
+
+[Mon Mar 23 14:59:35 2020]
+Finished job 27.
+1 of 31 steps (3%) done
+
+[Mon Mar 23 14:59:35 2020]
+Job 15: Parsing fasta into sequences and metadata
+
+[Mon Mar 23 14:59:36 2020]
+Finished job 24.
+2 of 31 steps (6%) done
+
+[Mon Mar 23 14:59:36 2020]
+Job 10: Parsing fasta into sequences and metadata
+
+[Mon Mar 23 14:59:36 2020]
+Finished job 21.
+3 of 31 steps (10%) done
+
+[Mon Mar 23 14:59:36 2020]
+Job 5: Parsing fasta into sequences and metadata
+
+[Mon Mar 23 14:59:45 2020]
+Finished job 15.
+4 of 31 steps (13%) done
+[Mon Mar 23 14:59:45 2020]
+Finished job 10.
+5 of 31 steps (16%) done
+
+[Mon Mar 23 14:59:45 2020]
+Job 29: 
+        Filtering to
+          - 5000 sequence(s) per country
+          - minimum genome length of 1000
+        
+
+
+[Mon Mar 23 14:59:45 2020]
+Job 30: 
+        Filtering to
+          - 5000 sequence(s) per country
+          - minimum genome length of 1000
+        
+
+[Mon Mar 23 14:59:45 2020]
+Finished job 5.
+6 of 31 steps (19%) done
+
+[Mon Mar 23 14:59:45 2020]
+Job 28: 
+        Filtering to
+          - 5000 sequence(s) per country
+          - minimum genome length of 1000
+        
+
+[Mon Mar 23 14:59:53 2020]
+Finished job 29.
+7 of 31 steps (23%) done
+
+[Mon Mar 23 14:59:53 2020]
+Job 23: 
+        Aligning sequences to config/hku1_spike_reference.gb
+          - filling gaps with N
+        
+
+[Mon Mar 23 14:59:53 2020]
+Finished job 30.
+8 of 31 steps (26%) done
+
+[Mon Mar 23 14:59:53 2020]
+Job 26: 
+        Aligning sequences to config/229e_spike_reference.gb
+          - filling gaps with N
+        
+
+[Mon Mar 23 14:59:53 2020]
+Finished job 28.
+9 of 31 steps (29%) done
+
+[Mon Mar 23 14:59:53 2020]
+Job 20: 
+        Aligning sequences to config/oc43_spike_reference.gb
+          - filling gaps with N
+        
+
+[Mon Mar 23 15:00:04 2020]
+Finished job 23.
+10 of 31 steps (32%) done
+
+[Mon Mar 23 15:00:04 2020]
+Job 22: Building tree
+
+[Mon Mar 23 15:00:05 2020]
+Finished job 26.
+11 of 31 steps (35%) done
+
+[Mon Mar 23 15:00:05 2020]
+Job 25: Building tree
+
+[Mon Mar 23 15:00:13 2020]
+Finished job 25.
+12 of 31 steps (39%) done
+[Mon Mar 23 15:00:13 2020]
+Finished job 22.
+13 of 31 steps (42%) done
+
+[Mon Mar 23 15:00:13 2020]
+Job 9: 
+        Refining tree
+        
+
+
+[Mon Mar 23 15:00:13 2020]
+Job 14: 
+        Refining tree
+        
+
+[Mon Mar 23 15:00:17 2020]
+[Mon Mar 23 15:00:17 2020]
+Error in rule refine:
+Error in rule refine:
+    jobid: 9
+    jobid: 14
+    output: results/tree_hku1_spike.nwk, results/branch_lengths_hku1_spike.json
+    output: results/tree_229e_spike.nwk, results/branch_lengths_229e_spike.json
+    shell:
+        
+        augur refine             --tree results/tree_raw_hku1_spike.nwk             --alignment results/aligned_hku1_spike.fasta             --metadata results/metadata_hku1_spike.tsv             --output-tree results/tree_hku1_spike.nwk             --output-node-data results/branch_lengths_hku1_spike.json             --timetree             --coalescent opt             --date-confidence             --date-inference marginal             --clock-filter-iqd 4
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+    shell:
+        
+        augur refine             --tree results/tree_raw_229e_spike.nwk             --alignment results/aligned_229e_spike.fasta             --metadata results/metadata_229e_spike.tsv             --output-tree results/tree_229e_spike.nwk             --output-node-data results/branch_lengths_229e_spike.json             --timetree             --coalescent opt             --date-confidence             --date-inference marginal             --clock-filter-iqd 4
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+
+Terminating processes on user request, this might take some time.
+[Mon Mar 23 15:00:35 2020]
+Error in rule align:
+    jobid: 20
+    output: results/aligned_oc43_spike.fasta
+    shell:
+        
+        augur align             --sequences results/filtered_oc43_spike.fasta             --reference-sequence config/oc43_spike_reference.gb             --output results/aligned_oc43_spike.fasta             --remove-reference             --fill-gaps
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Removing output files of failed job align since they might be corrupted:
+results/aligned_oc43_spike.fasta
+Complete log: /Users/katekistler/nextstrain/seasonal-corona-test/.snakemake/log/2020-03-23T145928.853010.snakemake.log

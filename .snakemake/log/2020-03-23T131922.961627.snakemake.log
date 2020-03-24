@@ -1,0 +1,222 @@
+Building DAG of jobs...
+Using shell: /bin/bash
+Provided cores: 4
+Rules claiming more threads will be scaled down.
+Job counts:
+	count	jobs
+	12	align
+	1	all
+	12	ancestral
+	12	download
+	12	export
+	12	filter
+	12	parse
+	12	refine
+	12	traits
+	12	translate
+	12	tree
+	121
+
+[Mon Mar 23 13:19:23 2020]
+Job 105: Downloading sequences from fauna
+
+
+[Mon Mar 23 13:19:23 2020]
+Job 84: Downloading sequences from fauna
+
+
+[Mon Mar 23 13:19:23 2020]
+Job 75: Downloading sequences from fauna
+
+
+[Mon Mar 23 13:19:23 2020]
+Job 93: Downloading sequences from fauna
+
+[Mon Mar 23 13:19:29 2020]
+Finished job 105.
+1 of 121 steps (0.83%) done
+
+[Mon Mar 23 13:19:29 2020]
+Job 108: Downloading sequences from fauna
+
+[Mon Mar 23 13:19:30 2020]
+Finished job 93.
+2 of 121 steps (2%) done
+
+[Mon Mar 23 13:19:30 2020]
+Job 44: Parsing fasta into sequences and metadata
+
+[Mon Mar 23 13:19:30 2020]
+Finished job 84.
+3 of 121 steps (2%) done
+
+[Mon Mar 23 13:19:30 2020]
+Job 29: Parsing fasta into sequences and metadata
+
+[Mon Mar 23 13:19:31 2020]
+Finished job 75.
+4 of 121 steps (3%) done
+
+[Mon Mar 23 13:19:31 2020]
+Job 14: Parsing fasta into sequences and metadata
+
+[Mon Mar 23 13:19:34 2020]
+Finished job 108.
+5 of 121 steps (4%) done
+
+[Mon Mar 23 13:19:34 2020]
+Job 69: Parsing fasta into sequences and metadata
+
+[Mon Mar 23 13:19:40 2020]
+Finished job 29.
+6 of 121 steps (5%) done
+
+[Mon Mar 23 13:19:40 2020]
+Job 112: 
+        Filtering to
+          - 5000 sequence(s) per country
+          - minimum genome length of 1000
+        
+
+[Mon Mar 23 13:19:40 2020]
+Finished job 44.
+7 of 121 steps (6%) done
+
+[Mon Mar 23 13:19:40 2020]
+Job 115: 
+        Filtering to
+          - 5000 sequence(s) per country
+          - minimum genome length of 1000
+        
+
+[Mon Mar 23 13:19:40 2020]
+Finished job 14.
+8 of 121 steps (7%) done
+
+[Mon Mar 23 13:19:40 2020]
+Job 109: 
+        Filtering to
+          - 5000 sequence(s) per country
+          - minimum genome length of 1000
+        
+
+[Mon Mar 23 13:19:44 2020]
+Finished job 69.
+9 of 121 steps (7%) done
+
+[Mon Mar 23 13:19:44 2020]
+Job 120: 
+        Filtering to
+          - 5000 sequence(s) per country
+          - minimum genome length of 1000
+        
+
+[Mon Mar 23 13:19:45 2020]
+Finished job 115.
+10 of 121 steps (8%) done
+[Mon Mar 23 13:19:45 2020]
+Finished job 112.
+11 of 121 steps (9%) done
+
+[Mon Mar 23 13:19:45 2020]
+Job 92: 
+        Aligning sequences to config/229e_spike_reference.gb
+          - filling gaps with N
+        
+
+
+[Mon Mar 23 13:19:45 2020]
+Job 83: 
+        Aligning sequences to config/hku1_spike_reference.gb
+          - filling gaps with N
+        
+
+[Mon Mar 23 13:19:45 2020]
+Finished job 109.
+12 of 121 steps (10%) done
+
+[Mon Mar 23 13:19:45 2020]
+Job 74: 
+        Aligning sequences to config/oc43_spike_reference.gb
+          - filling gaps with N
+        
+
+[Mon Mar 23 13:19:52 2020]
+Finished job 120.
+13 of 121 steps (11%) done
+
+[Mon Mar 23 13:19:52 2020]
+Job 107: 
+        Aligning sequences to config/nl63_full_reference.gb
+          - filling gaps with N
+        
+
+[Mon Mar 23 13:19:58 2020]
+Finished job 92.
+14 of 121 steps (12%) done
+
+[Mon Mar 23 13:19:58 2020]
+Job 91: Building tree
+
+[Mon Mar 23 13:19:58 2020]
+Finished job 83.
+15 of 121 steps (12%) done
+
+[Mon Mar 23 13:19:58 2020]
+Job 82: Building tree
+
+[Mon Mar 23 13:20:01 2020]
+Finished job 82.
+16 of 121 steps (13%) done
+
+[Mon Mar 23 13:20:01 2020]
+Job 28: 
+        Refining tree
+        
+
+[Mon Mar 23 13:20:01 2020]
+Finished job 91.
+17 of 121 steps (14%) done
+
+[Mon Mar 23 13:20:01 2020]
+Job 43: 
+        Refining tree
+        
+
+[Mon Mar 23 13:20:10 2020]
+Error in rule refine:
+    jobid: 28
+    output: results/tree_hku1_spike.nwk, results/branch_lengths_hku1_spike.json
+    shell:
+        
+        augur refine             --tree results/tree_raw_hku1_spike.nwk             --alignment results/aligned_hku1_spike.fasta             --metadata results/metadata_hku1_spike.tsv             --output-tree results/tree_hku1_spike.nwk             --output-node-data results/branch_lengths_hku1_spike.json             --timetree             --coalescent opt             --date-confidence             --date-inference marginal             --clock-filter-iqd 4
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+[Mon Mar 23 13:20:10 2020]
+Error in rule refine:
+    jobid: 43
+    output: results/tree_229e_spike.nwk, results/branch_lengths_229e_spike.json
+    shell:
+        
+        augur refine             --tree results/tree_raw_229e_spike.nwk             --alignment results/aligned_229e_spike.fasta             --metadata results/metadata_229e_spike.tsv             --output-tree results/tree_229e_spike.nwk             --output-node-data results/branch_lengths_229e_spike.json             --timetree             --coalescent opt             --date-confidence             --date-inference marginal             --clock-filter-iqd 4
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+[Mon Mar 23 13:21:03 2020]
+Finished job 74.
+18 of 121 steps (15%) done
+Terminating processes on user request, this might take some time.
+[Mon Mar 23 14:00:57 2020]
+Error in rule align:
+    jobid: 107
+    output: results/aligned_nl63_full.fasta
+    shell:
+        
+        augur align             --sequences results/filtered_nl63_full.fasta             --reference-sequence config/nl63_full_reference.gb             --output results/aligned_nl63_full.fasta             --remove-reference             --fill-gaps
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Removing output files of failed job align since they might be corrupted:
+results/aligned_nl63_full.fasta
+Complete log: /Users/katekistler/nextstrain/seasonal-corona-test/.snakemake/log/2020-03-23T131922.961627.snakemake.log

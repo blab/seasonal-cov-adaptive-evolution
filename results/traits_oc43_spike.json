@@ -1,0 +1,4307 @@
+{
+  "generated_by": {
+    "program": "augur",
+    "version": "6.4.1"
+  },
+  "models": {
+    "country": {
+      "alphabet": [
+        "china",
+        "france",
+        "japan",
+        "kenya",
+        "mexico",
+        "united_kingdom",
+        "usa",
+        "?"
+      ],
+      "equilibrium_probabilities": [
+        0.14446073698911902,
+        0.11351813408241032,
+        0.1851540848029061,
+        0.16575146497224658,
+        0.13780377532463334,
+        0.15330838904369953,
+        0.10000341478498506
+      ],
+      "rate": 35.95158827541414,
+      "transition_matrix": [
+        [
+          0.0,
+          0.6811920250815386,
+          0.8674625514459767,
+          0.682600687353146,
+          0.6826321275488916,
+          0.6827536443913831,
+          0.8075962772073548
+        ],
+        [
+          0.6811920250815386,
+          0.0,
+          3.573869386725847,
+          0.6809747627526568,
+          0.6808838058417006,
+          0.9239328121234978,
+          3.117101400545596
+        ],
+        [
+          0.8674625514459767,
+          3.573869386725847,
+          0.0,
+          0.6705430747883969,
+          0.996227995291323,
+          0.7863924982711787,
+          5.465139493073359
+        ],
+        [
+          0.682600687353146,
+          0.6809747627526568,
+          0.6705430747883969,
+          0.0,
+          0.6825825418454873,
+          0.682687560263819,
+          1.3415681839366345
+        ],
+        [
+          0.6826321275488916,
+          0.6808838058417006,
+          0.996227995291323,
+          0.6825825418454873,
+          0.0,
+          0.6827556183970166,
+          0.6756802160644949
+        ],
+        [
+          0.6827536443913831,
+          0.9239328121234978,
+          0.7863924982711787,
+          0.682687560263819,
+          0.6827556183970166,
+          0.0,
+          0.6805649750948278
+        ],
+        [
+          0.8075962772073548,
+          3.117101400545596,
+          5.465139493073359,
+          1.3415681839366345,
+          0.6756802160644949,
+          0.6805649750948278,
+          0.0
+        ]
+      ]
+    }
+  },
+  "nodes": {
+    "HCoV_OC43/FRA_EPI/Caen/1967/VR759_spike": {
+      "country": "france",
+      "country_confidence": {
+        "france": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "HCoV_OC43/FRA_EPI/Caen/2001/01_spike": {
+      "country": "france",
+      "country_confidence": {
+        "france": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "HCoV_OC43/FRA_EPI/Caen/2001/02_spike": {
+      "country": "france",
+      "country_confidence": {
+        "france": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "HCoV_OC43/FRA_EPI/Caen/2002/03_spike": {
+      "country": "france",
+      "country_confidence": {
+        "france": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "HCoV_OC43/FRA_EPI/Caen/2002/04_spike": {
+      "country": "france",
+      "country_confidence": {
+        "france": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "HCoV_OC43/FRA_EPI/Caen/2003/05_spike": {
+      "country": "france",
+      "country_confidence": {
+        "france": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "HCoV_OC43/FRA_EPI/Caen/2004/06_spike": {
+      "country": "france",
+      "country_confidence": {
+        "france": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "HCoV_OC43/FRA_EPI/Caen/2005/07_spike": {
+      "country": "france",
+      "country_confidence": {
+        "france": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "HCoV_OC43/FRA_EPI/Caen/2006/08_spike": {
+      "country": "france",
+      "country_confidence": {
+        "france": 0.9999999999999999
+      },
+      "country_entropy": -9.99866855976916e-13
+    },
+    "HCoV_OC43/FRA_EPI/Caen/2007/09_spike": {
+      "country": "france",
+      "country_confidence": {
+        "france": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "HCoV_OC43/FRA_EPI/Caen/2008/10_spike": {
+      "country": "france",
+      "country_confidence": {
+        "france": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "HCoV_OC43/FRA_EPI/Caen/2009/11_spike": {
+      "country": "france",
+      "country_confidence": {
+        "france": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "HCoV_OC43/FRA_EPI/Caen/2010/12_spike": {
+      "country": "france",
+      "country_confidence": {
+        "france": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "HCoV_OC43/FRA_EPI/Caen/2011/13_spike": {
+      "country": "france",
+      "country_confidence": {
+        "france": 0.9999999999999999
+      },
+      "country_entropy": -9.99866855976916e-13
+    },
+    "HCoV_OC43/FRA_EPI/Caen/2012/14_spike": {
+      "country": "france",
+      "country_confidence": {
+        "france": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "HCoV_OC43/FRA_EPI/Caen/2013/15_spike": {
+      "country": "france",
+      "country_confidence": {
+        "france": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "HCoV_OC43/Seattle/USA/SC0682/2019_spike": {
+      "country": "usa",
+      "country_confidence": {
+        "usa": 0.9999999999999999
+      },
+      "country_entropy": -9.99866855976916e-13
+    },
+    "HCoV_OC43/Seattle/USA/SC0776/2019_spike": {
+      "country": "usa",
+      "country_confidence": {
+        "usa": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "HCoV_OC43/Seattle/USA/SC0810/2019_spike": {
+      "country": "usa",
+      "country_confidence": {
+        "usa": 0.9999999999999999
+      },
+      "country_entropy": -9.99866855976916e-13
+    },
+    "HCoV_OC43/Seattle/USA/SC0839/2019_spike": {
+      "country": "usa",
+      "country_confidence": {
+        "usa": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "HCoV_OC43/Seattle/USA/SC0841/2019_spike": {
+      "country": "usa",
+      "country_confidence": {
+        "usa": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "HCoV_OC43/Seattle/USA/SC2269/2016_spike": {
+      "country": "usa",
+      "country_confidence": {
+        "usa": 0.9999999999999999
+      },
+      "country_entropy": -9.99866855976916e-13
+    },
+    "HCoV_OC43/Seattle/USA/SC2345/2015_spike": {
+      "country": "usa",
+      "country_confidence": {
+        "usa": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "HCoV_OC43/Seattle/USA/SC2476/2015_spike": {
+      "country": "usa",
+      "country_confidence": {
+        "usa": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "HCoV_OC43/Seattle/USA/SC2481/2015_spike": {
+      "country": "usa",
+      "country_confidence": {
+        "usa": 0.9999999999999999
+      },
+      "country_entropy": -9.99866855976916e-13
+    },
+    "HCoV_OC43/Seattle/USA/SC2730/2015_spike": {
+      "country": "usa",
+      "country_confidence": {
+        "usa": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "HCoV_OC43/Seattle/USA/SC2770/2015_spike": {
+      "country": "usa",
+      "country_confidence": {
+        "usa": 0.9999999999999999
+      },
+      "country_entropy": -9.99866855976916e-13
+    },
+    "HCoV_OC43/Seattle/USA/SC2854/2015_spike": {
+      "country": "usa",
+      "country_confidence": {
+        "usa": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "HCoV_OC43/Seattle/USA/SC2924/2015_spike": {
+      "country": "usa",
+      "country_confidence": {
+        "usa": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "HCoV_OC43/Seattle/USA/SC3118/2015_spike": {
+      "country": "usa",
+      "country_confidence": {
+        "usa": 0.9999999999999999
+      },
+      "country_entropy": -9.99866855976916e-13
+    },
+    "HCoV_OC43/Seattle/USA/SC622/2016_spike": {
+      "country": "usa",
+      "country_confidence": {
+        "usa": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "HCoV_OC43/Seattle/USA/SC831/2016_spike": {
+      "country": "usa",
+      "country_confidence": {
+        "usa": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "HCoV_OC43/Seattle/USA/SC9428/2018_spike": {
+      "country": "usa",
+      "country_confidence": {
+        "usa": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "HCoV_OC43/Seattle/USA/SC9430/2018_spike": {
+      "country": "usa",
+      "country_confidence": {
+        "usa": 0.9999999999999999
+      },
+      "country_entropy": -9.99866855976916e-13
+    },
+    "HCoV_OC43/Seattle/USA/SC9741/2016_spike": {
+      "country": "usa",
+      "country_confidence": {
+        "usa": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "HCoV_OC43/UK/London/2011_spike": {
+      "country": "united_kingdom",
+      "country_confidence": {
+        "united_kingdom": 0.9999999999999999
+      },
+      "country_entropy": -9.99866855976916e-13
+    },
+    "HCoV_OC43/USA/ACRI_0052/2016_spike": {
+      "country": "usa",
+      "country_confidence": {
+        "usa": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "HCoV_OC43/USA/ACRI_0213/2016_spike": {
+      "country": "usa",
+      "country_confidence": {
+        "usa": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "HCoV_OC43/USA/TCNP_00204/2017_spike": {
+      "country": "usa",
+      "country_confidence": {
+        "usa": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "HCoV_OC43/USA/TCNP_00212/2017_spike": {
+      "country": "usa",
+      "country_confidence": {
+        "usa": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "HCoV_OC43/USA/TCNP_0070/2016_spike": {
+      "country": "usa",
+      "country_confidence": {
+        "usa": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "HCoV_OC43/Yamagata.JPN/01.2011_0064_spike": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 0.9999999999999999
+      },
+      "country_entropy": -9.99866855976916e-13
+    },
+    "HCoV_OC43/Yamagata.JPN/02.15_0022_spike": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "HCoV_OC43/Yamagata.JPN/02.15_0076_spike": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "HCoV_OC43/Yamagata.JPN/02.15_0083_spike": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "HCoV_OC43/Yamagata.JPN/02.2009_0058_spike": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "HCoV_OC43/Yamagata.JPN/02.2009_0063_spike": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "HCoV_OC43/Yamagata.JPN/02.2015_0077_spike": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "HCoV_OC43/Yamagata.JPN/03.15_0087_spike": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "HCoV_OC43/Yamagata.JPN/03.2009_0118_spike": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "HCoV_OC43/Yamagata.JPN/03.2010_0241_spike": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "HCoV_OC43/Yamagata.JPN/03.2014_0174_spike": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "HCoV_OC43/Yamagata.JPN/03.2015_0086_spike": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "HCoV_OC43/Yamagata.JPN/03.2015_0088_spike": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "HCoV_OC43/Yamagata.JPN/03.2015_0093_spike": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "HCoV_OC43/Yamagata.JPN/03.2015_0101_spike": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "HCoV_OC43/Yamagata.JPN/03.2015_0128_spike": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 0.9999999999999999
+      },
+      "country_entropy": -9.99866855976916e-13
+    },
+    "HCoV_OC43/Yamagata.JPN/03.2015_0129_spike": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "HCoV_OC43/Yamagata.JPN/03.2015_0130_spike": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "HCoV_OC43/Yamagata.JPN/03.2015_0131_spike": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "HCoV_OC43/Yamagata.JPN/03.2015_0134_spike": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 0.9999999999999999
+      },
+      "country_entropy": -9.99866855976916e-13
+    },
+    "HCoV_OC43/Yamagata.JPN/03.2015_0136_spike": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "HCoV_OC43/Yamagata.JPN/04.15_0214_spike": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "HCoV_OC43/Yamagata.JPN/04.2010_0251_spike": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "HCoV_OC43/Yamagata.JPN/04.2012_0168_spike": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "HCoV_OC43/Yamagata.JPN/04.2013_0289_spike": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "HCoV_OC43/Yamagata.JPN/04.2014_0225_spike": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "HCoV_OC43/Yamagata.JPN/04.2015_0137_spike": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "HCoV_OC43/Yamagata.JPN/04.2015_0140_spike": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "HCoV_OC43/Yamagata.JPN/04.2015_0142_spike": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "HCoV_OC43/Yamagata.JPN/04.2015_0144_spike": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "HCoV_OC43/Yamagata.JPN/04.2015_0147_spike": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "HCoV_OC43/Yamagata.JPN/04.2015_0151_spike": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "HCoV_OC43/Yamagata.JPN/04.2015_0152_spike": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "HCoV_OC43/Yamagata.JPN/04.2015_0154_spike": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "HCoV_OC43/Yamagata.JPN/04.2015_0155_spike": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "HCoV_OC43/Yamagata.JPN/04.2015_0158_spike": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "HCoV_OC43/Yamagata.JPN/04.2015_0159_spike": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "HCoV_OC43/Yamagata.JPN/04.2015_0209_spike": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 0.9999999999999999
+      },
+      "country_entropy": -9.99866855976916e-13
+    },
+    "HCoV_OC43/Yamagata.JPN/04.2015_0210_spike": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "HCoV_OC43/Yamagata.JPN/04.2015_0211_spike": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "HCoV_OC43/Yamagata.JPN/04.2015_0213_spike": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "HCoV_OC43/Yamagata.JPN/05.15_0234_spike": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "HCoV_OC43/Yamagata.JPN/05.15_0248_spike": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 0.9999999999999999
+      },
+      "country_entropy": -9.99866855976916e-13
+    },
+    "HCoV_OC43/Yamagata.JPN/05.2009_0292_spike": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "HCoV_OC43/Yamagata.JPN/05.2012_0279_spike": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "HCoV_OC43/Yamagata.JPN/05.2012_0283_spike": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "HCoV_OC43/Yamagata.JPN/05.2013_0300_spike": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 0.9999999999999999
+      },
+      "country_entropy": -9.99866855976916e-13
+    },
+    "HCoV_OC43/Yamagata.JPN/05.2014_0285_spike": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "HCoV_OC43/Yamagata.JPN/05.2015_0215_spike": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "HCoV_OC43/Yamagata.JPN/05.2015_0216_spike": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "HCoV_OC43/Yamagata.JPN/05.2015_0218_spike": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "HCoV_OC43/Yamagata.JPN/05.2015_0220_spike": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "HCoV_OC43/Yamagata.JPN/05.2015_0223_spike": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "HCoV_OC43/Yamagata.JPN/05.2015_0224_spike": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "HCoV_OC43/Yamagata.JPN/05.2015_0225_spike": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "HCoV_OC43/Yamagata.JPN/05.2015_0228_spike": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "HCoV_OC43/Yamagata.JPN/05.2015_0229_spike": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "HCoV_OC43/Yamagata.JPN/05.2015_0230_spike": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "HCoV_OC43/Yamagata.JPN/05.2015_0232_spike": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "HCoV_OC43/Yamagata.JPN/05.2015_0233_spike": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "HCoV_OC43/Yamagata.JPN/05.2015_0235_spike": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "HCoV_OC43/Yamagata.JPN/05.2015_0236_spike": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "HCoV_OC43/Yamagata.JPN/05.2015_0275_spike": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "HCoV_OC43/Yamagata.JPN/05.2015_0279_spike": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "HCoV_OC43/Yamagata.JPN/05.2015_0282_spike": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "HCoV_OC43/Yamagata.JPN/05.2015_0284_spike": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "HCoV_OC43/Yamagata.JPN/05.2015_0285_spike": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "HCoV_OC43/Yamagata.JPN/05.2015_0287_spike": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "HCoV_OC43/Yamagata.JPN/05.2015_0288_spike": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "HCoV_OC43/Yamagata.JPN/05.2017_0193_spike": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "HCoV_OC43/Yamagata.JPN/05.2017_0247_spike": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "HCoV_OC43/Yamagata.JPN/06.15_0350_spike": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "HCoV_OC43/Yamagata.JPN/06.2012_0291_spike": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "HCoV_OC43/Yamagata.JPN/06.2012_0369_spike": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 0.9999999999999999
+      },
+      "country_entropy": -9.99866855976916e-13
+    },
+    "HCoV_OC43/Yamagata.JPN/06.2012_0371_spike": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 0.9999999999999999
+      },
+      "country_entropy": -9.99866855976916e-13
+    },
+    "HCoV_OC43/Yamagata.JPN/06.2013_0348_spike": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 0.9999999999999999
+      },
+      "country_entropy": -9.99866855976916e-13
+    },
+    "HCoV_OC43/Yamagata.JPN/06.2013_0375_spike": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 0.9999999999999999
+      },
+      "country_entropy": -9.99866855976916e-13
+    },
+    "HCoV_OC43/Yamagata.JPN/06.2013_0378_spike": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "HCoV_OC43/Yamagata.JPN/06.2014_0296_spike": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 0.9999999999999999
+      },
+      "country_entropy": -9.99866855976916e-13
+    },
+    "HCoV_OC43/Yamagata.JPN/06.2014_0297_spike": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "HCoV_OC43/Yamagata.JPN/06.2014_0370_spike": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "HCoV_OC43/Yamagata.JPN/06.2014_0371_spike": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 0.9999999999999999
+      },
+      "country_entropy": -9.99866855976916e-13
+    },
+    "HCoV_OC43/Yamagata.JPN/06.2014_0375_spike": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "HCoV_OC43/Yamagata.JPN/06.2014_0378_spike": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "HCoV_OC43/Yamagata.JPN/06.2015_0290_spike": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "HCoV_OC43/Yamagata.JPN/06.2015_0291_spike": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "HCoV_OC43/Yamagata.JPN/06.2015_0294_spike": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "HCoV_OC43/Yamagata.JPN/06.2015_0297_spike": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "HCoV_OC43/Yamagata.JPN/06.2015_0300_spike": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 0.9999999999999999
+      },
+      "country_entropy": -9.99866855976916e-13
+    },
+    "HCoV_OC43/Yamagata.JPN/06.2015_0301_spike": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "HCoV_OC43/Yamagata.JPN/06.2015_0303_spike": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "HCoV_OC43/Yamagata.JPN/06.2015_0351_spike": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "HCoV_OC43/Yamagata.JPN/06.2015_0359_spike": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "HCoV_OC43/Yamagata.JPN/06.2017_0266_spike": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "HCoV_OC43/Yamagata.JPN/06.2017_0300_spike": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "HCoV_OC43/Yamagata.JPN/07.2009_0467_spike": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "HCoV_OC43/Yamagata.JPN/07.2009_0469_spike": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 0.9999999999999999
+      },
+      "country_entropy": -9.99866855976916e-13
+    },
+    "HCoV_OC43/Yamagata.JPN/07.2009_0536_spike": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "HCoV_OC43/Yamagata.JPN/07.2013_0380_spike": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "HCoV_OC43/Yamagata.JPN/07.2014_0380_spike": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 0.9999999999999999
+      },
+      "country_entropy": -9.99866855976916e-13
+    },
+    "HCoV_OC43/Yamagata.JPN/07.2014_0446_spike": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "HCoV_OC43/Yamagata.JPN/07.2015_0353_spike": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "HCoV_OC43/Yamagata.JPN/07.2015_0361_spike": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "HCoV_OC43/Yamagata.JPN/07.2015_0368_spike": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "HCoV_OC43/Yamagata.JPN/07.2015_0369_spike": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "HCoV_OC43/Yamagata.JPN/07.2015_0373_spike": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "HCoV_OC43/Yamagata.JPN/07.2015_0416_spike": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "HCoV_OC43/Yamagata.JPN/07.2015_0417_spike": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "HCoV_OC43/Yamagata.JPN/07.2015_0418_spike": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "HCoV_OC43/Yamagata.JPN/07.2015_0424_spike": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 0.9999999999999999
+      },
+      "country_entropy": -9.99866855976916e-13
+    },
+    "HCoV_OC43/Yamagata.JPN/07.2015_0425_spike": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 0.9999999999999999
+      },
+      "country_entropy": -9.99866855976916e-13
+    },
+    "HCoV_OC43/Yamagata.JPN/07.2017_0304_spike": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 0.9999999999999999
+      },
+      "country_entropy": -9.99866855976916e-13
+    },
+    "HCoV_OC43/Yamagata.JPN/07.2017_0305_spike": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "HCoV_OC43/Yamagata.JPN/07.2017_0306_spike": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "HCoV_OC43/Yamagata.JPN/07.2017_0314_spike": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "HCoV_OC43/Yamagata.JPN/07.2017_0354_spike": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "HCoV_OC43/Yamagata.JPN/07.2017_0361_spike": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "HCoV_OC43/Yamagata.JPN/07.2017_0362_spike": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "HCoV_OC43/Yamagata.JPN/08.2009_0554_spike": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "HCoV_OC43/Yamagata.JPN/08.2013_0498_spike": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "HCoV_OC43/Yamagata.JPN/08.2014_0432_spike": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "HCoV_OC43/Yamagata.JPN/08.2014_0434_spike": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "HCoV_OC43/Yamagata.JPN/08.2014_0435_spike": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 0.9999999999999999
+      },
+      "country_entropy": -9.99866855976916e-13
+    },
+    "HCoV_OC43/Yamagata.JPN/08.2014_0436_spike": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "HCoV_OC43/Yamagata.JPN/08.2014_0484_spike": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "HCoV_OC43/Yamagata.JPN/08.2014_0485_spike": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "HCoV_OC43/Yamagata.JPN/08.2015_0433_spike": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "HCoV_OC43/Yamagata.JPN/08.2015_0434_spike": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "HCoV_OC43/Yamagata.JPN/08.2015_0486_spike": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "HCoV_OC43/Yamagata.JPN/08.2017_0364_spike": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "HCoV_OC43/Yamagata.JPN/08.2017_0375_spike": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "HCoV_OC43/Yamagata.JPN/08.2017_0379_spike": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "HCoV_OC43/Yamagata.JPN/09.2009_0623_spike": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "HCoV_OC43/Yamagata.JPN/09.2011_0752_spike": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "HCoV_OC43/Yamagata.JPN/09.2012_0501_spike": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "HCoV_OC43/Yamagata.JPN/09.2015_0492_spike": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "HCoV_OC43/Yamagata.JPN/09.2017_0410_spike": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "HCoV_OC43/Yamagata.JPN/09.2017_0411_spike": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "HCoV_OC43/Yamagata.JPN/09.2017_0478_spike": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "HCoV_OC43/Yamagata.JPN/09.2017_0480_spike": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "HCoV_OC43/Yamagata.JPN/09.2017_0482_spike": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "HCoV_OC43/Yamagata.JPN/10.15_0600_spike": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 0.9999999999999999
+      },
+      "country_entropy": -9.99866855976916e-13
+    },
+    "HCoV_OC43/Yamagata.JPN/10.2009_0762_spike": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 0.9999999999999999
+      },
+      "country_entropy": -9.99866855976916e-13
+    },
+    "HCoV_OC43/Yamagata.JPN/10.2013_0627_spike": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "HCoV_OC43/Yamagata.JPN/10.2017_0491_spike": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "HCoV_OC43/Yamagata.JPN/10.2017_0516_spike": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "HCoV_OC43/Yamagata.JPN/11.15_0612_spike": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "HCoV_OC43/Yamagata.JPN/11.15_0615_spike": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "HCoV_OC43/Yamagata.JPN/11.16_0552_spike": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 0.9999999999999999
+      },
+      "country_entropy": -9.99866855976916e-13
+    },
+    "HCoV_OC43/Yamagata.JPN/11.2009_0765_spike": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "HCoV_OC43/Yamagata.JPN/11.2009_0842_spike": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "HCoV_OC43/Yamagata.JPN/11.2013_0666_spike": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "HCoV_OC43/Yamagata.JPN/11.2015_0604_spike": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "HCoV_OC43/Yamagata.JPN/11.2017_0521_spike": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "HCoV_OC43/Yamagata.JPN/11.2017_0634_spike": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "HCoV_OC43/Yamagata.JPN/12.2017_0640_spike": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "HCoV_OC43/Yamagata.JPN/12.2017_0642_spike": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "HCoV_OC43/Yamagata.JPN/12.2017_0751_spike": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "HCoV_OC43/Yamagata.JPN/13.2011_0825_spike": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "HCoV_OC43/Yamagata.JPN/13.2011_0857_spike": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "HCoV_OC43/Yamagata.JPN/13.2012_0719_spike": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 0.9999999999999999
+      },
+      "country_entropy": -9.99866855976916e-13
+    },
+    "HCoV_OC43/Yamagata.JPN/13.2015_0693_spike": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "HCoV_OC43/Yamagata.JPN/14.16_0684_spike": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "HCoV_OC43/Yamagata.JPN/14.2011_0874_spike": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "HCoV_OC43/Yamagata.JPN/14.2011_0897_spike": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "HCoV_OC43/Yamagata.JPN/14.2012_0781_spike": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "HCoV_OC43/Yamagata.JPN/14.2017_0959_spike": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 0.9999999999999999
+      },
+      "country_entropy": -9.99866855976916e-13
+    },
+    "HCoV_OC43/Yamagata.JPN/16.2011_0969_spike": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "HCoV_OC43/Yamagata.JPN/16.2017_1199_spike": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 0.9999999999999999
+      },
+      "country_entropy": -9.99866855976916e-13
+    },
+    "HCoV_OC43/Yamagata.JPN/19.2015_0902_spike": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "HCoV_OC43/Yamagata.JPN/20.16_0885_spike": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "HCoV_OC43/Yamagata.JPN/20.16_0914_spike": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "HCoV_OC43/Yamagata.JPN/20.2010_1337_spike": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "HCoV_OC43/Yamagata.JPN/20.2010_1341_spike": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "HCoV_OC43/Yamagata.JPN/20.2011_1168_spike": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 0.9999999999999999
+      },
+      "country_entropy": -9.99866855976916e-13
+    },
+    "HCoV_OC43/Yamagata.JPN/20.2017_1370_spike": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 0.9999999999999999
+      },
+      "country_entropy": -9.99866855976916e-13
+    },
+    "HCoV_OC43/Yamagata.JPN/21.2010_1394_spike": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "HCoV_OC43/Yamagata.JPN/21.2011_1174_spike": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 0.9999999999999999
+      },
+      "country_entropy": -9.99866855976916e-13
+    },
+    "HCoV_OC43/Yamagata.JPN/21.2011_1236_spike": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "HCoV_OC43/Yamagata.JPN/22.16_0950_spike": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "HCoV_OC43/Yamagata.JPN/22.2011_1255_spike": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "HCoV_OC43/Yamagata.JPN/23.16_0980_spike": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "HCoV_OC43/Yamagata.JPN/24.16_1002_spike": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "HCoV_OC43/Yamagata.JPN/24.16_1005_spike": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "HCoV_OC43/Yamagata.JPN/24.16_1006_spike": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 0.9999999999999999
+      },
+      "country_entropy": -9.99866855976916e-13
+    },
+    "HCoV_OC43/Yamagata.JPN/24.16_1008_spike": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "HCoV_OC43/Yamagata.JPN/24.16_1027_spike": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 0.9999999999999999
+      },
+      "country_entropy": -9.99866855976916e-13
+    },
+    "HCoV_OC43/Yamagata.JPN/25.16_1044_spike": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 0.9999999999999999
+      },
+      "country_entropy": -9.99866855976916e-13
+    },
+    "HCoV_OC43/Yamagata.JPN/26.16_1046_spike": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "HCoV_OC43/Yamagata.JPN/26.16_1049_spike": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 0.9999999999999999
+      },
+      "country_entropy": -9.99866855976916e-13
+    },
+    "HCoV_OC43/Yamagata.JPN/26.2017_1566_spike": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "HCoV_OC43/Yamagata.JPN/27.16_1096_spike": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 0.9999999999999999
+      },
+      "country_entropy": -9.99866855976916e-13
+    },
+    "HCoV_OC43/Yamagata.JPN/27.2011_1525_spike": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "HCoV_OC43/Yamagata.JPN/38.2010_2108_spike": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "HCoV_OC43/Yamagata.JPN/39.2010_2197_spike": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "HCoV_OC43/Yamagata.JPN/43.2010_2375_spike": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "HCoV_OC43/Yamagata.JPN/43.2010_2382_spike": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "HCoV_OC43/Yamagata.JPN/43.2010_2384_spike": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "HCoV_OC43/Yamagata.JPN/43.2010_2385_spike": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "HCoV_OC43/Yamagata.JPN/43.2010_2388_spike": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "HCoV_OC43/Yamagata.JPN/43.2010_2412_spike": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "HCoV_OC43/Yamagata.JPN/45.2010_2465_spike": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "HCoV_OC43/Yamagata.JPN/46.2010_2506_spike": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 0.9999999999999999
+      },
+      "country_entropy": -9.99866855976916e-13
+    },
+    "HCoV_OC43/Yamagata.JPN/46.2010_2510_spike": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "HCoV_OC43/Yamagata.JPN/46.2010_2512_spike": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "HCoV_OC43/Yamagata.JPN/46.2010_2513_spike": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "HCoV_OC43/Yamagata.JPN/46.2010_2538_spike": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "HCoV_OC43/Yamagata.JPN/46.2012_2185_spike": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 0.9999999999999999
+      },
+      "country_entropy": -9.99866855976916e-13
+    },
+    "HCoV_OC43/Yamagata.JPN/46.2014_2103_spike": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "HCoV_OC43/Yamagata.JPN/47.2010_2547_spike": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "HCoV_OC43/Yamagata.JPN/48.2010_2590_spike": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "HCoV_OC43/Yamagata.JPN/48.2010_2644_spike": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "HCoV_OC43/Yamagata.JPN/48.2017_2515_spike": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "HCoV_OC43/Yamagata.JPN/49.2012_2416_spike": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "HCoV_OC43/Yamagata.JPN/50.2017_2568_spike": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "HCoV_OC43/Yamagata.JPN/51.2012_2581_spike": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 0.9999999999999999
+      },
+      "country_entropy": -9.99866855976916e-13
+    },
+    "HCoV_OC43/Yamagata.JPN/51.2017_2650_spike": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 0.9999999999999999
+      },
+      "country_entropy": -9.99866855976916e-13
+    },
+    "HCoV_OC43/Yamagata.JPN/51.2017_2652_spike": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "HCoV_OC43/Yamagata.JPN/52.2012_2586_spike": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 0.9999999999999999
+      },
+      "country_entropy": -9.99866855976916e-13
+    },
+    "HCoV_OC43/Yamagata.JPN/52.2012_2590_spike": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 0.9999999999999999
+      },
+      "country_entropy": -9.99866855976916e-13
+    },
+    "HCoV_OC43/Yamagata.JPN/52.2014_2417_spike": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "HCoV_OC43/Yamagata.JPN/52.2014_2419_spike": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "HCoV_OC43/Yamagata.JPN/53.2014_2422_spike": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 0.9999999999999999
+      },
+      "country_entropy": -9.99866855976916e-13
+    },
+    "NODE_0000000": {
+      "country": "france",
+      "country_confidence": {
+        "france": 0.6107245406331141,
+        "japan": 0.05888923099942266,
+        "kenya": 0.0013193625547494045,
+        "usa": 0.32697054258511615
+      },
+      "country_entropy": 0.8574045292586924
+    },
+    "NODE_0000005": {
+      "country": "usa",
+      "country_confidence": {
+        "usa": 0.9999806722760354
+      },
+      "country_entropy": 0.0002376388340164794
+    },
+    "NODE_0000008": {
+      "country": "usa",
+      "country_confidence": {
+        "usa": 0.9999622757244656
+      },
+      "country_entropy": 0.00045001516537681067
+    },
+    "NODE_0000010": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 0.999910996644893
+      },
+      "country_entropy": 0.0009541542341466791
+    },
+    "NODE_0000011": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 0.999963790429156
+      },
+      "country_entropy": 0.00043036111019889947
+    },
+    "NODE_0000012": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 0.9999999583649107
+      },
+      "country_entropy": 7.650353741339272e-07
+    },
+    "NODE_0000013": {
+      "country": "usa",
+      "country_confidence": {
+        "france": 0.10092757660467676,
+        "usa": 0.8983097455677023
+      },
+      "country_entropy": 0.3333371944120554
+    },
+    "NODE_0000017": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 0.9999109234112825
+      },
+      "country_entropy": 0.000955347744124838
+    },
+    "NODE_0000018": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 0.9999637935845107
+      },
+      "country_entropy": 0.0004303277175057781
+    },
+    "NODE_0000019": {
+      "country": "usa",
+      "country_confidence": {
+        "usa": 0.9999816971290206
+      },
+      "country_entropy": 0.00022582946519174066
+    },
+    "NODE_0000021": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 0.9999595526729488
+      },
+      "country_entropy": 0.00047527499061945303
+    },
+    "NODE_0000022": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 0.9999637935845825
+      },
+      "country_entropy": 0.0004303277167464909
+    },
+    "NODE_0000023": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 0.9999625713904337
+      },
+      "country_entropy": 0.00044344235809561723
+    },
+    "NODE_0000024": {
+      "country": "usa",
+      "country_confidence": {
+        "usa": 0.9999546744934825
+      },
+      "country_entropy": 0.0005188458530061365
+    },
+    "NODE_0000026": {
+      "country": "usa",
+      "country_confidence": {
+        "usa": 0.9999822675106262
+      },
+      "country_entropy": 0.00021941090236525393
+    },
+    "NODE_0000027": {
+      "country": "usa",
+      "country_confidence": {
+        "usa": 0.9999829809827071
+      },
+      "country_entropy": 0.0002113755891045584
+    },
+    "NODE_0000032": {
+      "country": "usa",
+      "country_confidence": {
+        "usa": 0.9999829884984469
+      },
+      "country_entropy": 0.000211291256515185
+    },
+    "NODE_0000035": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 0.999486276581651
+      },
+      "country_entropy": 0.004476192860423978
+    },
+    "NODE_0000036": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 0.9999474646746144
+      },
+      "country_entropy": 0.0005983812253803418
+    },
+    "NODE_0000038": {
+      "country": "japan",
+      "country_confidence": {
+        "china": 0.0017342212970406202,
+        "france": 0.001591020244109841,
+        "japan": 0.5731115220227037,
+        "usa": 0.4235006862493198
+      },
+      "country_entropy": 0.7048565602560624
+    },
+    "NODE_0000039": {
+      "country": "japan",
+      "country_confidence": {
+        "china": 0.011911253116367765,
+        "france": 0.0013355441401510786,
+        "japan": 0.5752270030449689,
+        "usa": 0.4113868777504553
+      },
+      "country_entropy": 0.7464928971862295
+    },
+    "NODE_0000040": {
+      "country": "japan",
+      "country_confidence": {
+        "china": 0.0013344903230781396,
+        "japan": 0.588505699907572,
+        "usa": 0.4094049165274436
+      },
+      "country_entropy": 0.6921152772655595
+    },
+    "NODE_0000049": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 0.9999634848500687
+      },
+      "country_entropy": 0.0004335884120393134
+    },
+    "NODE_0000050": {
+      "country": "japan",
+      "country_confidence": {
+        "france": 0.004241294400511988,
+        "japan": 0.9290588918786187,
+        "usa": 0.06662817477314516
+      },
+      "country_entropy": 0.2727598238943125
+    },
+    "NODE_0000051": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 0.9975556876666063,
+        "usa": 0.0023213998799969894
+      },
+      "country_entropy": 0.01764259835351316
+    },
+    "NODE_0000054": {
+      "country": "japan",
+      "country_confidence": {
+        "france": 0.05783801707962777,
+        "japan": 0.941522900928987
+      },
+      "country_entropy": 0.2263982030546868
+    },
+    "NODE_0000056": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 0.9999638998540045
+      },
+      "country_entropy": 0.00042920167975036004
+    },
+    "NODE_0000057": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 0.9999627231286508
+      },
+      "country_entropy": 0.00044183580809968343
+    },
+    "NODE_0000058": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 0.9999627231456452
+      },
+      "country_entropy": 0.00044183561690984364
+    },
+    "NODE_0000059": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 0.9999169083129258
+      },
+      "country_entropy": 0.000897519098885471
+    },
+    "NODE_0000060": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 0.9999986218481919
+      },
+      "country_entropy": 2.062311992329138e-05
+    },
+    "NODE_0000061": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 0.9999650339396257
+      },
+      "country_entropy": 0.0004169834645830857
+    },
+    "NODE_0000062": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 0.9999639004920101
+      },
+      "country_entropy": 0.00042919442199603863
+    },
+    "NODE_0000063": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 0.9999650339396257
+      },
+      "country_entropy": 0.0004169834645830857
+    },
+    "NODE_0000064": {
+      "country": "japan",
+      "country_confidence": {
+        "france": 0.03730185320067625,
+        "japan": 0.9625491194202762
+      },
+      "country_entropy": 0.1607453384305224
+    },
+    "NODE_0000065": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 0.999036762821147
+      },
+      "country_entropy": 0.007875310316277901
+    },
+    "NODE_0000066": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 0.9999366393093193
+      },
+      "country_entropy": 0.0007239015312598992
+    },
+    "NODE_0000067": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 0.9999632390170181
+      },
+      "country_entropy": 0.00043674645071641103
+    },
+    "NODE_0000068": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 0.9999389826371823
+      },
+      "country_entropy": 0.0006938232040659129
+    },
+    "NODE_0000069": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 0.9999441829724475
+      },
+      "country_entropy": 0.0006393384618834607
+    },
+    "NODE_0000071": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 0.9999638438421747
+      },
+      "country_entropy": 0.00042981151787387605
+    },
+    "NODE_0000072": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 0.9999627199108437
+      },
+      "country_entropy": 0.0004418702355108825
+    },
+    "NODE_0000073": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 0.9999626819459637
+      },
+      "country_entropy": 0.00044227444251235796
+    },
+    "NODE_0000074": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 0.9999626806410589
+      },
+      "country_entropy": 0.0004422882810909064
+    },
+    "NODE_0000075": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 0.9999626805957478
+      },
+      "country_entropy": 0.0004422887603386359
+    },
+    "NODE_0000076": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 0.9999626805958155
+      },
+      "country_entropy": 0.0004422887596201416
+    },
+    "NODE_0000077": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 0.9999626806431016
+      },
+      "country_entropy": 0.0004422882593405344
+    },
+    "NODE_0000078": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 0.9999626820063826
+      },
+      "country_entropy": 0.00044227379593356783
+    },
+    "NODE_0000079": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 0.9985200763729201,
+        "usa": 0.0014572572646525824
+      },
+      "country_entropy": 0.011245712108650142
+    },
+    "NODE_0000080": {
+      "country": "usa",
+      "country_confidence": {
+        "japan": 0.019117622961175453,
+        "usa": 0.9807745576740524
+      },
+      "country_entropy": 0.09572255732926901
+    },
+    "NODE_0000081": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 0.9999627217355169
+      },
+      "country_entropy": 0.0004418505774097017
+    },
+    "NODE_0000082": {
+      "country": "usa",
+      "country_confidence": {
+        "japan": 0.06870888944350476,
+        "usa": 0.9299377693982273
+      },
+      "country_entropy": 0.26142287875919235
+    },
+    "NODE_0000083": {
+      "country": "usa",
+      "country_confidence": {
+        "usa": 0.9993115736720215
+      },
+      "country_entropy": 0.005790514053866185
+    },
+    "NODE_0000084": {
+      "country": "usa",
+      "country_confidence": {
+        "usa": 0.9999691414632624
+      },
+      "country_entropy": 0.0003608511765437794
+    },
+    "NODE_0000085": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 0.9999639004446819
+      },
+      "country_entropy": 0.0004291949244090776
+    },
+    "NODE_0000087": {
+      "country": "usa",
+      "country_confidence": {
+        "japan": 0.02283388634479503,
+        "kenya": 0.007609345351345615,
+        "usa": 0.9691065360623866
+      },
+      "country_entropy": 0.15756681689978802
+    },
+    "NODE_0000088": {
+      "country": "usa",
+      "country_confidence": {
+        "usa": 0.9999999656757471
+      },
+      "country_entropy": 6.243032128079782e-07
+    },
+    "NODE_0000090": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 0.9999626518715578
+      },
+      "country_entropy": 0.00044261388399763975
+    },
+    "NODE_0000091": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 0.9999638983065896
+      },
+      "country_entropy": 0.0004292181492498761
+    },
+    "NODE_0000092": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 0.9999626812093415
+      },
+      "country_entropy": 0.00044228273339732584
+    },
+    "NODE_0000093": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 0.999962721712623
+      },
+      "country_entropy": 0.0004418508315358068
+    },
+    "NODE_0000094": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 0.9765737736169038,
+        "usa": 0.02327396882129085
+      },
+      "country_entropy": 0.11206375736195623
+    },
+    "NODE_0000095": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 0.9999639004440183
+      },
+      "country_entropy": 0.00042919493172065173
+    },
+    "NODE_0000097": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 0.9999627592644532
+      },
+      "country_entropy": 0.00044145112367965087
+    },
+    "NODE_0000098": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 0.9999638602823686
+      },
+      "country_entropy": 0.0004296238947813182
+    },
+    "NODE_0000100": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 0.9999625993977315
+      },
+      "country_entropy": 0.000443153285841821
+    },
+    "NODE_0000101": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 0.9999627189007755
+      },
+      "country_entropy": 0.00044188064706521214
+    },
+    "NODE_0000102": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 0.9999639003494951
+      },
+      "country_entropy": 0.0004291959347546661
+    },
+    "NODE_0000103": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 0.9999615018241048
+      },
+      "country_entropy": 0.0004549051605471265
+    },
+    "NODE_0000104": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 0.9999638606649301
+      },
+      "country_entropy": 0.0004296200245650841
+    },
+    "NODE_0000105": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 0.9999638606649301
+      },
+      "country_entropy": 0.0004296200245650841
+    },
+    "NODE_0000113": {
+      "country": "usa",
+      "country_confidence": {
+        "usa": 0.9999829882318594
+      },
+      "country_entropy": 0.00021129425461887086
+    },
+    "NODE_0000114": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 0.9999616909312126
+      },
+      "country_entropy": 0.0004524090949292824
+    },
+    "NODE_0000116": {
+      "country": "usa",
+      "country_confidence": {
+        "usa": 0.9999919540389199
+      },
+      "country_entropy": 0.00010252948338196988
+    },
+    "NODE_0000117": {
+      "country": "usa",
+      "country_confidence": {
+        "usa": 0.9999730127435835
+      },
+      "country_entropy": 0.0003267587318410295
+    },
+    "NODE_0000123": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 0.7872137839018067,
+        "usa": 0.21257958111969066
+      },
+      "country_entropy": 0.5193397968712747
+    },
+    "NODE_0000129": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 0.9985658570341964,
+        "usa": 0.001428776479873374
+      },
+      "country_entropy": 0.010858777160909851
+    },
+    "NODE_0000131": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 0.9999154844791118
+      },
+      "country_entropy": 0.0009102377602589782
+    },
+    "NODE_0000132": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 0.9999546346745576
+      },
+      "country_entropy": 0.0005260731632803789
+    },
+    "NODE_0000134": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 0.9999623525697644
+      },
+      "country_entropy": 0.0004457458917375517
+    },
+    "NODE_0000135": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 0.9999626788075993
+      },
+      "country_entropy": 0.00044230769467474207
+    },
+    "NODE_0000140": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 0.9999639017583546
+      },
+      "country_entropy": 0.00042918093900460414
+    },
+    "NODE_0000141": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 0.9999626787264001
+      },
+      "country_entropy": 0.0004423083995807787
+    },
+    "NODE_0000142": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 0.9999069172479892
+      },
+      "country_entropy": 0.0009968966753351274
+    },
+    "NODE_0000143": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 0.9999619975038276
+      },
+      "country_entropy": 0.0004492580337950084
+    },
+    "NODE_0000144": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 0.9998673531397999
+      },
+      "country_entropy": 0.0013954823336320642
+    },
+    "NODE_0000145": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 0.9999638990153867
+      },
+      "country_entropy": 0.00042921013293388956
+    },
+    "NODE_0000146": {
+      "country": "japan",
+      "country_confidence": {
+        "france": 0.0037801958947940354,
+        "japan": 0.9961906497479583
+      },
+      "country_entropy": 0.025193587907724774
+    },
+    "NODE_0000147": {
+      "country": "japan",
+      "country_confidence": {
+        "france": 0.004860537409807189,
+        "japan": 0.9950609478163761
+      },
+      "country_entropy": 0.03157244927051679
+    },
+    "NODE_0000148": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 0.9999627216199561
+      },
+      "country_entropy": 0.00044185179589611057
+    },
+    "NODE_0000149": {
+      "country": "japan",
+      "country_confidence": {
+        "france": 0.0024407866398168093,
+        "japan": 0.9974539235699801
+      },
+      "country_entropy": 0.018207568887076486
+    },
+    "NODE_0000150": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 0.9999000783945651
+      },
+      "country_entropy": 0.0010876919969943443
+    },
+    "NODE_0000151": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 0.9999623488890997
+      },
+      "country_entropy": 0.00044697357734072864
+    },
+    "NODE_0000152": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 0.9999999597277129
+      },
+      "country_entropy": 7.414633989000473e-07
+    },
+    "NODE_0000153": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 0.9999639004407338
+      },
+      "country_entropy": 0.00042919496614318676
+    },
+    "NODE_0000154": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 0.9998829884231383
+      },
+      "country_entropy": 0.001300148547470256
+    },
+    "NODE_0000155": {
+      "country": "japan",
+      "country_confidence": {
+        "france": 0.07619130065123313,
+        "japan": 0.9236797318025033
+      },
+      "country_entropy": 0.2706450759824808
+    },
+    "NODE_0000156": {
+      "country": "japan",
+      "country_confidence": {
+        "france": 0.16339679050437306,
+        "japan": 0.8363021225773501
+      },
+      "country_entropy": 0.4479782775774157
+    },
+    "NODE_0000157": {
+      "country": "japan",
+      "country_confidence": {
+        "france": 0.2150375230764807,
+        "japan": 0.7829341179010604,
+        "usa": 0.0019540517880486624
+      },
+      "country_entropy": 0.5350867405534859
+    },
+    "NODE_0000158": {
+      "country": "france",
+      "country_confidence": {
+        "france": 0.9911429680688195,
+        "japan": 0.00865725422005798
+      },
+      "country_entropy": 0.051689427582628726
+    },
+    "NODE_0000159": {
+      "country": "japan",
+      "country_confidence": {
+        "france": 0.1812232501940054,
+        "japan": 0.8180871445007891
+      },
+      "country_entropy": 0.47893803410828106
+    },
+    "NODE_0000160": {
+      "country": "japan",
+      "country_confidence": {
+        "france": 0.0042640505704816594,
+        "japan": 0.9955768542497976
+      },
+      "country_entropy": 0.02910339506922508
+    },
+    "NODE_0000161": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 0.9999958755966417
+      },
+      "country_entropy": 5.790055269255283e-05
+    },
+    "NODE_0000162": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 0.9920884126555576,
+        "mexico": 0.007083291676473017
+      },
+      "country_entropy": 0.04955658338704254
+    },
+    "NODE_0000163": {
+      "country": "usa",
+      "country_confidence": {
+        "usa": 0.9999823879860393
+      },
+      "country_entropy": 0.0002180170920039112
+    },
+    "NODE_0000164": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 0.9999638978664094
+      },
+      "country_entropy": 0.0004292224676369732
+    },
+    "NODE_0000165": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 0.9999600315875296
+      },
+      "country_entropy": 0.00047205676376876134
+    },
+    "NODE_0000166": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 0.9999626419000949
+      },
+      "country_entropy": 0.00044271308705777057
+    },
+    "NODE_0000167": {
+      "country": "usa",
+      "country_confidence": {
+        "usa": 0.9999829831784754
+      },
+      "country_entropy": 0.00021135052938257523
+    },
+    "NODE_0000168": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 0.9998858180628017
+      },
+      "country_entropy": 0.0012714160297842285
+    },
+    "NODE_0000169": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 0.9999625992576704
+      },
+      "country_entropy": 0.0004431671130555102
+    },
+    "NODE_0000170": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 0.9999626354180877
+      },
+      "country_entropy": 0.000442769822630145
+    },
+    "NODE_0000171": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 0.9999614209700458
+      },
+      "country_entropy": 0.0004557636211039209
+    },
+    "NODE_0000172": {
+      "country": "usa",
+      "country_confidence": {
+        "japan": 0.3243228209990468,
+        "usa": 0.6754928370944357
+      },
+      "country_entropy": 0.6318476617209184
+    },
+    "NODE_0000173": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 0.9999626792279781
+      },
+      "country_entropy": 0.0004423032691989031
+    },
+    "NODE_0000174": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 0.999963899033883
+      },
+      "country_entropy": 0.000429209940627402
+    },
+    "NODE_0000175": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 0.9999626792279781
+      },
+      "country_entropy": 0.0004423032691989031
+    },
+    "NODE_0000176": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 0.9999987285426682
+      },
+      "country_entropy": 1.915184614458731e-05
+    },
+    "NODE_0000177": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 0.999963858813394
+      },
+      "country_entropy": 0.0004296395465173234
+    },
+    "NODE_0000178": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 0.9999627613512985
+      },
+      "country_entropy": 0.00044142850830919216
+    },
+    "NODE_0000179": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 0.999963899033883
+      },
+      "country_entropy": 0.000429209940627402
+    },
+    "NODE_0000180": {
+      "country": "usa",
+      "country_confidence": {
+        "japan": 0.3228488957567823,
+        "usa": 0.6769743663838992
+      },
+      "country_entropy": 0.6306952528475942
+    },
+    "NODE_0000182": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 0.9999650375875784
+      },
+      "country_entropy": 0.00041694478266981626
+    },
+    "NODE_0000186": {
+      "country": "france",
+      "country_confidence": {
+        "france": 0.8951917629277987,
+        "japan": 0.08470080998972354,
+        "usa": 0.02001129814395817
+      },
+      "country_entropy": 0.387503174514152
+    },
+    "NODE_0000187": {
+      "country": "france",
+      "country_confidence": {
+        "france": 0.8635458712555254,
+        "japan": 0.02966090187245028,
+        "usa": 0.1066175939047577
+      },
+      "country_entropy": 0.4714539958430465
+    },
+    "NODE_0000188": {
+      "country": "usa",
+      "country_confidence": {
+        "france": 0.01722656946843335,
+        "japan": 0.0024078620501750535,
+        "usa": 0.9803288815431693
+      },
+      "country_entropy": 0.10437468895941289
+    },
+    "NODE_0000189": {
+      "country": "usa",
+      "country_confidence": {
+        "france": 0.004165422980279073,
+        "usa": 0.9957589652032924
+      },
+      "country_entropy": 0.027781871482903602
+    },
+    "NODE_0000190": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 0.99996362369852
+      },
+      "country_entropy": 0.00043211770581196647
+    },
+    "NODE_0000191": {
+      "country": "usa",
+      "country_confidence": {
+        "usa": 0.9999299686990839
+      },
+      "country_entropy": 0.0007839999106441514
+    },
+    "NODE_0000192": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 0.9999614091049362
+      },
+      "country_entropy": 0.00045588817246395105
+    },
+    "NODE_0000193": {
+      "country": "usa",
+      "country_confidence": {
+        "usa": 0.9997028681484759
+      },
+      "country_entropy": 0.0028923685725077025
+    },
+    "NODE_0000194": {
+      "country": "usa",
+      "country_confidence": {
+        "usa": 0.999975278157674
+      },
+      "country_entropy": 0.00029787137804523385
+    },
+    "NODE_0000195": {
+      "country": "usa",
+      "country_confidence": {
+        "usa": 0.9999828494733921
+      },
+      "country_entropy": 0.00021286030098358256
+    },
+    "NODE_0000196": {
+      "country": "usa",
+      "country_confidence": {
+        "usa": 0.9999365426511678
+      },
+      "country_entropy": 0.0007146361847607532
+    },
+    "NODE_0000197": {
+      "country": "usa",
+      "country_confidence": {
+        "usa": 0.999999014005202
+      },
+      "country_entropy": 1.4896089440862898e-05
+    },
+    "NODE_0000198": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 0.9999638990194587
+      },
+      "country_entropy": 0.00042921009294659207
+    },
+    "NODE_0000199": {
+      "country": "usa",
+      "country_confidence": {
+        "usa": 0.9999732939642724
+      },
+      "country_entropy": 0.00031982217282648195
+    },
+    "NODE_0000200": {
+      "country": "usa",
+      "country_confidence": {
+        "usa": 0.9999816845824353
+      },
+      "country_entropy": 0.00022613831307956588
+    },
+    "NODE_0000201": {
+      "country": "usa",
+      "country_confidence": {
+        "usa": 0.9999826423798184
+      },
+      "country_entropy": 0.00021519237545689855
+    },
+    "NODE_0000202": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 0.9999626377147277
+      },
+      "country_entropy": 0.00044274532982374343
+    },
+    "NODE_0000203": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 0.9999626805316862
+      },
+      "country_entropy": 0.00044228943716287877
+    },
+    "NODE_0000204": {
+      "country": "usa",
+      "country_confidence": {
+        "usa": 0.999999641974253
+      },
+      "country_entropy": 5.769785439846742e-06
+    },
+    "NODE_0000205": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 0.9999627216843253
+      },
+      "country_entropy": 0.0004418511189690028
+    },
+    "NODE_0000206": {
+      "country": "usa",
+      "country_confidence": {
+        "usa": 0.9999815928873482
+      },
+      "country_entropy": 0.00022723428472378688
+    },
+    "NODE_0000207": {
+      "country": "usa",
+      "country_confidence": {
+        "usa": 0.9999655398270184
+      },
+      "country_entropy": 0.00041082099492249465
+    },
+    "NODE_0000208": {
+      "country": "france",
+      "country_confidence": {
+        "france": 0.5141476537191284,
+        "japan": 0.05723291583073327,
+        "usa": 0.42682480614891954
+      },
+      "country_entropy": 0.8828373607600055
+    },
+    "NODE_0000209": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 0.9999639004429494
+      },
+      "country_entropy": 0.0004291949427639302
+    },
+    "NODE_0000210": {
+      "country": "usa",
+      "country_confidence": {
+        "france": 0.4054314388340641,
+        "japan": 0.05147446335048215,
+        "usa": 0.5417739539894163
+      },
+      "country_entropy": 0.8612871514885343
+    },
+    "NODE_0000211": {
+      "country": "usa",
+      "country_confidence": {
+        "france": 0.009131659614625226,
+        "japan": 0.004471189418893771,
+        "usa": 0.9863228459354971
+      },
+      "country_entropy": 0.08145123943897471
+    },
+    "NODE_0000212": {
+      "country": "usa",
+      "country_confidence": {
+        "usa": 0.9998544078214814
+      },
+      "country_entropy": 0.0015196409148681186
+    },
+    "NODE_0000213": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 0.9997783310916103
+      },
+      "country_entropy": 0.00213294796370523
+    },
+    "NODE_0000214": {
+      "country": "usa",
+      "country_confidence": {
+        "usa": 0.9985178122940401
+      },
+      "country_entropy": 0.012205283298059559
+    },
+    "NODE_0000215": {
+      "country": "usa",
+      "country_confidence": {
+        "usa": 0.9998824054451976
+      },
+      "country_entropy": 0.0012402605763623556
+    },
+    "NODE_0000217": {
+      "country": "usa",
+      "country_confidence": {
+        "france": 0.0011902623706315845,
+        "usa": 0.9986934570051446
+      },
+      "country_entropy": 0.01038673353324559
+    },
+    "NODE_0000218": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 0.9022309591809541,
+        "usa": 0.09761566019259658
+      },
+      "country_entropy": 0.32135203492650577
+    },
+    "NODE_0000219": {
+      "country": "usa",
+      "country_confidence": {
+        "france": 0.09964086004097078,
+        "japan": 0.001311684880902673,
+        "usa": 0.8990234944257025
+      },
+      "country_entropy": 0.33447723243245486
+    },
+    "NODE_0000220": {
+      "country": "usa",
+      "country_confidence": {
+        "france": 0.45618802764538363,
+        "usa": 0.543264374610002
+      },
+      "country_entropy": 0.6936473310872182
+    },
+    "NODE_0000221": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 0.9205351371838685,
+        "usa": 0.07941892586024168
+      },
+      "country_entropy": 0.27786421592787647
+    },
+    "NODE_0000222": {
+      "country": "usa",
+      "country_confidence": {
+        "usa": 0.9997985645675334
+      },
+      "country_entropy": 0.002045583581606997
+    },
+    "NODE_0000223": {
+      "country": "usa",
+      "country_confidence": {
+        "usa": 0.9999139431019763
+      },
+      "country_entropy": 0.0009313264404182628
+    },
+    "NODE_0000224": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 0.8522302367795059,
+        "usa": 0.14771880733855944
+      },
+      "country_entropy": 0.4192928863471461
+    },
+    "NODE_0000225": {
+      "country": "usa",
+      "country_confidence": {
+        "usa": 0.9999782895991757
+      },
+      "country_entropy": 0.0002645375873768237
+    },
+    "NODE_0000226": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 0.8256466316350847,
+        "usa": 0.174142362810435
+      },
+      "country_entropy": 0.4644280143176018
+    },
+    "NODE_0000227": {
+      "country": "usa",
+      "country_confidence": {
+        "usa": 0.999962182391915
+      },
+      "country_entropy": 0.00043970672714376913
+    },
+    "NODE_0000228": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 0.8150597968189471,
+        "usa": 0.1847296334095012
+      },
+      "country_entropy": 0.4805161923645356
+    },
+    "NODE_0000229": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 0.9517425049096577,
+        "usa": 0.048202142692822324
+      },
+      "country_entropy": 0.193800527723755
+    },
+    "NODE_0000230": {
+      "country": "usa",
+      "country_confidence": {
+        "usa": 0.999982337322981
+      },
+      "country_entropy": 0.00021862963358235433
+    },
+    "NODE_0000231": {
+      "country": "usa",
+      "country_confidence": {
+        "usa": 0.9999705459512916
+      },
+      "country_entropy": 0.00034970255179401225
+    },
+    "NODE_0000232": {
+      "country": "usa",
+      "country_confidence": {
+        "usa": 0.9999824214415836
+      },
+      "country_entropy": 0.0002176784639536203
+    },
+    "NODE_0000233": {
+      "country": "usa",
+      "country_confidence": {
+        "usa": 0.999982656285628
+      },
+      "country_entropy": 0.0002150350517982044
+    },
+    "NODE_0000234": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 0.9509630797207498,
+        "usa": 0.048977172888470255
+      },
+      "country_entropy": 0.19615050466412023
+    },
+    "NODE_0000235": {
+      "country": "france",
+      "country_confidence": {
+        "france": 0.9281047219969396,
+        "japan": 0.05491760904770353,
+        "usa": 0.01669753826286319
+      },
+      "country_entropy": 0.29962346166759735
+    },
+    "NODE_0000236": {
+      "country": "france",
+      "country_confidence": {
+        "france": 0.8733863909095929,
+        "japan": 0.12240043290276312,
+        "usa": 0.0041630384377961595
+      },
+      "country_entropy": 0.3987181040730338
+    },
+    "NODE_0000237": {
+      "country": "japan",
+      "country_confidence": {
+        "france": 0.11634919332035787,
+        "japan": 0.870749560693444,
+        "usa": 0.012784385349190613
+      },
+      "country_entropy": 0.4277512888176132
+    },
+    "NODE_0000238": {
+      "country": "japan",
+      "country_confidence": {
+        "france": 0.001615851474718691,
+        "japan": 0.9980113190121845
+      },
+      "country_entropy": 0.015345473104596333
+    },
+    "NODE_0000239": {
+      "country": "japan",
+      "country_confidence": {
+        "france": 0.009008670423616524,
+        "japan": 0.9435224739594174,
+        "usa": 0.04737958847918236
+      },
+      "country_entropy": 0.2427027050573947
+    },
+    "NODE_0000240": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 0.8209578828543341,
+        "usa": 0.17899274717588967
+      },
+      "country_entropy": 0.4704060959276887
+    },
+    "NODE_0000241": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 0.7960780384590469,
+        "usa": 0.20371461994676685
+      },
+      "country_entropy": 0.5075041032442774
+    },
+    "NODE_0000242": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 0.8838823323663,
+        "usa": 0.11606294954147776
+      },
+      "country_entropy": 0.35960945947016265
+    },
+    "NODE_0000243": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 0.9866189889350706,
+        "usa": 0.013260854157569823
+      },
+      "country_entropy": 0.07176286264272518
+    },
+    "NODE_0000244": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 0.8555751283088873,
+        "usa": 0.14420973979679805
+      },
+      "country_entropy": 0.41460937616541
+    },
+    "NODE_0000245": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 0.99594545960095,
+        "usa": 0.004020284886160725
+      },
+      "country_entropy": 0.026588309068602742
+    },
+    "NODE_0000246": {
+      "country": "france",
+      "country_confidence": {
+        "france": 0.9500003188463093,
+        "japan": 0.049707882628941574
+      },
+      "country_entropy": 0.2003277802791292
+    },
+    "NODE_0000247": {
+      "country": "france",
+      "country_confidence": {
+        "france": 0.9357728702969719,
+        "japan": 0.06387581785141433
+      },
+      "country_entropy": 0.24069671920970054
+    },
+    "NODE_0000248": {
+      "country": "japan",
+      "country_confidence": {
+        "france": 0.060531903396131646,
+        "japan": 0.938763929200821
+      },
+      "country_entropy": 0.23433116540718696
+    },
+    "NODE_0000249": {
+      "country": "japan",
+      "country_confidence": {
+        "france": 0.0013947817194104326,
+        "japan": 0.9985184818379832
+      },
+      "country_entropy": 0.011475044182505228
+    },
+    "NODE_0000250": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 0.9999977728588384
+      },
+      "country_entropy": 3.278691265064403e-05
+    },
+    "NODE_0000251": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 0.9981709755413867,
+        "usa": 0.0018077616341034446
+      },
+      "country_entropy": 0.013480513968671844
+    },
+    "NODE_0000252": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 0.9998986923804077
+      },
+      "country_entropy": 0.0010695802672630332
+    },
+    "NODE_0000253": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 0.9999595028838167
+      },
+      "country_entropy": 0.00047579322068727137
+    },
+    "NODE_0000254": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 0.9998984386219146
+      },
+      "country_entropy": 0.0010719689442350246
+    },
+    "NODE_0000255": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 0.999958944493562
+      },
+      "country_entropy": 0.00048161122668878705
+    },
+    "NODE_0000256": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 0.9999612857829118
+      },
+      "country_entropy": 0.0004571856955851779
+    },
+    "NODE_0000257": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 0.9999987987999964
+      },
+      "country_entropy": 1.817215000495479e-05
+    },
+    "NODE_0000258": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 0.9999638533814241
+      },
+      "country_entropy": 0.0004296972482847875
+    },
+    "NODE_0000259": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 0.9999638339195345
+      },
+      "country_entropy": 0.0004299244059403311
+    },
+    "NODE_0000260": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 0.9999614559182146
+      },
+      "country_entropy": 0.0004553920263359612
+    },
+    "NODE_0000261": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 0.999963859137105
+      },
+      "country_entropy": 0.00042963627366573596
+    },
+    "NODE_0000262": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 0.9999987736144256
+      },
+      "country_entropy": 1.8519218474719673e-05
+    },
+    "NODE_0000263": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 0.999963859137105
+      },
+      "country_entropy": 0.00042963627366573596
+    },
+    "NODE_0000264": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 0.9999612017777942
+      },
+      "country_entropy": 0.00045807691346260956
+    },
+    "NODE_0000265": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 0.9999614529401974
+      },
+      "country_entropy": 0.00045542350951725667
+    },
+    "NODE_0000266": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 0.9999638590371036
+      },
+      "country_entropy": 0.0004296373349796127
+    },
+    "NODE_0000267": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 0.9999638590371036
+      },
+      "country_entropy": 0.0004296373349796127
+    },
+    "NODE_0000268": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 0.9999614529401974
+      },
+      "country_entropy": 0.00045542350951725667
+    },
+    "NODE_0000269": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 0.9999638590371036
+      },
+      "country_entropy": 0.0004296373349796127
+    },
+    "NODE_0000270": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 0.9999638590371036
+      },
+      "country_entropy": 0.0004296373349796127
+    },
+    "NODE_0000271": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 0.9999999759880139
+      },
+      "country_entropy": 4.5623461007039865e-07
+    },
+    "NODE_0000272": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 0.9633553355125756,
+        "usa": 0.036421329864644435
+      },
+      "country_entropy": 0.15857244467382028
+    },
+    "NODE_0000276": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 0.9999650777689468
+      },
+      "country_entropy": 0.0004165141648802576
+    },
+    "NODE_0000277": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 0.9999612193980927
+      },
+      "country_entropy": 0.00045789252486438535
+    },
+    "NODE_0000278": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 0.9999614535906246
+      },
+      "country_entropy": 0.0004554166967678162
+    },
+    "NODE_0000279": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 0.9999638590595293
+      },
+      "country_entropy": 0.00042963709846527046
+    },
+    "NODE_0000280": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 0.9999638590595293
+      },
+      "country_entropy": 0.00042963709846527046
+    },
+    "NODE_0000281": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 0.999961369984265
+      },
+      "country_entropy": 0.0004563041359000229
+    },
+    "NODE_0000282": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 0.9999981851683892
+      },
+      "country_entropy": 2.706694990635515e-05
+    },
+    "NODE_0000283": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 0.9999638562851063
+      },
+      "country_entropy": 0.00042966662631802846
+    },
+    "NODE_0000284": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 0.9999614590251044
+      },
+      "country_entropy": 0.00045535948048410407
+    },
+    "NODE_0000285": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 0.9999638592441982
+      },
+      "country_entropy": 0.00042963514413512326
+    },
+    "NODE_0000286": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 0.9999638592441982
+      },
+      "country_entropy": 0.00042963514413512326
+    },
+    "NODE_0000287": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 0.9986042853891063,
+        "usa": 0.0013730756525971468
+      },
+      "country_entropy": 0.010693249191096642
+    },
+    "NODE_0000292": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 0.9999625411681785
+      },
+      "country_entropy": 0.0004437722625757896
+    },
+    "NODE_0000293": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 0.9999613325518353
+      },
+      "country_entropy": 0.00045670181456356634
+    },
+    "NODE_0000294": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 0.9999614577025502
+      },
+      "country_entropy": 0.00045537347340532483
+    },
+    "NODE_0000295": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 0.9999638591998875
+      },
+      "country_entropy": 0.0004296356146611986
+    },
+    "NODE_0000296": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 0.9999638591998875
+      },
+      "country_entropy": 0.0004296356146611986
+    },
+    "NODE_0000297": {
+      "country": "france",
+      "country_confidence": {
+        "france": 0.9904819977362813,
+        "japan": 0.009452650380786768
+      },
+      "country_entropy": 0.05419703716951046
+    },
+    "NODE_0000298": {
+      "country": "france",
+      "country_confidence": {
+        "france": 0.9868372678185223,
+        "japan": 0.01235401874796435
+      },
+      "country_entropy": 0.0737034662974466
+    },
+    "NODE_0000299": {
+      "country": "france",
+      "country_confidence": {
+        "france": 0.6029838178047235,
+        "japan": 0.2634526359355426,
+        "united_kingdom": 0.11845567454226687,
+        "usa": 0.013855656241839731
+      },
+      "country_entropy": 0.9781658759752387
+    },
+    "NODE_0000300": {
+      "country": "japan",
+      "country_confidence": {
+        "france": 0.016835997166415977,
+        "japan": 0.9544347987592398,
+        "usa": 0.028036268570248053
+      },
+      "country_entropy": 0.21874961070921017
+    },
+    "NODE_0000301": {
+      "country": "usa",
+      "country_confidence": {
+        "japan": 0.02991787210127748,
+        "usa": 0.9692246839033481
+      },
+      "country_entropy": 0.14193149041042627
+    },
+    "NODE_0000302": {
+      "country": "usa",
+      "country_confidence": {
+        "japan": 0.009831634964636057,
+        "kenya": 0.007542390312186182,
+        "usa": 0.9823563752227532
+      },
+      "country_entropy": 0.10215957129151426
+    },
+    "NODE_0000303": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 0.9999614577025502
+      },
+      "country_entropy": 0.00045537347340532483
+    },
+    "NODE_0000304": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 0.9999638591998875
+      },
+      "country_entropy": 0.0004296356146611986
+    },
+    "NODE_0000305": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 0.9999507820278083
+      },
+      "country_entropy": 0.0005629713245397819
+    },
+    "NODE_0000306": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 0.9999638591998875
+      },
+      "country_entropy": 0.0004296356146611986
+    },
+    "NODE_0000307": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 0.9999613325518353
+      },
+      "country_entropy": 0.00045670181456356634
+    },
+    "NODE_0000308": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 0.9999614577025502
+      },
+      "country_entropy": 0.00045537347340532483
+    },
+    "NODE_0000309": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 0.9999638591998875
+      },
+      "country_entropy": 0.0004296356146611986
+    },
+    "NODE_0000310": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 0.9999638591998875
+      },
+      "country_entropy": 0.0004296356146611986
+    },
+    "NODE_0000311": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 0.9999614577025502
+      },
+      "country_entropy": 0.00045537347340532483
+    },
+    "NODE_0000312": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 0.9999638591998875
+      },
+      "country_entropy": 0.0004296356146611986
+    },
+    "NODE_0000313": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 0.9999638591998875
+      },
+      "country_entropy": 0.0004296356146611986
+    },
+    "NODE_0000314": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 0.9999595526708415
+      },
+      "country_entropy": 0.0004752750126586939
+    },
+    "NODE_0000316": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 0.9999625713353635
+      },
+      "country_entropy": 0.00044344294034935627
+    },
+    "NODE_0000317": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 0.9999626751772731
+      },
+      "country_entropy": 0.00044234600625102377
+    },
+    "NODE_0000319": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 0.999962676755811
+      },
+      "country_entropy": 0.0004423292663651009
+    },
+    "NODE_0000320": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 0.999962680507458
+      },
+      "country_entropy": 0.0004422896887071243
+    },
+    "NODE_0000321": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 0.9999626820015767
+      },
+      "country_entropy": 0.0004422738465413925
+    },
+    "NODE_0000322": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 0.9999627217353466
+      },
+      "country_entropy": 0.000441850579203616
+    },
+    "NODE_0000323": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 0.9999639004446759
+      },
+      "country_entropy": 0.00042919492447100467
+    },
+    "NODE_0000324": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 0.9999626345923155
+      },
+      "country_entropy": 0.0004427784549494256
+    },
+    "NODE_0000325": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 0.9999613233339328
+      },
+      "country_entropy": 0.0004567992352469549
+    },
+    "NODE_0000326": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 0.9999612840197974
+      },
+      "country_entropy": 0.00045721653128546363
+    },
+    "NODE_0000327": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 0.9999614559794654
+      },
+      "country_entropy": 0.0004553916834161111
+    },
+    "NODE_0000328": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 0.9999638591419685
+      },
+      "country_entropy": 0.00042963622920782097
+    },
+    "NODE_0000329": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 0.9999638591419685
+      },
+      "country_entropy": 0.00042963622920782097
+    },
+    "NODE_0000330": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 0.9999612885827082
+      },
+      "country_entropy": 0.00045716831739354746
+    },
+    "NODE_0000331": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 0.99996145614324
+      },
+      "country_entropy": 0.00045538995692012815
+    },
+    "NODE_0000332": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 0.9999638591475131
+      },
+      "country_entropy": 0.0004296361704775284
+    },
+    "NODE_0000333": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 0.9999638591475131
+      },
+      "country_entropy": 0.0004296361704775284
+    },
+    "NODE_0000334": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 0.99996145614324
+      },
+      "country_entropy": 0.00045538995692012815
+    },
+    "NODE_0000335": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 0.9999638591475131
+      },
+      "country_entropy": 0.0004296361704775284
+    },
+    "NODE_0000336": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 0.9999638591475131
+      },
+      "country_entropy": 0.0004296361704775284
+    },
+    "NODE_0000337": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 0.9999612780571036
+      },
+      "country_entropy": 0.00045727953879899646
+    },
+    "NODE_0000338": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 0.9999612883677285
+      },
+      "country_entropy": 0.0004571705826974786
+    },
+    "NODE_0000339": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 0.9999614561354594
+      },
+      "country_entropy": 0.0004553900387848782
+    },
+    "NODE_0000340": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 0.9999638591472483
+      },
+      "country_entropy": 0.00042963617327923623
+    },
+    "NODE_0000341": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 0.9999638591472483
+      },
+      "country_entropy": 0.00042963617327923623
+    },
+    "NODE_0000342": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 0.9999614561354594
+      },
+      "country_entropy": 0.0004553900387848782
+    },
+    "NODE_0000343": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 0.9999638591472483
+      },
+      "country_entropy": 0.00042963617327923623
+    },
+    "NODE_0000344": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 0.9999638591472483
+      },
+      "country_entropy": 0.00042963617327923623
+    },
+    "NODE_0000345": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 0.9999612883677285
+      },
+      "country_entropy": 0.0004571705826974786
+    },
+    "NODE_0000346": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 0.9999614561354594
+      },
+      "country_entropy": 0.0004553900387848782
+    },
+    "NODE_0000347": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 0.9999638591472483
+      },
+      "country_entropy": 0.00042963617327923623
+    },
+    "NODE_0000348": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 0.9999638591472483
+      },
+      "country_entropy": 0.00042963617327923623
+    },
+    "NODE_0000349": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 0.9999614561354594
+      },
+      "country_entropy": 0.0004553900387848782
+    },
+    "NODE_0000350": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 0.9999638591472483
+      },
+      "country_entropy": 0.00042963617327923623
+    },
+    "NODE_0000351": {
+      "country": "japan",
+      "country_confidence": {
+        "japan": 0.9999638591472483
+      },
+      "country_entropy": 0.00042963617327923623
+    },
+    "OC43/human/Mex/LRTI_238/2011_spike": {
+      "country": "mexico",
+      "country_confidence": {
+        "mexico": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "OC43/human/USA/007_11/2000_spike": {
+      "country": "usa",
+      "country_confidence": {
+        "usa": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "OC43/human/USA/008_5/2000_spike": {
+      "country": "usa",
+      "country_confidence": {
+        "usa": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "OC43/human/USA/832_27/1983_spike": {
+      "country": "usa",
+      "country_confidence": {
+        "usa": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "OC43/human/USA/851_15/1985_spike": {
+      "country": "usa",
+      "country_confidence": {
+        "usa": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "OC43/human/USA/871_25/1987_spike": {
+      "country": "usa",
+      "country_confidence": {
+        "usa": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "OC43/human/USA/872_5/1987_spike": {
+      "country": "usa",
+      "country_confidence": {
+        "usa": 0.9999999999999999
+      },
+      "country_entropy": -9.99866855976916e-13
+    },
+    "OC43/human/USA/873_16/1987_spike": {
+      "country": "usa",
+      "country_confidence": {
+        "usa": 0.9999999999999999
+      },
+      "country_entropy": -9.99866855976916e-13
+    },
+    "OC43/human/USA/873_19/1987_spike": {
+      "country": "usa",
+      "country_confidence": {
+        "usa": 0.9999999999999999
+      },
+      "country_entropy": -9.99866855976916e-13
+    },
+    "OC43/human/USA/873_6/1987_spike": {
+      "country": "usa",
+      "country_confidence": {
+        "usa": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "OC43/human/USA/8912_37/1989_spike": {
+      "country": "usa",
+      "country_confidence": {
+        "usa": 0.9999999999999999
+      },
+      "country_entropy": -9.99866855976916e-13
+    },
+    "OC43/human/USA/901_33/1990_spike": {
+      "country": "usa",
+      "country_confidence": {
+        "usa": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "OC43/human/USA/901_41/1990_spike": {
+      "country": "usa",
+      "country_confidence": {
+        "usa": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "OC43/human/USA/901_43/1990_spike": {
+      "country": "usa",
+      "country_confidence": {
+        "usa": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "OC43/human/USA/901_54/1990_spike": {
+      "country": "usa",
+      "country_confidence": {
+        "usa": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "OC43/human/USA/911_11/1991_spike": {
+      "country": "usa",
+      "country_confidence": {
+        "usa": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "OC43/human/USA/911_38/1991_spike": {
+      "country": "usa",
+      "country_confidence": {
+        "usa": 0.9999999999999999
+      },
+      "country_entropy": -9.99866855976916e-13
+    },
+    "OC43/human/USA/911_58/1991_spike": {
+      "country": "usa",
+      "country_confidence": {
+        "usa": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "OC43/human/USA/911_66/1991_spike": {
+      "country": "usa",
+      "country_confidence": {
+        "usa": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "OC43/human/USA/912_10/1991_spike": {
+      "country": "usa",
+      "country_confidence": {
+        "usa": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "OC43/human/USA/912_11/1991_spike": {
+      "country": "usa",
+      "country_confidence": {
+        "usa": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "OC43/human/USA/912_36/1991_spike": {
+      "country": "usa",
+      "country_confidence": {
+        "usa": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "OC43/human/USA/912_6/1991_spike": {
+      "country": "usa",
+      "country_confidence": {
+        "usa": 0.9999999999999999
+      },
+      "country_entropy": -9.99866855976916e-13
+    },
+    "OC43/human/USA/913_29/1991_spike": {
+      "country": "usa",
+      "country_confidence": {
+        "usa": 0.9999999999999999
+      },
+      "country_entropy": -9.99866855976916e-13
+    },
+    "OC43/human/USA/9211_43/1992_spike": {
+      "country": "usa",
+      "country_confidence": {
+        "usa": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "OC43/human/USA/9212_33/1992_spike": {
+      "country": "usa",
+      "country_confidence": {
+        "usa": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "OC43/human/USA/925_1/1992_spike": {
+      "country": "usa",
+      "country_confidence": {
+        "usa": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "OC43/human/USA/931_85/1993_spike": {
+      "country": "usa",
+      "country_confidence": {
+        "usa": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "OC43/human/USA/951_15/1995_spike": {
+      "country": "usa",
+      "country_confidence": {
+        "usa": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "OC43/human/USA/951_18/1995_spike": {
+      "country": "usa",
+      "country_confidence": {
+        "usa": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "OC43/human/USA/952_23/1995_spike": {
+      "country": "usa",
+      "country_confidence": {
+        "usa": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "OC43/human/USA/953_23/1995_spike": {
+      "country": "usa",
+      "country_confidence": {
+        "usa": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "OC43/human/USA/9612_29/1996_spike": {
+      "country": "usa",
+      "country_confidence": {
+        "usa": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "OC43/human/USA/9612_48/1996_spike": {
+      "country": "usa",
+      "country_confidence": {
+        "usa": 0.9999999999999999
+      },
+      "country_entropy": -9.99866855976916e-13
+    },
+    "OC43/human/USA/9612_9/1996_spike": {
+      "country": "usa",
+      "country_confidence": {
+        "usa": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "OC43/human/USA/965_6/1996_spike": {
+      "country": "usa",
+      "country_confidence": {
+        "usa": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "OC43/human/USA/9712_13/1997_spike": {
+      "country": "usa",
+      "country_confidence": {
+        "usa": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "OC43/human/USA/9712_31/1997_spike": {
+      "country": "usa",
+      "country_confidence": {
+        "usa": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "OC43/human/USA/971_5/1997_spike": {
+      "country": "usa",
+      "country_confidence": {
+        "usa": 0.9999999999999999
+      },
+      "country_entropy": -9.99866855976916e-13
+    },
+    "OC43/human/USA/982_4/1998_spike": {
+      "country": "usa",
+      "country_confidence": {
+        "usa": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "OC43/human/USA/991_19/1999_spike": {
+      "country": "usa",
+      "country_confidence": {
+        "usa": 0.9999999999999999
+      },
+      "country_entropy": -9.99866855976916e-13
+    },
+    "OC43/human/USA/991_5/1999_spike": {
+      "country": "usa",
+      "country_confidence": {
+        "usa": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "OC43_KLF_01_2018_spike": {
+      "country": "kenya",
+      "country_confidence": {
+        "kenya": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "OC43_KLF_02_2017_spike": {
+      "country": "kenya",
+      "country_confidence": {
+        "kenya": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "OC43_spike": {
+      "country": "china",
+      "country_confidence": {
+        "china": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    }
+  }
+}
