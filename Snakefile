@@ -192,23 +192,23 @@ rule translate:
             --reference-sequence {input.reference} \
             --output-node-data {output.node_data}
         """
-
-rule traits:
-    message: "Inferring ancestral traits for country"
-    input:
-        tree = rules.refine.output.tree,
-        metadata = rules.parse.output.metadata
-    output:
-        node_data = "results/traits_{virus}_{gene}.json",
-    shell:
-        """
-        augur traits \
-            --tree {input.tree} \
-            --metadata {input.metadata} \
-            --output-node-data {output.node_data} \
-            --columns "country" \
-            --confidence
-        """
+#
+# rule traits:
+#     message: "Inferring ancestral traits for country"
+#     input:
+#         tree = rules.refine.output.tree,
+#         metadata = rules.parse.output.metadata
+#     output:
+#         node_data = "results/traits_{virus}_{gene}.json",
+#     shell:
+#         """
+#         augur traits \
+#             --tree {input.tree} \
+#             --metadata {input.metadata} \
+#             --output-node-data {output.node_data} \
+#             --columns "country" \
+#             --confidence
+#         """
 
 rule export:
     message: "Exporting data files for for auspice"
@@ -216,7 +216,7 @@ rule export:
         tree = rules.refine.output.tree,
         metadata = rules.parse.output.metadata,
         branch_lengths = rules.refine.output.node_data,
-        traits = rules.traits.output.node_data,
+        # traits = rules.traits.output.node_data,
         nt_muts = rules.ancestral.output.node_data,
         aa_muts = rules.translate.output.node_data,
         lat_longs = files.lat_longs,
@@ -231,7 +231,7 @@ rule export:
         augur export v2 \
             --tree {input.tree} \
             --metadata {input.metadata} \
-            --node-data {input.branch_lengths} {input.traits} {input.nt_muts} {input.aa_muts} \
+            --node-data {input.branch_lengths} {input.nt_muts} {input.aa_muts} \
             --auspice-config {input.auspice_config} \
             --lat-longs {input.lat_longs} \
             --colors {input.colors} \

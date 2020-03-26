@@ -1,0 +1,160 @@
+Building DAG of jobs...
+Using shell: /bin/bash
+Provided cores: 4
+Rules claiming more threads will be scaled down.
+Job counts:
+	count	jobs
+	1	all
+	10	export
+	10	traits
+	21
+
+[Thu Mar 26 12:48:05 2020]
+Job 58: Inferring ancestral traits for country
+
+
+[Thu Mar 26 12:48:05 2020]
+Job 13: Inferring ancestral traits for country
+
+
+[Thu Mar 26 12:48:05 2020]
+Job 23: Inferring ancestral traits for country
+
+
+[Thu Mar 26 12:48:05 2020]
+Job 38: Inferring ancestral traits for country
+
+[Thu Mar 26 12:48:13 2020]
+Finished job 38.
+1 of 21 steps (5%) done
+
+[Thu Mar 26 12:48:13 2020]
+Job 6: Exporting data files for for auspice
+
+[Thu Mar 26 12:48:19 2020]
+Finished job 6.
+2 of 21 steps (10%) done
+
+[Thu Mar 26 12:48:19 2020]
+Job 48: Inferring ancestral traits for country
+
+[Thu Mar 26 12:48:23 2020]
+Finished job 58.
+3 of 21 steps (14%) done
+
+[Thu Mar 26 12:48:23 2020]
+Job 10: Exporting data files for for auspice
+
+[Thu Mar 26 12:48:28 2020]
+Finished job 48.
+4 of 21 steps (19%) done
+
+[Thu Mar 26 12:48:28 2020]
+Job 8: Exporting data files for for auspice
+
+[Thu Mar 26 12:48:29 2020]
+Finished job 23.
+5 of 21 steps (24%) done
+
+[Thu Mar 26 12:48:29 2020]
+Job 3: Exporting data files for for auspice
+
+[Thu Mar 26 12:48:30 2020]
+Finished job 13.
+6 of 21 steps (29%) done
+
+[Thu Mar 26 12:48:30 2020]
+Job 1: Exporting data files for for auspice
+
+[Thu Mar 26 12:48:34 2020]
+Finished job 10.
+7 of 21 steps (33%) done
+
+[Thu Mar 26 12:48:34 2020]
+Job 18: Inferring ancestral traits for country
+
+[Thu Mar 26 12:48:34 2020]
+Finished job 8.
+8 of 21 steps (38%) done
+
+[Thu Mar 26 12:48:34 2020]
+Job 53: Inferring ancestral traits for country
+
+[Thu Mar 26 12:48:36 2020]
+Finished job 3.
+9 of 21 steps (43%) done
+
+[Thu Mar 26 12:48:36 2020]
+Job 43: Inferring ancestral traits for country
+
+[Thu Mar 26 12:48:37 2020]
+Finished job 1.
+10 of 21 steps (48%) done
+
+[Thu Mar 26 12:48:37 2020]
+Job 28: Inferring ancestral traits for country
+
+[Thu Mar 26 12:48:41 2020]
+Finished job 18.
+11 of 21 steps (52%) done
+
+[Thu Mar 26 12:48:41 2020]
+Job 2: Exporting data files for for auspice
+
+[Thu Mar 26 12:48:42 2020]
+Finished job 43.
+12 of 21 steps (57%) done
+
+[Thu Mar 26 12:48:42 2020]
+Job 7: Exporting data files for for auspice
+
+[Thu Mar 26 12:48:42 2020]
+Finished job 53.
+13 of 21 steps (62%) done
+
+[Thu Mar 26 12:48:42 2020]
+Job 9: Exporting data files for for auspice
+
+[Thu Mar 26 12:48:43 2020]
+Finished job 28.
+14 of 21 steps (67%) done
+
+[Thu Mar 26 12:48:43 2020]
+Job 4: Exporting data files for for auspice
+
+[Thu Mar 26 12:48:47 2020]
+Finished job 2.
+15 of 21 steps (71%) done
+
+[Thu Mar 26 12:48:47 2020]
+Job 33: Inferring ancestral traits for country
+
+[Thu Mar 26 12:48:47 2020]
+Finished job 7.
+16 of 21 steps (76%) done
+[Thu Mar 26 12:48:47 2020]
+Finished job 9.
+17 of 21 steps (81%) done
+[Thu Mar 26 12:48:47 2020]
+Finished job 4.
+18 of 21 steps (86%) done
+[Thu Mar 26 12:48:49 2020]
+Finished job 33.
+19 of 21 steps (90%) done
+
+[Thu Mar 26 12:48:49 2020]
+Job 5: Exporting data files for for auspice
+
+[Thu Mar 26 12:48:52 2020]
+Finished job 5.
+20 of 21 steps (95%) done
+
+[Thu Mar 26 12:48:52 2020]
+localrule all:
+    input: auspice/seasonal_corona_oc43_spike.json, auspice/seasonal_corona_oc43_he.json, auspice/seasonal_corona_oc43_full.json, auspice/seasonal_corona_hku1_spike.json, auspice/seasonal_corona_hku1_he.json, auspice/seasonal_corona_hku1_full.json, auspice/seasonal_corona_229e_spike.json, auspice/seasonal_corona_229e_full.json, auspice/seasonal_corona_nl63_spike.json, auspice/seasonal_corona_nl63_full.json
+    jobid: 0
+
+[Thu Mar 26 12:48:52 2020]
+Finished job 0.
+21 of 21 steps (100%) done
+Complete log: /Users/katekistler/nextstrain/seasonal-cov/.snakemake/log/2020-03-26T124804.868512.snakemake.log
