@@ -1,0 +1,24 @@
+{
+  "title": "Genetic diversity of seasonal coronaviruses. Data collected by Vipr",
+  "maintainers": [
+    {"name": "Katie Kistler"}
+  ],
+  "colorings": [
+    {
+      "key": "country",
+      "title": "country",
+      "type": "categorical"
+    }
+  ],
+  "display_defaults": {
+    "color_by": "country",
+    "map_triplicate": true
+  },
+  "filters": [
+    "host"
+  ],
+  "panels": [
+    "tree",
+    "map"
+  ]
+}
