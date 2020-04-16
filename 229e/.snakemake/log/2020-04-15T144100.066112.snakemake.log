@@ -1,0 +1,314 @@
+Building DAG of jobs...
+Using shell: /bin/bash
+Provided cores: 4
+Rules claiming more threads will be scaled down.
+Job counts:
+	count	jobs
+	4	align
+	1	all
+	6	ancestral
+	6	export
+	4	filter
+	2	parse
+	4	refine
+	6	translate
+	4	tree
+	37
+
+[Wed Apr 15 14:41:00 2020]
+Job 71: 
+        Filtering to
+          - 5000 sequence(s) per country
+          - minimum genome length of 200
+        
+
+
+[Wed Apr 15 14:41:00 2020]
+Job 19: Reconstructing ancestral sequences and mutations
+
+
+[Wed Apr 15 14:41:00 2020]
+Job 39: Reconstructing ancestral sequences and mutations
+
+
+[Wed Apr 15 14:41:00 2020]
+Job 68: 
+        Filtering to
+          - 5000 sequence(s) per country
+          - minimum genome length of 200
+        
+
+[Wed Apr 15 14:41:03 2020]
+Finished job 71.
+1 of 37 steps (3%) done
+[Wed Apr 15 14:41:03 2020]
+Finished job 68.
+2 of 37 steps (5%) done
+
+[Wed Apr 15 14:41:03 2020]
+Job 51: 
+        Aligning sequences to config/229e_protein4a_reference.gb
+          - filling gaps with N
+        
+
+
+[Wed Apr 15 14:41:03 2020]
+Job 60: 
+        Aligning sequences to config/229e_membrane_reference.gb
+          - filling gaps with N
+        
+
+[Wed Apr 15 14:41:03 2020]
+Finished job 39.
+3 of 37 steps (8%) done
+
+[Wed Apr 15 14:41:03 2020]
+Job 40: Translating amino acid sequences
+
+[Wed Apr 15 14:41:04 2020]
+Finished job 19.
+4 of 37 steps (11%) done
+
+[Wed Apr 15 14:41:04 2020]
+Job 20: Translating amino acid sequences
+
+[Wed Apr 15 14:41:06 2020]
+Finished job 40.
+5 of 37 steps (14%) done
+
+[Wed Apr 15 14:41:06 2020]
+Job 8: Exporting data files for for auspice
+
+[Wed Apr 15 14:41:06 2020]
+Finished job 51.
+6 of 37 steps (16%) done
+
+[Wed Apr 15 14:41:06 2020]
+Job 50: Building tree
+
+[Wed Apr 15 14:41:06 2020]
+Finished job 60.
+7 of 37 steps (19%) done
+
+[Wed Apr 15 14:41:06 2020]
+Job 59: Building tree
+
+[Wed Apr 15 14:41:07 2020]
+Finished job 20.
+8 of 37 steps (22%) done
+
+[Wed Apr 15 14:41:07 2020]
+Job 3: Exporting data files for for auspice
+
+[Wed Apr 15 14:41:09 2020]
+Finished job 8.
+9 of 37 steps (24%) done
+
+[Wed Apr 15 14:41:09 2020]
+Job 26: Parsing fasta into sequences and metadata
+
+[Wed Apr 15 14:41:09 2020]
+Finished job 50.
+10 of 37 steps (27%) done
+
+[Wed Apr 15 14:41:09 2020]
+Job 21: 
+        Refining tree
+        
+
+[Wed Apr 15 14:41:09 2020]
+Finished job 59.
+11 of 37 steps (30%) done
+
+[Wed Apr 15 14:41:09 2020]
+Job 33: 
+        Refining tree
+        
+
+[Wed Apr 15 14:41:10 2020]
+Finished job 3.
+12 of 37 steps (32%) done
+
+[Wed Apr 15 14:41:10 2020]
+Job 30: Parsing fasta into sequences and metadata
+
+[Wed Apr 15 14:41:12 2020]
+Finished job 26.
+13 of 37 steps (35%) done
+
+[Wed Apr 15 14:41:12 2020]
+Job 69: 
+        Filtering to
+          - 5000 sequence(s) per country
+          - minimum genome length of 200
+        
+
+[Wed Apr 15 14:41:13 2020]
+Finished job 30.
+14 of 37 steps (38%) done
+
+[Wed Apr 15 14:41:13 2020]
+Job 70: 
+        Filtering to
+          - 5000 sequence(s) per country
+          - minimum genome length of 200
+        
+
+[Wed Apr 15 14:41:16 2020]
+Finished job 69.
+15 of 37 steps (41%) done
+
+[Wed Apr 15 14:41:16 2020]
+Job 54: 
+        Aligning sequences to config/229e_protein4b_reference.gb
+          - filling gaps with N
+        
+
+[Wed Apr 15 14:41:17 2020]
+Finished job 70.
+16 of 37 steps (43%) done
+
+[Wed Apr 15 14:41:17 2020]
+Job 57: 
+        Aligning sequences to config/229e_envelope_reference.gb
+          - filling gaps with N
+        
+
+[Wed Apr 15 14:41:20 2020]
+Finished job 54.
+17 of 37 steps (46%) done
+
+[Wed Apr 15 14:41:20 2020]
+Job 53: Building tree
+
+[Wed Apr 15 14:41:21 2020]
+Finished job 57.
+18 of 37 steps (49%) done
+
+[Wed Apr 15 14:41:21 2020]
+Job 56: Building tree
+
+[Wed Apr 15 14:41:24 2020]
+Finished job 53.
+19 of 37 steps (51%) done
+
+[Wed Apr 15 14:41:24 2020]
+Job 25: 
+        Refining tree
+        
+
+[Wed Apr 15 14:41:25 2020]
+Finished job 56.
+20 of 37 steps (54%) done
+
+[Wed Apr 15 14:41:25 2020]
+Job 29: 
+        Refining tree
+        
+
+[Wed Apr 15 14:42:33 2020]
+Finished job 21.
+21 of 37 steps (57%) done
+
+[Wed Apr 15 14:42:33 2020]
+Job 23: Reconstructing ancestral sequences and mutations
+
+[Wed Apr 15 14:42:36 2020]
+Finished job 23.
+22 of 37 steps (59%) done
+
+[Wed Apr 15 14:42:36 2020]
+Job 24: Translating amino acid sequences
+
+[Wed Apr 15 14:42:37 2020]
+Finished job 33.
+23 of 37 steps (62%) done
+
+[Wed Apr 15 14:42:37 2020]
+Job 35: Reconstructing ancestral sequences and mutations
+
+[Wed Apr 15 14:42:39 2020]
+Finished job 24.
+24 of 37 steps (65%) done
+
+[Wed Apr 15 14:42:39 2020]
+Job 4: Exporting data files for for auspice
+
+[Wed Apr 15 14:42:40 2020]
+Finished job 35.
+25 of 37 steps (68%) done
+
+[Wed Apr 15 14:42:40 2020]
+Job 36: Translating amino acid sequences
+
+[Wed Apr 15 14:42:42 2020]
+Finished job 4.
+26 of 37 steps (70%) done
+[Wed Apr 15 14:42:43 2020]
+Finished job 36.
+27 of 37 steps (73%) done
+
+[Wed Apr 15 14:42:43 2020]
+Job 7: Exporting data files for for auspice
+
+[Wed Apr 15 14:42:44 2020]
+Finished job 25.
+28 of 37 steps (76%) done
+
+[Wed Apr 15 14:42:44 2020]
+Job 27: Reconstructing ancestral sequences and mutations
+
+[Wed Apr 15 14:42:46 2020]
+Finished job 7.
+29 of 37 steps (78%) done
+[Wed Apr 15 14:42:47 2020]
+Finished job 27.
+30 of 37 steps (81%) done
+
+[Wed Apr 15 14:42:47 2020]
+Job 28: Translating amino acid sequences
+
+[Wed Apr 15 14:42:49 2020]
+Finished job 28.
+31 of 37 steps (84%) done
+
+[Wed Apr 15 14:42:49 2020]
+Job 5: Exporting data files for for auspice
+
+[Wed Apr 15 14:42:50 2020]
+Finished job 29.
+32 of 37 steps (86%) done
+
+[Wed Apr 15 14:42:50 2020]
+Job 31: Reconstructing ancestral sequences and mutations
+
+[Wed Apr 15 14:42:51 2020]
+Finished job 5.
+33 of 37 steps (89%) done
+[Wed Apr 15 14:42:52 2020]
+Finished job 31.
+34 of 37 steps (92%) done
+
+[Wed Apr 15 14:42:52 2020]
+Job 32: Translating amino acid sequences
+
+[Wed Apr 15 14:42:53 2020]
+Finished job 32.
+35 of 37 steps (95%) done
+
+[Wed Apr 15 14:42:53 2020]
+Job 6: Exporting data files for for auspice
+
+[Wed Apr 15 14:42:55 2020]
+Finished job 6.
+36 of 37 steps (97%) done
+
+[Wed Apr 15 14:42:55 2020]
+localrule all:
+    input: auspice/seasonal_corona_229e_replicase1ab.json, auspice/seasonal_corona_229e_replicase1a.json, auspice/seasonal_corona_229e_spike.json, auspice/seasonal_corona_229e_protein4a.json, auspice/seasonal_corona_229e_protein4b.json, auspice/seasonal_corona_229e_envelope.json, auspice/seasonal_corona_229e_membrane.json, auspice/seasonal_corona_229e_nucleocapsid.json
+    jobid: 0
+
+[Wed Apr 15 14:42:55 2020]
+Finished job 0.
+37 of 37 steps (100%) done
+Complete log: /Users/katekistler/nextstrain/seasonal-cov/229e/.snakemake/log/2020-04-15T144100.066112.snakemake.log

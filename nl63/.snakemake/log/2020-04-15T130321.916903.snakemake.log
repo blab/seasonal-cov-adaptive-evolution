@@ -1,0 +1,71 @@
+Building DAG of jobs...
+Using shell: /bin/bash
+Provided cores: 4
+Rules claiming more threads will be scaled down.
+Job counts:
+	count	jobs
+	1	align
+	1	all
+	1	ancestral
+	1	export
+	1	refine
+	1	translate
+	1	tree
+	7
+
+[Wed Apr 15 13:03:21 2020]
+Job 12: 
+        Aligning sequences to config/nl63_full_reference.gb
+          - filling gaps with N
+        
+
+[Wed Apr 15 13:51:35 2020]
+Finished job 12.
+1 of 7 steps (14%) done
+
+[Wed Apr 15 13:51:35 2020]
+Job 11: Building tree
+
+[Wed Apr 15 13:51:48 2020]
+Finished job 11.
+2 of 7 steps (29%) done
+
+[Wed Apr 15 13:51:48 2020]
+Job 3: 
+        Refining tree
+        
+
+[Wed Apr 15 13:57:29 2020]
+Finished job 3.
+3 of 7 steps (43%) done
+
+[Wed Apr 15 13:57:29 2020]
+Job 5: Reconstructing ancestral sequences and mutations
+
+[Wed Apr 15 13:57:52 2020]
+Finished job 5.
+4 of 7 steps (57%) done
+
+[Wed Apr 15 13:57:52 2020]
+Job 6: Translating amino acid sequences
+
+[Wed Apr 15 13:57:54 2020]
+Finished job 6.
+5 of 7 steps (71%) done
+
+[Wed Apr 15 13:57:54 2020]
+Job 1: Exporting data files for for auspice
+
+[Wed Apr 15 13:57:56 2020]
+Finished job 1.
+6 of 7 steps (86%) done
+
+[Wed Apr 15 13:57:56 2020]
+localrule all:
+    input: auspice/seasonal_corona_nl63_full.json, auspice/seasonal_corona_nl63_spike.json
+    jobid: 0
+
+[Wed Apr 15 13:57:56 2020]
+Finished job 0.
+7 of 7 steps (100%) done
+Complete log: /Users/katekistler/nextstrain/seasonal-cov/nl63/.snakemake/log/2020-04-15T130321.916903.snakemake.log

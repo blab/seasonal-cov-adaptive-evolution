@@ -1,5 +1,5 @@
-LOCUS       HKU1_HE                 1161 bp ss-RNA     linear   VRL 13-AUG-2018
-DEFINITION  HE sequence extracted from whole genome Genbank file.
+LOCUS       HKU1_he                 1161 bp    DNA              UNK 01-JAN-1980
+DEFINITION  hesequence extracted from whole genome Genbank file.
 ACCESSION   NC_006577
 VERSION     NC_006577.2
 KEYWORDS    .
@@ -8,31 +8,16 @@ SOURCE      .
             .
 FEATURES             Location/Qualifiers
      source          1..1161
-                     /organism="Human coronavirus HKU1"
+                     /organsism="Human coronavirus HKU1"
                      /mol_type="genomic RNA"
-                     /isolate="HKU1"
-                     /isolation_source="patient with pneumonia"
-                     /host="Homo sapiens"
-                     /db_xref="taxon:290028"
-                     /genotype="A"
-     gene            1..1161
-                     /gene="HE"
-                     /locus_tag="HCHV1gp2"
-                     /db_xref="GeneID:3200425"
      CDS             1..1161
-                     /gene="HE"
-                     /locus_tag="HCHV1gp2"
-                     /codon_start=1
-                     /product="hemagglutinin-esterase glycoprotein"
-                     /protein_id="YP_173237.1"
-                     /db_xref="GeneID:3200425"
-                     /translation="MLIIFLFFYFCYGFNEPLNVVSHLNHDWFLFGDSRSDCNHINNL
-                     KIKNFDYLDIHPSLCNNGKISSSAGDSIFKSFHFTRFYNYTGEGDQIIFYEGVNFNPY
-                     HRFKCFPNGSNDVWLLNKVRFYRALYSNMAFFRYLTFVDIPYNVSLSKFNSCKSDILS
-                     LNNPIFINYSKEVYFTLLGCSLYLVPLCLFKSNFSQYYYNIDTGSVYGFSNVVYPDLD
-                     CIYISLKPGSYKVSTTAPFLSLPTKALCFDKSKQFVPVQVVDSRWNNERASDISLSVA
-                     CQLPYCYFRNSSANYVGKYDINHGDSGFISILSGLLYNVSCISYYGVFLYDNFTSIWP
-                     YYSFGRCPTSSIIKHPICVYDFLPIILQGILLCLALLFVVFLLFLLYNDKSH"
+                     /translation="MLIIFLFFYFCYGFNEPLNVVSHLNHDWFLFGDSRSDCNHINNLK
+                     IKNFDYLDIHPSLCNNGKISSSAGDSIFKSFHFTRFYNYTGEGDQIIFYEGVNFNPYHR
+                     FKCFPNGSNDVWLLNKVRFYRALYSNMAFFRYLTFVDIPYNVSLSKFNSCKSDILSLNN
+                     PIFINYSKEVYFTLLGCSLYLVPLCLFKSNFSQYYYNIDTGSVYGFSNVVYPDLDCIYI
+                     SLKPGSYKVSTTAPFLSLPTKALCFDKSKQFVPVQVVDSRWNNERASDISLSVACQLPY
+                     CYFRNSSANYVGKYDINHGDSGFISILSGLLYNVSCISYYGVFLYDNFTSIWPYYSFGR
+                     CPTSSIIKHPICVYDFLPIILQGILLCLALLFVVFLLFLLYNDKSH*"
 ORIGIN
         1 atgttaatta tttttttatt tttttatttc tgttatggtt ttaatgaacc tcttaatgtt
        61 gtgtctcatt taaaccatga ctggttttta tttggtgata gtcgttctga ttgtaaccat

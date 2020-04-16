@@ -1,5 +1,6 @@
 
-GENE = ["full", "spike", "replicase", "protein3", "envelope", "membrane", "nucleocapsid"]
+# GENE = ["full"]
+GENE = ["spike", "replicase1ab", "protein3", "envelope", "membrane", "nucleocapsid"]
 
 
 
@@ -31,7 +32,7 @@ rule download:
             --database vdb \
             --virus seasonal_corona \
             --fasta_fields {params.fasta_fields} \
-            --select sequence_locus:{wildcards.gene} subtype:{wildcards.virus}\
+            --select sequence_locus:{wildcards.gene} subtype: nl63 \
             --path $(dirname {output.sequences}) \
             --fstem $(basename {output.sequences} .fasta)
         """
@@ -54,14 +55,13 @@ rule parse:
             --fields {params.fasta_fields} \
         """
 
-# def _get_min_length_by_wildcards(wildcards):
-#     if wildcards.gene == "spike":
-#         min_length = 1000
-#     elif wildcards.gene == "he":
-#         min_length = 1000
-#     elif wildcards.gene == "genome":
-#         min_length = 20000
-#     return(min_length)
+def _get_min_length_by_wildcards(wildcards):
+    if wildcards.gene == "full":
+        min_length = 1000
+    #All genes are already filtered for size when subalignment fastas are made
+    else:
+        min_length = 200
+    return(min_length)
 
 rule filter:
     message:
@@ -78,7 +78,7 @@ rule filter:
     params:
         group_by = "country",
         sequences_per_group = 5000,
-        min_length = 1000
+        min_length = _get_min_length_by_wildcards
     shell:
         """
         augur filter \

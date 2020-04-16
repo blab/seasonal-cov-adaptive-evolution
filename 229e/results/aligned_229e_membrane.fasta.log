@@ -1,0 +1,52 @@
+inputfile = orig
+26 x 678 - 678 d
+nthread = 1
+nthreadpair = 1
+nthreadtb = 1
+ppenalty_ex = 0
+stacksize: 8192 kb
+generating a scoring matrix for nucleotide (dist=200) ... done
+Gap Penalty = -1.53, +0.00, +0.00
+
+
+
+Making a distance matrix ..
+    1 / 26 (thread    0)
+done.
+
+Constructing a UPGMA tree (efffree=0) ... 
+    0 / 26   10 / 26   20 / 26
+done.
+
+Progressive alignment 1/2... 
+STEP     1 / 25 (thread    0) fSTEP     2 / 25 (thread    0) fSTEP     3 / 25 (thread    0) fSTEP     4 / 25 (thread    0) fSTEP     5 / 25 (thread    0) fSTEP     6 / 25 (thread    0) fSTEP     7 / 25 (thread    0) fSTEP     8 / 25 (thread    0) fSTEP     9 / 25 (thread    0) fSTEP    10 / 25 (thread    0) fSTEP    11 / 25 (thread    0) fSTEP    12 / 25 (thread    0) fSTEP    13 / 25 (thread    0) fSTEP    14 / 25 (thread    0) fSTEP    15 / 25 (thread    0) fSTEP    16 / 25 (thread    0) fSTEP    17 / 25 (thread    0) fSTEP    18 / 25 (thread    0) fSTEP    19 / 25 (thread    0) fSTEP    20 / 25 (thread    0) fSTEP    21 / 25 (thread    0) fSTEP    22 / 25 (thread    0) fSTEP    23 / 25 (thread    0) fSTEP    24 / 25 (thread    0) fSTEP    25 / 25 (thread    0) f
+done.
+
+Making a distance matrix from msa.. 
+    0 / 26 (thread    0)
+done.
+
+Constructing a UPGMA tree (efffree=1) ... 
+    0 / 26   10 / 26   20 / 26
+done.
+
+Progressive alignment 2/2... 
+STEP     1 / 25 (thread    0) fSTEP     2 / 25 (thread    0) fSTEP     3 / 25 (thread    0) fSTEP     4 / 25 (thread    0) fSTEP     5 / 25 (thread    0) fSTEP     6 / 25 (thread    0) fSTEP     7 / 25 (thread    0) fSTEP     8 / 25 (thread    0) fSTEP     9 / 25 (thread    0) fSTEP    10 / 25 (thread    0) fSTEP    11 / 25 (thread    0) fSTEP    12 / 25 (thread    0) fSTEP    13 / 25 (thread    0) fSTEP    14 / 25 (thread    0) fSTEP    15 / 25 (thread    0) fSTEP    16 / 25 (thread    0) fSTEP    17 / 25 (thread    0) fSTEP    18 / 25 (thread    0) fSTEP    19 / 25 (thread    0) fSTEP    20 / 25 (thread    0) fSTEP    21 / 25 (thread    0) fSTEP    22 / 25 (thread    0) fSTEP    23 / 25 (thread    0) fSTEP    24 / 25 (thread    0) fSTEP    25 / 25 (thread    0) f
+done.
+
+disttbfast (nuc) Version 7.455
+alg=A, model=DNA200 (2), 1.53 (4.59), -0.00 (-0.00), noshift, amax=0.0
+1 thread(s)
+
+
+Strategy:
+ FFT-NS-2 (Fast but rough)
+ Progressive method (guide trees were built 2 times.)
+
+If unsure which option to use, try 'mafft --auto input > output'.
+For more information, see 'mafft --help', 'mafft --man' and the mafft page.
+
+The default gap scoring scheme has been changed in version 7.110 (2013 Oct).
+It tends to insert more gaps into gap-rich regions than previous versions.
+To disable this change, add the --leavegappyregion option.
+
