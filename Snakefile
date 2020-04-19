@@ -1,21 +1,16 @@
-# VIRUS = ["oc43", "hku1", "229e", "nl63"]
-VIRUS = ["oc43", "oc43", "oc43", "hku1", "hku1", "hku1", "229e", "229e", "nl63", "nl63"]
-GENE = ["spike", "he", "full", "spike", "he", "full", "spike", "full", "spike", "full"]
 
-# def _get_gene_by_wildcards(wildcards):
-#     genes = {"oc43":["spike", "he"], "hku1":["spike", "he"], "229e":["spike"], "nl63":["spike"]}
-#     return genes[wildcards.virus]
+GENE = ["full"]
 
 
 rule all:
     input:
-        auspice_json = expand("auspice/seasonal_corona_{virus}_{gene}.json", zip, virus=VIRUS, gene= GENE)
+        auspice_json = expand("auspice/seasonal_corona_cov_{gene}.json", gene= GENE)
 
 rule files:
     params:
         # include = "config/include.txt",
         # dropped_strains = "config/dropped_strains.txt",
-        reference = "config/{virus}_{gene}_reference.gb",
+        reference = "config/oc43_{gene}_reference.gb",
         auspice_config = "config/auspice_config.json",
         lat_longs = "config/lat_longs.tsv",
         colors = "config/colors.tsv"
@@ -26,16 +21,16 @@ files = rules.files.params
 rule download:
     message: "Downloading sequences from fauna"
     output:
-        sequences = "data/{virus}_{gene}.fasta"
+        sequences = "data/cov_{gene}.fasta"
     params:
-        fasta_fields = "accession strain virus collection_date country sequence_locus subtype type"
+        fasta_fields = "strain strain_name collection_date host country virus subtype type sequence_locus"
     shell:
         """
         python3 ../fauna/vdb/download.py \
             --database vdb \
             --virus seasonal_corona \
             --fasta_fields {params.fasta_fields} \
-            --select sequence_locus:{wildcards.gene} subtype:{wildcards.virus}\
+            --select sequence_locus:{wildcards.gene} subtype: cov \
             --path $(dirname {output.sequences}) \
             --fstem $(basename {output.sequences} .fasta)
         """
@@ -45,10 +40,10 @@ rule parse:
     input:
         sequences = rules.download.output.sequences
     output:
-        sequences = "results/sequences_{virus}_{gene}.fasta",
-        metadata = "results/metadata_{virus}_{gene}.tsv"
+        sequences = "results/sequences_cov_{gene}.fasta",
+        metadata = "results/metadata_cov_{gene}.tsv"
     params:
-        fasta_fields = "accession strain virus date country source sequence_locus subtype type",
+        fasta_fields = "strain strain_name date host country virus subtype type sequence_locus",
     shell:
         """
         augur parse \
@@ -58,14 +53,13 @@ rule parse:
             --fields {params.fasta_fields} \
         """
 
-# def _get_min_length_by_wildcards(wildcards):
-#     if wildcards.gene == "spike":
-#         min_length = 1000
-#     elif wildcards.gene == "he":
-#         min_length = 1000
-#     elif wildcards.gene == "genome":
-#         min_length = 20000
-#     return(min_length)
+def _get_min_length_by_wildcards(wildcards):
+    if wildcards.gene == "full":
+        min_length = 1000
+    #All genes are already filtered for size when subalignment fastas are made
+    else:
+        min_length = 200
+    return(min_length)
 
 rule filter:
     message:
@@ -78,11 +72,11 @@ rule filter:
         sequences = rules.parse.output.sequences,
         metadata = rules.parse.output.metadata,
     output:
-        sequences = "results/filtered_{virus}_{gene}.fasta"
+        sequences = "results/filtered_cov_{gene}.fasta"
     params:
         group_by = "country",
         sequences_per_group = 5000,
-        min_length = 1000
+        min_length = _get_min_length_by_wildcards
     shell:
         """
         augur filter \
@@ -104,7 +98,7 @@ rule align:
         sequences = rules.filter.output.sequences,
         reference = files.reference
     output:
-        alignment = "results/aligned_{virus}_{gene}.fasta"
+        alignment = "results/aligned_cov_{gene}.fasta"
     shell:
         """
         augur align \
@@ -120,7 +114,7 @@ rule tree:
     input:
         alignment = rules.align.output.alignment
     output:
-        tree = "results/tree_raw_{virus}_{gene}.nwk"
+        tree = "results/tree_raw_cov_{gene}.nwk"
     shell:
         """
         augur tree \
@@ -138,8 +132,8 @@ rule refine:
         alignment = rules.align.output,
         metadata = rules.parse.output.metadata
     output:
-        tree = "results/tree_{virus}_{gene}.nwk",
-        node_data = "results/branch_lengths_{virus}_{gene}.json"
+        tree = "results/tree_cov_{gene}.nwk",
+        node_data = "results/branch_lengths_cov_{gene}.json"
     params:
         coalescent = "opt",
         date_inference = "marginal"
@@ -164,7 +158,7 @@ rule ancestral:
         tree = rules.refine.output.tree,
         alignment = rules.align.output
     output:
-        node_data = "results/nt_muts_{virus}_{gene}.json"
+        node_data = "results/nt_muts_cov_{gene}.json"
     params:
         inference = "joint"
     shell:
@@ -183,7 +177,7 @@ rule translate:
         node_data = rules.ancestral.output.node_data,
         reference = files.reference
     output:
-        node_data = "results/aa_muts_{virus}_{gene}.json"
+        node_data = "results/aa_muts_cov_{gene}.json"
     shell:
         """
         augur translate \
@@ -199,7 +193,7 @@ rule translate:
 #         tree = rules.refine.output.tree,
 #         metadata = rules.parse.output.metadata
 #     output:
-#         node_data = "results/traits_{virus}_{gene}.json",
+#         node_data = "results/traits_cov_{gene}.json",
 #     shell:
 #         """
 #         augur traits \
@@ -224,7 +218,7 @@ rule export:
         colors = files.colors
         # description = files.description
     output:
-        auspice_json = "auspice/seasonal_corona_{virus}_{gene}.json"
+        auspice_json = "auspice/seasonal_corona_cov_{gene}.json"
         # auspice_json = rules.all.input.auspice_json
     shell:
         """

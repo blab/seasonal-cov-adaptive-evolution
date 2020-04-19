@@ -1,0 +1,41 @@
+Building DAG of jobs...
+Using shell: /bin/bash
+Provided cores: 4
+Rules claiming more threads will be scaled down.
+Job counts:
+	count	jobs
+	1	align
+	1	all
+	1	ancestral
+	1	export
+	1	filter
+	1	parse
+	1	refine
+	1	translate
+	1	tree
+	9
+
+[Sat Apr 18 14:41:41 2020]
+Job 3: Parsing fasta into sequences and metadata
+
+[Sat Apr 18 14:41:44 2020]
+Finished job 3.
+1 of 9 steps (11%) done
+
+[Sat Apr 18 14:41:44 2020]
+Job 9: 
+        Filtering to
+          - 5000 sequence(s) per country
+          - minimum genome length of 1000
+        
+
+[Sat Apr 18 14:41:48 2020]
+Finished job 9.
+2 of 9 steps (22%) done
+
+[Sat Apr 18 14:41:48 2020]
+Job 7: 
+        Aligning sequences to config/oc43_full_reference.gb
+          - filling gaps with N
+        
+
