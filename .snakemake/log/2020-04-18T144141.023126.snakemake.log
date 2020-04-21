@@ -39,3 +39,53 @@ Job 7:
           - filling gaps with N
         
 
+[Sun Apr 19 07:36:48 2020]
+Finished job 7.
+3 of 9 steps (33%) done
+
+[Sun Apr 19 07:36:48 2020]
+Job 6: Building tree
+
+[Sun Apr 19 10:53:08 2020]
+Finished job 6.
+4 of 9 steps (44%) done
+
+[Sun Apr 19 10:53:08 2020]
+Job 2: 
+        Refining tree
+        
+
+[Sun Apr 19 12:09:51 2020]
+Finished job 2.
+5 of 9 steps (56%) done
+
+[Sun Apr 19 12:09:51 2020]
+Job 4: Reconstructing ancestral sequences and mutations
+
+[Sun Apr 19 12:17:18 2020]
+Finished job 4.
+6 of 9 steps (67%) done
+
+[Sun Apr 19 12:17:18 2020]
+Job 5: Translating amino acid sequences
+
+[Sun Apr 19 12:17:34 2020]
+Finished job 5.
+7 of 9 steps (78%) done
+
+[Sun Apr 19 12:17:34 2020]
+Job 1: Exporting data files for for auspice
+
+[Sun Apr 19 12:17:42 2020]
+Finished job 1.
+8 of 9 steps (89%) done
+
+[Sun Apr 19 12:17:42 2020]
+localrule all:
+    input: auspice/seasonal_corona_cov_full.json
+    jobid: 0
+
+[Sun Apr 19 12:17:42 2020]
+Finished job 0.
+9 of 9 steps (100%) done
+Complete log: /Users/katekistler/nextstrain/seasonal-cov/.snakemake/log/2020-04-18T144141.023126.snakemake.log
