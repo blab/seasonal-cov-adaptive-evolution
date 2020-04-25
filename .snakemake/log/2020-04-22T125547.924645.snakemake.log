@@ -1,0 +1,91 @@
+Building DAG of jobs...
+Using shell: /bin/bash
+Provided cores: 4
+Rules claiming more threads will be scaled down.
+Job counts:
+	count	jobs
+	1	align
+	1	all
+	1	ancestral
+	1	export
+	1	filter
+	1	parse
+	1	refine
+	1	translate
+	1	tree
+	9
+
+[Wed Apr 22 12:55:47 2020]
+Job 3: Parsing fasta into sequences and metadata
+
+[Wed Apr 22 12:55:51 2020]
+Finished job 3.
+1 of 9 steps (11%) done
+
+[Wed Apr 22 12:55:51 2020]
+Job 9: 
+        Filtering to
+          - 5000 sequence(s) per country
+          - minimum genome length of 1000
+        
+
+[Wed Apr 22 12:55:56 2020]
+Finished job 9.
+2 of 9 steps (22%) done
+
+[Wed Apr 22 12:55:56 2020]
+Job 7: 
+        Aligning sequences to config/oc43_full_reference.gb
+          - filling gaps with N
+        
+
+[Thu Apr 23 19:08:06 2020]
+Finished job 7.
+3 of 9 steps (33%) done
+
+[Thu Apr 23 19:08:06 2020]
+Job 6: Building tree
+
+[Fri Apr 24 10:15:09 2020]
+Finished job 6.
+4 of 9 steps (44%) done
+
+[Fri Apr 24 10:15:09 2020]
+Job 2: 
+        Refining tree
+        
+
+[Fri Apr 24 11:41:44 2020]
+Finished job 2.
+5 of 9 steps (56%) done
+
+[Fri Apr 24 11:41:44 2020]
+Job 4: Reconstructing ancestral sequences and mutations
+
+[Fri Apr 24 11:50:30 2020]
+Finished job 4.
+6 of 9 steps (67%) done
+
+[Fri Apr 24 11:50:30 2020]
+Job 5: Translating amino acid sequences
+
+[Fri Apr 24 11:50:48 2020]
+Finished job 5.
+7 of 9 steps (78%) done
+
+[Fri Apr 24 11:50:48 2020]
+Job 1: Exporting data files for for auspice
+
+[Fri Apr 24 11:50:59 2020]
+Finished job 1.
+8 of 9 steps (89%) done
+
+[Fri Apr 24 11:50:59 2020]
+localrule all:
+    input: auspice/seasonal_corona_cov_full.json
+    jobid: 0
+
+[Fri Apr 24 11:50:59 2020]
+Finished job 0.
+9 of 9 steps (100%) done
+Complete log: /Users/katekistler/nextstrain/seasonal-cov/.snakemake/log/2020-04-22T125547.924645.snakemake.log

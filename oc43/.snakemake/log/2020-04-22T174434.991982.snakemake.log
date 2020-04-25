@@ -1,0 +1,37 @@
+Building DAG of jobs...
+Using shell: /bin/bash
+Provided cores: 4
+Rules claiming more threads will be scaled down.
+Job counts:
+	count	jobs
+	1	all
+	2	ancestral
+	2	export
+	1	refine
+	2	translate
+	1	tree
+	9
+
+[Wed Apr 22 17:44:35 2020]
+Job 85: Building tree
+
+
+[Wed Apr 22 17:44:35 2020]
+Job 50: Reconstructing ancestral sequences and mutations
+
+[Wed Apr 22 17:44:38 2020]
+Error in rule tree:
+    jobid: 85
+    output: results/tree_raw_oc43_s2.nwk
+    shell:
+        
+        augur tree             --alignment results/aligned_oc43_s2.fasta             --output results/tree_raw_oc43_s2.nwk
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+[Wed Apr 22 17:44:40 2020]
+Finished job 50.
+1 of 9 steps (11%) done
+Shutting down, this might take some time.
+Exiting because a job execution failed. Look above for error message
+Complete log: /Users/katekistler/nextstrain/seasonal-cov/oc43/.snakemake/log/2020-04-22T174434.991982.snakemake.log

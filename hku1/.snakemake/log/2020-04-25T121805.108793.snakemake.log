@@ -1,0 +1,676 @@
+Building DAG of jobs...
+Using shell: /bin/bash
+Provided cores: 4
+Rules claiming more threads will be scaled down.
+Job counts:
+	count	jobs
+	10	align
+	1	all
+	10	ancestral
+	10	export
+	10	filter
+	10	parse
+	10	refine
+	10	translate
+	10	tree
+	81
+
+[Sat Apr 25 12:18:06 2020]
+Job 20: Parsing fasta into sequences and metadata
+
+
+[Sat Apr 25 12:18:06 2020]
+Job 36: Parsing fasta into sequences and metadata
+
+
+[Sat Apr 25 12:18:06 2020]
+Job 44: Parsing fasta into sequences and metadata
+
+
+[Sat Apr 25 12:18:06 2020]
+Job 12: Parsing fasta into sequences and metadata
+
+[Sat Apr 25 12:18:19 2020]
+Finished job 44.
+1 of 81 steps (1%) done
+
+[Sat Apr 25 12:18:19 2020]
+Job 89: 
+        Filtering to
+          - 5000 sequence(s) per country
+          - minimum genome length of 200
+        
+
+[Sat Apr 25 12:18:19 2020]
+Finished job 36.
+2 of 81 steps (2%) done
+
+[Sat Apr 25 12:18:19 2020]
+Job 87: 
+        Filtering to
+          - 5000 sequence(s) per country
+          - minimum genome length of 200
+        
+
+[Sat Apr 25 12:18:19 2020]
+Finished job 12.
+3 of 81 steps (4%) done
+
+[Sat Apr 25 12:18:19 2020]
+Job 81: 
+        Filtering to
+          - 5000 sequence(s) per country
+          - minimum genome length of 200
+        
+
+[Sat Apr 25 12:18:19 2020]
+Finished job 20.
+4 of 81 steps (5%) done
+
+[Sat Apr 25 12:18:19 2020]
+Job 83: 
+        Filtering to
+          - 5000 sequence(s) per country
+          - minimum genome length of 200
+        
+
+[Sat Apr 25 12:18:31 2020]
+Finished job 89.
+5 of 81 steps (6%) done
+
+[Sat Apr 25 12:18:31 2020]
+Job 76: 
+        Aligning sequences to config/hku1_s1_reference.gb
+          - filling gaps with N
+        
+
+[Sat Apr 25 12:18:32 2020]
+Finished job 87.
+6 of 81 steps (7%) done
+
+[Sat Apr 25 12:18:32 2020]
+Job 70: 
+        Aligning sequences to config/hku1_nucleocapsid_reference.gb
+          - filling gaps with N
+        
+
+[Sat Apr 25 12:18:32 2020]
+Finished job 81.
+7 of 81 steps (9%) done
+
+[Sat Apr 25 12:18:32 2020]
+Job 52: 
+        Aligning sequences to config/hku1_replicase1ab_reference.gb
+          - filling gaps with N
+        
+
+[Sat Apr 25 12:18:32 2020]
+Finished job 83.
+8 of 81 steps (10%) done
+
+[Sat Apr 25 12:18:32 2020]
+Job 58: 
+        Aligning sequences to config/hku1_spike_reference.gb
+          - filling gaps with N
+        
+
+[Sat Apr 25 12:18:50 2020]
+Finished job 70.
+9 of 81 steps (11%) done
+
+[Sat Apr 25 12:18:50 2020]
+Job 69: Building tree
+
+[Sat Apr 25 12:18:50 2020]
+Finished job 76.
+10 of 81 steps (12%) done
+
+[Sat Apr 25 12:18:50 2020]
+Job 75: Building tree
+
+[Sat Apr 25 12:18:57 2020]
+Finished job 58.
+11 of 81 steps (14%) done
+
+[Sat Apr 25 12:18:57 2020]
+Job 57: Building tree
+
+[Sat Apr 25 12:19:03 2020]
+Finished job 69.
+12 of 81 steps (15%) done
+
+[Sat Apr 25 12:19:03 2020]
+Job 35: 
+        Refining tree
+        
+
+[Sat Apr 25 12:19:03 2020]
+Finished job 75.
+13 of 81 steps (16%) done
+
+[Sat Apr 25 12:19:03 2020]
+Job 43: 
+        Refining tree
+        
+
+[Sat Apr 25 12:19:09 2020]
+Finished job 57.
+14 of 81 steps (17%) done
+
+[Sat Apr 25 12:19:09 2020]
+Job 19: 
+        Refining tree
+        
+
+[Sat Apr 25 12:20:03 2020]
+Finished job 52.
+15 of 81 steps (19%) done
+
+[Sat Apr 25 12:20:03 2020]
+Job 51: Building tree
+
+[Sat Apr 25 12:20:15 2020]
+Finished job 51.
+16 of 81 steps (20%) done
+
+[Sat Apr 25 12:20:15 2020]
+Job 11: 
+        Refining tree
+        
+
+[Sat Apr 25 12:21:37 2020]
+Finished job 43.
+17 of 81 steps (21%) done
+
+[Sat Apr 25 12:21:37 2020]
+Job 45: Reconstructing ancestral sequences and mutations
+
+[Sat Apr 25 12:21:50 2020]
+Finished job 45.
+18 of 81 steps (22%) done
+
+[Sat Apr 25 12:21:50 2020]
+Job 46: Translating amino acid sequences
+
+[Sat Apr 25 12:22:02 2020]
+Finished job 46.
+19 of 81 steps (23%) done
+
+[Sat Apr 25 12:22:02 2020]
+Job 9: Exporting data files for for auspice
+
+[Sat Apr 25 12:22:05 2020]
+Finished job 19.
+20 of 81 steps (25%) done
+
+[Sat Apr 25 12:22:05 2020]
+Job 21: Reconstructing ancestral sequences and mutations
+
+[Sat Apr 25 12:22:14 2020]
+Finished job 9.
+21 of 81 steps (26%) done
+
+[Sat Apr 25 12:22:14 2020]
+Job 48: Parsing fasta into sequences and metadata
+
+[Sat Apr 25 12:22:19 2020]
+Finished job 21.
+22 of 81 steps (27%) done
+
+[Sat Apr 25 12:22:19 2020]
+Job 22: Translating amino acid sequences
+
+[Sat Apr 25 12:22:25 2020]
+Finished job 48.
+23 of 81 steps (28%) done
+
+[Sat Apr 25 12:22:25 2020]
+Job 90: 
+        Filtering to
+          - 5000 sequence(s) per country
+          - minimum genome length of 200
+        
+
+[Sat Apr 25 12:22:31 2020]
+Finished job 22.
+24 of 81 steps (30%) done
+
+[Sat Apr 25 12:22:31 2020]
+Job 3: Exporting data files for for auspice
+
+[Sat Apr 25 12:22:37 2020]
+Finished job 90.
+25 of 81 steps (31%) done
+
+[Sat Apr 25 12:22:37 2020]
+Job 79: 
+        Aligning sequences to config/hku1_s2_reference.gb
+          - filling gaps with N
+        
+
+[Sat Apr 25 12:22:43 2020]
+Finished job 3.
+26 of 81 steps (32%) done
+
+[Sat Apr 25 12:22:43 2020]
+Job 16: Parsing fasta into sequences and metadata
+
+[Sat Apr 25 12:22:53 2020]
+Finished job 79.
+27 of 81 steps (33%) done
+
+[Sat Apr 25 12:22:53 2020]
+Job 78: Building tree
+
+[Sat Apr 25 12:22:56 2020]
+Finished job 16.
+28 of 81 steps (35%) done
+
+[Sat Apr 25 12:22:56 2020]
+Job 82: 
+        Filtering to
+          - 5000 sequence(s) per country
+          - minimum genome length of 200
+        
+
+[Sat Apr 25 12:23:06 2020]
+Finished job 78.
+29 of 81 steps (36%) done
+
+[Sat Apr 25 12:23:06 2020]
+Job 47: 
+        Refining tree
+        
+
+[Sat Apr 25 12:23:08 2020]
+Finished job 82.
+30 of 81 steps (37%) done
+
+[Sat Apr 25 12:23:08 2020]
+Job 55: 
+        Aligning sequences to config/hku1_he_reference.gb
+          - filling gaps with N
+        
+
+[Sat Apr 25 12:23:24 2020]
+Finished job 55.
+31 of 81 steps (38%) done
+
+[Sat Apr 25 12:23:24 2020]
+Job 54: Building tree
+
+[Sat Apr 25 12:23:36 2020]
+Finished job 54.
+32 of 81 steps (40%) done
+
+[Sat Apr 25 12:23:36 2020]
+Job 15: 
+        Refining tree
+        
+
+[Sat Apr 25 12:26:43 2020]
+Finished job 11.
+33 of 81 steps (41%) done
+
+[Sat Apr 25 12:26:43 2020]
+Job 13: Reconstructing ancestral sequences and mutations
+
+[Sat Apr 25 12:27:04 2020]
+Finished job 47.
+34 of 81 steps (42%) done
+
+[Sat Apr 25 12:27:04 2020]
+Job 49: Reconstructing ancestral sequences and mutations
+
+[Sat Apr 25 12:27:06 2020]
+Finished job 13.
+35 of 81 steps (43%) done
+
+[Sat Apr 25 12:27:06 2020]
+Job 14: Translating amino acid sequences
+
+[Sat Apr 25 12:27:14 2020]
+Finished job 15.
+36 of 81 steps (44%) done
+
+[Sat Apr 25 12:27:14 2020]
+Job 17: Reconstructing ancestral sequences and mutations
+
+[Sat Apr 25 12:27:17 2020]
+Finished job 49.
+37 of 81 steps (46%) done
+
+[Sat Apr 25 12:27:17 2020]
+Job 50: Translating amino acid sequences
+
+[Sat Apr 25 12:27:18 2020]
+Finished job 14.
+38 of 81 steps (47%) done
+
+[Sat Apr 25 12:27:18 2020]
+Job 1: Exporting data files for for auspice
+
+[Sat Apr 25 12:27:27 2020]
+Finished job 17.
+39 of 81 steps (48%) done
+
+[Sat Apr 25 12:27:27 2020]
+Job 18: Translating amino acid sequences
+
+[Sat Apr 25 12:27:30 2020]
+Finished job 50.
+40 of 81 steps (49%) done
+
+[Sat Apr 25 12:27:30 2020]
+Job 10: Exporting data files for for auspice
+
+[Sat Apr 25 12:27:31 2020]
+Finished job 1.
+41 of 81 steps (51%) done
+
+[Sat Apr 25 12:27:31 2020]
+Job 40: Parsing fasta into sequences and metadata
+
+[Sat Apr 25 12:27:39 2020]
+Finished job 18.
+42 of 81 steps (52%) done
+
+[Sat Apr 25 12:27:39 2020]
+Job 2: Exporting data files for for auspice
+
+[Sat Apr 25 12:27:42 2020]
+Finished job 10.
+43 of 81 steps (53%) done
+
+[Sat Apr 25 12:27:42 2020]
+Job 32: Parsing fasta into sequences and metadata
+
+[Sat Apr 25 12:27:43 2020]
+Finished job 40.
+44 of 81 steps (54%) done
+
+[Sat Apr 25 12:27:43 2020]
+Job 88: 
+        Filtering to
+          - 5000 sequence(s) per country
+          - minimum genome length of 200
+        
+
+[Sat Apr 25 12:27:51 2020]
+Finished job 2.
+45 of 81 steps (56%) done
+
+[Sat Apr 25 12:27:51 2020]
+Job 24: Parsing fasta into sequences and metadata
+
+[Sat Apr 25 12:27:54 2020]
+Finished job 32.
+46 of 81 steps (57%) done
+
+[Sat Apr 25 12:27:54 2020]
+Job 86: 
+        Filtering to
+          - 5000 sequence(s) per country
+          - minimum genome length of 200
+        
+
+[Sat Apr 25 12:27:54 2020]
+Finished job 88.
+47 of 81 steps (58%) done
+
+[Sat Apr 25 12:27:54 2020]
+Job 73: 
+        Aligning sequences to config/hku1_nucleocapsid2_reference.gb
+          - filling gaps with N
+        
+
+[Sat Apr 25 12:28:03 2020]
+Finished job 24.
+48 of 81 steps (59%) done
+
+[Sat Apr 25 12:28:03 2020]
+Job 84: 
+        Filtering to
+          - 5000 sequence(s) per country
+          - minimum genome length of 200
+        
+
+[Sat Apr 25 12:28:06 2020]
+Finished job 86.
+49 of 81 steps (60%) done
+
+[Sat Apr 25 12:28:06 2020]
+Job 67: 
+        Aligning sequences to config/hku1_membrane_reference.gb
+          - filling gaps with N
+        
+
+[Sat Apr 25 12:28:09 2020]
+Finished job 73.
+50 of 81 steps (62%) done
+
+[Sat Apr 25 12:28:09 2020]
+Job 72: Building tree
+
+[Sat Apr 25 12:28:14 2020]
+Finished job 84.
+51 of 81 steps (63%) done
+
+[Sat Apr 25 12:28:14 2020]
+Job 61: 
+        Aligning sequences to config/hku1_nonstructural4_reference.gb
+          - filling gaps with N
+        
+
+[Sat Apr 25 12:28:19 2020]
+Finished job 67.
+52 of 81 steps (64%) done
+
+[Sat Apr 25 12:28:19 2020]
+Job 66: Building tree
+
+[Sat Apr 25 12:28:21 2020]
+Finished job 72.
+53 of 81 steps (65%) done
+
+[Sat Apr 25 12:28:21 2020]
+Job 39: 
+        Refining tree
+        
+
+[Sat Apr 25 12:28:28 2020]
+Finished job 61.
+54 of 81 steps (67%) done
+
+[Sat Apr 25 12:28:28 2020]
+Job 60: Building tree
+
+[Sat Apr 25 12:28:32 2020]
+Finished job 66.
+55 of 81 steps (68%) done
+
+[Sat Apr 25 12:28:32 2020]
+Job 31: 
+        Refining tree
+        
+
+[Sat Apr 25 12:28:39 2020]
+Finished job 60.
+56 of 81 steps (69%) done
+
+[Sat Apr 25 12:28:39 2020]
+Job 23: 
+        Refining tree
+        
+
+[Sat Apr 25 12:28:49 2020]
+Finished job 35.
+57 of 81 steps (70%) done
+
+[Sat Apr 25 12:28:49 2020]
+Job 37: Reconstructing ancestral sequences and mutations
+
+[Sat Apr 25 12:29:02 2020]
+Finished job 37.
+58 of 81 steps (72%) done
+
+[Sat Apr 25 12:29:02 2020]
+Job 38: Translating amino acid sequences
+
+[Sat Apr 25 12:29:14 2020]
+Finished job 38.
+59 of 81 steps (73%) done
+
+[Sat Apr 25 12:29:14 2020]
+Job 7: Exporting data files for for auspice
+
+[Sat Apr 25 12:29:26 2020]
+Finished job 7.
+60 of 81 steps (74%) done
+
+[Sat Apr 25 12:29:26 2020]
+Job 28: Parsing fasta into sequences and metadata
+
+[Sat Apr 25 12:29:37 2020]
+Finished job 28.
+61 of 81 steps (75%) done
+
+[Sat Apr 25 12:29:37 2020]
+Job 85: 
+        Filtering to
+          - 5000 sequence(s) per country
+          - minimum genome length of 200
+        
+
+[Sat Apr 25 12:29:49 2020]
+Finished job 85.
+62 of 81 steps (77%) done
+
+[Sat Apr 25 12:29:49 2020]
+Job 64: 
+        Aligning sequences to config/hku1_envelope_reference.gb
+          - filling gaps with N
+        
+
+[Sat Apr 25 12:30:01 2020]
+Finished job 64.
+63 of 81 steps (78%) done
+
+[Sat Apr 25 12:30:01 2020]
+Job 63: Building tree
+
+[Sat Apr 25 12:30:12 2020]
+Finished job 63.
+64 of 81 steps (79%) done
+
+[Sat Apr 25 12:30:12 2020]
+Job 27: 
+        Refining tree
+        
+
+[Sat Apr 25 12:31:56 2020]
+Finished job 23.
+65 of 81 steps (80%) done
+
+[Sat Apr 25 12:31:56 2020]
+Job 25: Reconstructing ancestral sequences and mutations
+
+[Sat Apr 25 12:32:09 2020]
+Finished job 25.
+66 of 81 steps (81%) done
+
+[Sat Apr 25 12:32:09 2020]
+Job 26: Translating amino acid sequences
+
+[Sat Apr 25 12:32:20 2020]
+Finished job 26.
+67 of 81 steps (83%) done
+
+[Sat Apr 25 12:32:20 2020]
+Job 4: Exporting data files for for auspice
+
+[Sat Apr 25 12:32:32 2020]
+Finished job 4.
+68 of 81 steps (84%) done
+[Sat Apr 25 12:32:47 2020]
+Finished job 31.
+69 of 81 steps (85%) done
+
+[Sat Apr 25 12:32:47 2020]
+Job 33: Reconstructing ancestral sequences and mutations
+
+[Sat Apr 25 12:32:58 2020]
+Finished job 33.
+70 of 81 steps (86%) done
+
+[Sat Apr 25 12:32:58 2020]
+Job 34: Translating amino acid sequences
+
+[Sat Apr 25 12:33:11 2020]
+Finished job 34.
+71 of 81 steps (88%) done
+
+[Sat Apr 25 12:33:11 2020]
+Job 6: Exporting data files for for auspice
+
+[Sat Apr 25 12:33:25 2020]
+Finished job 6.
+72 of 81 steps (89%) done
+[Sat Apr 25 12:34:01 2020]
+Finished job 27.
+73 of 81 steps (90%) done
+
+[Sat Apr 25 12:34:02 2020]
+Job 29: Reconstructing ancestral sequences and mutations
+
+[Sat Apr 25 12:34:11 2020]
+Finished job 29.
+74 of 81 steps (91%) done
+
+[Sat Apr 25 12:34:11 2020]
+Job 30: Translating amino acid sequences
+
+[Sat Apr 25 12:34:21 2020]
+Finished job 30.
+75 of 81 steps (93%) done
+
+[Sat Apr 25 12:34:21 2020]
+Job 5: Exporting data files for for auspice
+
+[Sat Apr 25 12:34:31 2020]
+Finished job 5.
+76 of 81 steps (94%) done
+[Sat Apr 25 12:37:16 2020]
+Finished job 39.
+77 of 81 steps (95%) done
+
+[Sat Apr 25 12:37:16 2020]
+Job 41: Reconstructing ancestral sequences and mutations
+
+[Sat Apr 25 12:37:27 2020]
+Finished job 41.
+78 of 81 steps (96%) done
+
+[Sat Apr 25 12:37:27 2020]
+Job 42: Translating amino acid sequences
+
+[Sat Apr 25 12:37:37 2020]
+Finished job 42.
+79 of 81 steps (98%) done
+
+[Sat Apr 25 12:37:37 2020]
+Job 8: Exporting data files for for auspice
+
+[Sat Apr 25 12:37:48 2020]
+Finished job 8.
+80 of 81 steps (99%) done
+
+[Sat Apr 25 12:37:48 2020]
+localrule all:
+    input: auspice/seasonal_corona_hku1_replicase1ab.json, auspice/seasonal_corona_hku1_he.json, auspice/seasonal_corona_hku1_spike.json, auspice/seasonal_corona_hku1_nonstructural4.json, auspice/seasonal_corona_hku1_envelope.json, auspice/seasonal_corona_hku1_membrane.json, auspice/seasonal_corona_hku1_nucleocapsid.json, auspice/seasonal_corona_hku1_nucleocapsid2.json, auspice/seasonal_corona_hku1_s1.json, auspice/seasonal_corona_hku1_s2.json
+    jobid: 0
+
+[Sat Apr 25 12:37:48 2020]
+Finished job 0.
+81 of 81 steps (100%) done
+Complete log: /Users/katekistler/nextstrain/seasonal-cov/hku1/.snakemake/log/2020-04-25T121805.108793.snakemake.log

@@ -21,7 +21,7 @@ files = rules.files.params
 rule download:
     message: "Downloading sequences from fauna"
     output:
-        sequences = "data/cov_{gene}.fasta"
+        sequences = "data/human_cov_{gene}.fasta"
     params:
         fasta_fields = "strain strain_name collection_date host country virus subtype type sequence_locus"
     shell:

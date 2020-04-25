@@ -1,0 +1,105 @@
+Building DAG of jobs...
+Using shell: /bin/bash
+Provided cores: 4
+Rules claiming more threads will be scaled down.
+Job counts:
+	count	jobs
+	2	align
+	1	all
+	2	ancestral
+	2	export
+	2	filter
+	2	parse
+	2	refine
+	2	translate
+	2	tree
+	17
+
+[Wed Apr 22 17:27:27 2020]
+Job 49: Parsing fasta into sequences and metadata
+
+
+[Wed Apr 22 17:27:27 2020]
+Job 53: Parsing fasta into sequences and metadata
+
+[Wed Apr 22 17:27:30 2020]
+Finished job 49.
+1 of 17 steps (6%) done
+[Wed Apr 22 17:27:30 2020]
+Finished job 53.
+2 of 17 steps (12%) done
+
+[Wed Apr 22 17:27:30 2020]
+Job 97: 
+        Filtering to
+          - 5000 sequence(s) per country
+          - minimum genome length of 200
+        
+
+
+[Wed Apr 22 17:27:30 2020]
+Job 96: 
+        Filtering to
+          - 5000 sequence(s) per country
+          - minimum genome length of 200
+        
+
+[Wed Apr 22 17:27:34 2020]
+Finished job 96.
+3 of 17 steps (18%) done
+
+[Wed Apr 22 17:27:34 2020]
+Job 84: 
+        Aligning sequences to config/oc43_s1_reference.gb
+          - filling gaps with N
+        
+
+[Wed Apr 22 17:27:34 2020]
+Finished job 97.
+4 of 17 steps (24%) done
+
+[Wed Apr 22 17:27:34 2020]
+Job 86: 
+        Aligning sequences to config/oc43_s2_reference.gb
+          - filling gaps with N
+        
+
+[Wed Apr 22 17:29:06 2020]
+Finished job 84.
+5 of 17 steps (29%) done
+
+[Wed Apr 22 17:29:06 2020]
+Job 83: Building tree
+
+[Wed Apr 22 17:29:12 2020]
+Finished job 83.
+6 of 17 steps (35%) done
+
+[Wed Apr 22 17:29:12 2020]
+Job 48: 
+        Refining tree
+        
+
+[Wed Apr 22 17:29:15 2020]
+Finished job 86.
+7 of 17 steps (41%) done
+
+[Wed Apr 22 17:29:15 2020]
+Job 85: Building tree
+
+[Wed Apr 22 17:29:18 2020]
+Error in rule tree:
+    jobid: 85
+    output: results/tree_raw_oc43_s2.nwk
+    shell:
+        
+        augur tree             --alignment results/aligned_oc43_s2.fasta             --output results/tree_raw_oc43_s2.nwk
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+[Wed Apr 22 17:37:57 2020]
+Finished job 48.
+8 of 17 steps (47%) done
+Shutting down, this might take some time.
+Exiting because a job execution failed. Look above for error message
+Complete log: /Users/katekistler/nextstrain/seasonal-cov/oc43/.snakemake/log/2020-04-22T172726.844976.snakemake.log

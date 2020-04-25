@@ -1,0 +1,2471 @@
+{
+  "meta": {
+    "colorings": [
+      {
+        "key": "num_date",
+        "title": "Sampling date",
+        "type": "continuous"
+      },
+      {
+        "key": "gt",
+        "title": "Genotype",
+        "type": "categorical"
+      },
+      {
+        "key": "country",
+        "title": "country",
+        "type": "categorical"
+      }
+    ],
+    "display_defaults": {
+      "color_by": "country",
+      "map_triplicate": true
+    },
+    "filters": [
+      "host"
+    ],
+    "genome_annotations": {
+      "nuc": {
+        "end": 1563,
+        "seqid": "config/229e_s1_reference.gb",
+        "start": 1,
+        "strand": "+",
+        "type": "source"
+      }
+    },
+    "maintainers": [
+      {
+        "name": "Katie Kistler"
+      }
+    ],
+    "panels": [
+      "tree"
+    ],
+    "title": "Genetic diversity of seasonal coronaviruses. Data collected by Vipr",
+    "updated": "2020-04-25"
+  },
+  "tree": {
+    "branch_attrs": {
+      "mutations": {}
+    },
+    "children": [
+      {
+        "branch_attrs": {
+          "mutations": {
+            "nuc": [
+              "A19C",
+              "C31T",
+              "C58T",
+              "T117C",
+              "C132T",
+              "T133C",
+              "C218T",
+              "C252T",
+              "A281C",
+              "T282C",
+              "A286G",
+              "C290T",
+              "C293T",
+              "A316C",
+              "C558T",
+              "A623C",
+              "G644T",
+              "G697T",
+              "C786T",
+              "C846T",
+              "C852T",
+              "T870C",
+              "A874G",
+              "T884C",
+              "T896G",
+              "G902A",
+              "C916T",
+              "G917A",
+              "T926G",
+              "C1000A",
+              "T1004A",
+              "G1010C",
+              "A1012G",
+              "G1023T",
+              "T1024G",
+              "A1156G",
+              "T1166G",
+              "A1171T",
+              "C1174A",
+              "T1175G",
+              "T1179G",
+              "C1181A",
+              "T1182C",
+              "C1183T",
+              "T1226G",
+              "A1243C",
+              "A1285G",
+              "T1287C",
+              "C1305T",
+              "A1339G",
+              "T1419G",
+              "C1509T",
+              "A1543C"
+            ]
+          }
+        },
+        "name": "229E",
+        "node_attrs": {
+          "accession": "KF293666",
+          "country": {
+            "value": "thailand"
+          },
+          "div": 0.032214446157095934,
+          "num_date": {
+            "confidence": [
+              2011.9493150684932,
+              2011.9493150684932
+            ],
+            "value": 2011.9493150684932
+          }
+        }
+      },
+      {
+        "branch_attrs": {
+          "mutations": {}
+        },
+        "children": [
+          {
+            "branch_attrs": {
+              "mutations": {}
+            },
+            "name": "229E/human/USA/892_11/1989",
+            "node_attrs": {
+              "accession": "KF514429",
+              "country": {
+                "value": "usa"
+              },
+              "div": 0.002569721731630972,
+              "num_date": {
+                "confidence": [
+                  1989.1027397260275,
+                  1989.1027397260275
+                ],
+                "value": 1989.1027397260275
+              }
+            }
+          },
+          {
+            "branch_attrs": {
+              "mutations": {
+                "nuc": [
+                  "C252T",
+                  "T374C",
+                  "A405G",
+                  "T431C",
+                  "C696T",
+                  "A887G",
+                  "T908A",
+                  "G1028A"
+                ]
+              }
+            },
+            "children": [
+              {
+                "branch_attrs": {
+                  "mutations": {
+                    "nuc": [
+                      "G831A"
+                    ]
+                  }
+                },
+                "name": "229E/human/USA/932_72/1993",
+                "node_attrs": {
+                  "accession": "KF514432",
+                  "country": {
+                    "value": "usa"
+                  },
+                  "div": 0.008361734426935247,
+                  "num_date": {
+                    "confidence": [
+                      1993.1438356164383,
+                      1993.1438356164383
+                    ],
+                    "value": 1993.1438356164383
+                  }
+                }
+              },
+              {
+                "branch_attrs": {
+                  "mutations": {
+                    "nuc": [
+                      "C1187A"
+                    ]
+                  }
+                },
+                "children": [
+                  {
+                    "branch_attrs": {
+                      "mutations": {
+                        "nuc": [
+                          "G221A",
+                          "C582T"
+                        ]
+                      }
+                    },
+                    "name": "229E/human/USA/933_50/1993",
+                    "node_attrs": {
+                      "accession": "KF514430",
+                      "country": {
+                        "value": "usa"
+                      },
+                      "div": 0.009647168009854833,
+                      "num_date": {
+                        "confidence": [
+                          1993.2095890410958,
+                          1993.2095890410958
+                        ],
+                        "value": 1993.2095890410958
+                      }
+                    }
+                  },
+                  {
+                    "branch_attrs": {
+                      "mutations": {
+                        "nuc": [
+                          "A63G",
+                          "A583T"
+                        ]
+                      }
+                    },
+                    "children": [
+                      {
+                        "branch_attrs": {
+                          "mutations": {
+                            "nuc": [
+                              "T1383C"
+                            ]
+                          }
+                        },
+                        "name": "229E/human/USA/933_40/1993",
+                        "node_attrs": {
+                          "accession": "KF514433",
+                          "country": {
+                            "value": "usa"
+                          },
+                          "div": 0.010288566853079101,
+                          "num_date": {
+                            "confidence": [
+                              1993.190410958904,
+                              1993.190410958904
+                            ],
+                            "value": 1993.190410958904
+                          }
+                        }
+                      },
+                      {
+                        "branch_attrs": {
+                          "mutations": {
+                            "nuc": [
+                              "G106A",
+                              "C1019T"
+                            ]
+                          }
+                        },
+                        "children": [
+                          {
+                            "branch_attrs": {
+                              "mutations": {
+                                "nuc": [
+                                  "C77T",
+                                  "G341A",
+                                  "T806C"
+                                ]
+                              }
+                            },
+                            "name": "229E/human/USA/953_49/1995",
+                            "node_attrs": {
+                              "accession": "KF514431",
+                              "country": {
+                                "value": "usa"
+                              },
+                              "div": 0.012860554523632757,
+                              "num_date": {
+                                "confidence": [
+                                  1995.2232876712328,
+                                  1995.2232876712328
+                                ],
+                                "value": 1995.2232876712328
+                              }
+                            }
+                          },
+                          {
+                            "branch_attrs": {
+                              "mutations": {
+                                "nuc": [
+                                  "T223C",
+                                  "A627T",
+                                  "A629C",
+                                  "C723T",
+                                  "A880G",
+                                  "A889C",
+                                  "G895C",
+                                  "T896C",
+                                  "T969C",
+                                  "A1242G"
+                                ]
+                              }
+                            },
+                            "children": [
+                              {
+                                "branch_attrs": {
+                                  "mutations": {
+                                    "nuc": [
+                                      "G163T",
+                                      "T757G",
+                                      "T1362C"
+                                    ]
+                                  }
+                                },
+                                "name": "J0304",
+                                "node_attrs": {
+                                  "accession": "JX503061",
+                                  "country": {
+                                    "value": "italy"
+                                  },
+                                  "div": 0.01930126918578709,
+                                  "num_date": {
+                                    "confidence": [
+                                      2009.0013698630137,
+                                      2009.7768350987658
+                                    ],
+                                    "value": 2009.0013698630137
+                                  }
+                                }
+                              },
+                              {
+                                "branch_attrs": {
+                                  "mutations": {
+                                    "nuc": [
+                                      "C558T",
+                                      "C1169T"
+                                    ]
+                                  }
+                                },
+                                "children": [
+                                  {
+                                    "branch_attrs": {
+                                      "mutations": {
+                                        "nuc": [
+                                          "T1473C"
+                                        ]
+                                      }
+                                    },
+                                    "name": "857_2005",
+                                    "node_attrs": {
+                                      "accession": "KM055559",
+                                      "country": {
+                                        "value": "china"
+                                      },
+                                      "div": 0.01929994988655456,
+                                      "num_date": {
+                                        "confidence": [
+                                          2005.0013698630137,
+                                          2005.9986301369863
+                                        ],
+                                        "value": 2005.0166546286173
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "branch_attrs": {
+                                      "mutations": {
+                                        "nuc": [
+                                          "T20C",
+                                          "C223T",
+                                          "T1175A",
+                                          "T1179A"
+                                        ]
+                                      }
+                                    },
+                                    "children": [
+                                      {
+                                        "branch_attrs": {
+                                          "mutations": {}
+                                        },
+                                        "name": "748_2005",
+                                        "node_attrs": {
+                                          "accession": "KM055557",
+                                          "country": {
+                                            "value": "china"
+                                          },
+                                          "div": 0.021229283605027325,
+                                          "num_date": {
+                                            "confidence": [
+                                              2005.1967742324782,
+                                              2005.9986301369863
+                                            ],
+                                            "value": 2005.9986301369863
+                                          }
+                                        }
+                                      },
+                                      {
+                                        "branch_attrs": {
+                                          "mutations": {
+                                            "nuc": [
+                                              "G479A"
+                                            ]
+                                          }
+                                        },
+                                        "children": [
+                                          {
+                                            "branch_attrs": {
+                                              "mutations": {
+                                                "nuc": [
+                                                  "C45A",
+                                                  "T732C",
+                                                  "C876T",
+                                                  "T927C",
+                                                  "G928A"
+                                                ]
+                                              }
+                                            },
+                                            "name": "507A_2008",
+                                            "node_attrs": {
+                                              "accession": "KM055555",
+                                              "country": {
+                                                "value": "china"
+                                              },
+                                              "div": 0.02508394126846718,
+                                              "num_date": {
+                                                "confidence": [
+                                                  2008.0013661202186,
+                                                  2008.9986338797814
+                                                ],
+                                                "value": 2008.4477901927144
+                                              }
+                                            }
+                                          },
+                                          {
+                                            "branch_attrs": {
+                                              "mutations": {
+                                                "nuc": [
+                                                  "A7T",
+                                                  "C20T",
+                                                  "C31T",
+                                                  "C879T"
+                                                ]
+                                              }
+                                            },
+                                            "children": [
+                                              {
+                                                "branch_attrs": {
+                                                  "mutations": {
+                                                    "nuc": [
+                                                      "G112T"
+                                                    ]
+                                                  }
+                                                },
+                                                "name": "HCoV/229E/N02",
+                                                "node_attrs": {
+                                                  "accession": "GU068547",
+                                                  "country": {
+                                                    "value": "china"
+                                                  },
+                                                  "div": 0.025083980080003735,
+                                                  "num_date": {
+                                                    "confidence": [
+                                                      2008.045081967213,
+                                                      2008.045081967213
+                                                    ],
+                                                    "value": 2008.045081967213
+                                                  }
+                                                }
+                                              },
+                                              {
+                                                "branch_attrs": {
+                                                  "mutations": {
+                                                    "nuc": [
+                                                      "T34C",
+                                                      "T49C",
+                                                      "A65G",
+                                                      "T1487C"
+                                                    ]
+                                                  }
+                                                },
+                                                "name": "HCoV/229E/N01",
+                                                "node_attrs": {
+                                                  "accession": "GU068546",
+                                                  "country": {
+                                                    "value": "china"
+                                                  },
+                                                  "div": 0.027015001779829243,
+                                                  "num_date": {
+                                                    "confidence": [
+                                                      2007.9602739726026,
+                                                      2007.9602739726026
+                                                    ],
+                                                    "value": 2007.9602739726026
+                                                  }
+                                                }
+                                              }
+                                            ],
+                                            "name": "NODE_0000049",
+                                            "node_attrs": {
+                                              "div": 0.02444095403528071,
+                                              "num_date": {
+                                                "confidence": [
+                                                  2006.9057476807561,
+                                                  2007.7382902347226
+                                                ],
+                                                "value": 2007.3816135457
+                                              }
+                                            }
+                                          },
+                                          {
+                                            "branch_attrs": {
+                                              "mutations": {}
+                                            },
+                                            "children": [
+                                              {
+                                                "branch_attrs": {
+                                                  "mutations": {
+                                                    "nuc": [
+                                                      "C419A"
+                                                    ]
+                                                  }
+                                                },
+                                                "name": "359A_2007",
+                                                "node_attrs": {
+                                                  "accession": "KM055551",
+                                                  "country": {
+                                                    "value": "china"
+                                                  },
+                                                  "div": 0.02251203780779231,
+                                                  "num_date": {
+                                                    "confidence": [
+                                                      2007.0013698630137,
+                                                      2007.9986301369863
+                                                    ],
+                                                    "value": 2007.400531986902
+                                                  }
+                                                }
+                                              },
+                                              {
+                                                "branch_attrs": {
+                                                  "mutations": {
+                                                    "nuc": [
+                                                      "T777C",
+                                                      "T873C",
+                                                      "C1338T"
+                                                    ]
+                                                  }
+                                                },
+                                                "children": [
+                                                  {
+                                                    "branch_attrs": {
+                                                      "mutations": {
+                                                        "nuc": [
+                                                          "T1026A",
+                                                          "C1374T"
+                                                        ]
+                                                      }
+                                                    },
+                                                    "name": "1546A_2009",
+                                                    "node_attrs": {
+                                                      "accession": "KM055534",
+                                                      "country": {
+                                                        "value": "china"
+                                                      },
+                                                      "div": 0.025076926972285855,
+                                                      "num_date": {
+                                                        "confidence": [
+                                                          2009.0013698630137,
+                                                          2009.9986301369863
+                                                        ],
+                                                        "value": 2009.0142111230934
+                                                      }
+                                                    }
+                                                  },
+                                                  {
+                                                    "branch_attrs": {
+                                                      "mutations": {}
+                                                    },
+                                                    "children": [
+                                                      {
+                                                        "branch_attrs": {
+                                                          "mutations": {
+                                                            "nuc": [
+                                                              "C546T"
+                                                            ]
+                                                          }
+                                                        },
+                                                        "children": [
+                                                          {
+                                                            "branch_attrs": {
+                                                              "mutations": {}
+                                                            },
+                                                            "name": "1518A_2009",
+                                                            "node_attrs": {
+                                                              "accession": "KM055533",
+                                                              "country": {
+                                                                "value": "china"
+                                                              },
+                                                              "div": 0.02443454926610982,
+                                                              "num_date": {
+                                                                "confidence": [
+                                                                  2009.0013698630137,
+                                                                  2009.9986301369863
+                                                                ],
+                                                                "value": 2009.3806479735883
+                                                              }
+                                                            }
+                                                          },
+                                                          {
+                                                            "branch_attrs": {
+                                                              "mutations": {}
+                                                            },
+                                                            "name": "1512A_2009",
+                                                            "node_attrs": {
+                                                              "accession": "KM055532",
+                                                              "country": {
+                                                                "value": "china"
+                                                              },
+                                                              "div": 0.02443454926610982,
+                                                              "num_date": {
+                                                                "confidence": [
+                                                                  2009.0013698630137,
+                                                                  2009.9986301369863
+                                                                ],
+                                                                "value": 2009.3806479735883
+                                                              }
+                                                            }
+                                                          }
+                                                        ],
+                                                        "name": "NODE_0000053",
+                                                        "node_attrs": {
+                                                          "div": 0.024434549266109818,
+                                                          "num_date": {
+                                                            "confidence": [
+                                                              2008.722222803906,
+                                                              2009.6141431528802
+                                                            ],
+                                                            "value": 2008.9901786744733
+                                                          }
+                                                        }
+                                                      },
+                                                      {
+                                                        "branch_attrs": {
+                                                          "mutations": {
+                                                            "nuc": [
+                                                              "T1024C"
+                                                            ]
+                                                          }
+                                                        },
+                                                        "children": [
+                                                          {
+                                                            "branch_attrs": {
+                                                              "mutations": {
+                                                                "nuc": [
+                                                                  "T103C",
+                                                                  "T885C",
+                                                                  "T1338C"
+                                                                ]
+                                                              }
+                                                            },
+                                                            "name": "1990A_2010",
+                                                            "node_attrs": {
+                                                              "accession": "KM055543",
+                                                              "country": {
+                                                                "value": "china"
+                                                              },
+                                                              "div": 0.02635471538625426,
+                                                              "num_date": {
+                                                                "confidence": [
+                                                                  2010.0013698630137,
+                                                                  2010.9986301369863
+                                                                ],
+                                                                "value": 2010.2639700851905
+                                                              }
+                                                            }
+                                                          },
+                                                          {
+                                                            "branch_attrs": {
+                                                              "mutations": {
+                                                                "nuc": [
+                                                                  "C1431T"
+                                                                ]
+                                                              }
+                                                            },
+                                                            "name": "8339_2009",
+                                                            "node_attrs": {
+                                                              "accession": "KM055545",
+                                                              "country": {
+                                                                "value": "china"
+                                                              },
+                                                              "div": 0.02507456579903425,
+                                                              "num_date": {
+                                                                "confidence": [
+                                                                  2009.0013698630137,
+                                                                  2009.9986301369863
+                                                                ],
+                                                                "value": 2009.6884450478287
+                                                              }
+                                                            }
+                                                          },
+                                                          {
+                                                            "branch_attrs": {
+                                                              "mutations": {}
+                                                            },
+                                                            "name": "8373_2009",
+                                                            "node_attrs": {
+                                                              "accession": "KM055546",
+                                                              "country": {
+                                                                "value": "china"
+                                                              },
+                                                              "div": 0.024434199735332496,
+                                                              "num_date": {
+                                                                "confidence": [
+                                                                  2009.0013698630137,
+                                                                  2009.9986301369863
+                                                                ],
+                                                                "value": 2009.3898021580083
+                                                              }
+                                                            }
+                                                          },
+                                                          {
+                                                            "branch_attrs": {
+                                                              "mutations": {}
+                                                            },
+                                                            "name": "8425_2009",
+                                                            "node_attrs": {
+                                                              "accession": "KM055547",
+                                                              "country": {
+                                                                "value": "china"
+                                                              },
+                                                              "div": 0.024434199735332496,
+                                                              "num_date": {
+                                                                "confidence": [
+                                                                  2009.0013698630137,
+                                                                  2009.9986301369863
+                                                                ],
+                                                                "value": 2009.3898021580083
+                                                              }
+                                                            }
+                                                          },
+                                                          {
+                                                            "branch_attrs": {
+                                                              "mutations": {
+                                                                "nuc": [
+                                                                  "T624C",
+                                                                  "C832T"
+                                                                ]
+                                                              }
+                                                            },
+                                                            "name": "V349",
+                                                            "node_attrs": {
+                                                              "accession": "JX503060",
+                                                              "country": {
+                                                                "value": "netherlands"
+                                                              },
+                                                              "div": 0.025715087314288745,
+                                                              "num_date": {
+                                                                "confidence": [
+                                                                  2010.0013698630137,
+                                                                  2010.835979791711
+                                                                ],
+                                                                "value": 2010.0013698630137
+                                                              }
+                                                            }
+                                                          },
+                                                          {
+                                                            "branch_attrs": {
+                                                              "mutations": {
+                                                                "nuc": [
+                                                                  "G2C",
+                                                                  "G29A"
+                                                                ]
+                                                              }
+                                                            },
+                                                            "name": "1761A_2010",
+                                                            "node_attrs": {
+                                                              "accession": "KM055538",
+                                                              "country": {
+                                                                "value": "china"
+                                                              },
+                                                              "div": 0.025715920535888094,
+                                                              "num_date": {
+                                                                "confidence": [
+                                                                  2010.0013698630137,
+                                                                  2010.8360895911999
+                                                                ],
+                                                                "value": 2010.0013698630137
+                                                              }
+                                                            }
+                                                          }
+                                                        ],
+                                                        "name": "NODE_0000054",
+                                                        "node_attrs": {
+                                                          "div": 0.024434199735332493,
+                                                          "num_date": {
+                                                            "confidence": [
+                                                              2008.714060192587,
+                                                              2009.3894994617913
+                                                            ],
+                                                            "value": 2008.9901786744733
+                                                          }
+                                                        }
+                                                      }
+                                                    ],
+                                                    "name": "NODE_0000021",
+                                                    "node_attrs": {
+                                                      "div": 0.023793833688733963,
+                                                      "num_date": {
+                                                        "confidence": [
+                                                          2007.9654879378277,
+                                                          2008.995136819405
+                                                        ],
+                                                        "value": 2008.5432397841869
+                                                      }
+                                                    }
+                                                  }
+                                                ],
+                                                "name": "NODE_0000051",
+                                                "node_attrs": {
+                                                  "div": 0.02379383368873396,
+                                                  "num_date": {
+                                                    "confidence": [
+                                                      2007.7098211771338,
+                                                      2008.8739285158042
+                                                    ],
+                                                    "value": 2008.2613041957015
+                                                  }
+                                                }
+                                              }
+                                            ],
+                                            "name": "NODE_0000017",
+                                            "node_attrs": {
+                                              "div": 0.021870168154131803,
+                                              "num_date": {
+                                                "confidence": [
+                                                  2006.0339513617284,
+                                                  2007.3593277217228
+                                                ],
+                                                "value": 2006.8219498540611
+                                              }
+                                            }
+                                          }
+                                        ],
+                                        "name": "NODE_0000047",
+                                        "node_attrs": {
+                                          "div": 0.0218701681541318,
+                                          "num_date": {
+                                            "confidence": [
+                                              2005.9609324924224,
+                                              2007.1372006846323
+                                            ],
+                                            "value": 2006.401842433409
+                                          }
+                                        }
+                                      },
+                                      {
+                                        "branch_attrs": {
+                                          "mutations": {
+                                            "nuc": [
+                                              "G221A",
+                                              "T802C",
+                                              "G928A"
+                                            ]
+                                          }
+                                        },
+                                        "children": [
+                                          {
+                                            "branch_attrs": {
+                                              "mutations": {
+                                                "nuc": [
+                                                  "C20T",
+                                                  "C31T"
+                                                ]
+                                              }
+                                            },
+                                            "children": [
+                                              {
+                                                "branch_attrs": {
+                                                  "mutations": {
+                                                    "nuc": [
+                                                      "A7T",
+                                                      "T115C",
+                                                      "T806C",
+                                                      "T837C"
+                                                    ]
+                                                  }
+                                                },
+                                                "name": "HCoV/229E/N04",
+                                                "node_attrs": {
+                                                  "accession": "GU068549",
+                                                  "country": {
+                                                    "value": "china"
+                                                  },
+                                                  "div": 0.027007743250779037,
+                                                  "num_date": {
+                                                    "confidence": [
+                                                      2008.1407103825136,
+                                                      2008.1407103825136
+                                                    ],
+                                                    "value": 2008.1407103825136
+                                                  }
+                                                }
+                                              },
+                                              {
+                                                "branch_attrs": {
+                                                  "mutations": {
+                                                    "nuc": [
+                                                      "T282C",
+                                                      "A339G",
+                                                      "T726C",
+                                                      "T754C",
+                                                      "T1331C"
+                                                    ]
+                                                  }
+                                                },
+                                                "name": "HCoV/229E/N03",
+                                                "node_attrs": {
+                                                  "accession": "GU068548",
+                                                  "country": {
+                                                    "value": "china"
+                                                  },
+                                                  "div": 0.02765196139301913,
+                                                  "num_date": {
+                                                    "confidence": [
+                                                      2008.0642076502731,
+                                                      2008.0642076502731
+                                                    ],
+                                                    "value": 2008.0642076502731
+                                                  }
+                                                }
+                                              }
+                                            ],
+                                            "name": "NODE_0000034",
+                                            "node_attrs": {
+                                              "div": 0.02443544784004275,
+                                              "num_date": {
+                                                "confidence": [
+                                                  2006.5126215572861,
+                                                  2007.517141040578
+                                                ],
+                                                "value": 2006.9143781445264
+                                              }
+                                            }
+                                          },
+                                          {
+                                            "branch_attrs": {
+                                              "mutations": {}
+                                            },
+                                            "children": [
+                                              {
+                                                "branch_attrs": {
+                                                  "mutations": {}
+                                                },
+                                                "children": [
+                                                  {
+                                                    "branch_attrs": {
+                                                      "mutations": {}
+                                                    },
+                                                    "name": "423A_2007",
+                                                    "node_attrs": {
+                                                      "accession": "KM055552",
+                                                      "country": {
+                                                        "value": "china"
+                                                      },
+                                                      "div": 0.023153061649319073,
+                                                      "num_date": {
+                                                        "confidence": [
+                                                          2007.0013698630137,
+                                                          2007.9986301369863
+                                                        ],
+                                                        "value": 2007.7868442597742
+                                                      }
+                                                    }
+                                                  },
+                                                  {
+                                                    "branch_attrs": {
+                                                      "mutations": {}
+                                                    },
+                                                    "children": [
+                                                      {
+                                                        "branch_attrs": {
+                                                          "mutations": {
+                                                            "nuc": [
+                                                              "A1243C"
+                                                            ]
+                                                          }
+                                                        },
+                                                        "name": "693A_2008",
+                                                        "node_attrs": {
+                                                          "accession": "KM055556",
+                                                          "country": {
+                                                            "value": "china"
+                                                          },
+                                                          "div": 0.02379421843470007,
+                                                          "num_date": {
+                                                            "confidence": [
+                                                              2008.0013661202186,
+                                                              2008.9986338797814
+                                                            ],
+                                                            "value": 2008.353366724884
+                                                          }
+                                                        }
+                                                      },
+                                                      {
+                                                        "branch_attrs": {
+                                                          "mutations": {}
+                                                        },
+                                                        "children": [
+                                                          {
+                                                            "branch_attrs": {
+                                                              "mutations": {
+                                                                "nuc": [
+                                                                  "A266T"
+                                                                ]
+                                                              }
+                                                            },
+                                                            "name": "1482A_2009",
+                                                            "node_attrs": {
+                                                              "accession": "KM055553",
+                                                              "country": {
+                                                                "value": "china"
+                                                              },
+                                                              "div": 0.02379484156942147,
+                                                              "num_date": {
+                                                                "confidence": [
+                                                                  2009.0013698630137,
+                                                                  2009.7978049429692
+                                                                ],
+                                                                "value": 2009.0013698630137
+                                                              }
+                                                            }
+                                                          },
+                                                          {
+                                                            "branch_attrs": {
+                                                              "mutations": {}
+                                                            },
+                                                            "children": [
+                                                              {
+                                                                "branch_attrs": {
+                                                                  "mutations": {}
+                                                                },
+                                                                "name": "494A_2008",
+                                                                "node_attrs": {
+                                                                  "accession": "KM055554",
+                                                                  "country": {
+                                                                    "value": "china"
+                                                                  },
+                                                                  "div": 0.023153061649319084,
+                                                                  "num_date": {
+                                                                    "confidence": [
+                                                                      2008.0013661202186,
+                                                                      2008.9986338797814
+                                                                    ],
+                                                                    "value": 2008.9788133698894
+                                                                  }
+                                                                }
+                                                              },
+                                                              {
+                                                                "branch_attrs": {
+                                                                  "mutations": {
+                                                                    "nuc": [
+                                                                      "T211G"
+                                                                    ]
+                                                                  }
+                                                                },
+                                                                "name": "8348_2009",
+                                                                "node_attrs": {
+                                                                  "accession": "KM055558",
+                                                                  "country": {
+                                                                    "value": "china"
+                                                                  },
+                                                                  "div": 0.02379444801535677,
+                                                                  "num_date": {
+                                                                    "confidence": [
+                                                                      2009.0013698630137,
+                                                                      2009.8139987804618
+                                                                    ],
+                                                                    "value": 2009.0013698630137
+                                                                  }
+                                                                }
+                                                              }
+                                                            ],
+                                                            "name": "NODE_0000030",
+                                                            "node_attrs": {
+                                                              "div": 0.02315306164931908,
+                                                              "num_date": {
+                                                                "confidence": [
+                                                                  2007.96437105944,
+                                                                  2008.9891707700594
+                                                                ],
+                                                                "value": 2008.5901482797735
+                                                              }
+                                                            }
+                                                          }
+                                                        ],
+                                                        "name": "NODE_0000029",
+                                                        "node_attrs": {
+                                                          "div": 0.023153061649319077,
+                                                          "num_date": {
+                                                            "confidence": [
+                                                              2007.7465216150306,
+                                                              2008.6915872796128
+                                                            ],
+                                                            "value": 2008.276809586687
+                                                          }
+                                                        }
+                                                      }
+                                                    ],
+                                                    "name": "NODE_0000027",
+                                                    "node_attrs": {
+                                                      "div": 0.023153061649319073,
+                                                      "num_date": {
+                                                        "confidence": [
+                                                          2007.3632376731448,
+                                                          2008.3440591798737
+                                                        ],
+                                                        "value": 2007.9341603814094
+                                                      }
+                                                    }
+                                                  }
+                                                ],
+                                                "name": "NODE_0000026",
+                                                "node_attrs": {
+                                                  "div": 0.02315306164931907,
+                                                  "num_date": {
+                                                    "confidence": [
+                                                      2006.8549597370431,
+                                                      2007.9951336099748
+                                                    ],
+                                                    "value": 2007.5607294918445
+                                                  }
+                                                }
+                                              },
+                                              {
+                                                "branch_attrs": {
+                                                  "mutations": {
+                                                    "nuc": [
+                                                      "A266C"
+                                                    ]
+                                                  }
+                                                },
+                                                "children": [
+                                                  {
+                                                    "branch_attrs": {
+                                                      "mutations": {
+                                                        "nuc": [
+                                                          "T648A",
+                                                          "T868C",
+                                                          "C1239T"
+                                                        ]
+                                                      }
+                                                    },
+                                                    "name": "1424A_2009",
+                                                    "node_attrs": {
+                                                      "accession": "KM055560",
+                                                      "country": {
+                                                        "value": "china"
+                                                      },
+                                                      "div": 0.025719352977204294,
+                                                      "num_date": {
+                                                        "confidence": [
+                                                          2009.0013698630137,
+                                                          2009.9986301369863
+                                                        ],
+                                                        "value": 2009.0013698630137
+                                                      }
+                                                    }
+                                                  },
+                                                  {
+                                                    "branch_attrs": {
+                                                      "mutations": {
+                                                        "nuc": [
+                                                          "T1024C"
+                                                        ]
+                                                      }
+                                                    },
+                                                    "children": [
+                                                      {
+                                                        "branch_attrs": {
+                                                          "mutations": {
+                                                            "nuc": [
+                                                              "G64A",
+                                                              "T873C",
+                                                              "A928G",
+                                                              "C1338T"
+                                                            ]
+                                                          }
+                                                        },
+                                                        "children": [
+                                                          {
+                                                            "branch_attrs": {
+                                                              "mutations": {
+                                                                "nuc": [
+                                                                  "T183G"
+                                                                ]
+                                                              }
+                                                            },
+                                                            "name": "1649A_2009",
+                                                            "node_attrs": {
+                                                              "accession": "KM055535",
+                                                              "country": {
+                                                                "value": "china"
+                                                              },
+                                                              "div": 0.027636010717679068,
+                                                              "num_date": {
+                                                                "confidence": [
+                                                                  2009.0013698630137,
+                                                                  2009.9986301369863
+                                                                ],
+                                                                "value": 2009.7578793542416
+                                                              }
+                                                            }
+                                                          },
+                                                          {
+                                                            "branch_attrs": {
+                                                              "mutations": {
+                                                                "nuc": [
+                                                                  "G29T",
+                                                                  "T797C",
+                                                                  "G855C",
+                                                                  "G1009A",
+                                                                  "T1318G"
+                                                                ]
+                                                              }
+                                                            },
+                                                            "name": "2764A_2011",
+                                                            "node_attrs": {
+                                                              "accession": "KM055544",
+                                                              "country": {
+                                                                "value": "china"
+                                                              },
+                                                              "div": 0.03020266147285594,
+                                                              "num_date": {
+                                                                "confidence": [
+                                                                  2011.0013698630137,
+                                                                  2011.9986301369863
+                                                                ],
+                                                                "value": 2011.5981131811557
+                                                              }
+                                                            }
+                                                          },
+                                                          {
+                                                            "branch_attrs": {
+                                                              "mutations": {}
+                                                            },
+                                                            "name": "1658A_2009",
+                                                            "node_attrs": {
+                                                              "accession": "KM055536",
+                                                              "country": {
+                                                                "value": "china"
+                                                              },
+                                                              "div": 0.026996055508446675,
+                                                              "num_date": {
+                                                                "confidence": [
+                                                                  2009.0013698630137,
+                                                                  2009.9986301369863
+                                                                ],
+                                                                "value": 2009.4438604101522
+                                                              }
+                                                            }
+                                                          },
+                                                          {
+                                                            "branch_attrs": {
+                                                              "mutations": {}
+                                                            },
+                                                            "name": "1667A_2009",
+                                                            "node_attrs": {
+                                                              "accession": "KM055537",
+                                                              "country": {
+                                                                "value": "china"
+                                                              },
+                                                              "div": 0.026996055508446675,
+                                                              "num_date": {
+                                                                "confidence": [
+                                                                  2009.0013698630137,
+                                                                  2009.9986301369863
+                                                                ],
+                                                                "value": 2009.4438604101522
+                                                              }
+                                                            }
+                                                          },
+                                                          {
+                                                            "branch_attrs": {
+                                                              "mutations": {}
+                                                            },
+                                                            "children": [
+                                                              {
+                                                                "branch_attrs": {
+                                                                  "mutations": {
+                                                                    "nuc": [
+                                                                      "C900T"
+                                                                    ]
+                                                                  }
+                                                                },
+                                                                "name": "CU_H2869/2011",
+                                                                "node_attrs": {
+                                                                  "accession": "JX513245",
+                                                                  "country": {
+                                                                    "value": "thailand"
+                                                                  },
+                                                                  "div": 0.02766340639593895,
+                                                                  "num_date": {
+                                                                    "confidence": [
+                                                                      2011.0150684931507,
+                                                                      2011.0150684931507
+                                                                    ],
+                                                                    "value": 2011.0150684931507
+                                                                  }
+                                                                }
+                                                              },
+                                                              {
+                                                                "branch_attrs": {
+                                                                  "mutations": {}
+                                                                },
+                                                                "children": [
+                                                                  {
+                                                                    "branch_attrs": {
+                                                                      "mutations": {}
+                                                                    },
+                                                                    "children": [
+                                                                      {
+                                                                        "branch_attrs": {
+                                                                          "mutations": {}
+                                                                        },
+                                                                        "name": "1829A_2010",
+                                                                        "node_attrs": {
+                                                                          "accession": "KM055542",
+                                                                          "country": {
+                                                                            "value": "china"
+                                                                          },
+                                                                          "div": 0.026996055508446686,
+                                                                          "num_date": {
+                                                                            "confidence": [
+                                                                              2010.0013698630137,
+                                                                              2010.9986301369863
+                                                                            ],
+                                                                            "value": 2010.5228567431163
+                                                                          }
+                                                                        }
+                                                                      },
+                                                                      {
+                                                                        "branch_attrs": {
+                                                                          "mutations": {}
+                                                                        },
+                                                                        "name": "1781A_2010",
+                                                                        "node_attrs": {
+                                                                          "accession": "KM055539",
+                                                                          "country": {
+                                                                            "value": "china"
+                                                                          },
+                                                                          "div": 0.026996055508446686,
+                                                                          "num_date": {
+                                                                            "confidence": [
+                                                                              2010.0013698630137,
+                                                                              2010.9986301369863
+                                                                            ],
+                                                                            "value": 2010.5228567431163
+                                                                          }
+                                                                        }
+                                                                      }
+                                                                    ],
+                                                                    "name": "NODE_0000046",
+                                                                    "node_attrs": {
+                                                                      "div": 0.026996055508446682,
+                                                                      "num_date": {
+                                                                        "confidence": [
+                                                                          2009.84320719918,
+                                                                          2010.688218335217
+                                                                        ],
+                                                                        "value": 2010.2586582148544
+                                                                      }
+                                                                    }
+                                                                  },
+                                                                  {
+                                                                    "branch_attrs": {
+                                                                      "mutations": {}
+                                                                    },
+                                                                    "children": [
+                                                                      {
+                                                                        "branch_attrs": {
+                                                                          "mutations": {}
+                                                                        },
+                                                                        "name": "1782A_2010",
+                                                                        "node_attrs": {
+                                                                          "accession": "KM055540",
+                                                                          "country": {
+                                                                            "value": "china"
+                                                                          },
+                                                                          "div": 0.026996055508446686,
+                                                                          "num_date": {
+                                                                            "confidence": [
+                                                                              2010.0013698630137,
+                                                                              2010.9986301369863
+                                                                            ],
+                                                                            "value": 2010.5228567431163
+                                                                          }
+                                                                        }
+                                                                      },
+                                                                      {
+                                                                        "branch_attrs": {
+                                                                          "mutations": {}
+                                                                        },
+                                                                        "name": "1827A_2010",
+                                                                        "node_attrs": {
+                                                                          "accession": "KM055541",
+                                                                          "country": {
+                                                                            "value": "china"
+                                                                          },
+                                                                          "div": 0.026996055508446686,
+                                                                          "num_date": {
+                                                                            "confidence": [
+                                                                              2010.0013698630137,
+                                                                              2010.9986301369863
+                                                                            ],
+                                                                            "value": 2010.5228567431163
+                                                                          }
+                                                                        }
+                                                                      }
+                                                                    ],
+                                                                    "name": "NODE_0000048",
+                                                                    "node_attrs": {
+                                                                      "div": 0.026996055508446682,
+                                                                      "num_date": {
+                                                                        "confidence": [
+                                                                          2009.84320719918,
+                                                                          2010.688218335217
+                                                                        ],
+                                                                        "value": 2010.2586582148544
+                                                                      }
+                                                                    }
+                                                                  }
+                                                                ],
+                                                                "name": "NODE_0000039",
+                                                                "node_attrs": {
+                                                                  "div": 0.02699605550844668,
+                                                                  "num_date": {
+                                                                    "confidence": [
+                                                                      2009.5166710166673,
+                                                                      2010.4757064543198
+                                                                    ],
+                                                                    "value": 2010.2094072532805
+                                                                  }
+                                                                }
+                                                              }
+                                                            ],
+                                                            "name": "NODE_0000036",
+                                                            "node_attrs": {
+                                                              "div": 0.026996055508446675,
+                                                              "num_date": {
+                                                                "confidence": [
+                                                                  2008.6252484556674,
+                                                                  2010.5877442453045
+                                                                ],
+                                                                "value": 2009.449713816474
+                                                              }
+                                                            }
+                                                          }
+                                                        ],
+                                                        "name": "NODE_0000020",
+                                                        "node_attrs": {
+                                                          "div": 0.02699605550844667,
+                                                          "num_date": {
+                                                            "confidence": [
+                                                              2008.60790573498,
+                                                              2009.8910176047352
+                                                            ],
+                                                            "value": 2009.2859713976334
+                                                          }
+                                                        }
+                                                      },
+                                                      {
+                                                        "branch_attrs": {
+                                                          "mutations": {
+                                                            "nuc": [
+                                                              "T754C",
+                                                              "G902A",
+                                                              "G1010A",
+                                                              "A1028C"
+                                                            ]
+                                                          }
+                                                        },
+                                                        "children": [
+                                                          {
+                                                            "branch_attrs": {
+                                                              "mutations": {
+                                                                "nuc": [
+                                                                  "T868C"
+                                                                ]
+                                                              }
+                                                            },
+                                                            "children": [
+                                                              {
+                                                                "branch_attrs": {
+                                                                  "mutations": {
+                                                                    "nuc": [
+                                                                      "T541G",
+                                                                      "T1416C"
+                                                                    ]
+                                                                  }
+                                                                },
+                                                                "name": "2861A_2011",
+                                                                "node_attrs": {
+                                                                  "accession": "KM055548",
+                                                                  "country": {
+                                                                    "value": "china"
+                                                                  },
+                                                                  "div": 0.028912184849351208,
+                                                                  "num_date": {
+                                                                    "confidence": [
+                                                                      2011.0013698630137,
+                                                                      2011.9986301369863
+                                                                    ],
+                                                                    "value": 2011.5116903995668
+                                                                  }
+                                                                }
+                                                              },
+                                                              {
+                                                                "branch_attrs": {
+                                                                  "mutations": {}
+                                                                },
+                                                                "children": [
+                                                                  {
+                                                                    "branch_attrs": {
+                                                                      "mutations": {
+                                                                        "nuc": [
+                                                                          "C1338T"
+                                                                        ]
+                                                                      }
+                                                                    },
+                                                                    "name": "11949_2011",
+                                                                    "node_attrs": {
+                                                                      "accession": "KM055531",
+                                                                      "country": {
+                                                                        "value": "china"
+                                                                      },
+                                                                      "div": 0.028273132541552375,
+                                                                      "num_date": {
+                                                                        "confidence": [
+                                                                          2011.0013698630137,
+                                                                          2011.9986301369863
+                                                                        ],
+                                                                        "value": 2011.169988269915
+                                                                      }
+                                                                    }
+                                                                  },
+                                                                  {
+                                                                    "branch_attrs": {
+                                                                      "mutations": {}
+                                                                    },
+                                                                    "children": [
+                                                                      {
+                                                                        "branch_attrs": {
+                                                                          "mutations": {
+                                                                            "nuc": [
+                                                                              "G289T"
+                                                                            ]
+                                                                          }
+                                                                        },
+                                                                        "name": "2981A_2011",
+                                                                        "node_attrs": {
+                                                                          "accession": "KM055550",
+                                                                          "country": {
+                                                                            "value": "china"
+                                                                          },
+                                                                          "div": 0.0282730711485151,
+                                                                          "num_date": {
+                                                                            "confidence": [
+                                                                              2011.0013698630137,
+                                                                              2011.9986301369863
+                                                                            ],
+                                                                            "value": 2011.7020941529788
+                                                                          }
+                                                                        }
+                                                                      },
+                                                                      {
+                                                                        "branch_attrs": {
+                                                                          "mutations": {}
+                                                                        },
+                                                                        "name": "2961A_2011",
+                                                                        "node_attrs": {
+                                                                          "accession": "KM055549",
+                                                                          "country": {
+                                                                            "value": "china"
+                                                                          },
+                                                                          "div": 0.027634134752151242,
+                                                                          "num_date": {
+                                                                            "confidence": [
+                                                                              2011.0013698630137,
+                                                                              2011.9986301369863
+                                                                            ],
+                                                                            "value": 2011.05567491667
+                                                                          }
+                                                                        }
+                                                                      }
+                                                                    ],
+                                                                    "name": "NODE_0000033",
+                                                                    "node_attrs": {
+                                                                      "div": 0.02763413475215124,
+                                                                      "num_date": {
+                                                                        "confidence": [
+                                                                          2010.5243432404638,
+                                                                          2011.287061607656
+                                                                        ],
+                                                                        "value": 2010.9948907217606
+                                                                      }
+                                                                    }
+                                                                  }
+                                                                ],
+                                                                "name": "NODE_0000032",
+                                                                "node_attrs": {
+                                                                  "div": 0.027634134752151235,
+                                                                  "num_date": {
+                                                                    "confidence": [
+                                                                      2010.2218734107328,
+                                                                      2011.1075821314064
+                                                                    ],
+                                                                    "value": 2010.7711783401767
+                                                                  }
+                                                                }
+                                                              }
+                                                            ],
+                                                            "name": "NODE_0000016",
+                                                            "node_attrs": {
+                                                              "div": 0.02763413475215123,
+                                                              "num_date": {
+                                                                "confidence": [
+                                                                  2009.6063075009567,
+                                                                  2011.1717316832896
+                                                                ],
+                                                                "value": 2010.3908213229113
+                                                              }
+                                                            }
+                                                          },
+                                                          {
+                                                            "branch_attrs": {
+                                                              "mutations": {
+                                                                "nuc": [
+                                                                  "T884A"
+                                                                ]
+                                                              }
+                                                            },
+                                                            "children": [
+                                                              {
+                                                                "branch_attrs": {
+                                                                  "mutations": {
+                                                                    "nuc": [
+                                                                      "G887A",
+                                                                      "T1008C",
+                                                                      "A1085T",
+                                                                      "G1126T",
+                                                                      "T1443C"
+                                                                    ]
+                                                                  }
+                                                                },
+                                                                "children": [
+                                                                  {
+                                                                    "branch_attrs": {
+                                                                      "mutations": {
+                                                                        "nuc": [
+                                                                          "C212A",
+                                                                          "C220G",
+                                                                          "C1120T"
+                                                                        ]
+                                                                      }
+                                                                    },
+                                                                    "children": [
+                                                                      {
+                                                                        "branch_attrs": {
+                                                                          "mutations": {}
+                                                                        },
+                                                                        "name": "HCoV_229E/Seattle/USA/SC9731/2016",
+                                                                        "node_attrs": {
+                                                                          "accession": "KY369912",
+                                                                          "country": {
+                                                                            "value": "usa"
+                                                                          },
+                                                                          "div": 0.03275837585968295,
+                                                                          "num_date": {
+                                                                            "confidence": [
+                                                                              2016.0013661202186,
+                                                                              2016.8070991850097
+                                                                            ],
+                                                                            "value": 2016.0013661202186
+                                                                          }
+                                                                        }
+                                                                      },
+                                                                      {
+                                                                        "branch_attrs": {
+                                                                          "mutations": {
+                                                                            "nuc": [
+                                                                              "C254A",
+                                                                              "C1005T",
+                                                                              "C1437T"
+                                                                            ]
+                                                                          }
+                                                                        },
+                                                                        "name": "HCoV_229E/Seattle/USA/SC9773/2016",
+                                                                        "node_attrs": {
+                                                                          "accession": "KY369914",
+                                                                          "country": {
+                                                                            "value": "usa"
+                                                                          },
+                                                                          "div": 0.03468074461804904,
+                                                                          "num_date": {
+                                                                            "confidence": [
+                                                                              2016.2624868012742,
+                                                                              2016.9986338797814
+                                                                            ],
+                                                                            "value": 2016.9986338797814
+                                                                          }
+                                                                        }
+                                                                      }
+                                                                    ],
+                                                                    "name": "NODE_0000013",
+                                                                    "node_attrs": {
+                                                                      "div": 0.03275837585968294,
+                                                                      "num_date": {
+                                                                        "confidence": [
+                                                                          2014.9457571332828,
+                                                                          2016.1695710419892
+                                                                        ],
+                                                                        "value": 2015.8998419771083
+                                                                      }
+                                                                    }
+                                                                  },
+                                                                  {
+                                                                    "branch_attrs": {
+                                                                      "mutations": {
+                                                                        "nuc": [
+                                                                          "T223G",
+                                                                          "C227T",
+                                                                          "T1011C",
+                                                                          "A1048G",
+                                                                          "C1174T"
+                                                                        ]
+                                                                      }
+                                                                    },
+                                                                    "children": [
+                                                                      {
+                                                                        "branch_attrs": {
+                                                                          "mutations": {
+                                                                            "nuc": [
+                                                                              "T420G",
+                                                                              "G687T",
+                                                                              "T797C",
+                                                                              "C879T"
+                                                                            ]
+                                                                          }
+                                                                        },
+                                                                        "name": "HCoV_229E/Seattle/USA/SC9724/2018",
+                                                                        "node_attrs": {
+                                                                          "accession": "MN369046",
+                                                                          "country": {
+                                                                            "value": "usa"
+                                                                          },
+                                                                          "div": 0.0365960141154531,
+                                                                          "num_date": {
+                                                                            "confidence": [
+                                                                              2018.0013698630137,
+                                                                              2018.9986301369863
+                                                                            ],
+                                                                            "value": 2018.483031049074
+                                                                          }
+                                                                        }
+                                                                      },
+                                                                      {
+                                                                        "branch_attrs": {
+                                                                          "mutations": {
+                                                                            "nuc": [
+                                                                              "T34G",
+                                                                              "A657G",
+                                                                              "G1027C",
+                                                                              "G1548A"
+                                                                            ]
+                                                                          }
+                                                                        },
+                                                                        "name": "HCoV_229E/Seattle/USA/SC0865/2019",
+                                                                        "node_attrs": {
+                                                                          "accession": "MN306046",
+                                                                          "country": {
+                                                                            "value": "usa"
+                                                                          },
+                                                                          "div": 0.03659720024237941,
+                                                                          "num_date": {
+                                                                            "confidence": [
+                                                                              2019.0013698630137,
+                                                                              2019.8715640234043
+                                                                            ],
+                                                                            "value": 2019.0013698630137
+                                                                          }
+                                                                        }
+                                                                      }
+                                                                    ],
+                                                                    "name": "NODE_0000014",
+                                                                    "node_attrs": {
+                                                                      "div": 0.034036752250292054,
+                                                                      "num_date": {
+                                                                        "confidence": [
+                                                                          2015.3075371675425,
+                                                                          2017.044700418023
+                                                                        ],
+                                                                        "value": 2015.938888814335
+                                                                      }
+                                                                    }
+                                                                  }
+                                                                ],
+                                                                "name": "NODE_0000012",
+                                                                "node_attrs": {
+                                                                  "div": 0.0308376926197364,
+                                                                  "num_date": {
+                                                                    "confidence": [
+                                                                      2012.6079359919434,
+                                                                      2014.923966139197
+                                                                    ],
+                                                                    "value": 2014.3500228470048
+                                                                  }
+                                                                }
+                                                              },
+                                                              {
+                                                                "branch_attrs": {
+                                                                  "mutations": {
+                                                                    "nuc": [
+                                                                      "G258C",
+                                                                      "A592G"
+                                                                    ]
+                                                                  }
+                                                                },
+                                                                "children": [
+                                                                  {
+                                                                    "branch_attrs": {
+                                                                      "mutations": {
+                                                                        "nuc": [
+                                                                          "T1086C",
+                                                                          "C1174T",
+                                                                          "A1175C"
+                                                                        ]
+                                                                      }
+                                                                    },
+                                                                    "name": "HCoV_229E/BN1/GER/2015",
+                                                                    "node_attrs": {
+                                                                      "accession": "KU291448",
+                                                                      "country": {
+                                                                        "value": "germany"
+                                                                      },
+                                                                      "div": 0.03083225270081102,
+                                                                      "num_date": {
+                                                                        "confidence": [
+                                                                          2015.0013698630137,
+                                                                          2015.8016487069337
+                                                                        ],
+                                                                        "value": 2015.0013698630137
+                                                                      }
+                                                                    }
+                                                                  },
+                                                                  {
+                                                                    "branch_attrs": {
+                                                                      "mutations": {
+                                                                        "nuc": [
+                                                                          "T868C",
+                                                                          "C876A"
+                                                                        ]
+                                                                      }
+                                                                    },
+                                                                    "children": [
+                                                                      {
+                                                                        "branch_attrs": {
+                                                                          "mutations": {
+                                                                            "nuc": [
+                                                                              "C77A",
+                                                                              "T818A",
+                                                                              "C886G",
+                                                                              "C906T",
+                                                                              "C1236T",
+                                                                              "T1470C"
+                                                                            ]
+                                                                          }
+                                                                        },
+                                                                        "name": "HCoV_229E/Seattle/USA/SC2282/2017",
+                                                                        "node_attrs": {
+                                                                          "accession": "KY684760",
+                                                                          "country": {
+                                                                            "value": "usa"
+                                                                          },
+                                                                          "div": 0.034044602534736165,
+                                                                          "num_date": {
+                                                                            "confidence": [
+                                                                              2016.0013661202186,
+                                                                              2016.8731279978824
+                                                                            ],
+                                                                            "value": 2016.0013661202186
+                                                                          }
+                                                                        }
+                                                                      },
+                                                                      {
+                                                                        "branch_attrs": {
+                                                                          "mutations": {
+                                                                            "nuc": [
+                                                                              "C811T",
+                                                                              "G887A",
+                                                                              "G922T"
+                                                                            ]
+                                                                          }
+                                                                        },
+                                                                        "children": [
+                                                                          {
+                                                                            "branch_attrs": {
+                                                                              "mutations": {
+                                                                                "nuc": [
+                                                                                  "C31A",
+                                                                                  "A68T",
+                                                                                  "C77A",
+                                                                                  "C100A",
+                                                                                  "T109G",
+                                                                                  "G817A",
+                                                                                  "A1455G",
+                                                                                  "T1470C"
+                                                                                ]
+                                                                              }
+                                                                            },
+                                                                            "name": "229E/Haiti_1/2016",
+                                                                            "node_attrs": {
+                                                                              "accession": "MF542265",
+                                                                              "country": {
+                                                                                "value": "haiti"
+                                                                              },
+                                                                              "div": 0.03725185185394218,
+                                                                              "num_date": {
+                                                                                "confidence": [
+                                                                                  2016.1734972677596,
+                                                                                  2016.2472677595629
+                                                                                ],
+                                                                                "value": 2016.2472677595629
+                                                                              }
+                                                                            }
+                                                                          },
+                                                                          {
+                                                                            "branch_attrs": {
+                                                                              "mutations": {
+                                                                                "nuc": [
+                                                                                  "G112T",
+                                                                                  "T1128C"
+                                                                                ]
+                                                                              }
+                                                                            },
+                                                                            "children": [
+                                                                              {
+                                                                                "branch_attrs": {
+                                                                                  "mutations": {
+                                                                                    "nuc": [
+                                                                                      "T223C",
+                                                                                      "C258G",
+                                                                                      "C423T",
+                                                                                      "G592A",
+                                                                                      "C698T",
+                                                                                      "T818C",
+                                                                                      "A1313G"
+                                                                                    ]
+                                                                                  }
+                                                                                },
+                                                                                "children": [
+                                                                                  {
+                                                                                    "branch_attrs": {
+                                                                                      "mutations": {}
+                                                                                    },
+                                                                                    "name": "HCoV_229E/Seattle/USA/SC1143/2016",
+                                                                                    "node_attrs": {
+                                                                                      "accession": "KY369910",
+                                                                                      "country": {
+                                                                                        "value": "usa"
+                                                                                      },
+                                                                                      "div": 0.037879427864350314,
+                                                                                      "num_date": {
+                                                                                        "confidence": [
+                                                                                          2016.0013661202186,
+                                                                                          2016.9986338797814
+                                                                                        ],
+                                                                                        "value": 2016.1114212682114
+                                                                                      }
+                                                                                    }
+                                                                                  },
+                                                                                  {
+                                                                                    "branch_attrs": {
+                                                                                      "mutations": {}
+                                                                                    },
+                                                                                    "name": "HCoV_229E/Seattle/USA/SC1212/2016",
+                                                                                    "node_attrs": {
+                                                                                      "accession": "KY369911",
+                                                                                      "country": {
+                                                                                        "value": "usa"
+                                                                                      },
+                                                                                      "div": 0.037879427864350314,
+                                                                                      "num_date": {
+                                                                                        "confidence": [
+                                                                                          2016.0013661202186,
+                                                                                          2016.9986338797814
+                                                                                        ],
+                                                                                        "value": 2016.1114212682114
+                                                                                      }
+                                                                                    }
+                                                                                  }
+                                                                                ],
+                                                                                "name": "NODE_0000007",
+                                                                                "node_attrs": {
+                                                                                  "div": 0.03787942786435031,
+                                                                                  "num_date": {
+                                                                                    "confidence": [
+                                                                                      2015.6957617611647,
+                                                                                      2016.5280579402645
+                                                                                    ],
+                                                                                    "value": 2016.0047923535626
+                                                                                  }
+                                                                                }
+                                                                              },
+                                                                              {
+                                                                                "branch_attrs": {
+                                                                                  "mutations": {
+                                                                                    "nuc": [
+                                                                                      "T111C",
+                                                                                      "G168T",
+                                                                                      "C635T",
+                                                                                      "G817A"
+                                                                                    ]
+                                                                                  }
+                                                                                },
+                                                                                "children": [
+                                                                                  {
+                                                                                    "branch_attrs": {
+                                                                                      "mutations": {
+                                                                                        "nuc": [
+                                                                                          "C218T"
+                                                                                        ]
+                                                                                      }
+                                                                                    },
+                                                                                    "name": "HCoV_229E/Seattle/USA/SC2872/2015",
+                                                                                    "node_attrs": {
+                                                                                      "accession": "KY967357",
+                                                                                      "country": {
+                                                                                        "value": "usa"
+                                                                                      },
+                                                                                      "div": 0.0365894790409441,
+                                                                                      "num_date": {
+                                                                                        "confidence": [
+                                                                                          2015.549509630079,
+                                                                                          2015.9986301369863
+                                                                                        ],
+                                                                                        "value": 2015.9986301369863
+                                                                                      }
+                                                                                    }
+                                                                                  },
+                                                                                  {
+                                                                                    "branch_attrs": {
+                                                                                      "mutations": {
+                                                                                        "nuc": [
+                                                                                          "C1449T"
+                                                                                        ]
+                                                                                      }
+                                                                                    },
+                                                                                    "name": "HCoV_229E/Seattle/USA/SC579/2016",
+                                                                                    "node_attrs": {
+                                                                                      "accession": "KY369908",
+                                                                                      "country": {
+                                                                                        "value": "usa"
+                                                                                      },
+                                                                                      "div": 0.0365894790409441,
+                                                                                      "num_date": {
+                                                                                        "confidence": [
+                                                                                          2016.0013661202186,
+                                                                                          2016.9986338797814
+                                                                                        ],
+                                                                                        "value": 2016.1045978581838
+                                                                                      }
+                                                                                    }
+                                                                                  },
+                                                                                  {
+                                                                                    "branch_attrs": {
+                                                                                      "mutations": {}
+                                                                                    },
+                                                                                    "name": "HCoV_229E/Seattle/USA/SC3112/2015",
+                                                                                    "node_attrs": {
+                                                                                      "accession": "KY983587",
+                                                                                      "country": {
+                                                                                        "value": "usa"
+                                                                                      },
+                                                                                      "div": 0.0359503568815396,
+                                                                                      "num_date": {
+                                                                                        "confidence": [
+                                                                                          2015.0013698630137,
+                                                                                          2015.9986301369863
+                                                                                        ],
+                                                                                        "value": 2015.8864054418086
+                                                                                      }
+                                                                                    }
+                                                                                  },
+                                                                                  {
+                                                                                    "branch_attrs": {
+                                                                                      "mutations": {
+                                                                                        "nuc": [
+                                                                                          "C1524A"
+                                                                                        ]
+                                                                                      }
+                                                                                    },
+                                                                                    "name": "HCoV_229E/Seattle/USA/SC1073/2016",
+                                                                                    "node_attrs": {
+                                                                                      "accession": "KY369913",
+                                                                                      "country": {
+                                                                                        "value": "usa"
+                                                                                      },
+                                                                                      "div": 0.03658960956756224,
+                                                                                      "num_date": {
+                                                                                        "confidence": [
+                                                                                          2016.0013661202186,
+                                                                                          2016.9986338797814
+                                                                                        ],
+                                                                                        "value": 2016.1046790810917
+                                                                                      }
+                                                                                    }
+                                                                                  },
+                                                                                  {
+                                                                                    "branch_attrs": {
+                                                                                      "mutations": {
+                                                                                        "nuc": [
+                                                                                          "A261C"
+                                                                                        ]
+                                                                                      }
+                                                                                    },
+                                                                                    "children": [
+                                                                                      {
+                                                                                        "branch_attrs": {
+                                                                                          "mutations": {}
+                                                                                        },
+                                                                                        "name": "HCoV_229E/Seattle/USA/SC677/2016",
+                                                                                        "node_attrs": {
+                                                                                          "accession": "KY369909",
+                                                                                          "country": {
+                                                                                            "value": "usa"
+                                                                                          },
+                                                                                          "div": 0.03658920123550763,
+                                                                                          "num_date": {
+                                                                                            "confidence": [
+                                                                                              2016.0013661202186,
+                                                                                              2016.9986338797814
+                                                                                            ],
+                                                                                            "value": 2016.0582869616028
+                                                                                          }
+                                                                                        }
+                                                                                      },
+                                                                                      {
+                                                                                        "branch_attrs": {
+                                                                                          "mutations": {}
+                                                                                        },
+                                                                                        "name": "HCoV_229E/Seattle/USA/SC379/2016",
+                                                                                        "node_attrs": {
+                                                                                          "accession": "KY621348",
+                                                                                          "country": {
+                                                                                            "value": "usa"
+                                                                                          },
+                                                                                          "div": 0.03658920123550763,
+                                                                                          "num_date": {
+                                                                                            "confidence": [
+                                                                                              2016.0013661202186,
+                                                                                              2016.9986338797814
+                                                                                            ],
+                                                                                            "value": 2016.0582869616028
+                                                                                          }
+                                                                                        }
+                                                                                      },
+                                                                                      {
+                                                                                        "branch_attrs": {
+                                                                                          "mutations": {}
+                                                                                        },
+                                                                                        "name": "HCoV_229E/Seattle/USA/SC399/2016",
+                                                                                        "node_attrs": {
+                                                                                          "accession": "KY674914",
+                                                                                          "country": {
+                                                                                            "value": "usa"
+                                                                                          },
+                                                                                          "div": 0.03658920123550763,
+                                                                                          "num_date": {
+                                                                                            "confidence": [
+                                                                                              2016.0013661202186,
+                                                                                              2016.9986338797814
+                                                                                            ],
+                                                                                            "value": 2016.0582869616028
+                                                                                          }
+                                                                                        }
+                                                                                      }
+                                                                                    ],
+                                                                                    "name": "NODE_0000001",
+                                                                                    "node_attrs": {
+                                                                                      "div": 0.03658920123550762,
+                                                                                      "num_date": {
+                                                                                        "confidence": [
+                                                                                          2015.8113609720328,
+                                                                                          2016.127282826027
+                                                                                        ],
+                                                                                        "value": 2016.0047923535626
+                                                                                      }
+                                                                                    }
+                                                                                  }
+                                                                                ],
+                                                                                "name": "NODE_0000005",
+                                                                                "node_attrs": {
+                                                                                  "div": 0.035950356881539594,
+                                                                                  "num_date": {
+                                                                                    "confidence": [
+                                                                                      2015.057321337297,
+                                                                                      2015.9041133089052
+                                                                                    ],
+                                                                                    "value": 2015.706890776708
+                                                                                  }
+                                                                                }
+                                                                              }
+                                                                            ],
+                                                                            "name": "NODE_0000006",
+                                                                            "node_attrs": {
+                                                                              "div": 0.03339106851569475,
+                                                                              "num_date": {
+                                                                                "confidence": [
+                                                                                  2012.6045974661756,
+                                                                                  2014.8441683681215
+                                                                                ],
+                                                                                "value": 2014.3064053653923
+                                                                              }
+                                                                            }
+                                                                          }
+                                                                        ],
+                                                                        "name": "NODE_0000008",
+                                                                        "node_attrs": {
+                                                                          "div": 0.03211214798360548,
+                                                                          "num_date": {
+                                                                            "confidence": [
+                                                                              2011.6660306593146,
+                                                                              2014.2173332506093
+                                                                            ],
+                                                                            "value": 2013.4622521201518
+                                                                          }
+                                                                        }
+                                                                      }
+                                                                    ],
+                                                                    "name": "NODE_0000009",
+                                                                    "node_attrs": {
+                                                                      "div": 0.030192995548223668,
+                                                                      "num_date": {
+                                                                        "confidence": [
+                                                                          2010.476952688881,
+                                                                          2013.399684640148
+                                                                        ],
+                                                                        "value": 2012.3006542362439
+                                                                      }
+                                                                    }
+                                                                  }
+                                                                ],
+                                                                "name": "NODE_0000010",
+                                                                "node_attrs": {
+                                                                  "div": 0.02891458402703657,
+                                                                  "num_date": {
+                                                                    "confidence": [
+                                                                      2010.0520575574155,
+                                                                      2012.9562865626233
+                                                                    ],
+                                                                    "value": 2010.9586082495534
+                                                                  }
+                                                                }
+                                                              }
+                                                            ],
+                                                            "name": "NODE_0000011",
+                                                            "node_attrs": {
+                                                              "div": 0.027634884271806104,
+                                                              "num_date": {
+                                                                "confidence": [
+                                                                  2009.5094144769369,
+                                                                  2011.2803839809249
+                                                                ],
+                                                                "value": 2010.388850437115
+                                                              }
+                                                            }
+                                                          }
+                                                        ],
+                                                        "name": "NODE_0000015",
+                                                        "node_attrs": {
+                                                          "div": 0.026995136956871894,
+                                                          "num_date": {
+                                                            "confidence": [
+                                                              2008.86530023093,
+                                                              2010.7174047052033
+                                                            ],
+                                                            "value": 2009.79018506718
+                                                          }
+                                                        }
+                                                      }
+                                                    ],
+                                                    "name": "NODE_0000019",
+                                                    "node_attrs": {
+                                                      "div": 0.024433552644294688,
+                                                      "num_date": {
+                                                        "confidence": [
+                                                          2007.2030960327854,
+                                                          2008.8710390286371
+                                                        ],
+                                                        "value": 2007.936511793635
+                                                      }
+                                                    }
+                                                  }
+                                                ],
+                                                "name": "NODE_0000028",
+                                                "node_attrs": {
+                                                  "div": 0.023793547175791626,
+                                                  "num_date": {
+                                                    "confidence": [
+                                                      2006.7426036982274,
+                                                      2008.518452851162
+                                                    ],
+                                                    "value": 2007.5975574493818
+                                                  }
+                                                }
+                                              }
+                                            ],
+                                            "name": "NODE_0000018",
+                                            "node_attrs": {
+                                              "div": 0.023153061649319066,
+                                              "num_date": {
+                                                "confidence": [
+                                                  2005.8867939959139,
+                                                  2007.9904247023696
+                                                ],
+                                                "value": 2006.9418803430594
+                                              }
+                                            }
+                                          }
+                                        ],
+                                        "name": "NODE_0000035",
+                                        "node_attrs": {
+                                          "div": 0.023153061649319063,
+                                          "num_date": {
+                                            "confidence": [
+                                              2005.785802367904,
+                                              2007.1431819487598
+                                            ],
+                                            "value": 2006.3626385157668
+                                          }
+                                        }
+                                      }
+                                    ],
+                                    "name": "NODE_0000037",
+                                    "node_attrs": {
+                                      "div": 0.02122928360502732,
+                                      "num_date": {
+                                        "confidence": [
+                                          2004.7325855032946,
+                                          2005.9951336099748
+                                        ],
+                                        "value": 2005.5583513223073
+                                      }
+                                    }
+                                  }
+                                ],
+                                "name": "NODE_0000038",
+                                "node_attrs": {
+                                  "div": 0.018658733362364618,
+                                  "num_date": {
+                                    "confidence": [
+                                      2003.6765901180424,
+                                      2005.0972470026938
+                                    ],
+                                    "value": 2004.5926940189124
+                                  }
+                                }
+                              }
+                            ],
+                            "name": "NODE_0000040",
+                            "node_attrs": {
+                              "div": 0.017377486964111313,
+                              "num_date": {
+                                "confidence": [
+                                  2002.1213595950828,
+                                  2004.6303773103357
+                                ],
+                                "value": 2003.750811012832
+                              }
+                            }
+                          }
+                        ],
+                        "name": "NODE_0000041",
+                        "node_attrs": {
+                          "div": 0.010930678248860895,
+                          "num_date": {
+                            "confidence": [
+                              1993.2588629940929,
+                              1994.9329929026233
+                            ],
+                            "value": 1994.0675287770273
+                          }
+                        }
+                      }
+                    ],
+                    "name": "NODE_0000042",
+                    "node_attrs": {
+                      "div": 0.00964640518137517,
+                      "num_date": {
+                        "confidence": [
+                          1992.645584462088,
+                          1993.1800660584477
+                        ],
+                        "value": 1993.0618851315724
+                      }
+                    }
+                  }
+                ],
+                "name": "NODE_0000043",
+                "node_attrs": {
+                  "div": 0.008361324332289161,
+                  "num_date": {
+                    "confidence": [
+                      1991.730427386919,
+                      1992.9093541771358
+                    ],
+                    "value": 1992.6676375328902
+                  }
+                }
+              }
+            ],
+            "name": "NODE_0000044",
+            "node_attrs": {
+              "div": 0.0077196555503403295,
+              "num_date": {
+                "confidence": [
+                  1991.11708518673,
+                  1992.7497163511516
+                ],
+                "value": 1992.3864654802198
+              }
+            }
+          }
+        ],
+        "name": "NODE_0000045",
+        "node_attrs": {
+          "div": 0.002569721731630968,
+          "num_date": {
+            "confidence": [
+              1987.7668026735805,
+              1989.1027397260275
+            ],
+            "value": 1989.1027397260275
+          }
+        }
+      }
+    ],
+    "name": "NODE_0000000",
+    "node_attrs": {
+      "div": 0,
+      "num_date": {
+        "confidence": [
+          1981.6008033091546,
+          1988.0996055519986
+        ],
+        "value": 1985.0753244167036
+      }
+    }
+  },
+  "version": "v2"
+}
