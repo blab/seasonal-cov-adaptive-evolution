@@ -1,6 +1,6 @@
 
-# GENE = ["full"]
-GENE = ["replicase1ab", "nonstructural2a", "he", "spike", "nonstructural2", "envelope", "membrane", "nucleocapsid", "n2protein", "s1", "s2"]
+GENE = ["full"]
+# GENE = ["replicase1ab", "nonstructural2a", "he", "spike", "nonstructural2", "envelope", "membrane", "nucleocapsid", "n2protein", "s1", "s2"]
 
 
 
@@ -25,7 +25,7 @@ rule download:
     output:
         sequences = "data/oc43_{gene}.fasta"
     params:
-        fasta_fields = "accession strain virus collection_date country sequence_locus subtype type"
+        fasta_fields = "strain strain_name virus collection_date country sequence_locus subtype type"
     shell:
         """
         python3 ../fauna/vdb/download.py \
@@ -45,7 +45,7 @@ rule parse:
         sequences = "results/sequences_oc43_{gene}.fasta",
         metadata = "results/metadata_oc43_{gene}.tsv"
     params:
-        fasta_fields = "accession strain virus date country source sequence_locus subtype type",
+        fasta_fields = "strain strain_name virus date country source sequence_locus subtype type",
     shell:
         """
         augur parse \

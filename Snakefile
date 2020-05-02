@@ -55,7 +55,7 @@ rule parse:
 
 def _get_min_length_by_wildcards(wildcards):
     if wildcards.gene == "full":
-        min_length = 1000
+        min_length = 500
     #All genes are already filtered for size when subalignment fastas are made
     else:
         min_length = 200
