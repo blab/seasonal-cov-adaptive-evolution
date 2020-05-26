@@ -42,7 +42,7 @@
       "tree"
     ],
     "title": "Genetic diversity of seasonal coronaviruses. Data collected by Vipr",
-    "updated": "2020-04-25"
+    "updated": "2020-05-08"
   },
   "tree": {
     "branch_attrs": {
@@ -51,69 +51,53 @@
     "children": [
       {
         "branch_attrs": {
-          "mutations": {}
-        },
-        "name": "HKU1",
-        "node_attrs": {
-          "accession": "AY597011",
-          "country": {
-            "value": "usa"
-          },
-          "div": 7.706173169933751e-19,
-          "num_date": {
-            "confidence": [
-              2010.0013698630137,
-              2010.898904109589
-            ],
-            "value": 2010.0013698630137
+          "mutations": {
+            "nuc": [
+              "C61T",
+              "A79G",
+              "T80C",
+              "T81C",
+              "C83T",
+              "T91A",
+              "A108C",
+              "T116C",
+              "T149C",
+              "A150C",
+              "C176T",
+              "C182T",
+              "T185C",
+              "T216C",
+              "T233A",
+              "T244A",
+              "A248G",
+              "G249A",
+              "G283A",
+              "G289A",
+              "G338A",
+              "C368T",
+              "A379G",
+              "G381T",
+              "T396G",
+              "T400A",
+              "G407T",
+              "G408A",
+              "T419C",
+              "A424G",
+              "C445T",
+              "T462G",
+              "C478T",
+              "C504T",
+              "T569C",
+              "A572G"
+            ]
           }
-        }
-      },
-      {
-        "branch_attrs": {
-          "mutations": {}
         },
         "children": [
           {
             "branch_attrs": {
               "mutations": {
                 "nuc": [
-                  "C61T",
-                  "A79G",
-                  "T80C",
-                  "T81C",
-                  "C83T",
-                  "T91A",
-                  "A108C",
-                  "T116C",
-                  "T149C",
-                  "A150C",
-                  "C176T",
-                  "C182T",
-                  "T185C",
-                  "T216C",
-                  "T233A",
-                  "T244A",
-                  "A248G",
-                  "G249A",
-                  "G283A",
-                  "G289A",
-                  "G338A",
-                  "C368T",
-                  "A379G",
-                  "G381T",
-                  "T396G",
-                  "T400A",
-                  "G407T",
-                  "G408A",
-                  "T419C",
-                  "A424G",
-                  "C445T",
-                  "T462G",
-                  "C478T",
-                  "C504T",
-                  "T569C",
-                  "A572G"
+                  "C401T"
                 ]
               }
             },
@@ -122,69 +106,26 @@
                 "branch_attrs": {
                   "mutations": {
                     "nuc": [
-                      "C401T"
+                      "C475T"
                     ]
                   }
                 },
-                "children": [
-                  {
-                    "branch_attrs": {
-                      "mutations": {
-                        "nuc": [
-                          "C475T"
-                        ]
-                      }
-                    },
-                    "name": "12MYKL1061",
-                    "node_attrs": {
-                      "accession": "KR055545",
-                      "country": {
-                        "value": "malaysia"
-                      },
-                      "div": 0.06409630874761386,
-                      "num_date": {
-                        "confidence": [
-                          2012.0013661202186,
-                          2012.889218231829
-                        ],
-                        "value": 2012.0013661202186
-                      }
-                    }
-                  },
-                  {
-                    "branch_attrs": {
-                      "mutations": {
-                        "nuc": [
-                          "T611C"
-                        ]
-                      }
-                    },
-                    "name": "12MYKL1217",
-                    "node_attrs": {
-                      "accession": "KR055550",
-                      "country": {
-                        "value": "malaysia"
-                      },
-                      "div": 0.06409603475044855,
-                      "num_date": {
-                        "confidence": [
-                          2012.0013661202186,
-                          2012.889092185746
-                        ],
-                        "value": 2012.0013661202186
-                      }
-                    }
-                  }
-                ],
-                "name": "NODE_0000018",
+                "name": "hku1/KR055545/12MYKL1061/2012",
                 "node_attrs": {
-                  "div": 0.06247159920572536,
+                  "accession": "KR055545",
+                  "country": {
+                    "value": "Malaysia"
+                  },
+                  "div": 0.03475219312471717,
+                  "host": {
+                    "value": "Human"
+                  },
                   "num_date": {
                     "confidence": [
-                      1948.8825212719555,
-                      2011.56732970904
+                      2012.0013661202186,
+                      2012.8973526487678
                     ],
-                    "value": 2008.7008235092815
+                    "value": 2012.0013661202186
                   }
                 }
               },
@@ -192,9 +133,89 @@
                 "branch_attrs": {
                   "mutations": {
                     "nuc": [
-                      "A395T"
+                      "T611C"
                     ]
                   }
+                },
+                "name": "hku1/KR055550/12MYKL1217/2012",
+                "node_attrs": {
+                  "accession": "KR055550",
+                  "country": {
+                    "value": "Malaysia"
+                  },
+                  "div": 0.03475191998664368,
+                  "host": {
+                    "value": "Human"
+                  },
+                  "num_date": {
+                    "confidence": [
+                      2012.0013661202186,
+                      2012.897365876064
+                    ],
+                    "value": 2012.0013661202186
+                  }
+                }
+              }
+            ],
+            "name": "NODE_0000018",
+            "node_attrs": {
+              "div": 0.033127483944700616,
+              "num_date": {
+                "confidence": [
+                  1974.6837175307255,
+                  2012.8107917129073
+                ],
+                "value": 2005.5782761287576
+              }
+            }
+          },
+          {
+            "branch_attrs": {
+              "mutations": {
+                "nuc": [
+                  "A395T"
+                ]
+              }
+            },
+            "children": [
+              {
+                "branch_attrs": {
+                  "mutations": {
+                    "nuc": [
+                      "T354G",
+                      "C359T",
+                      "G360C",
+                      "G361T",
+                      "T362A",
+                      "A363C",
+                      "C364T",
+                      "G366C",
+                      "C369A"
+                    ]
+                  }
+                },
+                "name": "hku1/KR055535/12MYKL0407/2012",
+                "node_attrs": {
+                  "accession": "KR055535",
+                  "country": {
+                    "value": "Malaysia"
+                  },
+                  "div": 0.04793582818684254,
+                  "host": {
+                    "value": "Human"
+                  },
+                  "num_date": {
+                    "confidence": [
+                      2012.108317141024,
+                      2012.9986338797814
+                    ],
+                    "value": 2012.9986338797814
+                  }
+                }
+              },
+              {
+                "branch_attrs": {
+                  "mutations": {}
                 },
                 "children": [
                   {
@@ -210,13 +231,16 @@
                         "branch_attrs": {
                           "mutations": {}
                         },
-                        "name": "HKU1/human/USA/HKU1_1/2005",
+                        "name": "hku1/KF686338/HKU1/human/USA/HKU1_1/2005/2005",
                         "node_attrs": {
                           "accession": "KF686338",
                           "country": {
-                            "value": "usa"
+                            "value": "USA"
                           },
-                          "div": 0.06409735358979728,
+                          "div": 0.03475323865617838,
+                          "host": {
+                            "value": "Human"
+                          },
                           "num_date": {
                             "confidence": [
                               2005.1328767123289,
@@ -235,19 +259,22 @@
                             "branch_attrs": {
                               "mutations": {}
                             },
-                            "name": "13MYKL1997",
+                            "name": "hku1/KY674921/N08_87/2016",
                             "node_attrs": {
-                              "accession": "KR055553",
+                              "accession": "KY674921",
                               "country": {
-                                "value": "malaysia"
+                                "value": "USA"
                               },
-                              "div": 0.06409735358979728,
+                              "div": 0.03475323865617838,
+                              "host": {
+                                "value": "Human"
+                              },
                               "num_date": {
                                 "confidence": [
-                                  2013.0013698630137,
-                                  2013.9986301369863
+                                  2016.0013661202186,
+                                  2016.8915951119848
                                 ],
-                                "value": 2013.0013698630137
+                                "value": 2016.0013661202186
                               }
                             }
                           },
@@ -255,42 +282,45 @@
                             "branch_attrs": {
                               "mutations": {}
                             },
-                            "name": "N08_87",
+                            "name": "hku1/KR055553/13MYKL1997/2013",
                             "node_attrs": {
-                              "accession": "KY674921",
+                              "accession": "KR055553",
                               "country": {
-                                "value": "usa"
+                                "value": "Malaysia"
                               },
-                              "div": 0.06409735358979728,
+                              "div": 0.03475323865617838,
+                              "host": {
+                                "value": "Human"
+                              },
                               "num_date": {
                                 "confidence": [
-                                  2016.0013661202186,
-                                  2016.8780293599727
+                                  2013.10263034338,
+                                  2013.9986301369863
                                 ],
-                                "value": 2016.0013661202186
+                                "value": 2013.9986301369863
                               }
                             }
                           }
                         ],
-                        "name": "NODE_0000006",
+                        "name": "NODE_0000005",
                         "node_attrs": {
-                          "div": 0.06409735358979728,
+                          "div": 0.03475323865617838,
                           "num_date": {
                             "confidence": [
-                              2005.2348397415412,
-                              2013.9949736888561
+                              2006.2665482493212,
+                              2013.9798967454549
                             ],
-                            "value": 2013.0280640678513
+                            "value": 2012.987026994293
                           }
                         }
                       }
                     ],
-                    "name": "NODE_0000012",
+                    "name": "NODE_0000006",
                     "node_attrs": {
-                      "div": 0.06409735358979728,
+                      "div": 0.03475323865617838,
                       "num_date": {
                         "confidence": [
-                          2004.5158262973955,
+                          2001.0471745345578,
                           2005.1328767123289
                         ],
                         "value": 2005.1328767123289
@@ -304,41 +334,36 @@
                     "children": [
                       {
                         "branch_attrs": {
-                          "mutations": {
-                            "nuc": [
-                              "T354G",
-                              "C359T",
-                              "G360C",
-                              "G361T",
-                              "T362A",
-                              "A363C",
-                              "C364T",
-                              "G366C",
-                              "C369A"
-                            ]
-                          }
-                        },
-                        "name": "12MYKL0407",
-                        "node_attrs": {
-                          "accession": "KR055535",
-                          "country": {
-                            "value": "malaysia"
-                          },
-                          "div": 0.07727994403461422,
-                          "num_date": {
-                            "confidence": [
-                              2012.1230584392492,
-                              2012.9986338797814
-                            ],
-                            "value": 2012.9986338797814
-                          }
-                        }
-                      },
-                      {
-                        "branch_attrs": {
                           "mutations": {}
                         },
                         "children": [
+                          {
+                            "branch_attrs": {
+                              "mutations": {
+                                "nuc": [
+                                  "C122T"
+                                ]
+                              }
+                            },
+                            "name": "hku1/KR055544/12MYKL1058/2012",
+                            "node_attrs": {
+                              "accession": "KR055544",
+                              "country": {
+                                "value": "Malaysia"
+                              },
+                              "div": 0.03475214594143532,
+                              "host": {
+                                "value": "Human"
+                              },
+                              "num_date": {
+                                "confidence": [
+                                  2012.0013661202186,
+                                  2012.8956750839375
+                                ],
+                                "value": 2012.0013661202186
+                              }
+                            }
+                          },
                           {
                             "branch_attrs": {
                               "mutations": {
@@ -350,25 +375,114 @@
                             "children": [
                               {
                                 "branch_attrs": {
+                                  "mutations": {}
+                                },
+                                "name": "hku1/KR055532/12MYKL0163/2012",
+                                "node_attrs": {
+                                  "accession": "KR055532",
+                                  "country": {
+                                    "value": "Malaysia"
+                                  },
+                                  "div": 0.03475214594143532,
+                                  "host": {
+                                    "value": "Human"
+                                  },
+                                  "num_date": {
+                                    "confidence": [
+                                      2012.0013661202186,
+                                      2012.8912109304954
+                                    ],
+                                    "value": 2012.0013661202186
+                                  }
+                                }
+                              },
+                              {
+                                "branch_attrs": {
                                   "mutations": {
                                     "nuc": [
                                       "C256T"
                                     ]
                                   }
                                 },
-                                "name": "12MYKL0790",
+                                "name": "hku1/KR055542/12MYKL0790/2012",
                                 "node_attrs": {
                                   "accession": "KR055542",
                                   "country": {
-                                    "value": "malaysia"
+                                    "value": "Malaysia"
                                   },
-                                  "div": 0.06571989873055983,
+                                  "div": 0.03637578370164754,
+                                  "host": {
+                                    "value": "Human"
+                                  },
                                   "num_date": {
                                     "confidence": [
-                                      2012.0013661202186,
+                                      2012.1109113776315,
                                       2012.9986338797814
                                     ],
-                                    "value": 2012.1588879188218
+                                    "value": 2012.9986338797814
+                                  }
+                                }
+                              }
+                            ],
+                            "name": "NODE_0000000",
+                            "node_attrs": {
+                              "div": 0.03475214594143532,
+                              "num_date": {
+                                "confidence": [
+                                  2003.5693515533553,
+                                  2012.9798700736198
+                                ],
+                                "value": 2010.3123217979257
+                              }
+                            }
+                          }
+                        ],
+                        "name": "NODE_0000008",
+                        "node_attrs": {
+                          "div": 0.033128781974659946,
+                          "num_date": {
+                            "confidence": [
+                              1990.1279074715226,
+                              2012.9184457751967
+                            ],
+                            "value": 2004.3020197354988
+                          }
+                        }
+                      },
+                      {
+                        "branch_attrs": {
+                          "mutations": {}
+                        },
+                        "children": [
+                          {
+                            "branch_attrs": {
+                              "mutations": {}
+                            },
+                            "children": [
+                              {
+                                "branch_attrs": {
+                                  "mutations": {
+                                    "nuc": [
+                                      "C70T"
+                                    ]
+                                  }
+                                },
+                                "name": "hku1/MK167038/SC2521/2017",
+                                "node_attrs": {
+                                  "accession": "MK167038",
+                                  "country": {
+                                    "value": "USA"
+                                  },
+                                  "div": 0.03475214594143532,
+                                  "host": {
+                                    "value": "Human"
+                                  },
+                                  "num_date": {
+                                    "confidence": [
+                                      2017.0013698630137,
+                                      2017.894407731319
+                                    ],
+                                    "value": 2017.0013698630137
                                   }
                                 }
                               },
@@ -376,32 +490,76 @@
                                 "branch_attrs": {
                                   "mutations": {}
                                 },
-                                "name": "12MYKL0163",
-                                "node_attrs": {
-                                  "accession": "KR055532",
-                                  "country": {
-                                    "value": "malaysia"
+                                "children": [
+                                  {
+                                    "branch_attrs": {
+                                      "mutations": {}
+                                    },
+                                    "name": "hku1/KR055536/12MYKL0447/2012",
+                                    "node_attrs": {
+                                      "accession": "KR055536",
+                                      "country": {
+                                        "value": "Malaysia"
+                                      },
+                                      "div": 0.033128781974659946,
+                                      "host": {
+                                        "value": "Human"
+                                      },
+                                      "num_date": {
+                                        "confidence": [
+                                          2012.0013661202186,
+                                          2012.9986338797814
+                                        ],
+                                        "value": 2012.568656739621
+                                      }
+                                    }
                                   },
-                                  "div": 0.06409626082978566,
+                                  {
+                                    "branch_attrs": {
+                                      "mutations": {}
+                                    },
+                                    "name": "hku1/KR055534/12MYKL0323/2012",
+                                    "node_attrs": {
+                                      "accession": "KR055534",
+                                      "country": {
+                                        "value": "Malaysia"
+                                      },
+                                      "div": 0.033128781974659946,
+                                      "host": {
+                                        "value": "Human"
+                                      },
+                                      "num_date": {
+                                        "confidence": [
+                                          2012.0013661202186,
+                                          2012.9986338797814
+                                        ],
+                                        "value": 2012.568656739621
+                                      }
+                                    }
+                                  }
+                                ],
+                                "name": "NODE_0000012",
+                                "node_attrs": {
+                                  "div": 0.033128781974659946,
                                   "num_date": {
                                     "confidence": [
-                                      2012.0013661202186,
-                                      2012.8638677684648
+                                      2008.1974631792782,
+                                      2012.9799004882425
                                     ],
-                                    "value": 2012.0013661202186
+                                    "value": 2011.987030736684
                                   }
                                 }
                               }
                             ],
-                            "name": "NODE_0000016",
+                            "name": "NODE_0000011",
                             "node_attrs": {
-                              "div": 0.06409626082978566,
+                              "div": 0.033128781974659946,
                               "num_date": {
                                 "confidence": [
-                                  1980.425625160689,
-                                  2012.9949714965153
+                                  2003.1921791492969,
+                                  2012.9435860646
                                 ],
-                                "value": 2008.7032636269225
+                                "value": 2008.5433600887939
                               }
                             }
                           },
@@ -412,25 +570,147 @@
                             "children": [
                               {
                                 "branch_attrs": {
-                                  "mutations": {
-                                    "nuc": [
-                                      "C122T"
-                                    ]
-                                  }
+                                  "mutations": {}
                                 },
-                                "name": "12MYKL1058",
-                                "node_attrs": {
-                                  "accession": "KR055544",
-                                  "country": {
-                                    "value": "malaysia"
+                                "children": [
+                                  {
+                                    "branch_attrs": {
+                                      "mutations": {}
+                                    },
+                                    "children": [
+                                      {
+                                        "branch_attrs": {
+                                          "mutations": {}
+                                        },
+                                        "name": "hku1/KR055539/12MYKL0737/2012",
+                                        "node_attrs": {
+                                          "accession": "KR055539",
+                                          "country": {
+                                            "value": "Malaysia"
+                                          },
+                                          "div": 0.033128781974659946,
+                                          "host": {
+                                            "value": "Human"
+                                          },
+                                          "num_date": {
+                                            "confidence": [
+                                              2012.0013661202186,
+                                              2012.9986338797814
+                                            ],
+                                            "value": 2012.7882866501666
+                                          }
+                                        }
+                                      },
+                                      {
+                                        "branch_attrs": {
+                                          "mutations": {}
+                                        },
+                                        "name": "hku1/KR055540/12MYKL0759/2012",
+                                        "node_attrs": {
+                                          "accession": "KR055540",
+                                          "country": {
+                                            "value": "Malaysia"
+                                          },
+                                          "div": 0.033128781974659946,
+                                          "host": {
+                                            "value": "Human"
+                                          },
+                                          "num_date": {
+                                            "confidence": [
+                                              2012.0013661202186,
+                                              2012.9986338797814
+                                            ],
+                                            "value": 2012.7882866501666
+                                          }
+                                        }
+                                      }
+                                    ],
+                                    "name": "NODE_0000015",
+                                    "node_attrs": {
+                                      "div": 0.033128781974659946,
+                                      "num_date": {
+                                        "confidence": [
+                                          2008.8301054659382,
+                                          2012.9799004882425
+                                        ],
+                                        "value": 2011.987030736684
+                                      }
+                                    }
                                   },
-                                  "div": 0.06409626082978566,
+                                  {
+                                    "branch_attrs": {
+                                      "mutations": {}
+                                    },
+                                    "children": [
+                                      {
+                                        "branch_attrs": {
+                                          "mutations": {}
+                                        },
+                                        "name": "hku1/KR055538/12MYKL0624/2012",
+                                        "node_attrs": {
+                                          "accession": "KR055538",
+                                          "country": {
+                                            "value": "Malaysia"
+                                          },
+                                          "div": 0.033128781974659946,
+                                          "host": {
+                                            "value": "Human"
+                                          },
+                                          "num_date": {
+                                            "confidence": [
+                                              2012.0013661202186,
+                                              2012.9986338797814
+                                            ],
+                                            "value": 2012.7882866501666
+                                          }
+                                        }
+                                      },
+                                      {
+                                        "branch_attrs": {
+                                          "mutations": {}
+                                        },
+                                        "name": "hku1/KR055543/12MYKL0841/2012",
+                                        "node_attrs": {
+                                          "accession": "KR055543",
+                                          "country": {
+                                            "value": "Malaysia"
+                                          },
+                                          "div": 0.033128781974659946,
+                                          "host": {
+                                            "value": "Human"
+                                          },
+                                          "num_date": {
+                                            "confidence": [
+                                              2012.0013661202186,
+                                              2012.9986338797814
+                                            ],
+                                            "value": 2012.7882866501666
+                                          }
+                                        }
+                                      }
+                                    ],
+                                    "name": "NODE_0000016",
+                                    "node_attrs": {
+                                      "div": 0.033128781974659946,
+                                      "num_date": {
+                                        "confidence": [
+                                          2008.8301054659382,
+                                          2012.9799004882425
+                                        ],
+                                        "value": 2011.987030736684
+                                      }
+                                    }
+                                  }
+                                ],
+                                "name": "NODE_0000014",
+                                "node_attrs": {
+                                  "div": 0.033128781974659946,
                                   "num_date": {
                                     "confidence": [
-                                      2012.0013661202186,
-                                      2012.9986338797814
+                                      2004.948989240252,
+                                      2012.9435860646
                                     ],
-                                    "value": 2012.0013661202186
+                                    "value": 2009.348458123974
                                   }
                                 }
                               },
@@ -448,57 +728,22 @@
                                         "branch_attrs": {
                                           "mutations": {}
                                         },
-                                        "children": [
-                                          {
-                                            "branch_attrs": {
-                                              "mutations": {}
-                                            },
-                                            "name": "12MYKL0181",
-                                            "node_attrs": {
-                                              "accession": "KR055533",
-                                              "country": {
-                                                "value": "malaysia"
-                                              },
-                                              "div": 0.062472896774058484,
-                                              "num_date": {
-                                                "confidence": [
-                                                  2012.0013661202186,
-                                                  2012.8745349279916
-                                                ],
-                                                "value": 2012.0013661202186
-                                              }
-                                            }
-                                          },
-                                          {
-                                            "branch_attrs": {
-                                              "mutations": {}
-                                            },
-                                            "name": "12MYKL0841",
-                                            "node_attrs": {
-                                              "accession": "KR055543",
-                                              "country": {
-                                                "value": "malaysia"
-                                              },
-                                              "div": 0.062472896774058484,
-                                              "num_date": {
-                                                "confidence": [
-                                                  2012.0013661202186,
-                                                  2012.8745349279916
-                                                ],
-                                                "value": 2012.0013661202186
-                                              }
-                                            }
-                                          }
-                                        ],
-                                        "name": "NODE_0000013",
+                                        "name": "hku1/KR055533/12MYKL0181/2012",
                                         "node_attrs": {
-                                          "div": 0.062472896774058484,
+                                          "accession": "KR055533",
+                                          "country": {
+                                            "value": "Malaysia"
+                                          },
+                                          "div": 0.033128781974659946,
+                                          "host": {
+                                            "value": "Human"
+                                          },
                                           "num_date": {
                                             "confidence": [
-                                              2008.7904836666253,
-                                              2012.9949774316437
+                                              2012.0013661202186,
+                                              2012.9986338797814
                                             ],
-                                            "value": 2011.4457225549727
+                                            "value": 2012.7857330534755
                                           }
                                         }
                                       },
@@ -506,70 +751,35 @@
                                         "branch_attrs": {
                                           "mutations": {}
                                         },
-                                        "children": [
-                                          {
-                                            "branch_attrs": {
-                                              "mutations": {}
-                                            },
-                                            "name": "12MYKL0759",
-                                            "node_attrs": {
-                                              "accession": "KR055540",
-                                              "country": {
-                                                "value": "malaysia"
-                                              },
-                                              "div": 0.062472896774058484,
-                                              "num_date": {
-                                                "confidence": [
-                                                  2012.0013661202186,
-                                                  2012.898966401344
-                                                ],
-                                                "value": 2012.0013661202186
-                                              }
-                                            }
-                                          },
-                                          {
-                                            "branch_attrs": {
-                                              "mutations": {}
-                                            },
-                                            "name": "SI17244",
-                                            "node_attrs": {
-                                              "accession": "MH940245",
-                                              "country": {
-                                                "value": "thailand"
-                                              },
-                                              "div": 0.062472896774058484,
-                                              "num_date": {
-                                                "confidence": [
-                                                  2017.4232876712329,
-                                                  2017.4232876712329
-                                                ],
-                                                "value": 2017.4232876712329
-                                              }
-                                            }
-                                          }
-                                        ],
-                                        "name": "NODE_0000015",
+                                        "name": "hku1/KR055541/12MYKL0777/2012",
                                         "node_attrs": {
-                                          "div": 0.062472896774058484,
+                                          "accession": "KR055541",
+                                          "country": {
+                                            "value": "Malaysia"
+                                          },
+                                          "div": 0.033128781974659946,
+                                          "host": {
+                                            "value": "Human"
+                                          },
                                           "num_date": {
                                             "confidence": [
-                                              2008.2879174976129,
-                                              2012.9949774316437
+                                              2012.0013661202186,
+                                              2012.9986338797814
                                             ],
-                                            "value": 2011.4457225549727
+                                            "value": 2012.7857330534755
                                           }
                                         }
                                       }
                                     ],
-                                    "name": "NODE_0000011",
+                                    "name": "NODE_0000021",
                                     "node_attrs": {
-                                      "div": 0.062472896774058484,
+                                      "div": 0.033128781974659946,
                                       "num_date": {
                                         "confidence": [
-                                          2007.429895825981,
-                                          2012.9878901113893
+                                          2008.8441187408698,
+                                          2012.9799004882425
                                         ],
-                                        "value": 2008.7513757290967
+                                        "value": 2011.987030736684
                                       }
                                     }
                                   },
@@ -582,99 +792,22 @@
                                         "branch_attrs": {
                                           "mutations": {}
                                         },
-                                        "children": [
-                                          {
-                                            "branch_attrs": {
-                                              "mutations": {
-                                                "nuc": [
-                                                  "C70T"
-                                                ]
-                                              }
-                                            },
-                                            "name": "SC2521",
-                                            "node_attrs": {
-                                              "accession": "MK167038",
-                                              "country": {
-                                                "value": "usa"
-                                              },
-                                              "div": 0.06409626082978566,
-                                              "num_date": {
-                                                "confidence": [
-                                                  2017.0013698630137,
-                                                  2017.9986301369863
-                                                ],
-                                                "value": 2017.0013698630137
-                                              }
-                                            }
-                                          },
-                                          {
-                                            "branch_attrs": {
-                                              "mutations": {}
-                                            },
-                                            "children": [
-                                              {
-                                                "branch_attrs": {
-                                                  "mutations": {}
-                                                },
-                                                "name": "12MYKL0529",
-                                                "node_attrs": {
-                                                  "accession": "KR055537",
-                                                  "country": {
-                                                    "value": "malaysia"
-                                                  },
-                                                  "div": 0.062472896774058484,
-                                                  "num_date": {
-                                                    "confidence": [
-                                                      2012.0013661202186,
-                                                      2012.8829031068021
-                                                    ],
-                                                    "value": 2012.0013661202186
-                                                  }
-                                                }
-                                              },
-                                              {
-                                                "branch_attrs": {
-                                                  "mutations": {}
-                                                },
-                                                "name": "12MYKL0323",
-                                                "node_attrs": {
-                                                  "accession": "KR055534",
-                                                  "country": {
-                                                    "value": "malaysia"
-                                                  },
-                                                  "div": 0.062472896774058484,
-                                                  "num_date": {
-                                                    "confidence": [
-                                                      2012.0013661202186,
-                                                      2012.8829031068021
-                                                    ],
-                                                    "value": 2012.0013661202186
-                                                  }
-                                                }
-                                              }
-                                            ],
-                                            "name": "NODE_0000022",
-                                            "node_attrs": {
-                                              "div": 0.062472896774058484,
-                                              "num_date": {
-                                                "confidence": [
-                                                  2009.5703232481146,
-                                                  2012.913426956558
-                                                ],
-                                                "value": 2011.4457225549727
-                                              }
-                                            }
-                                          }
-                                        ],
-                                        "name": "NODE_0000021",
+                                        "name": "hku1/KR055537/12MYKL0529/2012",
                                         "node_attrs": {
-                                          "div": 0.062472896774058484,
+                                          "accession": "KR055537",
+                                          "country": {
+                                            "value": "Malaysia"
+                                          },
+                                          "div": 0.033128781974659946,
+                                          "host": {
+                                            "value": "Human"
+                                          },
                                           "num_date": {
                                             "confidence": [
-                                              2003.623239990397,
-                                              2012.9878901113893
+                                              2012.1108757879708,
+                                              2012.9986338797814
                                             ],
-                                            "value": 2008.7513757290967
+                                            "value": 2012.9986338797814
                                           }
                                         }
                                       },
@@ -682,302 +815,174 @@
                                         "branch_attrs": {
                                           "mutations": {}
                                         },
-                                        "children": [
-                                          {
-                                            "branch_attrs": {
-                                              "mutations": {}
-                                            },
-                                            "children": [
-                                              {
-                                                "branch_attrs": {
-                                                  "mutations": {}
-                                                },
-                                                "name": "12MYKL0737",
-                                                "node_attrs": {
-                                                  "accession": "KR055539",
-                                                  "country": {
-                                                    "value": "malaysia"
-                                                  },
-                                                  "div": 0.062472896774058484,
-                                                  "num_date": {
-                                                    "confidence": [
-                                                      2012.0013661202186,
-                                                      2012.8764162517484
-                                                    ],
-                                                    "value": 2012.0013661202186
-                                                  }
-                                                }
-                                              },
-                                              {
-                                                "branch_attrs": {
-                                                  "mutations": {}
-                                                },
-                                                "name": "12MYKL0777",
-                                                "node_attrs": {
-                                                  "accession": "KR055541",
-                                                  "country": {
-                                                    "value": "malaysia"
-                                                  },
-                                                  "div": 0.062472896774058484,
-                                                  "num_date": {
-                                                    "confidence": [
-                                                      2012.0013661202186,
-                                                      2012.8764162517484
-                                                    ],
-                                                    "value": 2012.0013661202186
-                                                  }
-                                                }
-                                              }
-                                            ],
-                                            "name": "NODE_0000026",
-                                            "node_attrs": {
-                                              "div": 0.062472896774058484,
-                                              "num_date": {
-                                                "confidence": [
-                                                  2009.3527765218498,
-                                                  2012.909469013567
-                                                ],
-                                                "value": 2011.4457225549727
-                                              }
-                                            }
-                                          },
-                                          {
-                                            "branch_attrs": {
-                                              "mutations": {}
-                                            },
-                                            "children": [
-                                              {
-                                                "branch_attrs": {
-                                                  "mutations": {}
-                                                },
-                                                "name": "12MYKL0447",
-                                                "node_attrs": {
-                                                  "accession": "KR055536",
-                                                  "country": {
-                                                    "value": "malaysia"
-                                                  },
-                                                  "div": 0.062472896774058484,
-                                                  "num_date": {
-                                                    "confidence": [
-                                                      2012.0013661202186,
-                                                      2012.8764162517484
-                                                    ],
-                                                    "value": 2012.0013661202186
-                                                  }
-                                                }
-                                              },
-                                              {
-                                                "branch_attrs": {
-                                                  "mutations": {}
-                                                },
-                                                "name": "12MYKL0624",
-                                                "node_attrs": {
-                                                  "accession": "KR055538",
-                                                  "country": {
-                                                    "value": "malaysia"
-                                                  },
-                                                  "div": 0.062472896774058484,
-                                                  "num_date": {
-                                                    "confidence": [
-                                                      2012.0013661202186,
-                                                      2012.8764162517484
-                                                    ],
-                                                    "value": 2012.0013661202186
-                                                  }
-                                                }
-                                              }
-                                            ],
-                                            "name": "NODE_0000028",
-                                            "node_attrs": {
-                                              "div": 0.062472896774058484,
-                                              "num_date": {
-                                                "confidence": [
-                                                  2009.3527765218498,
-                                                  2012.909469013567
-                                                ],
-                                                "value": 2011.4457225549727
-                                              }
-                                            }
-                                          }
-                                        ],
-                                        "name": "NODE_0000025",
+                                        "name": "hku1/MH940245/SI17244/2017",
                                         "node_attrs": {
-                                          "div": 0.062472896774058484,
+                                          "accession": "MH940245",
+                                          "country": {
+                                            "value": "Thailand"
+                                          },
+                                          "div": 0.033128781974659946,
+                                          "host": {
+                                            "value": "Human"
+                                          },
                                           "num_date": {
                                             "confidence": [
-                                              2007.8565670635674,
-                                              2012.9878901113893
+                                              2017.4232876712329,
+                                              2017.4232876712329
                                             ],
-                                            "value": 2008.7513757290967
+                                            "value": 2017.4232876712329
                                           }
                                         }
                                       }
                                     ],
-                                    "name": "NODE_0000020",
+                                    "name": "NODE_0000022",
                                     "node_attrs": {
-                                      "div": 0.062472896774058484,
+                                      "div": 0.033128781974659946,
                                       "num_date": {
                                         "confidence": [
-                                          2003.4744546990228,
-                                          2012.5785683090949
+                                          2008.8573249362541,
+                                          2012.9799004882425
                                         ],
-                                        "value": 2008.5527419917707
+                                        "value": 2011.987030736684
                                       }
                                     }
                                   }
                                 ],
-                                "name": "NODE_0000010",
+                                "name": "NODE_0000020",
                                 "node_attrs": {
-                                  "div": 0.062472896774058484,
+                                  "div": 0.033128781974659946,
                                   "num_date": {
                                     "confidence": [
-                                      2003.4381060666801,
-                                      2012.3887314373135
+                                      2004.8583532797563,
+                                      2012.9435860646
                                     ],
-                                    "value": 2008.0263983639923
+                                    "value": 2009.348458123974
                                   }
                                 }
                               }
                             ],
-                            "name": "NODE_0000009",
+                            "name": "NODE_0000013",
                             "node_attrs": {
-                              "div": 0.062472896774058484,
+                              "div": 0.033128781974659946,
                               "num_date": {
                                 "confidence": [
-                                  1955.6310671749936,
-                                  2012.9487922339551
+                                  2000.2252281990716,
+                                  2012.8907719572906
                                 ],
-                                "value": 2007.2977559994338
+                                "value": 2006.7134115469396
                               }
                             }
                           }
                         ],
-                        "name": "NODE_0000007",
+                        "name": "NODE_0000010",
                         "node_attrs": {
-                          "div": 0.062472896774058484,
+                          "div": 0.033128781974659946,
                           "num_date": {
                             "confidence": [
-                              1923.4226281903443,
-                              2010.5316323087773
+                              1995.7738206417005,
+                              2012.8224723317544
                             ],
-                            "value": 2006.0333204673
+                            "value": 2004.2395854900963
                           }
                         }
                       }
                     ],
-                    "name": "NODE_0000008",
+                    "name": "NODE_0000007",
                     "node_attrs": {
-                      "div": 0.062472896774058484,
+                      "div": 0.033128781974659946,
                       "num_date": {
                         "confidence": [
-                          1901.4977034615783,
-                          2007.9227984810323
+                          1989.9069776205242,
+                          2012.3533847975057
                         ],
-                        "value": 2004.8734881170346
+                        "value": 2001.5041576944427
                       }
                     }
                   }
                 ],
-                "name": "NODE_0000014",
+                "name": "NODE_0000004",
                 "node_attrs": {
-                  "div": 0.062472896774058484,
+                  "div": 0.033128781974659946,
                   "num_date": {
                     "confidence": [
-                      1901.758272425981,
-                      2005.125559872467
+                      1991.9370341454044,
+                      2005.0953814938237
                     ],
-                    "value": 2004.503398011335
+                    "value": 1998.051299984223
                   }
                 }
               }
             ],
-            "name": "NODE_0000017",
+            "name": "NODE_0000002",
             "node_attrs": {
-              "div": 0.060847163340125326,
+              "div": 0.033128781974659946,
               "num_date": {
                 "confidence": [
-                  1884.8619734632366,
-                  2005.1152035049618
+                  1696.43389957751,
+                  2005.0414566591662
                 ],
-                "value": 2003.877657393277
+                "value": 1995.900824065155
               }
             }
-          },
+          }
+        ],
+        "name": "NODE_0000017",
+        "node_attrs": {
+          "div": 0.03150304818652501,
+          "num_date": {
+            "confidence": [
+              1653.1451835959551,
+              2005.0048475951119
+            ],
+            "value": 1990.0718280290555
+          }
+        }
+      },
+      {
+        "branch_attrs": {
+          "mutations": {}
+        },
+        "children": [
           {
             "branch_attrs": {
-              "mutations": {}
+              "mutations": {
+                "nuc": [
+                  "G74A"
+                ]
+              }
             },
             "children": [
               {
                 "branch_attrs": {
                   "mutations": {
                     "nuc": [
-                      "G74A"
+                      "C151T",
+                      "A237C",
+                      "C256T",
+                      "T257C",
+                      "A328C",
+                      "T462C"
                     ]
                   }
                 },
                 "children": [
                   {
                     "branch_attrs": {
-                      "mutations": {
-                        "nuc": [
-                          "C151T",
-                          "A237C",
-                          "C256T",
-                          "T257C",
-                          "A328C",
-                          "T462C"
-                        ]
-                      }
+                      "mutations": {}
                     },
-                    "children": [
-                      {
-                        "branch_attrs": {
-                          "mutations": {}
-                        },
-                        "name": "HKU1/human/USA/1102/2005",
-                        "node_attrs": {
-                          "accession": "KF850450",
-                          "country": {
-                            "value": "usa"
-                          },
-                          "div": 0.011405738172274624,
-                          "num_date": {
-                            "confidence": [
-                              2005.2698630136986,
-                              2005.2698630136986
-                            ],
-                            "value": 2005.2698630136986
-                          }
-                        }
-                      },
-                      {
-                        "branch_attrs": {
-                          "mutations": {}
-                        },
-                        "name": "HKU1/human/USA/HKU1_4/2005",
-                        "node_attrs": {
-                          "accession": "KF430196",
-                          "country": {
-                            "value": "usa"
-                          },
-                          "div": 0.011405738172274624,
-                          "num_date": {
-                            "confidence": [
-                              2005.2972602739726,
-                              2005.2972602739726
-                            ],
-                            "value": 2005.2972602739726
-                          }
-                        }
-                      }
-                    ],
-                    "name": "NODE_0000024",
+                    "name": "hku1/KF850450/HKU1/human/USA/1102/2005/2005",
                     "node_attrs": {
-                      "div": 0.011405738172274624,
+                      "accession": "KF850450",
+                      "country": {
+                        "value": "USA"
+                      },
+                      "div": 0.03949846405983687,
+                      "host": {
+                        "value": "Human"
+                      },
                       "num_date": {
                         "confidence": [
-                          2004.1085416251813,
+                          2005.2698630136986,
                           2005.2698630136986
                         ],
                         "value": 2005.2698630136986
@@ -988,387 +993,35 @@
                     "branch_attrs": {
                       "mutations": {}
                     },
-                    "children": [
-                      {
-                        "branch_attrs": {
-                          "mutations": {
-                            "nuc": [
-                              "A383C",
-                              "T519C"
-                            ]
-                          }
-                        },
-                        "children": [
-                          {
-                            "branch_attrs": {
-                              "mutations": {}
-                            },
-                            "name": "HKU1/human/USA/HKU1_15/2009",
-                            "node_attrs": {
-                              "accession": "KF686344",
-                              "country": {
-                                "value": "usa"
-                              },
-                              "div": 0.004871973784209903,
-                              "num_date": {
-                                "confidence": [
-                                  2009.990410958904,
-                                  2009.990410958904
-                                ],
-                                "value": 2009.990410958904
-                              }
-                            }
-                          },
-                          {
-                            "branch_attrs": {
-                              "mutations": {
-                                "nuc": [
-                                  "G407A"
-                                ]
-                              }
-                            },
-                            "name": "SC2628",
-                            "node_attrs": {
-                              "accession": "KY983584",
-                              "country": {
-                                "value": "usa"
-                              },
-                              "div": 0.006493699160161709,
-                              "num_date": {
-                                "confidence": [
-                                  2015.0013698630137,
-                                  2015.9986301369863
-                                ],
-                                "value": 2015.0013698630137
-                              }
-                            }
-                          }
-                        ],
-                        "name": "NODE_0000027",
-                        "node_attrs": {
-                          "div": 0.004871973784209903,
-                          "num_date": {
-                            "confidence": [
-                              2007.3061729826723,
-                              2009.990410958904
-                            ],
-                            "value": 2009.990410958904
-                          }
-                        }
-                      },
-                      {
-                        "branch_attrs": {
-                          "mutations": {}
-                        },
-                        "children": [
-                          {
-                            "branch_attrs": {
-                              "mutations": {}
-                            },
-                            "children": [
-                              {
-                                "branch_attrs": {
-                                  "mutations": {}
-                                },
-                                "name": "BJ01_p9",
-                                "node_attrs": {
-                                  "accession": "KT779556",
-                                  "country": {
-                                    "value": "china"
-                                  },
-                                  "div": 0.0016230243531178972,
-                                  "num_date": {
-                                    "confidence": [
-                                      2009.3082191780823,
-                                      2009.3082191780823
-                                    ],
-                                    "value": 2009.3082191780823
-                                  }
-                                }
-                              },
-                              {
-                                "branch_attrs": {
-                                  "mutations": {}
-                                },
-                                "name": "BJ01_p3",
-                                "node_attrs": {
-                                  "accession": "KT779555",
-                                  "country": {
-                                    "value": "china"
-                                  },
-                                  "div": 0.0016230243531178972,
-                                  "num_date": {
-                                    "confidence": [
-                                      2009.3082191780823,
-                                      2009.3082191780823
-                                    ],
-                                    "value": 2009.3082191780823
-                                  }
-                                }
-                              }
-                            ],
-                            "name": "NODE_0000037",
-                            "node_attrs": {
-                              "div": 0.0016230243531178963,
-                              "num_date": {
-                                "confidence": [
-                                  2007.164005580088,
-                                  2009.3082191780823
-                                ],
-                                "value": 2009.3082191780823
-                              }
-                            }
-                          },
-                          {
-                            "branch_attrs": {
-                              "mutations": {}
-                            },
-                            "children": [
-                              {
-                                "branch_attrs": {
-                                  "mutations": {}
-                                },
-                                "children": [
-                                  {
-                                    "branch_attrs": {
-                                      "mutations": {}
-                                    },
-                                    "name": "13MYKL1781",
-                                    "node_attrs": {
-                                      "accession": "KR055551",
-                                      "country": {
-                                        "value": "malaysia"
-                                      },
-                                      "div": 0.001623024353117898,
-                                      "num_date": {
-                                        "confidence": [
-                                          2013.0013698630137,
-                                          2013.8688687139784
-                                        ],
-                                        "value": 2013.0013698630137
-                                      }
-                                    }
-                                  },
-                                  {
-                                    "branch_attrs": {
-                                      "mutations": {
-                                        "nuc": [
-                                          "C122T"
-                                        ]
-                                      }
-                                    },
-                                    "name": "13MYKL1898",
-                                    "node_attrs": {
-                                      "accession": "KR055552",
-                                      "country": {
-                                        "value": "malaysia"
-                                      },
-                                      "div": 0.003246181637209971,
-                                      "num_date": {
-                                        "confidence": [
-                                          2013.0013698630137,
-                                          2013.9986301369863
-                                        ],
-                                        "value": 2013.0013698630137
-                                      }
-                                    }
-                                  }
-                                ],
-                                "name": "NODE_0000039",
-                                "node_attrs": {
-                                  "div": 0.0016230243531178972,
-                                  "num_date": {
-                                    "confidence": [
-                                      1994.558581764156,
-                                      2013.8876700475294
-                                    ],
-                                    "value": 2008.7791414985268
-                                  }
-                                }
-                              },
-                              {
-                                "branch_attrs": {
-                                  "mutations": {}
-                                },
-                                "children": [
-                                  {
-                                    "branch_attrs": {
-                                      "mutations": {}
-                                    },
-                                    "children": [
-                                      {
-                                        "branch_attrs": {
-                                          "mutations": {}
-                                        },
-                                        "name": "12MYKL1153",
-                                        "node_attrs": {
-                                          "accession": "KR055548",
-                                          "country": {
-                                            "value": "malaysia"
-                                          },
-                                          "div": 0.0016230243531178989,
-                                          "num_date": {
-                                            "confidence": [
-                                              2012.0013661202186,
-                                              2012.8806773535998
-                                            ],
-                                            "value": 2012.0013661202186
-                                          }
-                                        }
-                                      },
-                                      {
-                                        "branch_attrs": {
-                                          "mutations": {}
-                                        },
-                                        "name": "12MYKL1132",
-                                        "node_attrs": {
-                                          "accession": "KR055547",
-                                          "country": {
-                                            "value": "malaysia"
-                                          },
-                                          "div": 0.0016230243531178989,
-                                          "num_date": {
-                                            "confidence": [
-                                              2012.0013661202186,
-                                              2012.8806773535998
-                                            ],
-                                            "value": 2012.0013661202186
-                                          }
-                                        }
-                                      }
-                                    ],
-                                    "name": "NODE_0000041",
-                                    "node_attrs": {
-                                      "div": 0.001623024353117898,
-                                      "num_date": {
-                                        "confidence": [
-                                          2008.6611292002588,
-                                          2012.7001487952182
-                                        ],
-                                        "value": 2011.4457225549727
-                                      }
-                                    }
-                                  },
-                                  {
-                                    "branch_attrs": {
-                                      "mutations": {}
-                                    },
-                                    "children": [
-                                      {
-                                        "branch_attrs": {
-                                          "mutations": {}
-                                        },
-                                        "name": "12MYKL1214",
-                                        "node_attrs": {
-                                          "accession": "KR055549",
-                                          "country": {
-                                            "value": "malaysia"
-                                          },
-                                          "div": 0.0016230243531178989,
-                                          "num_date": {
-                                            "confidence": [
-                                              2012.0013661202186,
-                                              2012.8806773535998
-                                            ],
-                                            "value": 2012.0013661202186
-                                          }
-                                        }
-                                      },
-                                      {
-                                        "branch_attrs": {
-                                          "mutations": {}
-                                        },
-                                        "name": "12MYKL1075",
-                                        "node_attrs": {
-                                          "accession": "KR055546",
-                                          "country": {
-                                            "value": "malaysia"
-                                          },
-                                          "div": 0.0016230243531178989,
-                                          "num_date": {
-                                            "confidence": [
-                                              2012.0013661202186,
-                                              2012.8806773535998
-                                            ],
-                                            "value": 2012.0013661202186
-                                          }
-                                        }
-                                      }
-                                    ],
-                                    "name": "NODE_0000042",
-                                    "node_attrs": {
-                                      "div": 0.001623024353117898,
-                                      "num_date": {
-                                        "confidence": [
-                                          2008.6611292002588,
-                                          2012.7001487952182
-                                        ],
-                                        "value": 2011.4457225549727
-                                      }
-                                    }
-                                  }
-                                ],
-                                "name": "NODE_0000040",
-                                "node_attrs": {
-                                  "div": 0.0016230243531178972,
-                                  "num_date": {
-                                    "confidence": [
-                                      2007.4315983586118,
-                                      2012.9878901113893
-                                    ],
-                                    "value": 2008.7513757290967
-                                  }
-                                }
-                              }
-                            ],
-                            "name": "NODE_0000038",
-                            "node_attrs": {
-                              "div": 0.0016230243531178963,
-                              "num_date": {
-                                "confidence": [
-                                  1994.4231347147918,
-                                  2012.3738381728476
-                                ],
-                                "value": 2008.3275112047
-                              }
-                            }
-                          }
-                        ],
-                        "name": "NODE_0000036",
-                        "node_attrs": {
-                          "div": 0.0016230243531178954,
-                          "num_date": {
-                            "confidence": [
-                              1996.777182197952,
-                              2009.3009082763424
-                            ],
-                            "value": 2007.32554211571
-                          }
-                        }
-                      }
-                    ],
-                    "name": "NODE_0000032",
+                    "name": "hku1/KF430196/HKU1/human/USA/HKU1_4/2005/2005",
                     "node_attrs": {
-                      "div": 0.0016230243531178946,
+                      "accession": "KF430196",
+                      "country": {
+                        "value": "USA"
+                      },
+                      "div": 0.03949846405983687,
+                      "host": {
+                        "value": "Human"
+                      },
                       "num_date": {
                         "confidence": [
-                          1874.429285704325,
-                          2009.290391414701
+                          2005.2972602739726,
+                          2005.2972602739726
                         ],
-                        "value": 2004.6693322010087
+                        "value": 2005.2972602739726
                       }
                     }
                   }
                 ],
-                "name": "NODE_0000023",
+                "name": "NODE_0000025",
                 "node_attrs": {
-                  "div": 0.0016230243531178937,
+                  "div": 0.03949846405983687,
                   "num_date": {
                     "confidence": [
-                      1541.6255601172593,
-                      2003.3202388457041
+                      2002.1393632105012,
+                      2005.2698630136986
                     ],
-                    "value": 2000.6584704032991
+                    "value": 2005.2698630136986
                   }
                 }
               },
@@ -1381,61 +1034,105 @@
                     "branch_attrs": {
                       "mutations": {
                         "nuc": [
-                          "G393C"
-                        ]
-                      }
-                    },
-                    "name": "Caen1",
-                    "node_attrs": {
-                      "accession": "HM034837",
-                      "country": {
-                        "value": "france"
-                      },
-                      "div": 0.0016248434960860708,
-                      "num_date": {
-                        "confidence": [
-                          2005.1712328767123,
-                          2005.1712328767123
-                        ],
-                        "value": 2005.1712328767123
-                      }
-                    }
-                  },
-                  {
-                    "branch_attrs": {
-                      "mutations": {
-                        "nuc": [
-                          "A607C"
+                          "A383C",
+                          "T519C"
                         ]
                       }
                     },
                     "children": [
                       {
                         "branch_attrs": {
+                          "mutations": {}
+                        },
+                        "name": "hku1/KF686344/HKU1/human/USA/HKU1_15/2009/2009",
+                        "node_attrs": {
+                          "accession": "KF686344",
+                          "country": {
+                            "value": "USA"
+                          },
+                          "div": 0.032964700649563625,
+                          "host": {
+                            "value": "Human"
+                          },
+                          "num_date": {
+                            "confidence": [
+                              2009.990410958904,
+                              2009.990410958904
+                            ],
+                            "value": 2009.990410958904
+                          }
+                        }
+                      },
+                      {
+                        "branch_attrs": {
                           "mutations": {
                             "nuc": [
-                              "A251C"
+                              "G407A"
                             ]
                           }
+                        },
+                        "name": "hku1/KY983584/SC2628/2015",
+                        "node_attrs": {
+                          "accession": "KY983584",
+                          "country": {
+                            "value": "USA"
+                          },
+                          "div": 0.034586426407451513,
+                          "host": {
+                            "value": "Human"
+                          },
+                          "num_date": {
+                            "confidence": [
+                              2015.0013698630137,
+                              2015.8951420935762
+                            ],
+                            "value": 2015.0013698630137
+                          }
+                        }
+                      }
+                    ],
+                    "name": "NODE_0000028",
+                    "node_attrs": {
+                      "div": 0.032964700649563625,
+                      "num_date": {
+                        "confidence": [
+                          2004.6617221442252,
+                          2009.990410958904
+                        ],
+                        "value": 2009.990410958904
+                      }
+                    }
+                  },
+                  {
+                    "branch_attrs": {
+                      "mutations": {}
+                    },
+                    "children": [
+                      {
+                        "branch_attrs": {
+                          "mutations": {}
                         },
                         "children": [
                           {
                             "branch_attrs": {
                               "mutations": {}
                             },
-                            "name": "HKU1/human/USA/HKU1_11/2009",
+                            "name": "hku1/KT779556/BJ01_p9/2009",
                             "node_attrs": {
-                              "accession": "KF686342",
+                              "accession": "KT779556",
                               "country": {
-                                "value": "usa"
+                                "value": "China"
                               },
-                              "div": 0.003244432727193505,
+                              "div": 0.029715751249375356,
+                              "host": {
+                                "value": "Human"
+                              },
                               "num_date": {
                                 "confidence": [
-                                  2009.9493150684932,
-                                  2009.9493150684932
+                                  2009.3082191780823,
+                                  2009.3082191780823
                                 ],
-                                "value": 2009.9493150684932
+                                "value": 2009.3082191780823
                               }
                             }
                           },
@@ -1443,70 +1140,35 @@
                             "branch_attrs": {
                               "mutations": {}
                             },
-                            "children": [
-                              {
-                                "branch_attrs": {
-                                  "mutations": {}
-                                },
-                                "name": "HKU1/human/USA/HKU1_13/2010",
-                                "node_attrs": {
-                                  "accession": "KF686343",
-                                  "country": {
-                                    "value": "usa"
-                                  },
-                                  "div": 0.0032444327271935057,
-                                  "num_date": {
-                                    "confidence": [
-                                      2010.0205479452054,
-                                      2010.0205479452054
-                                    ],
-                                    "value": 2010.0205479452054
-                                  }
-                                }
-                              },
-                              {
-                                "branch_attrs": {
-                                  "mutations": {}
-                                },
-                                "name": "HKU1/human/USA/HKU1_12/2010",
-                                "node_attrs": {
-                                  "accession": "KF686346",
-                                  "country": {
-                                    "value": "usa"
-                                  },
-                                  "div": 0.0032444327271935057,
-                                  "num_date": {
-                                    "confidence": [
-                                      2010.0232876712328,
-                                      2010.0232876712328
-                                    ],
-                                    "value": 2010.0232876712328
-                                  }
-                                }
-                              }
-                            ],
-                            "name": "NODE_0000046",
+                            "name": "hku1/KT779555/BJ01_p3/2009",
                             "node_attrs": {
-                              "div": 0.003244432727193505,
+                              "accession": "KT779555",
+                              "country": {
+                                "value": "China"
+                              },
+                              "div": 0.029715751249375356,
+                              "host": {
+                                "value": "Human"
+                              },
                               "num_date": {
                                 "confidence": [
-                                  2008.5412686053617,
-                                  2010.0205479452054
+                                  2009.3082191780823,
+                                  2009.3082191780823
                                 ],
-                                "value": 2010.0205479452054
+                                "value": 2009.3082191780823
                               }
                             }
                           }
                         ],
-                        "name": "NODE_0000035",
+                        "name": "NODE_0000030",
                         "node_attrs": {
-                          "div": 0.003244432727193504,
+                          "div": 0.029715751249375356,
                           "num_date": {
                             "confidence": [
-                              2007.0154386722586,
-                              2009.9493150684932
+                              2004.219147934059,
+                              2009.3082191780823
                             ],
-                            "value": 2008.8051671203814
+                            "value": 2009.3082191780823
                           }
                         }
                       },
@@ -1519,19 +1181,67 @@
                             "branch_attrs": {
                               "mutations": {}
                             },
-                            "name": "HKU1/human/USA/HKU1_3/2009",
-                            "node_attrs": {
-                              "accession": "KF686339",
-                              "country": {
-                                "value": "usa"
+                            "children": [
+                              {
+                                "branch_attrs": {
+                                  "mutations": {}
+                                },
+                                "name": "hku1/KR055551/13MYKL1781/2013",
+                                "node_attrs": {
+                                  "accession": "KR055551",
+                                  "country": {
+                                    "value": "Malaysia"
+                                  },
+                                  "div": 0.029715751249375356,
+                                  "host": {
+                                    "value": "Human"
+                                  },
+                                  "num_date": {
+                                    "confidence": [
+                                      2013.0013698630137,
+                                      2013.8884107944987
+                                    ],
+                                    "value": 2013.0013698630137
+                                  }
+                                }
                               },
-                              "div": 0.0016228875226758823,
+                              {
+                                "branch_attrs": {
+                                  "mutations": {
+                                    "nuc": [
+                                      "C122T"
+                                    ]
+                                  }
+                                },
+                                "name": "hku1/KR055552/13MYKL1898/2013",
+                                "node_attrs": {
+                                  "accession": "KR055552",
+                                  "country": {
+                                    "value": "Malaysia"
+                                  },
+                                  "div": 0.031338908735249436,
+                                  "host": {
+                                    "value": "Human"
+                                  },
+                                  "num_date": {
+                                    "confidence": [
+                                      2013.108729467786,
+                                      2013.9986301369863
+                                    ],
+                                    "value": 2013.9986301369863
+                                  }
+                                }
+                              }
+                            ],
+                            "name": "NODE_0000032",
+                            "node_attrs": {
+                              "div": 0.029715751249375356,
                               "num_date": {
                                 "confidence": [
-                                  2009.831506849315,
-                                  2009.831506849315
+                                  2005.6141375726666,
+                                  2013.979866339829
                                 ],
-                                "value": 2009.831506849315
+                                "value": 2010.3320160490598
                               }
                             }
                           },
@@ -1549,19 +1259,22 @@
                                     "branch_attrs": {
                                       "mutations": {}
                                     },
-                                    "name": "HKU1/human/USA/HKU1_5/2009",
+                                    "name": "hku1/KR055548/12MYKL1153/2012",
                                     "node_attrs": {
-                                      "accession": "KF686340",
+                                      "accession": "KR055548",
                                       "country": {
-                                        "value": "usa"
+                                        "value": "Malaysia"
                                       },
-                                      "div": 0.0016228875226758823,
+                                      "div": 0.029715751249375356,
+                                      "host": {
+                                        "value": "Human"
+                                      },
                                       "num_date": {
                                         "confidence": [
-                                          2009.9082191780822,
-                                          2009.9082191780822
+                                          2012.0013661202186,
+                                          2012.9986338797814
                                         ],
-                                        "value": 2009.9082191780822
+                                        "value": 2012.8009568398152
                                       }
                                     }
                                   },
@@ -1569,32 +1282,480 @@
                                     "branch_attrs": {
                                       "mutations": {}
                                     },
-                                    "name": "HKU1/human/USA/HKU1_16/2010",
+                                    "name": "hku1/KR055547/12MYKL1132/2012",
                                     "node_attrs": {
-                                      "accession": "KF430200",
+                                      "accession": "KR055547",
                                       "country": {
-                                        "value": "usa"
+                                        "value": "Malaysia"
                                       },
-                                      "div": 0.0016228875226758823,
+                                      "div": 0.029715751249375356,
+                                      "host": {
+                                        "value": "Human"
+                                      },
                                       "num_date": {
                                         "confidence": [
-                                          2010.0205479452054,
-                                          2010.0205479452054
+                                          2012.0013661202186,
+                                          2012.9986338797814
                                         ],
-                                        "value": 2010.0205479452054
+                                        "value": 2012.8009568398152
                                       }
                                     }
                                   }
                                 ],
-                                "name": "NODE_0000048",
+                                "name": "NODE_0000034",
                                 "node_attrs": {
-                                  "div": 0.0016228875226758823,
+                                  "div": 0.029715751249375356,
                                   "num_date": {
                                     "confidence": [
-                                      2007.9787586700547,
+                                      2008.7530731361833,
+                                      2012.9799004882425
+                                    ],
+                                    "value": 2011.987030736684
+                                  }
+                                }
+                              },
+                              {
+                                "branch_attrs": {
+                                  "mutations": {}
+                                },
+                                "children": [
+                                  {
+                                    "branch_attrs": {
+                                      "mutations": {}
+                                    },
+                                    "name": "hku1/KR055549/12MYKL1214/2012",
+                                    "node_attrs": {
+                                      "accession": "KR055549",
+                                      "country": {
+                                        "value": "Malaysia"
+                                      },
+                                      "div": 0.029715751249375356,
+                                      "host": {
+                                        "value": "Human"
+                                      },
+                                      "num_date": {
+                                        "confidence": [
+                                          2012.0013661202186,
+                                          2012.9986338797814
+                                        ],
+                                        "value": 2012.8009568398152
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "branch_attrs": {
+                                      "mutations": {}
+                                    },
+                                    "name": "hku1/KR055546/12MYKL1075/2012",
+                                    "node_attrs": {
+                                      "accession": "KR055546",
+                                      "country": {
+                                        "value": "Malaysia"
+                                      },
+                                      "div": 0.029715751249375356,
+                                      "host": {
+                                        "value": "Human"
+                                      },
+                                      "num_date": {
+                                        "confidence": [
+                                          2012.0013661202186,
+                                          2012.9986338797814
+                                        ],
+                                        "value": 2012.8009568398152
+                                      }
+                                    }
+                                  }
+                                ],
+                                "name": "NODE_0000037",
+                                "node_attrs": {
+                                  "div": 0.029715751249375356,
+                                  "num_date": {
+                                    "confidence": [
+                                      2008.7530731361833,
+                                      2012.9799004882425
+                                    ],
+                                    "value": 2011.987030736684
+                                  }
+                                }
+                              }
+                            ],
+                            "name": "NODE_0000033",
+                            "node_attrs": {
+                              "div": 0.029715751249375356,
+                              "num_date": {
+                                "confidence": [
+                                  2004.6972871095359,
+                                  2012.9435860646
+                                ],
+                                "value": 2009.348458123974
+                              }
+                            }
+                          }
+                        ],
+                        "name": "NODE_0000031",
+                        "node_attrs": {
+                          "div": 0.029715751249375356,
+                          "num_date": {
+                            "confidence": [
+                              2001.9958497086452,
+                              2012.8907719572906
+                            ],
+                            "value": 2006.9281514032455
+                          }
+                        }
+                      }
+                    ],
+                    "name": "NODE_0000029",
+                    "node_attrs": {
+                      "div": 0.029715751249375356,
+                      "num_date": {
+                        "confidence": [
+                          1996.1979272885897,
+                          2009.2707543895401
+                        ],
+                        "value": 2003.858612554423
+                      }
+                    }
+                  }
+                ],
+                "name": "NODE_0000026",
+                "node_attrs": {
+                  "div": 0.029715751249375356,
+                  "num_date": {
+                    "confidence": [
+                      1974.7840625758554,
+                      2009.2168608532431
+                    ],
+                    "value": 1998.1831780528144
+                  }
+                }
+              }
+            ],
+            "name": "NODE_0000024",
+            "node_attrs": {
+              "div": 0.029715751249375356,
+              "num_date": {
+                "confidence": [
+                  1936.7857143635986,
+                  2003.2319080711939
+                ],
+                "value": 1995.50132665833
+              }
+            }
+          },
+          {
+            "branch_attrs": {
+              "mutations": {}
+            },
+            "children": [
+              {
+                "branch_attrs": {
+                  "mutations": {
+                    "nuc": [
+                      "G393C"
+                    ]
+                  }
+                },
+                "name": "hku1/HM034837/Caen1/2005",
+                "node_attrs": {
+                  "accession": "HM034837",
+                  "country": {
+                    "value": "France"
+                  },
+                  "div": 0.02971757031974253,
+                  "host": {
+                    "value": "Human"
+                  },
+                  "num_date": {
+                    "confidence": [
+                      2005.1712328767123,
+                      2005.1712328767123
+                    ],
+                    "value": 2005.1712328767123
+                  }
+                }
+              },
+              {
+                "branch_attrs": {
+                  "mutations": {
+                    "nuc": [
+                      "A607C"
+                    ]
+                  }
+                },
+                "children": [
+                  {
+                    "branch_attrs": {
+                      "mutations": {
+                        "nuc": [
+                          "A251C"
+                        ]
+                      }
+                    },
+                    "children": [
+                      {
+                        "branch_attrs": {
+                          "mutations": {}
+                        },
+                        "name": "hku1/KF686342/HKU1/human/USA/HKU1_11/2009/2009",
+                        "node_attrs": {
+                          "accession": "KF686342",
+                          "country": {
+                            "value": "USA"
+                          },
+                          "div": 0.03133715980657327,
+                          "host": {
+                            "value": "Human"
+                          },
+                          "num_date": {
+                            "confidence": [
+                              2009.9493150684932,
+                              2009.9493150684932
+                            ],
+                            "value": 2009.9493150684932
+                          }
+                        }
+                      },
+                      {
+                        "branch_attrs": {
+                          "mutations": {}
+                        },
+                        "children": [
+                          {
+                            "branch_attrs": {
+                              "mutations": {}
+                            },
+                            "name": "hku1/KF686343/HKU1/human/USA/HKU1_13/2010/2010",
+                            "node_attrs": {
+                              "accession": "KF686343",
+                              "country": {
+                                "value": "USA"
+                              },
+                              "div": 0.03133715980657327,
+                              "host": {
+                                "value": "Human"
+                              },
+                              "num_date": {
+                                "confidence": [
+                                  2010.0205479452054,
+                                  2010.0205479452054
+                                ],
+                                "value": 2010.0205479452054
+                              }
+                            }
+                          },
+                          {
+                            "branch_attrs": {
+                              "mutations": {}
+                            },
+                            "name": "hku1/KF686346/HKU1/human/USA/HKU1_12/2010/2010",
+                            "node_attrs": {
+                              "accession": "KF686346",
+                              "country": {
+                                "value": "USA"
+                              },
+                              "div": 0.03133715980657327,
+                              "host": {
+                                "value": "Human"
+                              },
+                              "num_date": {
+                                "confidence": [
+                                  2010.0232876712328,
+                                  2010.0232876712328
+                                ],
+                                "value": 2010.0232876712328
+                              }
+                            }
+                          }
+                        ],
+                        "name": "NODE_0000041",
+                        "node_attrs": {
+                          "div": 0.03133715980657327,
+                          "num_date": {
+                            "confidence": [
+                              2006.8767645050539,
+                              2010.0205479452054
+                            ],
+                            "value": 2010.0205479452054
+                          }
+                        }
+                      }
+                    ],
+                    "name": "NODE_0000036",
+                    "node_attrs": {
+                      "div": 0.03133715980657327,
+                      "num_date": {
+                        "confidence": [
+                          2003.2961312022214,
+                          2009.9493150684932
+                        ],
+                        "value": 2007.9974495118736
+                      }
+                    }
+                  },
+                  {
+                    "branch_attrs": {
+                      "mutations": {}
+                    },
+                    "children": [
+                      {
+                        "branch_attrs": {
+                          "mutations": {}
+                        },
+                        "name": "hku1/KF686339/HKU1/human/USA/HKU1_3/2009/2009",
+                        "node_attrs": {
+                          "accession": "KF686339",
+                          "country": {
+                            "value": "USA"
+                          },
+                          "div": 0.029715614865720684,
+                          "host": {
+                            "value": "Human"
+                          },
+                          "num_date": {
+                            "confidence": [
+                              2009.831506849315,
+                              2009.831506849315
+                            ],
+                            "value": 2009.831506849315
+                          }
+                        }
+                      },
+                      {
+                        "branch_attrs": {
+                          "mutations": {}
+                        },
+                        "children": [
+                          {
+                            "branch_attrs": {
+                              "mutations": {}
+                            },
+                            "children": [
+                              {
+                                "branch_attrs": {
+                                  "mutations": {}
+                                },
+                                "name": "hku1/KF686340/HKU1/human/USA/HKU1_5/2009/2009",
+                                "node_attrs": {
+                                  "accession": "KF686340",
+                                  "country": {
+                                    "value": "USA"
+                                  },
+                                  "div": 0.029715614865720684,
+                                  "host": {
+                                    "value": "Human"
+                                  },
+                                  "num_date": {
+                                    "confidence": [
+                                      2009.9082191780822,
                                       2009.9082191780822
                                     ],
                                     "value": 2009.9082191780822
+                                  }
+                                }
+                              },
+                              {
+                                "branch_attrs": {
+                                  "mutations": {}
+                                },
+                                "name": "hku1/KF430200/HKU1/human/USA/HKU1_16/2010/2010",
+                                "node_attrs": {
+                                  "accession": "KF430200",
+                                  "country": {
+                                    "value": "USA"
+                                  },
+                                  "div": 0.029715614865720684,
+                                  "host": {
+                                    "value": "Human"
+                                  },
+                                  "num_date": {
+                                    "confidence": [
+                                      2010.0205479452054,
+                                      2010.0205479452054
+                                    ],
+                                    "value": 2010.0205479452054
+                                  }
+                                }
+                              }
+                            ],
+                            "name": "NODE_0000044",
+                            "node_attrs": {
+                              "div": 0.029715614865720684,
+                              "num_date": {
+                                "confidence": [
+                                  2005.6370830940364,
+                                  2009.9082191780822
+                                ],
+                                "value": 2009.9082191780822
+                              }
+                            }
+                          },
+                          {
+                            "branch_attrs": {
+                              "mutations": {}
+                            },
+                            "children": [
+                              {
+                                "branch_attrs": {
+                                  "mutations": {}
+                                },
+                                "children": [
+                                  {
+                                    "branch_attrs": {
+                                      "mutations": {}
+                                    },
+                                    "name": "hku1/KF430202/HKU1/human/USA/HKU1_7/2010/2010",
+                                    "node_attrs": {
+                                      "accession": "KF430202",
+                                      "country": {
+                                        "value": "USA"
+                                      },
+                                      "div": 0.029715614865720684,
+                                      "host": {
+                                        "value": "Human"
+                                      },
+                                      "num_date": {
+                                        "confidence": [
+                                          2010.0068493150684,
+                                          2010.0068493150684
+                                        ],
+                                        "value": 2010.0068493150684
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "branch_attrs": {
+                                      "mutations": {}
+                                    },
+                                    "name": "hku1/KF430199/HKU1/human/USA/HKU1_14/2009/2009",
+                                    "node_attrs": {
+                                      "accession": "KF430199",
+                                      "country": {
+                                        "value": "USA"
+                                      },
+                                      "div": 0.029715614865720684,
+                                      "host": {
+                                        "value": "Human"
+                                      },
+                                      "num_date": {
+                                        "confidence": [
+                                          2009.990410958904,
+                                          2009.990410958904
+                                        ],
+                                        "value": 2009.990410958904
+                                      }
+                                    }
+                                  }
+                                ],
+                                "name": "NODE_0000046",
+                                "node_attrs": {
+                                  "div": 0.029715614865720684,
+                                  "num_date": {
+                                    "confidence": [
+                                      2006.611264589334,
+                                      2009.990410958904
+                                    ],
+                                    "value": 2009.990410958904
                                   }
                                 }
                               },
@@ -1612,19 +1773,22 @@
                                         "branch_attrs": {
                                           "mutations": {}
                                         },
-                                        "name": "HKU1/human/USA/HKU1_14/2009",
+                                        "name": "hku1/KF430201/HKU1/human/USA/HKU1_18/2010/2010",
                                         "node_attrs": {
-                                          "accession": "KF430199",
+                                          "accession": "KF430201",
                                           "country": {
-                                            "value": "usa"
+                                            "value": "USA"
                                           },
-                                          "div": 0.0016228875226758823,
+                                          "div": 0.029715614865720684,
+                                          "host": {
+                                            "value": "Human"
+                                          },
                                           "num_date": {
                                             "confidence": [
-                                              2009.990410958904,
-                                              2009.990410958904
+                                              2010.058904109589,
+                                              2010.058904109589
                                             ],
-                                            "value": 2009.990410958904
+                                            "value": 2010.058904109589
                                           }
                                         }
                                       },
@@ -1632,32 +1796,35 @@
                                         "branch_attrs": {
                                           "mutations": {}
                                         },
-                                        "name": "HKU1/human/USA/HKU1_7/2010",
+                                        "name": "hku1/KF686345/HKU1/human/USA/HKU1_20/2010/2010",
                                         "node_attrs": {
-                                          "accession": "KF430202",
+                                          "accession": "KF686345",
                                           "country": {
-                                            "value": "usa"
+                                            "value": "USA"
                                           },
-                                          "div": 0.0016228875226758823,
+                                          "div": 0.029715614865720684,
+                                          "host": {
+                                            "value": "Human"
+                                          },
                                           "num_date": {
                                             "confidence": [
-                                              2010.0068493150684,
-                                              2010.0068493150684
+                                              2010.0808219178082,
+                                              2010.0808219178082
                                             ],
-                                            "value": 2010.0068493150684
+                                            "value": 2010.0808219178082
                                           }
                                         }
                                       }
                                     ],
-                                    "name": "NODE_0000050",
+                                    "name": "NODE_0000048",
                                     "node_attrs": {
-                                      "div": 0.0016228875226758823,
+                                      "div": 0.029715614865720684,
                                       "num_date": {
                                         "confidence": [
-                                          2008.3433052412684,
-                                          2009.990410958904
+                                          2007.5763811333286,
+                                          2010.058904109589
                                         ],
-                                        "value": 2009.990410958904
+                                        "value": 2010.058904109589
                                       }
                                     }
                                   },
@@ -1670,57 +1837,22 @@
                                         "branch_attrs": {
                                           "mutations": {}
                                         },
-                                        "children": [
-                                          {
-                                            "branch_attrs": {
-                                              "mutations": {}
-                                            },
-                                            "name": "HKU1/human/USA/HKU1_20/2010",
-                                            "node_attrs": {
-                                              "accession": "KF686345",
-                                              "country": {
-                                                "value": "usa"
-                                              },
-                                              "div": 0.0016228875226758823,
-                                              "num_date": {
-                                                "confidence": [
-                                                  2010.0808219178082,
-                                                  2010.0808219178082
-                                                ],
-                                                "value": 2010.0808219178082
-                                              }
-                                            }
-                                          },
-                                          {
-                                            "branch_attrs": {
-                                              "mutations": {}
-                                            },
-                                            "name": "HKU1/human/USA/HKU1_18/2010",
-                                            "node_attrs": {
-                                              "accession": "KF430201",
-                                              "country": {
-                                                "value": "usa"
-                                              },
-                                              "div": 0.0016228875226758823,
-                                              "num_date": {
-                                                "confidence": [
-                                                  2010.058904109589,
-                                                  2010.058904109589
-                                                ],
-                                                "value": 2010.058904109589
-                                              }
-                                            }
-                                          }
-                                        ],
-                                        "name": "NODE_0000052",
+                                        "name": "hku1/KF686341/HKU1/human/USA/HKU1_10/2010/2010",
                                         "node_attrs": {
-                                          "div": 0.0016228875226758823,
+                                          "accession": "KF686341",
+                                          "country": {
+                                            "value": "USA"
+                                          },
+                                          "div": 0.029715614865720684,
+                                          "host": {
+                                            "value": "Human"
+                                          },
                                           "num_date": {
                                             "confidence": [
-                                              2008.6757559196385,
-                                              2010.058904109589
+                                              2010.0424657534247,
+                                              2010.0424657534247
                                             ],
-                                            "value": 2010.058904109589
+                                            "value": 2010.0424657534247
                                           }
                                         }
                                       },
@@ -1733,19 +1865,22 @@
                                             "branch_attrs": {
                                               "mutations": {}
                                             },
-                                            "name": "HKU1/human/USA/HKU1_10/2010",
+                                            "name": "hku1/KY674942/N09_1627B/2016",
                                             "node_attrs": {
-                                              "accession": "KF686341",
+                                              "accession": "KY674942",
                                               "country": {
-                                                "value": "usa"
+                                                "value": "USA"
                                               },
-                                              "div": 0.0016228875226758823,
+                                              "div": 0.029715614865720684,
+                                              "host": {
+                                                "value": "Human"
+                                              },
                                               "num_date": {
                                                 "confidence": [
-                                                  2010.0424657534247,
-                                                  2010.0424657534247
+                                                  2016.0013661202186,
+                                                  2016.9986338797814
                                                 ],
-                                                "value": 2010.0424657534247
+                                                "value": 2016.0013661202186
                                               }
                                             }
                                           },
@@ -1758,19 +1893,22 @@
                                                 "branch_attrs": {
                                                   "mutations": {}
                                                 },
-                                                "name": "N09_1663B",
+                                                "name": "hku1/KY674941/N09_1663B/2016",
                                                 "node_attrs": {
                                                   "accession": "KY674941",
                                                   "country": {
-                                                    "value": "usa"
+                                                    "value": "USA"
                                                   },
-                                                  "div": 0.0016228875226758823,
+                                                  "div": 0.029715614865720684,
+                                                  "host": {
+                                                    "value": "Human"
+                                                  },
                                                   "num_date": {
                                                     "confidence": [
                                                       2016.0013661202186,
-                                                      2016.8642029504824
+                                                      2016.9986338797814
                                                     ],
-                                                    "value": 2016.0013661202186
+                                                    "value": 2016.7322868654232
                                                   }
                                                 }
                                               },
@@ -1778,200 +1916,165 @@
                                                 "branch_attrs": {
                                                   "mutations": {}
                                                 },
-                                                "children": [
-                                                  {
-                                                    "branch_attrs": {
-                                                      "mutations": {}
-                                                    },
-                                                    "name": "N09_1627B",
-                                                    "node_attrs": {
-                                                      "accession": "KY674942",
-                                                      "country": {
-                                                        "value": "usa"
-                                                      },
-                                                      "div": 0.0016228875226758823,
-                                                      "num_date": {
-                                                        "confidence": [
-                                                          2016.0013661202186,
-                                                          2016.9986338797814
-                                                        ],
-                                                        "value": 2016.4573701586992
-                                                      }
-                                                    }
-                                                  },
-                                                  {
-                                                    "branch_attrs": {
-                                                      "mutations": {}
-                                                    },
-                                                    "name": "N09_1605B",
-                                                    "node_attrs": {
-                                                      "accession": "KY674943",
-                                                      "country": {
-                                                        "value": "usa"
-                                                      },
-                                                      "div": 0.0016228875226758823,
-                                                      "num_date": {
-                                                        "confidence": [
-                                                          2016.0013661202186,
-                                                          2016.9986338797814
-                                                        ],
-                                                        "value": 2016.4573701586992
-                                                      }
-                                                    }
-                                                  }
-                                                ],
-                                                "name": "NODE_0000055",
+                                                "name": "hku1/KY674943/N09_1605B/2016",
                                                 "node_attrs": {
-                                                  "div": 0.0016228875226758823,
+                                                  "accession": "KY674943",
+                                                  "country": {
+                                                    "value": "USA"
+                                                  },
+                                                  "div": 0.029715614865720684,
+                                                  "host": {
+                                                    "value": "Human"
+                                                  },
                                                   "num_date": {
                                                     "confidence": [
-                                                      2006.1896962764354,
-                                                      2016.740193180261
+                                                      2016.0013661202186,
+                                                      2016.9986338797814
                                                     ],
-                                                    "value": 2016.0280643017759
+                                                    "value": 2016.7322868654232
                                                   }
                                                 }
                                               }
                                             ],
-                                            "name": "NODE_0000054",
+                                            "name": "NODE_0000051",
                                             "node_attrs": {
-                                              "div": 0.0016228875226758823,
+                                              "div": 0.029715614865720684,
                                               "num_date": {
                                                 "confidence": [
-                                                  2005.3195037575372,
-                                                  2016.6478876839071
+                                                  2012.9824188934797,
+                                                  2016.9799004882425
                                                 ],
-                                                "value": 2015.27201941722
+                                                "value": 2015.9401972578369
                                               }
                                             }
                                           }
                                         ],
-                                        "name": "NODE_0000053",
+                                        "name": "NODE_0000050",
                                         "node_attrs": {
-                                          "div": 0.0016228875226758823,
+                                          "div": 0.029715614865720684,
                                           "num_date": {
                                             "confidence": [
-                                              2008.5778533039434,
-                                              2010.0424657534247
+                                              2008.640871240249,
+                                              2016.9435860646
                                             ],
-                                            "value": 2010.0424657534247
+                                            "value": 2013.348458123974
                                           }
                                         }
                                       }
                                     ],
-                                    "name": "NODE_0000051",
+                                    "name": "NODE_0000049",
                                     "node_attrs": {
-                                      "div": 0.0016228875226758823,
+                                      "div": 0.029715614865720684,
                                       "num_date": {
                                         "confidence": [
-                                          2007.7174110691399,
-                                          2010.0351548516849
+                                          2007.4748427114048,
+                                          2010.0424657534247
                                         ],
-                                        "value": 2008.7613955585052
+                                        "value": 2010.0424657534247
                                       }
                                     }
                                   }
                                 ],
-                                "name": "NODE_0000049",
+                                "name": "NODE_0000047",
                                 "node_attrs": {
-                                  "div": 0.0016228875226758823,
+                                  "div": 0.029715614865720684,
                                   "num_date": {
                                     "confidence": [
-                                      2007.1354908362216,
-                                      2009.9831000736026
+                                      2004.810778579835,
+                                      2010.0050009648826
                                     ],
-                                    "value": 2008.3799126057093
+                                    "value": 2008.0358067118739
                                   }
                                 }
                               }
                             ],
-                            "name": "NODE_0000047",
+                            "name": "NODE_0000045",
                             "node_attrs": {
-                              "div": 0.0016228875226758823,
+                              "div": 0.029715614865720684,
                               "num_date": {
                                 "confidence": [
-                                  2006.1610169513735,
-                                  2009.6811421161963
+                                  2002.5505737604155,
+                                  2009.9511073181006
                                 ],
-                                "value": 2007.9058197459158
+                                "value": 2006.9479825378814
                               }
                             }
                           }
                         ],
-                        "name": "NODE_0000044",
+                        "name": "NODE_0000043",
                         "node_attrs": {
-                          "div": 0.0016228875226758823,
+                          "div": 0.029715614865720684,
                           "num_date": {
                             "confidence": [
-                              2004.7856500318933,
-                              2009.3572502107222
+                              1999.6626353688505,
+                              2009.8707545018688
                             ],
-                            "value": 2007.1981335625026
+                            "value": 2005.3950601024815
                           }
                         }
                       }
                     ],
-                    "name": "NODE_0000034",
+                    "name": "NODE_0000042",
                     "node_attrs": {
-                      "div": 0.0016228875226758823,
+                      "div": 0.029715614865720684,
                       "num_date": {
                         "confidence": [
-                          1975.8511948775833,
-                          2009.8241959475752
+                          1996.1243374862704,
+                          2009.816861091722
                         ],
-                        "value": 2005.6908796705459
+                        "value": 2003.577703107146
                       }
                     }
                   }
                 ],
-                "name": "NODE_0000043",
+                "name": "NODE_0000035",
                 "node_attrs": {
-                  "div": 2.311851950980125e-18,
+                  "div": 0.029715614865720684,
                   "num_date": {
                     "confidence": [
-                      1903.4187032805278,
-                      2005.1712328767123
+                      1995.7694175587967,
+                      2009.7793963178258
                     ],
-                    "value": 2001.744797311134
+                    "value": 2001.2838325598832
                   }
                 }
               }
             ],
-            "name": "NODE_0000029",
+            "name": "NODE_0000038",
             "node_attrs": {
-              "div": 1.5412346339867502e-18,
+              "div": 0.02809272689465483,
               "num_date": {
                 "confidence": [
-                  1430.079614368357,
-                  2002.8306148733857
+                  1979.6293753653754,
+                  2005.1712328767123
                 ],
-                "value": 1998.0679993616643
+                "value": 1997.2869368542702
               }
             }
           }
         ],
-        "name": "NODE_0000019",
+        "name": "NODE_0000023",
         "node_attrs": {
-          "div": 7.706173169933751e-19,
+          "div": 0.02809272689465483,
           "num_date": {
             "confidence": [
-              1288.7127639178332,
-              2005.1046691978984
+              1920.852485382771,
+              2003.983354154592
             ],
-            "value": 1992.6016268281185
+            "value": 1982.790130102291
           }
         }
       }
     ],
-    "name": "NODE_0000000",
+    "name": "NODE_0000019",
     "node_attrs": {
       "div": 0,
       "num_date": {
         "confidence": [
-          1288.7099347556282,
-          2005.0911376645736
+          -1531.735005227048,
+          2004.9513893377168
         ],
-        "value": 1992.1850753262665
+        "value": 1862.891633422084
       }
     }
   },

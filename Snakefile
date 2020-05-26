@@ -23,7 +23,7 @@ rule download:
     output:
         sequences = "data/human_cov_{gene}.fasta"
     params:
-        fasta_fields = "strain strain_name collection_date host country virus subtype type sequence_locus"
+        fasta_fields = "strain accession strain_name date host country virus subtype type sequence_locus"
     shell:
         """
         python3 ../fauna/vdb/download.py \
@@ -43,7 +43,7 @@ rule parse:
         sequences = "results/sequences_cov_{gene}.fasta",
         metadata = "results/metadata_cov_{gene}.tsv"
     params:
-        fasta_fields = "strain strain_name date host country virus subtype type sequence_locus",
+        fasta_fields = "strain accession strain_name date host country virus subtype type sequence_locus",
     shell:
         """
         augur parse \
