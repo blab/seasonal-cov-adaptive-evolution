@@ -1,6 +1,6 @@
 
-# GENE = ["full"]
-GENE = ["replicase1ab", "he", "spike", "nonstructural4", "envelope", "membrane", "nucleocapsid", "nucleocapsid2", "s1", "s2"]
+GENE = ["full"]
+# GENE = ["replicase1ab", "he", "spike", "nonstructural4", "envelope", "membrane", "nucleocapsid", "nucleocapsid2", "s1", "s2"]
 
 
 
@@ -124,6 +124,8 @@ rule tree:
             --output {output.tree}
         """
 
+# --tree-builder-args="-o 'hku14_3/JN874560/HKU1/china/2007' "
+
 rule refine:
     message:
         """
@@ -138,7 +140,8 @@ rule refine:
         node_data = "results/branch_lengths_hku1_{gene}.json"
     params:
         coalescent = "opt",
-        date_inference = "marginal"
+        date_inference = "marginal",
+        root = "hku14_3/JN874560/HKU1/china/2007"
     shell:
         """
         augur refine \
@@ -148,6 +151,7 @@ rule refine:
             --output-tree {output.tree} \
             --output-node-data {output.node_data} \
             --timetree \
+            --root {params.root} \
             --coalescent {params.coalescent} \
             --date-confidence \
             --date-inference {params.date_inference} \
@@ -188,6 +192,29 @@ rule translate:
             --reference-sequence {input.reference} \
             --output-node-data {output.node_data}
         """
+
+def _get_clades_file_for_wildcards(wildcards):
+    return "config/clades_%s.tsv"%wildcards.gene
+
+rule clades:
+    message: "Annotating clades"
+    input:
+        tree = rules.refine.output.tree,
+        nt_muts = rules.ancestral.output.node_data,
+        aa_muts = rules.translate.output.node_data,
+        clades = _get_clades_file_for_wildcards
+    output:
+        node_data = "results/clades_{gene}.json"
+    run:
+        if wildcards.gene == 'spike' or wildcards.gene == 'full':
+            shell("""
+                augur clades \
+                    --tree {input.tree} \
+                    --mutations {input.nt_muts} {input.aa_muts} \
+                    --clades {input.clades} \
+                    --output {output.node_data}
+            """)
+
 #
 # rule traits:
 #     message: "Inferring ancestral traits for country"
@@ -217,7 +244,8 @@ rule export:
         aa_muts = rules.translate.output.node_data,
         lat_longs = files.lat_longs,
         auspice_config = files.auspice_config,
-        colors = files.colors
+        colors = files.colors,
+        clades = rules.clades.output.node_data
         # description = files.description
     output:
         auspice_json = "auspice/seasonal_corona_hku1_{gene}.json"
@@ -227,7 +255,7 @@ rule export:
         augur export v2 \
             --tree {input.tree} \
             --metadata {input.metadata} \
-            --node-data {input.branch_lengths} {input.nt_muts} {input.aa_muts} \
+            --node-data {input.branch_lengths} {input.nt_muts} {input.aa_muts} {input.clades} \
             --include-root-sequence \
             --auspice-config {input.auspice_config} \
             --lat-longs {input.lat_longs} \
