@@ -1,0 +1,509 @@
+Building DAG of jobs...
+Using shell: /bin/bash
+Provided cores: 4
+Rules claiming more threads will be scaled down.
+Job counts:
+	count	jobs
+	7	align
+	1	all
+	8	ancestral
+	9	export
+	7	filter
+	7	parse
+	7	refine
+	8	translate
+	7	tree
+	61
+
+[Tue Jun 16 15:11:58 2020]
+Job 35: Parsing fasta into sequences and metadata
+
+
+[Tue Jun 16 15:11:58 2020]
+Job 44: Reconstructing ancestral sequences and mutations
+
+
+[Tue Jun 16 15:11:58 2020]
+Job 19: Parsing fasta into sequences and metadata
+
+
+[Tue Jun 16 15:11:58 2020]
+Job 1: Exporting data files for for auspice
+
+[Tue Jun 16 15:12:03 2020]
+Finished job 35.
+1 of 61 steps (2%) done
+
+[Tue Jun 16 15:12:03 2020]
+Job 79: 
+        Filtering to
+          - 5000 sequence(s) per country
+          - minimum genome length of 200
+        
+
+[Tue Jun 16 15:12:03 2020]
+Finished job 19.
+2 of 61 steps (3%) done
+
+[Tue Jun 16 15:12:03 2020]
+Job 75: 
+        Filtering to
+          - 5000 sequence(s) per country
+          - minimum genome length of 200
+        
+
+[Tue Jun 16 15:12:04 2020]
+Finished job 1.
+3 of 61 steps (5%) done
+
+[Tue Jun 16 15:12:04 2020]
+Job 15: Parsing fasta into sequences and metadata
+
+[Tue Jun 16 15:12:06 2020]
+Finished job 44.
+4 of 61 steps (7%) done
+
+[Tue Jun 16 15:12:06 2020]
+Job 45: Translating amino acid sequences
+
+[Tue Jun 16 15:12:09 2020]
+Finished job 79.
+5 of 61 steps (8%) done
+
+[Tue Jun 16 15:12:09 2020]
+Job 65: 
+        Aligning sequences to config/oc43_nucleocapsid_reference.gb
+          - filling gaps with N
+        
+
+[Tue Jun 16 15:12:09 2020]
+Finished job 75.
+6 of 61 steps (10%) done
+
+[Tue Jun 16 15:12:09 2020]
+Job 53: 
+        Aligning sequences to config/oc43_he_reference.gb
+          - filling gaps with N
+        
+
+[Tue Jun 16 15:12:11 2020]
+Finished job 15.
+7 of 61 steps (11%) done
+
+[Tue Jun 16 15:12:11 2020]
+Job 74: 
+        Filtering to
+          - 5000 sequence(s) per country
+          - minimum genome length of 200
+        
+
+[Tue Jun 16 15:12:14 2020]
+Finished job 45.
+8 of 61 steps (13%) done
+
+[Tue Jun 16 15:12:14 2020]
+Job 9: Exporting data files for for auspice
+
+[Tue Jun 16 15:12:20 2020]
+Finished job 74.
+9 of 61 steps (15%) done
+
+[Tue Jun 16 15:12:20 2020]
+Job 50: 
+        Aligning sequences to config/oc43_nonstructural2a_reference.gb
+          - filling gaps with N
+        
+
+[Tue Jun 16 15:12:23 2020]
+Finished job 9.
+10 of 61 steps (16%) done
+
+[Tue Jun 16 15:12:23 2020]
+Job 31: Parsing fasta into sequences and metadata
+
+[Tue Jun 16 15:12:23 2020]
+Finished job 53.
+11 of 61 steps (18%) done
+[Tue Jun 16 15:12:23 2020]
+Finished job 65.
+12 of 61 steps (20%) done
+
+[Tue Jun 16 15:12:23 2020]
+Job 64: Building tree
+
+
+[Tue Jun 16 15:12:23 2020]
+Job 52: Building tree
+
+[Tue Jun 16 15:12:28 2020]
+Finished job 50.
+13 of 61 steps (21%) done
+
+[Tue Jun 16 15:12:28 2020]
+Job 49: Building tree
+
+[Tue Jun 16 15:12:29 2020]
+Finished job 31.
+14 of 61 steps (23%) done
+
+[Tue Jun 16 15:12:29 2020]
+Job 78: 
+        Filtering to
+          - 5000 sequence(s) per country
+          - minimum genome length of 200
+        
+
+[Tue Jun 16 15:12:29 2020]
+Finished job 64.
+15 of 61 steps (25%) done
+
+[Tue Jun 16 15:12:29 2020]
+Job 34: 
+        Refining tree
+        
+
+[Tue Jun 16 15:12:30 2020]
+Finished job 52.
+16 of 61 steps (26%) done
+
+[Tue Jun 16 15:12:30 2020]
+Job 18: 
+        Refining tree
+        
+
+[Tue Jun 16 15:12:35 2020]
+Finished job 49.
+17 of 61 steps (28%) done
+
+[Tue Jun 16 15:12:35 2020]
+Job 14: 
+        Refining tree
+        
+
+[Tue Jun 16 15:12:35 2020]
+Finished job 78.
+18 of 61 steps (30%) done
+
+[Tue Jun 16 15:12:35 2020]
+Job 62: 
+        Aligning sequences to config/oc43_membrane_reference.gb
+          - filling gaps with N
+        
+
+[Tue Jun 16 15:12:41 2020]
+Finished job 62.
+19 of 61 steps (31%) done
+
+[Tue Jun 16 15:12:41 2020]
+Job 61: Building tree
+
+[Tue Jun 16 15:12:47 2020]
+Finished job 61.
+20 of 61 steps (33%) done
+
+[Tue Jun 16 15:12:47 2020]
+Job 30: 
+        Refining tree
+        
+
+[Tue Jun 16 15:17:23 2020]
+Finished job 14.
+21 of 61 steps (34%) done
+
+[Tue Jun 16 15:17:23 2020]
+Job 16: Reconstructing ancestral sequences and mutations
+
+[Tue Jun 16 15:17:32 2020]
+Finished job 16.
+22 of 61 steps (36%) done
+
+[Tue Jun 16 15:17:32 2020]
+Job 17: Translating amino acid sequences
+
+[Tue Jun 16 15:17:42 2020]
+Finished job 17.
+23 of 61 steps (38%) done
+
+[Tue Jun 16 15:17:42 2020]
+Job 2: Exporting data files for for auspice
+
+[Tue Jun 16 15:17:46 2020]
+Finished job 18.
+24 of 61 steps (39%) done
+
+[Tue Jun 16 15:17:46 2020]
+Job 20: Reconstructing ancestral sequences and mutations
+
+[Tue Jun 16 15:17:53 2020]
+Finished job 2.
+25 of 61 steps (41%) done
+
+[Tue Jun 16 15:17:53 2020]
+Job 39: Parsing fasta into sequences and metadata
+
+[Tue Jun 16 15:17:57 2020]
+Finished job 34.
+26 of 61 steps (43%) done
+
+[Tue Jun 16 15:17:57 2020]
+Job 36: Reconstructing ancestral sequences and mutations
+
+[Tue Jun 16 15:17:57 2020]
+Finished job 20.
+27 of 61 steps (44%) done
+
+[Tue Jun 16 15:17:57 2020]
+Job 21: Translating amino acid sequences
+
+[Tue Jun 16 15:18:03 2020]
+Finished job 30.
+28 of 61 steps (46%) done
+
+[Tue Jun 16 15:18:03 2020]
+Job 32: Reconstructing ancestral sequences and mutations
+
+[Tue Jun 16 15:18:04 2020]
+Finished job 39.
+29 of 61 steps (48%) done
+
+[Tue Jun 16 15:18:04 2020]
+Job 80: 
+        Filtering to
+          - 5000 sequence(s) per country
+          - minimum genome length of 200
+        
+
+[Tue Jun 16 15:18:06 2020]
+Finished job 21.
+30 of 61 steps (49%) done
+
+[Tue Jun 16 15:18:06 2020]
+Job 3: Exporting data files for for auspice
+
+[Tue Jun 16 15:18:07 2020]
+Finished job 36.
+31 of 61 steps (51%) done
+
+[Tue Jun 16 15:18:07 2020]
+Job 37: Translating amino acid sequences
+
+[Tue Jun 16 15:18:10 2020]
+Finished job 80.
+32 of 61 steps (52%) done
+
+[Tue Jun 16 15:18:10 2020]
+Job 23: Parsing fasta into sequences and metadata
+
+[Tue Jun 16 15:18:10 2020]
+Finished job 32.
+33 of 61 steps (54%) done
+
+[Tue Jun 16 15:18:10 2020]
+Job 33: Translating amino acid sequences
+
+[Tue Jun 16 15:18:14 2020]
+Finished job 37.
+34 of 61 steps (56%) done
+
+[Tue Jun 16 15:18:14 2020]
+Job 7: Exporting data files for for auspice
+
+[Tue Jun 16 15:18:14 2020]
+Finished job 3.
+35 of 61 steps (57%) done
+
+[Tue Jun 16 15:18:14 2020]
+Job 68: 
+        Aligning sequences to config/oc43_n2protein_reference.gb
+          - filling gaps with N
+        
+
+[Tue Jun 16 15:18:14 2020]
+Finished job 23.
+36 of 61 steps (59%) done
+
+[Tue Jun 16 15:18:14 2020]
+Job 76: 
+        Filtering to
+          - 5000 sequence(s) per country
+          - minimum genome length of 200
+        
+[Tue Jun 16 15:18:14 2020]
+
+Finished job 33.
+37 of 61 steps (61%) done
+
+[Tue Jun 16 15:18:15 2020]
+Job 6: Exporting data files for for auspice
+
+[Tue Jun 16 15:18:20 2020]
+Finished job 7.
+38 of 61 steps (62%) done
+
+[Tue Jun 16 15:18:20 2020]
+Job 27: Parsing fasta into sequences and metadata
+
+[Tue Jun 16 15:18:22 2020]
+Finished job 68.
+39 of 61 steps (64%) done
+
+[Tue Jun 16 15:18:22 2020]
+Job 67: Building tree
+
+[Tue Jun 16 15:18:23 2020]
+Finished job 76.
+40 of 61 steps (66%) done
+
+[Tue Jun 16 15:18:23 2020]
+Job 56: 
+        Aligning sequences to config/oc43_nonstructural2_reference.gb
+          - filling gaps with N
+        
+
+[Tue Jun 16 15:18:24 2020]
+Finished job 6.
+41 of 61 steps (67%) done
+[Tue Jun 16 15:18:27 2020]
+Finished job 27.
+42 of 61 steps (69%) done
+
+[Tue Jun 16 15:18:27 2020]
+Job 77: 
+        Filtering to
+          - 5000 sequence(s) per country
+          - minimum genome length of 200
+        
+
+[Tue Jun 16 15:18:29 2020]
+Finished job 67.
+43 of 61 steps (70%) done
+
+[Tue Jun 16 15:18:29 2020]
+Job 38: 
+        Refining tree
+        
+
+[Tue Jun 16 15:18:32 2020]
+Finished job 56.
+44 of 61 steps (72%) done
+
+[Tue Jun 16 15:18:32 2020]
+Job 55: Building tree
+
+[Tue Jun 16 15:18:35 2020]
+Finished job 77.
+45 of 61 steps (74%) done
+
+[Tue Jun 16 15:18:35 2020]
+Job 59: 
+        Aligning sequences to config/oc43_envelope_reference.gb
+          - filling gaps with N
+        
+
+[Tue Jun 16 15:18:39 2020]
+Finished job 55.
+46 of 61 steps (75%) done
+
+[Tue Jun 16 15:18:40 2020]
+Job 22: 
+        Refining tree
+        
+
+[Tue Jun 16 15:18:43 2020]
+Finished job 59.
+47 of 61 steps (77%) done
+
+[Tue Jun 16 15:18:43 2020]
+Job 58: Building tree
+
+[Tue Jun 16 15:18:48 2020]
+Finished job 58.
+48 of 61 steps (79%) done
+
+[Tue Jun 16 15:18:48 2020]
+Job 26: 
+        Refining tree
+        
+
+[Tue Jun 16 15:23:00 2020]
+Finished job 22.
+49 of 61 steps (80%) done
+
+[Tue Jun 16 15:23:00 2020]
+Job 24: Reconstructing ancestral sequences and mutations
+
+[Tue Jun 16 15:23:06 2020]
+Finished job 24.
+50 of 61 steps (82%) done
+
+[Tue Jun 16 15:23:06 2020]
+Job 25: Translating amino acid sequences
+
+[Tue Jun 16 15:23:10 2020]
+Finished job 38.
+51 of 61 steps (84%) done
+
+[Tue Jun 16 15:23:10 2020]
+Job 40: Reconstructing ancestral sequences and mutations
+
+[Tue Jun 16 15:23:11 2020]
+Finished job 25.
+52 of 61 steps (85%) done
+
+[Tue Jun 16 15:23:11 2020]
+Job 4: Exporting data files for for auspice
+
+[Tue Jun 16 15:23:16 2020]
+Finished job 40.
+53 of 61 steps (87%) done
+
+[Tue Jun 16 15:23:16 2020]
+Job 41: Translating amino acid sequences
+
+[Tue Jun 16 15:23:18 2020]
+Finished job 4.
+54 of 61 steps (89%) done
+[Tue Jun 16 15:23:20 2020]
+Finished job 26.
+55 of 61 steps (90%) done
+
+[Tue Jun 16 15:23:20 2020]
+Job 28: Reconstructing ancestral sequences and mutations
+
+[Tue Jun 16 15:23:21 2020]
+Finished job 41.
+56 of 61 steps (92%) done
+
+[Tue Jun 16 15:23:21 2020]
+Job 8: Exporting data files for for auspice
+
+[Tue Jun 16 15:23:24 2020]
+Finished job 28.
+57 of 61 steps (93%) done
+
+[Tue Jun 16 15:23:24 2020]
+Job 29: Translating amino acid sequences
+
+[Tue Jun 16 15:23:25 2020]
+Finished job 8.
+58 of 61 steps (95%) done
+[Tue Jun 16 15:23:28 2020]
+Finished job 29.
+59 of 61 steps (97%) done
+
+[Tue Jun 16 15:23:28 2020]
+Job 5: Exporting data files for for auspice
+
+[Tue Jun 16 15:23:32 2020]
+Finished job 5.
+60 of 61 steps (98%) done
+
+[Tue Jun 16 15:23:32 2020]
+localrule all:
+    input: auspice/seasonal_corona_oc43_replicase1ab.json, auspice/seasonal_corona_oc43_nonstructural2a.json, auspice/seasonal_corona_oc43_he.json, auspice/seasonal_corona_oc43_nonstructural2.json, auspice/seasonal_corona_oc43_envelope.json, auspice/seasonal_corona_oc43_membrane.json, auspice/seasonal_corona_oc43_nucleocapsid.json, auspice/seasonal_corona_oc43_n2protein.json, auspice/seasonal_corona_oc43_s2.json
+    jobid: 0
+
+[Tue Jun 16 15:23:32 2020]
+Finished job 0.
+61 of 61 steps (100%) done
+Complete log: /Users/katekistler/nextstrain/seasonal-cov/oc43/.snakemake/log/2020-06-16T151158.234094.snakemake.log

@@ -1,6 +1,7 @@
 
-GENE = ["full"]
-# GENE = ["replicase1ab", "nonstructural2a", "he", "spike", "nonstructural2", "envelope", "membrane", "nucleocapsid", "n2protein", "s1", "s2"]
+# GENE = ["full"]
+# GENE = ["s1", "spike"]
+GENE = ["replicase1ab", "nonstructural2a", "he", "nonstructural2", "envelope", "membrane", "nucleocapsid", "n2protein", "s2"]
 
 
 
@@ -191,27 +192,29 @@ rule translate:
             --output-node-data {output.node_data}
         """
 
-def _get_clades_file_for_wildcards(wildcards):
-    return "config/clades_%s.tsv"%wildcards.gene
-
-rule clades:
-    message: "Annotating clades"
-    input:
-        tree = rules.refine.output.tree,
-        nt_muts = rules.ancestral.output.node_data,
-        aa_muts = rules.translate.output.node_data,
-        clades = _get_clades_file_for_wildcards
-    output:
-        node_data = "results/clades_{gene}.json"
-    run:
-        if wildcards.gene == 'spike' or wildcards.gene == 'full':
-            shell("""
-                augur clades \
-                    --tree {input.tree} \
-                    --mutations {input.nt_muts} {input.aa_muts} \
-                    --clades {input.clades} \
-                    --output {output.node_data}
-            """)
+# def _get_clades_file_for_wildcards(wildcards):
+#     if wildcards.gene == 'spike' or wildcards.gene == 's1' or wildcards.gene == 'full':
+#         return "config/clades_%s.tsv"%wildcards.gene
+#
+#
+# rule clades:
+#     message: "Annotating clades"
+#     input:
+#         tree = rules.refine.output.tree,
+#         nt_muts = rules.ancestral.output.node_data,
+#         aa_muts = rules.translate.output.node_data,
+#         clades = _get_clades_file_for_wildcards
+#     output:
+#         node_data = "results/clades_{gene}.json"
+#     run:
+#         if wildcards.gene == 'spike' or wildcards.gene == 's1' or wildcards.gene == 'full':
+#             shell("""
+#                 augur clades \
+#                     --tree {input.tree} \
+#                     --mutations {input.nt_muts} {input.aa_muts} \
+#                     --clades {input.clades} \
+#                     --output {output.node_data}
+#             """)
 
 #
 # rule traits:
@@ -243,7 +246,7 @@ rule export:
         lat_longs = files.lat_longs,
         auspice_config = files.auspice_config,
         colors = files.colors,
-        clades = rules.clades.output.node_data
+        # clades = rules.clades.output.node_data
         # description = files.description
     output:
         auspice_json = "auspice/seasonal_corona_oc43_{gene}.json"
@@ -253,7 +256,7 @@ rule export:
         augur export v2 \
             --tree {input.tree} \
             --metadata {input.metadata} \
-            --node-data {input.branch_lengths} {input.nt_muts} {input.aa_muts} {input.clades} \
+            --node-data {input.branch_lengths} {input.nt_muts} {input.aa_muts} \
             --include-root-sequence \
             --auspice-config {input.auspice_config} \
             --lat-longs {input.lat_longs} \
