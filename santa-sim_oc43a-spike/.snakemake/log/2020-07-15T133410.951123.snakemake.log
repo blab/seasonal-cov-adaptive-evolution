@@ -1,0 +1,85 @@
+Building DAG of jobs...
+Using shell: /bin/bash
+Provided cores: 4
+Rules claiming more threads will be scaled down.
+Job counts:
+	count	jobs
+	1	align
+	1	all
+	1	ancestral
+	1	export
+	1	parse
+	1	refine
+	1	translate
+	1	tree
+	8
+
+[Wed Jul 15 13:34:11 2020]
+Job 3: Parsing fasta into sequences and metadata
+
+[Wed Jul 15 13:34:12 2020]
+Finished job 3.
+1 of 8 steps (12%) done
+
+[Wed Jul 15 13:34:12 2020]
+Job 7: 
+        Aligning sequences to config/oc43a_reference.gb
+          - filling gaps with N
+        
+
+[Wed Jul 15 13:34:19 2020]
+Finished job 7.
+2 of 8 steps (25%) done
+
+[Wed Jul 15 13:34:19 2020]
+Job 6: Building tree
+
+[Wed Jul 15 13:34:22 2020]
+Finished job 6.
+3 of 8 steps (38%) done
+
+[Wed Jul 15 13:34:22 2020]
+Job 2: 
+        Refining tree
+          - estimate timetree
+          - use opt coalescent timescale
+          - estimate marginal node dates
+          - filter tips more than 4 IQDs from clock expectation
+        
+
+[Wed Jul 15 13:36:13 2020]
+Finished job 2.
+4 of 8 steps (50%) done
+
+[Wed Jul 15 13:36:13 2020]
+Job 4: Reconstructing ancestral sequences and mutations
+
+[Wed Jul 15 13:36:17 2020]
+Finished job 4.
+5 of 8 steps (62%) done
+
+[Wed Jul 15 13:36:17 2020]
+Job 5: Translating amino acid sequences
+
+[Wed Jul 15 13:36:18 2020]
+Finished job 5.
+6 of 8 steps (75%) done
+
+[Wed Jul 15 13:36:18 2020]
+Job 1: Exporting data files for for auspice
+
+[Wed Jul 15 13:36:20 2020]
+Error in rule export:
+    jobid: 1
+    output: auspice/simulated_oc43a.json
+    shell:
+        
+        augur export v2             --tree results/tree.nwk             --metadata results/metadata.tsv             --node-data results/branch_lengths.json results/nt_muts.json results/aa_muts.json             --auspice-config config/auspice_config.json             --output auspice/simulated_oc43a.json
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Removing output files of failed job export since they might be corrupted:
+auspice/simulated_oc43a.json
+Shutting down, this might take some time.
+Exiting because a job execution failed. Look above for error message
+Complete log: /Users/katekistler/nextstrain/santa-sim-nextstrain/.snakemake/log/2020-07-15T133410.951123.snakemake.log

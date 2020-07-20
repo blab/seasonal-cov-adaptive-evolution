@@ -1,0 +1,35 @@
+Building DAG of jobs...
+Using shell: /bin/bash
+Provided cores: 4
+Rules claiming more threads will be scaled down.
+Job counts:
+	count	jobs
+	1	all
+	1	ancestral
+	1	export
+	1	refine
+	1	translate
+	5
+
+[Wed Jul 15 11:43:43 2020]
+Job 2: 
+        Refining tree
+          - estimate timetree
+          - use opt coalescent timescale
+          - estimate marginal node dates
+          - filter tips more than 4 IQDs from clock expectation
+        
+
+[Wed Jul 15 11:43:45 2020]
+Error in rule refine:
+    jobid: 2
+    output: results/tree.nwk, results/branch_lengths.json
+    shell:
+        
+        augur refine             --tree results/tree_raw.nwk             --alignment data/simulated_oc43_alignment.fasta             --metadata results/metadata.tsv             --output-tree results/tree.nwk             --output-node-data results/branch_lengths.json             --timetree             --coalescent opt             --date-confidence             --date-inference marginal             --clock-filter-iqd 4
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Shutting down, this might take some time.
+Exiting because a job execution failed. Look above for error message
+Complete log: /Users/katekistler/nextstrain/santa-sim-nextstrain/.snakemake/log/2020-07-15T114343.329907.snakemake.log

@@ -1,0 +1,171 @@
+Building DAG of jobs...
+Using shell: /bin/bash
+Provided cores: 4
+Rules claiming more threads will be scaled down.
+Job counts:
+	count	jobs
+	2	align
+	1	all
+	2	ancestral
+	2	export
+	2	format_data
+	2	parse
+	2	refine
+	2	santa_sim
+	2	translate
+	2	tree
+	19
+
+[Fri Jul 17 12:21:37 2020]
+Job 27: Simulating Spike sequence data with SANTA-SIM
+
+
+[Fri Jul 17 12:21:37 2020]
+Job 26: Simulating Spike sequence data with SANTA-SIM
+
+[Fri Jul 17 12:22:59 2020]
+Finished job 27.
+1 of 19 steps (5%) done
+
+[Fri Jul 17 12:22:59 2020]
+Job 24: Formatting data simulated by SANTA-SIM for Augur
+
+[Fri Jul 17 12:22:59 2020]
+Finished job 24.
+2 of 19 steps (11%) done
+
+[Fri Jul 17 12:22:59 2020]
+Job 13: Parsing fasta into sequences and metadata
+
+[Fri Jul 17 12:23:02 2020]
+Finished job 13.
+3 of 19 steps (16%) done
+
+[Fri Jul 17 12:23:02 2020]
+Job 23: 
+        Aligning sequences to config/oc43a_reference.gb
+          - filling gaps with N
+        
+
+[Fri Jul 17 12:23:11 2020]
+Finished job 23.
+4 of 19 steps (21%) done
+
+[Fri Jul 17 12:23:11 2020]
+Job 22: Building tree
+
+[Fri Jul 17 12:23:13 2020]
+Finished job 22.
+5 of 19 steps (26%) done
+
+[Fri Jul 17 12:23:13 2020]
+Job 12: 
+        Refining tree
+          - estimate timetree
+          - use opt coalescent timescale
+          - estimate marginal node dates
+          - filter tips more than 4 IQDs from clock expectation
+        
+
+[Fri Jul 17 12:23:36 2020]
+Finished job 26.
+6 of 19 steps (32%) done
+
+[Fri Jul 17 12:23:36 2020]
+Job 21: Formatting data simulated by SANTA-SIM for Augur
+
+[Fri Jul 17 12:23:36 2020]
+Finished job 21.
+7 of 19 steps (37%) done
+
+[Fri Jul 17 12:23:36 2020]
+Job 9: Parsing fasta into sequences and metadata
+
+[Fri Jul 17 12:23:37 2020]
+Finished job 9.
+8 of 19 steps (42%) done
+
+[Fri Jul 17 12:23:37 2020]
+Job 20: 
+        Aligning sequences to config/oc43a_reference.gb
+          - filling gaps with N
+        
+
+[Fri Jul 17 12:23:44 2020]
+Finished job 20.
+9 of 19 steps (47%) done
+
+[Fri Jul 17 12:23:44 2020]
+Job 19: Building tree
+
+[Fri Jul 17 12:23:47 2020]
+Finished job 19.
+10 of 19 steps (53%) done
+
+[Fri Jul 17 12:23:47 2020]
+Job 8: 
+        Refining tree
+          - estimate timetree
+          - use opt coalescent timescale
+          - estimate marginal node dates
+          - filter tips more than 4 IQDs from clock expectation
+        
+
+[Fri Jul 17 12:24:54 2020]
+Finished job 12.
+11 of 19 steps (58%) done
+
+[Fri Jul 17 12:24:54 2020]
+Job 14: Reconstructing ancestral sequences and mutations
+
+[Fri Jul 17 12:24:56 2020]
+Finished job 14.
+12 of 19 steps (63%) done
+
+[Fri Jul 17 12:24:56 2020]
+Job 15: Translating amino acid sequences
+
+[Fri Jul 17 12:24:58 2020]
+Finished job 15.
+13 of 19 steps (68%) done
+
+[Fri Jul 17 12:24:58 2020]
+Job 3: Exporting data files for for auspice
+
+[Fri Jul 17 12:25:00 2020]
+Finished job 3.
+14 of 19 steps (74%) done
+[Fri Jul 17 12:25:37 2020]
+Finished job 8.
+15 of 19 steps (79%) done
+
+[Fri Jul 17 12:25:37 2020]
+Job 10: Reconstructing ancestral sequences and mutations
+
+[Fri Jul 17 12:25:40 2020]
+Finished job 10.
+16 of 19 steps (84%) done
+
+[Fri Jul 17 12:25:40 2020]
+Job 11: Translating amino acid sequences
+
+[Fri Jul 17 12:25:42 2020]
+Finished job 11.
+17 of 19 steps (89%) done
+
+[Fri Jul 17 12:25:42 2020]
+Job 2: Exporting data files for for auspice
+
+[Fri Jul 17 12:25:43 2020]
+Finished job 2.
+18 of 19 steps (95%) done
+
+[Fri Jul 17 12:25:43 2020]
+localrule all:
+    input: auspice/simulated_oc43a_s1.json, auspice/simulated_oc43a_s2.json, auspice/simulated_oc43a_s3.json
+    jobid: 0
+
+[Fri Jul 17 12:25:43 2020]
+Finished job 0.
+19 of 19 steps (100%) done
+Complete log: /Users/katekistler/nextstrain/seasonal-cov/santa-sim_oc43a-spike/.snakemake/log/2020-07-17T122137.788346.snakemake.log

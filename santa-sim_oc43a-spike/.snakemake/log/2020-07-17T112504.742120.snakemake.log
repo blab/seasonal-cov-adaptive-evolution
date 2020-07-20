@@ -1,0 +1,26 @@
+Building DAG of jobs...
+Using shell: /bin/bash
+Provided cores: 4
+Rules claiming more threads will be scaled down.
+Job counts:
+	count	jobs
+	1	all
+	1	santa_sim
+	2
+
+[Fri Jul 17 11:25:04 2020]
+Job 1: Simulating Spike sequence data with SANTA-SIM
+
+[Fri Jul 17 11:25:04 2020]
+Error in rule santa_sim:
+    jobid: 1
+    output: simulated_oc43_s1.fasta
+    shell:
+        
+        java -jar ../../santa-sim/dist/santa.jar config/oc43aspike_s1.xml
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Shutting down, this might take some time.
+Exiting because a job execution failed. Look above for error message
+Complete log: /Users/katekistler/nextstrain/seasonal-cov/santa-sim_oc43a-spike/.snakemake/log/2020-07-17T112504.742120.snakemake.log

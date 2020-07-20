@@ -1,0 +1,34 @@
+Building DAG of jobs...
+Using shell: /bin/bash
+Provided cores: 4
+Rules claiming more threads will be scaled down.
+Job counts:
+	count	jobs
+	1	all
+	1	format_data
+	1	santa_sim
+	3
+
+[Fri Jul 17 11:50:58 2020]
+Job 2: Simulating Spike sequence data with SANTA-SIM
+
+[Fri Jul 17 11:51:55 2020]
+Finished job 2.
+1 of 3 steps (33%) done
+
+[Fri Jul 17 11:51:55 2020]
+Job 1: Formatting data simulated by SANTA-SIM for Augur
+
+[Fri Jul 17 11:51:55 2020]
+Error in rule format_data:
+    jobid: 1
+    output: data/simulated_oc43aspike_s1.fasta
+    shell:
+        
+        scripts/format_simulated_data.py             --alignment data/simulated_oc43a_s1.fasta
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Shutting down, this might take some time.
+Exiting because a job execution failed. Look above for error message
+Complete log: /Users/katekistler/nextstrain/seasonal-cov/santa-sim_oc43a-spike/.snakemake/log/2020-07-17T115058.705290.snakemake.log
