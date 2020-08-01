@@ -1,0 +1,26 @@
+Building DAG of jobs...
+Using shell: /bin/bash
+Provided cores: 4
+Rules claiming more threads will be scaled down.
+Job counts:
+	count	jobs
+	1	all
+	1	export
+	2
+
+[Sat Aug  1 13:16:06 2020]
+Job 1: Exporting data files for for auspice
+
+[Sat Aug  1 13:16:08 2020]
+Finished job 1.
+1 of 2 steps (50%) done
+
+[Sat Aug  1 13:16:08 2020]
+localrule all:
+    input: auspice/seasonal_corona_oc43_rdrp.json
+    jobid: 0
+
+[Sat Aug  1 13:16:08 2020]
+Finished job 0.
+2 of 2 steps (100%) done
+Complete log: /Users/katekistler/nextstrain/seasonal-cov/oc43/.snakemake/log/2020-08-01T131606.235680.snakemake.log

@@ -1,0 +1,76 @@
+Building DAG of jobs...
+Using shell: /bin/bash
+Provided cores: 4
+Rules claiming more threads will be scaled down.
+Job counts:
+	count	jobs
+	7	align
+	1	all
+	7	ancestral
+	7	export
+	7	format_data
+	7	parse
+	7	refine
+	7	santa_sim
+	7	translate
+	7	tree
+	64
+
+[Tue Jul 28 15:17:47 2020]
+Job 59: Simulating Spike sequence data with SANTA-SIM
+
+
+[Tue Jul 28 15:17:47 2020]
+Job 62: Simulating Spike sequence data with SANTA-SIM
+
+
+[Tue Jul 28 15:17:47 2020]
+Job 63: Simulating Spike sequence data with SANTA-SIM
+
+
+[Tue Jul 28 15:17:47 2020]
+Job 60: Simulating Spike sequence data with SANTA-SIM
+
+[Tue Jul 28 15:17:48 2020]
+Error in rule santa_sim:
+    jobid: 62
+    output: data/simulated_rep_oc43a_s6.fasta
+    shell:
+        
+        java -jar ../../../../santa-sim/dist/santa.jar config/oc43arep_s6.xml
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+[Tue Jul 28 15:17:48 2020]
+Error in rule santa_sim:
+    jobid: 59
+    output: data/simulated_rep_oc43a_s3.fasta
+    shell:
+        
+        java -jar ../../../../santa-sim/dist/santa.jar config/oc43arep_s3.xml
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+[Tue Jul 28 15:17:48 2020]
+Error in rule santa_sim:
+    jobid: 63
+    output: data/simulated_rep_oc43a_s7.fasta
+    shell:
+        
+        java -jar ../../../../santa-sim/dist/santa.jar config/oc43arep_s7.xml
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+[Tue Jul 28 15:17:48 2020]
+Error in rule santa_sim:
+    jobid: 60
+    output: data/simulated_rep_oc43a_s4.fasta
+    shell:
+        
+        java -jar ../../../../santa-sim/dist/santa.jar config/oc43arep_s4.xml
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Shutting down, this might take some time.
+Exiting because a job execution failed. Look above for error message
+Complete log: /Users/katekistler/nextstrain/seasonal-cov/santa-sim_oc43a/santa-sim_oc43a-rep/.snakemake/log/2020-07-28T151747.254229.snakemake.log
