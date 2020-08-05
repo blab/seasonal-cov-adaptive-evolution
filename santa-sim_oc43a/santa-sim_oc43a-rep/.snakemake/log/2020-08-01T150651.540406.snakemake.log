@@ -1,0 +1,83 @@
+Building DAG of jobs...
+Using shell: /bin/bash
+Provided cores: 4
+Rules claiming more threads will be scaled down.
+Job counts:
+	count	jobs
+	10	align
+	1	all
+	10	ancestral
+	10	export
+	10	format_data
+	10	parse
+	10	refine
+	10	santa_sim
+	10	translate
+	10	tree
+	91
+
+[Sat Aug  1 15:06:51 2020]
+Job 86: Simulating Spike sequence data with SANTA-SIM
+
+
+[Sat Aug  1 15:06:51 2020]
+Job 84: Simulating Spike sequence data with SANTA-SIM
+
+
+[Sat Aug  1 15:06:51 2020]
+Job 83: Simulating Spike sequence data with SANTA-SIM
+
+
+[Sat Aug  1 15:06:51 2020]
+Job 87: Simulating Spike sequence data with SANTA-SIM
+
+Terminating processes on user request, this might take some time.
+[Sat Aug  1 15:07:00 2020]
+Error in rule santa_sim:
+    jobid: 83
+    output: data/simulated_rep_oc43a_s3.fasta
+    shell:
+        
+        java -jar ../../../../santa-sim/dist/santa.jar config/oc43arep_s3.xml
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Removing output files of failed job santa_sim since they might be corrupted:
+data/simulated_rep_oc43a_s3.fasta
+[Sat Aug  1 15:07:00 2020]
+Error in rule santa_sim:
+    jobid: 84
+    output: data/simulated_rep_oc43a_s4.fasta
+    shell:
+        
+        java -jar ../../../../santa-sim/dist/santa.jar config/oc43arep_s4.xml
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Removing output files of failed job santa_sim since they might be corrupted:
+data/simulated_rep_oc43a_s4.fasta
+[Sat Aug  1 15:07:00 2020]
+Error in rule santa_sim:
+    jobid: 86
+    output: data/simulated_rep_oc43a_s6.fasta
+    shell:
+        
+        java -jar ../../../../santa-sim/dist/santa.jar config/oc43arep_s6.xml
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Removing output files of failed job santa_sim since they might be corrupted:
+data/simulated_rep_oc43a_s6.fasta
+[Sat Aug  1 15:07:00 2020]
+Error in rule santa_sim:
+    jobid: 87
+    output: data/simulated_rep_oc43a_s7.fasta
+    shell:
+        
+        java -jar ../../../../santa-sim/dist/santa.jar config/oc43arep_s7.xml
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Removing output files of failed job santa_sim since they might be corrupted:
+data/simulated_rep_oc43a_s7.fasta
+Complete log: /Users/katekistler/nextstrain/seasonal-cov/santa-sim_oc43a/santa-sim_oc43a-rep/.snakemake/log/2020-08-01T150651.540406.snakemake.log

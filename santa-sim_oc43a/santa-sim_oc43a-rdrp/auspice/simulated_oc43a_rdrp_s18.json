@@ -1,0 +1,4111 @@
+{
+  "meta": {
+    "colorings": [
+      {
+        "key": "gt",
+        "title": "Genotype",
+        "type": "categorical"
+      },
+      {
+        "key": "num_date",
+        "title": "Date",
+        "type": "continuous"
+      }
+    ],
+    "display_defaults": {
+      "map_triplicate": true
+    },
+    "filters": [],
+    "genome_annotations": {
+      "nuc": {
+        "end": 2784,
+        "seqid": "config/oc43a_rdrp_reference.gb",
+        "start": 1,
+        "strand": "+",
+        "type": "source"
+      }
+    },
+    "maintainers": [
+      {
+        "name": "Katie"
+      }
+    ],
+    "panels": [
+      "tree",
+      "entropy"
+    ],
+    "title": "Simulated OC43 lineage A",
+    "updated": "2020-08-02"
+  },
+  "tree": {
+    "branch_attrs": {
+      "mutations": {}
+    },
+    "children": [
+      {
+        "branch_attrs": {
+          "mutations": {
+            "nuc": [
+              "T213G",
+              "T471C",
+              "T660A",
+              "G852A",
+              "T2085A"
+            ]
+          }
+        },
+        "children": [
+          {
+            "branch_attrs": {
+              "mutations": {
+                "nuc": [
+                  "T174G",
+                  "G264A",
+                  "C297T",
+                  "T378C",
+                  "C421G",
+                  "T434C",
+                  "T1077G",
+                  "A1317G",
+                  "G1407A",
+                  "T2265C",
+                  "A2478G",
+                  "G2529A",
+                  "T2595A",
+                  "T2748C"
+                ]
+              }
+            },
+            "name": "sample/350/9",
+            "node_attrs": {
+              "div": 0.006632044244787931,
+              "num_date": {
+                "confidence": [
+                  2009.1,
+                  2009.1
+                ],
+                "value": 2009.1
+              }
+            }
+          },
+          {
+            "branch_attrs": {
+              "mutations": {
+                "nuc": [
+                  "G39C",
+                  "A360G",
+                  "A618G",
+                  "T780C",
+                  "T954G",
+                  "A1017G",
+                  "T1087A",
+                  "T1119C",
+                  "A1122G",
+                  "A1161G",
+                  "T1479C",
+                  "C1509G",
+                  "A1707G",
+                  "T2070C",
+                  "A2076T",
+                  "A2243G",
+                  "A2307G",
+                  "T2667C"
+                ]
+              }
+            },
+            "name": "sample/400/7",
+            "node_attrs": {
+              "div": 0.008109684218438398,
+              "num_date": {
+                "confidence": [
+                  2012.4002732240438,
+                  2012.4002732240438
+                ],
+                "value": 2012.4002732240438
+              }
+            }
+          }
+        ],
+        "name": "NODE_0000049",
+        "node_attrs": {
+          "div": 0.0014710163248299198,
+          "num_date": {
+            "confidence": [
+              1987.9434341961592,
+              1994.7261533903652
+            ],
+            "value": 1991.2465348781714
+          }
+        }
+      },
+      {
+        "branch_attrs": {
+          "mutations": {}
+        },
+        "children": [
+          {
+            "branch_attrs": {
+              "mutations": {
+                "nuc": [
+                  "T355A",
+                  "T567A",
+                  "T1159C",
+                  "T1230C",
+                  "G1239A",
+                  "G1320A",
+                  "A1602T",
+                  "T1824G",
+                  "C2124A",
+                  "T2345C",
+                  "T2457A"
+                ]
+              }
+            },
+            "name": "sample/150/10",
+            "node_attrs": {
+              "div": 0.004422357806633397,
+              "num_date": {
+                "confidence": [
+                  1995.9,
+                  1995.9
+                ],
+                "value": 1995.9
+              }
+            }
+          },
+          {
+            "branch_attrs": {
+              "mutations": {
+                "nuc": [
+                  "T720C",
+                  "A867C",
+                  "T1938C",
+                  "G2165A",
+                  "A2307G",
+                  "A2554G",
+                  "T2778C"
+                ]
+              }
+            },
+            "name": "sample/100/3",
+            "node_attrs": {
+              "div": 0.0029413266150398716,
+              "num_date": {
+                "confidence": [
+                  1992.5969945355191,
+                  1992.5969945355191
+                ],
+                "value": 1992.5969945355191
+              }
+            }
+          },
+          {
+            "branch_attrs": {
+              "mutations": {
+                "nuc": [
+                  "T84A",
+                  "T1668G",
+                  "A1870G"
+                ]
+              }
+            },
+            "name": "sample/50/2",
+            "node_attrs": {
+              "div": 0.0014704763103140525,
+              "num_date": {
+                "confidence": [
+                  1989.3,
+                  1989.3
+                ],
+                "value": 1989.3
+              }
+            }
+          },
+          {
+            "branch_attrs": {
+              "mutations": {
+                "nuc": [
+                  "A241G",
+                  "C464A",
+                  "C2400T"
+                ]
+              }
+            },
+            "name": "sample/50/9",
+            "node_attrs": {
+              "div": 0.0014704489907599178,
+              "num_date": {
+                "confidence": [
+                  1989.3,
+                  1989.3
+                ],
+                "value": 1989.3
+              }
+            }
+          },
+          {
+            "branch_attrs": {
+              "mutations": {
+                "nuc": [
+                  "A294T",
+                  "G765A",
+                  "T1480G",
+                  "T1722G"
+                ]
+              }
+            },
+            "name": "sample/50/5",
+            "node_attrs": {
+              "div": 0.001838838378462089,
+              "num_date": {
+                "confidence": [
+                  1989.3,
+                  1989.3
+                ],
+                "value": 1989.3
+              }
+            }
+          },
+          {
+            "branch_attrs": {
+              "mutations": {
+                "nuc": [
+                  "G969T",
+                  "A1094T",
+                  "G1446A",
+                  "T2178C",
+                  "T2679C"
+                ]
+              }
+            },
+            "name": "sample/100/5",
+            "node_attrs": {
+              "div": 0.0022061400162782644,
+              "num_date": {
+                "confidence": [
+                  1992.5969945355191,
+                  1992.5969945355191
+                ],
+                "value": 1992.5969945355191
+              }
+            }
+          },
+          {
+            "branch_attrs": {
+              "mutations": {
+                "nuc": [
+                  "T36A",
+                  "A225T",
+                  "G326C",
+                  "T685C",
+                  "T777C",
+                  "A1484C",
+                  "A1962G",
+                  "T1998G",
+                  "G2661A"
+                ]
+              }
+            },
+            "name": "sample/100/2",
+            "node_attrs": {
+              "div": 0.003681342720369179,
+              "num_date": {
+                "confidence": [
+                  1992.5969945355191,
+                  1992.5969945355191
+                ],
+                "value": 1992.5969945355191
+              }
+            }
+          },
+          {
+            "branch_attrs": {
+              "mutations": {
+                "nuc": [
+                  "T30C",
+                  "A1349T",
+                  "T1394G",
+                  "T1546A",
+                  "T1632C",
+                  "A2039T",
+                  "C2671T"
+                ]
+              }
+            },
+            "name": "sample/150/6",
+            "node_attrs": {
+              "div": 0.0029442397579945837,
+              "num_date": {
+                "confidence": [
+                  1995.9,
+                  1995.9
+                ],
+                "value": 1995.9
+              }
+            }
+          },
+          {
+            "branch_attrs": {
+              "mutations": {
+                "nuc": [
+                  "T2034C"
+                ]
+              }
+            },
+            "children": [
+              {
+                "branch_attrs": {
+                  "mutations": {
+                    "nuc": [
+                      "C57G",
+                      "T633C",
+                      "T1938G",
+                      "G2196A",
+                      "T2250C"
+                    ]
+                  }
+                },
+                "name": "sample/50/8",
+                "node_attrs": {
+                  "div": 0.002573211904687758,
+                  "num_date": {
+                    "confidence": [
+                      1989.3,
+                      1989.3
+                    ],
+                    "value": 1989.3
+                  }
+                }
+              },
+              {
+                "branch_attrs": {
+                  "mutations": {
+                    "nuc": [
+                      "T138C",
+                      "T687C",
+                      "C1170T",
+                      "A1213T",
+                      "G1368A",
+                      "G1389A",
+                      "T1608A",
+                      "T1815A",
+                      "A1983T",
+                      "T2202C",
+                      "T2316A"
+                    ]
+                  }
+                },
+                "name": "sample/300/5",
+                "node_attrs": {
+                  "div": 0.004787432691738817,
+                  "num_date": {
+                    "confidence": [
+                      2005.7986301369863,
+                      2005.7986301369863
+                    ],
+                    "value": 2005.7986301369863
+                  }
+                }
+              }
+            ],
+            "name": "NODE_0000047",
+            "node_attrs": {
+              "div": 0.0007347204338975556,
+              "num_date": {
+                "confidence": [
+                  1987.0371083457512,
+                  1988.3820479668645
+                ],
+                "value": 1987.454291950282
+              }
+            }
+          },
+          {
+            "branch_attrs": {
+              "mutations": {
+                "nuc": [
+                  "C2214G"
+                ]
+              }
+            },
+            "children": [
+              {
+                "branch_attrs": {
+                  "mutations": {
+                    "nuc": [
+                      "T117C",
+                      "A367G",
+                      "G563C",
+                      "T687C",
+                      "T849C",
+                      "C2048G"
+                    ]
+                  }
+                },
+                "name": "sample/200/6",
+                "node_attrs": {
+                  "div": 0.002941913885785021,
+                  "num_date": {
+                    "confidence": [
+                      1999.2013698630137,
+                      1999.2013698630137
+                    ],
+                    "value": 1999.2013698630137
+                  }
+                }
+              },
+              {
+                "branch_attrs": {
+                  "mutations": {
+                    "nuc": [
+                      "T165A",
+                      "A396G",
+                      "T705C",
+                      "C749T",
+                      "T832G",
+                      "T836A",
+                      "G1050T",
+                      "T1980C",
+                      "T2058C",
+                      "T2180C",
+                      "T2565C",
+                      "T2571C"
+                    ]
+                  }
+                },
+                "name": "sample/200/8",
+                "node_attrs": {
+                  "div": 0.005156321772334004,
+                  "num_date": {
+                    "confidence": [
+                      1999.2013698630137,
+                      1999.2013698630137
+                    ],
+                    "value": 1999.2013698630137
+                  }
+                }
+              }
+            ],
+            "name": "NODE_0000036",
+            "node_attrs": {
+              "div": 0.0007348915096210358,
+              "num_date": {
+                "confidence": [
+                  1987.3679971782144,
+                  1990.4690364275264
+                ],
+                "value": 1988.3178755733293
+              }
+            }
+          },
+          {
+            "branch_attrs": {
+              "mutations": {
+                "nuc": [
+                  "T2233C"
+                ]
+              }
+            },
+            "children": [
+              {
+                "branch_attrs": {
+                  "mutations": {
+                    "nuc": [
+                      "T210C",
+                      "T657C",
+                      "G1596A",
+                      "G2249T"
+                    ]
+                  }
+                },
+                "name": "sample/150/7",
+                "node_attrs": {
+                  "div": 0.0022046832485725937,
+                  "num_date": {
+                    "confidence": [
+                      1995.9,
+                      1995.9
+                    ],
+                    "value": 1995.9
+                  }
+                }
+              },
+              {
+                "branch_attrs": {
+                  "mutations": {
+                    "nuc": [
+                      "T924G",
+                      "T1091C",
+                      "T1323C",
+                      "G1429A",
+                      "T1836G",
+                      "A2060C",
+                      "G2280A",
+                      "A2698G"
+                    ]
+                  }
+                },
+                "name": "sample/100/8",
+                "node_attrs": {
+                  "div": 0.0036782286418360344,
+                  "num_date": {
+                    "confidence": [
+                      1992.5969945355191,
+                      1992.5969945355191
+                    ],
+                    "value": 1992.5969945355191
+                  }
+                }
+              }
+            ],
+            "name": "NODE_0000030",
+            "node_attrs": {
+              "div": 0.0007347204338975556,
+              "num_date": {
+                "confidence": [
+                  1987.1439724227243,
+                  1989.2162548432445
+                ],
+                "value": 1988.2368355334086
+              }
+            }
+          },
+          {
+            "branch_attrs": {
+              "mutations": {
+                "nuc": [
+                  "T1482C",
+                  "T2052C",
+                  "A2562G",
+                  "T2763C"
+                ]
+              }
+            },
+            "children": [
+              {
+                "branch_attrs": {
+                  "mutations": {
+                    "nuc": [
+                      "A2220G"
+                    ]
+                  }
+                },
+                "name": "sample/150/8",
+                "node_attrs": {
+                  "div": 0.0022041775002429953,
+                  "num_date": {
+                    "confidence": [
+                      1995.9,
+                      1995.9
+                    ],
+                    "value": 1995.9
+                  }
+                }
+              },
+              {
+                "branch_attrs": {
+                  "mutations": {
+                    "nuc": [
+                      "A93G",
+                      "T276C",
+                      "A534C",
+                      "C1139G",
+                      "T1158A",
+                      "T1202C",
+                      "T1329C",
+                      "A1384G",
+                      "C1650G",
+                      "T1662C",
+                      "A2043G",
+                      "A2254G"
+                    ]
+                  }
+                },
+                "name": "sample/250/6",
+                "node_attrs": {
+                  "div": 0.006254113979241138,
+                  "num_date": {
+                    "confidence": [
+                      2002.5,
+                      2002.5
+                    ],
+                    "value": 2002.5
+                  }
+                }
+              }
+            ],
+            "name": "NODE_0000014",
+            "node_attrs": {
+              "div": 0.0018371447217063125,
+              "num_date": {
+                "confidence": [
+                  1989.9120175522698,
+                  1994.6978138684797
+                ],
+                "value": 1992.6236859444623
+              }
+            }
+          },
+          {
+            "branch_attrs": {
+              "mutations": {
+                "nuc": [
+                  "C25A",
+                  "A1681T",
+                  "T2604C"
+                ]
+              }
+            },
+            "children": [
+              {
+                "branch_attrs": {
+                  "mutations": {
+                    "nuc": [
+                      "T279C",
+                      "T1785C",
+                      "C2619T"
+                    ]
+                  }
+                },
+                "name": "sample/150/9",
+                "node_attrs": {
+                  "div": 0.002572759911861821,
+                  "num_date": {
+                    "confidence": [
+                      1995.9,
+                      1995.9
+                    ],
+                    "value": 1995.9
+                  }
+                }
+              },
+              {
+                "branch_attrs": {
+                  "mutations": {
+                    "nuc": [
+                      "T75C",
+                      "T813C",
+                      "T1173C",
+                      "T1182G",
+                      "A1212G",
+                      "C1593A",
+                      "T1995C",
+                      "T2058A",
+                      "A2115G",
+                      "T2190C",
+                      "C2208A",
+                      "T2481C"
+                    ]
+                  }
+                },
+                "name": "sample/200/3",
+                "node_attrs": {
+                  "div": 0.005891123397663813,
+                  "num_date": {
+                    "confidence": [
+                      1999.2013698630137,
+                      1999.2013698630137
+                    ],
+                    "value": 1999.2013698630137
+                  }
+                }
+              }
+            ],
+            "name": "NODE_0000017",
+            "node_attrs": {
+              "div": 0.0014704220255003844,
+              "num_date": {
+                "confidence": [
+                  1988.2169528142942,
+                  1992.3144236684975
+                ],
+                "value": 1989.510415016813
+              }
+            }
+          },
+          {
+            "branch_attrs": {
+              "mutations": {
+                "nuc": [
+                  "T1140C"
+                ]
+              }
+            },
+            "children": [
+              {
+                "branch_attrs": {
+                  "mutations": {
+                    "nuc": [
+                      "T414C",
+                      "T819A",
+                      "T885G",
+                      "T1005C",
+                      "A1189C",
+                      "G1380C",
+                      "G1641A",
+                      "T2547G",
+                      "G2673C"
+                    ]
+                  }
+                },
+                "name": "sample/150/1",
+                "node_attrs": {
+                  "div": 0.004048241904914777,
+                  "num_date": {
+                    "confidence": [
+                      1995.9,
+                      1995.9
+                    ],
+                    "value": 1995.9
+                  }
+                }
+              },
+              {
+                "branch_attrs": {
+                  "mutations": {
+                    "nuc": [
+                      "T129C",
+                      "T708C",
+                      "A1920C",
+                      "C1965T",
+                      "T2070C",
+                      "A2243G",
+                      "T2418C",
+                      "G2451A"
+                    ]
+                  }
+                },
+                "children": [
+                  {
+                    "branch_attrs": {
+                      "mutations": {
+                        "nuc": [
+                          "T498A",
+                          "A1674C"
+                        ]
+                      }
+                    },
+                    "name": "sample/250/3",
+                    "node_attrs": {
+                      "div": 0.004410354041921198,
+                      "num_date": {
+                        "confidence": [
+                          2002.5,
+                          2002.5
+                        ],
+                        "value": 2002.5
+                      }
+                    }
+                  },
+                  {
+                    "branch_attrs": {
+                      "mutations": {
+                        "nuc": [
+                          "G49A",
+                          "A681G",
+                          "T1440C",
+                          "G2717A"
+                        ]
+                      }
+                    },
+                    "name": "sample/300/10",
+                    "node_attrs": {
+                      "div": 0.005144501184795422,
+                      "num_date": {
+                        "confidence": [
+                          2005.7986301369863,
+                          2005.7986301369863
+                        ],
+                        "value": 2005.7986301369863
+                      }
+                    }
+                  }
+                ],
+                "name": "NODE_0000055",
+                "node_attrs": {
+                  "div": 0.003676247338240072,
+                  "num_date": {
+                    "confidence": [
+                      1996.8750320065012,
+                      2001.6646410299297
+                    ],
+                    "value": 1999.3522684776185
+                  }
+                }
+              }
+            ],
+            "name": "NODE_0000054",
+            "node_attrs": {
+              "div": 0.0007347204338975556,
+              "num_date": {
+                "confidence": [
+                  1987.2683615956407,
+                  1989.8268427084918
+                ],
+                "value": 1988.2333330838587
+              }
+            }
+          },
+          {
+            "branch_attrs": {
+              "mutations": {
+                "nuc": [
+                  "T145C",
+                  "G1620A",
+                  "C1692G",
+                  "C1761A",
+                  "A1827G"
+                ]
+              }
+            },
+            "children": [
+              {
+                "branch_attrs": {
+                  "mutations": {
+                    "nuc": [
+                      "T81G",
+                      "T123G",
+                      "C290T",
+                      "A801T",
+                      "A960C",
+                      "C1023T",
+                      "T1047C",
+                      "G1389A",
+                      "T1752C",
+                      "T1803C",
+                      "T2190C",
+                      "A2239C",
+                      "T2265C",
+                      "T2322C",
+                      "A2382G",
+                      "T2397C",
+                      "A2580T"
+                    ]
+                  }
+                },
+                "name": "sample/500/10",
+                "node_attrs": {
+                  "div": 0.00847805250443458,
+                  "num_date": {
+                    "confidence": [
+                      2019.0013698630137,
+                      2019.0013698630137
+                    ],
+                    "value": 2019.0013698630137
+                  }
+                }
+              },
+              {
+                "branch_attrs": {
+                  "mutations": {
+                    "nuc": [
+                      "A102G",
+                      "C2472T"
+                    ]
+                  }
+                },
+                "children": [
+                  {
+                    "branch_attrs": {
+                      "mutations": {
+                        "nuc": [
+                          "T305C",
+                          "A1718G",
+                          "T2079C"
+                        ]
+                      }
+                    },
+                    "name": "sample/200/1",
+                    "node_attrs": {
+                      "div": 0.004044718977248428,
+                      "num_date": {
+                        "confidence": [
+                          1999.2013698630137,
+                          1999.2013698630137
+                        ],
+                        "value": 1999.2013698630137
+                      }
+                    }
+                  },
+                  {
+                    "branch_attrs": {
+                      "mutations": {
+                        "nuc": [
+                          "G451A",
+                          "T1737C"
+                        ]
+                      }
+                    },
+                    "name": "sample/200/4",
+                    "node_attrs": {
+                      "div": 0.0036771036039310386,
+                      "num_date": {
+                        "confidence": [
+                          1999.2013698630137,
+                          1999.2013698630137
+                        ],
+                        "value": 1999.2013698630137
+                      }
+                    }
+                  },
+                  {
+                    "branch_attrs": {
+                      "mutations": {
+                        "nuc": [
+                          "A585G",
+                          "G1917A",
+                          "A2430T"
+                        ]
+                      }
+                    },
+                    "name": "sample/200/10",
+                    "node_attrs": {
+                      "div": 0.00404527242692191,
+                      "num_date": {
+                        "confidence": [
+                          1999.2013698630137,
+                          1999.2013698630137
+                        ],
+                        "value": 1999.2013698630137
+                      }
+                    }
+                  }
+                ],
+                "name": "NODE_0000020",
+                "node_attrs": {
+                  "div": 0.0029419612815680006,
+                  "num_date": {
+                    "confidence": [
+                      1993.731137395441,
+                      1997.181725664455
+                    ],
+                    "value": 1995.952677098309
+                  }
+                }
+              }
+            ],
+            "name": "NODE_0000019",
+            "node_attrs": {
+              "div": 0.0022068189442038186,
+              "num_date": {
+                "confidence": [
+                  1990.4722794705526,
+                  1995.0866416570739
+                ],
+                "value": 1992.7805179697698
+              }
+            }
+          },
+          {
+            "branch_attrs": {
+              "mutations": {
+                "nuc": [
+                  "A96G",
+                  "C600T",
+                  "A636G",
+                  "T2667C"
+                ]
+              }
+            },
+            "children": [
+              {
+                "branch_attrs": {
+                  "mutations": {
+                    "nuc": [
+                      "C233G",
+                      "A362G",
+                      "T840C",
+                      "G1002A",
+                      "T1041G",
+                      "T1275G",
+                      "G1835T",
+                      "T2490G",
+                      "T2544C"
+                    ]
+                  }
+                },
+                "name": "sample/250/10",
+                "node_attrs": {
+                  "div": 0.005152799285506165,
+                  "num_date": {
+                    "confidence": [
+                      2002.5,
+                      2002.5
+                    ],
+                    "value": 2002.5
+                  }
+                }
+              },
+              {
+                "branch_attrs": {
+                  "mutations": {
+                    "nuc": [
+                      "T213C",
+                      "T285C",
+                      "T498C",
+                      "T1578C",
+                      "T1680C",
+                      "T1974C",
+                      "T2328C",
+                      "T2484A"
+                    ]
+                  }
+                },
+                "children": [
+                  {
+                    "branch_attrs": {
+                      "mutations": {
+                        "nuc": [
+                          "G34A",
+                          "G531A",
+                          "T1062G",
+                          "G1756A"
+                        ]
+                      }
+                    },
+                    "name": "sample/350/4",
+                    "node_attrs": {
+                      "div": 0.0062468760639226364,
+                      "num_date": {
+                        "confidence": [
+                          2009.1,
+                          2009.1
+                        ],
+                        "value": 2009.1
+                      }
+                    }
+                  },
+                  {
+                    "branch_attrs": {
+                      "mutations": {
+                        "nuc": [
+                          "T1848C"
+                        ]
+                      }
+                    },
+                    "children": [
+                      {
+                        "branch_attrs": {
+                          "mutations": {
+                            "nuc": [
+                              "C303T",
+                              "C1170T",
+                              "G1422A",
+                              "T2457C"
+                            ]
+                          }
+                        },
+                        "name": "sample/500/4",
+                        "node_attrs": {
+                          "div": 0.0066128364625677866,
+                          "num_date": {
+                            "confidence": [
+                              2019.0013698630137,
+                              2019.0013698630137
+                            ],
+                            "value": 2019.0013698630137
+                          }
+                        }
+                      },
+                      {
+                        "branch_attrs": {
+                          "mutations": {
+                            "nuc": [
+                              "T355C",
+                              "C417T",
+                              "G1002C",
+                              "T1731A",
+                              "T1893C",
+                              "T2037C"
+                            ]
+                          }
+                        },
+                        "children": [
+                          {
+                            "branch_attrs": {
+                              "mutations": {
+                                "nuc": [
+                                  "C582G",
+                                  "A1678G"
+                                ]
+                              }
+                            },
+                            "name": "sample/500/5",
+                            "node_attrs": {
+                              "div": 0.008080440848363622,
+                              "num_date": {
+                                "confidence": [
+                                  2019.0013698630137,
+                                  2019.0013698630137
+                                ],
+                                "value": 2019.0013698630137
+                              }
+                            }
+                          },
+                          {
+                            "branch_attrs": {
+                              "mutations": {
+                                "nuc": [
+                                  "T177C",
+                                  "T944G"
+                                ]
+                              }
+                            },
+                            "name": "sample/500/8",
+                            "node_attrs": {
+                              "div": 0.008080296953539439,
+                              "num_date": {
+                                "confidence": [
+                                  2019.0013698630137,
+                                  2019.0013698630137
+                                ],
+                                "value": 2019.0013698630137
+                              }
+                            }
+                          }
+                        ],
+                        "name": "NODE_0000084",
+                        "node_attrs": {
+                          "div": 0.00734740021626848,
+                          "num_date": {
+                            "confidence": [
+                              2012.105734680108,
+                              2017.4538774660857
+                            ],
+                            "value": 2015.7293746736173
+                          }
+                        }
+                      }
+                    ],
+                    "name": "NODE_0000083",
+                    "node_attrs": {
+                      "div": 0.005145330819852258,
+                      "num_date": {
+                        "confidence": [
+                          2003.017947889251,
+                          2010.783707606177
+                        ],
+                        "value": 2005.900232663852
+                      }
+                    }
+                  }
+                ],
+                "name": "NODE_0000082",
+                "node_attrs": {
+                  "div": 0.004778704760151772,
+                  "num_date": {
+                    "confidence": [
+                      2000.0357554549857,
+                      2007.6713099372462
+                    ],
+                    "value": 2002.4526554852644
+                  }
+                }
+              }
+            ],
+            "name": "NODE_0000081",
+            "node_attrs": {
+              "div": 0.0018376798837568173,
+              "num_date": {
+                "confidence": [
+                  1989.2207661251305,
+                  1994.7389731454969
+                ],
+                "value": 1992.5823631600238
+              }
+            }
+          },
+          {
+            "branch_attrs": {
+              "mutations": {
+                "nuc": [
+                  "T18C",
+                  "C738G",
+                  "G903A",
+                  "C1185T",
+                  "T2037A",
+                  "T2058C",
+                  "G2274C",
+                  "C2694T"
+                ]
+              }
+            },
+            "children": [
+              {
+                "branch_attrs": {
+                  "mutations": {
+                    "nuc": [
+                      "T87G",
+                      "T111C",
+                      "G298C",
+                      "G1799A",
+                      "A2568T"
+                    ]
+                  }
+                },
+                "name": "sample/250/1",
+                "node_attrs": {
+                  "div": 0.00515200379306437,
+                  "num_date": {
+                    "confidence": [
+                      2002.5,
+                      2002.5
+                    ],
+                    "value": 2002.5
+                  }
+                }
+              },
+              {
+                "branch_attrs": {
+                  "mutations": {
+                    "nuc": [
+                      "A147G",
+                      "T498C",
+                      "T513C",
+                      "T1341C",
+                      "T1605C",
+                      "T2349C",
+                      "G2451A"
+                    ]
+                  }
+                },
+                "children": [
+                  {
+                    "branch_attrs": {
+                      "mutations": {
+                        "nuc": [
+                          "T366C",
+                          "G423A",
+                          "T717G",
+                          "T888C",
+                          "A2559G"
+                        ]
+                      }
+                    },
+                    "name": "sample/500/1",
+                    "node_attrs": {
+                      "div": 0.0077222817192106165,
+                      "num_date": {
+                        "confidence": [
+                          2019.0013698630137,
+                          2019.0013698630137
+                        ],
+                        "value": 2019.0013698630137
+                      }
+                    }
+                  },
+                  {
+                    "branch_attrs": {
+                      "mutations": {
+                        "nuc": [
+                          "T1275G",
+                          "T1635C",
+                          "T1959A"
+                        ]
+                      }
+                    },
+                    "children": [
+                      {
+                        "branch_attrs": {
+                          "mutations": {}
+                        },
+                        "name": "sample/300/1",
+                        "node_attrs": {
+                          "div": 0.0069877433738171355,
+                          "num_date": {
+                            "confidence": [
+                              2005.7986301369863,
+                              2005.7986301369863
+                            ],
+                            "value": 2005.7986301369863
+                          }
+                        }
+                      },
+                      {
+                        "branch_attrs": {
+                          "mutations": {}
+                        },
+                        "name": "sample/300/4",
+                        "node_attrs": {
+                          "div": 0.0069877433738171355,
+                          "num_date": {
+                            "confidence": [
+                              2005.7986301369863,
+                              2005.7986301369863
+                            ],
+                            "value": 2005.7986301369863
+                          }
+                        }
+                      }
+                    ],
+                    "name": "NODE_0000041",
+                    "node_attrs": {
+                      "div": 0.006987743373817133,
+                      "num_date": {
+                        "confidence": [
+                          2004.7872536584775,
+                          2005.7986301369863
+                        ],
+                        "value": 2005.7986301369863
+                      }
+                    }
+                  },
+                  {
+                    "branch_attrs": {
+                      "mutations": {
+                        "nuc": [
+                          "T1618C"
+                        ]
+                      }
+                    },
+                    "children": [
+                      {
+                        "branch_attrs": {
+                          "mutations": {
+                            "nuc": [
+                              "T129C",
+                              "A198G",
+                              "A444T",
+                              "A479G",
+                              "C1371G",
+                              "G1527A",
+                              "A2394C"
+                            ]
+                          }
+                        },
+                        "name": "sample/450/8",
+                        "node_attrs": {
+                          "div": 0.008825312901548166,
+                          "num_date": {
+                            "confidence": [
+                              2015.7,
+                              2015.7
+                            ],
+                            "value": 2015.7
+                          }
+                        }
+                      },
+                      {
+                        "branch_attrs": {
+                          "mutations": {
+                            "nuc": [
+                              "C162T",
+                              "T1014C",
+                              "A1962G",
+                              "C2353A",
+                              "T2530C"
+                            ]
+                          }
+                        },
+                        "name": "sample/450/10",
+                        "node_attrs": {
+                          "div": 0.008089071634780773,
+                          "num_date": {
+                            "confidence": [
+                              2015.7,
+                              2015.7
+                            ],
+                            "value": 2015.7
+                          }
+                        }
+                      },
+                      {
+                        "branch_attrs": {
+                          "mutations": {
+                            "nuc": [
+                              "T177G",
+                              "T373G",
+                              "A462G",
+                              "A933C",
+                              "T1041G",
+                              "T1293C",
+                              "T2571C"
+                            ]
+                          }
+                        },
+                        "name": "sample/450/7",
+                        "node_attrs": {
+                          "div": 0.00882547186191619,
+                          "num_date": {
+                            "confidence": [
+                              2015.7,
+                              2015.7
+                            ],
+                            "value": 2015.7
+                          }
+                        }
+                      }
+                    ],
+                    "name": "NODE_0000042",
+                    "node_attrs": {
+                      "div": 0.006252957357668448,
+                      "num_date": {
+                        "confidence": [
+                          2002.861744496684,
+                          2007.9832241146853
+                        ],
+                        "value": 2005.8338847073321
+                      }
+                    }
+                  }
+                ],
+                "name": "NODE_0000039",
+                "node_attrs": {
+                  "div": 0.005886091736220863,
+                  "num_date": {
+                    "confidence": [
+                      2000.9582641235397,
+                      2005.619407402423
+                    ],
+                    "value": 2002.4914819602755
+                  }
+                }
+              }
+            ],
+            "name": "NODE_0000038",
+            "node_attrs": {
+              "div": 0.0033127023885166458,
+              "num_date": {
+                "confidence": [
+                  1992.3810953221173,
+                  1997.75167860879
+                ],
+                "value": 1995.9269542056693
+              }
+            }
+          },
+          {
+            "branch_attrs": {
+              "mutations": {
+                "nuc": [
+                  "G1002A"
+                ]
+              }
+            },
+            "children": [
+              {
+                "branch_attrs": {
+                  "mutations": {
+                    "nuc": [
+                      "T2151C",
+                      "C2751T"
+                    ]
+                  }
+                },
+                "name": "sample/100/1",
+                "node_attrs": {
+                  "div": 0.00146964252114779,
+                  "num_date": {
+                    "confidence": [
+                      1992.5969945355191,
+                      1992.5969945355191
+                    ],
+                    "value": 1992.5969945355191
+                  }
+                }
+              },
+              {
+                "branch_attrs": {
+                  "mutations": {
+                    "nuc": [
+                      "T48G",
+                      "A675G",
+                      "A721C",
+                      "G1527A",
+                      "C2469G"
+                    ]
+                  }
+                },
+                "name": "sample/100/7",
+                "node_attrs": {
+                  "div": 0.0025743883127333934,
+                  "num_date": {
+                    "confidence": [
+                      1992.5969945355191,
+                      1992.5969945355191
+                    ],
+                    "value": 1992.5969945355191
+                  }
+                }
+              },
+              {
+                "branch_attrs": {
+                  "mutations": {
+                    "nuc": [
+                      "T1275C",
+                      "T1434C"
+                    ]
+                  }
+                },
+                "children": [
+                  {
+                    "branch_attrs": {
+                      "mutations": {
+                        "nuc": [
+                          "T1485A",
+                          "C1692A",
+                          "T1812C",
+                          "G2086C",
+                          "A2126T",
+                          "G2362C",
+                          "T2565C"
+                        ]
+                      }
+                    },
+                    "name": "sample/200/2",
+                    "node_attrs": {
+                      "div": 0.004044946110189676,
+                      "num_date": {
+                        "confidence": [
+                          1999.2013698630137,
+                          1999.2013698630137
+                        ],
+                        "value": 1999.2013698630137
+                      }
+                    }
+                  },
+                  {
+                    "branch_attrs": {
+                      "mutations": {
+                        "nuc": [
+                          "T1224G",
+                          "T2007C",
+                          "C2745T"
+                        ]
+                      }
+                    },
+                    "children": [
+                      {
+                        "branch_attrs": {
+                          "mutations": {
+                            "nuc": [
+                              "T651C",
+                              "T846C",
+                              "T1150C"
+                            ]
+                          }
+                        },
+                        "children": [
+                          {
+                            "branch_attrs": {
+                              "mutations": {
+                                "nuc": [
+                                  "G183A",
+                                  "C207T",
+                                  "A801G",
+                                  "C1607A",
+                                  "A1703T",
+                                  "T1890C"
+                                ]
+                              }
+                            },
+                            "name": "sample/250/4",
+                            "node_attrs": {
+                              "div": 0.005878371856093167,
+                              "num_date": {
+                                "confidence": [
+                                  2002.5,
+                                  2002.5
+                                ],
+                                "value": 2002.5
+                              }
+                            }
+                          },
+                          {
+                            "branch_attrs": {
+                              "mutations": {
+                                "nuc": [
+                                  "T369A",
+                                  "C436A",
+                                  "T627C",
+                                  "A713C",
+                                  "C1026T",
+                                  "T1106C",
+                                  "T1258C",
+                                  "G1262C",
+                                  "A1968C",
+                                  "T2551C"
+                                ]
+                              }
+                            },
+                            "name": "sample/350/2",
+                            "node_attrs": {
+                              "div": 0.007351128178267309,
+                              "num_date": {
+                                "confidence": [
+                                  2009.1,
+                                  2009.1
+                                ],
+                                "value": 2009.1
+                              }
+                            }
+                          }
+                        ],
+                        "name": "NODE_0000094",
+                        "node_attrs": {
+                          "div": 0.003673285602869073,
+                          "num_date": {
+                            "confidence": [
+                              1994.2484039940623,
+                              1999.85415850841
+                            ],
+                            "value": 1995.9566252313734
+                          }
+                        }
+                      },
+                      {
+                        "branch_attrs": {
+                          "mutations": {
+                            "nuc": [
+                              "C424G",
+                              "T1119C",
+                              "A1215C",
+                              "T1396C",
+                              "G1398C",
+                              "C1758G",
+                              "T1860C",
+                              "T1947C",
+                              "G1956T",
+                              "G2754A"
+                            ]
+                          }
+                        },
+                        "children": [
+                          {
+                            "branch_attrs": {
+                              "mutations": {
+                                "nuc": [
+                                  "A170C",
+                                  "C408G",
+                                  "G520T",
+                                  "G1455T",
+                                  "A2497T",
+                                  "A2553G",
+                                  "A2559G"
+                                ]
+                              }
+                            },
+                            "name": "sample/450/3",
+                            "node_attrs": {
+                              "div": 0.00882650704160749,
+                              "num_date": {
+                                "confidence": [
+                                  2015.7,
+                                  2015.7
+                                ],
+                                "value": 2015.7
+                              }
+                            }
+                          },
+                          {
+                            "branch_attrs": {
+                              "mutations": {
+                                "nuc": [
+                                  "T251C",
+                                  "A985G",
+                                  "T2151C",
+                                  "A2505G"
+                                ]
+                              }
+                            },
+                            "name": "sample/500/2",
+                            "node_attrs": {
+                              "div": 0.007720533589618307,
+                              "num_date": {
+                                "confidence": [
+                                  2019.0013698630137,
+                                  2019.0013698630137
+                                ],
+                                "value": 2019.0013698630137
+                              }
+                            }
+                          }
+                        ],
+                        "name": "NODE_0000098",
+                        "node_attrs": {
+                          "div": 0.006252801419039469,
+                          "num_date": {
+                            "confidence": [
+                              2002.320085975706,
+                              2011.1816387886188
+                            ],
+                            "value": 2008.4736099682193
+                          }
+                        }
+                      },
+                      {
+                        "branch_attrs": {
+                          "mutations": {}
+                        },
+                        "children": [
+                          {
+                            "branch_attrs": {
+                              "mutations": {
+                                "nuc": [
+                                  "G124C",
+                                  "T354C",
+                                  "G594A",
+                                  "C1305T",
+                                  "T1569C",
+                                  "G1941A",
+                                  "T2352C"
+                                ]
+                              }
+                            },
+                            "name": "sample/300/6",
+                            "node_attrs": {
+                              "div": 0.0051449868533586,
+                              "num_date": {
+                                "confidence": [
+                                  2005.7986301369863,
+                                  2005.7986301369863
+                                ],
+                                "value": 2005.7986301369863
+                              }
+                            }
+                          },
+                          {
+                            "branch_attrs": {
+                              "mutations": {}
+                            },
+                            "children": [
+                              {
+                                "branch_attrs": {
+                                  "mutations": {
+                                    "nuc": [
+                                      "A102C",
+                                      "A244G",
+                                      "A1194C",
+                                      "T1236C",
+                                      "A1468C",
+                                      "C2694T"
+                                    ]
+                                  }
+                                },
+                                "name": "sample/350/10",
+                                "node_attrs": {
+                                  "div": 0.004777524761558026,
+                                  "num_date": {
+                                    "confidence": [
+                                      2009.1,
+                                      2009.1
+                                    ],
+                                    "value": 2009.1
+                                  }
+                                }
+                              },
+                              {
+                                "branch_attrs": {
+                                  "mutations": {
+                                    "nuc": [
+                                      "A255G",
+                                      "A1468G"
+                                    ]
+                                  }
+                                },
+                                "name": "sample/350/6",
+                                "node_attrs": {
+                                  "div": 0.003306194092026213,
+                                  "num_date": {
+                                    "confidence": [
+                                      2009.1,
+                                      2009.1
+                                    ],
+                                    "value": 2009.1
+                                  }
+                                }
+                              }
+                            ],
+                            "name": "NODE_0000028",
+                            "node_attrs": {
+                              "div": 0.0025717154927741674,
+                              "num_date": {
+                                "confidence": [
+                                  1994.0265882289568,
+                                  2003.4384233899432
+                                ],
+                                "value": 1999.3110859565265
+                              }
+                            }
+                          }
+                        ],
+                        "name": "NODE_0000027",
+                        "node_attrs": {
+                          "div": 0.0025717154927741652,
+                          "num_date": {
+                            "confidence": [
+                              1993.266148537923,
+                              1999.3150559543756
+                            ],
+                            "value": 1995.8728224539302
+                          }
+                        }
+                      }
+                    ],
+                    "name": "NODE_0000093",
+                    "node_attrs": {
+                      "div": 0.002571715492774163,
+                      "num_date": {
+                        "confidence": [
+                          1990.1166416890724,
+                          1997.0022845122958
+                        ],
+                        "value": 1994.0116855793613
+                      }
+                    }
+                  }
+                ],
+                "name": "NODE_0000092",
+                "node_attrs": {
+                  "div": 0.0014694573218913716,
+                  "num_date": {
+                    "confidence": [
+                      1987.859820422325,
+                      1993.8610979486614
+                    ],
+                    "value": 1990.316755909256
+                  }
+                }
+              }
+            ],
+            "name": "NODE_0000090",
+            "node_attrs": {
+              "div": 0.0007347799952487113,
+              "num_date": {
+                "confidence": [
+                  1987.3860328622623,
+                  1990.43943449972
+                ],
+                "value": 1988.270397995534
+              }
+            }
+          },
+          {
+            "branch_attrs": {
+              "mutations": {
+                "nuc": [
+                  "T1125C",
+                  "T1470C",
+                  "T2358C",
+                  "A2412G"
+                ]
+              }
+            },
+            "children": [
+              {
+                "branch_attrs": {
+                  "mutations": {
+                    "nuc": [
+                      "C663T"
+                    ]
+                  }
+                },
+                "name": "sample/150/2",
+                "node_attrs": {
+                  "div": 0.002204228772100852,
+                  "num_date": {
+                    "confidence": [
+                      1995.9,
+                      1995.9
+                    ],
+                    "value": 1995.9
+                  }
+                }
+              },
+              {
+                "branch_attrs": {
+                  "mutations": {
+                    "nuc": [
+                      "T660C"
+                    ]
+                  }
+                },
+                "children": [
+                  {
+                    "branch_attrs": {
+                      "mutations": {
+                        "nuc": [
+                          "T435C",
+                          "A2394G"
+                        ]
+                      }
+                    },
+                    "children": [
+                      {
+                        "branch_attrs": {
+                          "mutations": {
+                            "nuc": [
+                              "T744C",
+                              "A1317G",
+                              "T1332A",
+                              "G1726A",
+                              "A1728G",
+                              "A2235G",
+                              "T2527C"
+                            ]
+                          }
+                        },
+                        "name": "sample/400/2",
+                        "node_attrs": {
+                          "div": 0.005509294057204461,
+                          "num_date": {
+                            "confidence": [
+                              2012.4002732240438,
+                              2012.4002732240438
+                            ],
+                            "value": 2012.4002732240438
+                          }
+                        }
+                      },
+                      {
+                        "branch_attrs": {
+                          "mutations": {
+                            "nuc": [
+                              "T213A"
+                            ]
+                          }
+                        },
+                        "children": [
+                          {
+                            "branch_attrs": {
+                              "mutations": {
+                                "nuc": [
+                                  "T642A",
+                                  "T900C",
+                                  "T963C",
+                                  "T1881C",
+                                  "G2661A"
+                                ]
+                              }
+                            },
+                            "children": [
+                              {
+                                "branch_attrs": {
+                                  "mutations": {
+                                    "nuc": [
+                                      "T927C",
+                                      "T1697C"
+                                    ]
+                                  }
+                                },
+                                "name": "sample/350/8",
+                                "node_attrs": {
+                                  "div": 0.005873969113288178,
+                                  "num_date": {
+                                    "confidence": [
+                                      2009.1,
+                                      2009.1
+                                    ],
+                                    "value": 2009.1
+                                  }
+                                }
+                              },
+                              {
+                                "branch_attrs": {
+                                  "mutations": {
+                                    "nuc": [
+                                      "T120C",
+                                      "C465T",
+                                      "T816C",
+                                      "G1050A",
+                                      "A1734C",
+                                      "G1775C"
+                                    ]
+                                  }
+                                },
+                                "name": "sample/400/6",
+                                "node_attrs": {
+                                  "div": 0.007342970168344367,
+                                  "num_date": {
+                                    "confidence": [
+                                      2012.4002732240438,
+                                      2012.4002732240438
+                                    ],
+                                    "value": 2012.4002732240438
+                                  }
+                                }
+                              }
+                            ],
+                            "name": "NODE_0000072",
+                            "node_attrs": {
+                              "div": 0.005140755729411936,
+                              "num_date": {
+                                "confidence": [
+                                  2002.855876805669,
+                                  2007.9003755310603
+                                ],
+                                "value": 2005.9090528740028
+                              }
+                            }
+                          },
+                          {
+                            "branch_attrs": {
+                              "mutations": {
+                                "nuc": [
+                                  "A603G"
+                                ]
+                              }
+                            },
+                            "children": [
+                              {
+                                "branch_attrs": {
+                                  "mutations": {
+                                    "nuc": [
+                                      "T269C",
+                                      "T567A",
+                                      "T925C",
+                                      "T1638C",
+                                      "T1975C",
+                                      "T2283C",
+                                      "G2754A"
+                                    ]
+                                  }
+                                },
+                                "name": "sample/400/5",
+                                "node_attrs": {
+                                  "div": 0.006242233498085947,
+                                  "num_date": {
+                                    "confidence": [
+                                      2012.4002732240438,
+                                      2012.4002732240438
+                                    ],
+                                    "value": 2012.4002732240438
+                                  }
+                                }
+                              },
+                              {
+                                "branch_attrs": {
+                                  "mutations": {
+                                    "nuc": [
+                                      "T381C",
+                                      "G1009A",
+                                      "A1478C",
+                                      "T1662C",
+                                      "T1737G"
+                                    ]
+                                  }
+                                },
+                                "name": "sample/450/2",
+                                "node_attrs": {
+                                  "div": 0.005507836296482226,
+                                  "num_date": {
+                                    "confidence": [
+                                      2015.7,
+                                      2015.7
+                                    ],
+                                    "value": 2015.7
+                                  }
+                                }
+                              }
+                            ],
+                            "name": "NODE_0000073",
+                            "node_attrs": {
+                              "div": 0.003671869613771473,
+                              "num_date": {
+                                "confidence": [
+                                  1999.00611576823,
+                                  2006.0180544062657
+                                ],
+                                "value": 2002.3843917842407
+                              }
+                            }
+                          }
+                        ],
+                        "name": "NODE_0000071",
+                        "node_attrs": {
+                          "div": 0.00330501825885266,
+                          "num_date": {
+                            "confidence": [
+                              1995.9074460064355,
+                              2002.770049681942
+                            ],
+                            "value": 1999.3487433833884
+                          }
+                        }
+                      }
+                    ],
+                    "name": "NODE_0000070",
+                    "node_attrs": {
+                      "div": 0.0029380837671341346,
+                      "num_date": {
+                        "confidence": [
+                          1993.3768305397232,
+                          2001.3729530937849
+                        ],
+                        "value": 1995.8180373083032
+                      }
+                    }
+                  },
+                  {
+                    "branch_attrs": {
+                      "mutations": {
+                        "nuc": [
+                          "T135C",
+                          "A1290G",
+                          "C2469G",
+                          "T2541C"
+                        ]
+                      }
+                    },
+                    "children": [
+                      {
+                        "branch_attrs": {
+                          "mutations": {
+                            "nuc": [
+                              "T81A",
+                              "G735T",
+                              "T1113C",
+                              "T1150C",
+                              "G2362A",
+                              "T2571C",
+                              "A2624T",
+                              "T2718C"
+                            ]
+                          }
+                        },
+                        "name": "sample/250/5",
+                        "node_attrs": {
+                          "div": 0.006612893594912916,
+                          "num_date": {
+                            "confidence": [
+                              2002.5,
+                              2002.5
+                            ],
+                            "value": 2002.5
+                          }
+                        }
+                      },
+                      {
+                        "branch_attrs": {
+                          "mutations": {
+                            "nuc": [
+                              "T711C",
+                              "T1110C",
+                              "C2214T",
+                              "G2646T",
+                              "A2652T"
+                            ]
+                          }
+                        },
+                        "children": [
+                          {
+                            "branch_attrs": {
+                              "mutations": {
+                                "nuc": [
+                                  "A1968T"
+                                ]
+                              }
+                            },
+                            "children": [
+                              {
+                                "branch_attrs": {
+                                  "mutations": {
+                                    "nuc": [
+                                      "A514C",
+                                      "G1201A",
+                                      "T1365A"
+                                    ]
+                                  }
+                                },
+                                "name": "sample/250/9",
+                                "node_attrs": {
+                                  "div": 0.006977148247046336,
+                                  "num_date": {
+                                    "confidence": [
+                                      2002.5,
+                                      2002.5
+                                    ],
+                                    "value": 2002.5
+                                  }
+                                }
+                              },
+                              {
+                                "branch_attrs": {
+                                  "mutations": {
+                                    "nuc": [
+                                      "T213G",
+                                      "A1095G"
+                                    ]
+                                  }
+                                },
+                                "children": [
+                                  {
+                                    "branch_attrs": {
+                                      "mutations": {
+                                        "nuc": [
+                                          "T84A",
+                                          "A1579G",
+                                          "C1779A",
+                                          "T1848C",
+                                          "T2334C"
+                                        ]
+                                      }
+                                    },
+                                    "name": "sample/350/1",
+                                    "node_attrs": {
+                                      "div": 0.008445602518075168,
+                                      "num_date": {
+                                        "confidence": [
+                                          2009.1,
+                                          2009.1
+                                        ],
+                                        "value": 2009.1
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "branch_attrs": {
+                                      "mutations": {
+                                        "nuc": [
+                                          "G34A",
+                                          "T369G",
+                                          "A1189C",
+                                          "C1675A",
+                                          "A2448G",
+                                          "T2634C",
+                                          "A2729G"
+                                        ]
+                                      }
+                                    },
+                                    "name": "sample/400/3",
+                                    "node_attrs": {
+                                      "div": 0.00918150399060064,
+                                      "num_date": {
+                                        "confidence": [
+                                          2012.4002732240438,
+                                          2012.4002732240438
+                                        ],
+                                        "value": 2012.4002732240438
+                                      }
+                                    }
+                                  }
+                                ],
+                                "name": "NODE_0000077",
+                                "node_attrs": {
+                                  "div": 0.006609897009010989,
+                                  "num_date": {
+                                    "confidence": [
+                                      2000.3326061413325,
+                                      2005.1294906144742
+                                    ],
+                                    "value": 2002.5376384649785
+                                  }
+                                }
+                              }
+                            ],
+                            "name": "NODE_0000076",
+                            "node_attrs": {
+                              "div": 0.005876162784100765,
+                              "num_date": {
+                                "confidence": [
+                                  1997.9958005589604,
+                                  2001.6193215539188
+                                ],
+                                "value": 1999.3340827879445
+                              }
+                            }
+                          },
+                          {
+                            "branch_attrs": {
+                              "mutations": {
+                                "nuc": [
+                                  "T942C",
+                                  "T1608C",
+                                  "G1799A"
+                                ]
+                              }
+                            },
+                            "children": [
+                              {
+                                "branch_attrs": {
+                                  "mutations": {
+                                    "nuc": [
+                                      "C114T",
+                                      "T165C",
+                                      "T382A",
+                                      "T2289C"
+                                    ]
+                                  }
+                                },
+                                "name": "sample/400/9",
+                                "node_attrs": {
+                                  "div": 0.008077148657612873,
+                                  "num_date": {
+                                    "confidence": [
+                                      2012.4002732240438,
+                                      2012.4002732240438
+                                    ],
+                                    "value": 2012.4002732240438
+                                  }
+                                }
+                              },
+                              {
+                                "branch_attrs": {
+                                  "mutations": {
+                                    "nuc": [
+                                      "A675G",
+                                      "T2061C",
+                                      "G2451A"
+                                    ]
+                                  }
+                                },
+                                "children": [
+                                  {
+                                    "branch_attrs": {
+                                      "mutations": {
+                                        "nuc": [
+                                          "A246G",
+                                          "C417T",
+                                          "T2731C"
+                                        ]
+                                      }
+                                    },
+                                    "name": "sample/450/4",
+                                    "node_attrs": {
+                                      "div": 0.00880964135229807,
+                                      "num_date": {
+                                        "confidence": [
+                                          2015.7,
+                                          2015.7
+                                        ],
+                                        "value": 2015.7
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "branch_attrs": {
+                                      "mutations": {
+                                        "nuc": [
+                                          "A150G",
+                                          "C384T",
+                                          "T1015C"
+                                        ]
+                                      }
+                                    },
+                                    "name": "sample/450/5",
+                                    "node_attrs": {
+                                      "div": 0.00880964135229807,
+                                      "num_date": {
+                                        "confidence": [
+                                          2015.7,
+                                          2015.7
+                                        ],
+                                        "value": 2015.7
+                                      }
+                                    }
+                                  }
+                                ],
+                                "name": "NODE_0000079",
+                                "node_attrs": {
+                                  "div": 0.007709792598805127,
+                                  "num_date": {
+                                    "confidence": [
+                                      2007.1360314160606,
+                                      2013.88771950608
+                                    ],
+                                    "value": 2009.1039255278984
+                                  }
+                                }
+                              }
+                            ],
+                            "name": "NODE_0000078",
+                            "node_attrs": {
+                              "div": 0.006609765287328279,
+                              "num_date": {
+                                "confidence": [
+                                  2000.381119646291,
+                                  2007.69840968308
+                                ],
+                                "value": 2005.8626164119953
+                              }
+                            }
+                          }
+                        ],
+                        "name": "NODE_0000075",
+                        "node_attrs": {
+                          "div": 0.005509363548707246,
+                          "num_date": {
+                            "confidence": [
+                              1996.5217781770264,
+                              2000.5947390361905
+                            ],
+                            "value": 1998.7455965981774
+                          }
+                        }
+                      }
+                    ],
+                    "name": "NODE_0000074",
+                    "node_attrs": {
+                      "div": 0.0036729781017930023,
+                      "num_date": {
+                        "confidence": [
+                          1992.523648206109,
+                          1996.8572160047108
+                        ],
+                        "value": 1995.14314975374
+                      }
+                    }
+                  }
+                ],
+                "name": "NODE_0000069",
+                "node_attrs": {
+                  "div": 0.0022041364464579563,
+                  "num_date": {
+                    "confidence": [
+                      1990.0615594979417,
+                      1994.6016687058848
+                    ],
+                    "value": 1992.5757905455448
+                  }
+                }
+              }
+            ],
+            "name": "NODE_0000068",
+            "node_attrs": {
+              "div": 0.0018371447217063125,
+              "num_date": {
+                "confidence": [
+                  1988.942818322852,
+                  1993.660231203087
+                ],
+                "value": 1991.130132497736
+              }
+            }
+          },
+          {
+            "branch_attrs": {
+              "mutations": {}
+            },
+            "children": [
+              {
+                "branch_attrs": {
+                  "mutations": {
+                    "nuc": [
+                      "G1002T"
+                    ]
+                  }
+                },
+                "children": [
+                  {
+                    "branch_attrs": {
+                      "mutations": {
+                        "nuc": [
+                          "T216G",
+                          "T489C",
+                          "T2628A"
+                        ]
+                      }
+                    },
+                    "name": "sample/300/7",
+                    "node_attrs": {
+                      "div": 0.001837767417069446,
+                      "num_date": {
+                        "confidence": [
+                          2005.7986301369863,
+                          2005.7986301369863
+                        ],
+                        "value": 2005.7986301369863
+                      }
+                    }
+                  },
+                  {
+                    "branch_attrs": {
+                      "mutations": {
+                        "nuc": [
+                          "A6G",
+                          "T330G",
+                          "G2625A"
+                        ]
+                      }
+                    },
+                    "children": [
+                      {
+                        "branch_attrs": {
+                          "mutations": {
+                            "nuc": [
+                              "C555A",
+                              "A1565T",
+                              "G1866C",
+                              "T2247C",
+                              "A2412G"
+                            ]
+                          }
+                        },
+                        "name": "sample/150/5",
+                        "node_attrs": {
+                          "div": 0.003676863745192181,
+                          "num_date": {
+                            "confidence": [
+                              1995.9,
+                              1995.9
+                            ],
+                            "value": 1995.9
+                          }
+                        }
+                      },
+                      {
+                        "branch_attrs": {
+                          "mutations": {
+                            "nuc": [
+                              "C556G",
+                              "C1026T",
+                              "T1332A",
+                              "T1752A",
+                              "T2061C",
+                              "G2165A",
+                              "G2467T",
+                              "C2685A"
+                            ]
+                          }
+                        },
+                        "name": "sample/250/7",
+                        "node_attrs": {
+                          "div": 0.004785308219438722,
+                          "num_date": {
+                            "confidence": [
+                              2002.5,
+                              2002.5
+                            ],
+                            "value": 2002.5
+                          }
+                        }
+                      },
+                      {
+                        "branch_attrs": {
+                          "mutations": {
+                            "nuc": [
+                              "G32C",
+                              "G1431A"
+                            ]
+                          }
+                        },
+                        "children": [
+                          {
+                            "branch_attrs": {
+                              "mutations": {
+                                "nuc": [
+                                  "A241T"
+                                ]
+                              }
+                            },
+                            "name": "sample/100/4",
+                            "node_attrs": {
+                              "div": 0.0029398774975624383,
+                              "num_date": {
+                                "confidence": [
+                                  1992.5969945355191,
+                                  1992.5969945355191
+                                ],
+                                "value": 1992.5969945355191
+                              }
+                            }
+                          },
+                          {
+                            "branch_attrs": {
+                              "mutations": {}
+                            },
+                            "name": "sample/100/6",
+                            "node_attrs": {
+                              "div": 0.002572542662537873,
+                              "num_date": {
+                                "confidence": [
+                                  1992.5969945355191,
+                                  1992.5969945355191
+                                ],
+                                "value": 1992.5969945355191
+                              }
+                            }
+                          }
+                        ],
+                        "name": "NODE_0000088",
+                        "node_attrs": {
+                          "div": 0.0025725426625378706,
+                          "num_date": {
+                            "confidence": [
+                              1991.0756727651665,
+                              1992.5708788214076
+                            ],
+                            "value": 1992.2396057198746
+                          }
+                        }
+                      }
+                    ],
+                    "name": "NODE_0000087",
+                    "node_attrs": {
+                      "div": 0.001837631453406217,
+                      "num_date": {
+                        "confidence": [
+                          1988.098092030289,
+                          1991.795407351562
+                        ],
+                        "value": 1990.4271829792754
+                      }
+                    }
+                  }
+                ],
+                "name": "NODE_0000086",
+                "node_attrs": {
+                  "div": 0.00073485722897892,
+                  "num_date": {
+                    "confidence": [
+                      1987.046859795722,
+                      1990.1489240103858
+                    ],
+                    "value": 1988.3366011655705
+                  }
+                }
+              },
+              {
+                "branch_attrs": {
+                  "mutations": {}
+                },
+                "children": [
+                  {
+                    "branch_attrs": {
+                      "mutations": {
+                        "nuc": [
+                          "G1359A"
+                        ]
+                      }
+                    },
+                    "children": [
+                      {
+                        "branch_attrs": {
+                          "mutations": {
+                            "nuc": [
+                              "A5G",
+                              "A1034G",
+                              "A1122G",
+                              "T1158C",
+                              "T1401C",
+                              "C1467G",
+                              "A1749G",
+                              "A1827G"
+                            ]
+                          }
+                        },
+                        "name": "sample/200/7",
+                        "node_attrs": {
+                          "div": 0.003678107778832534,
+                          "num_date": {
+                            "confidence": [
+                              1999.2013698630137,
+                              1999.2013698630137
+                            ],
+                            "value": 1999.2013698630137
+                          }
+                        }
+                      },
+                      {
+                        "branch_attrs": {
+                          "mutations": {
+                            "nuc": [
+                              "T123C"
+                            ]
+                          }
+                        },
+                        "children": [
+                          {
+                            "branch_attrs": {
+                              "mutations": {
+                                "nuc": [
+                                  "T30G",
+                                  "A90G",
+                                  "A528G",
+                                  "T999G",
+                                  "T1323C",
+                                  "T1890C",
+                                  "T2202C"
+                                ]
+                              }
+                            },
+                            "children": [
+                              {
+                                "branch_attrs": {
+                                  "mutations": {
+                                    "nuc": [
+                                      "T484C",
+                                      "T516C",
+                                      "C733T",
+                                      "A824T",
+                                      "G1050A",
+                                      "A1911G"
+                                    ]
+                                  }
+                                },
+                                "name": "sample/450/1",
+                                "node_attrs": {
+                                  "div": 0.005880837171142428,
+                                  "num_date": {
+                                    "confidence": [
+                                      2015.7,
+                                      2015.7
+                                    ],
+                                    "value": 2015.7
+                                  }
+                                }
+                              },
+                              {
+                                "branch_attrs": {
+                                  "mutations": {
+                                    "nuc": [
+                                      "G53T",
+                                      "G481A",
+                                      "T975G",
+                                      "T1137C",
+                                      "C1371T",
+                                      "G1896A",
+                                      "T2418C",
+                                      "C2473G",
+                                      "T2551C",
+                                      "A2562G",
+                                      "G2754A",
+                                      "G2773A"
+                                    ]
+                                  }
+                                },
+                                "name": "sample/500/7",
+                                "node_attrs": {
+                                  "div": 0.008093595359991325,
+                                  "num_date": {
+                                    "confidence": [
+                                      2019.0013698630137,
+                                      2019.0013698630137
+                                    ],
+                                    "value": 2019.0013698630137
+                                  }
+                                }
+                              }
+                            ],
+                            "name": "NODE_0000024",
+                            "node_attrs": {
+                              "div": 0.0036765078196074035,
+                              "num_date": {
+                                "confidence": [
+                                  1999.1391707747543,
+                                  2009.7366906841544
+                                ],
+                                "value": 2002.4800726985525
+                              }
+                            }
+                          },
+                          {
+                            "branch_attrs": {
+                              "mutations": {
+                                "nuc": [
+                                  "A597C"
+                                ]
+                              }
+                            },
+                            "children": [
+                              {
+                                "branch_attrs": {
+                                  "mutations": {
+                                    "nuc": [
+                                      "T81C",
+                                      "G264A",
+                                      "T513C",
+                                      "A1290C",
+                                      "G1380C",
+                                      "G1395A",
+                                      "T1665G",
+                                      "C1671G",
+                                      "A2511C",
+                                      "T2530C",
+                                      "T2565C",
+                                      "T2667C",
+                                      "G2673C"
+                                    ]
+                                  }
+                                },
+                                "name": "sample/500/6",
+                                "node_attrs": {
+                                  "div": 0.00625625601618837,
+                                  "num_date": {
+                                    "confidence": [
+                                      2019.0013698630137,
+                                      2019.0013698630137
+                                    ],
+                                    "value": 2019.0013698630137
+                                  }
+                                }
+                              },
+                              {
+                                "branch_attrs": {
+                                  "mutations": {
+                                    "nuc": [
+                                      "A345T",
+                                      "T1581G",
+                                      "C1800G",
+                                      "C2469G",
+                                      "T2508G"
+                                    ]
+                                  }
+                                },
+                                "children": [
+                                  {
+                                    "branch_attrs": {
+                                      "mutations": {
+                                        "nuc": [
+                                          "T279C"
+                                        ]
+                                      }
+                                    },
+                                    "name": "sample/250/8",
+                                    "node_attrs": {
+                                      "div": 0.003676541329576308,
+                                      "num_date": {
+                                        "confidence": [
+                                          2002.5,
+                                          2002.5
+                                        ],
+                                        "value": 2002.5
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "branch_attrs": {
+                                      "mutations": {
+                                        "nuc": [
+                                          "T84C",
+                                          "T189C",
+                                          "T324C",
+                                          "A360C",
+                                          "T621G",
+                                          "T837C",
+                                          "T1126C",
+                                          "C1905A",
+                                          "T2209A",
+                                          "A2532G",
+                                          "A2592C",
+                                          "T2601C"
+                                        ]
+                                      }
+                                    },
+                                    "name": "sample/500/3",
+                                    "node_attrs": {
+                                      "div": 0.007728791149454128,
+                                      "num_date": {
+                                        "confidence": [
+                                          2019.0013698630137,
+                                          2019.0013698630137
+                                        ],
+                                        "value": 2019.0013698630137
+                                      }
+                                    }
+                                  }
+                                ],
+                                "name": "NODE_0000026",
+                                "node_attrs": {
+                                  "div": 0.0033092665334269415,
+                                  "num_date": {
+                                    "confidence": [
+                                      1997.213365999687,
+                                      2002.4436774426629
+                                    ],
+                                    "value": 2001.2963472682154
+                                  }
+                                }
+                              }
+                            ],
+                            "name": "NODE_0000025",
+                            "node_attrs": {
+                              "div": 0.0014693691587471577,
+                              "num_date": {
+                                "confidence": [
+                                  1989.4123855540092,
+                                  1997.5290986728119
+                                ],
+                                "value": 1995.551399401416
+                              }
+                            }
+                          }
+                        ],
+                        "name": "NODE_0000023",
+                        "node_attrs": {
+                          "div": 0.0011020855491652454,
+                          "num_date": {
+                            "confidence": [
+                              1988.409762210962,
+                              1994.5889734396208
+                            ],
+                            "value": 1992.59455349652
+                          }
+                        }
+                      }
+                    ],
+                    "name": "NODE_0000022",
+                    "node_attrs": {
+                      "div": 0.000734779995248716,
+                      "num_date": {
+                        "confidence": [
+                          1987.6494252952652,
+                          1991.5794536113715
+                        ],
+                        "value": 1989.3726398354147
+                      }
+                    }
+                  },
+                  {
+                    "branch_attrs": {
+                      "mutations": {}
+                    },
+                    "children": [
+                      {
+                        "branch_attrs": {
+                          "mutations": {
+                            "nuc": [
+                              "T414G",
+                              "T1826C",
+                              "T2319G"
+                            ]
+                          }
+                        },
+                        "children": [
+                          {
+                            "branch_attrs": {
+                              "mutations": {
+                                "nuc": [
+                                  "T2276A"
+                                ]
+                              }
+                            },
+                            "name": "sample/100/10",
+                            "node_attrs": {
+                              "div": 0.001837680569938934,
+                              "num_date": {
+                                "confidence": [
+                                  1992.5969945355191,
+                                  1992.5969945355191
+                                ],
+                                "value": 1992.5969945355191
+                              }
+                            }
+                          },
+                          {
+                            "branch_attrs": {
+                              "mutations": {
+                                "nuc": [
+                                  "T216A",
+                                  "T228A",
+                                  "A979C",
+                                  "T1251C",
+                                  "T1323C",
+                                  "G2218A",
+                                  "G2274C",
+                                  "T2667C"
+                                ]
+                              }
+                            },
+                            "name": "sample/200/5",
+                            "node_attrs": {
+                              "div": 0.004413784772722038,
+                              "num_date": {
+                                "confidence": [
+                                  1999.2013698630137,
+                                  1999.2013698630137
+                                ],
+                                "value": 1999.2013698630137
+                              }
+                            }
+                          }
+                        ],
+                        "name": "NODE_0000053",
+                        "node_attrs": {
+                          "div": 0.0014703336211145082,
+                          "num_date": {
+                            "confidence": [
+                              1989.2709964156847,
+                              1992.2959400806951
+                            ],
+                            "value": 1991.0897631818814
+                          }
+                        }
+                      },
+                      {
+                        "branch_attrs": {
+                          "mutations": {}
+                        },
+                        "children": [
+                          {
+                            "branch_attrs": {
+                              "mutations": {
+                                "nuc": [
+                                  "A141G",
+                                  "T156C",
+                                  "G522A",
+                                  "T711C",
+                                  "G1560A",
+                                  "A1602G",
+                                  "G2451A"
+                                ]
+                              }
+                            },
+                            "children": [
+                              {
+                                "branch_attrs": {
+                                  "mutations": {
+                                    "nuc": [
+                                      "T234G",
+                                      "A1149G"
+                                    ]
+                                  }
+                                },
+                                "children": [
+                                  {
+                                    "branch_attrs": {
+                                      "mutations": {
+                                        "nuc": [
+                                          "T228C",
+                                          "C290A",
+                                          "T300C",
+                                          "T1296G",
+                                          "T2517C",
+                                          "A2520G",
+                                          "A2562C"
+                                        ]
+                                      }
+                                    },
+                                    "name": "sample/450/9",
+                                    "node_attrs": {
+                                      "div": 0.006250523106390015,
+                                      "num_date": {
+                                        "confidence": [
+                                          2015.7,
+                                          2015.7
+                                        ],
+                                        "value": 2015.7
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "branch_attrs": {
+                                      "mutations": {
+                                        "nuc": [
+                                          "T196C"
+                                        ]
+                                      }
+                                    },
+                                    "children": [
+                                      {
+                                        "branch_attrs": {
+                                          "mutations": {
+                                            "nuc": [
+                                              "T915A",
+                                              "T1656C",
+                                              "T1975C"
+                                            ]
+                                          }
+                                        },
+                                        "name": "sample/350/7",
+                                        "node_attrs": {
+                                          "div": 0.005145121276459653,
+                                          "num_date": {
+                                            "confidence": [
+                                              2009.1,
+                                              2009.1
+                                            ],
+                                            "value": 2009.1
+                                          }
+                                        }
+                                      },
+                                      {
+                                        "branch_attrs": {
+                                          "mutations": {
+                                            "nuc": [
+                                              "A530G",
+                                              "A1045G",
+                                              "T2316C",
+                                              "A2669C"
+                                            ]
+                                          }
+                                        },
+                                        "name": "sample/400/1",
+                                        "node_attrs": {
+                                          "div": 0.0055125057784054295,
+                                          "num_date": {
+                                            "confidence": [
+                                              2012.4002732240438,
+                                              2012.4002732240438
+                                            ],
+                                            "value": 2012.4002732240438
+                                          }
+                                        }
+                                      }
+                                    ],
+                                    "name": "NODE_0000059",
+                                    "node_attrs": {
+                                      "div": 0.00404344548053163,
+                                      "num_date": {
+                                        "confidence": [
+                                          1999.3632822840093,
+                                          2007.2872826696919
+                                        ],
+                                        "value": 2005.8429856507232
+                                      }
+                                    }
+                                  }
+                                ],
+                                "name": "NODE_0000058",
+                                "node_attrs": {
+                                  "div": 0.0036763399090048,
+                                  "num_date": {
+                                    "confidence": [
+                                      1997.130061430479,
+                                      2005.5268870408443
+                                    ],
+                                    "value": 2002.41635951997
+                                  }
+                                }
+                              },
+                              {
+                                "branch_attrs": {
+                                  "mutations": {
+                                    "nuc": [
+                                      "A309G",
+                                      "T540C",
+                                      "T1308C"
+                                    ]
+                                  }
+                                },
+                                "children": [
+                                  {
+                                    "branch_attrs": {
+                                      "mutations": {
+                                        "nuc": [
+                                          "A377G",
+                                          "T1108C",
+                                          "A1206G",
+                                          "A2131G",
+                                          "T2595A"
+                                        ]
+                                      }
+                                    },
+                                    "name": "sample/300/2",
+                                    "node_attrs": {
+                                      "div": 0.005879952052878193,
+                                      "num_date": {
+                                        "confidence": [
+                                          2005.7986301369863,
+                                          2005.7986301369863
+                                        ],
+                                        "value": 2005.7986301369863
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "branch_attrs": {
+                                      "mutations": {
+                                        "nuc": [
+                                          "T48A",
+                                          "C417T",
+                                          "A784C",
+                                          "A801T",
+                                          "T811G",
+                                          "T856A",
+                                          "G1086A",
+                                          "T1245C",
+                                          "C1653A",
+                                          "T2055C",
+                                          "T2712C"
+                                        ]
+                                      }
+                                    },
+                                    "name": "sample/350/5",
+                                    "node_attrs": {
+                                      "div": 0.008093708612379298,
+                                      "num_date": {
+                                        "confidence": [
+                                          2009.1,
+                                          2009.1
+                                        ],
+                                        "value": 2009.1
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "branch_attrs": {
+                                      "mutations": {}
+                                    },
+                                    "children": [
+                                      {
+                                        "branch_attrs": {
+                                          "mutations": {
+                                            "nuc": [
+                                              "C582A",
+                                              "T954C",
+                                              "T1011C",
+                                              "T1041G",
+                                              "A1410C",
+                                              "T1515C",
+                                              "T2551C"
+                                            ]
+                                          }
+                                        },
+                                        "name": "sample/400/8",
+                                        "node_attrs": {
+                                          "div": 0.006615930496465078,
+                                          "num_date": {
+                                            "confidence": [
+                                              2012.4002732240438,
+                                              2012.4002732240438
+                                            ],
+                                            "value": 2012.4002732240438
+                                          }
+                                        }
+                                      },
+                                      {
+                                        "branch_attrs": {
+                                          "mutations": {}
+                                        },
+                                        "children": [
+                                          {
+                                            "branch_attrs": {
+                                              "mutations": {
+                                                "nuc": [
+                                                  "G508A",
+                                                  "T1257G"
+                                                ]
+                                              }
+                                            },
+                                            "name": "sample/300/9",
+                                            "node_attrs": {
+                                              "div": 0.004777655351356522,
+                                              "num_date": {
+                                                "confidence": [
+                                                  2005.7986301369863,
+                                                  2005.7986301369863
+                                                ],
+                                                "value": 2005.7986301369863
+                                              }
+                                            }
+                                          },
+                                          {
+                                            "branch_attrs": {
+                                              "mutations": {}
+                                            },
+                                            "children": [
+                                              {
+                                                "branch_attrs": {
+                                                  "mutations": {
+                                                    "nuc": [
+                                                      "T12A",
+                                                      "T315C",
+                                                      "A801G",
+                                                      "T900C",
+                                                      "A1548G"
+                                                    ]
+                                                  }
+                                                },
+                                                "children": [
+                                                  {
+                                                    "branch_attrs": {
+                                                      "mutations": {}
+                                                    },
+                                                    "name": "sample/450/6",
+                                                    "node_attrs": {
+                                                      "div": 0.005879746111456478,
+                                                      "num_date": {
+                                                        "confidence": [
+                                                          2015.7,
+                                                          2015.7
+                                                        ],
+                                                        "value": 2015.7
+                                                      }
+                                                    }
+                                                  },
+                                                  {
+                                                    "branch_attrs": {
+                                                      "mutations": {
+                                                        "nuc": [
+                                                          "T543A"
+                                                        ]
+                                                      }
+                                                    },
+                                                    "name": "sample/500/9",
+                                                    "node_attrs": {
+                                                      "div": 0.006246610005406356,
+                                                      "num_date": {
+                                                        "confidence": [
+                                                          2019.0013698630137,
+                                                          2019.0013698630137
+                                                        ],
+                                                        "value": 2019.0013698630137
+                                                      }
+                                                    }
+                                                  }
+                                                ],
+                                                "name": "NODE_0000066",
+                                                "node_attrs": {
+                                                  "div": 0.005879746111456475,
+                                                  "num_date": {
+                                                    "confidence": [
+                                                      2012.789273843297,
+                                                      2015.7
+                                                    ],
+                                                    "value": 2015.7
+                                                  }
+                                                }
+                                              },
+                                              {
+                                                "branch_attrs": {
+                                                  "mutations": {
+                                                    "nuc": [
+                                                      "T196C"
+                                                    ]
+                                                  }
+                                                },
+                                                "children": [
+                                                  {
+                                                    "branch_attrs": {
+                                                      "mutations": {
+                                                        "nuc": [
+                                                          "T324C"
+                                                        ]
+                                                      }
+                                                    },
+                                                    "name": "sample/400/4",
+                                                    "node_attrs": {
+                                                      "div": 0.00477709869856992,
+                                                      "num_date": {
+                                                        "confidence": [
+                                                          2012.4002732240438,
+                                                          2012.4002732240438
+                                                        ],
+                                                        "value": 2012.4002732240438
+                                                      }
+                                                    }
+                                                  },
+                                                  {
+                                                    "branch_attrs": {
+                                                      "mutations": {
+                                                        "nuc": [
+                                                          "C473G",
+                                                          "T1104C",
+                                                          "A1458G",
+                                                          "C2335A"
+                                                        ]
+                                                      }
+                                                    },
+                                                    "name": "sample/400/10",
+                                                    "node_attrs": {
+                                                      "div": 0.005879557007704427,
+                                                      "num_date": {
+                                                        "confidence": [
+                                                          2012.4002732240438,
+                                                          2012.4002732240438
+                                                        ],
+                                                        "value": 2012.4002732240438
+                                                      }
+                                                    }
+                                                  }
+                                                ],
+                                                "name": "NODE_0000061",
+                                                "node_attrs": {
+                                                  "div": 0.004410272966836787,
+                                                  "num_date": {
+                                                    "confidence": [
+                                                      2004.0896259737472,
+                                                      2010.3662792899008
+                                                    ],
+                                                    "value": 2008.1863715840798
+                                                  }
+                                                }
+                                              }
+                                            ],
+                                            "name": "NODE_0000080",
+                                            "node_attrs": {
+                                              "div": 0.004043355059220678,
+                                              "num_date": {
+                                                "confidence": [
+                                                  2001.1475450732091,
+                                                  2008.359545488173
+                                                ],
+                                                "value": 2004.2454667281597
+                                              }
+                                            }
+                                          }
+                                        ],
+                                        "name": "NODE_0000067",
+                                        "node_attrs": {
+                                          "div": 0.0040433550592206755,
+                                          "num_date": {
+                                            "confidence": [
+                                              2000.4203148375293,
+                                              2004.7837260314366
+                                            ],
+                                            "value": 2002.521012337583
+                                          }
+                                        }
+                                      }
+                                    ],
+                                    "name": "NODE_0000063",
+                                    "node_attrs": {
+                                      "div": 0.004043355059220673,
+                                      "num_date": {
+                                        "confidence": [
+                                          1998.3488137350048,
+                                          2003.7728036109902
+                                        ],
+                                        "value": 2001.204416221969
+                                      }
+                                    }
+                                  }
+                                ],
+                                "name": "NODE_0000060",
+                                "node_attrs": {
+                                  "div": 0.00404335505922067,
+                                  "num_date": {
+                                    "confidence": [
+                                      1996.933651298406,
+                                      2004.917899487216
+                                    ],
+                                    "value": 1999.3390026824366
+                                  }
+                                }
+                              }
+                            ],
+                            "name": "NODE_0000057",
+                            "node_attrs": {
+                              "div": 0.0029416702003711827,
+                              "num_date": {
+                                "confidence": [
+                                  1993.0881034685294,
+                                  2002.0976501938264
+                                ],
+                                "value": 1996.02259793143
+                              }
+                            }
+                          },
+                          {
+                            "branch_attrs": {
+                              "mutations": {}
+                            },
+                            "children": [
+                              {
+                                "branch_attrs": {
+                                  "mutations": {
+                                    "nuc": [
+                                      "A459T",
+                                      "T1335C"
+                                    ]
+                                  }
+                                },
+                                "name": "sample/50/6",
+                                "node_attrs": {
+                                  "div": 0.0011023229741350304,
+                                  "num_date": {
+                                    "confidence": [
+                                      1989.3,
+                                      1989.3
+                                    ],
+                                    "value": 1989.3
+                                  }
+                                }
+                              },
+                              {
+                                "branch_attrs": {
+                                  "mutations": {}
+                                },
+                                "children": [
+                                  {
+                                    "branch_attrs": {
+                                      "mutations": {
+                                        "nuc": [
+                                          "A597G",
+                                          "T1963C"
+                                        ]
+                                      }
+                                    },
+                                    "name": "sample/50/7",
+                                    "node_attrs": {
+                                      "div": 0.001102156108810686,
+                                      "num_date": {
+                                        "confidence": [
+                                          1989.3,
+                                          1989.3
+                                        ],
+                                        "value": 1989.3
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "branch_attrs": {
+                                      "mutations": {}
+                                    },
+                                    "children": [
+                                      {
+                                        "branch_attrs": {
+                                          "mutations": {
+                                            "nuc": [
+                                              "A534G",
+                                              "G894A",
+                                              "T1683C",
+                                              "G1917C",
+                                              "T2349C",
+                                              "A2421G",
+                                              "T2764C"
+                                            ]
+                                          }
+                                        },
+                                        "name": "sample/200/9",
+                                        "node_attrs": {
+                                          "div": 0.0029413629822697194,
+                                          "num_date": {
+                                            "confidence": [
+                                              1999.2013698630137,
+                                              1999.2013698630137
+                                            ],
+                                            "value": 1999.2013698630137
+                                          }
+                                        }
+                                      },
+                                      {
+                                        "branch_attrs": {
+                                          "mutations": {}
+                                        },
+                                        "children": [
+                                          {
+                                            "branch_attrs": {
+                                              "mutations": {
+                                                "nuc": [
+                                                  "G34T",
+                                                  "T915C",
+                                                  "T1435G",
+                                                  "T2004C",
+                                                  "T2238C"
+                                                ]
+                                              }
+                                            },
+                                            "name": "sample/150/3",
+                                            "node_attrs": {
+                                              "div": 0.002205917424259799,
+                                              "num_date": {
+                                                "confidence": [
+                                                  1995.9,
+                                                  1995.9
+                                                ],
+                                                "value": 1995.9
+                                              }
+                                            }
+                                          },
+                                          {
+                                            "branch_attrs": {
+                                              "mutations": {}
+                                            },
+                                            "children": [
+                                              {
+                                                "branch_attrs": {
+                                                  "mutations": {
+                                                    "nuc": [
+                                                      "C1004T"
+                                                    ]
+                                                  }
+                                                },
+                                                "name": "sample/50/3",
+                                                "node_attrs": {
+                                                  "div": 0.0007348127303336972,
+                                                  "num_date": {
+                                                    "confidence": [
+                                                      1989.3,
+                                                      1989.3
+                                                    ],
+                                                    "value": 1989.3
+                                                  }
+                                                }
+                                              },
+                                              {
+                                                "branch_attrs": {
+                                                  "mutations": {}
+                                                },
+                                                "children": [
+                                                  {
+                                                    "branch_attrs": {
+                                                      "mutations": {
+                                                        "nuc": [
+                                                          "G2693C"
+                                                        ]
+                                                      }
+                                                    },
+                                                    "name": "sample/50/1",
+                                                    "node_attrs": {
+                                                      "div": 0.0007347958976102527,
+                                                      "num_date": {
+                                                        "confidence": [
+                                                          1989.3,
+                                                          1989.3
+                                                        ],
+                                                        "value": 1989.3
+                                                      }
+                                                    }
+                                                  },
+                                                  {
+                                                    "branch_attrs": {
+                                                      "mutations": {}
+                                                    },
+                                                    "children": [
+                                                      {
+                                                        "branch_attrs": {
+                                                          "mutations": {
+                                                            "nuc": [
+                                                              "A353C"
+                                                            ]
+                                                          }
+                                                        },
+                                                        "name": "sample/50/4",
+                                                        "node_attrs": {
+                                                          "div": 0.0007347908977406647,
+                                                          "num_date": {
+                                                            "confidence": [
+                                                              1989.3,
+                                                              1989.3
+                                                            ],
+                                                            "value": 1989.3
+                                                          }
+                                                        }
+                                                      },
+                                                      {
+                                                        "branch_attrs": {
+                                                          "mutations": {}
+                                                        },
+                                                        "children": [
+                                                          {
+                                                            "branch_attrs": {
+                                                              "mutations": {
+                                                                "nuc": [
+                                                                  "T1137C",
+                                                                  "A1503T",
+                                                                  "T2706A",
+                                                                  "G2742A"
+                                                                ]
+                                                              }
+                                                            },
+                                                            "children": [
+                                                              {
+                                                                "branch_attrs": {
+                                                                  "mutations": {
+                                                                    "nuc": [
+                                                                      "G211C",
+                                                                      "C2164T"
+                                                                    ]
+                                                                  }
+                                                                },
+                                                                "name": "sample/300/3",
+                                                                "node_attrs": {
+                                                                  "div": 0.00257313146138001,
+                                                                  "num_date": {
+                                                                    "confidence": [
+                                                                      2005.7986301369863,
+                                                                      2005.7986301369863
+                                                                    ],
+                                                                    "value": 2005.7986301369863
+                                                                  }
+                                                                }
+                                                              },
+                                                              {
+                                                                "branch_attrs": {
+                                                                  "mutations": {
+                                                                    "nuc": [
+                                                                      "G333A",
+                                                                      "T1638C",
+                                                                      "A1971T",
+                                                                      "T2261C",
+                                                                      "A2505T",
+                                                                      "A2727G"
+                                                                    ]
+                                                                  }
+                                                                },
+                                                                "name": "sample/350/3",
+                                                                "node_attrs": {
+                                                                  "div": 0.004044678845287423,
+                                                                  "num_date": {
+                                                                    "confidence": [
+                                                                      2009.1,
+                                                                      2009.1
+                                                                    ],
+                                                                    "value": 2009.1
+                                                                  }
+                                                                }
+                                                              }
+                                                            ],
+                                                            "name": "NODE_0000012",
+                                                            "node_attrs": {
+                                                              "div": 0.0018383025845187966,
+                                                              "num_date": {
+                                                                "confidence": [
+                                                                  1995.6249986172231,
+                                                                  2005.6055459024824
+                                                                ],
+                                                                "value": 1999.239188260231
+                                                              }
+                                                            }
+                                                          },
+                                                          {
+                                                            "branch_attrs": {
+                                                              "mutations": {}
+                                                            },
+                                                            "children": [
+                                                              {
+                                                                "branch_attrs": {
+                                                                  "mutations": {}
+                                                                },
+                                                                "children": [
+                                                                  {
+                                                                    "branch_attrs": {
+                                                                      "mutations": {}
+                                                                    },
+                                                                    "name": "sample/50/10",
+                                                                    "node_attrs": {
+                                                                      "div": 0.0003674332472813718,
+                                                                      "num_date": {
+                                                                        "confidence": [
+                                                                          1989.3,
+                                                                          1989.3
+                                                                        ],
+                                                                        "value": 1989.3
+                                                                      }
+                                                                    }
+                                                                  },
+                                                                  {
+                                                                    "branch_attrs": {
+                                                                      "mutations": {
+                                                                        "nuc": [
+                                                                          "G1429C"
+                                                                        ]
+                                                                      }
+                                                                    },
+                                                                    "name": "sample/100/9",
+                                                                    "node_attrs": {
+                                                                      "div": 0.000734795897610262,
+                                                                      "num_date": {
+                                                                        "confidence": [
+                                                                          1992.5969945355191,
+                                                                          1992.5969945355191
+                                                                        ],
+                                                                        "value": 1992.5969945355191
+                                                                      }
+                                                                    }
+                                                                  }
+                                                                ],
+                                                                "name": "NODE_0000104",
+                                                                "node_attrs": {
+                                                                  "div": 0.00036743324728136944,
+                                                                  "num_date": {
+                                                                    "confidence": [
+                                                                      1988.9787707447854,
+                                                                      1989.3
+                                                                    ],
+                                                                    "value": 1989.3
+                                                                  }
+                                                                }
+                                                              },
+                                                              {
+                                                                "branch_attrs": {
+                                                                  "mutations": {
+                                                                    "nuc": [
+                                                                      "C1371G"
+                                                                    ]
+                                                                  }
+                                                                },
+                                                                "children": [
+                                                                  {
+                                                                    "branch_attrs": {
+                                                                      "mutations": {
+                                                                        "nuc": [
+                                                                          "T2049C"
+                                                                        ]
+                                                                      }
+                                                                    },
+                                                                    "name": "sample/150/4",
+                                                                    "node_attrs": {
+                                                                      "div": 0.001102274201628333,
+                                                                      "num_date": {
+                                                                        "confidence": [
+                                                                          1995.9,
+                                                                          1995.9
+                                                                        ],
+                                                                        "value": 1995.9
+                                                                      }
+                                                                    }
+                                                                  },
+                                                                  {
+                                                                    "branch_attrs": {
+                                                                      "mutations": {
+                                                                        "nuc": [
+                                                                          "T2739C"
+                                                                        ]
+                                                                      }
+                                                                    },
+                                                                    "children": [
+                                                                      {
+                                                                        "branch_attrs": {
+                                                                          "mutations": {
+                                                                            "nuc": [
+                                                                              "G686A",
+                                                                              "T1683G",
+                                                                              "T2527C"
+                                                                            ]
+                                                                          }
+                                                                        },
+                                                                        "name": "sample/250/2",
+                                                                        "node_attrs": {
+                                                                          "div": 0.0022049428365047306,
+                                                                          "num_date": {
+                                                                            "confidence": [
+                                                                              2002.5,
+                                                                              2002.5
+                                                                            ],
+                                                                            "value": 2002.5
+                                                                          }
+                                                                        }
+                                                                      },
+                                                                      {
+                                                                        "branch_attrs": {
+                                                                          "mutations": {
+                                                                            "nuc": [
+                                                                              "T304G",
+                                                                              "T720C",
+                                                                              "A960G",
+                                                                              "A1035G",
+                                                                              "T1090C",
+                                                                              "T1515C",
+                                                                              "T1656C",
+                                                                              "G2016A"
+                                                                            ]
+                                                                          }
+                                                                        },
+                                                                        "name": "sample/300/8",
+                                                                        "node_attrs": {
+                                                                          "div": 0.00404471103187763,
+                                                                          "num_date": {
+                                                                            "confidence": [
+                                                                              2005.7986301369863,
+                                                                              2005.7986301369863
+                                                                            ],
+                                                                            "value": 2005.7986301369863
+                                                                          }
+                                                                        }
+                                                                      }
+                                                                    ],
+                                                                    "name": "NODE_0000034",
+                                                                    "node_attrs": {
+                                                                      "div": 0.001102274201628333,
+                                                                      "num_date": {
+                                                                        "confidence": [
+                                                                          1992.5376855214997,
+                                                                          1998.1621947566528
+                                                                        ],
+                                                                        "value": 1995.9728752927294
+                                                                      }
+                                                                    }
+                                                                  }
+                                                                ],
+                                                                "name": "NODE_0000033",
+                                                                "node_attrs": {
+                                                                  "div": 0.000734891509621066,
+                                                                  "num_date": {
+                                                                    "confidence": [
+                                                                      1990.4248574055891,
+                                                                      1995.8703478409736
+                                                                    ],
+                                                                    "value": 1992.7558498141605
+                                                                  }
+                                                                }
+                                                              }
+                                                            ],
+                                                            "name": "NODE_0000103",
+                                                            "node_attrs": {
+                                                              "div": 0.0003674332472813671,
+                                                              "num_date": {
+                                                                "confidence": [
+                                                                  1988.7377564122078,
+                                                                  1989.2624834990547
+                                                                ],
+                                                                "value": 1989.149933996219
+                                                              }
+                                                            }
+                                                          }
+                                                        ],
+                                                        "name": "NODE_0000101",
+                                                        "node_attrs": {
+                                                          "div": 0.0003674332472813648,
+                                                          "num_date": {
+                                                            "confidence": [
+                                                              1988.4104784598428,
+                                                              1989.2085165956485
+                                                            ],
+                                                            "value": 1988.8938718282245
+                                                          }
+                                                        }
+                                                      }
+                                                    ],
+                                                    "name": "NODE_0000100",
+                                                    "node_attrs": {
+                                                      "div": 0.00036743324728136245,
+                                                      "num_date": {
+                                                        "confidence": [
+                                                          1988.0486019303578,
+                                                          1989.1545250237805
+                                                        ],
+                                                        "value": 1988.6836039635343
+                                                      }
+                                                    }
+                                                  }
+                                                ],
+                                                "name": "NODE_0000097",
+                                                "node_attrs": {
+                                                  "div": 0.0003674332472813601,
+                                                  "num_date": {
+                                                    "confidence": [
+                                                      1988.0114412556245,
+                                                      1989.0053233411102
+                                                    ],
+                                                    "value": 1988.520697825667
+                                                  }
+                                                }
+                                              }
+                                            ],
+                                            "name": "NODE_0000096",
+                                            "node_attrs": {
+                                              "div": 0.0003674332472813578,
+                                              "num_date": {
+                                                "confidence": [
+                                                  1987.985047868072,
+                                                  1988.788256505219
+                                                ],
+                                                "value": 1988.3265281922343
+                                              }
+                                            }
+                                          }
+                                        ],
+                                        "name": "NODE_0000095",
+                                        "node_attrs": {
+                                          "div": 0.00036743324728135546,
+                                          "num_date": {
+                                            "confidence": [
+                                              1987.8295596401028,
+                                              1988.6659045013002
+                                            ],
+                                            "value": 1988.3142728003136
+                                          }
+                                        }
+                                      }
+                                    ],
+                                    "name": "NODE_0000091",
+                                    "node_attrs": {
+                                      "div": 0.0003674332472813531,
+                                      "num_date": {
+                                        "confidence": [
+                                          1987.698266222531,
+                                          1988.5148645560594
+                                        ],
+                                        "value": 1988.1616786940929
+                                      }
+                                    }
+                                  }
+                                ],
+                                "name": "NODE_0000089",
+                                "node_attrs": {
+                                  "div": 0.0003674332472813508,
+                                  "num_date": {
+                                    "confidence": [
+                                      1986.9051855925509,
+                                      1988.3842153987132
+                                    ],
+                                    "value": 1988.1188294846597
+                                  }
+                                }
+                              }
+                            ],
+                            "name": "NODE_0000085",
+                            "node_attrs": {
+                              "div": 0.00036743324728134846,
+                              "num_date": {
+                                "confidence": [
+                                  1986.9576064176604,
+                                  1988.3948280032307
+                                ],
+                                "value": 1987.792568405048
+                              }
+                            }
+                          }
+                        ],
+                        "name": "NODE_0000062",
+                        "node_attrs": {
+                          "div": 0.00036743324728134613,
+                          "num_date": {
+                            "confidence": [
+                              1986.965666512628,
+                              1988.3907641167548
+                            ],
+                            "value": 1987.6199969197032
+                          }
+                        }
+                      }
+                    ],
+                    "name": "NODE_0000056",
+                    "node_attrs": {
+                      "div": 0.0003674332472813438,
+                      "num_date": {
+                        "confidence": [
+                          1986.9469382260968,
+                          1988.3530532173277
+                        ],
+                        "value": 1987.4782966464786
+                      }
+                    }
+                  }
+                ],
+                "name": "NODE_0000048",
+                "node_attrs": {
+                  "div": 0.00036743324728134147,
+                  "num_date": {
+                    "confidence": [
+                      1986.8983170437018,
+                      1988.2921617763102
+                    ],
+                    "value": 1987.4231917320822
+                  }
+                }
+              }
+            ],
+            "name": "NODE_0000043",
+            "node_attrs": {
+              "div": 0.00036743324728133914,
+              "num_date": {
+                "confidence": [
+                  1986.904255976595,
+                  1988.30687161159
+                ],
+                "value": 1987.1877344361649
+              }
+            }
+          }
+        ],
+        "name": "NODE_0000099",
+        "node_attrs": {
+          "div": 0.0003674332472813368,
+          "num_date": {
+            "confidence": [
+              1986.4488133354666,
+              1987.686668663523
+            ],
+            "value": 1986.958198145821
+          }
+        }
+      }
+    ],
+    "name": "NODE_0000000",
+    "node_attrs": {
+      "div": 0,
+      "num_date": {
+        "confidence": [
+          1986.101868404757,
+          1987.3406494095113
+        ],
+        "value": 1986.3497665594496
+      }
+    }
+  },
+  "version": "v2"
+}

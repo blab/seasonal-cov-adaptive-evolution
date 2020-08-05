@@ -1,0 +1,3208 @@
+{
+  "meta": {
+    "colorings": [
+      {
+        "key": "gt",
+        "title": "Genotype",
+        "type": "categorical"
+      },
+      {
+        "key": "num_date",
+        "title": "Date",
+        "type": "continuous"
+      }
+    ],
+    "display_defaults": {
+      "map_triplicate": true
+    },
+    "filters": [],
+    "genome_annotations": {
+      "nuc": {
+        "end": 2784,
+        "seqid": "config/oc43a_rdrp_reference.gb",
+        "start": 1,
+        "strand": "+",
+        "type": "source"
+      }
+    },
+    "maintainers": [
+      {
+        "name": "Katie"
+      }
+    ],
+    "panels": [
+      "tree",
+      "entropy"
+    ],
+    "title": "Simulated OC43 lineage A",
+    "updated": "2020-08-02"
+  },
+  "tree": {
+    "branch_attrs": {
+      "mutations": {}
+    },
+    "children": [
+      {
+        "branch_attrs": {
+          "mutations": {
+            "nuc": [
+              "T987C",
+              "G1200T",
+              "T2550C",
+              "A2556C",
+              "T2640C",
+              "T2667C",
+              "T2718C"
+            ]
+          }
+        },
+        "name": "sample/400/9",
+        "node_attrs": {
+          "div": 0.002536637611907702,
+          "num_date": {
+            "confidence": [
+              2012.4002732240438,
+              2012.4002732240438
+            ],
+            "value": 2012.4002732240438
+          }
+        }
+      },
+      {
+        "branch_attrs": {
+          "mutations": {}
+        },
+        "children": [
+          {
+            "branch_attrs": {
+              "mutations": {
+                "nuc": [
+                  "T999C"
+                ]
+              }
+            },
+            "children": [
+              {
+                "branch_attrs": {
+                  "mutations": {
+                    "nuc": [
+                      "A2076C",
+                      "T2193C"
+                    ]
+                  }
+                },
+                "name": "sample/350/5",
+                "node_attrs": {
+                  "div": 0.0010861945905149253,
+                  "num_date": {
+                    "confidence": [
+                      2009.1,
+                      2009.1
+                    ],
+                    "value": 2009.1
+                  }
+                }
+              },
+              {
+                "branch_attrs": {
+                  "mutations": {
+                    "nuc": [
+                      "T900A",
+                      "T1284C",
+                      "T1353C",
+                      "T1366C",
+                      "A1720C",
+                      "A2185C"
+                    ]
+                  }
+                },
+                "name": "sample/500/4",
+                "node_attrs": {
+                  "div": 0.0025361161384114114,
+                  "num_date": {
+                    "confidence": [
+                      2019.0013698630137,
+                      2019.0013698630137
+                    ],
+                    "value": 2019.0013698630137
+                  }
+                }
+              }
+            ],
+            "name": "NODE_0000098",
+            "node_attrs": {
+              "div": 0.00036210556944941757,
+              "num_date": {
+                "confidence": [
+                  1018.7959509763956,
+                  1999.6593135234918
+                ],
+                "value": 1988.3804812872356
+              }
+            }
+          },
+          {
+            "branch_attrs": {
+              "mutations": {
+                "nuc": [
+                  "C1047T"
+                ]
+              }
+            },
+            "children": [
+              {
+                "branch_attrs": {
+                  "mutations": {
+                    "nuc": [
+                      "T2088C",
+                      "T2259A"
+                    ]
+                  }
+                },
+                "name": "sample/350/1",
+                "node_attrs": {
+                  "div": 0.0010870549473888116,
+                  "num_date": {
+                    "confidence": [
+                      2009.1,
+                      2009.1
+                    ],
+                    "value": 2009.1
+                  }
+                }
+              },
+              {
+                "branch_attrs": {
+                  "mutations": {}
+                },
+                "children": [
+                  {
+                    "branch_attrs": {
+                      "mutations": {
+                        "nuc": [
+                          "T1179C"
+                        ]
+                      }
+                    },
+                    "name": "sample/300/6",
+                    "node_attrs": {
+                      "div": 0.0007244569225195378,
+                      "num_date": {
+                        "confidence": [
+                          2005.7986301369863,
+                          2005.7986301369863
+                        ],
+                        "value": 2005.7986301369863
+                      }
+                    }
+                  },
+                  {
+                    "branch_attrs": {
+                      "mutations": {
+                        "nuc": [
+                          "G1200T"
+                        ]
+                      }
+                    },
+                    "children": [
+                      {
+                        "branch_attrs": {
+                          "mutations": {
+                            "nuc": [
+                              "T972A",
+                              "T1179C"
+                            ]
+                          }
+                        },
+                        "name": "sample/450/6",
+                        "node_attrs": {
+                          "div": 0.001449322820040534,
+                          "num_date": {
+                            "confidence": [
+                              2015.7,
+                              2015.7
+                            ],
+                            "value": 2015.7
+                          }
+                        }
+                      },
+                      {
+                        "branch_attrs": {
+                          "mutations": {}
+                        },
+                        "children": [
+                          {
+                            "branch_attrs": {
+                              "mutations": {
+                                "nuc": [
+                                  "T1531G",
+                                  "C1650T"
+                                ]
+                              }
+                            },
+                            "name": "sample/200/2",
+                            "node_attrs": {
+                              "div": 0.001449501271333621,
+                              "num_date": {
+                                "confidence": [
+                                  1999.2013698630137,
+                                  1999.2013698630137
+                                ],
+                                "value": 1999.2013698630137
+                              }
+                            }
+                          },
+                          {
+                            "branch_attrs": {
+                              "mutations": {
+                                "nuc": [
+                                  "G579A",
+                                  "A951G",
+                                  "T2508G"
+                                ]
+                              }
+                            },
+                            "name": "sample/500/1",
+                            "node_attrs": {
+                              "div": 0.0018120681045234992,
+                              "num_date": {
+                                "confidence": [
+                                  2019.0013698630137,
+                                  2019.0013698630137
+                                ],
+                                "value": 2019.0013698630137
+                              }
+                            }
+                          },
+                          {
+                            "branch_attrs": {
+                              "mutations": {
+                                "nuc": [
+                                  "T201C",
+                                  "C465T",
+                                  "G1368A",
+                                  "C1872T"
+                                ]
+                              }
+                            },
+                            "name": "sample/500/3",
+                            "node_attrs": {
+                              "div": 0.0021748442000356534,
+                              "num_date": {
+                                "confidence": [
+                                  2019.0013698630137,
+                                  2019.0013698630137
+                                ],
+                                "value": 2019.0013698630137
+                              }
+                            }
+                          },
+                          {
+                            "branch_attrs": {
+                              "mutations": {
+                                "nuc": [
+                                  "A501G",
+                                  "A821G",
+                                  "T2007C",
+                                  "T2739A"
+                                ]
+                              }
+                            },
+                            "name": "sample/350/4",
+                            "node_attrs": {
+                              "div": 0.0021748406368131074,
+                              "num_date": {
+                                "confidence": [
+                                  2009.1,
+                                  2009.1
+                                ],
+                                "value": 2009.1
+                              }
+                            }
+                          },
+                          {
+                            "branch_attrs": {
+                              "mutations": {
+                                "nuc": [
+                                  "T208A",
+                                  "T2515A"
+                                ]
+                              }
+                            },
+                            "name": "sample/200/1",
+                            "node_attrs": {
+                              "div": 0.0014496485729549227,
+                              "num_date": {
+                                "confidence": [
+                                  1999.2013698630137,
+                                  1999.2013698630137
+                                ],
+                                "value": 1999.2013698630137
+                              }
+                            }
+                          },
+                          {
+                            "branch_attrs": {
+                              "mutations": {
+                                "nuc": [
+                                  "T196C",
+                                  "A433C",
+                                  "T1605G",
+                                  "C2025T"
+                                ]
+                              }
+                            },
+                            "name": "sample/200/10",
+                            "node_attrs": {
+                              "div": 0.0021747842178444334,
+                              "num_date": {
+                                "confidence": [
+                                  1999.2013698630137,
+                                  1999.2013698630137
+                                ],
+                                "value": 1999.2013698630137
+                              }
+                            }
+                          },
+                          {
+                            "branch_attrs": {
+                              "mutations": {
+                                "nuc": [
+                                  "C1197T",
+                                  "C2745A"
+                                ]
+                              }
+                            },
+                            "name": "sample/150/10",
+                            "node_attrs": {
+                              "div": 0.0014496072748445164,
+                              "num_date": {
+                                "confidence": [
+                                  1995.9,
+                                  1995.9
+                                ],
+                                "value": 1995.9
+                              }
+                            }
+                          },
+                          {
+                            "branch_attrs": {
+                              "mutations": {
+                                "nuc": [
+                                  "C348A",
+                                  "T2778C"
+                                ]
+                              }
+                            },
+                            "name": "sample/250/10",
+                            "node_attrs": {
+                              "div": 0.0014493607583731566,
+                              "num_date": {
+                                "confidence": [
+                                  2002.5,
+                                  2002.5
+                                ],
+                                "value": 2002.5
+                              }
+                            }
+                          },
+                          {
+                            "branch_attrs": {
+                              "mutations": {
+                                "nuc": [
+                                  "T1077C",
+                                  "T2466C"
+                                ]
+                              }
+                            },
+                            "name": "sample/350/8",
+                            "node_attrs": {
+                              "div": 0.0014489974255477382,
+                              "num_date": {
+                                "confidence": [
+                                  2009.1,
+                                  2009.1
+                                ],
+                                "value": 2009.1
+                              }
+                            }
+                          },
+                          {
+                            "branch_attrs": {
+                              "mutations": {
+                                "nuc": [
+                                  "G1380A",
+                                  "A2175C",
+                                  "T2358C"
+                                ]
+                              }
+                            },
+                            "name": "sample/450/9",
+                            "node_attrs": {
+                              "div": 0.001811586134699059,
+                              "num_date": {
+                                "confidence": [
+                                  2015.7,
+                                  2015.7
+                                ],
+                                "value": 2015.7
+                              }
+                            }
+                          },
+                          {
+                            "branch_attrs": {
+                              "mutations": {
+                                "nuc": [
+                                  "T402C",
+                                  "T1731C",
+                                  "A2704C"
+                                ]
+                              }
+                            },
+                            "name": "sample/300/2",
+                            "node_attrs": {
+                              "div": 0.0018114042774957085,
+                              "num_date": {
+                                "confidence": [
+                                  2005.7986301369863,
+                                  2005.7986301369863
+                                ],
+                                "value": 2005.7986301369863
+                              }
+                            }
+                          },
+                          {
+                            "branch_attrs": {
+                              "mutations": {
+                                "nuc": [
+                                  "T369A",
+                                  "G753A",
+                                  "C1653T",
+                                  "T2145C"
+                                ]
+                              }
+                            },
+                            "name": "sample/400/8",
+                            "node_attrs": {
+                              "div": 0.002175002554973107,
+                              "num_date": {
+                                "confidence": [
+                                  2012.4002732240438,
+                                  2012.4002732240438
+                                ],
+                                "value": 2012.4002732240438
+                              }
+                            }
+                          },
+                          {
+                            "branch_attrs": {
+                              "mutations": {
+                                "nuc": [
+                                  "A1095G",
+                                  "T1434A",
+                                  "A2394G",
+                                  "T2628G"
+                                ]
+                              }
+                            },
+                            "name": "sample/500/6",
+                            "node_attrs": {
+                              "div": 0.002175356680170825,
+                              "num_date": {
+                                "confidence": [
+                                  2019.0013698630137,
+                                  2019.0013698630137
+                                ],
+                                "value": 2019.0013698630137
+                              }
+                            }
+                          },
+                          {
+                            "branch_attrs": {
+                              "mutations": {
+                                "nuc": [
+                                  "C582G",
+                                  "T1665C"
+                                ]
+                              }
+                            },
+                            "children": [
+                              {
+                                "branch_attrs": {
+                                  "mutations": {}
+                                },
+                                "name": "sample/450/1",
+                                "node_attrs": {
+                                  "div": 0.001449807178535067,
+                                  "num_date": {
+                                    "confidence": [
+                                      2015.7,
+                                      2015.7
+                                    ],
+                                    "value": 2015.7
+                                  }
+                                }
+                              },
+                              {
+                                "branch_attrs": {
+                                  "mutations": {
+                                    "nuc": [
+                                      "T387C"
+                                    ]
+                                  }
+                                },
+                                "name": "sample/500/8",
+                                "node_attrs": {
+                                  "div": 0.0018120357242501512,
+                                  "num_date": {
+                                    "confidence": [
+                                      2019.0013698630137,
+                                      2019.0013698630137
+                                    ],
+                                    "value": 2019.0013698630137
+                                  }
+                                }
+                              }
+                            ],
+                            "name": "NODE_0000091",
+                            "node_attrs": {
+                              "div": 0.001449807178535062,
+                              "num_date": {
+                                "confidence": [
+                                  1995.3509017366912,
+                                  2014.1693296697993
+                                ],
+                                "value": 2008.5819222552004
+                              }
+                            }
+                          },
+                          {
+                            "branch_attrs": {
+                              "mutations": {
+                                "nuc": [
+                                  "A3T"
+                                ]
+                              }
+                            },
+                            "children": [
+                              {
+                                "branch_attrs": {
+                                  "mutations": {
+                                    "nuc": [
+                                      "T777C",
+                                      "T891C",
+                                      "T2679C"
+                                    ]
+                                  }
+                                },
+                                "name": "sample/450/7",
+                                "node_attrs": {
+                                  "div": 0.0021735709452002333,
+                                  "num_date": {
+                                    "confidence": [
+                                      2015.7,
+                                      2015.7
+                                    ],
+                                    "value": 2015.7
+                                  }
+                                }
+                              },
+                              {
+                                "branch_attrs": {
+                                  "mutations": {
+                                    "nuc": [
+                                      "A1602G"
+                                    ]
+                                  }
+                                },
+                                "name": "sample/500/10",
+                                "node_attrs": {
+                                  "div": 0.001449149837878034,
+                                  "num_date": {
+                                    "confidence": [
+                                      2019.0013698630137,
+                                      2019.0013698630137
+                                    ],
+                                    "value": 2019.0013698630137
+                                  }
+                                }
+                              }
+                            ],
+                            "name": "NODE_0000033",
+                            "node_attrs": {
+                              "div": 0.0010868981757361329,
+                              "num_date": {
+                                "confidence": [
+                                  1989.7491150402393,
+                                  2009.0922590406133
+                                ],
+                                "value": 1994.970980473574
+                              }
+                            }
+                          },
+                          {
+                            "branch_attrs": {
+                              "mutations": {
+                                "nuc": [
+                                  "T1386A",
+                                  "T2659C"
+                                ]
+                              }
+                            },
+                            "children": [
+                              {
+                                "branch_attrs": {
+                                  "mutations": {}
+                                },
+                                "name": "sample/150/4",
+                                "node_attrs": {
+                                  "div": 0.0014493228200405438,
+                                  "num_date": {
+                                    "confidence": [
+                                      1995.9,
+                                      1995.9
+                                    ],
+                                    "value": 1995.9
+                                  }
+                                }
+                              },
+                              {
+                                "branch_attrs": {
+                                  "mutations": {
+                                    "nuc": [
+                                      "C438A",
+                                      "T1393C"
+                                    ]
+                                  }
+                                },
+                                "name": "sample/500/7",
+                                "node_attrs": {
+                                  "div": 0.0021739191464736443,
+                                  "num_date": {
+                                    "confidence": [
+                                      2019.0013698630137,
+                                      2019.0013698630137
+                                    ],
+                                    "value": 2019.0013698630137
+                                  }
+                                }
+                              }
+                            ],
+                            "name": "NODE_0000035",
+                            "node_attrs": {
+                              "div": 0.0014493228200405388,
+                              "num_date": {
+                                "confidence": [
+                                  1991.4376808255965,
+                                  1995.9
+                                ],
+                                "value": 1995.9
+                              }
+                            }
+                          },
+                          {
+                            "branch_attrs": {
+                              "mutations": {
+                                "nuc": [
+                                  "T936C",
+                                  "T1821C"
+                                ]
+                              }
+                            },
+                            "children": [
+                              {
+                                "branch_attrs": {
+                                  "mutations": {
+                                    "nuc": [
+                                      "A929T"
+                                    ]
+                                  }
+                                },
+                                "name": "sample/200/3",
+                                "node_attrs": {
+                                  "div": 0.0018110941174171323,
+                                  "num_date": {
+                                    "confidence": [
+                                      1999.2013698630137,
+                                      1999.2013698630137
+                                    ],
+                                    "value": 1999.2013698630137
+                                  }
+                                }
+                              },
+                              {
+                                "branch_attrs": {
+                                  "mutations": {}
+                                },
+                                "name": "sample/200/6",
+                                "node_attrs": {
+                                  "div": 0.0014489974255477431,
+                                  "num_date": {
+                                    "confidence": [
+                                      1999.2013698630137,
+                                      1999.2013698630137
+                                    ],
+                                    "value": 1999.2013698630137
+                                  }
+                                }
+                              }
+                            ],
+                            "name": "NODE_0000040",
+                            "node_attrs": {
+                              "div": 0.0014489974255477382,
+                              "num_date": {
+                                "confidence": [
+                                  1991.1106418082495,
+                                  1998.8760790843771
+                                ],
+                                "value": 1996.69243822207
+                              }
+                            }
+                          },
+                          {
+                            "branch_attrs": {
+                              "mutations": {
+                                "nuc": [
+                                  "T15C",
+                                  "T1551C",
+                                  "A2285C"
+                                ]
+                              }
+                            },
+                            "children": [
+                              {
+                                "branch_attrs": {
+                                  "mutations": {}
+                                },
+                                "name": "sample/450/5",
+                                "node_attrs": {
+                                  "div": 0.0018114042774957134,
+                                  "num_date": {
+                                    "confidence": [
+                                      2015.7,
+                                      2015.7
+                                    ],
+                                    "value": 2015.7
+                                  }
+                                }
+                              },
+                              {
+                                "branch_attrs": {
+                                  "mutations": {
+                                    "nuc": [
+                                      "C1509T"
+                                    ]
+                                  }
+                                },
+                                "name": "sample/500/2",
+                                "node_attrs": {
+                                  "div": 0.002173338371276716,
+                                  "num_date": {
+                                    "confidence": [
+                                      2019.0013698630137,
+                                      2019.0013698630137
+                                    ],
+                                    "value": 2019.0013698630137
+                                  }
+                                }
+                              }
+                            ],
+                            "name": "NODE_0000044",
+                            "node_attrs": {
+                              "div": 0.0018114042774957085,
+                              "num_date": {
+                                "confidence": [
+                                  1999.5395812018644,
+                                  2015.7
+                                ],
+                                "value": 2008.5819222552004
+                              }
+                            }
+                          },
+                          {
+                            "branch_attrs": {
+                              "mutations": {
+                                "nuc": [
+                                  "T2349C"
+                                ]
+                              }
+                            },
+                            "children": [
+                              {
+                                "branch_attrs": {
+                                  "mutations": {
+                                    "nuc": [
+                                      "A107C",
+                                      "T687C",
+                                      "T2481C"
+                                    ]
+                                  }
+                                },
+                                "name": "sample/300/3",
+                                "node_attrs": {
+                                  "div": 0.002173233747561538,
+                                  "num_date": {
+                                    "confidence": [
+                                      2005.7986301369863,
+                                      2005.7986301369863
+                                    ],
+                                    "value": 2005.7986301369863
+                                  }
+                                }
+                              },
+                              {
+                                "branch_attrs": {
+                                  "mutations": {}
+                                },
+                                "children": [
+                                  {
+                                    "branch_attrs": {
+                                      "mutations": {
+                                        "nuc": [
+                                          "T1338A"
+                                        ]
+                                      }
+                                    },
+                                    "name": "sample/350/2",
+                                    "node_attrs": {
+                                      "div": 0.0014489927001541756,
+                                      "num_date": {
+                                        "confidence": [
+                                          2009.1,
+                                          2009.1
+                                        ],
+                                        "value": 2009.1
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "branch_attrs": {
+                                      "mutations": {}
+                                    },
+                                    "name": "sample/400/4",
+                                    "node_attrs": {
+                                      "div": 0.0010867544042469572,
+                                      "num_date": {
+                                        "confidence": [
+                                          2012.4002732240438,
+                                          2012.4002732240438
+                                        ],
+                                        "value": 2012.4002732240438
+                                      }
+                                    }
+                                  }
+                                ],
+                                "name": "NODE_0000013",
+                                "node_attrs": {
+                                  "div": 0.0010867544042469522,
+                                  "num_date": {
+                                    "confidence": [
+                                      1990.4944792340832,
+                                      2007.3401147184522
+                                    ],
+                                    "value": 2000.7178963549902
+                                  }
+                                }
+                              }
+                            ],
+                            "name": "NODE_0000022",
+                            "node_attrs": {
+                              "div": 0.0010867544042469472,
+                              "num_date": {
+                                "confidence": [
+                                  1988.305673705103,
+                                  1998.4206388713367
+                                ],
+                                "value": 1994.7208787192785
+                              }
+                            }
+                          },
+                          {
+                            "branch_attrs": {
+                              "mutations": {
+                                "nuc": [
+                                  "T2046G"
+                                ]
+                              }
+                            },
+                            "children": [
+                              {
+                                "branch_attrs": {
+                                  "mutations": {}
+                                },
+                                "name": "sample/250/7",
+                                "node_attrs": {
+                                  "div": 0.0010868831969867367,
+                                  "num_date": {
+                                    "confidence": [
+                                      2002.5,
+                                      2002.5
+                                    ],
+                                    "value": 2002.5
+                                  }
+                                }
+                              },
+                              {
+                                "branch_attrs": {
+                                  "mutations": {
+                                    "nuc": [
+                                      "T2544C"
+                                    ]
+                                  }
+                                },
+                                "children": [
+                                  {
+                                    "branch_attrs": {
+                                      "mutations": {}
+                                    },
+                                    "name": "sample/250/3",
+                                    "node_attrs": {
+                                      "div": 0.001449111742701826,
+                                      "num_date": {
+                                        "confidence": [
+                                          2002.5,
+                                          2002.5
+                                        ],
+                                        "value": 2002.5
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "branch_attrs": {
+                                      "mutations": {
+                                        "nuc": [
+                                          "T474A",
+                                          "T633C",
+                                          "T2706C"
+                                        ]
+                                      }
+                                    },
+                                    "name": "sample/350/10",
+                                    "node_attrs": {
+                                      "div": 0.002536048593425537,
+                                      "num_date": {
+                                        "confidence": [
+                                          2009.1,
+                                          2009.1
+                                        ],
+                                        "value": 2009.1
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "branch_attrs": {
+                                      "mutations": {
+                                        "nuc": [
+                                          "T523A",
+                                          "T1242G",
+                                          "G1636A",
+                                          "T1821C"
+                                        ]
+                                      }
+                                    },
+                                    "name": "sample/350/6",
+                                    "node_attrs": {
+                                      "div": 0.002899206982025065,
+                                      "num_date": {
+                                        "confidence": [
+                                          2009.1,
+                                          2009.1
+                                        ],
+                                        "value": 2009.1
+                                      }
+                                    }
+                                  }
+                                ],
+                                "name": "NODE_0000078",
+                                "node_attrs": {
+                                  "div": 0.001449111742701821,
+                                  "num_date": {
+                                    "confidence": [
+                                      1991.708408372774,
+                                      2002.137646142166
+                                    ],
+                                    "value": 1996.8055378041604
+                                  }
+                                }
+                              }
+                            ],
+                            "name": "NODE_0000077",
+                            "node_attrs": {
+                              "div": 0.0010868831969867317,
+                              "num_date": {
+                                "confidence": [
+                                  1988.0526240840852,
+                                  1998.9227838544043
+                                ],
+                                "value": 1991.4332407607376
+                              }
+                            }
+                          },
+                          {
+                            "branch_attrs": {
+                              "mutations": {
+                                "nuc": [
+                                  "G1002A"
+                                ]
+                              }
+                            },
+                            "children": [
+                              {
+                                "branch_attrs": {
+                                  "mutations": {}
+                                },
+                                "name": "sample/450/3",
+                                "node_attrs": {
+                                  "div": 0.001086815024453422,
+                                  "num_date": {
+                                    "confidence": [
+                                      2015.7,
+                                      2015.7
+                                    ],
+                                    "value": 2015.7
+                                  }
+                                }
+                              },
+                              {
+                                "branch_attrs": {
+                                  "mutations": {
+                                    "nuc": [
+                                      "A336T",
+                                      "T792C"
+                                    ]
+                                  }
+                                },
+                                "name": "sample/250/1",
+                                "node_attrs": {
+                                  "div": 0.0018115223595222656,
+                                  "num_date": {
+                                    "confidence": [
+                                      2002.5,
+                                      2002.5
+                                    ],
+                                    "value": 2002.5
+                                  }
+                                }
+                              },
+                              {
+                                "branch_attrs": {
+                                  "mutations": {
+                                    "nuc": [
+                                      "A345G",
+                                      "A1315T"
+                                    ]
+                                  }
+                                },
+                                "children": [
+                                  {
+                                    "branch_attrs": {
+                                      "mutations": {
+                                        "nuc": [
+                                          "T2283C"
+                                        ]
+                                      }
+                                    },
+                                    "name": "sample/400/5",
+                                    "node_attrs": {
+                                      "div": 0.0021738456426102664,
+                                      "num_date": {
+                                        "confidence": [
+                                          2012.4002732240438,
+                                          2012.4002732240438
+                                        ],
+                                        "value": 2012.4002732240438
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "branch_attrs": {
+                                      "mutations": {}
+                                    },
+                                    "name": "sample/400/6",
+                                    "node_attrs": {
+                                      "div": 0.0018116656860824379,
+                                      "num_date": {
+                                        "confidence": [
+                                          2012.4002732240438,
+                                          2012.4002732240438
+                                        ],
+                                        "value": 2012.4002732240438
+                                      }
+                                    }
+                                  }
+                                ],
+                                "name": "NODE_0000074",
+                                "node_attrs": {
+                                  "div": 0.001811665686082433,
+                                  "num_date": {
+                                    "confidence": [
+                                      1998.710926698596,
+                                      2011.6392358370445
+                                    ],
+                                    "value": 2008.129426577164
+                                  }
+                                }
+                              }
+                            ],
+                            "name": "NODE_0000072",
+                            "node_attrs": {
+                              "div": 0.001086815024453417,
+                              "num_date": {
+                                "confidence": [
+                                  1988.8254455421345,
+                                  1998.3404211350055
+                                ],
+                                "value": 1994.3428337820892
+                              }
+                            }
+                          },
+                          {
+                            "branch_attrs": {
+                              "mutations": {
+                                "nuc": [
+                                  "T519C",
+                                  "T687C"
+                                ]
+                              }
+                            },
+                            "children": [
+                              {
+                                "branch_attrs": {
+                                  "mutations": {
+                                    "nuc": [
+                                      "T177C"
+                                    ]
+                                  }
+                                },
+                                "children": [
+                                  {
+                                    "branch_attrs": {
+                                      "mutations": {}
+                                    },
+                                    "name": "sample/400/1",
+                                    "node_attrs": {
+                                      "div": 0.001810950415527255,
+                                      "num_date": {
+                                        "confidence": [
+                                          2012.4002732240438,
+                                          2012.4002732240438
+                                        ],
+                                        "value": 2012.4002732240438
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "branch_attrs": {
+                                      "mutations": {}
+                                    },
+                                    "name": "sample/400/10",
+                                    "node_attrs": {
+                                      "div": 0.001810950415527255,
+                                      "num_date": {
+                                        "confidence": [
+                                          2012.4002732240438,
+                                          2012.4002732240438
+                                        ],
+                                        "value": 2012.4002732240438
+                                      }
+                                    }
+                                  }
+                                ],
+                                "name": "NODE_0000026",
+                                "node_attrs": {
+                                  "div": 0.00181095041552725,
+                                  "num_date": {
+                                    "confidence": [
+                                      2000.901990969507,
+                                      2012.4002732240438
+                                    ],
+                                    "value": 2008.129426577164
+                                  }
+                                }
+                              },
+                              {
+                                "branch_attrs": {
+                                  "mutations": {}
+                                },
+                                "children": [
+                                  {
+                                    "branch_attrs": {
+                                      "mutations": {}
+                                    },
+                                    "name": "sample/450/10",
+                                    "node_attrs": {
+                                      "div": 0.0014489974255477481,
+                                      "num_date": {
+                                        "confidence": [
+                                          2015.7,
+                                          2015.7
+                                        ],
+                                        "value": 2015.7
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "branch_attrs": {
+                                      "mutations": {}
+                                    },
+                                    "name": "sample/250/5",
+                                    "node_attrs": {
+                                      "div": 0.0014489974255477481,
+                                      "num_date": {
+                                        "confidence": [
+                                          2002.5,
+                                          2002.5
+                                        ],
+                                        "value": 2002.5
+                                      }
+                                    }
+                                  }
+                                ],
+                                "name": "NODE_0000020",
+                                "node_attrs": {
+                                  "div": 0.0014489974255477431,
+                                  "num_date": {
+                                    "confidence": [
+                                      1996.6731652330402,
+                                      2002.5
+                                    ],
+                                    "value": 2002.5
+                                  }
+                                }
+                              }
+                            ],
+                            "name": "NODE_0000024",
+                            "node_attrs": {
+                              "div": 0.0014489974255477382,
+                              "num_date": {
+                                "confidence": [
+                                  1991.371679803837,
+                                  2002.1068493077203
+                                ],
+                                "value": 1996.943926327058
+                              }
+                            }
+                          },
+                          {
+                            "branch_attrs": {
+                              "mutations": {
+                                "nuc": [
+                                  "T2676A"
+                                ]
+                              }
+                            },
+                            "children": [
+                              {
+                                "branch_attrs": {
+                                  "mutations": {
+                                    "nuc": [
+                                      "G1964T",
+                                      "C2172T",
+                                      "A2556T"
+                                    ]
+                                  }
+                                },
+                                "name": "sample/150/1",
+                                "node_attrs": {
+                                  "div": 0.002174801076550768,
+                                  "num_date": {
+                                    "confidence": [
+                                      1995.9,
+                                      1995.9
+                                    ],
+                                    "value": 1995.9
+                                  }
+                                }
+                              },
+                              {
+                                "branch_attrs": {
+                                  "mutations": {
+                                    "nuc": [
+                                      "T1224G"
+                                    ]
+                                  }
+                                },
+                                "name": "sample/150/8",
+                                "node_attrs": {
+                                  "div": 0.001449263280426959,
+                                  "num_date": {
+                                    "confidence": [
+                                      1995.9,
+                                      1995.9
+                                    ],
+                                    "value": 1995.9
+                                  }
+                                }
+                              },
+                              {
+                                "branch_attrs": {
+                                  "mutations": {
+                                    "nuc": [
+                                      "T411C",
+                                      "C600G",
+                                      "A721G"
+                                    ]
+                                  }
+                                },
+                                "name": "sample/350/7",
+                                "node_attrs": {
+                                  "div": 0.002175131964718805,
+                                  "num_date": {
+                                    "confidence": [
+                                      2009.1,
+                                      2009.1
+                                    ],
+                                    "value": 2009.1
+                                  }
+                                }
+                              },
+                              {
+                                "branch_attrs": {
+                                  "mutations": {}
+                                },
+                                "children": [
+                                  {
+                                    "branch_attrs": {
+                                      "mutations": {}
+                                    },
+                                    "name": "sample/400/3",
+                                    "node_attrs": {
+                                      "div": 0.0010869170604834834,
+                                      "num_date": {
+                                        "confidence": [
+                                          2012.4002732240438,
+                                          2012.4002732240438
+                                        ],
+                                        "value": 2012.4002732240438
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "branch_attrs": {
+                                      "mutations": {
+                                        "nuc": [
+                                          "G1956A"
+                                        ]
+                                      }
+                                    },
+                                    "name": "sample/300/7",
+                                    "node_attrs": {
+                                      "div": 0.001449195061595114,
+                                      "num_date": {
+                                        "confidence": [
+                                          2005.7986301369863,
+                                          2005.7986301369863
+                                        ],
+                                        "value": 2005.7986301369863
+                                      }
+                                    }
+                                  }
+                                ],
+                                "name": "NODE_0000021",
+                                "node_attrs": {
+                                  "div": 0.0010869170604834784,
+                                  "num_date": {
+                                    "confidence": [
+                                      1990.6754375723954,
+                                      2005.7986301369863
+                                    ],
+                                    "value": 1993.8190141210566
+                                  }
+                                }
+                              }
+                            ],
+                            "name": "NODE_0000080",
+                            "node_attrs": {
+                              "div": 0.0010869170604834734,
+                              "num_date": {
+                                "confidence": [
+                                  1986.1673878209674,
+                                  1993.7143388314262
+                                ],
+                                "value": 1990.8111634252707
+                              }
+                            }
+                          },
+                          {
+                            "branch_attrs": {
+                              "mutations": {
+                                "nuc": [
+                                  "G1301A"
+                                ]
+                              }
+                            },
+                            "children": [
+                              {
+                                "branch_attrs": {
+                                  "mutations": {
+                                    "nuc": [
+                                      "T206C",
+                                      "A597C"
+                                    ]
+                                  }
+                                },
+                                "name": "sample/50/1",
+                                "node_attrs": {
+                                  "div": 0.001811314279419103,
+                                  "num_date": {
+                                    "confidence": [
+                                      1989.3,
+                                      1989.3
+                                    ],
+                                    "value": 1989.3
+                                  }
+                                }
+                              },
+                              {
+                                "branch_attrs": {
+                                  "mutations": {
+                                    "nuc": [
+                                      "G33A"
+                                    ]
+                                  }
+                                },
+                                "name": "sample/100/9",
+                                "node_attrs": {
+                                  "div": 0.0014490634952717804,
+                                  "num_date": {
+                                    "confidence": [
+                                      1992.5969945355191,
+                                      1992.5969945355191
+                                    ],
+                                    "value": 1992.5969945355191
+                                  }
+                                }
+                              },
+                              {
+                                "branch_attrs": {
+                                  "mutations": {
+                                    "nuc": [
+                                      "T567A",
+                                      "T947G",
+                                      "A1932G",
+                                      "T2544C"
+                                    ]
+                                  }
+                                },
+                                "name": "sample/100/5",
+                                "node_attrs": {
+                                  "div": 0.002537284622338418,
+                                  "num_date": {
+                                    "confidence": [
+                                      1992.5969945355191,
+                                      1992.5969945355191
+                                    ],
+                                    "value": 1992.5969945355191
+                                  }
+                                }
+                              },
+                              {
+                                "branch_attrs": {
+                                  "mutations": {
+                                    "nuc": [
+                                      "G333A"
+                                    ]
+                                  }
+                                },
+                                "name": "sample/100/8",
+                                "node_attrs": {
+                                  "div": 0.0014490634952717804,
+                                  "num_date": {
+                                    "confidence": [
+                                      1992.5969945355191,
+                                      1992.5969945355191
+                                    ],
+                                    "value": 1992.5969945355191
+                                  }
+                                }
+                              },
+                              {
+                                "branch_attrs": {
+                                  "mutations": {
+                                    "nuc": [
+                                      "C1524T",
+                                      "A2323G"
+                                    ]
+                                  }
+                                },
+                                "name": "sample/100/2",
+                                "node_attrs": {
+                                  "div": 0.0018116237802005145,
+                                  "num_date": {
+                                    "confidence": [
+                                      1992.5969945355191,
+                                      1992.5969945355191
+                                    ],
+                                    "value": 1992.5969945355191
+                                  }
+                                }
+                              },
+                              {
+                                "branch_attrs": {
+                                  "mutations": {
+                                    "nuc": [
+                                      "T1764C"
+                                    ]
+                                  }
+                                },
+                                "name": "sample/50/5",
+                                "node_attrs": {
+                                  "div": 0.0014490026702490496,
+                                  "num_date": {
+                                    "confidence": [
+                                      1989.3,
+                                      1989.3
+                                    ],
+                                    "value": 1989.3
+                                  }
+                                }
+                              },
+                              {
+                                "branch_attrs": {
+                                  "mutations": {
+                                    "nuc": [
+                                      "A1725C"
+                                    ]
+                                  }
+                                },
+                                "name": "sample/50/7",
+                                "node_attrs": {
+                                  "div": 0.0014490424906311965,
+                                  "num_date": {
+                                    "confidence": [
+                                      1989.3,
+                                      1989.3
+                                    ],
+                                    "value": 1989.3
+                                  }
+                                }
+                              },
+                              {
+                                "branch_attrs": {
+                                  "mutations": {}
+                                },
+                                "children": [
+                                  {
+                                    "branch_attrs": {
+                                      "mutations": {}
+                                    },
+                                    "children": [
+                                      {
+                                        "branch_attrs": {
+                                          "mutations": {}
+                                        },
+                                        "children": [
+                                          {
+                                            "branch_attrs": {
+                                              "mutations": {}
+                                            },
+                                            "name": "sample/50/10",
+                                            "node_attrs": {
+                                              "div": 0.001086815024453437,
+                                              "num_date": {
+                                                "confidence": [
+                                                  1989.3,
+                                                  1989.3
+                                                ],
+                                                "value": 1989.3
+                                              }
+                                            }
+                                          },
+                                          {
+                                            "branch_attrs": {
+                                              "mutations": {}
+                                            },
+                                            "name": "sample/50/9",
+                                            "node_attrs": {
+                                              "div": 0.001086815024453437,
+                                              "num_date": {
+                                                "confidence": [
+                                                  1989.3,
+                                                  1989.3
+                                                ],
+                                                "value": 1989.3
+                                              }
+                                            }
+                                          }
+                                        ],
+                                        "name": "NODE_0000027",
+                                        "node_attrs": {
+                                          "div": 0.001086815024453432,
+                                          "num_date": {
+                                            "confidence": [
+                                              1987.4687086504237,
+                                              1989.3
+                                            ],
+                                            "value": 1989.3
+                                          }
+                                        }
+                                      },
+                                      {
+                                        "branch_attrs": {
+                                          "mutations": {}
+                                        },
+                                        "children": [
+                                          {
+                                            "branch_attrs": {
+                                              "mutations": {}
+                                            },
+                                            "children": [
+                                              {
+                                                "branch_attrs": {
+                                                  "mutations": {}
+                                                },
+                                                "name": "sample/50/4",
+                                                "node_attrs": {
+                                                  "div": 0.001086815024453442,
+                                                  "num_date": {
+                                                    "confidence": [
+                                                      1989.3,
+                                                      1989.3
+                                                    ],
+                                                    "value": 1989.3
+                                                  }
+                                                }
+                                              },
+                                              {
+                                                "branch_attrs": {
+                                                  "mutations": {}
+                                                },
+                                                "name": "sample/50/3",
+                                                "node_attrs": {
+                                                  "div": 0.001086815024453442,
+                                                  "num_date": {
+                                                    "confidence": [
+                                                      1989.3,
+                                                      1989.3
+                                                    ],
+                                                    "value": 1989.3
+                                                  }
+                                                }
+                                              }
+                                            ],
+                                            "name": "NODE_0000029",
+                                            "node_attrs": {
+                                              "div": 0.001086815024453437,
+                                              "num_date": {
+                                                "confidence": [
+                                                  1987.8223680759527,
+                                                  1989.3
+                                                ],
+                                                "value": 1989.3
+                                              }
+                                            }
+                                          },
+                                          {
+                                            "branch_attrs": {
+                                              "mutations": {}
+                                            },
+                                            "children": [
+                                              {
+                                                "branch_attrs": {
+                                                  "mutations": {}
+                                                },
+                                                "name": "sample/50/6",
+                                                "node_attrs": {
+                                                  "div": 0.001086815024453442,
+                                                  "num_date": {
+                                                    "confidence": [
+                                                      1989.3,
+                                                      1989.3
+                                                    ],
+                                                    "value": 1989.3
+                                                  }
+                                                }
+                                              },
+                                              {
+                                                "branch_attrs": {
+                                                  "mutations": {}
+                                                },
+                                                "name": "sample/50/8",
+                                                "node_attrs": {
+                                                  "div": 0.001086815024453442,
+                                                  "num_date": {
+                                                    "confidence": [
+                                                      1989.3,
+                                                      1989.3
+                                                    ],
+                                                    "value": 1989.3
+                                                  }
+                                                }
+                                              }
+                                            ],
+                                            "name": "NODE_0000030",
+                                            "node_attrs": {
+                                              "div": 0.001086815024453437,
+                                              "num_date": {
+                                                "confidence": [
+                                                  1987.8223680759527,
+                                                  1989.3
+                                                ],
+                                                "value": 1989.3
+                                              }
+                                            }
+                                          }
+                                        ],
+                                        "name": "NODE_0000028",
+                                        "node_attrs": {
+                                          "div": 0.001086815024453432,
+                                          "num_date": {
+                                            "confidence": [
+                                              1987.2371179732156,
+                                              1988.9068361077202
+                                            ],
+                                            "value": 1988.187769148539
+                                          }
+                                        }
+                                      }
+                                    ],
+                                    "name": "NODE_0000025",
+                                    "node_attrs": {
+                                      "div": 0.001086815024453427,
+                                      "num_date": {
+                                        "confidence": [
+                                          1987.1734546849877,
+                                          1988.3412768290466
+                                        ],
+                                        "value": 1988.1004919686056
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "branch_attrs": {
+                                      "mutations": {}
+                                    },
+                                    "children": [
+                                      {
+                                        "branch_attrs": {
+                                          "mutations": {}
+                                        },
+                                        "children": [
+                                          {
+                                            "branch_attrs": {
+                                              "mutations": {}
+                                            },
+                                            "name": "sample/50/2",
+                                            "node_attrs": {
+                                              "div": 0.001086815024453437,
+                                              "num_date": {
+                                                "confidence": [
+                                                  1989.3,
+                                                  1989.3
+                                                ],
+                                                "value": 1989.3
+                                              }
+                                            }
+                                          },
+                                          {
+                                            "branch_attrs": {
+                                              "mutations": {}
+                                            },
+                                            "children": [
+                                              {
+                                                "branch_attrs": {
+                                                  "mutations": {}
+                                                },
+                                                "name": "sample/100/10",
+                                                "node_attrs": {
+                                                  "div": 0.001086815024453442,
+                                                  "num_date": {
+                                                    "confidence": [
+                                                      1992.5969945355191,
+                                                      1992.5969945355191
+                                                    ],
+                                                    "value": 1992.5969945355191
+                                                  }
+                                                }
+                                              },
+                                              {
+                                                "branch_attrs": {
+                                                  "mutations": {}
+                                                },
+                                                "name": "sample/100/1",
+                                                "node_attrs": {
+                                                  "div": 0.001086815024453442,
+                                                  "num_date": {
+                                                    "confidence": [
+                                                      1992.5969945355191,
+                                                      1992.5969945355191
+                                                    ],
+                                                    "value": 1992.5969945355191
+                                                  }
+                                                }
+                                              }
+                                            ],
+                                            "name": "NODE_0000034",
+                                            "node_attrs": {
+                                              "div": 0.001086815024453437,
+                                              "num_date": {
+                                                "confidence": [
+                                                  1989.298526464082,
+                                                  1992.5969945355191
+                                                ],
+                                                "value": 1992.5969945355191
+                                              }
+                                            }
+                                          }
+                                        ],
+                                        "name": "NODE_0000032",
+                                        "node_attrs": {
+                                          "div": 0.001086815024453432,
+                                          "num_date": {
+                                            "confidence": [
+                                              1987.5576266044177,
+                                              1989.3
+                                            ],
+                                            "value": 1989.3
+                                          }
+                                        }
+                                      },
+                                      {
+                                        "branch_attrs": {
+                                          "mutations": {}
+                                        },
+                                        "children": [
+                                          {
+                                            "branch_attrs": {
+                                              "mutations": {}
+                                            },
+                                            "children": [
+                                              {
+                                                "branch_attrs": {
+                                                  "mutations": {}
+                                                },
+                                                "name": "sample/100/6",
+                                                "node_attrs": {
+                                                  "div": 0.001086815024453442,
+                                                  "num_date": {
+                                                    "confidence": [
+                                                      1992.5969945355191,
+                                                      1992.5969945355191
+                                                    ],
+                                                    "value": 1992.5969945355191
+                                                  }
+                                                }
+                                              },
+                                              {
+                                                "branch_attrs": {
+                                                  "mutations": {}
+                                                },
+                                                "name": "sample/100/3",
+                                                "node_attrs": {
+                                                  "div": 0.001086815024453442,
+                                                  "num_date": {
+                                                    "confidence": [
+                                                      1992.5969945355191,
+                                                      1992.5969945355191
+                                                    ],
+                                                    "value": 1992.5969945355191
+                                                  }
+                                                }
+                                              }
+                                            ],
+                                            "name": "NODE_0000037",
+                                            "node_attrs": {
+                                              "div": 0.001086815024453437,
+                                              "num_date": {
+                                                "confidence": [
+                                                  1989.635286561233,
+                                                  1992.5969945355191
+                                                ],
+                                                "value": 1992.5969945355191
+                                              }
+                                            }
+                                          },
+                                          {
+                                            "branch_attrs": {
+                                              "mutations": {}
+                                            },
+                                            "children": [
+                                              {
+                                                "branch_attrs": {
+                                                  "mutations": {}
+                                                },
+                                                "name": "sample/100/4",
+                                                "node_attrs": {
+                                                  "div": 0.001086815024453442,
+                                                  "num_date": {
+                                                    "confidence": [
+                                                      1992.5969945355191,
+                                                      1992.5969945355191
+                                                    ],
+                                                    "value": 1992.5969945355191
+                                                  }
+                                                }
+                                              },
+                                              {
+                                                "branch_attrs": {
+                                                  "mutations": {}
+                                                },
+                                                "name": "sample/100/7",
+                                                "node_attrs": {
+                                                  "div": 0.001086815024453442,
+                                                  "num_date": {
+                                                    "confidence": [
+                                                      1992.5969945355191,
+                                                      1992.5969945355191
+                                                    ],
+                                                    "value": 1992.5969945355191
+                                                  }
+                                                }
+                                              }
+                                            ],
+                                            "name": "NODE_0000038",
+                                            "node_attrs": {
+                                              "div": 0.001086815024453437,
+                                              "num_date": {
+                                                "confidence": [
+                                                  1989.635286561233,
+                                                  1992.5969945355191
+                                                ],
+                                                "value": 1992.5969945355191
+                                              }
+                                            }
+                                          }
+                                        ],
+                                        "name": "NODE_0000036",
+                                        "node_attrs": {
+                                          "div": 0.001086815024453432,
+                                          "num_date": {
+                                            "confidence": [
+                                              1986.9855285912518,
+                                              1992.2038306432394
+                                            ],
+                                            "value": 1989.5102204755922
+                                          }
+                                        }
+                                      }
+                                    ],
+                                    "name": "NODE_0000031",
+                                    "node_attrs": {
+                                      "div": 0.001086815024453427,
+                                      "num_date": {
+                                        "confidence": [
+                                          1986.2025607615933,
+                                          1988.9068361077202
+                                        ],
+                                        "value": 1987.4987782034211
+                                      }
+                                    }
+                                  }
+                                ],
+                                "name": "NODE_0000023",
+                                "node_attrs": {
+                                  "div": 0.001086815024453422,
+                                  "num_date": {
+                                    "confidence": [
+                                      1986.8792954925689,
+                                      1987.964987485883
+                                    ],
+                                    "value": 1987.296905408596
+                                  }
+                                }
+                              }
+                            ],
+                            "name": "NODE_0000000",
+                            "node_attrs": {
+                              "div": 0.001086815024453417,
+                              "num_date": {
+                                "confidence": [
+                                  1986.6844789858096,
+                                  1987.237638739705
+                                ],
+                                "value": 1987.205962622327
+                              }
+                            }
+                          },
+                          {
+                            "branch_attrs": {
+                              "mutations": {}
+                            },
+                            "children": [
+                              {
+                                "branch_attrs": {
+                                  "mutations": {}
+                                },
+                                "children": [
+                                  {
+                                    "branch_attrs": {
+                                      "mutations": {}
+                                    },
+                                    "children": [
+                                      {
+                                        "branch_attrs": {
+                                          "mutations": {
+                                            "nuc": [
+                                              "T1975C"
+                                            ]
+                                          }
+                                        },
+                                        "name": "sample/200/8",
+                                        "node_attrs": {
+                                          "div": 0.0010867544042469622,
+                                          "num_date": {
+                                            "confidence": [
+                                              1999.2013698630137,
+                                              1999.2013698630137
+                                            ],
+                                            "value": 1999.2013698630137
+                                          }
+                                        }
+                                      },
+                                      {
+                                        "branch_attrs": {
+                                          "mutations": {
+                                            "nuc": [
+                                              "G969T"
+                                            ]
+                                          }
+                                        },
+                                        "name": "sample/200/9",
+                                        "node_attrs": {
+                                          "div": 0.0010868534663941104,
+                                          "num_date": {
+                                            "confidence": [
+                                              1999.2013698630137,
+                                              1999.2013698630137
+                                            ],
+                                            "value": 1999.2013698630137
+                                          }
+                                        }
+                                      }
+                                    ],
+                                    "name": "NODE_0000042",
+                                    "node_attrs": {
+                                      "div": 0.0007245557192929841,
+                                      "num_date": {
+                                        "confidence": [
+                                          1988.2150125692635,
+                                          1999.2013698630137
+                                        ],
+                                        "value": 1990.2043155620117
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "branch_attrs": {
+                                      "mutations": {}
+                                    },
+                                    "children": [
+                                      {
+                                        "branch_attrs": {
+                                          "mutations": {
+                                            "nuc": [
+                                              "C2124A"
+                                            ]
+                                          }
+                                        },
+                                        "name": "sample/200/7",
+                                        "node_attrs": {
+                                          "div": 0.0010869361438456408,
+                                          "num_date": {
+                                            "confidence": [
+                                              1999.2013698630137,
+                                              1999.2013698630137
+                                            ],
+                                            "value": 1999.2013698630137
+                                          }
+                                        }
+                                      },
+                                      {
+                                        "branch_attrs": {
+                                          "mutations": {
+                                            "nuc": [
+                                              "C63T"
+                                            ]
+                                          }
+                                        },
+                                        "children": [
+                                          {
+                                            "branch_attrs": {
+                                              "mutations": {
+                                                "nuc": [
+                                                  "C707T"
+                                                ]
+                                              }
+                                            },
+                                            "name": "sample/300/5",
+                                            "node_attrs": {
+                                              "div": 0.0014493223840327896,
+                                              "num_date": {
+                                                "confidence": [
+                                                  2005.7986301369863,
+                                                  2005.7986301369863
+                                                ],
+                                                "value": 2005.7986301369863
+                                              }
+                                            }
+                                          },
+                                          {
+                                            "branch_attrs": {
+                                              "mutations": {}
+                                            },
+                                            "children": [
+                                              {
+                                                "branch_attrs": {
+                                                  "mutations": {}
+                                                },
+                                                "name": "sample/500/9",
+                                                "node_attrs": {
+                                                  "div": 0.0010868774090238462,
+                                                  "num_date": {
+                                                    "confidence": [
+                                                      2019.0013698630137,
+                                                      2019.0013698630137
+                                                    ],
+                                                    "value": 2019.0013698630137
+                                                  }
+                                                }
+                                              },
+                                              {
+                                                "branch_attrs": {
+                                                  "mutations": {}
+                                                },
+                                                "name": "sample/400/2",
+                                                "node_attrs": {
+                                                  "div": 0.0010868774090238462,
+                                                  "num_date": {
+                                                    "confidence": [
+                                                      2012.4002732240438,
+                                                      2012.4002732240438
+                                                    ],
+                                                    "value": 2012.4002732240438
+                                                  }
+                                                }
+                                              }
+                                            ],
+                                            "name": "NODE_0000053",
+                                            "node_attrs": {
+                                              "div": 0.0010868774090238413,
+                                              "num_date": {
+                                                "confidence": [
+                                                  1999.7439096472483,
+                                                  2012.4002732240438
+                                                ],
+                                                "value": 2007.6124454713342
+                                              }
+                                            }
+                                          }
+                                        ],
+                                        "name": "NODE_0000065",
+                                        "node_attrs": {
+                                          "div": 0.0010868774090238363,
+                                          "num_date": {
+                                            "confidence": [
+                                              1993.8256907554583,
+                                              2005.7986301369863
+                                            ],
+                                            "value": 1997.5261736405712
+                                          }
+                                        }
+                                      }
+                                    ],
+                                    "name": "NODE_0000043",
+                                    "node_attrs": {
+                                      "div": 0.0007245557192929841,
+                                      "num_date": {
+                                        "confidence": [
+                                          1988.098392034253,
+                                          1999.2013698630137
+                                        ],
+                                        "value": 1990.351260821062
+                                      }
+                                    }
+                                  }
+                                ],
+                                "name": "NODE_0000041",
+                                "node_attrs": {
+                                  "div": 0.0007245557192929791,
+                                  "num_date": {
+                                    "confidence": [
+                                      1984.6106409538181,
+                                      1998.2490175995115
+                                    ],
+                                    "value": 1988.4409724534098
+                                  }
+                                }
+                              },
+                              {
+                                "branch_attrs": {
+                                  "mutations": {}
+                                },
+                                "children": [
+                                  {
+                                    "branch_attrs": {
+                                      "mutations": {}
+                                    },
+                                    "children": [
+                                      {
+                                        "branch_attrs": {
+                                          "mutations": {}
+                                        },
+                                        "children": [
+                                          {
+                                            "branch_attrs": {
+                                              "mutations": {
+                                                "nuc": [
+                                                  "G2163A"
+                                                ]
+                                              }
+                                            },
+                                            "name": "sample/250/6",
+                                            "node_attrs": {
+                                              "div": 0.001086815024453437,
+                                              "num_date": {
+                                                "confidence": [
+                                                  2002.5,
+                                                  2002.5
+                                                ],
+                                                "value": 2002.5
+                                              }
+                                            }
+                                          },
+                                          {
+                                            "branch_attrs": {
+                                              "mutations": {
+                                                "nuc": [
+                                                  "T1167C"
+                                                ]
+                                              }
+                                            },
+                                            "name": "sample/250/9",
+                                            "node_attrs": {
+                                              "div": 0.0010867544042469672,
+                                              "num_date": {
+                                                "confidence": [
+                                                  2002.5,
+                                                  2002.5
+                                                ],
+                                                "value": 2002.5
+                                              }
+                                            }
+                                          }
+                                        ],
+                                        "name": "NODE_0000047",
+                                        "node_attrs": {
+                                          "div": 0.0007245557192929891,
+                                          "num_date": {
+                                            "confidence": [
+                                              1989.309647745726,
+                                              2000.2346072326607
+                                            ],
+                                            "value": 1993.9691313369142
+                                          }
+                                        }
+                                      },
+                                      {
+                                        "branch_attrs": {
+                                          "mutations": {}
+                                        },
+                                        "children": [
+                                          {
+                                            "branch_attrs": {
+                                              "mutations": {
+                                                "nuc": [
+                                                  "A597G",
+                                                  "A2229G"
+                                                ]
+                                              }
+                                            },
+                                            "name": "sample/500/5",
+                                            "node_attrs": {
+                                              "div": 0.0014492836374436725,
+                                              "num_date": {
+                                                "confidence": [
+                                                  2019.0013698630137,
+                                                  2019.0013698630137
+                                                ],
+                                                "value": 2019.0013698630137
+                                              }
+                                            }
+                                          },
+                                          {
+                                            "branch_attrs": {
+                                              "mutations": {
+                                                "nuc": [
+                                                  "A1092G",
+                                                  "A2064C"
+                                                ]
+                                              }
+                                            },
+                                            "name": "sample/450/8",
+                                            "node_attrs": {
+                                              "div": 0.0014492203018930568,
+                                              "num_date": {
+                                                "confidence": [
+                                                  2015.7,
+                                                  2015.7
+                                                ],
+                                                "value": 2015.7
+                                              }
+                                            }
+                                          }
+                                        ],
+                                        "name": "NODE_0000048",
+                                        "node_attrs": {
+                                          "div": 0.0007245557192929891,
+                                          "num_date": {
+                                            "confidence": [
+                                              1989.4767176624434,
+                                              2004.8223147178014
+                                            ],
+                                            "value": 1994.9640118233458
+                                          }
+                                        }
+                                      }
+                                    ],
+                                    "name": "NODE_0000046",
+                                    "node_attrs": {
+                                      "div": 0.0007245557192929841,
+                                      "num_date": {
+                                        "confidence": [
+                                          1988.1980459163574,
+                                          1998.5165061875045
+                                        ],
+                                        "value": 1990.2244279745175
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "branch_attrs": {
+                                      "mutations": {}
+                                    },
+                                    "children": [
+                                      {
+                                        "branch_attrs": {
+                                          "mutations": {}
+                                        },
+                                        "children": [
+                                          {
+                                            "branch_attrs": {
+                                              "mutations": {
+                                                "nuc": [
+                                                  "T1595A",
+                                                  "T1746C"
+                                                ]
+                                              }
+                                            },
+                                            "name": "sample/450/2",
+                                            "node_attrs": {
+                                              "div": 0.0014493228200405587,
+                                              "num_date": {
+                                                "confidence": [
+                                                  2015.7,
+                                                  2015.7
+                                                ],
+                                                "value": 2015.7
+                                              }
+                                            }
+                                          },
+                                          {
+                                            "branch_attrs": {
+                                              "mutations": {
+                                                "nuc": [
+                                                  "G1455A"
+                                                ]
+                                              }
+                                            },
+                                            "name": "sample/150/2",
+                                            "node_attrs": {
+                                              "div": 0.001086815024453437,
+                                              "num_date": {
+                                                "confidence": [
+                                                  1995.9,
+                                                  1995.9
+                                                ],
+                                                "value": 1995.9
+                                              }
+                                            }
+                                          }
+                                        ],
+                                        "name": "NODE_0000050",
+                                        "node_attrs": {
+                                          "div": 0.0007245557192929891,
+                                          "num_date": {
+                                            "confidence": [
+                                              1987.897394896867,
+                                              1995.9
+                                            ],
+                                            "value": 1990.2134621886444
+                                          }
+                                        }
+                                      },
+                                      {
+                                        "branch_attrs": {
+                                          "mutations": {}
+                                        },
+                                        "children": [
+                                          {
+                                            "branch_attrs": {
+                                              "mutations": {}
+                                            },
+                                            "children": [
+                                              {
+                                                "branch_attrs": {
+                                                  "mutations": {
+                                                    "nuc": [
+                                                      "G33T",
+                                                      "T2352C"
+                                                    ]
+                                                  }
+                                                },
+                                                "name": "sample/400/7",
+                                                "node_attrs": {
+                                                  "div": 0.0014491953167852464,
+                                                  "num_date": {
+                                                    "confidence": [
+                                                      2012.4002732240438,
+                                                      2012.4002732240438
+                                                    ],
+                                                    "value": 2012.4002732240438
+                                                  }
+                                                }
+                                              },
+                                              {
+                                                "branch_attrs": {
+                                                  "mutations": {
+                                                    "nuc": [
+                                                      "G1584A"
+                                                    ]
+                                                  }
+                                                },
+                                                "children": [
+                                                  {
+                                                    "branch_attrs": {
+                                                      "mutations": {
+                                                        "nuc": [
+                                                          "G1002A"
+                                                        ]
+                                                      }
+                                                    },
+                                                    "name": "sample/300/8",
+                                                    "node_attrs": {
+                                                      "div": 0.0014490634952718053,
+                                                      "num_date": {
+                                                        "confidence": [
+                                                          2005.7986301369863,
+                                                          2005.7986301369863
+                                                        ],
+                                                        "value": 2005.7986301369863
+                                                      }
+                                                    }
+                                                  },
+                                                  {
+                                                    "branch_attrs": {
+                                                      "mutations": {}
+                                                    },
+                                                    "name": "sample/350/3",
+                                                    "node_attrs": {
+                                                      "div": 0.001086815024453447,
+                                                      "num_date": {
+                                                        "confidence": [
+                                                          2009.1,
+                                                          2009.1
+                                                        ],
+                                                        "value": 2009.1
+                                                      }
+                                                    }
+                                                  }
+                                                ],
+                                                "name": "NODE_0000071",
+                                                "node_attrs": {
+                                                  "div": 0.001086815024453442,
+                                                  "num_date": {
+                                                    "confidence": [
+                                                      1995.464000140627,
+                                                      2004.5798014227732
+                                                    ],
+                                                    "value": 2001.0723433752494
+                                                  }
+                                                }
+                                              }
+                                            ],
+                                            "name": "NODE_0000052",
+                                            "node_attrs": {
+                                              "div": 0.0007245557192929941,
+                                              "num_date": {
+                                                "confidence": [
+                                                  1988.5917155173645,
+                                                  1998.7997178468322
+                                                ],
+                                                "value": 1991.9202261159055
+                                              }
+                                            }
+                                          },
+                                          {
+                                            "branch_attrs": {
+                                              "mutations": {}
+                                            },
+                                            "children": [
+                                              {
+                                                "branch_attrs": {
+                                                  "mutations": {}
+                                                },
+                                                "children": [
+                                                  {
+                                                    "branch_attrs": {
+                                                      "mutations": {
+                                                        "nuc": [
+                                                          "A1602C"
+                                                        ]
+                                                      }
+                                                    },
+                                                    "name": "sample/300/9",
+                                                    "node_attrs": {
+                                                      "div": 0.001086794243731501,
+                                                      "num_date": {
+                                                        "confidence": [
+                                                          2005.7986301369863,
+                                                          2005.7986301369863
+                                                        ],
+                                                        "value": 2005.7986301369863
+                                                      }
+                                                    }
+                                                  },
+                                                  {
+                                                    "branch_attrs": {
+                                                      "mutations": {
+                                                        "nuc": [
+                                                          "A615G"
+                                                        ]
+                                                      }
+                                                    },
+                                                    "name": "sample/300/10",
+                                                    "node_attrs": {
+                                                      "div": 0.0010868260024385545,
+                                                      "num_date": {
+                                                        "confidence": [
+                                                          2005.7986301369863,
+                                                          2005.7986301369863
+                                                        ],
+                                                        "value": 2005.7986301369863
+                                                      }
+                                                    }
+                                                  }
+                                                ],
+                                                "name": "NODE_0000055",
+                                                "node_attrs": {
+                                                  "div": 0.0007245557192929991,
+                                                  "num_date": {
+                                                    "confidence": [
+                                                      1989.1729585606133,
+                                                      2001.5140314231546
+                                                    ],
+                                                    "value": 1994.615214144925
+                                                  }
+                                                }
+                                              },
+                                              {
+                                                "branch_attrs": {
+                                                  "mutations": {}
+                                                },
+                                                "children": [
+                                                  {
+                                                    "branch_attrs": {
+                                                      "mutations": {}
+                                                    },
+                                                    "children": [
+                                                      {
+                                                        "branch_attrs": {
+                                                          "mutations": {
+                                                            "nuc": [
+                                                              "C1185T"
+                                                            ]
+                                                          }
+                                                        },
+                                                        "name": "sample/350/9",
+                                                        "node_attrs": {
+                                                          "div": 0.0010868774090238562,
+                                                          "num_date": {
+                                                            "confidence": [
+                                                              2009.1,
+                                                              2009.1
+                                                            ],
+                                                            "value": 2009.1
+                                                          }
+                                                        }
+                                                      },
+                                                      {
+                                                        "branch_attrs": {
+                                                          "mutations": {
+                                                            "nuc": [
+                                                              "A801G"
+                                                            ]
+                                                          }
+                                                        },
+                                                        "name": "sample/450/4",
+                                                        "node_attrs": {
+                                                          "div": 0.0010868260024385597,
+                                                          "num_date": {
+                                                            "confidence": [
+                                                              2015.7,
+                                                              2015.7
+                                                            ],
+                                                            "value": 2015.7
+                                                          }
+                                                        }
+                                                      }
+                                                    ],
+                                                    "name": "NODE_0000057",
+                                                    "node_attrs": {
+                                                      "div": 0.0007245557192930041,
+                                                      "num_date": {
+                                                        "confidence": [
+                                                          1991.4782849820542,
+                                                          2009.1
+                                                        ],
+                                                        "value": 1993.7802867865125
+                                                      }
+                                                    }
+                                                  },
+                                                  {
+                                                    "branch_attrs": {
+                                                      "mutations": {}
+                                                    },
+                                                    "children": [
+                                                      {
+                                                        "branch_attrs": {
+                                                          "mutations": {}
+                                                        },
+                                                        "children": [
+                                                          {
+                                                            "branch_attrs": {
+                                                              "mutations": {}
+                                                            },
+                                                            "children": [
+                                                              {
+                                                                "branch_attrs": {
+                                                                  "mutations": {}
+                                                                },
+                                                                "name": "sample/150/7",
+                                                                "node_attrs": {
+                                                                  "div": 0.000724555719293019,
+                                                                  "num_date": {
+                                                                    "confidence": [
+                                                                      1995.9,
+                                                                      1995.9
+                                                                    ],
+                                                                    "value": 1995.9
+                                                                  }
+                                                                }
+                                                              },
+                                                              {
+                                                                "branch_attrs": {
+                                                                  "mutations": {}
+                                                                },
+                                                                "name": "sample/150/5",
+                                                                "node_attrs": {
+                                                                  "div": 0.000724555719293019,
+                                                                  "num_date": {
+                                                                    "confidence": [
+                                                                      1995.9,
+                                                                      1995.9
+                                                                    ],
+                                                                    "value": 1995.9
+                                                                  }
+                                                                }
+                                                              }
+                                                            ],
+                                                            "name": "NODE_0000060",
+                                                            "node_attrs": {
+                                                              "div": 0.000724555719293014,
+                                                              "num_date": {
+                                                                "confidence": [
+                                                                  1993.3322377046989,
+                                                                  1995.9
+                                                                ],
+                                                                "value": 1995.9
+                                                              }
+                                                            }
+                                                          },
+                                                          {
+                                                            "branch_attrs": {
+                                                              "mutations": {}
+                                                            },
+                                                            "children": [
+                                                              {
+                                                                "branch_attrs": {
+                                                                  "mutations": {}
+                                                                },
+                                                                "name": "sample/150/6",
+                                                                "node_attrs": {
+                                                                  "div": 0.000724555719293019,
+                                                                  "num_date": {
+                                                                    "confidence": [
+                                                                      1995.9,
+                                                                      1995.9
+                                                                    ],
+                                                                    "value": 1995.9
+                                                                  }
+                                                                }
+                                                              },
+                                                              {
+                                                                "branch_attrs": {
+                                                                  "mutations": {}
+                                                                },
+                                                                "name": "sample/150/9",
+                                                                "node_attrs": {
+                                                                  "div": 0.000724555719293019,
+                                                                  "num_date": {
+                                                                    "confidence": [
+                                                                      1995.9,
+                                                                      1995.9
+                                                                    ],
+                                                                    "value": 1995.9
+                                                                  }
+                                                                }
+                                                              }
+                                                            ],
+                                                            "name": "NODE_0000061",
+                                                            "node_attrs": {
+                                                              "div": 0.000724555719293014,
+                                                              "num_date": {
+                                                                "confidence": [
+                                                                  1993.3322377046989,
+                                                                  1995.9
+                                                                ],
+                                                                "value": 1995.9
+                                                              }
+                                                            }
+                                                          }
+                                                        ],
+                                                        "name": "NODE_0000059",
+                                                        "node_attrs": {
+                                                          "div": 0.000724555719293009,
+                                                          "num_date": {
+                                                            "confidence": [
+                                                              1991.524358627453,
+                                                              1995.5068361077203
+                                                            ],
+                                                            "value": 1993.6876467899383
+                                                          }
+                                                        }
+                                                      },
+                                                      {
+                                                        "branch_attrs": {
+                                                          "mutations": {}
+                                                        },
+                                                        "children": [
+                                                          {
+                                                            "branch_attrs": {
+                                                              "mutations": {}
+                                                            },
+                                                            "children": [
+                                                              {
+                                                                "branch_attrs": {
+                                                                  "mutations": {}
+                                                                },
+                                                                "name": "sample/150/3",
+                                                                "node_attrs": {
+                                                                  "div": 0.000724555719293019,
+                                                                  "num_date": {
+                                                                    "confidence": [
+                                                                      1995.9,
+                                                                      1995.9
+                                                                    ],
+                                                                    "value": 1995.9
+                                                                  }
+                                                                }
+                                                              },
+                                                              {
+                                                                "branch_attrs": {
+                                                                  "mutations": {}
+                                                                },
+                                                                "name": "sample/200/5",
+                                                                "node_attrs": {
+                                                                  "div": 0.000724555719293019,
+                                                                  "num_date": {
+                                                                    "confidence": [
+                                                                      1999.2013698630137,
+                                                                      1999.2013698630137
+                                                                    ],
+                                                                    "value": 1999.2013698630137
+                                                                  }
+                                                                }
+                                                              }
+                                                            ],
+                                                            "name": "NODE_0000063",
+                                                            "node_attrs": {
+                                                              "div": 0.000724555719293014,
+                                                              "num_date": {
+                                                                "confidence": [
+                                                                  1992.9298014903675,
+                                                                  1995.9
+                                                                ],
+                                                                "value": 1995.7582972224589
+                                                              }
+                                                            }
+                                                          },
+                                                          {
+                                                            "branch_attrs": {
+                                                              "mutations": {}
+                                                            },
+                                                            "children": [
+                                                              {
+                                                                "branch_attrs": {
+                                                                  "mutations": {}
+                                                                },
+                                                                "children": [
+                                                                  {
+                                                                    "branch_attrs": {
+                                                                      "mutations": {}
+                                                                    },
+                                                                    "name": "sample/200/4",
+                                                                    "node_attrs": {
+                                                                      "div": 0.000724555719293024,
+                                                                      "num_date": {
+                                                                        "confidence": [
+                                                                          1999.2013698630137,
+                                                                          1999.2013698630137
+                                                                        ],
+                                                                        "value": 1999.2013698630137
+                                                                      }
+                                                                    }
+                                                                  },
+                                                                  {
+                                                                    "branch_attrs": {
+                                                                      "mutations": {}
+                                                                    },
+                                                                    "name": "sample/250/8",
+                                                                    "node_attrs": {
+                                                                      "div": 0.000724555719293024,
+                                                                      "num_date": {
+                                                                        "confidence": [
+                                                                          2002.5,
+                                                                          2002.5
+                                                                        ],
+                                                                        "value": 2002.5
+                                                                      }
+                                                                    }
+                                                                  }
+                                                                ],
+                                                                "name": "NODE_0000066",
+                                                                "node_attrs": {
+                                                                  "div": 0.000724555719293019,
+                                                                  "num_date": {
+                                                                    "confidence": [
+                                                                      1995.2474697142898,
+                                                                      1999.2013698630137
+                                                                    ],
+                                                                    "value": 1999.2013698630137
+                                                                  }
+                                                                }
+                                                              },
+                                                              {
+                                                                "branch_attrs": {
+                                                                  "mutations": {}
+                                                                },
+                                                                "children": [
+                                                                  {
+                                                                    "branch_attrs": {
+                                                                      "mutations": {}
+                                                                    },
+                                                                    "children": [
+                                                                      {
+                                                                        "branch_attrs": {
+                                                                          "mutations": {}
+                                                                        },
+                                                                        "name": "sample/300/4",
+                                                                        "node_attrs": {
+                                                                          "div": 0.000724555719293029,
+                                                                          "num_date": {
+                                                                            "confidence": [
+                                                                              2005.7986301369863,
+                                                                              2005.7986301369863
+                                                                            ],
+                                                                            "value": 2005.7986301369863
+                                                                          }
+                                                                        }
+                                                                      },
+                                                                      {
+                                                                        "branch_attrs": {
+                                                                          "mutations": {}
+                                                                        },
+                                                                        "name": "sample/300/1",
+                                                                        "node_attrs": {
+                                                                          "div": 0.000724555719293029,
+                                                                          "num_date": {
+                                                                            "confidence": [
+                                                                              2005.7986301369863,
+                                                                              2005.7986301369863
+                                                                            ],
+                                                                            "value": 2005.7986301369863
+                                                                          }
+                                                                        }
+                                                                      }
+                                                                    ],
+                                                                    "name": "NODE_0000068",
+                                                                    "node_attrs": {
+                                                                      "div": 0.000724555719293024,
+                                                                      "num_date": {
+                                                                        "confidence": [
+                                                                          1998.0401916177768,
+                                                                          2005.7986301369863
+                                                                        ],
+                                                                        "value": 2001.2876631025076
+                                                                      }
+                                                                    }
+                                                                  },
+                                                                  {
+                                                                    "branch_attrs": {
+                                                                      "mutations": {}
+                                                                    },
+                                                                    "children": [
+                                                                      {
+                                                                        "branch_attrs": {
+                                                                          "mutations": {}
+                                                                        },
+                                                                        "name": "sample/250/4",
+                                                                        "node_attrs": {
+                                                                          "div": 0.000724555719293029,
+                                                                          "num_date": {
+                                                                            "confidence": [
+                                                                              2002.5,
+                                                                              2002.5
+                                                                            ],
+                                                                            "value": 2002.5
+                                                                          }
+                                                                        }
+                                                                      },
+                                                                      {
+                                                                        "branch_attrs": {
+                                                                          "mutations": {}
+                                                                        },
+                                                                        "name": "sample/250/2",
+                                                                        "node_attrs": {
+                                                                          "div": 0.000724555719293029,
+                                                                          "num_date": {
+                                                                            "confidence": [
+                                                                              2002.5,
+                                                                              2002.5
+                                                                            ],
+                                                                            "value": 2002.5
+                                                                          }
+                                                                        }
+                                                                      }
+                                                                    ],
+                                                                    "name": "NODE_0000069",
+                                                                    "node_attrs": {
+                                                                      "div": 0.000724555719293024,
+                                                                      "num_date": {
+                                                                        "confidence": [
+                                                                          1997.738722781253,
+                                                                          2002.5
+                                                                        ],
+                                                                        "value": 2001.07638445104
+                                                                      }
+                                                                    }
+                                                                  }
+                                                                ],
+                                                                "name": "NODE_0000067",
+                                                                "node_attrs": {
+                                                                  "div": 0.000724555719293019,
+                                                                  "num_date": {
+                                                                    "confidence": [
+                                                                      1992.8341722788296,
+                                                                      2002.1068361077203
+                                                                    ],
+                                                                    "value": 1997.3512526000204
+                                                                  }
+                                                                }
+                                                              }
+                                                            ],
+                                                            "name": "NODE_0000064",
+                                                            "node_attrs": {
+                                                              "div": 0.000724555719293014,
+                                                              "num_date": {
+                                                                "confidence": [
+                                                                  1992.277750662895,
+                                                                  1998.8082092693642
+                                                                ],
+                                                                "value": 1995.4337311955153
+                                                              }
+                                                            }
+                                                          }
+                                                        ],
+                                                        "name": "NODE_0000062",
+                                                        "node_attrs": {
+                                                          "div": 0.000724555719293009,
+                                                          "num_date": {
+                                                            "confidence": [
+                                                              1991.4671291570112,
+                                                              1995.5068394090902
+                                                            ],
+                                                            "value": 1993.6876467899383
+                                                          }
+                                                        }
+                                                      }
+                                                    ],
+                                                    "name": "NODE_0000058",
+                                                    "node_attrs": {
+                                                      "div": 0.0007245557192930041,
+                                                      "num_date": {
+                                                        "confidence": [
+                                                          1989.8642784480278,
+                                                          1994.9412827869778
+                                                        ],
+                                                        "value": 1992.0591209028591
+                                                      }
+                                                    }
+                                                  }
+                                                ],
+                                                "name": "NODE_0000056",
+                                                "node_attrs": {
+                                                  "div": 0.0007245557192929991,
+                                                  "num_date": {
+                                                    "confidence": [
+                                                      1989.3626261436032,
+                                                      1994.213932906362
+                                                    ],
+                                                    "value": 1991.9577847619596
+                                                  }
+                                                }
+                                              }
+                                            ],
+                                            "name": "NODE_0000054",
+                                            "node_attrs": {
+                                              "div": 0.0007245557192929941,
+                                              "num_date": {
+                                                "confidence": [
+                                                  1988.5978499085295,
+                                                  1993.648324974496
+                                                ],
+                                                "value": 1990.1910203974517
+                                              }
+                                            }
+                                          }
+                                        ],
+                                        "name": "NODE_0000051",
+                                        "node_attrs": {
+                                          "div": 0.0007245557192929891,
+                                          "num_date": {
+                                            "confidence": [
+                                              1987.9584378297518,
+                                              1993.0827081221935
+                                            ],
+                                            "value": 1990.1695934212516
+                                          }
+                                        }
+                                      }
+                                    ],
+                                    "name": "NODE_0000049",
+                                    "node_attrs": {
+                                      "div": 0.0007245557192929841,
+                                      "num_date": {
+                                        "confidence": [
+                                          1984.6629800862816,
+                                          1992.5170311043266
+                                        ],
+                                        "value": 1988.3980813565458
+                                      }
+                                    }
+                                  }
+                                ],
+                                "name": "NODE_0000045",
+                                "node_attrs": {
+                                  "div": 0.0007245557192929791,
+                                  "num_date": {
+                                    "confidence": [
+                                      1984.3170645313728,
+                                      1991.9514064865843
+                                    ],
+                                    "value": 1988.3688166508807
+                                  }
+                                }
+                              }
+                            ],
+                            "name": "NODE_0000039",
+                            "node_attrs": {
+                              "div": 0.0007245557192929741,
+                              "num_date": {
+                                "confidence": [
+                                  1983.120722084231,
+                                  1991.5379771898688
+                                ],
+                                "value": 1986.6298099863202
+                              }
+                            }
+                          }
+                        ],
+                        "name": "NODE_0000092",
+                        "node_attrs": {
+                          "div": 0.0007245557192929691,
+                          "num_date": {
+                            "confidence": [
+                              1986.1295191002494,
+                              1986.8443377816325
+                            ],
+                            "value": 1986.5957168664763
+                          }
+                        }
+                      }
+                    ],
+                    "name": "NODE_0000094",
+                    "node_attrs": {
+                      "div": 0.0007245557192929642,
+                      "num_date": {
+                        "confidence": [
+                          1985.7143338610235,
+                          1986.4510537328545
+                        ],
+                        "value": 1986.26545436455
+                      }
+                    }
+                  }
+                ],
+                "name": "NODE_0000095",
+                "node_attrs": {
+                  "div": 0.00036222837680444857,
+                  "num_date": {
+                    "confidence": [
+                      1983.725458302412,
+                      1986.0577053863797
+                    ],
+                    "value": 1984.3412762381258
+                  }
+                }
+              }
+            ],
+            "name": "NODE_0000096",
+            "node_attrs": {
+              "div": 0.0003622283768044436,
+              "num_date": {
+                "confidence": [
+                  1983.206858793718,
+                  1985.664490027432
+                ],
+                "value": 1984.1755935942829
+              }
+            }
+          }
+        ],
+        "name": "NODE_0000099",
+        "node_attrs": {
+          "div": 4.9841646608229e-18,
+          "num_date": {
+            "confidence": [
+              778.8023363798573,
+              1985.2711358752852
+            ],
+            "value": 1984.4844275709913
+          }
+        }
+      }
+    ],
+    "name": "NODE_0000001",
+    "node_attrs": {
+      "div": 0,
+      "num_date": {
+        "confidence": [
+          776.7796309135422,
+          1984.7053905761652
+        ],
+        "value": 1984.2383820889604
+      }
+    }
+  },
+  "version": "v2"
+}
