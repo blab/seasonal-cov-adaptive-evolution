@@ -31,32 +31,27 @@
                 <!-- Replicase is under purifying selection. -->
                 <purifyingFitness>
 	                <feature>CDS</feature>
-                 	<rank>
+                	<rank>
                 		<order>chemical</order>
                 		<breakTies>random</breakTies>
-                		<probableSet>5</probableSet>
                 	</rank>
                 	<fitness>
-                		<lowFitness>0.9</lowFitness>
-		                <minimumFitness>0.8</minimumFitness>
+                		<lowFitness>0.8</lowFitness>
+		                <minimumFitness>0.7</minimumFitness>
                 	</fitness>
-                	<fluctuate>
-                		<rate>0.00001</rate>
-                		<fitnessLimit>0.9</fitnessLimit>
-                	</fluctuate>
                 </purifyingFitness>
             </fitnessFunction>
             
 	        <mutator>
 	            <nucleotideMutator>
-	                <mutationRate>5E-5</mutationRate>
+	                <mutationRate>1E-4</mutationRate>
 	                <transitionBias>2.0</transitionBias>
 	            </nucleotideMutator>
 	        </mutator>
 
 	        <replicator>
 	            <recombinantReplicator>
-					<dualInfectionProbability>0.001</dualInfectionProbability>
+					<dualInfectionProbability>0.1</dualInfectionProbability>
 					<recombinationProbability>0.0001</recombinationProbability>
 				</recombinantReplicator>
 	        </replicator>

@@ -41,16 +41,19 @@
                 	</fitness>
                 </purifyingFitness>
             </fitnessFunction>
-
+            
 	        <mutator>
 	            <nucleotideMutator>
-	                <mutationRate>2E-4</mutationRate>
+	                <mutationRate>1E-4</mutationRate>
 	                <transitionBias>2.0</transitionBias>
 	            </nucleotideMutator>
 	        </mutator>
 
 	        <replicator>
-	            <clonalReplicator/>
+	            <recombinantReplicator>
+					<dualInfectionProbability>0.01</dualInfectionProbability>
+					<recombinationProbability>0.00001</recombinationProbability>
+				</recombinantReplicator>
 	        </replicator>
 
             <epoch>
