@@ -1,0 +1,241 @@
+Building DAG of jobs...
+Using shell: /bin/bash
+Provided cores: 4
+Rules claiming more threads will be scaled down.
+Job counts:
+	count	jobs
+	4	align
+	1	all
+	4	ancestral
+	4	export
+	4	format_data
+	4	parse
+	4	refine
+	4	santa_sim
+	4	translate
+	4	tree
+	37
+
+[Fri Aug  7 19:57:20 2020]
+Job 36: Simulating RDRP sequence data with SANTA-SIM
+
+
+[Fri Aug  7 19:57:20 2020]
+Job 33: Simulating RDRP sequence data with SANTA-SIM
+
+
+[Fri Aug  7 19:57:20 2020]
+Job 34: Simulating RDRP sequence data with SANTA-SIM
+
+
+[Fri Aug  7 19:57:20 2020]
+Job 35: Simulating RDRP sequence data with SANTA-SIM
+
+[Fri Aug  7 19:57:42 2020]
+Finished job 33.
+1 of 37 steps (3%) done
+
+[Fri Aug  7 19:57:42 2020]
+Job 23: Formatting data simulated by SANTA-SIM for Augur
+
+[Fri Aug  7 19:57:43 2020]
+Finished job 23.
+2 of 37 steps (5%) done
+
+[Fri Aug  7 19:57:43 2020]
+Job 6: Parsing fasta into sequences and metadata
+
+[Fri Aug  7 19:57:45 2020]
+Finished job 34.
+3 of 37 steps (8%) done
+
+[Fri Aug  7 19:57:45 2020]
+Job 26: Formatting data simulated by SANTA-SIM for Augur
+
+[Fri Aug  7 19:57:45 2020]
+Finished job 36.
+4 of 37 steps (11%) done
+
+[Fri Aug  7 19:57:45 2020]
+Job 32: Formatting data simulated by SANTA-SIM for Augur
+
+[Fri Aug  7 19:57:46 2020]
+Finished job 26.
+5 of 37 steps (14%) done
+
+[Fri Aug  7 19:57:46 2020]
+Job 10: Parsing fasta into sequences and metadata
+
+[Fri Aug  7 19:57:46 2020]
+Finished job 32.
+6 of 37 steps (16%) done
+
+[Fri Aug  7 19:57:46 2020]
+Job 18: Parsing fasta into sequences and metadata
+
+[Fri Aug  7 19:57:47 2020]
+Finished job 35.
+7 of 37 steps (19%) done
+
+[Fri Aug  7 19:57:47 2020]
+Job 29: Formatting data simulated by SANTA-SIM for Augur
+
+[Fri Aug  7 19:57:47 2020]
+Finished job 29.
+8 of 37 steps (22%) done
+
+[Fri Aug  7 19:57:47 2020]
+Job 14: Parsing fasta into sequences and metadata
+
+[Fri Aug  7 19:57:48 2020]
+Finished job 6.
+9 of 37 steps (24%) done
+
+[Fri Aug  7 19:57:48 2020]
+Job 22: 
+        Aligning sequences to config/oc43a_rdrp_reference.gb
+          - filling gaps with N
+        
+
+[Fri Aug  7 19:57:50 2020]
+Finished job 10.
+10 of 37 steps (27%) done
+
+[Fri Aug  7 19:57:50 2020]
+Job 25: 
+        Aligning sequences to config/oc43a_rdrp_reference.gb
+          - filling gaps with N
+        
+
+[Fri Aug  7 19:57:50 2020]
+Finished job 18.
+11 of 37 steps (30%) done
+
+[Fri Aug  7 19:57:50 2020]
+Job 31: 
+        Aligning sequences to config/oc43a_rdrp_reference.gb
+          - filling gaps with N
+        
+
+[Fri Aug  7 19:57:51 2020]
+Finished job 14.
+12 of 37 steps (32%) done
+
+[Fri Aug  7 19:57:51 2020]
+Job 28: 
+        Aligning sequences to config/oc43a_rdrp_reference.gb
+          - filling gaps with N
+        
+
+[Fri Aug  7 19:58:01 2020]
+Finished job 22.
+13 of 37 steps (35%) done
+
+[Fri Aug  7 19:58:01 2020]
+Job 21: Building tree
+
+[Fri Aug  7 19:58:03 2020]
+Finished job 25.
+14 of 37 steps (38%) done
+
+[Fri Aug  7 19:58:03 2020]
+Job 24: Building tree
+
+[Fri Aug  7 19:58:03 2020]
+Finished job 31.
+15 of 37 steps (41%) done
+
+[Fri Aug  7 19:58:03 2020]
+Job 30: Building tree
+
+[Fri Aug  7 19:58:05 2020]
+Finished job 28.
+16 of 37 steps (43%) done
+
+[Fri Aug  7 19:58:05 2020]
+Job 27: Building tree
+
+[Fri Aug  7 19:58:06 2020]
+Finished job 21.
+17 of 37 steps (46%) done
+
+[Fri Aug  7 19:58:06 2020]
+Job 5: 
+        Refining tree
+          - estimate timetree
+          - use opt coalescent timescale
+          - estimate marginal node dates
+          - filter tips more than 4 IQDs from clock expectation
+        
+
+[Fri Aug  7 19:58:09 2020]
+Finished job 24.
+18 of 37 steps (49%) done
+
+[Fri Aug  7 19:58:09 2020]
+Job 9: 
+        Refining tree
+          - estimate timetree
+          - use opt coalescent timescale
+          - estimate marginal node dates
+          - filter tips more than 4 IQDs from clock expectation
+        
+
+[Fri Aug  7 19:58:10 2020]
+Finished job 30.
+19 of 37 steps (51%) done
+
+[Fri Aug  7 19:58:10 2020]
+Job 17: 
+        Refining tree
+          - estimate timetree
+          - use opt coalescent timescale
+          - estimate marginal node dates
+          - filter tips more than 4 IQDs from clock expectation
+        
+
+[Fri Aug  7 19:58:11 2020]
+Finished job 27.
+20 of 37 steps (54%) done
+
+[Fri Aug  7 19:58:11 2020]
+Job 13: 
+        Refining tree
+          - estimate timetree
+          - use opt coalescent timescale
+          - estimate marginal node dates
+          - filter tips more than 4 IQDs from clock expectation
+        
+
+Terminating processes on user request, this might take some time.
+[Fri Aug  7 19:58:17 2020]
+[Fri Aug  7 19:58:17 2020]
+Error in rule refine:
+    jobid: 13
+    output: results/tree_s9.nwk, results/branch_lengths_s9.json
+    shell:
+        
+        augur refine             --tree results/tree_raw_s9.nwk             --alignment results/aligned_s9.fasta             --metadata results/metadata_s9.tsv             --output-tree results/tree_s9.nwk             --output-node-data results/branch_lengths_s9.json             --timetree             --coalescent opt             --date-confidence             --date-inference marginal             --clock-filter-iqd 4
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Error in rule refine:
+    jobid: 5
+    output: results/tree_s1.nwk, results/branch_lengths_s1.json
+    shell:
+        
+        augur refine             --tree results/tree_raw_s1.nwk             --alignment results/aligned_s1.fasta             --metadata results/metadata_s1.tsv             --output-tree results/tree_s1.nwk             --output-node-data results/branch_lengths_s1.json             --timetree             --coalescent opt             --date-confidence             --date-inference marginal             --clock-filter-iqd 4
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+[Fri Aug  7 19:58:17 2020]
+Error in rule refine:
+    jobid: 17
+    output: results/tree_s13.nwk, results/branch_lengths_s13.json
+    shell:
+        
+        augur refine             --tree results/tree_raw_s13.nwk             --alignment results/aligned_s13.fasta             --metadata results/metadata_s13.tsv             --output-tree results/tree_s13.nwk             --output-node-data results/branch_lengths_s13.json             --timetree             --coalescent opt             --date-confidence             --date-inference marginal             --clock-filter-iqd 4
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Cancelling snakemake on user request.

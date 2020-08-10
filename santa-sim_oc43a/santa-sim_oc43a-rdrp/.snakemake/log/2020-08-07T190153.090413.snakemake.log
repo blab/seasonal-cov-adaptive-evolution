@@ -1,0 +1,99 @@
+Building DAG of jobs...
+Using shell: /bin/bash
+Provided cores: 4
+Rules claiming more threads will be scaled down.
+Job counts:
+	count	jobs
+	1	align
+	1	all
+	1	ancestral
+	1	export
+	1	format_data
+	1	parse
+	1	refine
+	1	santa_sim
+	1	translate
+	1	tree
+	10
+
+[Fri Aug  7 19:01:53 2020]
+Job 33: Simulating RDRP sequence data with SANTA-SIM
+
+[Fri Aug  7 19:02:01 2020]
+Finished job 33.
+1 of 10 steps (10%) done
+
+[Fri Aug  7 19:02:01 2020]
+Job 23: Formatting data simulated by SANTA-SIM for Augur
+
+[Fri Aug  7 19:02:01 2020]
+Finished job 23.
+2 of 10 steps (20%) done
+
+[Fri Aug  7 19:02:01 2020]
+Job 6: Parsing fasta into sequences and metadata
+
+[Fri Aug  7 19:02:03 2020]
+Finished job 6.
+3 of 10 steps (30%) done
+
+[Fri Aug  7 19:02:03 2020]
+Job 22: 
+        Aligning sequences to config/oc43a_rdrp_reference.gb
+          - filling gaps with N
+        
+
+[Fri Aug  7 19:02:08 2020]
+Finished job 22.
+4 of 10 steps (40%) done
+
+[Fri Aug  7 19:02:08 2020]
+Job 21: Building tree
+
+[Fri Aug  7 19:02:10 2020]
+Finished job 21.
+5 of 10 steps (50%) done
+
+[Fri Aug  7 19:02:10 2020]
+Job 5: 
+        Refining tree
+          - estimate timetree
+          - use opt coalescent timescale
+          - estimate marginal node dates
+          - filter tips more than 4 IQDs from clock expectation
+        
+
+[Fri Aug  7 19:03:50 2020]
+Finished job 5.
+6 of 10 steps (60%) done
+
+[Fri Aug  7 19:03:50 2020]
+Job 7: Reconstructing ancestral sequences and mutations
+
+[Fri Aug  7 19:03:53 2020]
+Finished job 7.
+7 of 10 steps (70%) done
+
+[Fri Aug  7 19:03:53 2020]
+Job 8: Translating amino acid sequences
+
+[Fri Aug  7 19:03:55 2020]
+Finished job 8.
+8 of 10 steps (80%) done
+
+[Fri Aug  7 19:03:55 2020]
+Job 1: Exporting data files for for auspice
+
+[Fri Aug  7 19:03:56 2020]
+Finished job 1.
+9 of 10 steps (90%) done
+
+[Fri Aug  7 19:03:56 2020]
+localrule all:
+    input: auspice/simulated_oc43a_rdrp_s1.json, auspice/simulated_oc43a_rdrp_s5.json, auspice/simulated_oc43a_rdrp_s9.json, auspice/simulated_oc43a_rdrp_s13.json
+    jobid: 0
+
+[Fri Aug  7 19:03:56 2020]
+Finished job 0.
+10 of 10 steps (100%) done
+Complete log: /Users/katekistler/nextstrain/seasonal-cov/santa-sim_oc43a/santa-sim_oc43a-rdrp/.snakemake/log/2020-08-07T190153.090413.snakemake.log

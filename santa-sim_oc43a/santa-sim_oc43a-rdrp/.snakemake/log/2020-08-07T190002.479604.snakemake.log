@@ -1,0 +1,36 @@
+Building DAG of jobs...
+Using shell: /bin/bash
+Provided cores: 4
+Rules claiming more threads will be scaled down.
+Job counts:
+	count	jobs
+	1	align
+	1	all
+	1	ancestral
+	1	export
+	1	refine
+	1	translate
+	1	tree
+	7
+
+[Fri Aug  7 19:00:02 2020]
+Job 22: 
+        Aligning sequences to config/oc43a_rdrp_reference.gb
+          - filling gaps with N
+        
+
+[Fri Aug  7 19:00:04 2020]
+Error in rule align:
+    jobid: 22
+    output: results/aligned_s1.fasta
+    shell:
+        
+        augur align             --sequences results/sequences_s1.fasta             --reference-sequence config/oc43a_rdrp_reference.gb             --output results/aligned_s1.fasta             --fill-gaps
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Removing output files of failed job align since they might be corrupted:
+results/aligned_s1.fasta
+Shutting down, this might take some time.
+Exiting because a job execution failed. Look above for error message
+Complete log: /Users/katekistler/nextstrain/seasonal-cov/santa-sim_oc43a/santa-sim_oc43a-rdrp/.snakemake/log/2020-08-07T190002.479604.snakemake.log

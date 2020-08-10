@@ -1,0 +1,315 @@
+Building DAG of jobs...
+Using shell: /bin/bash
+Provided cores: 4
+Rules claiming more threads will be scaled down.
+Job counts:
+	count	jobs
+	4	align
+	1	all
+	4	ancestral
+	4	export
+	4	format_data
+	4	parse
+	4	refine
+	4	santa_sim
+	4	translate
+	4	tree
+	37
+
+[Fri Aug  7 19:33:54 2020]
+Job 36: Simulating RDRP sequence data with SANTA-SIM
+
+
+[Fri Aug  7 19:33:54 2020]
+Job 34: Simulating RDRP sequence data with SANTA-SIM
+
+
+[Fri Aug  7 19:33:54 2020]
+Job 33: Simulating RDRP sequence data with SANTA-SIM
+
+
+[Fri Aug  7 19:33:54 2020]
+Job 35: Simulating RDRP sequence data with SANTA-SIM
+
+[Fri Aug  7 19:34:20 2020]
+Finished job 33.
+1 of 37 steps (3%) done
+
+[Fri Aug  7 19:34:20 2020]
+Job 23: Formatting data simulated by SANTA-SIM for Augur
+
+[Fri Aug  7 19:34:21 2020]
+Finished job 23.
+2 of 37 steps (5%) done
+
+[Fri Aug  7 19:34:21 2020]
+Job 6: Parsing fasta into sequences and metadata
+
+[Fri Aug  7 19:34:21 2020]
+Finished job 34.
+3 of 37 steps (8%) done
+
+[Fri Aug  7 19:34:21 2020]
+Job 26: Formatting data simulated by SANTA-SIM for Augur
+
+[Fri Aug  7 19:34:21 2020]
+Finished job 35.
+4 of 37 steps (11%) done
+
+[Fri Aug  7 19:34:21 2020]
+Job 29: Formatting data simulated by SANTA-SIM for Augur
+
+[Fri Aug  7 19:34:21 2020]
+Finished job 36.
+5 of 37 steps (14%) done
+
+[Fri Aug  7 19:34:21 2020]
+Job 32: Formatting data simulated by SANTA-SIM for Augur
+
+[Fri Aug  7 19:34:22 2020]
+Finished job 26.
+6 of 37 steps (16%) done
+
+[Fri Aug  7 19:34:22 2020]
+Job 10: Parsing fasta into sequences and metadata
+
+[Fri Aug  7 19:34:22 2020]
+Finished job 29.
+7 of 37 steps (19%) done
+
+[Fri Aug  7 19:34:22 2020]
+Job 14: Parsing fasta into sequences and metadata
+
+[Fri Aug  7 19:34:23 2020]
+Finished job 32.
+8 of 37 steps (22%) done
+
+[Fri Aug  7 19:34:23 2020]
+Job 18: Parsing fasta into sequences and metadata
+
+[Fri Aug  7 19:34:26 2020]
+Finished job 6.
+9 of 37 steps (24%) done
+
+[Fri Aug  7 19:34:26 2020]
+Job 22: 
+        Aligning sequences to config/oc43a_rdrp_reference.gb
+          - filling gaps with N
+        
+
+[Fri Aug  7 19:34:27 2020]
+Finished job 10.
+10 of 37 steps (27%) done
+
+[Fri Aug  7 19:34:27 2020]
+Job 25: 
+        Aligning sequences to config/oc43a_rdrp_reference.gb
+          - filling gaps with N
+        
+
+[Fri Aug  7 19:34:27 2020]
+Finished job 14.
+11 of 37 steps (30%) done
+
+[Fri Aug  7 19:34:27 2020]
+Job 28: 
+        Aligning sequences to config/oc43a_rdrp_reference.gb
+          - filling gaps with N
+        
+
+[Fri Aug  7 19:34:27 2020]
+Finished job 18.
+12 of 37 steps (32%) done
+
+[Fri Aug  7 19:34:27 2020]
+Job 31: 
+        Aligning sequences to config/oc43a_rdrp_reference.gb
+          - filling gaps with N
+        
+
+[Fri Aug  7 19:34:38 2020]
+Finished job 22.
+13 of 37 steps (35%) done
+
+[Fri Aug  7 19:34:38 2020]
+Job 21: Building tree
+
+[Fri Aug  7 19:34:38 2020]
+Finished job 31.
+14 of 37 steps (38%) done
+
+[Fri Aug  7 19:34:38 2020]
+Job 30: Building tree
+
+[Fri Aug  7 19:34:38 2020]
+Finished job 25.
+15 of 37 steps (41%) done
+
+[Fri Aug  7 19:34:38 2020]
+Job 24: Building tree
+
+[Fri Aug  7 19:34:38 2020]
+Finished job 28.
+16 of 37 steps (43%) done
+
+[Fri Aug  7 19:34:38 2020]
+Job 27: Building tree
+
+[Fri Aug  7 19:34:42 2020]
+Finished job 21.
+17 of 37 steps (46%) done
+
+[Fri Aug  7 19:34:42 2020]
+Job 5: 
+        Refining tree
+          - estimate timetree
+          - use opt coalescent timescale
+          - estimate marginal node dates
+          - filter tips more than 4 IQDs from clock expectation
+        
+
+[Fri Aug  7 19:34:42 2020]
+Finished job 24.
+18 of 37 steps (49%) done
+
+[Fri Aug  7 19:34:42 2020]
+Job 9: 
+        Refining tree
+          - estimate timetree
+          - use opt coalescent timescale
+          - estimate marginal node dates
+          - filter tips more than 4 IQDs from clock expectation
+        
+
+[Fri Aug  7 19:34:42 2020]
+Finished job 30.
+19 of 37 steps (51%) done
+
+[Fri Aug  7 19:34:42 2020]
+Job 17: 
+        Refining tree
+          - estimate timetree
+          - use opt coalescent timescale
+          - estimate marginal node dates
+          - filter tips more than 4 IQDs from clock expectation
+        
+
+[Fri Aug  7 19:34:44 2020]
+Finished job 27.
+20 of 37 steps (54%) done
+
+[Fri Aug  7 19:34:44 2020]
+Job 13: 
+        Refining tree
+          - estimate timetree
+          - use opt coalescent timescale
+          - estimate marginal node dates
+          - filter tips more than 4 IQDs from clock expectation
+        
+
+[Fri Aug  7 19:38:29 2020]
+Finished job 13.
+21 of 37 steps (57%) done
+
+[Fri Aug  7 19:38:29 2020]
+Job 15: Reconstructing ancestral sequences and mutations
+
+[Fri Aug  7 19:38:34 2020]
+Finished job 15.
+22 of 37 steps (59%) done
+
+[Fri Aug  7 19:38:34 2020]
+Job 16: Translating amino acid sequences
+
+[Fri Aug  7 19:38:37 2020]
+Finished job 16.
+23 of 37 steps (62%) done
+
+[Fri Aug  7 19:38:37 2020]
+Job 3: Exporting data files for for auspice
+
+[Fri Aug  7 19:38:40 2020]
+Finished job 3.
+24 of 37 steps (65%) done
+[Fri Aug  7 19:38:41 2020]
+Finished job 17.
+25 of 37 steps (68%) done
+
+[Fri Aug  7 19:38:41 2020]
+Job 19: Reconstructing ancestral sequences and mutations
+
+[Fri Aug  7 19:38:45 2020]
+Finished job 19.
+26 of 37 steps (70%) done
+
+[Fri Aug  7 19:38:45 2020]
+Job 20: Translating amino acid sequences
+
+[Fri Aug  7 19:38:47 2020]
+Finished job 5.
+27 of 37 steps (73%) done
+
+[Fri Aug  7 19:38:47 2020]
+Job 7: Reconstructing ancestral sequences and mutations
+
+[Fri Aug  7 19:38:48 2020]
+Finished job 20.
+28 of 37 steps (76%) done
+
+[Fri Aug  7 19:38:48 2020]
+Job 4: Exporting data files for for auspice
+
+[Fri Aug  7 19:38:49 2020]
+Finished job 9.
+29 of 37 steps (78%) done
+
+[Fri Aug  7 19:38:49 2020]
+Job 11: Reconstructing ancestral sequences and mutations
+
+[Fri Aug  7 19:38:51 2020]
+Finished job 4.
+30 of 37 steps (81%) done
+[Fri Aug  7 19:38:51 2020]
+Finished job 7.
+31 of 37 steps (84%) done
+
+[Fri Aug  7 19:38:51 2020]
+Job 8: Translating amino acid sequences
+
+[Fri Aug  7 19:38:52 2020]
+Finished job 11.
+32 of 37 steps (86%) done
+
+[Fri Aug  7 19:38:52 2020]
+Job 12: Translating amino acid sequences
+
+[Fri Aug  7 19:38:53 2020]
+Finished job 8.
+33 of 37 steps (89%) done
+
+[Fri Aug  7 19:38:53 2020]
+Job 1: Exporting data files for for auspice
+
+[Fri Aug  7 19:38:54 2020]
+Finished job 12.
+34 of 37 steps (92%) done
+
+[Fri Aug  7 19:38:54 2020]
+Job 2: Exporting data files for for auspice
+
+[Fri Aug  7 19:38:55 2020]
+Finished job 1.
+35 of 37 steps (95%) done
+[Fri Aug  7 19:38:56 2020]
+Finished job 2.
+36 of 37 steps (97%) done
+
+[Fri Aug  7 19:38:56 2020]
+localrule all:
+    input: auspice/simulated_oc43a_rdrp_s1.json, auspice/simulated_oc43a_rdrp_s5.json, auspice/simulated_oc43a_rdrp_s9.json, auspice/simulated_oc43a_rdrp_s13.json
+    jobid: 0
+
+[Fri Aug  7 19:38:56 2020]
+Finished job 0.
+37 of 37 steps (100%) done
+Complete log: /Users/katekistler/nextstrain/seasonal-cov/santa-sim_oc43a/santa-sim_oc43a-rdrp/replicates/.snakemake/log/2020-08-07T193354.184977.snakemake.log

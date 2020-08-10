@@ -1,7 +1,6 @@
 SCHEME = ['s1', 's5', 's9', 's13']
 
 
-
 rule all:
     input:
         auspice_json = expand("auspice/simulated_oc43a_rdrp_{scheme}.json", scheme= SCHEME)

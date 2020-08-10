@@ -1,0 +1,76 @@
+Building DAG of jobs...
+Using shell: /bin/bash
+Provided cores: 4
+Rules claiming more threads will be scaled down.
+Job counts:
+	count	jobs
+	4	align
+	1	all
+	4	ancestral
+	4	export
+	4	format_data
+	4	parse
+	4	refine
+	4	santa_sim
+	4	translate
+	4	tree
+	37
+
+[Fri Aug  7 19:33:34 2020]
+Job 35: Simulating RDRP sequence data with SANTA-SIM
+
+
+[Fri Aug  7 19:33:34 2020]
+Job 36: Simulating RDRP sequence data with SANTA-SIM
+
+
+[Fri Aug  7 19:33:34 2020]
+Job 33: Simulating RDRP sequence data with SANTA-SIM
+
+
+[Fri Aug  7 19:33:34 2020]
+Job 34: Simulating RDRP sequence data with SANTA-SIM
+
+[Fri Aug  7 19:33:34 2020]
+Error in rule santa_sim:
+    jobid: 36
+    output: data/simulated_rdrp_oc43a_s13.fasta
+    shell:
+        
+        java -jar ../../../../santa-sim/dist/santa.jar config/oc43ardrp_s13.xml
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+[Fri Aug  7 19:33:34 2020]
+Error in rule santa_sim:
+    jobid: 33
+    output: data/simulated_rdrp_oc43a_s1.fasta
+    shell:
+        
+        java -jar ../../../../santa-sim/dist/santa.jar config/oc43ardrp_s1.xml
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+[Fri Aug  7 19:33:34 2020]
+Error in rule santa_sim:
+    jobid: 35
+    output: data/simulated_rdrp_oc43a_s9.fasta
+    shell:
+        
+        java -jar ../../../../santa-sim/dist/santa.jar config/oc43ardrp_s9.xml
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+[Fri Aug  7 19:33:34 2020]
+Error in rule santa_sim:
+    jobid: 34
+    output: data/simulated_rdrp_oc43a_s5.fasta
+    shell:
+        
+        java -jar ../../../../santa-sim/dist/santa.jar config/oc43ardrp_s5.xml
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Shutting down, this might take some time.
+Exiting because a job execution failed. Look above for error message
+Complete log: /Users/katekistler/nextstrain/seasonal-cov/santa-sim_oc43a/santa-sim_oc43a-rdrp/replicates/.snakemake/log/2020-08-07T193333.998687.snakemake.log

@@ -1,0 +1,86 @@
+SCHEME = ['s1', 's5', 's9', 's13']
+
+
+
+
+rule all:
+    input:
+        auspice_json = expand("results/aligned_{scheme}.fasta", scheme= SCHEME)
+
+rule files:
+    params:
+        reference = "config/oc43a_rdrp_reference.gb",
+        colors = "config/colors.tsv",
+        auspice_config = "config/auspice_config.json"
+
+files = rules.files.params
+
+rule santa_sim:
+    message: "Simulating RDRP sequence data with SANTA-SIM"
+    input:
+        xml_file = "config/oc43ardrp_{scheme}.xml"
+    output:
+        simulated_alignment = "data/simulated_rdrp_oc43a_{scheme}.fasta"
+    shell:
+        """
+        java -jar ../../../../../santa-sim/dist/santa.jar {input.xml_file}
+        """
+
+rule format_data:
+    message: "Formatting data simulated by SANTA-SIM for Augur"
+    input:
+        simulated_alignment = rules.santa_sim.output.simulated_alignment
+    output:
+        formatted_alignment = "data/simulated_oc43a_rdrp_{scheme}.fasta"
+    shell:
+        """
+        python3 scripts/format_simulated_data.py \
+            --alignment {input.simulated_alignment}
+        """
+
+rule parse:
+    message: "Parsing fasta into sequences and metadata"
+    input:
+        sequences = rules.format_data.output.formatted_alignment
+    output:
+        sequences = "results/sequences_{scheme}.fasta",
+        metadata = "results/metadata_{scheme}.tsv"
+    params:
+        fasta_fields = "strain date"
+    shell:
+        """
+        augur parse \
+            --sequences {input.sequences} \
+            --output-sequences {output.sequences} \
+            --output-metadata {output.metadata} \
+            --fields {params.fasta_fields}
+        """
+
+rule align:
+    message:
+        """
+        Aligning sequences to {input.reference}
+          - filling gaps with N
+        """
+    input:
+        sequences = rules.parse.output.sequences,
+        reference = files.reference
+    output:
+        alignment = "results/aligned_{scheme}.fasta"
+    shell:
+        """
+        augur align \
+            --sequences {input.sequences} \
+            --reference-sequence {input.reference} \
+            --output {output.alignment} \
+            --fill-gaps
+        """
+
+
+rule clean:
+    message: "Removing directories: {params}"
+    params:
+        "results ",
+        "auspice"
+    shell:
+        "rm -rfv {params}"

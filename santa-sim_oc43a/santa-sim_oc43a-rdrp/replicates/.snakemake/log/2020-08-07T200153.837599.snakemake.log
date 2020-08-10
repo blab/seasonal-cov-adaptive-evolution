@@ -1,0 +1,146 @@
+Building DAG of jobs...
+Using shell: /bin/bash
+Provided cores: 4
+Rules claiming more threads will be scaled down.
+Job counts:
+	count	jobs
+	4	align
+	1	all
+	4	format_data
+	4	parse
+	4	santa_sim
+	17
+
+[Fri Aug  7 20:01:53 2020]
+Job 15: Simulating RDRP sequence data with SANTA-SIM
+
+
+[Fri Aug  7 20:01:53 2020]
+Job 13: Simulating RDRP sequence data with SANTA-SIM
+
+
+[Fri Aug  7 20:01:53 2020]
+Job 16: Simulating RDRP sequence data with SANTA-SIM
+
+
+[Fri Aug  7 20:01:53 2020]
+Job 14: Simulating RDRP sequence data with SANTA-SIM
+
+[Fri Aug  7 20:02:10 2020]
+Finished job 13.
+1 of 17 steps (6%) done
+
+[Fri Aug  7 20:02:10 2020]
+Job 9: Formatting data simulated by SANTA-SIM for Augur
+
+[Fri Aug  7 20:02:10 2020]
+Finished job 9.
+2 of 17 steps (12%) done
+
+[Fri Aug  7 20:02:10 2020]
+Job 5: Parsing fasta into sequences and metadata
+
+[Fri Aug  7 20:02:12 2020]
+Finished job 14.
+3 of 17 steps (18%) done
+
+[Fri Aug  7 20:02:12 2020]
+Job 10: Formatting data simulated by SANTA-SIM for Augur
+
+[Fri Aug  7 20:02:13 2020]
+Finished job 16.
+4 of 17 steps (24%) done
+
+[Fri Aug  7 20:02:13 2020]
+Job 12: Formatting data simulated by SANTA-SIM for Augur
+
+[Fri Aug  7 20:02:13 2020]
+Finished job 10.
+5 of 17 steps (29%) done
+
+[Fri Aug  7 20:02:13 2020]
+Job 6: Parsing fasta into sequences and metadata
+
+[Fri Aug  7 20:02:13 2020]
+Finished job 15.
+6 of 17 steps (35%) done
+
+[Fri Aug  7 20:02:13 2020]
+Job 11: Formatting data simulated by SANTA-SIM for Augur
+
+[Fri Aug  7 20:02:13 2020]
+Finished job 12.
+7 of 17 steps (41%) done
+
+[Fri Aug  7 20:02:13 2020]
+Job 8: Parsing fasta into sequences and metadata
+
+[Fri Aug  7 20:02:14 2020]
+Finished job 11.
+8 of 17 steps (47%) done
+
+[Fri Aug  7 20:02:14 2020]
+Job 7: Parsing fasta into sequences and metadata
+
+[Fri Aug  7 20:02:14 2020]
+Finished job 5.
+9 of 17 steps (53%) done
+
+[Fri Aug  7 20:02:14 2020]
+Job 1: 
+        Aligning sequences to config/oc43a_rdrp_reference.gb
+          - filling gaps with N
+        
+
+[Fri Aug  7 20:02:16 2020]
+Finished job 6.
+10 of 17 steps (59%) done
+
+[Fri Aug  7 20:02:16 2020]
+Job 2: 
+        Aligning sequences to config/oc43a_rdrp_reference.gb
+          - filling gaps with N
+        
+
+[Fri Aug  7 20:02:16 2020]
+Finished job 8.
+11 of 17 steps (65%) done
+
+[Fri Aug  7 20:02:16 2020]
+Job 4: 
+        Aligning sequences to config/oc43a_rdrp_reference.gb
+          - filling gaps with N
+        
+
+[Fri Aug  7 20:02:17 2020]
+Finished job 7.
+12 of 17 steps (71%) done
+
+[Fri Aug  7 20:02:17 2020]
+Job 3: 
+        Aligning sequences to config/oc43a_rdrp_reference.gb
+          - filling gaps with N
+        
+
+[Fri Aug  7 20:02:24 2020]
+Finished job 1.
+13 of 17 steps (76%) done
+[Fri Aug  7 20:02:25 2020]
+Finished job 2.
+14 of 17 steps (82%) done
+[Fri Aug  7 20:02:25 2020]
+Finished job 4.
+15 of 17 steps (88%) done
+[Fri Aug  7 20:02:26 2020]
+Finished job 3.
+16 of 17 steps (94%) done
+
+[Fri Aug  7 20:02:26 2020]
+localrule all:
+    input: results/aligned_s1.fasta, results/aligned_s5.fasta, results/aligned_s9.fasta, results/aligned_s13.fasta
+    jobid: 0
+
+[Fri Aug  7 20:02:26 2020]
+Finished job 0.
+17 of 17 steps (100%) done
+Complete log: /Users/katekistler/nextstrain/seasonal-cov/santa-sim_oc43a/santa-sim_oc43a-rdrp/replicates/.snakemake/log/2020-08-07T200153.837599.snakemake.log
