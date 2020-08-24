@@ -1,0 +1,60 @@
+Building DAG of jobs...
+Using shell: /bin/bash
+Provided cores: 4
+Rules claiming more threads will be scaled down.
+Job counts:
+	count	jobs
+	1	all
+	1	ancestral
+	1	clades
+	1	export
+	1	refine
+	1	translate
+	6
+
+[Fri Aug 21 19:41:43 2020]
+Job 2: 
+        Refining tree
+        
+
+[Fri Aug 21 19:42:33 2020]
+Finished job 2.
+1 of 6 steps (17%) done
+
+[Fri Aug 21 19:42:33 2020]
+Job 4: Reconstructing ancestral sequences and mutations
+
+[Fri Aug 21 19:42:36 2020]
+Finished job 4.
+2 of 6 steps (33%) done
+
+[Fri Aug 21 19:42:36 2020]
+Job 5: Translating amino acid sequences
+
+[Fri Aug 21 19:42:37 2020]
+Finished job 5.
+3 of 6 steps (50%) done
+
+[Fri Aug 21 19:42:37 2020]
+Job 6: Annotating clades
+
+[Fri Aug 21 19:42:40 2020]
+Finished job 6.
+4 of 6 steps (67%) done
+
+[Fri Aug 21 19:42:40 2020]
+Job 1: Exporting data files for for auspice
+
+[Fri Aug 21 19:42:42 2020]
+Finished job 1.
+5 of 6 steps (83%) done
+
+[Fri Aug 21 19:42:42 2020]
+localrule all:
+    input: auspice/seasonal_corona_hku1_replicase1ab.json, auspice/seasonal_corona_hku1_he.json, auspice/seasonal_corona_hku1_spike.json, auspice/seasonal_corona_hku1_nonstructural4.json, auspice/seasonal_corona_hku1_envelope.json, auspice/seasonal_corona_hku1_membrane.json, auspice/seasonal_corona_hku1_nucleocapsid.json, auspice/seasonal_corona_hku1_nucleocapsid2.json, auspice/seasonal_corona_hku1_s1.json, auspice/seasonal_corona_hku1_s2.json
+    jobid: 0
+
+[Fri Aug 21 19:42:42 2020]
+Finished job 0.
+6 of 6 steps (100%) done
+Complete log: /Users/katekistler/nextstrain/seasonal-cov/hku1/.snakemake/log/2020-08-21T194143.609880.snakemake.log

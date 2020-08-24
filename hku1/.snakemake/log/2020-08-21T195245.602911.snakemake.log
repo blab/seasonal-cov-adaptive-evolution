@@ -1,0 +1,447 @@
+Building DAG of jobs...
+Using shell: /bin/bash
+Provided cores: 4
+Rules claiming more threads will be scaled down.
+Job counts:
+	count	jobs
+	9	align
+	1	all
+	9	ancestral
+	9	export
+	9	refine
+	9	translate
+	9	tree
+	55
+
+[Fri Aug 21 19:52:45 2020]
+Job 47: 
+        Aligning sequences to config/hku1_replicase1ab_reference.gb
+          - filling gaps with N
+        
+
+
+[Fri Aug 21 19:52:45 2020]
+Job 71: 
+        Aligning sequences to config/hku1_s2_reference.gb
+          - filling gaps with N
+        
+
+
+[Fri Aug 21 19:52:45 2020]
+Job 62: 
+        Aligning sequences to config/hku1_nucleocapsid_reference.gb
+          - filling gaps with N
+        
+
+
+[Fri Aug 21 19:52:45 2020]
+Job 68: 
+        Aligning sequences to config/hku1_s1_reference.gb
+          - filling gaps with N
+        
+
+[Fri Aug 21 19:52:52 2020]
+Finished job 71.
+1 of 55 steps (2%) done
+
+[Fri Aug 21 19:52:52 2020]
+Job 70: Building tree
+
+[Fri Aug 21 19:52:53 2020]
+Finished job 62.
+2 of 55 steps (4%) done
+
+[Fri Aug 21 19:52:53 2020]
+Job 61: Building tree
+
+[Fri Aug 21 19:52:56 2020]
+Finished job 68.
+3 of 55 steps (5%) done
+
+[Fri Aug 21 19:52:56 2020]
+Job 67: Building tree
+
+[Fri Aug 21 19:52:58 2020]
+Finished job 70.
+4 of 55 steps (7%) done
+
+[Fri Aug 21 19:52:58 2020]
+Job 42: 
+        Refining tree
+        
+
+[Fri Aug 21 19:52:59 2020]
+Finished job 61.
+5 of 55 steps (9%) done
+
+[Fri Aug 21 19:52:59 2020]
+Job 30: 
+        Refining tree
+        
+
+[Fri Aug 21 19:53:02 2020]
+Finished job 67.
+6 of 55 steps (11%) done
+
+[Fri Aug 21 19:53:02 2020]
+Job 38: 
+        Refining tree
+        
+
+[Fri Aug 21 19:53:41 2020]
+Finished job 47.
+7 of 55 steps (13%) done
+
+[Fri Aug 21 19:53:41 2020]
+Job 46: Building tree
+
+[Fri Aug 21 19:53:45 2020]
+Finished job 46.
+8 of 55 steps (15%) done
+
+[Fri Aug 21 19:53:45 2020]
+Job 10: 
+        Refining tree
+        
+
+[Fri Aug 21 19:54:03 2020]
+Finished job 42.
+9 of 55 steps (16%) done
+
+[Fri Aug 21 19:54:03 2020]
+Job 44: Reconstructing ancestral sequences and mutations
+
+[Fri Aug 21 19:54:08 2020]
+Finished job 44.
+10 of 55 steps (18%) done
+
+[Fri Aug 21 19:54:08 2020]
+Job 45: Translating amino acid sequences
+
+[Fri Aug 21 19:54:12 2020]
+Finished job 45.
+11 of 55 steps (20%) done
+
+[Fri Aug 21 19:54:12 2020]
+Job 9: Exporting data files for for auspice
+
+[Fri Aug 21 19:54:15 2020]
+Finished job 9.
+12 of 55 steps (22%) done
+
+[Fri Aug 21 19:54:15 2020]
+Job 50: 
+        Aligning sequences to config/hku1_he_reference.gb
+          - filling gaps with N
+        
+
+[Fri Aug 21 19:54:21 2020]
+Finished job 50.
+13 of 55 steps (24%) done
+
+[Fri Aug 21 19:54:21 2020]
+Job 49: Building tree
+
+[Fri Aug 21 19:54:25 2020]
+Finished job 49.
+14 of 55 steps (25%) done
+
+[Fri Aug 21 19:54:25 2020]
+Job 14: 
+        Refining tree
+        
+
+[Fri Aug 21 19:54:52 2020]
+Finished job 38.
+15 of 55 steps (27%) done
+
+[Fri Aug 21 19:54:52 2020]
+Job 40: Reconstructing ancestral sequences and mutations
+
+[Fri Aug 21 19:54:57 2020]
+Finished job 40.
+16 of 55 steps (29%) done
+
+[Fri Aug 21 19:54:57 2020]
+Job 41: Translating amino acid sequences
+
+[Fri Aug 21 19:55:02 2020]
+Finished job 41.
+17 of 55 steps (31%) done
+
+[Fri Aug 21 19:55:02 2020]
+Job 8: Exporting data files for for auspice
+
+[Fri Aug 21 19:55:07 2020]
+Finished job 8.
+18 of 55 steps (33%) done
+
+[Fri Aug 21 19:55:07 2020]
+Job 65: 
+        Aligning sequences to config/hku1_nucleocapsid2_reference.gb
+          - filling gaps with N
+        
+
+[Fri Aug 21 19:55:12 2020]
+Finished job 65.
+19 of 55 steps (35%) done
+
+[Fri Aug 21 19:55:12 2020]
+Job 64: Building tree
+
+[Fri Aug 21 19:55:15 2020]
+Finished job 64.
+20 of 55 steps (36%) done
+
+[Fri Aug 21 19:55:15 2020]
+Job 34: 
+        Refining tree
+        
+
+[Fri Aug 21 19:55:18 2020]
+Finished job 14.
+21 of 55 steps (38%) done
+
+[Fri Aug 21 19:55:18 2020]
+Job 16: Reconstructing ancestral sequences and mutations
+
+[Fri Aug 21 19:55:22 2020]
+Finished job 16.
+22 of 55 steps (40%) done
+
+[Fri Aug 21 19:55:22 2020]
+Job 17: Translating amino acid sequences
+
+[Fri Aug 21 19:55:24 2020]
+Finished job 30.
+23 of 55 steps (42%) done
+
+[Fri Aug 21 19:55:24 2020]
+Job 32: Reconstructing ancestral sequences and mutations
+
+[Fri Aug 21 19:55:25 2020]
+Finished job 17.
+24 of 55 steps (44%) done
+
+[Fri Aug 21 19:55:25 2020]
+Job 2: Exporting data files for for auspice
+
+[Fri Aug 21 19:55:28 2020]
+Finished job 10.
+25 of 55 steps (45%) done
+
+[Fri Aug 21 19:55:28 2020]
+Job 12: Reconstructing ancestral sequences and mutations
+
+[Fri Aug 21 19:55:29 2020]
+Finished job 32.
+26 of 55 steps (47%) done
+
+[Fri Aug 21 19:55:29 2020]
+Job 33: Translating amino acid sequences
+
+[Fri Aug 21 19:55:29 2020]
+Finished job 2.
+27 of 55 steps (49%) done
+
+[Fri Aug 21 19:55:29 2020]
+Job 59: 
+        Aligning sequences to config/hku1_membrane_reference.gb
+          - filling gaps with N
+        
+
+[Fri Aug 21 19:55:33 2020]
+Finished job 33.
+28 of 55 steps (51%) done
+
+[Fri Aug 21 19:55:33 2020]
+Job 6: Exporting data files for for auspice
+
+[Fri Aug 21 19:55:34 2020]
+Finished job 59.
+29 of 55 steps (53%) done
+
+[Fri Aug 21 19:55:34 2020]
+Job 58: Building tree
+
+[Fri Aug 21 19:55:37 2020]
+Finished job 6.
+30 of 55 steps (55%) done
+
+[Fri Aug 21 19:55:37 2020]
+Job 53: 
+        Aligning sequences to config/hku1_nonstructural4_reference.gb
+          - filling gaps with N
+        
+
+[Fri Aug 21 19:55:38 2020]
+Finished job 12.
+31 of 55 steps (56%) done
+
+[Fri Aug 21 19:55:38 2020]
+Job 13: Translating amino acid sequences
+
+[Fri Aug 21 19:55:38 2020]
+Finished job 58.
+32 of 55 steps (58%) done
+
+[Fri Aug 21 19:55:38 2020]
+Job 26: 
+        Refining tree
+        
+
+[Fri Aug 21 19:55:42 2020]
+Finished job 53.
+33 of 55 steps (60%) done
+
+[Fri Aug 21 19:55:42 2020]
+Job 52: Building tree
+
+[Fri Aug 21 19:55:43 2020]
+Finished job 13.
+34 of 55 steps (62%) done
+
+[Fri Aug 21 19:55:43 2020]
+Job 1: Exporting data files for for auspice
+
+[Fri Aug 21 19:55:46 2020]
+Finished job 52.
+35 of 55 steps (64%) done
+
+[Fri Aug 21 19:55:46 2020]
+Job 18: 
+        Refining tree
+        
+
+[Fri Aug 21 19:55:49 2020]
+Finished job 1.
+36 of 55 steps (65%) done
+
+[Fri Aug 21 19:55:49 2020]
+Job 56: 
+        Aligning sequences to config/hku1_envelope_reference.gb
+          - filling gaps with N
+        
+
+[Fri Aug 21 19:55:53 2020]
+Finished job 56.
+37 of 55 steps (67%) done
+
+[Fri Aug 21 19:55:53 2020]
+Job 55: Building tree
+
+[Fri Aug 21 19:55:56 2020]
+Finished job 55.
+38 of 55 steps (69%) done
+
+[Fri Aug 21 19:55:56 2020]
+Job 22: 
+        Refining tree
+        
+
+[Fri Aug 21 19:56:26 2020]
+Finished job 22.
+39 of 55 steps (71%) done
+
+[Fri Aug 21 19:56:26 2020]
+Job 24: Reconstructing ancestral sequences and mutations
+
+[Fri Aug 21 19:56:29 2020]
+Finished job 26.
+40 of 55 steps (73%) done
+
+[Fri Aug 21 19:56:29 2020]
+Job 28: Reconstructing ancestral sequences and mutations
+
+[Fri Aug 21 19:56:30 2020]
+Finished job 24.
+41 of 55 steps (75%) done
+
+[Fri Aug 21 19:56:30 2020]
+Job 25: Translating amino acid sequences
+
+[Fri Aug 21 19:56:32 2020]
+Finished job 28.
+42 of 55 steps (76%) done
+
+[Fri Aug 21 19:56:32 2020]
+Job 29: Translating amino acid sequences
+
+[Fri Aug 21 19:56:33 2020]
+Finished job 25.
+43 of 55 steps (78%) done
+
+[Fri Aug 21 19:56:33 2020]
+Job 4: Exporting data files for for auspice
+
+[Fri Aug 21 19:56:35 2020]
+Finished job 18.
+44 of 55 steps (80%) done
+
+[Fri Aug 21 19:56:35 2020]
+Job 20: Reconstructing ancestral sequences and mutations
+
+[Fri Aug 21 19:56:36 2020]
+Finished job 29.
+45 of 55 steps (82%) done
+
+[Fri Aug 21 19:56:36 2020]
+Job 5: Exporting data files for for auspice
+
+[Fri Aug 21 19:56:37 2020]
+Finished job 4.
+46 of 55 steps (84%) done
+[Fri Aug 21 19:56:39 2020]
+Finished job 20.
+47 of 55 steps (85%) done
+
+[Fri Aug 21 19:56:39 2020]
+Job 21: Translating amino acid sequences
+
+[Fri Aug 21 19:56:40 2020]
+Finished job 5.
+48 of 55 steps (87%) done
+[Fri Aug 21 19:56:42 2020]
+Finished job 21.
+49 of 55 steps (89%) done
+
+[Fri Aug 21 19:56:42 2020]
+Job 3: Exporting data files for for auspice
+
+[Fri Aug 21 19:56:44 2020]
+Finished job 3.
+50 of 55 steps (91%) done
+[Fri Aug 21 19:57:00 2020]
+Finished job 34.
+51 of 55 steps (93%) done
+
+[Fri Aug 21 19:57:00 2020]
+Job 36: Reconstructing ancestral sequences and mutations
+
+[Fri Aug 21 19:57:02 2020]
+Finished job 36.
+52 of 55 steps (95%) done
+
+[Fri Aug 21 19:57:02 2020]
+Job 37: Translating amino acid sequences
+
+[Fri Aug 21 19:57:03 2020]
+Finished job 37.
+53 of 55 steps (96%) done
+
+[Fri Aug 21 19:57:03 2020]
+Job 7: Exporting data files for for auspice
+
+[Fri Aug 21 19:57:05 2020]
+Finished job 7.
+54 of 55 steps (98%) done
+
+[Fri Aug 21 19:57:05 2020]
+localrule all:
+    input: auspice/seasonal_corona_hku1_replicase1ab.json, auspice/seasonal_corona_hku1_he.json, auspice/seasonal_corona_hku1_nonstructural4.json, auspice/seasonal_corona_hku1_envelope.json, auspice/seasonal_corona_hku1_membrane.json, auspice/seasonal_corona_hku1_nucleocapsid.json, auspice/seasonal_corona_hku1_nucleocapsid2.json, auspice/seasonal_corona_hku1_s1.json, auspice/seasonal_corona_hku1_s2.json
+    jobid: 0
+
+[Fri Aug 21 19:57:05 2020]
+Finished job 0.
+55 of 55 steps (100%) done
+Complete log: /Users/katekistler/nextstrain/seasonal-cov/hku1/.snakemake/log/2020-08-21T195245.602911.snakemake.log

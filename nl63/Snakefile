@@ -1,6 +1,7 @@
 
 # GENE = ["full"]
-GENE = ["spike", "replicase1ab", "protein3", "envelope", "membrane", "nucleocapsid", "s1", "s2"]
+GENE = ["replicase1ab", "protein3", "envelope", "membrane", "nucleocapsid", "s1", "s2"]
+# GENE = ["spike"]
 
 
 
@@ -186,19 +187,15 @@ rule translate:
             --tree {input.tree} \
             --ancestral-sequences {input.node_data} \
             --reference-sequence {input.reference} \
-            --output-node-data {output.node_data}
+            --output {output.node_data} \
         """
 
 #
 # Define clades functions
 #
 def _get_clades_file_for_wildcards(wildcards):
-    # if wildcards.gene == "spike":
-    #     return "config/clades_spike.tsv"
-    # elif wildcards.gene == "full":
-    #     return "config/clades_full.tsv"
-    # else:
-    return "config/clades_%s.tsv"%wildcards.gene
+    if wildcards.gene == 'spike' or wildcards.gene == 'full':
+        return "config/clades_%s.tsv"%wildcards.gene
 
 rule clades:
     message: "Annotating clades"
@@ -248,18 +245,19 @@ rule export:
         aa_muts = rules.translate.output.node_data,
         lat_longs = files.lat_longs,
         auspice_config = files.auspice_config,
-        colors = files.colors,
-        clades = rules.clades.output.node_data
+        colors = files.colors
+        # clades = rules.clades.output.node_data
         # description = files.description
     output:
         auspice_json = "auspice/seasonal_corona_nl63_{gene}.json"
         # auspice_json = rules.all.input.auspice_json
+        # --node-data {input.branch_lengths} {input.nt_muts} {input.aa_muts} {input.clades} \
     shell:
         """
         augur export v2 \
             --tree {input.tree} \
             --metadata {input.metadata} \
-            --node-data {input.branch_lengths} {input.nt_muts} {input.aa_muts} {input.clades} \
+            --node-data {input.branch_lengths} {input.nt_muts} {input.aa_muts} \
             --include-root-sequence \
             --auspice-config {input.auspice_config} \
             --lat-longs {input.lat_longs} \

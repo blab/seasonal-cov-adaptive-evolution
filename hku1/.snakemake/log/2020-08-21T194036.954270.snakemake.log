@@ -1,0 +1,50 @@
+Building DAG of jobs...
+Using shell: /bin/bash
+Provided cores: 4
+Rules claiming more threads will be scaled down.
+Job counts:
+	count	jobs
+	1	align
+	1	all
+	1	ancestral
+	1	clades
+	1	export
+	1	refine
+	1	translate
+	1	tree
+	8
+
+[Fri Aug 21 19:40:37 2020]
+Job 8: 
+        Aligning sequences to config/hku1_spike_reference.gb
+          - filling gaps with N
+        
+
+[Fri Aug 21 19:40:45 2020]
+Finished job 8.
+1 of 8 steps (12%) done
+
+[Fri Aug 21 19:40:45 2020]
+Job 7: Building tree
+
+[Fri Aug 21 19:40:48 2020]
+Finished job 7.
+2 of 8 steps (25%) done
+
+[Fri Aug 21 19:40:48 2020]
+Job 2: 
+        Refining tree
+        
+
+Terminating processes on user request, this might take some time.
+[Fri Aug 21 19:41:02 2020]
+Error in rule refine:
+    jobid: 2
+    output: results/tree_hku1_spike.nwk, results/branch_lengths_hku1_spike.json
+    shell:
+        
+        augur refine             --tree results/tree_raw_hku1_spike.nwk             --alignment results/aligned_hku1_spike.fasta             --metadata results/metadata_hku1_spike.tsv             --output-tree results/tree_hku1_spike.nwk             --output-node-data results/branch_lengths_hku1_spike.json             --timetree             --root hku14_3/JN874560/HKU1/china/2007             --coalescent opt             --date-confidence             --date-inference marginal             --clock-filter-iqd 4
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Complete log: /Users/katekistler/nextstrain/seasonal-cov/hku1/.snakemake/log/2020-08-21T194036.954270.snakemake.log

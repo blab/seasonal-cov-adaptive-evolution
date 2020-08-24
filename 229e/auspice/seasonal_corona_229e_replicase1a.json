@@ -31,6 +31,13 @@
         "start": 1,
         "strand": "+",
         "type": "source"
+      },
+      "replicase1a": {
+        "end": 12258,
+        "seqid": "config/229e_replicase1a_reference.gb",
+        "start": 1,
+        "strand": "+",
+        "type": "CDS"
       }
     },
     "maintainers": [
@@ -42,7 +49,7 @@
       "tree"
     ],
     "title": "Genetic diversity of seasonal coronaviruses. Data collected by Vipr",
-    "updated": "2020-05-08"
+    "updated": "2020-08-21"
   },
   "tree": {
     "branch_attrs": {
@@ -51,6 +58,9 @@
     "children": [
       {
         "branch_attrs": {
+          "labels": {
+            "aa": "replicase1a: K162R, A569V, A1309V, D1369E, V1456I, A1598V, K1824R, S1913N, N1918K, A2691V, A2811S"
+          },
           "mutations": {
             "nuc": [
               "C276T",
@@ -77,6 +87,19 @@
               "G8431T",
               "C8853T",
               "T11952C"
+            ],
+            "replicase1a": [
+              "K162R",
+              "A569V",
+              "A1309V",
+              "D1369E",
+              "V1456I",
+              "A1598V",
+              "K1824R",
+              "S1913N",
+              "N1918K",
+              "A2691V",
+              "A2811S"
             ]
           }
         },
@@ -86,7 +109,7 @@
           "country": {
             "value": "USA"
           },
-          "div": 0.001229712618304487,
+          "div": 0.0009017265053791244,
           "host": {
             "value": "Human"
           },
@@ -106,6 +129,9 @@
         "children": [
           {
             "branch_attrs": {
+              "labels": {
+                "aa": "replicase1a: S413Y, S778F, D1279G, V3454M"
+              },
               "mutations": {
                 "nuc": [
                   "C1238A",
@@ -124,6 +150,12 @@
                   "A11283G",
                   "G11508A",
                   "G12096A"
+                ],
+                "replicase1a": [
+                  "S413Y",
+                  "S778F",
+                  "D1279G",
+                  "V3454M"
                 ]
               }
             },
@@ -133,7 +165,7 @@
               "country": {
                 "value": "USA"
               },
-              "div": 0.0020384337154182464,
+              "div": 0.0022011720349852555,
               "host": {
                 "value": "Human"
               },
@@ -148,16 +180,25 @@
           },
           {
             "branch_attrs": {
+              "labels": {
+                "aa": "replicase1a: M1748V"
+              },
               "mutations": {
                 "nuc": [
                   "A5242G",
                   "C7464T"
+                ],
+                "replicase1a": [
+                  "M1748V"
                 ]
               }
             },
             "children": [
               {
                 "branch_attrs": {
+                  "labels": {
+                    "aa": "replicase1a: W399R, G3658S, G3858C, A3958V"
+                  },
                   "mutations": {
                     "nuc": [
                       "T1195C",
@@ -167,6 +208,12 @@
                       "G10972A",
                       "G11572T",
                       "C11873T"
+                    ],
+                    "replicase1a": [
+                      "W399R",
+                      "G3658S",
+                      "G3858C",
+                      "A3958V"
                     ]
                   }
                 },
@@ -176,7 +223,7 @@
                   "country": {
                     "value": "USA"
                   },
-                  "div": 0.0014668406997103696,
+                  "div": 0.002118878235695456,
                   "host": {
                     "value": "Human"
                   },
@@ -191,6 +238,9 @@
               },
               {
                 "branch_attrs": {
+                  "labels": {
+                    "aa": "replicase1a: T1261I, E2356D"
+                  },
                   "mutations": {
                     "nuc": [
                       "C3782T",
@@ -198,12 +248,19 @@
                       "C6528T",
                       "G7068T",
                       "T10626C"
+                    ],
+                    "replicase1a": [
+                      "T1261I",
+                      "E2356D"
                     ]
                   }
                 },
                 "children": [
                   {
                     "branch_attrs": {
+                      "labels": {
+                        "aa": "replicase1a: M129I, T628I, E943D, E1265K, E2650K"
+                      },
                       "mutations": {
                         "nuc": [
                           "G387A",
@@ -214,6 +271,13 @@
                           "T5739G",
                           "G7948A",
                           "T12099C"
+                        ],
+                        "replicase1a": [
+                          "M129I",
+                          "T628I",
+                          "E943D",
+                          "E1265K",
+                          "E2650K"
                         ]
                       }
                     },
@@ -223,7 +287,7 @@
                       "country": {
                         "value": "USA"
                       },
-                      "div": 0.0019557754948118433,
+                      "div": 0.0026078132922397594,
                       "host": {
                         "value": "Human"
                       },
@@ -247,12 +311,18 @@
                     "children": [
                       {
                         "branch_attrs": {
+                          "labels": {
+                            "aa": "replicase1a: D1296E"
+                          },
                           "mutations": {
                             "nuc": [
                               "A393G",
                               "T3867C",
                               "C3888A",
                               "T7827C"
+                            ],
+                            "replicase1a": [
+                              "D1296E"
                             ]
                           }
                         },
@@ -262,7 +332,7 @@
                           "country": {
                             "value": "USA"
                           },
-                          "div": 0.0017162355468044851,
+                          "div": 0.002368273045726762,
                           "host": {
                             "value": "Human"
                           },
@@ -277,6 +347,9 @@
                       },
                       {
                         "branch_attrs": {
+                          "labels": {
+                            "aa": "replicase1a: A468T, M600I, D774N, D1279G, I1930V, I3808T"
+                          },
                           "mutations": {
                             "nuc": [
                               "T537C",
@@ -292,13 +365,25 @@
                               "G9924T",
                               "C10713T",
                               "A11283G",
+                              "T11423C",
                               "C11703T"
+                            ],
+                            "replicase1a": [
+                              "A468T",
+                              "M600I",
+                              "D774N",
+                              "D1279G",
+                              "I1930V",
+                              "I3808T"
                             ]
                           }
                         },
                         "children": [
                           {
                             "branch_attrs": {
+                              "labels": {
+                                "aa": "replicase1a: T247N, Y558H, I636V, E869D, S1352N, P2156T, A2373D, F2764L, F2977L"
+                              },
                               "mutations": {
                                 "nuc": [
                                   "G480A",
@@ -329,12 +414,22 @@
                                   "C10675T",
                                   "C10767T",
                                   "C11415T",
-                                  "T11423C",
                                   "C11475T",
                                   "C11784T",
                                   "C11805T",
                                   "T11922C",
                                   "T12063G"
+                                ],
+                                "replicase1a": [
+                                  "T247N",
+                                  "Y558H",
+                                  "I636V",
+                                  "E869D",
+                                  "S1352N",
+                                  "P2156T",
+                                  "A2373D",
+                                  "F2764L",
+                                  "F2977L"
                                 ]
                               }
                             },
@@ -344,13 +439,13 @@
                               "country": {
                                 "value": "Italy"
                               },
-                              "div": 0.005302781513608722,
+                              "div": 0.005954819800599453,
                               "host": {
                                 "value": "Human"
                               },
                               "num_date": {
                                 "confidence": [
-                                  2009.1146963523856,
+                                  2009.1148787320167,
                                   2009.9986301369863
                                 ],
                                 "value": 2009.9986301369863
@@ -359,6 +454,9 @@
                           },
                           {
                             "branch_attrs": {
+                              "labels": {
+                                "aa": "replicase1a: F554S, A1282V, S1713L, A1767V, K2019E, L2134F, Y2517H, S3951A"
+                              },
                               "mutations": {
                                 "nuc": [
                                   "T1661C",
@@ -384,18 +482,34 @@
                                   "C9849T",
                                   "T11851G",
                                   "C12234A"
+                                ],
+                                "replicase1a": [
+                                  "F554S",
+                                  "A1282V",
+                                  "S1713L",
+                                  "A1767V",
+                                  "K2019E",
+                                  "L2134F",
+                                  "Y2517H",
+                                  "S3951A"
                                 ]
                               }
                             },
                             "children": [
                               {
                                 "branch_attrs": {
+                                  "labels": {
+                                    "aa": "replicase1a: S686G, G763C"
+                                  },
                                   "mutations": {
                                     "nuc": [
                                       "A2056G",
                                       "G2287T",
-                                      "T11253A",
-                                      "T11423C"
+                                      "T11253A"
+                                    ],
+                                    "replicase1a": [
+                                      "S686G",
+                                      "G763C"
                                     ]
                                   }
                                 },
@@ -405,14 +519,14 @@
                                   "country": {
                                     "value": "Netherlands"
                                   },
-                                  "div": 0.004729157431904246,
+                                  "div": 0.005381195254150334,
                                   "host": {
                                     "value": "Human"
                                   },
                                   "num_date": {
                                     "confidence": [
                                       2010.0013698630137,
-                                      2010.8492861750178
+                                      2010.8426800453406
                                     ],
                                     "value": 2010.0013698630137
                                   }
@@ -420,6 +534,9 @@
                               },
                               {
                                 "branch_attrs": {
+                                  "labels": {
+                                    "aa": "replicase1a: S992F, T3808I"
+                                  },
                                   "mutations": {
                                     "nuc": [
                                       "G2097A",
@@ -427,13 +544,21 @@
                                       "C2975T",
                                       "T4593C",
                                       "T6609C",
-                                      "G8937A"
+                                      "G8937A",
+                                      "C11423T"
+                                    ],
+                                    "replicase1a": [
+                                      "S992F",
+                                      "T3808I"
                                     ]
                                   }
                                 },
                                 "children": [
                                   {
                                     "branch_attrs": {
+                                      "labels": {
+                                        "aa": "replicase1a: L688F, P795T, T1145I, H1278Y, D1479N, T2024I, V2110G, K2693T, H3061Y"
+                                      },
                                       "mutations": {
                                         "nuc": [
                                           "A141G",
@@ -454,6 +579,17 @@
                                           "T9321A",
                                           "C10422A",
                                           "G11439A"
+                                        ],
+                                        "replicase1a": [
+                                          "L688F",
+                                          "P795T",
+                                          "T1145I",
+                                          "H1278Y",
+                                          "D1479N",
+                                          "T2024I",
+                                          "V2110G",
+                                          "K2693T",
+                                          "H3061Y"
                                         ]
                                       }
                                     },
@@ -468,7 +604,7 @@
                                           "country": {
                                             "value": "USA"
                                           },
-                                          "div": 0.006524270563449139,
+                                          "div": 0.007176309058637832,
                                           "host": {
                                             "value": "Human"
                                           },
@@ -477,7 +613,7 @@
                                               2016.0013661202186,
                                               2016.9986338797814
                                             ],
-                                            "value": 2016.0484569341727
+                                            "value": 2016.165537473056
                                           }
                                         }
                                       },
@@ -491,7 +627,7 @@
                                           "country": {
                                             "value": "USA"
                                           },
-                                          "div": 0.006524270563449139,
+                                          "div": 0.007176309058637832,
                                           "host": {
                                             "value": "Human"
                                           },
@@ -500,20 +636,20 @@
                                               2016.0013661202186,
                                               2016.9986338797814
                                             ],
-                                            "value": 2016.0484569341727
+                                            "value": 2016.165537473056
                                           }
                                         }
                                       }
                                     ],
                                     "name": "NODE_0000012",
                                     "node_attrs": {
-                                      "div": 0.0065242705634491385,
+                                      "div": 0.007176309058637832,
                                       "num_date": {
                                         "confidence": [
-                                          2015.5199579384298,
-                                          2016.483582025644
+                                          2015.64729236576,
+                                          2016.5825368602398
                                         ],
-                                        "value": 2015.8250892771164
+                                        "value": 2016.0081401757996
                                       }
                                     }
                                   },
@@ -557,14 +693,14 @@
                                               "country": {
                                                 "value": "Germany"
                                               },
-                                              "div": 0.005951949028734149,
+                                              "div": 0.00660398753858742,
                                               "host": {
                                                 "value": "Human"
                                               },
                                               "num_date": {
                                                 "confidence": [
                                                   2015.0013698630137,
-                                                  2015.8135045921674
+                                                  2015.816250141374
                                                 ],
                                                 "value": 2015.0013698630137
                                               }
@@ -572,6 +708,9 @@
                                           },
                                           {
                                             "branch_attrs": {
+                                              "labels": {
+                                                "aa": "replicase1a: N112S, R151H, V1441F, V2009I, V3264I"
+                                              },
                                               "mutations": {
                                                 "nuc": [
                                                   "A335G",
@@ -584,12 +723,22 @@
                                                   "C7087T",
                                                   "G9790A",
                                                   "C11037T"
+                                                ],
+                                                "replicase1a": [
+                                                  "N112S",
+                                                  "R151H",
+                                                  "V1441F",
+                                                  "V2009I",
+                                                  "V3264I"
                                                 ]
                                               }
                                             },
                                             "children": [
                                               {
                                                 "branch_attrs": {
+                                                  "labels": {
+                                                    "aa": "replicase1a: A1000V, V1814I"
+                                                  },
                                                   "mutations": {
                                                     "nuc": [
                                                       "A1539G",
@@ -600,6 +749,10 @@
                                                       "C6510T",
                                                       "C9009T",
                                                       "C10116A"
+                                                    ],
+                                                    "replicase1a": [
+                                                      "A1000V",
+                                                      "V1814I"
                                                     ]
                                                   }
                                                 },
@@ -609,13 +762,13 @@
                                                   "country": {
                                                     "value": "USA"
                                                   },
-                                                  "div": 0.006930565049373609,
+                                                  "div": 0.007582603837113669,
                                                   "host": {
                                                     "value": "Human"
                                                   },
                                                   "num_date": {
                                                     "confidence": [
-                                                      2016.2000887176662,
+                                                      2016.2215290645934,
                                                       2016.9986338797814
                                                     ],
                                                     "value": 2016.9986338797814
@@ -624,6 +777,9 @@
                                               },
                                               {
                                                 "branch_attrs": {
+                                                  "labels": {
+                                                    "aa": "replicase1a: V1451L, I1691V"
+                                                  },
                                                   "mutations": {
                                                     "nuc": [
                                                       "T3426C",
@@ -631,10 +787,60 @@
                                                       "A5071G",
                                                       "T8448C",
                                                       "C8859T"
+                                                    ],
+                                                    "replicase1a": [
+                                                      "V1451L",
+                                                      "I1691V"
                                                     ]
                                                   }
                                                 },
                                                 "children": [
+                                                  {
+                                                    "branch_attrs": {
+                                                      "mutations": {}
+                                                    },
+                                                    "name": "229e/KY674914/HCoV_229E/Seattle/USA/SC399/2016/2016",
+                                                    "node_attrs": {
+                                                      "accession": "KY674914",
+                                                      "country": {
+                                                        "value": "USA"
+                                                      },
+                                                      "div": 0.007337762162252576,
+                                                      "host": {
+                                                        "value": "Human"
+                                                      },
+                                                      "num_date": {
+                                                        "confidence": [
+                                                          2016.0013661202186,
+                                                          2016.9986338797814
+                                                        ],
+                                                        "value": 2016.021187597947
+                                                      }
+                                                    }
+                                                  },
+                                                  {
+                                                    "branch_attrs": {
+                                                      "mutations": {}
+                                                    },
+                                                    "name": "229e/KY621348/HCoV_229E/Seattle/USA/SC379/2016/2016",
+                                                    "node_attrs": {
+                                                      "accession": "KY621348",
+                                                      "country": {
+                                                        "value": "USA"
+                                                      },
+                                                      "div": 0.007337762162252576,
+                                                      "host": {
+                                                        "value": "Human"
+                                                      },
+                                                      "num_date": {
+                                                        "confidence": [
+                                                          2016.0013661202186,
+                                                          2016.9986338797814
+                                                        ],
+                                                        "value": 2016.021187597947
+                                                      }
+                                                    }
+                                                  },
                                                   {
                                                     "branch_attrs": {
                                                       "mutations": {}
@@ -645,124 +851,63 @@
                                                       "country": {
                                                         "value": "USA"
                                                       },
-                                                      "div": 0.00668572356969255,
+                                                      "div": 0.007337762162252576,
                                                       "host": {
                                                         "value": "Human"
                                                       },
                                                       "num_date": {
                                                         "confidence": [
                                                           2016.0013661202186,
-                                                          2016.7365430080158
+                                                          2016.9986338797814
                                                         ],
-                                                        "value": 2016.0013661202186
-                                                      }
-                                                    }
-                                                  },
-                                                  {
-                                                    "branch_attrs": {
-                                                      "mutations": {}
-                                                    },
-                                                    "children": [
-                                                      {
-                                                        "branch_attrs": {
-                                                          "mutations": {}
-                                                        },
-                                                        "name": "229e/KY621348/HCoV_229E/Seattle/USA/SC379/2016/2016",
-                                                        "node_attrs": {
-                                                          "accession": "KY621348",
-                                                          "country": {
-                                                            "value": "USA"
-                                                          },
-                                                          "div": 0.006685723569692551,
-                                                          "host": {
-                                                            "value": "Human"
-                                                          },
-                                                          "num_date": {
-                                                            "confidence": [
-                                                              2016.0013661202186,
-                                                              2016.9986338797814
-                                                            ],
-                                                            "value": 2016.1167362440467
-                                                          }
-                                                        }
-                                                      },
-                                                      {
-                                                        "branch_attrs": {
-                                                          "mutations": {}
-                                                        },
-                                                        "name": "229e/KY674914/HCoV_229E/Seattle/USA/SC399/2016/2016",
-                                                        "node_attrs": {
-                                                          "accession": "KY674914",
-                                                          "country": {
-                                                            "value": "USA"
-                                                          },
-                                                          "div": 0.006685723569692551,
-                                                          "host": {
-                                                            "value": "Human"
-                                                          },
-                                                          "num_date": {
-                                                            "confidence": [
-                                                              2016.0013661202186,
-                                                              2016.9986338797814
-                                                            ],
-                                                            "value": 2016.1167362440467
-                                                          }
-                                                        }
-                                                      }
-                                                    ],
-                                                    "name": "NODE_0000019",
-                                                    "node_attrs": {
-                                                      "div": 0.00668572356969255,
-                                                      "num_date": {
-                                                        "confidence": [
-                                                          2015.6856525585765,
-                                                          2016.5112373067345
-                                                        ],
-                                                        "value": 2015.8250892771164
+                                                        "value": 2016.021187597947
                                                       }
                                                     }
                                                   }
                                                 ],
                                                 "name": "NODE_0000016",
                                                 "node_attrs": {
-                                                  "div": 0.006685723569692549,
+                                                  "div": 0.007337762162252576,
                                                   "num_date": {
                                                     "confidence": [
-                                                      2015.4820364701675,
-                                                      2016.3654336799
+                                                      2015.734697923525,
+                                                      2016.418702478097
                                                     ],
-                                                    "value": 2015.8250892771164
+                                                    "value": 2015.9226943904944
                                                   }
                                                 }
                                               }
                                             ],
                                             "name": "NODE_0000015",
                                             "node_attrs": {
-                                              "div": 0.00627812752033644,
+                                              "div": 0.006930166084310441,
                                               "num_date": {
                                                 "confidence": [
-                                                  2013.9031610532845,
-                                                  2015.1480083667263
+                                                  2014.0470666396714,
+                                                  2015.3190821940989
                                                 ],
-                                                "value": 2014.6829323961333
+                                                "value": 2014.898135858126
                                               }
                                             }
                                           }
                                         ],
                                         "name": "NODE_0000014",
                                         "node_attrs": {
-                                          "div": 0.005462647389338055,
+                                          "div": 0.006114685744655826,
                                           "num_date": {
                                             "confidence": [
-                                              2011.072310200091,
-                                              2013.376061804274
+                                              2011.549704420743,
+                                              2013.3535805706015
                                             ],
-                                            "value": 2011.9926623056876
+                                            "value": 2012.4744855805402
                                           }
                                         }
                                       },
                                       {
                                         "branch_attrs": {
+                                          "labels": {
+                                            "aa": "replicase1a: P795T, F1415V, S2182L, A2722G, F3190S, T3734N"
+                                          },
                                           "mutations": {
                                             "nuc": [
                                               "C831T",
@@ -775,6 +920,14 @@
                                               "T9569C",
                                               "T11139A",
                                               "C11201A"
+                                            ],
+                                            "replicase1a": [
+                                              "P795T",
+                                              "F1415V",
+                                              "S2182L",
+                                              "A2722G",
+                                              "F3190S",
+                                              "T3734N"
                                             ]
                                           }
                                         },
@@ -786,6 +939,9 @@
                                             "children": [
                                               {
                                                 "branch_attrs": {
+                                                  "labels": {
+                                                    "aa": "replicase1a: V1451L, G2488V"
+                                                  },
                                                   "mutations": {
                                                     "nuc": [
                                                       "G3717A",
@@ -793,6 +949,10 @@
                                                       "G7463T",
                                                       "T10848C",
                                                       "A11280G"
+                                                    ],
+                                                    "replicase1a": [
+                                                      "V1451L",
+                                                      "G2488V"
                                                     ]
                                                   }
                                                 },
@@ -802,14 +962,14 @@
                                                   "country": {
                                                     "value": "USA"
                                                   },
-                                                  "div": 0.006441982974648382,
+                                                  "div": 0.007094021520977916,
                                                   "host": {
                                                     "value": "Human"
                                                   },
                                                   "num_date": {
                                                     "confidence": [
                                                       2016.0013661202186,
-                                                      2016.8680457134542
+                                                      2016.8716930400942
                                                     ],
                                                     "value": 2016.0013661202186
                                                   }
@@ -817,17 +977,26 @@
                                               },
                                               {
                                                 "branch_attrs": {
+                                                  "labels": {
+                                                    "aa": "replicase1a: V1436L"
+                                                  },
                                                   "mutations": {
                                                     "nuc": [
                                                       "C3822T",
                                                       "G4306T",
                                                       "C7842T"
+                                                    ],
+                                                    "replicase1a": [
+                                                      "V1436L"
                                                     ]
                                                   }
                                                 },
                                                 "children": [
                                                   {
                                                     "branch_attrs": {
+                                                      "labels": {
+                                                        "aa": "replicase1a: L616S, D947N, P1908L, A3216S"
+                                                      },
                                                       "mutations": {
                                                         "nuc": [
                                                           "T1847C",
@@ -835,6 +1004,12 @@
                                                           "C5723T",
                                                           "G9646T",
                                                           "C11511A"
+                                                        ],
+                                                        "replicase1a": [
+                                                          "L616S",
+                                                          "D947N",
+                                                          "P1908L",
+                                                          "A3216S"
                                                         ]
                                                       }
                                                     },
@@ -844,27 +1019,33 @@
                                                       "country": {
                                                         "value": "USA"
                                                       },
-                                                      "div": 0.006686765094191508,
+                                                      "div": 0.007338803692183301,
                                                       "host": {
                                                         "value": "Human"
                                                       },
                                                       "num_date": {
                                                         "confidence": [
-                                                          2016.0013661202186,
+                                                          2016.1945283377217,
                                                           2016.9986338797814
                                                         ],
-                                                        "value": 2016.942635347127
+                                                        "value": 2016.9986338797814
                                                       }
                                                     }
                                                   },
                                                   {
                                                     "branch_attrs": {
+                                                      "labels": {
+                                                        "aa": "replicase1a: S2570R"
+                                                      },
                                                       "mutations": {
                                                         "nuc": [
                                                           "T5187C",
                                                           "T7302C",
                                                           "C7710A",
                                                           "C8416T"
+                                                        ],
+                                                        "replicase1a": [
+                                                          "S2570R"
                                                         ]
                                                       }
                                                     },
@@ -874,7 +1055,7 @@
                                                       "country": {
                                                         "value": "USA"
                                                       },
-                                                      "div": 0.006605145187471817,
+                                                      "div": 0.0072571836424611645,
                                                       "host": {
                                                         "value": "Human"
                                                       },
@@ -883,33 +1064,33 @@
                                                           2016.0013661202186,
                                                           2016.9986338797814
                                                         ],
-                                                        "value": 2016.6764641792997
+                                                        "value": 2016.7686427212996
                                                       }
                                                     }
                                                   }
                                                 ],
                                                 "name": "NODE_0000020",
                                                 "node_attrs": {
-                                                  "div": 0.006278866168918518,
+                                                  "div": 0.006930904679949865,
                                                   "num_date": {
                                                     "confidence": [
-                                                      2014.4228895249391,
-                                                      2015.8963331788027
+                                                      2014.7363515185657,
+                                                      2015.935080857711
                                                     ],
-                                                    "value": 2015.1553057145834
+                                                    "value": 2015.1858265896603
                                                   }
                                                 }
                                               }
                                             ],
                                             "name": "NODE_0000017",
                                             "node_attrs": {
-                                              "div": 0.006034196388659318,
+                                              "div": 0.0066862348418050424,
                                               "num_date": {
                                                 "confidence": [
-                                                  2013.6791268289112,
-                                                  2014.7392939994832
+                                                  2013.9528708529358,
+                                                  2014.996398869456
                                                 ],
-                                                "value": 2014.0575881882025
+                                                "value": 2014.4350666433554
                                               }
                                             }
                                           },
@@ -924,6 +1105,9 @@
                                             "children": [
                                               {
                                                 "branch_attrs": {
+                                                  "labels": {
+                                                    "aa": "replicase1a: A3205V, V3324I, T3784I"
+                                                  },
                                                   "mutations": {
                                                     "nuc": [
                                                       "T468G",
@@ -932,12 +1116,20 @@
                                                       "G9970A",
                                                       "C11351T",
                                                       "T11988C"
+                                                    ],
+                                                    "replicase1a": [
+                                                      "A3205V",
+                                                      "V3324I",
+                                                      "T3784I"
                                                     ]
                                                   }
                                                 },
                                                 "children": [
                                                   {
                                                     "branch_attrs": {
+                                                      "labels": {
+                                                        "aa": "replicase1a: R151H"
+                                                      },
                                                       "mutations": {
                                                         "nuc": [
                                                           "G452A",
@@ -949,6 +1141,9 @@
                                                           "C8199T",
                                                           "T10188C",
                                                           "A11793G"
+                                                        ],
+                                                        "replicase1a": [
+                                                          "R151H"
                                                         ]
                                                       }
                                                     },
@@ -958,7 +1153,7 @@
                                                       "country": {
                                                         "value": "USA"
                                                       },
-                                                      "div": 0.007339480702325243,
+                                                      "div": 0.007991519728702176,
                                                       "host": {
                                                         "value": "Human"
                                                       },
@@ -967,12 +1162,15 @@
                                                           2019.0013698630137,
                                                           2019.9986301369863
                                                         ],
-                                                        "value": 2019.172765290576
+                                                        "value": 2019.1436068518321
                                                       }
                                                     }
                                                   },
                                                   {
                                                     "branch_attrs": {
+                                                      "labels": {
+                                                        "aa": "replicase1a: S579N, G720D, E813D, F949L, Y1321H"
+                                                      },
                                                       "mutations": {
                                                         "nuc": [
                                                           "G1736A",
@@ -983,6 +1181,13 @@
                                                           "C6648T",
                                                           "C9342T",
                                                           "C10113T"
+                                                        ],
+                                                        "replicase1a": [
+                                                          "S579N",
+                                                          "G720D",
+                                                          "E813D",
+                                                          "F949L",
+                                                          "Y1321H"
                                                         ]
                                                       }
                                                     },
@@ -992,7 +1197,7 @@
                                                       "country": {
                                                         "value": "USA"
                                                       },
-                                                      "div": 0.007257865921417114,
+                                                      "div": 0.007909904795242409,
                                                       "host": {
                                                         "value": "Human"
                                                       },
@@ -1001,34 +1206,43 @@
                                                           2018.0013698630137,
                                                           2018.9986301369863
                                                         ],
-                                                        "value": 2018.892454452097
+                                                        "value": 2018.9489356323238
                                                       }
                                                     }
                                                   }
                                                 ],
                                                 "name": "NODE_0000022",
                                                 "node_attrs": {
-                                                  "div": 0.006605180490917408,
+                                                  "div": 0.007257219310633143,
                                                   "num_date": {
                                                     "confidence": [
-                                                      2015.0668742748478,
-                                                      2016.3703171638874
+                                                      2015.2661624483926,
+                                                      2016.5832870796985
                                                     ],
-                                                    "value": 2015.7573408589035
+                                                    "value": 2015.89042763957
                                                   }
                                                 }
                                               },
                                               {
                                                 "branch_attrs": {
+                                                  "labels": {
+                                                    "aa": "replicase1a: S865A"
+                                                  },
                                                   "mutations": {
                                                     "nuc": [
                                                       "T2593G"
+                                                    ],
+                                                    "replicase1a": [
+                                                      "S865A"
                                                     ]
                                                   }
                                                 },
                                                 "children": [
                                                   {
                                                     "branch_attrs": {
+                                                      "labels": {
+                                                        "aa": "replicase1a: I1736V, I1817V"
+                                                      },
                                                       "mutations": {
                                                         "nuc": [
                                                           "C558T",
@@ -1038,6 +1252,10 @@
                                                           "C3825T",
                                                           "A5206G",
                                                           "A5449G"
+                                                        ],
+                                                        "replicase1a": [
+                                                          "I1736V",
+                                                          "I1817V"
                                                         ]
                                                       }
                                                     },
@@ -1047,13 +1265,13 @@
                                                       "country": {
                                                         "value": "USA"
                                                       },
-                                                      "div": 0.006768394099809252,
+                                                      "div": 0.00742043272476635,
                                                       "host": {
                                                         "value": "Human"
                                                       },
                                                       "num_date": {
                                                         "confidence": [
-                                                          2015.3497140949296,
+                                                          2015.4219125875186,
                                                           2015.9986301369863
                                                         ],
                                                         "value": 2015.9986301369863
@@ -1062,12 +1280,19 @@
                                                   },
                                                   {
                                                     "branch_attrs": {
+                                                      "labels": {
+                                                        "aa": "replicase1a: D406Y, T1252A"
+                                                      },
                                                       "mutations": {
                                                         "nuc": [
                                                           "G1216T",
                                                           "A3754G",
                                                           "C5670T",
                                                           "C12201T"
+                                                        ],
+                                                        "replicase1a": [
+                                                          "D406Y",
+                                                          "T1252A"
                                                         ]
                                                       }
                                                     },
@@ -1077,14 +1302,14 @@
                                                       "country": {
                                                         "value": "USA"
                                                       },
-                                                      "div": 0.0065235624135554305,
+                                                      "div": 0.007175600938129329,
                                                       "host": {
                                                         "value": "Human"
                                                       },
                                                       "num_date": {
                                                         "confidence": [
                                                           2016.0013661202186,
-                                                          2016.8520490705812
+                                                          2016.8474498234143
                                                         ],
                                                         "value": 2016.0013661202186
                                                       }
@@ -1092,18 +1317,28 @@
                                                   },
                                                   {
                                                     "branch_attrs": {
+                                                      "labels": {
+                                                        "aa": "replicase1a: G409C, T810A"
+                                                      },
                                                       "mutations": {
                                                         "nuc": [
                                                           "G1225T",
                                                           "A2428G",
                                                           "C8416T",
                                                           "G9360A"
+                                                        ],
+                                                        "replicase1a": [
+                                                          "G409C",
+                                                          "T810A"
                                                         ]
                                                       }
                                                     },
                                                     "children": [
                                                       {
                                                         "branch_attrs": {
+                                                          "labels": {
+                                                            "aa": "replicase1a: A865S, C950G, I986F, Q1207H, I1210S, V1222L, V1451L, A3217V"
+                                                          },
                                                           "mutations": {
                                                             "nuc": [
                                                               "G2593T",
@@ -1115,6 +1350,16 @@
                                                               "G3717A",
                                                               "G4351T",
                                                               "C9650T"
+                                                            ],
+                                                            "replicase1a": [
+                                                              "A865S",
+                                                              "C950G",
+                                                              "I986F",
+                                                              "Q1207H",
+                                                              "I1210S",
+                                                              "V1222L",
+                                                              "V1451L",
+                                                              "A3217V"
                                                             ]
                                                           }
                                                         },
@@ -1124,13 +1369,13 @@
                                                           "country": {
                                                             "value": "Haiti"
                                                           },
-                                                          "div": 0.0072584928795768,
+                                                          "div": 0.007910531900507124,
                                                           "host": {
                                                             "value": "Human"
                                                           },
                                                           "num_date": {
                                                             "confidence": [
-                                                              2016.1751398810713,
+                                                              2016.1747264109,
                                                               2016.2472677595629
                                                             ],
                                                             "value": 2016.2472677595629
@@ -1151,7 +1396,7 @@
                                                           "country": {
                                                             "value": "USA"
                                                           },
-                                                          "div": 0.006605104751538377,
+                                                          "div": 0.007257143372882819,
                                                           "host": {
                                                             "value": "Human"
                                                           },
@@ -1160,163 +1405,163 @@
                                                               2015.0013698630137,
                                                               2015.9986301369863
                                                             ],
-                                                            "value": 2015.3982731864385
+                                                            "value": 2015.522364202771
                                                           }
                                                         }
                                                       }
                                                     ],
                                                     "name": "NODE_0000024",
                                                     "node_attrs": {
-                                                      "div": 0.00652355140577814,
+                                                      "div": 0.007175589923886235,
                                                       "num_date": {
                                                         "confidence": [
-                                                          2014.5650881808128,
-                                                          2015.3697901200803
+                                                          2014.7170840084434,
+                                                          2015.5209918446064
                                                         ],
-                                                        "value": 2014.8972067545715
+                                                        "value": 2014.987828737953
                                                       }
                                                     }
                                                   }
                                                 ],
                                                 "name": "NODE_0000023",
                                                 "node_attrs": {
-                                                  "div": 0.0061972858137164695,
+                                                  "div": 0.006849324278182715,
                                                   "num_date": {
                                                     "confidence": [
-                                                      2013.8916051209844,
-                                                      2014.7596927885838
+                                                      2014.2095988406013,
+                                                      2014.9346094638108
                                                     ],
-                                                    "value": 2014.430835732529
+                                                    "value": 2014.5210131808599
                                                   }
                                                 }
                                               }
                                             ],
                                             "name": "NODE_0000021",
                                             "node_attrs": {
-                                              "div": 0.006115738578652186,
+                                              "div": 0.006767777072744183,
                                               "num_date": {
                                                 "confidence": [
-                                                  2013.6897940295592,
-                                                  2014.5725108977185
+                                                  2013.9478028586648,
+                                                  2014.7568041426753
                                                 ],
-                                                "value": 2014.0003293582067
+                                                "value": 2014.3636215145646
                                               }
                                             }
                                           }
                                         ],
                                         "name": "NODE_0000018",
                                         "node_attrs": {
-                                          "div": 0.006034196388659317,
+                                          "div": 0.0066862348418050424,
                                           "num_date": {
                                             "confidence": [
-                                              2013.302732241892,
-                                              2014.284830537939
+                                              2013.515067370141,
+                                              2014.6069447652822
                                             ],
-                                            "value": 2013.9414638615892
+                                            "value": 2014.0592327457182
                                           }
                                         }
                                       }
                                     ],
                                     "name": "NODE_0000013",
                                     "node_attrs": {
-                                      "div": 0.005218140596242067,
+                                      "div": 0.0058701787889011234,
                                       "num_date": {
                                         "confidence": [
-                                          2009.456159119465,
-                                          2012.6498090736504
+                                          2010.162567181415,
+                                          2012.372603430026
                                         ],
-                                        "value": 2010.712032498217
+                                        "value": 2011.4706715921357
                                       }
                                     }
                                   }
                                 ],
                                 "name": "NODE_0000011",
                                 "node_attrs": {
-                                  "div": 0.005055166407709182,
+                                  "div": 0.005707204561949942,
                                   "num_date": {
                                     "confidence": [
-                                      2008.7953248677125,
-                                      2011.928281757682
+                                      2008.6095325582237,
+                                      2011.7912853843522
                                     ],
-                                    "value": 2009.5638410806723
+                                    "value": 2011.0703963913065
                                   }
                                 }
                               }
                             ],
                             "name": "NODE_0000000",
                             "node_attrs": {
-                              "div": 0.00448464576727864,
+                              "div": 0.005136683796108321,
                               "num_date": {
                                 "confidence": [
-                                  2006.8662476206284,
-                                  2009.5651925375053
+                                  2007.3654064318177,
+                                  2009.7860425458919
                                 ],
-                                "value": 2007.8214615250758
+                                "value": 2008.5345164670991
                               }
                             }
                           }
                         ],
                         "name": "NODE_0000002",
                         "node_attrs": {
-                          "div": 0.002608297951155543,
+                          "div": 0.003260335627525743,
                           "num_date": {
                             "confidence": [
-                              1996.3225353745534,
-                              1999.8438415383025
+                              1997.1632791897778,
+                              2000.7337436517314
                             ],
-                            "value": 1997.7923547123685
+                            "value": 1999.335164947884
                           }
                         }
                       }
                     ],
                     "name": "NODE_0000003",
                     "node_attrs": {
-                      "div": 0.00138530261338693,
+                      "div": 0.0020373400776768765,
                       "num_date": {
                         "confidence": [
-                          1991.2310592266317,
-                          1993.0510478960648
+                          1991.9572767226323,
+                          1993.2986871199616
                         ],
-                        "value": 1992.0519665337924
+                        "value": 1992.8058239660622
                       }
                     }
                   }
                 ],
                 "name": "NODE_0000004",
                 "node_attrs": {
-                  "div": 0.001303840277178352,
+                  "div": 0.0019558777943356797,
                   "num_date": {
                     "confidence": [
-                      1990.6084411154627,
-                      1992.0456036850478
+                      1991.2408145769052,
+                      1992.4383183235939
                     ],
-                    "value": 1991.4862054159073
+                    "value": 1991.775219000205
                   }
                 }
               }
             ],
             "name": "NODE_0000005",
             "node_attrs": {
-              "div": 0.0008964706327778059,
+              "div": 0.0015485080583286976,
               "num_date": {
                 "confidence": [
-                  1988.3465896966015,
-                  1991.2988573809198
+                  1989.755805782056,
+                  1991.3431517143283
                 ],
-                "value": 1989.7534820517749
+                "value": 1990.4412639875425
               }
             }
           }
         ],
         "name": "NODE_0000006",
         "node_attrs": {
-          "div": 0.0007335742993284281,
+          "div": 0.0011411824329338397,
           "num_date": {
             "confidence": [
-              1986.84357392279,
-              1990.2293763627165
+              1988.011722575565,
+              1990.0863810827
             ],
-            "value": 1988.7943820829712
+            "value": 1989.0752714242556
           }
         }
       }
@@ -1326,10 +1571,10 @@
       "div": 0,
       "num_date": {
         "confidence": [
-          1982.1104222996444,
-          1986.5289179973176
+          1983.2052700770378,
+          1986.496720237676
         ],
-        "value": 1984.2057324453654
+        "value": 1984.868229142619
       }
     }
   },

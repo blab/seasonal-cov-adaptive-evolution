@@ -1,0 +1,171 @@
+Building DAG of jobs...
+Using shell: /bin/bash
+Provided cores: 4
+Rules claiming more threads will be scaled down.
+Job counts:
+	count	jobs
+	2	align
+	1	all
+	2	ancestral
+	2	clades
+	2	export
+	2	filter
+	2	parse
+	2	refine
+	2	translate
+	2	tree
+	19
+
+[Fri Aug 21 20:28:01 2020]
+Job 9: Parsing fasta into sequences and metadata
+
+
+[Fri Aug 21 20:28:01 2020]
+Job 4: Parsing fasta into sequences and metadata
+
+[Fri Aug 21 20:28:03 2020]
+Finished job 9.
+1 of 19 steps (5%) done
+
+[Fri Aug 21 20:28:03 2020]
+Job 20: 
+        Filtering to
+          - 5000 sequence(s) per country
+          - minimum genome length of 200
+        
+
+[Fri Aug 21 20:28:03 2020]
+Finished job 4.
+2 of 19 steps (11%) done
+
+[Fri Aug 21 20:28:03 2020]
+Job 19: 
+        Filtering to
+          - 5000 sequence(s) per country
+          - minimum genome length of 200
+        
+
+[Fri Aug 21 20:28:06 2020]
+Finished job 19.
+3 of 19 steps (16%) done
+
+[Fri Aug 21 20:28:06 2020]
+Job 14: 
+        Aligning sequences to config/oc43_s1_reference.gb
+          - filling gaps with N
+        
+
+[Fri Aug 21 20:28:06 2020]
+Finished job 20.
+4 of 19 steps (21%) done
+
+[Fri Aug 21 20:28:06 2020]
+Job 17: 
+        Aligning sequences to config/oc43_spike_reference.gb
+          - filling gaps with N
+        
+
+[Fri Aug 21 20:28:30 2020]
+Finished job 14.
+5 of 19 steps (26%) done
+
+[Fri Aug 21 20:28:30 2020]
+Job 13: Building tree
+
+[Fri Aug 21 20:28:37 2020]
+Finished job 13.
+6 of 19 steps (32%) done
+
+[Fri Aug 21 20:28:37 2020]
+Job 3: 
+        Refining tree
+        
+
+[Fri Aug 21 20:29:37 2020]
+Finished job 17.
+7 of 19 steps (37%) done
+
+[Fri Aug 21 20:29:37 2020]
+Job 16: Building tree
+
+[Fri Aug 21 20:29:46 2020]
+Finished job 16.
+8 of 19 steps (42%) done
+
+[Fri Aug 21 20:29:46 2020]
+Job 8: 
+        Refining tree
+        
+
+[Fri Aug 21 20:42:01 2020]
+Finished job 3.
+9 of 19 steps (47%) done
+
+[Fri Aug 21 20:42:01 2020]
+Job 5: Reconstructing ancestral sequences and mutations
+
+[Fri Aug 21 20:42:08 2020]
+Finished job 5.
+10 of 19 steps (53%) done
+
+[Fri Aug 21 20:42:08 2020]
+Job 6: Translating amino acid sequences
+
+[Fri Aug 21 20:42:12 2020]
+Finished job 6.
+11 of 19 steps (58%) done
+
+[Fri Aug 21 20:42:12 2020]
+Job 7: Annotating clades
+
+[Fri Aug 21 20:42:15 2020]
+Finished job 7.
+12 of 19 steps (63%) done
+
+[Fri Aug 21 20:42:15 2020]
+Job 1: Exporting data files for for auspice
+
+[Fri Aug 21 20:42:19 2020]
+Finished job 1.
+13 of 19 steps (68%) done
+[Fri Aug 21 20:42:50 2020]
+Finished job 8.
+14 of 19 steps (74%) done
+
+[Fri Aug 21 20:42:50 2020]
+Job 10: Reconstructing ancestral sequences and mutations
+
+[Fri Aug 21 20:42:56 2020]
+Finished job 10.
+15 of 19 steps (79%) done
+
+[Fri Aug 21 20:42:56 2020]
+Job 11: Translating amino acid sequences
+
+[Fri Aug 21 20:42:59 2020]
+Finished job 11.
+16 of 19 steps (84%) done
+
+[Fri Aug 21 20:42:59 2020]
+Job 12: Annotating clades
+
+[Fri Aug 21 20:43:02 2020]
+Finished job 12.
+17 of 19 steps (89%) done
+
+[Fri Aug 21 20:43:02 2020]
+Job 2: Exporting data files for for auspice
+
+[Fri Aug 21 20:43:05 2020]
+Finished job 2.
+18 of 19 steps (95%) done
+
+[Fri Aug 21 20:43:05 2020]
+localrule all:
+    input: auspice/seasonal_corona_oc43_s1.json, auspice/seasonal_corona_oc43_spike.json
+    jobid: 0
+
+[Fri Aug 21 20:43:05 2020]
+Finished job 0.
+19 of 19 steps (100%) done
+Complete log: /Users/katekistler/nextstrain/seasonal-cov/oc43/.snakemake/log/2020-08-21T202800.983387.snakemake.log
