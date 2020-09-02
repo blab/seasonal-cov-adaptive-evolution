@@ -1,0 +1,71 @@
+Building DAG of jobs...
+Using shell: /bin/bash
+Provided cores: 4
+Rules claiming more threads will be scaled down.
+Job counts:
+	count	jobs
+	1	align
+	1	all
+	1	ancestral
+	1	export
+	1	refine
+	1	translate
+	1	tree
+	7
+
+[Tue Aug 25 14:45:03 2020]
+Job 15: 
+        Aligning sequences to config/oc43_spike_reference.gb
+          - filling gaps with N
+        
+
+[Tue Aug 25 14:46:26 2020]
+Finished job 15.
+1 of 7 steps (14%) done
+
+[Tue Aug 25 14:46:26 2020]
+Job 14: Building tree
+
+[Tue Aug 25 14:46:32 2020]
+Finished job 14.
+2 of 7 steps (29%) done
+
+[Tue Aug 25 14:46:32 2020]
+Job 7: 
+        Refining tree
+        
+
+[Tue Aug 25 14:57:58 2020]
+Finished job 7.
+3 of 7 steps (43%) done
+
+[Tue Aug 25 14:57:58 2020]
+Job 9: Reconstructing ancestral sequences and mutations
+
+[Tue Aug 25 14:58:05 2020]
+Finished job 9.
+4 of 7 steps (57%) done
+
+[Tue Aug 25 14:58:05 2020]
+Job 10: Translating amino acid sequences
+
+[Tue Aug 25 14:58:08 2020]
+Finished job 10.
+5 of 7 steps (71%) done
+
+[Tue Aug 25 14:58:08 2020]
+Job 2: Exporting data files for for auspice
+
+[Tue Aug 25 14:58:11 2020]
+Finished job 2.
+6 of 7 steps (86%) done
+
+[Tue Aug 25 14:58:11 2020]
+localrule all:
+    input: auspice/seasonal_corona_oc43_s1.json, auspice/seasonal_corona_oc43_spike.json
+    jobid: 0
+
+[Tue Aug 25 14:58:11 2020]
+Finished job 0.
+7 of 7 steps (100%) done
+Complete log: /Users/katekistler/nextstrain/seasonal-cov/oc43/.snakemake/log/2020-08-25T144502.991195.snakemake.log
