@@ -2,6 +2,11 @@
   "meta": {
     "colorings": [
       {
+        "key": "clade_membership",
+        "title": "Clade",
+        "type": "categorical"
+      },
+      {
         "key": "num_date",
         "title": "Sampling date",
         "type": "continuous"
@@ -70,10 +75,13 @@
       "tree"
     ],
     "title": "Genetic diversity of seasonal coronaviruses. Data collected by Vipr",
-    "updated": "2020-08-25"
+    "updated": "2020-09-11"
   },
   "tree": {
     "branch_attrs": {
+      "labels": {
+        "clade": "B"
+      },
       "mutations": {}
     },
     "children": [
@@ -1836,6 +1844,9 @@
         "name": "hku14_3/JN874560/HKU1/china/2007",
         "node_attrs": {
           "accession": "JN874560",
+          "clade_membership": {
+            "value": "B"
+          },
           "country": {
             "value": "China"
           },
@@ -2392,6 +2403,9 @@
                 "name": "hku1/MK167038/SC2521/2017",
                 "node_attrs": {
                   "accession": "MK167038",
+                  "clade_membership": {
+                    "value": "B"
+                  },
                   "country": {
                     "value": "USA"
                   },
@@ -2536,6 +2550,9 @@
                     "name": "hku1/MF996591/HKU1/2015",
                     "node_attrs": {
                       "accession": "MF996591",
+                      "clade_membership": {
+                        "value": "B"
+                      },
                       "country": {
                         "value": "China"
                       },
@@ -2602,6 +2619,9 @@
                         "name": "hku1/MF996594/HKU1/2015",
                         "node_attrs": {
                           "accession": "MF996594",
+                          "clade_membership": {
+                            "value": "B"
+                          },
                           "country": {
                             "value": "China"
                           },
@@ -2688,6 +2708,9 @@
                                 "name": "hku1/MH940245/SI17244/2017",
                                 "node_attrs": {
                                   "accession": "MH940245",
+                                  "clade_membership": {
+                                    "value": "B"
+                                  },
                                   "country": {
                                     "value": "Thailand"
                                   },
@@ -2762,10 +2785,13 @@
                                     "name": "hku1/KF686338/HKU1/human/USA/HKU1_1/2005/2005",
                                     "node_attrs": {
                                       "accession": "KF686338",
+                                      "clade_membership": {
+                                        "value": "B"
+                                      },
                                       "country": {
                                         "value": "USA"
                                       },
-                                      "div": 0.5654707425,
+                                      "div": 0.5654707525,
                                       "host": {
                                         "value": "Human"
                                       },
@@ -2813,10 +2839,13 @@
                                         "name": "hku1/KY674921/N08_87/2016",
                                         "node_attrs": {
                                           "accession": "KY674921",
+                                          "clade_membership": {
+                                            "value": "B"
+                                          },
                                           "country": {
                                             "value": "USA"
                                           },
-                                          "div": 0.5659654925,
+                                          "div": 0.5659655025000001,
                                           "host": {
                                             "value": "Human"
                                           },
@@ -2841,17 +2870,20 @@
                                         "name": "hku1/KF430197/HKU1/HTBEC_lab/BRA/HKU1_22/2007/2007",
                                         "node_attrs": {
                                           "accession": "KF430197",
+                                          "clade_membership": {
+                                            "value": "B"
+                                          },
                                           "country": {
                                             "value": "Brazil"
                                           },
-                                          "div": 0.5652226725,
+                                          "div": 0.5652224125,
                                           "host": {
                                             "value": "Human"
                                           },
                                           "num_date": {
                                             "confidence": [
                                               2007.0013698630137,
-                                              2007.8854652835842
+                                              2007.8823774415584
                                             ],
                                             "value": 2007.0013698630137
                                           }
@@ -2860,39 +2892,48 @@
                                     ],
                                     "name": "NODE_0000008",
                                     "node_attrs": {
-                                      "div": 0.5647290425,
+                                      "clade_membership": {
+                                        "value": "B"
+                                      },
+                                      "div": 0.5647290525,
                                       "num_date": {
                                         "confidence": [
-                                          2006.3220792553307,
-                                          2007.9960477713294
+                                          2006.3693588294022,
+                                          2007.9960523934349
                                         ],
-                                        "value": 2006.9661886837675
+                                        "value": 2006.7736111738598
                                       }
                                     }
                                   }
                                 ],
                                 "name": "NODE_0000036",
                                 "node_attrs": {
-                                  "div": 0.5647290425,
+                                  "clade_membership": {
+                                    "value": "B"
+                                  },
+                                  "div": 0.5647290525,
                                   "num_date": {
                                     "confidence": [
-                                      2004.9792197270708,
-                                      2005.1146059189914
+                                      2004.9792997748475,
+                                      2005.1153920238853
                                     ],
-                                    "value": 2005.0654263043143
+                                    "value": 2005.06554706042
                                   }
                                 }
                               }
                             ],
                             "name": "NODE_0000035",
                             "node_attrs": {
+                              "clade_membership": {
+                                "value": "B"
+                              },
                               "div": 0.5625030125,
                               "num_date": {
                                 "confidence": [
-                                  2004.644301873785,
-                                  2004.9795409799935
+                                  2004.641208693044,
+                                  2004.9381060894775
                                 ],
-                                "value": 2004.8150541468196
+                                "value": 2004.8491540065124
                               }
                             }
                           },
@@ -2923,6 +2964,9 @@
                                 "name": "hku1/MF996595/HKU1/2015",
                                 "node_attrs": {
                                   "accession": "MF996595",
+                                  "clade_membership": {
+                                    "value": "B"
+                                  },
                                   "country": {
                                     "value": "China"
                                   },
@@ -2933,7 +2977,7 @@
                                   "num_date": {
                                     "confidence": [
                                       2015.0013698630137,
-                                      2015.3810420447376
+                                      2015.3801779123085
                                     ],
                                     "value": 2015.0013698630137
                                   }
@@ -2946,6 +2990,9 @@
                                 "name": "hku1/MF996592/HKU1/2015",
                                 "node_attrs": {
                                   "accession": "MF996592",
+                                  "clade_membership": {
+                                    "value": "B"
+                                  },
                                   "country": {
                                     "value": "China"
                                   },
@@ -2956,7 +3003,7 @@
                                   "num_date": {
                                     "confidence": [
                                       2015.0013698630137,
-                                      2015.3810420447376
+                                      2015.3801779123085
                                     ],
                                     "value": 2015.0013698630137
                                   }
@@ -2966,8 +3013,7 @@
                                 "branch_attrs": {
                                   "mutations": {
                                     "nuc": [
-                                      "T2292C",
-                                      "T2775G"
+                                      "T2292C"
                                     ]
                                   }
                                 },
@@ -2997,6 +3043,9 @@
                                     "name": "hku1/MF996602/HKU1/2015",
                                     "node_attrs": {
                                       "accession": "MF996602",
+                                      "clade_membership": {
+                                        "value": "B"
+                                      },
                                       "country": {
                                         "value": "China"
                                       },
@@ -3009,7 +3058,7 @@
                                           2015.0013698630137,
                                           2015.9986301369863
                                         ],
-                                        "value": 2015.7012590427898
+                                        "value": 2015.6066720582623
                                       }
                                     }
                                   },
@@ -3020,6 +3069,9 @@
                                     "name": "hku1/MF996601/HKU1/2015",
                                     "node_attrs": {
                                       "accession": "MF996601",
+                                      "clade_membership": {
+                                        "value": "B"
+                                      },
                                       "country": {
                                         "value": "China"
                                       },
@@ -3032,17 +3084,24 @@
                                           2015.0013698630137,
                                           2015.9986301369863
                                         ],
-                                        "value": 2015.1607072414063
+                                        "value": 2015.1433527403597
                                       }
                                     }
                                   },
                                   {
                                     "branch_attrs": {
-                                      "mutations": {}
+                                      "mutations": {
+                                        "nuc": [
+                                          "T2775G"
+                                        ]
+                                      }
                                     },
                                     "name": "hku1/MF996599/HKU1/2015",
                                     "node_attrs": {
                                       "accession": "MF996599",
+                                      "clade_membership": {
+                                        "value": "B"
+                                      },
                                       "country": {
                                         "value": "China"
                                       },
@@ -3055,7 +3114,7 @@
                                           2015.0013698630137,
                                           2015.9986301369863
                                         ],
-                                        "value": 2015.1607072414063
+                                        "value": 2015.1433527403597
                                       }
                                     }
                                   },
@@ -3066,6 +3125,9 @@
                                     "name": "hku1/MF996600/HKU1/2015",
                                     "node_attrs": {
                                       "accession": "MF996600",
+                                      "clade_membership": {
+                                        "value": "B"
+                                      },
                                       "country": {
                                         "value": "China"
                                       },
@@ -3078,92 +3140,111 @@
                                           2015.0013698630137,
                                           2015.9986301369863
                                         ],
-                                        "value": 2015.1607072414063
+                                        "value": 2015.1433527403597
                                       }
                                     }
                                   }
                                 ],
                                 "name": "NODE_0000040",
                                 "node_attrs": {
+                                  "clade_membership": {
+                                    "value": "B"
+                                  },
                                   "div": 0.5620558825,
                                   "num_date": {
                                     "confidence": [
-                                      2014.8459950037313,
-                                      2015.528717281861
+                                      2014.6931289394572,
+                                      2015.4303384052268
                                     ],
-                                    "value": 2015.1430611713145
+                                    "value": 2014.9019417786562
                                   }
                                 }
                               }
                             ],
                             "name": "NODE_0000038",
                             "node_attrs": {
+                              "clade_membership": {
+                                "value": "B"
+                              },
                               "div": 0.5612358725000001,
                               "num_date": {
                                 "confidence": [
-                                  2014.1683874803941,
-                                  2015.0690495267283
+                                  2014.167150134891,
+                                  2015.0105323236357
                                 ],
-                                "value": 2014.873592805756
+                                "value": 2014.89621315866
                               }
                             }
                           }
                         ],
                         "name": "NODE_0000034",
                         "node_attrs": {
+                          "clade_membership": {
+                            "value": "B"
+                          },
                           "div": 0.5600065625,
                           "num_date": {
                             "confidence": [
-                              2004.2636331556273,
-                              2004.774022974662
+                              2004.2623291746572,
+                              2004.7561568990964
                             ],
-                            "value": 2004.4901096892945
+                            "value": 2004.4820453083305
                           }
                         }
                       }
                     ],
                     "name": "NODE_0000033",
                     "node_attrs": {
+                      "clade_membership": {
+                        "value": "B"
+                      },
                       "div": 0.5588890825,
                       "num_date": {
                         "confidence": [
-                          2004.0437355699867,
-                          2004.6344680850243
+                          2004.0466697358358,
+                          2004.6599473448782
                         ],
-                        "value": 2004.359384094573
+                        "value": 2004.2823888896294
                       }
                     }
                   }
                 ],
                 "name": "NODE_0000032",
                 "node_attrs": {
+                  "clade_membership": {
+                    "value": "B"
+                  },
                   "div": 0.5577692825,
                   "num_date": {
                     "confidence": [
-                      2003.76260040329,
-                      2004.4841183123995
+                      2003.7600368686335,
+                      2004.5178821559616
                     ],
-                    "value": 2004.107000667993
+                    "value": 2004.1168549658182
                   }
                 }
               }
             ],
             "name": "NODE_0000031",
             "node_attrs": {
+              "clade_membership": {
+                "value": "B"
+              },
               "div": 0.5409438925,
               "num_date": {
                 "confidence": [
-                  1997.9807983965259,
-                  2000.6613799586507
+                  1998.0039940357178,
+                  2000.784505959935
                 ],
-                "value": 1999.430689909601
+                "value": 1999.4038687681152
               }
             }
           },
           {
             "branch_attrs": {
               "labels": {
-                "aa": "s1: S11F, S12A, F16L, D26Y, H32Y, V39I, L49I, A66S, K79Q, P80K, K93R, N103K, V119I, T121N, I133V, I157S, T166K, A183T, T204S, I219L, M226L, K236N, E243Q, N257K, E260D, H261R, L275F, Q283K, A286L, Y306H, N311D, N319K, I324F, A353T, L361F, N372K, T375V, I376L, R384S, V387S, F427Y, T444S, D447S, H452R, H453Y, V469F, V474K, P491S, G494S, T497V, Y499D, N500H, S514T, T515A, A517D, S519R, P520S, P522S, F526S, P535A, L537F, I539V, N540D, A546V, E549G, L550S, N551Y, H552N, N553V, S556L, P559T, F567Y, I571V, *599Q, S600P, G607D, N611D, A629V, L652V, I658N, L660F, T664A, S675A, P678L, I697A, S698T, D724A, D736N, L740S; s2: G1S, T4A, P5S, P25S, Q33K, A41V, S50N, A60L, N88D, D92G, Q100H, N103D, L132V, S137P, L147F, T197S, V221I, N250T, N264S, A279S, T341S, Q349L, I351M, F386L, I388M, T395I, R412V, Q424H, S427H, F461L, N466H, I468V, N470K, A476S, M488I, F494L, S496L, N498T, I512L, V548S, L549F; sigpep: F2L; spike: F2L, S23F, S24A, F28L, D38Y, H44Y, V51I, L61I, A78S, K91Q, P92K, K105R, N115K, V131I, T133N, I145V, I169S, T178K, A195T, T216S, I231L, M238L, K248N, E255Q, N269K, E272D, H273R, L287F, Q295K, A298L, Y318H, N323D, N331K, I336F, A365T, L373F, N384K, T387V, I388L, R396S, V399S, F439Y, T456S, D459S, H464R, H465Y, V481F, V486K, P503S, G506S, T509V, Y511D, N512H, S526T, T527A, A529D, S531R, P532S, P534S, F538S, P547A, L549F, I551V, N552D, A558V, E561G, L562S, N563Y, H564N, N565V, S568L, P571T, F579Y, I583V, *611Q, S612P, G619D, N623D, A641V, L664V, I670N, L672F, T676A, S687A, P690L, I709A, S710T, D736A, D748N, L752S, G761S, T764A, P765S, P785S, Q793K, A801V, S810N, A820L, N848D, D852G, Q860H, N863D, L892V, S897P, L907F, T957S, V981I, N1010T, N1024S, A1039S, T1101S, Q1109L, I1111M, F1146L, I1148M, T1155I, R1172V, Q1184H, S1187H, F1221L, N1226H, I1228V, N1230K, A1236S, M1248I, F1254L, S1256L, N1258T, I1272L, V1308S, L1309F"
+                "aa": "s1: S11F, S12A, F16L, D26Y, H32Y, V39I, L49I, A66S, K79Q, P80K, K93R, N103K, V119I, T121N, I133V, I157S, T166K, A183T, T204S, I219L, M226L, K236N, E243Q, N257K, E260D, H261R, L275F, Q283K, A286L, Y306H, N311D, N319K, I324F, A353T, L361F, N372K, T375V, I376L, R384S, V387S, F427Y, T444S, D447S, H452R, H453Y, V469F, V474K, P491S, G494S, T497V, Y499D, N500H, S514T, T515A, A517D, S519R, P520S, P522S, F526S, P535A, L537F, I539V, N540D, A546V, E549G, L550S, N551Y, H552N, N553V, S556L, P559T, F567Y, I571V, *599Q, S600P, G607D, N611D, A629V, L652V, I658N, L660F, T664A, S675A, P678L, I697A, S698T, D724A, D736N, L740S; s2: G1S, T4A, P5S, P25S, Q33K, A41V, S50N, A60L, N88D, D92G, Q100H, N103D, L132V, S137P, L147F, T197S, V221I, N250T, N264S, A279S, T341S, Q349L, I351M, F386L, I388M, T395I, R412V, Q424H, S427H, F461L, N466H, I468V, N470K, A476S, M488I, F494L, S496L, N498T, I512L, V548S, L549F; sigpep: F2L; spike: F2L, S23F, S24A, F28L, D38Y, H44Y, V51I, L61I, A78S, K91Q, P92K, K105R, N115K, V131I, T133N, I145V, I169S, T178K, A195T, T216S, I231L, M238L, K248N, E255Q, N269K, E272D, H273R, L287F, Q295K, A298L, Y318H, N323D, N331K, I336F, A365T, L373F, N384K, T387V, I388L, R396S, V399S, F439Y, T456S, D459S, H464R, H465Y, V481F, V486K, P503S, G506S, T509V, Y511D, N512H, S526T, T527A, A529D, S531R, P532S, P534S, F538S, P547A, L549F, I551V, N552D, A558V, E561G, L562S, N563Y, H564N, N565V, S568L, P571T, F579Y, I583V, *611Q, S612P, G619D, N623D, A641V, L664V, I670N, L672F, T676A, S687A, P690L, I709A, S710T, D736A, D748N, L752S, G761S, T764A, P765S, P785S, Q793K, A801V, S810N, A820L, N848D, D852G, Q860H, N863D, L892V, S897P, L907F, T957S, V981I, N1010T, N1024S, A1039S, T1101S, Q1109L, I1111M, F1146L, I1148M, T1155I, R1172V, Q1184H, S1187H, F1221L, N1226H, I1228V, N1230K, A1236S, M1248I, F1254L, S1256L, N1258T, I1272L, V1308S, L1309F",
+                "clade": "A"
               },
               "mutations": {
                 "nuc": [
@@ -3823,6 +3904,9 @@
                 "name": "hku1/HM034837/Caen1/2005",
                 "node_attrs": {
                   "accession": "HM034837",
+                  "clade_membership": {
+                    "value": "A"
+                  },
                   "country": {
                     "value": "France"
                   },
@@ -3898,6 +3982,9 @@
                             "name": "hku1/KF430198/HKU1/HTBEC_lab/BRA/HKU1_21/2006/2006",
                             "node_attrs": {
                               "accession": "KF430198",
+                              "clade_membership": {
+                                "value": "A"
+                              },
                               "country": {
                                 "value": "Brazil"
                               },
@@ -3910,7 +3997,7 @@
                                   2006.0013698630137,
                                   2006.9986301369863
                                 ],
-                                "value": 2006.773296811177
+                                "value": 2006.798198246535
                               }
                             }
                           },
@@ -3934,6 +4021,9 @@
                             "name": "hku1/KF430203/HKU1/HTBEC_lab/BRA/HKU1_23/2006/2006",
                             "node_attrs": {
                               "accession": "KF430203",
+                              "clade_membership": {
+                                "value": "A"
+                              },
                               "country": {
                                 "value": "Brazil"
                               },
@@ -3946,20 +4036,23 @@
                                   2006.0013698630137,
                                   2006.9986301369863
                                 ],
-                                "value": 2006.992493110148
+                                "value": 2006.9969737437455
                               }
                             }
                           }
                         ],
                         "name": "NODE_0000011",
                         "node_attrs": {
+                          "clade_membership": {
+                            "value": "A"
+                          },
                           "div": 0.5494657525000001,
                           "num_date": {
                             "confidence": [
-                              2006.3411851577223,
-                              2006.9917115360718
+                              2006.342092908567,
+                              2006.9960536640715
                             ],
-                            "value": 2006.7527207428743
+                            "value": 2006.7416058073793
                           }
                         }
                       },
@@ -4019,6 +4112,9 @@
                                 "name": "hku1/KF686344/HKU1/human/USA/HKU1_15/2009/2009",
                                 "node_attrs": {
                                   "accession": "KF686344",
+                                  "clade_membership": {
+                                    "value": "A"
+                                  },
                                   "country": {
                                     "value": "USA"
                                   },
@@ -4069,6 +4165,9 @@
                                 "name": "hku1/KY983584/SC2628/2015",
                                 "node_attrs": {
                                   "accession": "KY983584",
+                                  "clade_membership": {
+                                    "value": "A"
+                                  },
                                   "country": {
                                     "value": "USA"
                                   },
@@ -4079,7 +4178,7 @@
                                   "num_date": {
                                     "confidence": [
                                       2015.0013698630137,
-                                      2015.6339408055435
+                                      2015.6591030237187
                                     ],
                                     "value": 2015.0013698630137
                                   }
@@ -4088,13 +4187,16 @@
                             ],
                             "name": "NODE_0000009",
                             "node_attrs": {
+                              "clade_membership": {
+                                "value": "A"
+                              },
                               "div": 0.5509436925000001,
                               "num_date": {
                                 "confidence": [
-                                  2009.3759814074515,
-                                  2009.931626041661
+                                  2009.3215192757918,
+                                  2009.9319542363226
                                 ],
-                                "value": 2009.7526681249885
+                                "value": 2009.75699962978
                               }
                             }
                           },
@@ -4143,6 +4245,9 @@
                                     "name": "hku1/KT779555/BJ01_p3/2009",
                                     "node_attrs": {
                                       "accession": "KT779555",
+                                      "clade_membership": {
+                                        "value": "A"
+                                      },
                                       "country": {
                                         "value": "China"
                                       },
@@ -4179,6 +4284,9 @@
                                     "name": "hku1/KT779556/BJ01_p9/2009",
                                     "node_attrs": {
                                       "accession": "KT779556",
+                                      "clade_membership": {
+                                        "value": "A"
+                                      },
                                       "country": {
                                         "value": "China"
                                       },
@@ -4198,13 +4306,16 @@
                                 ],
                                 "name": "NODE_0000000",
                                 "node_attrs": {
+                                  "clade_membership": {
+                                    "value": "A"
+                                  },
                                   "div": 0.5509444725,
                                   "num_date": {
                                     "confidence": [
-                                      2009.0486489603375,
+                                      2009.0450453359058,
                                       2009.3082191780823
                                     ],
-                                    "value": 2009.1804421208246
+                                    "value": 2009.1679160495412
                                   }
                                 }
                               },
@@ -4241,10 +4352,13 @@
                                     "name": "hku1/MF996589/HKU1/2014",
                                     "node_attrs": {
                                       "accession": "MF996589",
+                                      "clade_membership": {
+                                        "value": "A"
+                                      },
                                       "country": {
                                         "value": "China"
                                       },
-                                      "div": 0.5522577925000001,
+                                      "div": 0.5522578325,
                                       "host": {
                                         "value": "Human"
                                       },
@@ -4253,7 +4367,7 @@
                                           2014.0013698630137,
                                           2014.9986301369863
                                         ],
-                                        "value": 2014.5222312237458
+                                        "value": 2014.5536650043248
                                       }
                                     }
                                   },
@@ -4275,10 +4389,13 @@
                                         "name": "hku1/MF996597/HKU1/2015",
                                         "node_attrs": {
                                           "accession": "MF996597",
+                                          "clade_membership": {
+                                            "value": "A"
+                                          },
                                           "country": {
                                             "value": "China"
                                           },
-                                          "div": 0.5526758525000001,
+                                          "div": 0.5526758925,
                                           "host": {
                                             "value": "Human"
                                           },
@@ -4287,7 +4404,7 @@
                                               2015.0013698630137,
                                               2015.9986301369863
                                             ],
-                                            "value": 2015.1286842538811
+                                            "value": 2015.083467596653
                                           }
                                         }
                                       },
@@ -4302,32 +4419,38 @@
                                         "name": "hku1/MF996590/HKU1/2015",
                                         "node_attrs": {
                                           "accession": "MF996590",
+                                          "clade_membership": {
+                                            "value": "A"
+                                          },
                                           "country": {
                                             "value": "China"
                                           },
-                                          "div": 0.5518476925000001,
+                                          "div": 0.5518477325000001,
                                           "host": {
                                             "value": "Human"
                                           },
                                           "num_date": {
                                             "confidence": [
                                               2015.0013698630137,
-                                              2015.496225664085
+                                              2015.4978034702663
                                             ],
                                             "value": 2015.0013698630137
                                           }
                                         }
                                       }
                                     ],
-                                    "name": "NODE_0000019",
+                                    "name": "NODE_0000021",
                                     "node_attrs": {
-                                      "div": 0.5514237725000001,
+                                      "clade_membership": {
+                                        "value": "A"
+                                      },
+                                      "div": 0.5514238125,
                                       "num_date": {
                                         "confidence": [
-                                          2013.7390175196651,
-                                          2014.8784847094043
+                                          2013.7098235941148,
+                                          2014.8481317614858
                                         ],
-                                        "value": 2014.3026407049229
+                                        "value": 2014.317189191685
                                       }
                                     }
                                   },
@@ -4365,10 +4488,13 @@
                                         "name": "hku1/MF996596/HKU1/2015",
                                         "node_attrs": {
                                           "accession": "MF996596",
+                                          "clade_membership": {
+                                            "value": "A"
+                                          },
                                           "country": {
                                             "value": "China"
                                           },
-                                          "div": 0.5534896125000001,
+                                          "div": 0.5534896625000001,
                                           "host": {
                                             "value": "Human"
                                           },
@@ -4377,7 +4503,7 @@
                                               2015.0013698630137,
                                               2015.9986301369863
                                             ],
-                                            "value": 2015.1555390628894
+                                            "value": 2015.1541537664943
                                           }
                                         }
                                       },
@@ -4393,10 +4519,13 @@
                                         "name": "hku1/MF996598/HKU1/2015",
                                         "node_attrs": {
                                           "accession": "MF996598",
+                                          "clade_membership": {
+                                            "value": "A"
+                                          },
                                           "country": {
                                             "value": "China"
                                           },
-                                          "div": 0.5535081225000001,
+                                          "div": 0.5535081625000001,
                                           "host": {
                                             "value": "Human"
                                           },
@@ -4405,7 +4534,7 @@
                                               2015.0013698630137,
                                               2015.9986301369863
                                             ],
-                                            "value": 2015.1768531152657
+                                            "value": 2015.1549922312229
                                           }
                                         }
                                       },
@@ -4425,17 +4554,20 @@
                                             "name": "hku1/MF996593/HKU1/2015",
                                             "node_attrs": {
                                               "accession": "MF996593",
+                                              "clade_membership": {
+                                                "value": "A"
+                                              },
                                               "country": {
                                                 "value": "China"
                                               },
-                                              "div": 0.5530807025000001,
+                                              "div": 0.5530807125,
                                               "host": {
                                                 "value": "Human"
                                               },
                                               "num_date": {
                                                 "confidence": [
                                                   2015.0013698630137,
-                                                  2015.3607161309676
+                                                  2015.3608066267914
                                                 ],
                                                 "value": 2015.0013698630137
                                               }
@@ -4448,16 +4580,19 @@
                                             "name": "hku1/MF996603/HKU1/2014",
                                             "node_attrs": {
                                               "accession": "MF996603",
+                                              "clade_membership": {
+                                                "value": "A"
+                                              },
                                               "country": {
                                                 "value": "China"
                                               },
-                                              "div": 0.5530807025000001,
+                                              "div": 0.5530807125,
                                               "host": {
                                                 "value": "Human"
                                               },
                                               "num_date": {
                                                 "confidence": [
-                                                  2014.7953559374664,
+                                                  2014.7975987130733,
                                                   2014.9986301369863
                                                 ],
                                                 "value": 2014.9986301369863
@@ -4467,78 +4602,96 @@
                                         ],
                                         "name": "NODE_0000007",
                                         "node_attrs": {
-                                          "div": 0.5530777925000001,
+                                          "clade_membership": {
+                                            "value": "A"
+                                          },
+                                          "div": 0.5530778025,
                                           "num_date": {
                                             "confidence": [
-                                              2014.6789003388249,
-                                              2014.9960490449416
+                                              2014.6953452970008,
+                                              2014.9960536640715
                                             ],
-                                            "value": 2014.8836377819277
+                                            "value": 2014.8838644980244
                                           }
                                         }
                                       }
                                     ],
                                     "name": "NODE_0000005",
                                     "node_attrs": {
-                                      "div": 0.5526635525000001,
+                                      "clade_membership": {
+                                        "value": "A"
+                                      },
+                                      "div": 0.5526635925000001,
                                       "num_date": {
                                         "confidence": [
-                                          2014.3066234194057,
-                                          2014.8984289569353
+                                          2014.2872719454908,
+                                          2014.8585092993194
                                         ],
-                                        "value": 2014.6856286019918
+                                        "value": 2014.6871423601913
                                       }
                                     }
                                   }
                                 ],
                                 "name": "NODE_0000002",
                                 "node_attrs": {
-                                  "div": 0.5514237725000001,
+                                  "clade_membership": {
+                                    "value": "A"
+                                  },
+                                  "div": 0.5514238125,
                                   "num_date": {
                                     "confidence": [
-                                      2013.3819847705695,
-                                      2014.5733971891423
+                                      2013.3576977419186,
+                                      2014.5582316476002
                                     ],
-                                    "value": 2013.970609256436
+                                    "value": 2013.9734147338215
                                   }
                                 }
                               }
                             ],
                             "name": "NODE_0000001",
                             "node_attrs": {
+                              "clade_membership": {
+                                "value": "A"
+                              },
                               "div": 0.5506005025,
                               "num_date": {
                                 "confidence": [
-                                  2008.656363231851,
-                                  2009.2002288978686
+                                  2008.655203514429,
+                                  2009.2329849324096
                                 ],
-                                "value": 2009.0553264029188
+                                "value": 2008.9939571091597
                               }
                             }
                           }
                         ],
                         "name": "NODE_0000015",
                         "node_attrs": {
+                          "clade_membership": {
+                            "value": "A"
+                          },
                           "div": 0.5492200725,
                           "num_date": {
                             "confidence": [
-                              2006.5898666262347,
-                              2008.0429488122693
+                              2006.612806401095,
+                              2008.1402900490696
                             ],
-                            "value": 2007.5357377769644
+                            "value": 2007.5138305380935
                           }
                         }
                       }
                     ],
                     "name": "NODE_0000010",
                     "node_attrs": {
+                      "clade_membership": {
+                        "value": "A"
+                      },
                       "div": 0.5492200725,
                       "num_date": {
                         "confidence": [
-                          2006.1082324564766,
-                          2006.9230359048017
+                          2006.1323302515984,
+                          2006.9140337102342
                         ],
-                        "value": 2006.612051286792
+                        "value": 2006.633968880875
                       }
                     }
                   },
@@ -4573,6 +4726,85 @@
                     "children": [
                       {
                         "branch_attrs": {
+                          "mutations": {
+                            "nuc": [
+                              "T78C",
+                              "T1818C",
+                              "T3528C"
+                            ]
+                          }
+                        },
+                        "children": [
+                          {
+                            "branch_attrs": {
+                              "mutations": {}
+                            },
+                            "name": "hku1/KF686339/HKU1/human/USA/HKU1_3/2009/2009",
+                            "node_attrs": {
+                              "accession": "KF686339",
+                              "clade_membership": {
+                                "value": "A"
+                              },
+                              "country": {
+                                "value": "USA"
+                              },
+                              "div": 0.5516526825,
+                              "host": {
+                                "value": "Human"
+                              },
+                              "num_date": {
+                                "confidence": [
+                                  2009.831506849315,
+                                  2009.831506849315
+                                ],
+                                "value": 2009.831506849315
+                              }
+                            }
+                          },
+                          {
+                            "branch_attrs": {
+                              "mutations": {}
+                            },
+                            "name": "hku1/KF686340/HKU1/human/USA/HKU1_5/2009/2009",
+                            "node_attrs": {
+                              "accession": "KF686340",
+                              "clade_membership": {
+                                "value": "A"
+                              },
+                              "country": {
+                                "value": "USA"
+                              },
+                              "div": 0.5516526825,
+                              "host": {
+                                "value": "Human"
+                              },
+                              "num_date": {
+                                "confidence": [
+                                  2009.9082191780822,
+                                  2009.9082191780822
+                                ],
+                                "value": 2009.9082191780822
+                              }
+                            }
+                          }
+                        ],
+                        "name": "NODE_0000019",
+                        "node_attrs": {
+                          "clade_membership": {
+                            "value": "A"
+                          },
+                          "div": 0.5516497725,
+                          "num_date": {
+                            "confidence": [
+                              2009.6718389443272,
+                              2009.831506849315
+                            ],
+                            "value": 2009.831506849315
+                          }
+                        }
+                      },
+                      {
+                        "branch_attrs": {
                           "labels": {
                             "aa": "s2: L119S; spike: L879S"
                           },
@@ -4599,6 +4831,9 @@
                             "name": "hku1/KF430200/HKU1/human/USA/HKU1_16/2010/2010",
                             "node_attrs": {
                               "accession": "KF430200",
+                              "clade_membership": {
+                                "value": "A"
+                              },
                               "country": {
                                 "value": "USA"
                               },
@@ -4622,6 +4857,9 @@
                             "name": "hku1/KF686345/HKU1/human/USA/HKU1_20/2010/2010",
                             "node_attrs": {
                               "accession": "KF686345",
+                              "clade_membership": {
+                                "value": "A"
+                              },
                               "country": {
                                 "value": "USA"
                               },
@@ -4639,85 +4877,18 @@
                             }
                           }
                         ],
-                        "name": "NODE_0000014",
+                        "name": "NODE_0000020",
                         "node_attrs": {
+                          "clade_membership": {
+                            "value": "A"
+                          },
                           "div": 0.5518963125,
                           "num_date": {
                             "confidence": [
-                              2009.8524533529016,
+                              2009.8509121064533,
                               2010.0205479452054
                             ],
                             "value": 2010.0205479452054
-                          }
-                        }
-                      },
-                      {
-                        "branch_attrs": {
-                          "mutations": {
-                            "nuc": [
-                              "T78C",
-                              "T1818C",
-                              "T3528C"
-                            ]
-                          }
-                        },
-                        "children": [
-                          {
-                            "branch_attrs": {
-                              "mutations": {}
-                            },
-                            "name": "hku1/KF686339/HKU1/human/USA/HKU1_3/2009/2009",
-                            "node_attrs": {
-                              "accession": "KF686339",
-                              "country": {
-                                "value": "USA"
-                              },
-                              "div": 0.5516526825,
-                              "host": {
-                                "value": "Human"
-                              },
-                              "num_date": {
-                                "confidence": [
-                                  2009.831506849315,
-                                  2009.831506849315
-                                ],
-                                "value": 2009.831506849315
-                              }
-                            }
-                          },
-                          {
-                            "branch_attrs": {
-                              "mutations": {}
-                            },
-                            "name": "hku1/KF686340/HKU1/human/USA/HKU1_5/2009/2009",
-                            "node_attrs": {
-                              "accession": "KF686340",
-                              "country": {
-                                "value": "USA"
-                              },
-                              "div": 0.5516526825,
-                              "host": {
-                                "value": "Human"
-                              },
-                              "num_date": {
-                                "confidence": [
-                                  2009.9082191780822,
-                                  2009.9082191780822
-                                ],
-                                "value": 2009.9082191780822
-                              }
-                            }
-                          }
-                        ],
-                        "name": "NODE_0000023",
-                        "node_attrs": {
-                          "div": 0.5516497725,
-                          "num_date": {
-                            "confidence": [
-                              2009.6716224878958,
-                              2009.831506849315
-                            ],
-                            "value": 2009.831506849315
                           }
                         }
                       },
@@ -4756,6 +4927,9 @@
                                 "name": "hku1/KF686343/HKU1/human/USA/HKU1_13/2010/2010",
                                 "node_attrs": {
                                   "accession": "KF686343",
+                                  "clade_membership": {
+                                    "value": "A"
+                                  },
                                   "country": {
                                     "value": "USA"
                                   },
@@ -4784,6 +4958,9 @@
                                     "name": "hku1/KF686346/HKU1/human/USA/HKU1_12/2010/2010",
                                     "node_attrs": {
                                       "accession": "KF686346",
+                                      "clade_membership": {
+                                        "value": "A"
+                                      },
                                       "country": {
                                         "value": "USA"
                                       },
@@ -4807,6 +4984,9 @@
                                     "name": "hku1/KF686342/HKU1/human/USA/HKU1_11/2009/2009",
                                     "node_attrs": {
                                       "accession": "KF686342",
+                                      "clade_membership": {
+                                        "value": "A"
+                                      },
                                       "country": {
                                         "value": "USA"
                                       },
@@ -4824,12 +5004,15 @@
                                     }
                                   }
                                 ],
-                                "name": "NODE_0000026",
+                                "name": "NODE_0000028",
                                 "node_attrs": {
+                                  "clade_membership": {
+                                    "value": "A"
+                                  },
                                   "div": 0.5514042625000001,
                                   "num_date": {
                                     "confidence": [
-                                      2009.8132325339468,
+                                      2009.8151800795576,
                                       2009.9493150684932
                                     ],
                                     "value": 2009.9493150684932
@@ -4837,15 +5020,18 @@
                                 }
                               }
                             ],
-                            "name": "NODE_0000020",
+                            "name": "NODE_0000024",
                             "node_attrs": {
+                              "clade_membership": {
+                                "value": "A"
+                              },
                               "div": 0.5514042625000001,
                               "num_date": {
                                 "confidence": [
-                                  2009.6675063433631,
-                                  2009.944154952897
+                                  2009.661432075746,
+                                  2009.9441641911567
                                 ],
-                                "value": 2009.8345014072436
+                                "value": 2009.820543135081
                               }
                             }
                           },
@@ -4877,6 +5063,9 @@
                                 "name": "hku1/KF430201/HKU1/human/USA/HKU1_18/2010/2010",
                                 "node_attrs": {
                                   "accession": "KF430201",
+                                  "clade_membership": {
+                                    "value": "A"
+                                  },
                                   "country": {
                                     "value": "USA"
                                   },
@@ -4909,6 +5098,9 @@
                                     "name": "hku1/KF430202/HKU1/human/USA/HKU1_7/2010/2010",
                                     "node_attrs": {
                                       "accession": "KF430202",
+                                      "clade_membership": {
+                                        "value": "A"
+                                      },
                                       "country": {
                                         "value": "USA"
                                       },
@@ -4937,6 +5129,9 @@
                                         "name": "hku1/KF430199/HKU1/human/USA/HKU1_14/2009/2009",
                                         "node_attrs": {
                                           "accession": "KF430199",
+                                          "clade_membership": {
+                                            "value": "A"
+                                          },
                                           "country": {
                                             "value": "USA"
                                           },
@@ -4965,6 +5160,9 @@
                                             "name": "hku1/KF686341/HKU1/human/USA/HKU1_10/2010/2010",
                                             "node_attrs": {
                                               "accession": "KF686341",
+                                              "clade_membership": {
+                                                "value": "A"
+                                              },
                                               "country": {
                                                 "value": "USA"
                                               },
@@ -4997,6 +5195,9 @@
                                                 "name": "hku1/KY674941/N09_1663B/2016",
                                                 "node_attrs": {
                                                   "accession": "KY674941",
+                                                  "clade_membership": {
+                                                    "value": "A"
+                                                  },
                                                   "country": {
                                                     "value": "USA"
                                                   },
@@ -5007,7 +5208,7 @@
                                                   "num_date": {
                                                     "confidence": [
                                                       2016.0013661202186,
-                                                      2016.3804408324606
+                                                      2016.3947448690853
                                                     ],
                                                     "value": 2016.0013661202186
                                                   }
@@ -5025,6 +5226,9 @@
                                                     "name": "hku1/KY674943/N09_1605B/2016",
                                                     "node_attrs": {
                                                       "accession": "KY674943",
+                                                      "clade_membership": {
+                                                        "value": "A"
+                                                      },
                                                       "country": {
                                                         "value": "USA"
                                                       },
@@ -5035,7 +5239,7 @@
                                                       "num_date": {
                                                         "confidence": [
                                                           2016.0013661202186,
-                                                          2016.4638334909332
+                                                          2016.4972924233978
                                                         ],
                                                         "value": 2016.0013661202186
                                                       }
@@ -5048,6 +5252,9 @@
                                                     "name": "hku1/KY674942/N09_1627B/2016",
                                                     "node_attrs": {
                                                       "accession": "KY674942",
+                                                      "clade_membership": {
+                                                        "value": "A"
+                                                      },
                                                       "country": {
                                                         "value": "USA"
                                                       },
@@ -5058,45 +5265,54 @@
                                                       "num_date": {
                                                         "confidence": [
                                                           2016.0013661202186,
-                                                          2016.4625979281516
+                                                          2016.494720101819
                                                         ],
                                                         "value": 2016.0013661202186
                                                       }
                                                     }
                                                   }
                                                 ],
-                                                "name": "NODE_0000041",
+                                                "name": "NODE_0000043",
                                                 "node_attrs": {
+                                                  "clade_membership": {
+                                                    "value": "A"
+                                                  },
                                                   "div": 0.5511585025000001,
                                                   "num_date": {
                                                     "confidence": [
-                                                      2015.416943270618,
-                                                      2016.2884845853746
+                                                      2015.6793054237874,
+                                                      2016.3157129012677
                                                     ],
-                                                    "value": 2015.9087467134866
+                                                    "value": 2015.908968323365
                                                   }
                                                 }
                                               }
                                             ],
-                                            "name": "NODE_0000024",
+                                            "name": "NODE_0000022",
                                             "node_attrs": {
+                                              "clade_membership": {
+                                                "value": "A"
+                                              },
                                               "div": 0.5511585025000001,
                                               "num_date": {
                                                 "confidence": [
-                                                  2015.2336285299875,
-                                                  2016.117999928685
+                                                  2015.4071001424638,
+                                                  2016.1630133041315
                                                 ],
-                                                "value": 2015.836404239029
+                                                "value": 2015.8410164065638
                                               }
                                             }
                                           }
                                         ],
-                                        "name": "NODE_0000039",
+                                        "name": "NODE_0000042",
                                         "node_attrs": {
+                                          "clade_membership": {
+                                            "value": "A"
+                                          },
                                           "div": 0.5509128225000001,
                                           "num_date": {
                                             "confidence": [
-                                              2009.902276705119,
+                                              2009.8997423331116,
                                               2010.0424657534247
                                             ],
                                             "value": 2010.0424657534247
@@ -5104,119 +5320,146 @@
                                         }
                                       }
                                     ],
-                                    "name": "NODE_0000037",
+                                    "name": "NODE_0000041",
                                     "node_attrs": {
+                                      "clade_membership": {
+                                        "value": "A"
+                                      },
                                       "div": 0.5509128225000001,
                                       "num_date": {
                                         "confidence": [
-                                          2009.7813648208094,
+                                          2009.7731935131621,
                                           2009.990410958904
                                         ],
-                                        "value": 2009.9599027203215
+                                        "value": 2009.9136919706975
                                       }
                                     }
                                   }
                                 ],
-                                "name": "NODE_0000028",
+                                "name": "NODE_0000039",
                                 "node_attrs": {
+                                  "clade_membership": {
+                                    "value": "A"
+                                  },
                                   "div": 0.5509128225000001,
                                   "num_date": {
                                     "confidence": [
-                                      2009.6179785878542,
-                                      2009.9852507693352
+                                      2009.6262807649896,
+                                      2009.9678045667742
                                     ],
-                                    "value": 2009.806814972868
+                                    "value": 2009.820717263405
                                   }
                                 }
                               }
                             ],
-                            "name": "NODE_0000027",
+                            "name": "NODE_0000037",
                             "node_attrs": {
+                              "clade_membership": {
+                                "value": "A"
+                              },
                               "div": 0.5509128225000001,
                               "num_date": {
                                 "confidence": [
-                                  2009.4670904079685,
-                                  2009.8427606884636
+                                  2009.4003252270113,
+                                  2009.8625013823903
                                 ],
-                                "value": 2009.6872247135773
+                                "value": 2009.703802465287
                               }
                             }
                           }
                         ],
-                        "name": "NODE_0000042",
+                        "name": "NODE_0000026",
                         "node_attrs": {
+                          "clade_membership": {
+                            "value": "A"
+                          },
                           "div": 0.5509128225000001,
                           "num_date": {
                             "confidence": [
-                              2009.2806580579063,
-                              2009.760045411342
+                              2009.2533062140526,
+                              2009.7877174122711
                             ],
-                            "value": 2009.5506312015712
+                            "value": 2009.5032170878353
                           }
                         }
                       }
                     ],
                     "name": "NODE_0000013",
                     "node_attrs": {
+                      "clade_membership": {
+                        "value": "A"
+                      },
                       "div": 0.5509128225000001,
                       "num_date": {
                         "confidence": [
-                          2008.8169521354841,
-                          2009.6214142469353
+                          2008.7896133768115,
+                          2009.682576055795
                         ],
-                        "value": 2009.3520865968574
+                        "value": 2009.374971197527
                       }
                     }
                   }
                 ],
                 "name": "NODE_0000012",
                 "node_attrs": {
+                  "clade_membership": {
+                    "value": "A"
+                  },
                   "div": 0.5487108225,
                   "num_date": {
                     "confidence": [
-                      2005.4064779918692,
-                      2006.750774791176
+                      2005.4171810842467,
+                      2006.7996847874522
                     ],
-                    "value": 2006.168466012057
+                    "value": 2006.184631967356
                   }
                 }
               }
             ],
             "name": "NODE_0000029",
             "node_attrs": {
+              "clade_membership": {
+                "value": "A"
+              },
               "div": 0.5482120725,
               "num_date": {
                 "confidence": [
-                  2004.1889656405922,
-                  2004.9211566226475
+                  2004.185270341461,
+                  2004.8802033855243
                 ],
-                "value": 2004.6004588426965
+                "value": 2004.6214224482908
               }
             }
           }
         ],
         "name": "NODE_0000030",
         "node_attrs": {
+          "clade_membership": {
+            "value": "B"
+          },
           "div": 0.4685006425,
           "num_date": {
             "confidence": [
-              1958.04717123078,
-              1976.7136415274908
+              1958.3576496946207,
+              1976.9852759789387
             ],
-            "value": 1963.884061965717
+            "value": 1964.100315483853
           }
         }
       }
     ],
     "name": "NODE_0000003",
     "node_attrs": {
+      "clade_membership": {
+        "value": "B"
+      },
       "div": 0,
       "num_date": {
         "confidence": [
-          1958.9008869823901,
-          1983.089808743001
+          1958.9726309690993,
+          1983.244100063269
         ],
-        "value": 1971.0692290552265
+        "value": 1971.1158701294619
       }
     }
   },

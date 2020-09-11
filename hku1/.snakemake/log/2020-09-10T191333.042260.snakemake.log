@@ -1,0 +1,256 @@
+Building DAG of jobs...
+Using shell: /bin/bash
+Provided cores: 4
+Rules claiming more threads will be scaled down.
+Job counts:
+	count	jobs
+	3	align
+	1	all
+	3	ancestral
+	4	clades
+	4	export
+	3	filter
+	3	parse
+	3	refine
+	3	translate
+	3	tree
+	30
+
+[Thu Sep 10 19:13:33 2020]
+Job 11: Parsing fasta into sequences and metadata
+
+
+[Thu Sep 10 19:13:33 2020]
+Job 9: Annotating clades
+
+[Thu Sep 10 19:13:33 2020]
+Job 16: Parsing fasta into sequences and metadata
+
+
+[Thu Sep 10 19:13:33 2020]
+Job 21: Parsing fasta into sequences and metadata
+
+[Thu Sep 10 19:13:37 2020]
+Finished job 21.
+1 of 30 steps (3%) done
+[Thu Sep 10 19:13:37 2020]
+Finished job 16.
+2 of 30 steps (7%) done
+
+[Thu Sep 10 19:13:37 2020]
+Job 40: 
+        Filtering to
+          - 5000 sequence(s) per country
+          - minimum genome length of 200
+        
+
+[Thu Sep 10 19:13:37 2020]
+Finished job 11.
+3 of 30 steps (10%) done
+
+[Thu Sep 10 19:13:37 2020]
+Job 39: 
+        Filtering to
+          - 5000 sequence(s) per country
+          - minimum genome length of 200
+        
+
+
+[Thu Sep 10 19:13:37 2020]
+Job 38: 
+        Filtering to
+          - 5000 sequence(s) per country
+          - minimum genome length of 200
+        
+
+[Thu Sep 10 19:13:38 2020]
+Finished job 9.
+4 of 30 steps (13%) done
+
+[Thu Sep 10 19:13:38 2020]
+Job 1: Exporting data files for for auspice
+
+[Thu Sep 10 19:13:42 2020]
+Finished job 38.
+5 of 30 steps (17%) done
+
+[Thu Sep 10 19:13:42 2020]
+Job 29: 
+        Aligning sequences to config/hku1_spike_reference.gb
+          - filling gaps with N
+        
+
+[Thu Sep 10 19:13:42 2020]
+Finished job 40.
+6 of 30 steps (20%) done
+
+[Thu Sep 10 19:13:42 2020]
+Job 35: 
+        Aligning sequences to config/hku1_s2_reference.gb
+          - filling gaps with N
+        
+
+[Thu Sep 10 19:13:42 2020]
+Finished job 39.
+7 of 30 steps (23%) done
+
+[Thu Sep 10 19:13:42 2020]
+Job 32: 
+        Aligning sequences to config/hku1_s1_reference.gb
+          - filling gaps with N
+        
+
+[Thu Sep 10 19:13:42 2020]
+Finished job 1.
+8 of 30 steps (27%) done
+[Thu Sep 10 19:13:47 2020]
+Finished job 35.
+9 of 30 steps (30%) done
+
+[Thu Sep 10 19:13:47 2020]
+Job 34: Building tree
+
+[Thu Sep 10 19:13:49 2020]
+Finished job 32.
+10 of 30 steps (33%) done
+
+[Thu Sep 10 19:13:49 2020]
+Job 31: Building tree
+
+[Thu Sep 10 19:13:50 2020]
+Finished job 34.
+11 of 30 steps (37%) done
+
+[Thu Sep 10 19:13:50 2020]
+Job 20: 
+        Refining tree
+        
+
+[Thu Sep 10 19:13:53 2020]
+Finished job 31.
+12 of 30 steps (40%) done
+
+[Thu Sep 10 19:13:53 2020]
+Job 15: 
+        Refining tree
+        
+
+[Thu Sep 10 19:13:56 2020]
+Finished job 29.
+13 of 30 steps (43%) done
+
+[Thu Sep 10 19:13:56 2020]
+Job 28: Building tree
+
+[Thu Sep 10 19:13:59 2020]
+Finished job 28.
+14 of 30 steps (47%) done
+
+[Thu Sep 10 19:13:59 2020]
+Job 10: 
+        Refining tree
+        
+
+[Thu Sep 10 19:14:27 2020]
+Finished job 20.
+15 of 30 steps (50%) done
+
+[Thu Sep 10 19:14:27 2020]
+Job 22: Reconstructing ancestral sequences and mutations
+
+[Thu Sep 10 19:14:30 2020]
+Finished job 22.
+16 of 30 steps (53%) done
+
+[Thu Sep 10 19:14:30 2020]
+Job 23: Translating amino acid sequences
+
+[Thu Sep 10 19:14:32 2020]
+Finished job 23.
+17 of 30 steps (57%) done
+
+[Thu Sep 10 19:14:32 2020]
+Job 24: Annotating clades
+
+[Thu Sep 10 19:14:36 2020]
+Finished job 24.
+18 of 30 steps (60%) done
+
+[Thu Sep 10 19:14:36 2020]
+Job 4: Exporting data files for for auspice
+
+[Thu Sep 10 19:14:39 2020]
+Finished job 4.
+19 of 30 steps (63%) done
+[Thu Sep 10 19:14:55 2020]
+Finished job 15.
+20 of 30 steps (67%) done
+
+[Thu Sep 10 19:14:55 2020]
+Job 17: Reconstructing ancestral sequences and mutations
+
+[Thu Sep 10 19:14:57 2020]
+Finished job 17.
+21 of 30 steps (70%) done
+
+[Thu Sep 10 19:14:57 2020]
+Job 18: Translating amino acid sequences
+
+[Thu Sep 10 19:14:59 2020]
+Finished job 18.
+22 of 30 steps (73%) done
+
+[Thu Sep 10 19:14:59 2020]
+Job 19: Annotating clades
+
+[Thu Sep 10 19:15:02 2020]
+Finished job 19.
+23 of 30 steps (77%) done
+
+[Thu Sep 10 19:15:02 2020]
+Job 3: Exporting data files for for auspice
+
+[Thu Sep 10 19:29:48 2020]
+Finished job 3.
+24 of 30 steps (80%) done
+[Thu Sep 10 19:35:24 2020]
+Finished job 10.
+25 of 30 steps (83%) done
+
+[Thu Sep 10 19:35:24 2020]
+Job 12: Reconstructing ancestral sequences and mutations
+
+[Thu Sep 10 19:35:32 2020]
+Finished job 12.
+26 of 30 steps (87%) done
+
+[Thu Sep 10 19:35:32 2020]
+Job 13: Translating amino acid sequences
+
+[Thu Sep 10 19:36:00 2020]
+Finished job 13.
+27 of 30 steps (90%) done
+
+[Thu Sep 10 19:36:00 2020]
+Job 14: Annotating clades
+
+[Thu Sep 10 20:00:26 2020]
+Finished job 14.
+28 of 30 steps (93%) done
+
+[Thu Sep 10 20:00:26 2020]
+Job 2: Exporting data files for for auspice
+
+[Thu Sep 10 20:00:32 2020]
+Finished job 2.
+29 of 30 steps (97%) done
+
+[Thu Sep 10 20:00:32 2020]
+localrule all:
+    input: auspice/seasonal_corona_hku1_rdrp.json, auspice/seasonal_corona_hku1_spike.json, auspice/seasonal_corona_hku1_s1.json, auspice/seasonal_corona_hku1_s2.json
+    jobid: 0
+
+[Thu Sep 10 20:00:32 2020]
+Finished job 0.
+30 of 30 steps (100%) done
+Complete log: /Users/katekistler/nextstrain/seasonal-cov/hku1/.snakemake/log/2020-09-10T191333.042260.snakemake.log

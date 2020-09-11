@@ -1,6 +1,6 @@
 
-# GENE = ["full"]
-GENE = ["s1", "spike"]
+GENE = ["full"]
+# GENE = ["s1", "spike", "s2", "rdrp"]
 # GENE = ["replicase1ab", "nonstructural2a", "he", "nonstructural2", "envelope", "membrane", "nucleocapsid", "n2protein", "s2"]
 # GENE = ["replicase1ab"]
 # GENE = ["rdrp"]
@@ -194,7 +194,7 @@ rule translate:
         """
 
 def _get_clades_file_for_wildcards(wildcards):
-    if wildcards.gene == 'spike' or wildcards.gene == 's1' or wildcards.gene == 'full' or wildcards.gene == 'replicase1ab' or wildcards.gene == 'rdrp':
+    if wildcards.gene == 'spike' or wildcards.gene == 's1' or wildcards.gene == 'full' or wildcards.gene == 'replicase1ab' or wildcards.gene == 'rdrp' or wildcards.gene == 's2':
         return "config/clades_%s.tsv"%wildcards.gene
 
 
@@ -208,7 +208,7 @@ rule clades:
     output:
         node_data = "results/clades_{gene}.json"
     run:
-        if wildcards.gene == 'spike' or wildcards.gene == 's1' or wildcards.gene == 'full' or wildcards.gene == 'replicase1ab' or wildcards.gene == 'rdrp':
+        if wildcards.gene == 'spike' or wildcards.gene == 's1' or wildcards.gene == 'full' or wildcards.gene == 'replicase1ab' or wildcards.gene == 'rdrp' or wildcards.gene == 's2':
             shell("""
                 augur clades \
                     --tree {input.tree} \
@@ -246,8 +246,8 @@ rule export:
         aa_muts = rules.translate.output.node_data,
         lat_longs = files.lat_longs,
         auspice_config = files.auspice_config,
-        colors = files.colors
-        # clades = rules.clades.output.node_data
+        colors = files.colors,
+        clades = rules.clades.output.node_data
         # description = files.description
     output:
         auspice_json = "auspice/seasonal_corona_oc43_{gene}.json"
@@ -258,7 +258,7 @@ rule export:
         augur export v2 \
             --tree {input.tree} \
             --metadata {input.metadata} \
-            --node-data {input.branch_lengths} {input.nt_muts} {input.aa_muts} \
+            --node-data {input.branch_lengths} {input.nt_muts} {input.aa_muts} {input.clades}\
             --include-root-sequence \
             --auspice-config {input.auspice_config} \
             --lat-longs {input.lat_longs} \
