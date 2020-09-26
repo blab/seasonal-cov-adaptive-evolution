@@ -1,0 +1,6 @@
+#Evidence for Adaptive Evolution in Receptor-Binding Proteins of Seasonal Coronaviruses 
+
+Kathryn Kistler, Trevor Bedford
+
+#Abstract
+Coronaviruses are a family of single-stranded RNA viruses that are the etiological agents of human respiratory diseases ranging in symptom severity from the common cold to acute respiratory distress syndrome. Four of these viruses (OC43, 229E, NL63 and HKU1) are endemic to the human population, regularly infecting and reinfecting humans while typically causing asymptomatic to mild infections. It is not known to what extent reinfection by these viruses is due to waning immune memory, immune protection against disease rather than infection, or antigenic drift of the viruses. Here, we address the influence of antigenic drift on immune evasion of seasonal coronaviruses. We provide evidence that at least two of these viruses, OC43 and 229E, are undergoing adaptive evolution in regions of the viral Spike protein which are known to interact with the human immune system. This suggests that reinfection may be due, in part, to positively-selected genetic changes in these viruses that enable them to escape recognition by the immune system. It is possible that, as with influenza H3N2, these adaptive changes in antigenic regions of the virus would necessitate continual reformulation of a vaccine made against them.
