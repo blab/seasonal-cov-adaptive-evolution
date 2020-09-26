@@ -1,4 +1,4 @@
-##OC43
+## OC43
 
 OC43 is a betacoronavirus with genome length 30738 nt.
 

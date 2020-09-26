@@ -1,4 +1,4 @@
-##229E
+## 229E
 
 229E is an alphacoronavirus with genome length 27317 nt.
 

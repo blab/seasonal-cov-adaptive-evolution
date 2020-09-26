@@ -1,4 +1,4 @@
-##HKU1
+## HKU1
 
 HKU1 is an betacoronavirus with genome length 29926 nt.
 
