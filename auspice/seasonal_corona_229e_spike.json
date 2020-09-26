@@ -1,0 +1,3035 @@
+{
+  "meta": {
+    "colorings": [
+      {
+        "key": "num_date",
+        "title": "Sampling date",
+        "type": "continuous"
+      },
+      {
+        "key": "gt",
+        "title": "Genotype",
+        "type": "categorical"
+      },
+      {
+        "key": "country",
+        "title": "country",
+        "type": "categorical"
+      }
+    ],
+    "display_defaults": {
+      "color_by": "country",
+      "map_triplicate": true
+    },
+    "filters": [
+      "host"
+    ],
+    "genome_annotations": {
+      "nuc": {
+        "end": 3522,
+        "seqid": "config/229e_spike_reference.gb",
+        "start": 1,
+        "strand": "+",
+        "type": "source"
+      },
+      "s1": {
+        "end": 1680,
+        "seqid": "config/229e_spike_reference.gb",
+        "start": 46,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "s2": {
+        "end": 3522,
+        "seqid": "config/229e_spike_reference.gb",
+        "start": 1681,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "sigpep": {
+        "end": 45,
+        "seqid": "config/229e_spike_reference.gb",
+        "start": 1,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "spike": {
+        "end": 3522,
+        "seqid": "config/229e_spike_reference.gb",
+        "start": 1,
+        "strand": "+",
+        "type": "CDS"
+      }
+    },
+    "maintainers": [
+      {
+        "name": "Katie Kistler"
+      }
+    ],
+    "panels": [
+      "tree"
+    ],
+    "title": "Genetic diversity of seasonal coronaviruses. Data collected by Vipr",
+    "updated": "2020-09-16"
+  },
+  "tree": {
+    "branch_attrs": {
+      "mutations": {}
+    },
+    "children": [
+      {
+        "branch_attrs": {
+          "mutations": {}
+        },
+        "name": "229e/KF514429/229E/human/USA/892_11/1989/1989",
+        "node_attrs": {
+          "accession": "KF514429",
+          "country": {
+            "value": "USA"
+          },
+          "div": 0.000852483442732591,
+          "host": {
+            "value": "Human"
+          },
+          "num_date": {
+            "confidence": [
+              1989.1027397260275,
+              1989.1027397260275
+            ],
+            "value": 1989.1027397260275
+          }
+        }
+      },
+      {
+        "branch_attrs": {
+          "labels": {
+            "aa": "s1: V125A, F144S, Q296R, F303Y, G343D; s2: T121R; spike: V140A, F159S, Q311R, F318Y, G358D, T681R"
+          },
+          "mutations": {
+            "nuc": [
+              "C297T",
+              "T419C",
+              "A450G",
+              "T476C",
+              "C741T",
+              "A932G",
+              "T953A",
+              "G1073A",
+              "C2042G",
+              "C2574T",
+              "T2665C"
+            ],
+            "s1": [
+              "V125A",
+              "F144S",
+              "Q296R",
+              "F303Y",
+              "G343D"
+            ],
+            "s2": [
+              "T121R"
+            ],
+            "spike": [
+              "V140A",
+              "F159S",
+              "Q311R",
+              "F318Y",
+              "G358D",
+              "T681R"
+            ]
+          }
+        },
+        "children": [
+          {
+            "branch_attrs": {
+              "mutations": {
+                "nuc": [
+                  "G876A",
+                  "C1905T",
+                  "C2952T"
+                ]
+              }
+            },
+            "name": "229e/KF514432/229E/human/USA/932_72/1993/1993",
+            "node_attrs": {
+              "accession": "KF514432",
+              "country": {
+                "value": "USA"
+              },
+              "div": 0.003127226086206348,
+              "host": {
+                "value": "Human"
+              },
+              "num_date": {
+                "confidence": [
+                  1993.1438356164383,
+                  1993.1438356164383
+                ],
+                "value": 1993.1438356164383
+              }
+            }
+          },
+          {
+            "branch_attrs": {
+              "labels": {
+                "aa": "s1: T396N; spike: T411N"
+              },
+              "mutations": {
+                "nuc": [
+                  "C1232A"
+                ],
+                "s1": [
+                  "T396N"
+                ],
+                "spike": [
+                  "T411N"
+                ]
+              }
+            },
+            "children": [
+              {
+                "branch_attrs": {
+                  "labels": {
+                    "aa": "s1: R74Q; spike: R89Q"
+                  },
+                  "mutations": {
+                    "nuc": [
+                      "G266A",
+                      "C627T",
+                      "T2271G",
+                      "T2307C",
+                      "T2574C",
+                      "G3321T"
+                    ],
+                    "s1": [
+                      "R74Q"
+                    ],
+                    "spike": [
+                      "R89Q"
+                    ]
+                  }
+                },
+                "name": "229e/KF514430/229E/human/USA/933_50/1993/1993",
+                "node_attrs": {
+                  "accession": "KF514430",
+                  "country": {
+                    "value": "USA"
+                  },
+                  "div": 0.00426479920229547,
+                  "host": {
+                    "value": "Human"
+                  },
+                  "num_date": {
+                    "confidence": [
+                      1993.2095890410958,
+                      1993.2095890410958
+                    ],
+                    "value": 1993.2095890410958
+                  }
+                }
+              },
+              {
+                "branch_attrs": {
+                  "labels": {
+                    "aa": "s1: T195S; spike: T210S"
+                  },
+                  "mutations": {
+                    "nuc": [
+                      "A108G",
+                      "A628T",
+                      "T3276C"
+                    ],
+                    "s1": [
+                      "T195S"
+                    ],
+                    "spike": [
+                      "T210S"
+                    ]
+                  }
+                },
+                "children": [
+                  {
+                    "branch_attrs": {
+                      "mutations": {
+                        "nuc": [
+                          "T1428C",
+                          "C3432T"
+                        ]
+                      }
+                    },
+                    "name": "229e/KF514433/229E/human/USA/933_40/1993/1993",
+                    "node_attrs": {
+                      "accession": "KF514433",
+                      "country": {
+                        "value": "USA"
+                      },
+                      "div": 0.0039788515655428715,
+                      "host": {
+                        "value": "Human"
+                      },
+                      "num_date": {
+                        "confidence": [
+                          1993.190410958904,
+                          1993.190410958904
+                        ],
+                        "value": 1993.190410958904
+                      }
+                    }
+                  },
+                  {
+                    "branch_attrs": {
+                      "labels": {
+                        "aa": "s1: D36N, A340V; spike: D51N, A355V"
+                      },
+                      "mutations": {
+                        "nuc": [
+                          "G151A",
+                          "C1064T",
+                          "G3321T"
+                        ],
+                        "s1": [
+                          "D36N",
+                          "A340V"
+                        ],
+                        "spike": [
+                          "D51N",
+                          "A355V"
+                        ]
+                      }
+                    },
+                    "children": [
+                      {
+                        "branch_attrs": {
+                          "labels": {
+                            "aa": "s1: A26V, R114H, V269A; s2: K543N; spike: A41V, R129H, V284A, K1103N"
+                          },
+                          "mutations": {
+                            "nuc": [
+                              "C122T",
+                              "G386A",
+                              "T851C",
+                              "C2718T",
+                              "G3309T"
+                            ],
+                            "s1": [
+                              "A26V",
+                              "R114H",
+                              "V269A"
+                            ],
+                            "s2": [
+                              "K543N"
+                            ],
+                            "spike": [
+                              "A41V",
+                              "R129H",
+                              "V284A",
+                              "K1103N"
+                            ]
+                          }
+                        },
+                        "name": "229e/KF514431/229E/human/USA/953_49/1995/1995",
+                        "node_attrs": {
+                          "accession": "KF514431",
+                          "country": {
+                            "value": "USA"
+                          },
+                          "div": 0.005684139651517451,
+                          "host": {
+                            "value": "Human"
+                          },
+                          "num_date": {
+                            "confidence": [
+                              1995.2232876712328,
+                              1995.2232876712328
+                            ],
+                            "value": 1995.2232876712328
+                          }
+                        }
+                      },
+                      {
+                        "branch_attrs": {
+                          "labels": {
+                            "aa": "s1: F75L, E210A, K294E, S297R, V299P; spike: F90L, E225A, K309E, S312R, V314P"
+                          },
+                          "mutations": {
+                            "nuc": [
+                              "T268C",
+                              "A672T",
+                              "A674C",
+                              "C768T",
+                              "A925G",
+                              "A934C",
+                              "G940C",
+                              "T941C",
+                              "T1014C",
+                              "A1287G",
+                              "C1731T",
+                              "C2145T",
+                              "A2232T",
+                              "T3429C"
+                            ],
+                            "s1": [
+                              "F75L",
+                              "E210A",
+                              "K294E",
+                              "S297R",
+                              "V299P"
+                            ],
+                            "spike": [
+                              "F90L",
+                              "E225A",
+                              "K309E",
+                              "S312R",
+                              "V314P"
+                            ]
+                          }
+                        },
+                        "children": [
+                          {
+                            "branch_attrs": {
+                              "labels": {
+                                "aa": "s1: V55F, S253A; spike: V70F, S268A"
+                              },
+                              "mutations": {
+                                "nuc": [
+                                  "G208T",
+                                  "T802G",
+                                  "T1407C",
+                                  "C1854T",
+                                  "C1905T",
+                                  "C2094T",
+                                  "C2160T",
+                                  "T2319C",
+                                  "C2665T",
+                                  "T3333C",
+                                  "C3432T"
+                                ],
+                                "s1": [
+                                  "V55F",
+                                  "S253A"
+                                ],
+                                "spike": [
+                                  "V70F",
+                                  "S268A"
+                                ]
+                              }
+                            },
+                            "name": "229e/JX503061/J0304/2009",
+                            "node_attrs": {
+                              "accession": "JX503061",
+                              "country": {
+                                "value": "Italy"
+                              },
+                              "div": 0.011376265116182173,
+                              "host": {
+                                "value": "Human"
+                              },
+                              "num_date": {
+                                "confidence": [
+                                  2009.0013698630137,
+                                  2009.8287334307965
+                                ],
+                                "value": 2009.0013698630137
+                              }
+                            }
+                          },
+                          {
+                            "branch_attrs": {
+                              "labels": {
+                                "aa": "s1: A390V; spike: A405V"
+                              },
+                              "mutations": {
+                                "nuc": [
+                                  "C603T",
+                                  "C1214T"
+                                ],
+                                "s1": [
+                                  "A390V"
+                                ],
+                                "spike": [
+                                  "A405V"
+                                ]
+                              }
+                            },
+                            "children": [
+                              {
+                                "branch_attrs": {
+                                  "mutations": {
+                                    "nuc": [
+                                      "T2170C"
+                                    ]
+                                  }
+                                },
+                                "children": [
+                                  {
+                                    "branch_attrs": {
+                                      "mutations": {
+                                        "nuc": [
+                                          "T1518C",
+                                          "T2551C",
+                                          "T2685C",
+                                          "C3276T"
+                                        ]
+                                      }
+                                    },
+                                    "name": "229e/KM055559/857_2005/2005",
+                                    "node_attrs": {
+                                      "accession": "KM055559",
+                                      "country": {
+                                        "value": "China"
+                                      },
+                                      "div": 0.010242191162425964,
+                                      "host": {
+                                        "value": "Human"
+                                      },
+                                      "num_date": {
+                                        "confidence": [
+                                          2005.3791913660618,
+                                          2005.9986301369863
+                                        ],
+                                        "value": 2005.9986301369863
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "branch_attrs": {
+                                      "labels": {
+                                        "aa": "s1: I275T, V390A; s2: T530I; spike: I290T, V405A, T1090I"
+                                      },
+                                      "mutations": {
+                                        "nuc": [
+                                          "T869C",
+                                          "C924T",
+                                          "T1214C",
+                                          "T1548A",
+                                          "T1998C",
+                                          "T2091C",
+                                          "C3269T",
+                                          "C3510T"
+                                        ],
+                                        "s1": [
+                                          "I275T",
+                                          "V390A"
+                                        ],
+                                        "s2": [
+                                          "T530I"
+                                        ],
+                                        "spike": [
+                                          "I290T",
+                                          "V405A",
+                                          "T1090I"
+                                        ]
+                                      }
+                                    },
+                                    "name": "229e/KY674919/N08_434B/2016",
+                                    "node_attrs": {
+                                      "accession": "KY674919",
+                                      "country": {
+                                        "value": "USA"
+                                      },
+                                      "div": 0.010804236190111702,
+                                      "host": {
+                                        "value": "Human"
+                                      },
+                                      "num_date": {
+                                        "confidence": [
+                                          2016.0013661202186,
+                                          2016.7806624187158
+                                        ],
+                                        "value": 2016.0013661202186
+                                      }
+                                    }
+                                  }
+                                ],
+                                "name": "NODE_0000013",
+                                "node_attrs": {
+                                  "div": 0.008816167802717536,
+                                  "num_date": {
+                                    "confidence": [
+                                      2004.0623734763724,
+                                      2005.7892750803376
+                                    ],
+                                    "value": 2004.889651042875
+                                  }
+                                }
+                              },
+                              {
+                                "branch_attrs": {
+                                  "labels": {
+                                    "aa": "s1: M7T, L75F, L392H, N393K; s2: R411I; spike: M22T, L90F, L407H, N408K, R971I"
+                                  },
+                                  "mutations": {
+                                    "nuc": [
+                                      "T65C",
+                                      "C268T",
+                                      "T1220A",
+                                      "T1224A",
+                                      "G2912T"
+                                    ],
+                                    "s1": [
+                                      "M7T",
+                                      "L75F",
+                                      "L392H",
+                                      "N393K"
+                                    ],
+                                    "s2": [
+                                      "R411I"
+                                    ],
+                                    "spike": [
+                                      "M22T",
+                                      "L90F",
+                                      "L407H",
+                                      "N408K",
+                                      "R971I"
+                                    ]
+                                  }
+                                },
+                                "children": [
+                                  {
+                                    "branch_attrs": {
+                                      "mutations": {}
+                                    },
+                                    "name": "229e/KM055557/748_2005/2005",
+                                    "node_attrs": {
+                                      "accession": "KM055557",
+                                      "country": {
+                                        "value": "China"
+                                      },
+                                      "div": 0.010237009675396013,
+                                      "host": {
+                                        "value": "Human"
+                                      },
+                                      "num_date": {
+                                        "confidence": [
+                                          2005.4301186787006,
+                                          2005.9986301369863
+                                        ],
+                                        "value": 2005.9986301369863
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "branch_attrs": {
+                                      "labels": {
+                                        "aa": "s1: G160D; spike: G175D"
+                                      },
+                                      "mutations": {
+                                        "nuc": [
+                                          "G524A"
+                                        ],
+                                        "s1": [
+                                          "G160D"
+                                        ],
+                                        "spike": [
+                                          "G175D"
+                                        ]
+                                      }
+                                    },
+                                    "children": [
+                                      {
+                                        "branch_attrs": {
+                                          "labels": {
+                                            "aa": "s1: V310I; spike: V325I"
+                                          },
+                                          "mutations": {
+                                            "nuc": [
+                                              "T777C",
+                                              "C921T",
+                                              "T972C",
+                                              "G973A"
+                                            ],
+                                            "s1": [
+                                              "V310I"
+                                            ],
+                                            "spike": [
+                                              "V325I"
+                                            ]
+                                          }
+                                        },
+                                        "name": "229e/KM055555/507A_2008/2008",
+                                        "node_attrs": {
+                                          "accession": "KM055555",
+                                          "country": {
+                                            "value": "China"
+                                          },
+                                          "div": 0.011662278687657904,
+                                          "host": {
+                                            "value": "Human"
+                                          },
+                                          "num_date": {
+                                            "confidence": [
+                                              2008.0013661202186,
+                                              2008.8765680965396
+                                            ],
+                                            "value": 2008.0013661202186
+                                          }
+                                        }
+                                      },
+                                      {
+                                        "branch_attrs": {
+                                          "labels": {
+                                            "aa": "s1: A140D, S537N; s2: T42R; spike: A155D, S552N, T602R"
+                                          },
+                                          "mutations": {
+                                            "nuc": [
+                                              "C464A",
+                                              "G1655A",
+                                              "C1805G",
+                                              "A2739G"
+                                            ],
+                                            "s1": [
+                                              "A140D",
+                                              "S537N"
+                                            ],
+                                            "s2": [
+                                              "T42R"
+                                            ],
+                                            "spike": [
+                                              "A155D",
+                                              "S552N",
+                                              "T602R"
+                                            ]
+                                          }
+                                        },
+                                        "name": "229e/KM055551/359A_2007/2007",
+                                        "node_attrs": {
+                                          "accession": "KM055551",
+                                          "country": {
+                                            "value": "China"
+                                          },
+                                          "div": 0.011663297191333914,
+                                          "host": {
+                                            "value": "Human"
+                                          },
+                                          "num_date": {
+                                            "confidence": [
+                                              2007.200821331184,
+                                              2007.9986301369863
+                                            ],
+                                            "value": 2007.9986301369863
+                                          }
+                                        }
+                                      },
+                                      {
+                                        "branch_attrs": {
+                                          "labels": {
+                                            "aa": "s1: F342L; spike: F357L"
+                                          },
+                                          "mutations": {
+                                            "nuc": [
+                                              "T822C",
+                                              "T918C",
+                                              "T1069C",
+                                              "G3345T"
+                                            ],
+                                            "s1": [
+                                              "F342L"
+                                            ],
+                                            "spike": [
+                                              "F357L"
+                                            ]
+                                          }
+                                        },
+                                        "children": [
+                                          {
+                                            "branch_attrs": {
+                                              "mutations": {
+                                                "nuc": [
+                                                  "T930C",
+                                                  "T2857C"
+                                                ]
+                                              }
+                                            },
+                                            "name": "229e/KM055543/1990A_2010/2010",
+                                            "node_attrs": {
+                                              "accession": "KM055543",
+                                              "country": {
+                                                "value": "China"
+                                              },
+                                              "div": 0.01222531609987524,
+                                              "host": {
+                                                "value": "Human"
+                                              },
+                                              "num_date": {
+                                                "confidence": [
+                                                  2010.0013698630137,
+                                                  2010.792332365688
+                                                ],
+                                                "value": 2010.0013698630137
+                                              }
+                                            }
+                                          },
+                                          {
+                                            "branch_attrs": {
+                                              "mutations": {
+                                                "nuc": [
+                                                  "C1383T"
+                                                ]
+                                              }
+                                            },
+                                            "children": [
+                                              {
+                                                "branch_attrs": {
+                                                  "mutations": {
+                                                    "nuc": [
+                                                      "T669C",
+                                                      "C877T"
+                                                    ]
+                                                  }
+                                                },
+                                                "name": "229e/JX503060/0349/2010",
+                                                "node_attrs": {
+                                                  "accession": "JX503060",
+                                                  "country": {
+                                                    "value": "Netherlands"
+                                                  },
+                                                  "div": 0.01250612475811887,
+                                                  "host": {
+                                                    "value": "Human"
+                                                  },
+                                                  "num_date": {
+                                                    "confidence": [
+                                                      2010.0013698630137,
+                                                      2010.8132439075412
+                                                    ],
+                                                    "value": 2010.0013698630137
+                                                  }
+                                                }
+                                              },
+                                              {
+                                                "branch_attrs": {
+                                                  "mutations": {}
+                                                },
+                                                "name": "229e/KM055547/8425_2009/2009",
+                                                "node_attrs": {
+                                                  "accession": "KM055547",
+                                                  "country": {
+                                                    "value": "China"
+                                                  },
+                                                  "div": 0.011938924546642622,
+                                                  "host": {
+                                                    "value": "Human"
+                                                  },
+                                                  "num_date": {
+                                                    "confidence": [
+                                                      2009.0013698630137,
+                                                      2009.9986301369863
+                                                    ],
+                                                    "value": 2009.1315578486856
+                                                  }
+                                                }
+                                              },
+                                              {
+                                                "branch_attrs": {
+                                                  "mutations": {}
+                                                },
+                                                "name": "229e/KM055546/8373_2009/2009",
+                                                "node_attrs": {
+                                                  "accession": "KM055546",
+                                                  "country": {
+                                                    "value": "China"
+                                                  },
+                                                  "div": 0.011938924546642622,
+                                                  "host": {
+                                                    "value": "Human"
+                                                  },
+                                                  "num_date": {
+                                                    "confidence": [
+                                                      2009.0013698630137,
+                                                      2009.9986301369863
+                                                    ],
+                                                    "value": 2009.1315578486856
+                                                  }
+                                                }
+                                              },
+                                              {
+                                                "branch_attrs": {
+                                                  "mutations": {
+                                                    "nuc": [
+                                                      "T1719C",
+                                                      "G2640A"
+                                                    ]
+                                                  }
+                                                },
+                                                "name": "229e/KM055538/1761A_2010/2010",
+                                                "node_attrs": {
+                                                  "accession": "KM055538",
+                                                  "country": {
+                                                    "value": "China"
+                                                  },
+                                                  "div": 0.012508976573447095,
+                                                  "host": {
+                                                    "value": "Human"
+                                                  },
+                                                  "num_date": {
+                                                    "confidence": [
+                                                      2010.0013698630137,
+                                                      2010.8143071302393
+                                                    ],
+                                                    "value": 2010.0013698630137
+                                                  }
+                                                }
+                                              },
+                                              {
+                                                "branch_attrs": {
+                                                  "mutations": {
+                                                    "nuc": [
+                                                      "C1476T",
+                                                      "T2610C"
+                                                    ]
+                                                  }
+                                                },
+                                                "name": "229e/KM055545/8339_2009/2009",
+                                                "node_attrs": {
+                                                  "accession": "KM055545",
+                                                  "country": {
+                                                    "value": "China"
+                                                  },
+                                                  "div": 0.012509018558842677,
+                                                  "host": {
+                                                    "value": "Human"
+                                                  },
+                                                  "num_date": {
+                                                    "confidence": [
+                                                      2009.0013698630137,
+                                                      2009.9986301369863
+                                                    ],
+                                                    "value": 2009.772527235129
+                                                  }
+                                                }
+                                              },
+                                              {
+                                                "branch_attrs": {
+                                                  "labels": {
+                                                    "aa": "s1: L342F; spike: L357F"
+                                                  },
+                                                  "mutations": {
+                                                    "nuc": [
+                                                      "C1069T"
+                                                    ],
+                                                    "s1": [
+                                                      "L342F"
+                                                    ],
+                                                    "spike": [
+                                                      "L357F"
+                                                    ]
+                                                  }
+                                                },
+                                                "children": [
+                                                  {
+                                                    "branch_attrs": {
+                                                      "labels": {
+                                                        "aa": "s1: F342L; spike: F357L"
+                                                      },
+                                                      "mutations": {
+                                                        "nuc": [
+                                                          "T1071A",
+                                                          "C1419T"
+                                                        ],
+                                                        "s1": [
+                                                          "F342L"
+                                                        ],
+                                                        "spike": [
+                                                          "F357L"
+                                                        ]
+                                                      }
+                                                    },
+                                                    "name": "229e/KM055534/1546A_2009/2009",
+                                                    "node_attrs": {
+                                                      "accession": "KM055534",
+                                                      "country": {
+                                                        "value": "China"
+                                                      },
+                                                      "div": 0.012792945464119318,
+                                                      "host": {
+                                                        "value": "Human"
+                                                      },
+                                                      "num_date": {
+                                                        "confidence": [
+                                                          2009.0013698630137,
+                                                          2009.9986301369863
+                                                        ],
+                                                        "value": 2009.8817222990049
+                                                      }
+                                                    }
+                                                  },
+                                                  {
+                                                    "branch_attrs": {
+                                                      "mutations": {
+                                                        "nuc": [
+                                                          "C591T"
+                                                        ]
+                                                      }
+                                                    },
+                                                    "children": [
+                                                      {
+                                                        "branch_attrs": {
+                                                          "mutations": {}
+                                                        },
+                                                        "name": "229e/KM055532/1512A_2009/2009",
+                                                        "node_attrs": {
+                                                          "accession": "KM055532",
+                                                          "country": {
+                                                            "value": "China"
+                                                          },
+                                                          "div": 0.012506007696772348,
+                                                          "host": {
+                                                            "value": "Human"
+                                                          },
+                                                          "num_date": {
+                                                            "confidence": [
+                                                              2009.0013698630137,
+                                                              2009.9986301369863
+                                                            ],
+                                                            "value": 2009.7171625739777
+                                                          }
+                                                        }
+                                                      },
+                                                      {
+                                                        "branch_attrs": {
+                                                          "mutations": {}
+                                                        },
+                                                        "name": "229e/KM055533/1518A_2009/2009",
+                                                        "node_attrs": {
+                                                          "accession": "KM055533",
+                                                          "country": {
+                                                            "value": "China"
+                                                          },
+                                                          "div": 0.012506007696772348,
+                                                          "host": {
+                                                            "value": "Human"
+                                                          },
+                                                          "num_date": {
+                                                            "confidence": [
+                                                              2009.0013698630137,
+                                                              2009.9986301369863
+                                                            ],
+                                                            "value": 2009.7171625739777
+                                                          }
+                                                        }
+                                                      }
+                                                    ],
+                                                    "name": "NODE_0000006",
+                                                    "node_attrs": {
+                                                      "div": 0.012506007696772329,
+                                                      "num_date": {
+                                                        "confidence": [
+                                                          2008.546302477764,
+                                                          2009.9924388666116
+                                                        ],
+                                                        "value": 2009.2308585090952
+                                                      }
+                                                    }
+                                                  }
+                                                ],
+                                                "name": "NODE_0000005",
+                                                "node_attrs": {
+                                                  "div": 0.012222434426868158,
+                                                  "num_date": {
+                                                    "confidence": [
+                                                      2008.9184978632836,
+                                                      2009.5525726486135
+                                                    ],
+                                                    "value": 2009.2173957670586
+                                                  }
+                                                }
+                                              }
+                                            ],
+                                            "name": "NODE_0000000",
+                                            "node_attrs": {
+                                              "div": 0.011938924546642603,
+                                              "num_date": {
+                                                "confidence": [
+                                                  2008.7627946439009,
+                                                  2009.2669288924271
+                                                ],
+                                                "value": 2008.9806472196485
+                                              }
+                                            }
+                                          }
+                                        ],
+                                        "name": "NODE_0000007",
+                                        "node_attrs": {
+                                          "div": 0.011655477735031276,
+                                          "num_date": {
+                                            "confidence": [
+                                              2008.0747841753569,
+                                              2009.0881667577873
+                                            ],
+                                            "value": 2008.6929129647613
+                                          }
+                                        }
+                                      }
+                                    ],
+                                    "name": "NODE_0000008",
+                                    "node_attrs": {
+                                      "div": 0.010520624086509903,
+                                      "num_date": {
+                                        "confidence": [
+                                          2005.7521498184929,
+                                          2007.1600286283988
+                                        ],
+                                        "value": 2006.8818305204518
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "branch_attrs": {
+                                      "labels": {
+                                        "aa": "s1: R74Q, S268P, V310I; spike: R89Q, S283P, V325I"
+                                      },
+                                      "mutations": {
+                                        "nuc": [
+                                          "G266A",
+                                          "T847C",
+                                          "G973A",
+                                          "G1746A"
+                                        ],
+                                        "s1": [
+                                          "R74Q",
+                                          "S268P",
+                                          "V310I"
+                                        ],
+                                        "spike": [
+                                          "R89Q",
+                                          "S283P",
+                                          "V325I"
+                                        ]
+                                      }
+                                    },
+                                    "children": [
+                                      {
+                                        "branch_attrs": {
+                                          "mutations": {}
+                                        },
+                                        "name": "229e/KM055552/423A_2007/2007",
+                                        "node_attrs": {
+                                          "accession": "KM055552",
+                                          "country": {
+                                            "value": "China"
+                                          },
+                                          "div": 0.011372104802907578,
+                                          "host": {
+                                            "value": "Human"
+                                          },
+                                          "num_date": {
+                                            "confidence": [
+                                              2007.0013698630137,
+                                              2007.9986301369863
+                                            ],
+                                            "value": 2007.6301133525453
+                                          }
+                                        }
+                                      },
+                                      {
+                                        "branch_attrs": {
+                                          "labels": {
+                                            "aa": "s1: K415Q; s2: L388F; spike: K430Q, L948F"
+                                          },
+                                          "mutations": {
+                                            "nuc": [
+                                              "A1288C",
+                                              "C2842T",
+                                              "C2844T",
+                                              "T3009C"
+                                            ],
+                                            "s1": [
+                                              "K415Q"
+                                            ],
+                                            "s2": [
+                                              "L388F"
+                                            ],
+                                            "spike": [
+                                              "K430Q",
+                                              "L948F"
+                                            ]
+                                          }
+                                        },
+                                        "name": "229e/KM055556/693A_2008/2008",
+                                        "node_attrs": {
+                                          "accession": "KM055556",
+                                          "country": {
+                                            "value": "China"
+                                          },
+                                          "div": 0.012513784750720094,
+                                          "host": {
+                                            "value": "Human"
+                                          },
+                                          "num_date": {
+                                            "confidence": [
+                                              2008.0013661202186,
+                                              2008.9986338797814
+                                            ],
+                                            "value": 2008.7575152304878
+                                          }
+                                        }
+                                      },
+                                      {
+                                        "branch_attrs": {
+                                          "mutations": {}
+                                        },
+                                        "children": [
+                                          {
+                                            "branch_attrs": {
+                                              "labels": {
+                                                "aa": "s1: S71A; spike: S86A"
+                                              },
+                                              "mutations": {
+                                                "nuc": [
+                                                  "T256G",
+                                                  "C1923T",
+                                                  "G2832A"
+                                                ],
+                                                "s1": [
+                                                  "S71A"
+                                                ],
+                                                "spike": [
+                                                  "S86A"
+                                                ]
+                                              }
+                                            },
+                                            "name": "229e/KM055558/8348_2009/2009",
+                                            "node_attrs": {
+                                              "accession": "KM055558",
+                                              "country": {
+                                                "value": "China"
+                                              },
+                                              "div": 0.012228375525452102,
+                                              "host": {
+                                                "value": "Human"
+                                              },
+                                              "num_date": {
+                                                "confidence": [
+                                                  2009.0013698630137,
+                                                  2009.8642933880226
+                                                ],
+                                                "value": 2009.0013698630137
+                                              }
+                                            }
+                                          },
+                                          {
+                                            "branch_attrs": {
+                                              "mutations": {}
+                                            },
+                                            "name": "229e/KM055554/494A_2008/2008",
+                                            "node_attrs": {
+                                              "accession": "KM055554",
+                                              "country": {
+                                                "value": "China"
+                                              },
+                                              "div": 0.011372104802907596,
+                                              "host": {
+                                                "value": "Human"
+                                              },
+                                              "num_date": {
+                                                "confidence": [
+                                                  2008.0013661202186,
+                                                  2008.9986338797814
+                                                ],
+                                                "value": 2008.0466173675047
+                                              }
+                                            }
+                                          }
+                                        ],
+                                        "name": "NODE_0000019",
+                                        "node_attrs": {
+                                          "div": 0.011372104802907576,
+                                          "num_date": {
+                                            "confidence": [
+                                              2007.3924182526218,
+                                              2008.5765276812056
+                                            ],
+                                            "value": 2008.011493315443
+                                          }
+                                        }
+                                      },
+                                      {
+                                        "branch_attrs": {
+                                          "labels": {
+                                            "aa": "s1: D89A; spike: D104A"
+                                          },
+                                          "mutations": {
+                                            "nuc": [
+                                              "A311C"
+                                            ],
+                                            "s1": [
+                                              "D89A"
+                                            ],
+                                            "spike": [
+                                              "D104A"
+                                            ]
+                                          }
+                                        },
+                                        "children": [
+                                          {
+                                            "branch_attrs": {
+                                              "labels": {
+                                                "aa": "s1: A89V; spike: A104V"
+                                              },
+                                              "mutations": {
+                                                "nuc": [
+                                                  "C311T"
+                                                ],
+                                                "s1": [
+                                                  "A89V"
+                                                ],
+                                                "spike": [
+                                                  "A104V"
+                                                ]
+                                              }
+                                            },
+                                            "name": "229e/KM055553/1482A_2009/2009",
+                                            "node_attrs": {
+                                              "accession": "KM055553",
+                                              "country": {
+                                                "value": "China"
+                                              },
+                                              "div": 0.011940846799950725,
+                                              "host": {
+                                                "value": "Human"
+                                              },
+                                              "num_date": {
+                                                "confidence": [
+                                                  2009.0013698630137,
+                                                  2009.7398928596995
+                                                ],
+                                                "value": 2009.0013698630137
+                                              }
+                                            }
+                                          },
+                                          {
+                                            "branch_attrs": {
+                                              "labels": {
+                                                "aa": "s1: Y290H; s2: T513I; spike: Y305H, T1073I"
+                                              },
+                                              "mutations": {
+                                                "nuc": [
+                                                  "T693A",
+                                                  "T913C",
+                                                  "C1284T",
+                                                  "C3218T"
+                                                ],
+                                                "s1": [
+                                                  "Y290H"
+                                                ],
+                                                "s2": [
+                                                  "T513I"
+                                                ],
+                                                "spike": [
+                                                  "Y305H",
+                                                  "T1073I"
+                                                ]
+                                              }
+                                            },
+                                            "name": "229e/KM055560/1424A_2009/2009",
+                                            "node_attrs": {
+                                              "accession": "KM055560",
+                                              "country": {
+                                                "value": "China"
+                                              },
+                                              "div": 0.0127974883941608,
+                                              "host": {
+                                                "value": "Human"
+                                              },
+                                              "num_date": {
+                                                "confidence": [
+                                                  2009.0013698630137,
+                                                  2009.9986301369863
+                                                ],
+                                                "value": 2009.0274425821342
+                                              }
+                                            }
+                                          },
+                                          {
+                                            "branch_attrs": {
+                                              "labels": {
+                                                "aa": "s1: F342L; spike: F357L"
+                                              },
+                                              "mutations": {
+                                                "nuc": [
+                                                  "T1069C",
+                                                  "A1746G",
+                                                  "G3345T"
+                                                ],
+                                                "s1": [
+                                                  "F342L"
+                                                ],
+                                                "spike": [
+                                                  "F357L"
+                                                ]
+                                              }
+                                            },
+                                            "children": [
+                                              {
+                                                "branch_attrs": {
+                                                  "labels": {
+                                                    "aa": "s1: I310V; spike: I325V"
+                                                  },
+                                                  "mutations": {
+                                                    "nuc": [
+                                                      "T918C",
+                                                      "A973G",
+                                                      "C1383T",
+                                                      "T2847C"
+                                                    ],
+                                                    "s1": [
+                                                      "I310V"
+                                                    ],
+                                                    "spike": [
+                                                      "I325V"
+                                                    ]
+                                                  }
+                                                },
+                                                "children": [
+                                                  {
+                                                    "branch_attrs": {
+                                                      "labels": {
+                                                        "aa": "s1: I266T, G337S, S440A; spike: I281T, G352S, S455A"
+                                                      },
+                                                      "mutations": {
+                                                        "nuc": [
+                                                          "T842C",
+                                                          "G900C",
+                                                          "G1054A",
+                                                          "T1363G",
+                                                          "G3186A"
+                                                        ],
+                                                        "s1": [
+                                                          "I266T",
+                                                          "G337S",
+                                                          "S440A"
+                                                        ],
+                                                        "spike": [
+                                                          "I281T",
+                                                          "G352S",
+                                                          "S455A"
+                                                        ]
+                                                      }
+                                                    },
+                                                    "name": "229e/KM055544/2764A_2011/2011",
+                                                    "node_attrs": {
+                                                      "accession": "KM055544",
+                                                      "country": {
+                                                        "value": "China"
+                                                      },
+                                                      "div": 0.015066347180592379,
+                                                      "host": {
+                                                        "value": "Human"
+                                                      },
+                                                      "num_date": {
+                                                        "confidence": [
+                                                          2011.0013698630137,
+                                                          2011.9986301369863
+                                                        ],
+                                                        "value": 2011.0100372313277
+                                                      }
+                                                    }
+                                                  },
+                                                  {
+                                                    "branch_attrs": {
+                                                      "mutations": {}
+                                                    },
+                                                    "name": "229e/KM055537/1667A_2009/2009",
+                                                    "node_attrs": {
+                                                      "accession": "KM055537",
+                                                      "country": {
+                                                        "value": "China"
+                                                      },
+                                                      "div": 0.013640582204325045,
+                                                      "host": {
+                                                        "value": "Human"
+                                                      },
+                                                      "num_date": {
+                                                        "confidence": [
+                                                          2009.0013698630137,
+                                                          2009.9986301369863
+                                                        ],
+                                                        "value": 2009.219168234398
+                                                      }
+                                                    }
+                                                  },
+                                                  {
+                                                    "branch_attrs": {
+                                                      "mutations": {
+                                                        "nuc": [
+                                                          "C2181T"
+                                                        ]
+                                                      }
+                                                    },
+                                                    "children": [
+                                                      {
+                                                        "branch_attrs": {
+                                                          "mutations": {
+                                                            "nuc": [
+                                                              "T228G"
+                                                            ]
+                                                          }
+                                                        },
+                                                        "name": "229e/KM055535/1649A_2009/2009",
+                                                        "node_attrs": {
+                                                          "accession": "KM055535",
+                                                          "country": {
+                                                            "value": "China"
+                                                          },
+                                                          "div": 0.014208866251303047,
+                                                          "host": {
+                                                            "value": "Human"
+                                                          },
+                                                          "num_date": {
+                                                            "confidence": [
+                                                              2009.0013698630137,
+                                                              2009.9986301369863
+                                                            ],
+                                                            "value": 2009.8654731244792
+                                                          }
+                                                        }
+                                                      },
+                                                      {
+                                                        "branch_attrs": {
+                                                          "mutations": {}
+                                                        },
+                                                        "name": "229e/KM055536/1658A_2009/2009",
+                                                        "node_attrs": {
+                                                          "accession": "KM055536",
+                                                          "country": {
+                                                            "value": "China"
+                                                          },
+                                                          "div": 0.013923935606837206,
+                                                          "host": {
+                                                            "value": "Human"
+                                                          },
+                                                          "num_date": {
+                                                            "confidence": [
+                                                              2009.0013698630137,
+                                                              2009.9986301369863
+                                                            ],
+                                                            "value": 2009.5243658260292
+                                                          }
+                                                        }
+                                                      }
+                                                    ],
+                                                    "name": "NODE_0000032",
+                                                    "node_attrs": {
+                                                      "div": 0.013923935606837187,
+                                                      "num_date": {
+                                                        "confidence": [
+                                                          2008.4862958644455,
+                                                          2009.9924388666116
+                                                        ],
+                                                        "value": 2009.2308585090952
+                                                      }
+                                                    }
+                                                  },
+                                                  {
+                                                    "branch_attrs": {
+                                                      "mutations": {}
+                                                    },
+                                                    "children": [
+                                                      {
+                                                        "branch_attrs": {
+                                                          "mutations": {}
+                                                        },
+                                                        "children": [
+                                                          {
+                                                            "branch_attrs": {
+                                                              "mutations": {}
+                                                            },
+                                                            "name": "229e/KM055541/1827A_2010/2010",
+                                                            "node_attrs": {
+                                                              "accession": "KM055541",
+                                                              "country": {
+                                                                "value": "China"
+                                                              },
+                                                              "div": 0.01364058220432508,
+                                                              "host": {
+                                                                "value": "Human"
+                                                              },
+                                                              "num_date": {
+                                                                "confidence": [
+                                                                  2010.0013698630137,
+                                                                  2010.9986301369863
+                                                                ],
+                                                                "value": 2010.2336487780228
+                                                              }
+                                                            }
+                                                          },
+                                                          {
+                                                            "branch_attrs": {
+                                                              "mutations": {}
+                                                            },
+                                                            "name": "229e/KM055539/1781A_2010/2010",
+                                                            "node_attrs": {
+                                                              "accession": "KM055539",
+                                                              "country": {
+                                                                "value": "China"
+                                                              },
+                                                              "div": 0.01364058220432508,
+                                                              "host": {
+                                                                "value": "Human"
+                                                              },
+                                                              "num_date": {
+                                                                "confidence": [
+                                                                  2010.0013698630137,
+                                                                  2010.9986301369863
+                                                                ],
+                                                                "value": 2010.2336487780228
+                                                              }
+                                                            }
+                                                          }
+                                                        ],
+                                                        "name": "NODE_0000025",
+                                                        "node_attrs": {
+                                                          "div": 0.01364058220432506,
+                                                          "num_date": {
+                                                            "confidence": [
+                                                              2009.8746424729438,
+                                                              2010.3083365006237
+                                                            ],
+                                                            "value": 2010.1228218500416
+                                                          }
+                                                        }
+                                                      },
+                                                      {
+                                                        "branch_attrs": {
+                                                          "mutations": {}
+                                                        },
+                                                        "children": [
+                                                          {
+                                                            "branch_attrs": {
+                                                              "mutations": {}
+                                                            },
+                                                            "name": "229e/KM055542/1829A_2010/2010",
+                                                            "node_attrs": {
+                                                              "accession": "KM055542",
+                                                              "country": {
+                                                                "value": "China"
+                                                              },
+                                                              "div": 0.01364058220432508,
+                                                              "host": {
+                                                                "value": "Human"
+                                                              },
+                                                              "num_date": {
+                                                                "confidence": [
+                                                                  2010.0013698630137,
+                                                                  2010.9986301369863
+                                                                ],
+                                                                "value": 2010.2336487780228
+                                                              }
+                                                            }
+                                                          },
+                                                          {
+                                                            "branch_attrs": {
+                                                              "mutations": {}
+                                                            },
+                                                            "name": "229e/KM055540/1782A_2010/2010",
+                                                            "node_attrs": {
+                                                              "accession": "KM055540",
+                                                              "country": {
+                                                                "value": "China"
+                                                              },
+                                                              "div": 0.01364058220432508,
+                                                              "host": {
+                                                                "value": "Human"
+                                                              },
+                                                              "num_date": {
+                                                                "confidence": [
+                                                                  2010.0013698630137,
+                                                                  2010.9986301369863
+                                                                ],
+                                                                "value": 2010.2336487780228
+                                                              }
+                                                            }
+                                                          }
+                                                        ],
+                                                        "name": "NODE_0000026",
+                                                        "node_attrs": {
+                                                          "div": 0.01364058220432506,
+                                                          "num_date": {
+                                                            "confidence": [
+                                                              2009.8746424729438,
+                                                              2010.3083365006237
+                                                            ],
+                                                            "value": 2010.1228218500416
+                                                          }
+                                                        }
+                                                      }
+                                                    ],
+                                                    "name": "NODE_0000024",
+                                                    "node_attrs": {
+                                                      "div": 0.013640582204325043,
+                                                      "num_date": {
+                                                        "confidence": [
+                                                          2009.3295195930646,
+                                                          2010.2358763466948
+                                                        ],
+                                                        "value": 2009.9763427297503
+                                                      }
+                                                    }
+                                                  }
+                                                ],
+                                                "name": "NODE_0000030",
+                                                "node_attrs": {
+                                                  "div": 0.013640582204325026,
+                                                  "num_date": {
+                                                    "confidence": [
+                                                      2008.324790099734,
+                                                      2009.9752922580044
+                                                    ],
+                                                    "value": 2009.1270206390227
+                                                  }
+                                                }
+                                              },
+                                              {
+                                                "branch_attrs": {
+                                                  "labels": {
+                                                    "aa": "s1: R301K, G337D, D343A; s2: K232R; spike: R316K, G352D, D358A, K792R"
+                                                  },
+                                                  "mutations": {
+                                                    "nuc": [
+                                                      "T799C",
+                                                      "G947A",
+                                                      "G1055A",
+                                                      "A1073C",
+                                                      "T1878C",
+                                                      "A2375G",
+                                                      "T2857C",
+                                                      "C3171T"
+                                                    ],
+                                                    "s1": [
+                                                      "R301K",
+                                                      "G337D",
+                                                      "D343A"
+                                                    ],
+                                                    "s2": [
+                                                      "K232R"
+                                                    ],
+                                                    "spike": [
+                                                      "R316K",
+                                                      "G352D",
+                                                      "D358A",
+                                                      "K792R"
+                                                    ]
+                                                  }
+                                                },
+                                                "children": [
+                                                  {
+                                                    "branch_attrs": {
+                                                      "labels": {
+                                                        "aa": "s1: Y290H; spike: Y305H"
+                                                      },
+                                                      "mutations": {
+                                                        "nuc": [
+                                                          "T913C"
+                                                        ],
+                                                        "s1": [
+                                                          "Y290H"
+                                                        ],
+                                                        "spike": [
+                                                          "Y305H"
+                                                        ]
+                                                      }
+                                                    },
+                                                    "children": [
+                                                      {
+                                                        "branch_attrs": {
+                                                          "mutations": {}
+                                                        },
+                                                        "name": "229e/KM055549/2961A_2011/2011",
+                                                        "node_attrs": {
+                                                          "accession": "KM055549",
+                                                          "country": {
+                                                            "value": "China"
+                                                          },
+                                                          "div": 0.015059491393421292,
+                                                          "host": {
+                                                            "value": "Human"
+                                                          },
+                                                          "num_date": {
+                                                            "confidence": [
+                                                              2011.0013698630137,
+                                                              2011.6732755242863
+                                                            ],
+                                                            "value": 2011.0013698630137
+                                                          }
+                                                        }
+                                                      },
+                                                      {
+                                                        "branch_attrs": {
+                                                          "labels": {
+                                                            "aa": "s1: A97S; spike: A112S"
+                                                          },
+                                                          "mutations": {
+                                                            "nuc": [
+                                                              "G334T"
+                                                            ],
+                                                            "s1": [
+                                                              "A97S"
+                                                            ],
+                                                            "spike": [
+                                                              "A112S"
+                                                            ]
+                                                          }
+                                                        },
+                                                        "name": "229e/KM055550/2981A_2011/2011",
+                                                        "node_attrs": {
+                                                          "accession": "KM055550",
+                                                          "country": {
+                                                            "value": "China"
+                                                          },
+                                                          "div": 0.015344153934542738,
+                                                          "host": {
+                                                            "value": "Human"
+                                                          },
+                                                          "num_date": {
+                                                            "confidence": [
+                                                              2011.0013698630137,
+                                                              2011.9986301369863
+                                                            ],
+                                                            "value": 2011.0770695329463
+                                                          }
+                                                        }
+                                                      },
+                                                      {
+                                                        "branch_attrs": {
+                                                          "mutations": {
+                                                            "nuc": [
+                                                              "C2136T"
+                                                            ]
+                                                          }
+                                                        },
+                                                        "children": [
+                                                          {
+                                                            "branch_attrs": {
+                                                              "labels": {
+                                                                "aa": "s2: Q261P; spike: Q821P"
+                                                              },
+                                                              "mutations": {
+                                                                "nuc": [
+                                                                  "C1383T",
+                                                                  "A2462C"
+                                                                ],
+                                                                "s2": [
+                                                                  "Q261P"
+                                                                ],
+                                                                "spike": [
+                                                                  "Q821P"
+                                                                ]
+                                                              }
+                                                            },
+                                                            "name": "229e/KM055531/11949_2011/2011",
+                                                            "node_attrs": {
+                                                              "accession": "KM055531",
+                                                              "country": {
+                                                                "value": "China"
+                                                              },
+                                                              "div": 0.015912216744698057,
+                                                              "host": {
+                                                                "value": "Human"
+                                                              },
+                                                              "num_date": {
+                                                                "confidence": [
+                                                                  2011.0013698630137,
+                                                                  2011.9986301369863
+                                                                ],
+                                                                "value": 2011.2996504474738
+                                                              }
+                                                            }
+                                                          },
+                                                          {
+                                                            "branch_attrs": {
+                                                              "labels": {
+                                                                "aa": "s1: S181A; spike: S196A"
+                                                              },
+                                                              "mutations": {
+                                                                "nuc": [
+                                                                  "T586G",
+                                                                  "T1461C",
+                                                                  "C2857T"
+                                                                ],
+                                                                "s1": [
+                                                                  "S181A"
+                                                                ],
+                                                                "spike": [
+                                                                  "S196A"
+                                                                ]
+                                                              }
+                                                            },
+                                                            "name": "229e/KM055548/2861A_2011/2011",
+                                                            "node_attrs": {
+                                                              "accession": "KM055548",
+                                                              "country": {
+                                                                "value": "China"
+                                                              },
+                                                              "div": 0.016197219472236547,
+                                                              "host": {
+                                                                "value": "Human"
+                                                              },
+                                                              "num_date": {
+                                                                "confidence": [
+                                                                  2011.0013698630137,
+                                                                  2011.9986301369863
+                                                                ],
+                                                                "value": 2011.898092135993
+                                                              }
+                                                            }
+                                                          }
+                                                        ],
+                                                        "name": "NODE_0000039",
+                                                        "node_attrs": {
+                                                          "div": 0.015342656827811899,
+                                                          "num_date": {
+                                                            "confidence": [
+                                                              2009.8929292603148,
+                                                              2011.0718367944621
+                                                            ],
+                                                            "value": 2010.6207709730334
+                                                          }
+                                                        }
+                                                      }
+                                                    ],
+                                                    "name": "NODE_0000038",
+                                                    "node_attrs": {
+                                                      "div": 0.015059491393421272,
+                                                      "num_date": {
+                                                        "confidence": [
+                                                          2009.8883001792062,
+                                                          2010.3583388806699
+                                                        ],
+                                                        "value": 2010.1964782790888
+                                                      }
+                                                    }
+                                                  },
+                                                  {
+                                                    "branch_attrs": {
+                                                      "labels": {
+                                                        "aa": "s1: L295H; spike: L310H"
+                                                      },
+                                                      "mutations": {
+                                                        "nuc": [
+                                                          "T929A"
+                                                        ],
+                                                        "s1": [
+                                                          "L295H"
+                                                        ],
+                                                        "spike": [
+                                                          "L310H"
+                                                        ]
+                                                      }
+                                                    },
+                                                    "children": [
+                                                      {
+                                                        "branch_attrs": {
+                                                          "labels": {
+                                                            "aa": "s1: R296Q, N362I, D376Y; s2: V179A; spike: R311Q, N377I, D391Y, V739A"
+                                                          },
+                                                          "mutations": {
+                                                            "nuc": [
+                                                              "G932A",
+                                                              "T1053C",
+                                                              "A1130T",
+                                                              "G1171T",
+                                                              "T1488C",
+                                                              "G2124A",
+                                                              "T2216C"
+                                                            ],
+                                                            "s1": [
+                                                              "R296Q",
+                                                              "N362I",
+                                                              "D376Y"
+                                                            ],
+                                                            "s2": [
+                                                              "V179A"
+                                                            ],
+                                                            "spike": [
+                                                              "R311Q",
+                                                              "N377I",
+                                                              "D391Y",
+                                                              "V739A"
+                                                            ]
+                                                          }
+                                                        },
+                                                        "children": [
+                                                          {
+                                                            "branch_attrs": {
+                                                              "labels": {
+                                                                "aa": "s1: F75V, T76I, N350D, H392Y; spike: F90V, T91I, N365D, H407Y"
+                                                              },
+                                                              "mutations": {
+                                                                "nuc": [
+                                                                  "T268G",
+                                                                  "C272T",
+                                                                  "T1056C",
+                                                                  "A1093G",
+                                                                  "C1219T"
+                                                                ],
+                                                                "s1": [
+                                                                  "F75V",
+                                                                  "T76I",
+                                                                  "N350D",
+                                                                  "H392Y"
+                                                                ],
+                                                                "spike": [
+                                                                  "F90V",
+                                                                  "T91I",
+                                                                  "N365D",
+                                                                  "H407Y"
+                                                                ]
+                                                              }
+                                                            },
+                                                            "children": [
+                                                              {
+                                                                "branch_attrs": {
+                                                                  "labels": {
+                                                                    "aa": "s1: S12A, A343P; spike: S27A, A358P"
+                                                                  },
+                                                                  "mutations": {
+                                                                    "nuc": [
+                                                                      "T79G",
+                                                                      "A702G",
+                                                                      "G1072C",
+                                                                      "G1593A",
+                                                                      "G1773T"
+                                                                    ],
+                                                                    "s1": [
+                                                                      "S12A",
+                                                                      "A343P"
+                                                                    ],
+                                                                    "spike": [
+                                                                      "S27A",
+                                                                      "A358P"
+                                                                    ]
+                                                                  }
+                                                                },
+                                                                "name": "229e/MN306046/HCoV_229E/Seattle/USA/SC0865/2019/2019",
+                                                                "node_attrs": {
+                                                                  "accession": "MN306046",
+                                                                  "country": {
+                                                                    "value": "USA"
+                                                                  },
+                                                                  "div": 0.0198785344420502,
+                                                                  "host": {
+                                                                    "value": "Human"
+                                                                  },
+                                                                  "num_date": {
+                                                                    "confidence": [
+                                                                      2019.0013698630137,
+                                                                      2019.862669414923
+                                                                    ],
+                                                                    "value": 2019.0013698630137
+                                                                  }
+                                                                }
+                                                              },
+                                                              {
+                                                                "branch_attrs": {
+                                                                  "labels": {
+                                                                    "aa": "s1: I266T; spike: I281T"
+                                                                  },
+                                                                  "mutations": {
+                                                                    "nuc": [
+                                                                      "T465G",
+                                                                      "G732T",
+                                                                      "T842C",
+                                                                      "C924T",
+                                                                      "T2656C"
+                                                                    ],
+                                                                    "s1": [
+                                                                      "I266T"
+                                                                    ],
+                                                                    "spike": [
+                                                                      "I281T"
+                                                                    ]
+                                                                  }
+                                                                },
+                                                                "name": "229e/MN369046/HCoV_229E/Seattle/USA/SC9724/2018/2018",
+                                                                "node_attrs": {
+                                                                  "accession": "MN369046",
+                                                                  "country": {
+                                                                    "value": "USA"
+                                                                  },
+                                                                  "div": 0.019878006208997764,
+                                                                  "host": {
+                                                                    "value": "Human"
+                                                                  },
+                                                                  "num_date": {
+                                                                    "confidence": [
+                                                                      2018.0013698630137,
+                                                                      2018.9986301369863
+                                                                    ],
+                                                                    "value": 2018.4400118848082
+                                                                  }
+                                                                }
+                                                              }
+                                                            ],
+                                                            "name": "NODE_0000043",
+                                                            "node_attrs": {
+                                                              "div": 0.018461336119974768,
+                                                              "num_date": {
+                                                                "confidence": [
+                                                                  2015.7223477168961,
+                                                                  2016.9889411246488
+                                                                ],
+                                                                "value": 2016.0828619945216
+                                                              }
+                                                            }
+                                                          },
+                                                          {
+                                                            "branch_attrs": {
+                                                              "labels": {
+                                                                "aa": "s1: S71Y, Q74E; spike: S86Y, Q89E"
+                                                              },
+                                                              "mutations": {
+                                                                "nuc": [
+                                                                  "C257A",
+                                                                  "C265G",
+                                                                  "C1165T"
+                                                                ],
+                                                                "s1": [
+                                                                  "S71Y",
+                                                                  "Q74E"
+                                                                ],
+                                                                "spike": [
+                                                                  "S86Y",
+                                                                  "Q89E"
+                                                                ]
+                                                              }
+                                                            },
+                                                            "children": [
+                                                              {
+                                                                "branch_attrs": {
+                                                                  "mutations": {}
+                                                                },
+                                                                "name": "229e/KY369912/HCoV_229E/Seattle/USA/SC9731/2016/2016",
+                                                                "node_attrs": {
+                                                                  "accession": "KY369912",
+                                                                  "country": {
+                                                                    "value": "USA"
+                                                                  },
+                                                                  "div": 0.017894960579762975,
+                                                                  "host": {
+                                                                    "value": "Human"
+                                                                  },
+                                                                  "num_date": {
+                                                                    "confidence": [
+                                                                      2016.0013661202186,
+                                                                      2016.709871663654
+                                                                    ],
+                                                                    "value": 2016.0013661202186
+                                                                  }
+                                                                }
+                                                              },
+                                                              {
+                                                                "branch_attrs": {
+                                                                  "labels": {
+                                                                    "aa": "s1: T85N; s2: A179V; spike: T100N, A739V"
+                                                                  },
+                                                                  "mutations": {
+                                                                    "nuc": [
+                                                                      "C299A",
+                                                                      "C1050T",
+                                                                      "C1482T",
+                                                                      "C2216T",
+                                                                      "C2718T"
+                                                                    ],
+                                                                    "s1": [
+                                                                      "T85N"
+                                                                    ],
+                                                                    "s2": [
+                                                                      "A179V"
+                                                                    ],
+                                                                    "spike": [
+                                                                      "T100N",
+                                                                      "A739V"
+                                                                    ]
+                                                                  }
+                                                                },
+                                                                "name": "229e/KY369914/HCoV_229E/Seattle/USA/SC9773/2016/2016",
+                                                                "node_attrs": {
+                                                                  "accession": "KY369914",
+                                                                  "country": {
+                                                                    "value": "USA"
+                                                                  },
+                                                                  "div": 0.019313405794990322,
+                                                                  "host": {
+                                                                    "value": "Human"
+                                                                  },
+                                                                  "num_date": {
+                                                                    "confidence": [
+                                                                      2016.3867193664414,
+                                                                      2016.9986338797814
+                                                                    ],
+                                                                    "value": 2016.9986338797814
+                                                                  }
+                                                                }
+                                                              }
+                                                            ],
+                                                            "name": "NODE_0000044",
+                                                            "node_attrs": {
+                                                              "div": 0.017894960579762958,
+                                                              "num_date": {
+                                                                "confidence": [
+                                                                  2014.9857553684963,
+                                                                  2016.194359742273
+                                                                ],
+                                                                "value": 2015.9951407527255
+                                                              }
+                                                            }
+                                                          }
+                                                        ],
+                                                        "name": "NODE_0000042",
+                                                        "node_attrs": {
+                                                          "div": 0.017044782984454727,
+                                                          "num_date": {
+                                                            "confidence": [
+                                                              2013.224868823769,
+                                                              2015.142158229416
+                                                            ],
+                                                            "value": 2014.6782581790467
+                                                          }
+                                                        }
+                                                      },
+                                                      {
+                                                        "branch_attrs": {
+                                                          "labels": {
+                                                            "aa": "s1: N198D; spike: N213D"
+                                                          },
+                                                          "mutations": {
+                                                            "nuc": [
+                                                              "G303C",
+                                                              "A637G",
+                                                              "T1647G"
+                                                            ],
+                                                            "s1": [
+                                                              "N198D"
+                                                            ],
+                                                            "spike": [
+                                                              "N213D"
+                                                            ]
+                                                          }
+                                                        },
+                                                        "children": [
+                                                          {
+                                                            "branch_attrs": {
+                                                              "labels": {
+                                                                "aa": "s1: H392S; s2: S26F; spike: H407S, S586F"
+                                                              },
+                                                              "mutations": {
+                                                                "nuc": [
+                                                                  "T1131C",
+                                                                  "C1219T",
+                                                                  "A1220C",
+                                                                  "C1757T",
+                                                                  "C2040T"
+                                                                ],
+                                                                "s1": [
+                                                                  "H392S"
+                                                                ],
+                                                                "s2": [
+                                                                  "S26F"
+                                                                ],
+                                                                "spike": [
+                                                                  "H407S",
+                                                                  "S586F"
+                                                                ]
+                                                              }
+                                                            },
+                                                            "name": "229e/KU291448/HCoV_229E/BN1/GER/2015/2015",
+                                                            "node_attrs": {
+                                                              "accession": "KU291448",
+                                                              "country": {
+                                                                "value": "Germany"
+                                                              },
+                                                              "div": 0.01732705203811932,
+                                                              "host": {
+                                                                "value": "Human"
+                                                              },
+                                                              "num_date": {
+                                                                "confidence": [
+                                                                  2015.0013698630137,
+                                                                  2015.7797665615174
+                                                                ],
+                                                                "value": 2015.0013698630137
+                                                              }
+                                                            }
+                                                          },
+                                                          {
+                                                            "branch_attrs": {
+                                                              "labels": {
+                                                                "aa": "s1: Y290H, N292K; spike: Y305H, N307K"
+                                                              },
+                                                              "mutations": {
+                                                                "nuc": [
+                                                                  "T913C",
+                                                                  "C921A"
+                                                                ],
+                                                                "s1": [
+                                                                  "Y290H",
+                                                                  "N292K"
+                                                                ],
+                                                                "spike": [
+                                                                  "Y305H",
+                                                                  "N307K"
+                                                                ]
+                                                              }
+                                                            },
+                                                            "children": [
+                                                              {
+                                                                "branch_attrs": {
+                                                                  "labels": {
+                                                                    "aa": "s1: A26D, V273E, R296G; s2: N285S; spike: A41D, V288E, R311G, N845S"
+                                                                  },
+                                                                  "mutations": {
+                                                                    "nuc": [
+                                                                      "C122A",
+                                                                      "T863A",
+                                                                      "C931G",
+                                                                      "C951T",
+                                                                      "C1281T",
+                                                                      "T1515C",
+                                                                      "A2247T",
+                                                                      "A2534G",
+                                                                      "G2742T",
+                                                                      "A2883G"
+                                                                    ],
+                                                                    "s1": [
+                                                                      "A26D",
+                                                                      "V273E",
+                                                                      "R296G"
+                                                                    ],
+                                                                    "s2": [
+                                                                      "N285S"
+                                                                    ],
+                                                                    "spike": [
+                                                                      "A41D",
+                                                                      "V288E",
+                                                                      "R311G",
+                                                                      "N845S"
+                                                                    ]
+                                                                  }
+                                                                },
+                                                                "name": "229e/KY684760/HCoV_229E/Seattle/USA/SC2282/2017/2016",
+                                                                "node_attrs": {
+                                                                  "accession": "KY684760",
+                                                                  "country": {
+                                                                    "value": "USA"
+                                                                  },
+                                                                  "div": 0.01931788465309182,
+                                                                  "host": {
+                                                                    "value": "Human"
+                                                                  },
+                                                                  "num_date": {
+                                                                    "confidence": [
+                                                                      2016.0013661202186,
+                                                                      2016.8726117831172
+                                                                    ],
+                                                                    "value": 2016.0013661202186
+                                                                  }
+                                                                }
+                                                              },
+                                                              {
+                                                                "branch_attrs": {
+                                                                  "labels": {
+                                                                    "aa": "s1: R296Q, A308S; spike: R311Q, A323S"
+                                                                  },
+                                                                  "mutations": {
+                                                                    "nuc": [
+                                                                      "C856T",
+                                                                      "G932A",
+                                                                      "G967T",
+                                                                      "C1878T"
+                                                                    ],
+                                                                    "s1": [
+                                                                      "R296Q",
+                                                                      "A308S"
+                                                                    ],
+                                                                    "spike": [
+                                                                      "R311Q",
+                                                                      "A323S"
+                                                                    ]
+                                                                  }
+                                                                },
+                                                                "children": [
+                                                                  {
+                                                                    "branch_attrs": {
+                                                                      "labels": {
+                                                                        "aa": "s1: H11N, N23I, A26D, P34T, F37V, V273M; spike: H26N, N38I, A41D, P49T, F52V, V288M"
+                                                                      },
+                                                                      "mutations": {
+                                                                        "nuc": [
+                                                                          "C76A",
+                                                                          "A113T",
+                                                                          "C122A",
+                                                                          "C145A",
+                                                                          "T154G",
+                                                                          "G862A",
+                                                                          "A1500G",
+                                                                          "T1515C",
+                                                                          "C2067T",
+                                                                          "A2883G"
+                                                                        ],
+                                                                        "s1": [
+                                                                          "H11N",
+                                                                          "N23I",
+                                                                          "A26D",
+                                                                          "P34T",
+                                                                          "F37V",
+                                                                          "V273M"
+                                                                        ],
+                                                                        "spike": [
+                                                                          "H26N",
+                                                                          "N38I",
+                                                                          "A41D",
+                                                                          "P49T",
+                                                                          "F52V",
+                                                                          "V288M"
+                                                                        ]
+                                                                      }
+                                                                    },
+                                                                    "name": "229e/MF542265/229E/Haiti_1/2016/2016",
+                                                                    "node_attrs": {
+                                                                      "accession": "MF542265",
+                                                                      "country": {
+                                                                        "value": "Haiti"
+                                                                      },
+                                                                      "div": 0.02045189019718656,
+                                                                      "host": {
+                                                                        "value": "Human"
+                                                                      },
+                                                                      "num_date": {
+                                                                        "confidence": [
+                                                                          2016.1653005464482,
+                                                                          2016.2472677595629
+                                                                        ],
+                                                                        "value": 2016.1653005464482
+                                                                      }
+                                                                    }
+                                                                  },
+                                                                  {
+                                                                    "branch_attrs": {
+                                                                      "labels": {
+                                                                        "aa": "s1: A38S; s2: R232K, R594K; spike: A53S, R792K, R1154K"
+                                                                      },
+                                                                      "mutations": {
+                                                                        "nuc": [
+                                                                          "G157T",
+                                                                          "T1173C",
+                                                                          "G1647T",
+                                                                          "G2375A",
+                                                                          "G3461A"
+                                                                        ],
+                                                                        "s1": [
+                                                                          "A38S"
+                                                                        ],
+                                                                        "s2": [
+                                                                          "R232K",
+                                                                          "R594K"
+                                                                        ],
+                                                                        "spike": [
+                                                                          "A53S",
+                                                                          "R792K",
+                                                                          "R1154K"
+                                                                        ]
+                                                                      }
+                                                                    },
+                                                                    "children": [
+                                                                      {
+                                                                        "branch_attrs": {
+                                                                          "labels": {
+                                                                            "aa": "s1: F75L, D198N, A233V, V273A, D438G; s2: V179A; spike: F90L, D213N, A248V, V288A, D453G, V739A"
+                                                                          },
+                                                                          "mutations": {
+                                                                            "nuc": [
+                                                                              "T268C",
+                                                                              "C303G",
+                                                                              "C468T",
+                                                                              "G637A",
+                                                                              "C743T",
+                                                                              "T863C",
+                                                                              "A1358G",
+                                                                              "T2216C",
+                                                                              "C3048T"
+                                                                            ],
+                                                                            "s1": [
+                                                                              "F75L",
+                                                                              "D198N",
+                                                                              "A233V",
+                                                                              "V273A",
+                                                                              "D438G"
+                                                                            ],
+                                                                            "s2": [
+                                                                              "V179A"
+                                                                            ],
+                                                                            "spike": [
+                                                                              "F90L",
+                                                                              "D213N",
+                                                                              "A248V",
+                                                                              "V288A",
+                                                                              "D453G",
+                                                                              "V739A"
+                                                                            ]
+                                                                          }
+                                                                        },
+                                                                        "children": [
+                                                                          {
+                                                                            "branch_attrs": {
+                                                                              "mutations": {}
+                                                                            },
+                                                                            "name": "229e/KY369910/HCoV_229E/Seattle/USA/SC1143/2016/2016",
+                                                                            "node_attrs": {
+                                                                              "accession": "KY369910",
+                                                                              "country": {
+                                                                                "value": "USA"
+                                                                              },
+                                                                              "div": 0.021582650209311074,
+                                                                              "host": {
+                                                                                "value": "Human"
+                                                                              },
+                                                                              "num_date": {
+                                                                                "confidence": [
+                                                                                  2016.0013661202186,
+                                                                                  2016.9986338797814
+                                                                                ],
+                                                                                "value": 2016.2041310385455
+                                                                              }
+                                                                            }
+                                                                          },
+                                                                          {
+                                                                            "branch_attrs": {
+                                                                              "mutations": {}
+                                                                            },
+                                                                            "name": "229e/KY369911/HCoV_229E/Seattle/USA/SC1212/2016/2016",
+                                                                            "node_attrs": {
+                                                                              "accession": "KY369911",
+                                                                              "country": {
+                                                                                "value": "USA"
+                                                                              },
+                                                                              "div": 0.021582650209311074,
+                                                                              "host": {
+                                                                                "value": "Human"
+                                                                              },
+                                                                              "num_date": {
+                                                                                "confidence": [
+                                                                                  2016.0013661202186,
+                                                                                  2016.9986338797814
+                                                                                ],
+                                                                                "value": 2016.2041310385455
+                                                                              }
+                                                                            }
+                                                                          }
+                                                                        ],
+                                                                        "name": "NODE_0000049",
+                                                                        "node_attrs": {
+                                                                          "div": 0.021582650209311056,
+                                                                          "num_date": {
+                                                                            "confidence": [
+                                                                              2015.8094498156365,
+                                                                              2016.5466518608587
+                                                                            ],
+                                                                            "value": 2016.082003355753
+                                                                          }
+                                                                        }
+                                                                      },
+                                                                      {
+                                                                        "branch_attrs": {
+                                                                          "labels": {
+                                                                            "aa": "s1: T212I, V273M; spike: T227I, V288M"
+                                                                          },
+                                                                          "mutations": {
+                                                                            "nuc": [
+                                                                              "T156C",
+                                                                              "G213T",
+                                                                              "C680T",
+                                                                              "G862A"
+                                                                            ],
+                                                                            "s1": [
+                                                                              "T212I",
+                                                                              "V273M"
+                                                                            ],
+                                                                            "spike": [
+                                                                              "T227I",
+                                                                              "V288M"
+                                                                            ]
+                                                                          }
+                                                                        },
+                                                                        "children": [
+                                                                          {
+                                                                            "branch_attrs": {
+                                                                              "labels": {
+                                                                                "aa": "s2: T42K; spike: T602K"
+                                                                              },
+                                                                              "mutations": {
+                                                                                "nuc": [
+                                                                                  "C1569A",
+                                                                                  "C1805A"
+                                                                                ],
+                                                                                "s2": [
+                                                                                  "T42K"
+                                                                                ],
+                                                                                "spike": [
+                                                                                  "T602K"
+                                                                                ]
+                                                                              }
+                                                                            },
+                                                                            "name": "229e/KY369913/HCoV_229E/Seattle/USA/SC1073/2016/2016",
+                                                                            "node_attrs": {
+                                                                              "accession": "KY369913",
+                                                                              "country": {
+                                                                                "value": "USA"
+                                                                              },
+                                                                              "div": 0.020728726267840638,
+                                                                              "host": {
+                                                                                "value": "Human"
+                                                                              },
+                                                                              "num_date": {
+                                                                                "confidence": [
+                                                                                  2016.0013661202186,
+                                                                                  2016.8191606867292
+                                                                                ],
+                                                                                "value": 2016.0013661202186
+                                                                              }
+                                                                            }
+                                                                          },
+                                                                          {
+                                                                            "branch_attrs": {
+                                                                              "mutations": {
+                                                                                "nuc": [
+                                                                                  "C2067T"
+                                                                                ]
+                                                                              }
+                                                                            },
+                                                                            "name": "229e/KY983587/HCoV_229E/Seattle/USA/SC3112/2015/2015",
+                                                                            "node_attrs": {
+                                                                              "accession": "KY983587",
+                                                                              "country": {
+                                                                                "value": "USA"
+                                                                              },
+                                                                              "div": 0.0204450828107768,
+                                                                              "host": {
+                                                                                "value": "Human"
+                                                                              },
+                                                                              "num_date": {
+                                                                                "confidence": [
+                                                                                  2015.0013698630137,
+                                                                                  2015.9986301369863
+                                                                                ],
+                                                                                "value": 2015.5133327156896
+                                                                              }
+                                                                            }
+                                                                          },
+                                                                          {
+                                                                            "branch_attrs": {
+                                                                              "labels": {
+                                                                                "aa": "s1: S73L; spike: S88L"
+                                                                              },
+                                                                              "mutations": {
+                                                                                "nuc": [
+                                                                                  "C263T"
+                                                                                ],
+                                                                                "s1": [
+                                                                                  "S73L"
+                                                                                ],
+                                                                                "spike": [
+                                                                                  "S88L"
+                                                                                ]
+                                                                              }
+                                                                            },
+                                                                            "name": "229e/KY967357/HCoV_229E/Seattle/USA/SC2872/2015/2015",
+                                                                            "node_attrs": {
+                                                                              "accession": "KY967357",
+                                                                              "country": {
+                                                                                "value": "USA"
+                                                                              },
+                                                                              "div": 0.0204450828107768,
+                                                                              "host": {
+                                                                                "value": "Human"
+                                                                              },
+                                                                              "num_date": {
+                                                                                "confidence": [
+                                                                                  2015.0013698630137,
+                                                                                  2015.9986301369863
+                                                                                ],
+                                                                                "value": 2015.5133327156896
+                                                                              }
+                                                                            }
+                                                                          },
+                                                                          {
+                                                                            "branch_attrs": {
+                                                                              "labels": {
+                                                                                "aa": "s2: K154M; spike: K714M"
+                                                                              },
+                                                                              "mutations": {
+                                                                                "nuc": [
+                                                                                  "C1494T",
+                                                                                  "A2141T"
+                                                                                ],
+                                                                                "s2": [
+                                                                                  "K154M"
+                                                                                ],
+                                                                                "spike": [
+                                                                                  "K714M"
+                                                                                ]
+                                                                              }
+                                                                            },
+                                                                            "name": "229e/KY369908/HCoV_229E/Seattle/USA/SC579/2016/2016",
+                                                                            "node_attrs": {
+                                                                              "accession": "KY369908",
+                                                                              "country": {
+                                                                                "value": "USA"
+                                                                              },
+                                                                              "div": 0.020728636505380905,
+                                                                              "host": {
+                                                                                "value": "Human"
+                                                                              },
+                                                                              "num_date": {
+                                                                                "confidence": [
+                                                                                  2016.0013661202186,
+                                                                                  2016.8191101058922
+                                                                                ],
+                                                                                "value": 2016.0013661202186
+                                                                              }
+                                                                            }
+                                                                          },
+                                                                          {
+                                                                            "branch_attrs": {
+                                                                              "labels": {
+                                                                                "aa": "s1: R87S; s2: Y340H, I411T; spike: R102S, Y900H, I971T"
+                                                                              },
+                                                                              "mutations": {
+                                                                                "nuc": [
+                                                                                  "A306C",
+                                                                                  "C2467T",
+                                                                                  "T2698C",
+                                                                                  "T2912C"
+                                                                                ],
+                                                                                "s1": [
+                                                                                  "R87S"
+                                                                                ],
+                                                                                "s2": [
+                                                                                  "Y340H",
+                                                                                  "I411T"
+                                                                                ],
+                                                                                "spike": [
+                                                                                  "R102S",
+                                                                                  "Y900H",
+                                                                                  "I971T"
+                                                                                ]
+                                                                              }
+                                                                            },
+                                                                            "children": [
+                                                                              {
+                                                                                "branch_attrs": {
+                                                                                  "mutations": {}
+                                                                                },
+                                                                                "name": "229e/KY674914/HCoV_229E/Seattle/USA/SC399/2016/2016",
+                                                                                "node_attrs": {
+                                                                                  "accession": "KY674914",
+                                                                                  "country": {
+                                                                                    "value": "USA"
+                                                                                  },
+                                                                                  "div": 0.02129528445772565,
+                                                                                  "host": {
+                                                                                    "value": "Human"
+                                                                                  },
+                                                                                  "num_date": {
+                                                                                    "confidence": [
+                                                                                      2016.0013661202186,
+                                                                                      2016.9986338797814
+                                                                                    ],
+                                                                                    "value": 2016.1167815175052
+                                                                                  }
+                                                                                }
+                                                                              },
+                                                                              {
+                                                                                "branch_attrs": {
+                                                                                  "mutations": {}
+                                                                                },
+                                                                                "name": "229e/KY621348/HCoV_229E/Seattle/USA/SC379/2016/2016",
+                                                                                "node_attrs": {
+                                                                                  "accession": "KY621348",
+                                                                                  "country": {
+                                                                                    "value": "USA"
+                                                                                  },
+                                                                                  "div": 0.02129528445772565,
+                                                                                  "host": {
+                                                                                    "value": "Human"
+                                                                                  },
+                                                                                  "num_date": {
+                                                                                    "confidence": [
+                                                                                      2016.0013661202186,
+                                                                                      2016.9986338797814
+                                                                                    ],
+                                                                                    "value": 2016.1167815175052
+                                                                                  }
+                                                                                }
+                                                                              },
+                                                                              {
+                                                                                "branch_attrs": {
+                                                                                  "mutations": {}
+                                                                                },
+                                                                                "name": "229e/KY369909/HCoV_229E/Seattle/USA/SC677/2016/2016",
+                                                                                "node_attrs": {
+                                                                                  "accession": "KY369909",
+                                                                                  "country": {
+                                                                                    "value": "USA"
+                                                                                  },
+                                                                                  "div": 0.02129528445772565,
+                                                                                  "host": {
+                                                                                    "value": "Human"
+                                                                                  },
+                                                                                  "num_date": {
+                                                                                    "confidence": [
+                                                                                      2016.0013661202186,
+                                                                                      2016.9986338797814
+                                                                                    ],
+                                                                                    "value": 2016.1167815175052
+                                                                                  }
+                                                                                }
+                                                                              }
+                                                                            ],
+                                                                            "name": "NODE_0000051",
+                                                                            "node_attrs": {
+                                                                              "div": 0.021295284457725633,
+                                                                              "num_date": {
+                                                                                "confidence": [
+                                                                                  2015.850315716493,
+                                                                                  2016.3122282513023
+                                                                                ],
+                                                                                "value": 2016.0731896007142
+                                                                              }
+                                                                            }
+                                                                          }
+                                                                        ],
+                                                                        "name": "NODE_0000050",
+                                                                        "node_attrs": {
+                                                                          "div": 0.02016180366659318,
+                                                                          "num_date": {
+                                                                            "confidence": [
+                                                                              2014.6951752244488,
+                                                                              2015.9887212986662
+                                                                            ],
+                                                                            "value": 2015.0534290146788
+                                                                          }
+                                                                        }
+                                                                      }
+                                                                    ],
+                                                                    "name": "NODE_0000048",
+                                                                    "node_attrs": {
+                                                                      "div": 0.01902802020807808,
+                                                                      "num_date": {
+                                                                        "confidence": [
+                                                                          2013.2266115955376,
+                                                                          2015.2787539645421
+                                                                        ],
+                                                                        "value": 2013.9155578168463
+                                                                      }
+                                                                    }
+                                                                  }
+                                                                ],
+                                                                "name": "NODE_0000047",
+                                                                "node_attrs": {
+                                                                  "div": 0.0176102107222883,
+                                                                  "num_date": {
+                                                                    "confidence": [
+                                                                      2012.0016362224483,
+                                                                      2013.9188457378968
+                                                                    ],
+                                                                    "value": 2012.818172709003
+                                                                  }
+                                                                }
+                                                              }
+                                                            ],
+                                                            "name": "NODE_0000046",
+                                                            "node_attrs": {
+                                                              "div": 0.016476446897104088,
+                                                              "num_date": {
+                                                                "confidence": [
+                                                                  2011.1983796173097,
+                                                                  2012.7194197877564
+                                                                ],
+                                                                "value": 2012.0437310675045
+                                                              }
+                                                            }
+                                                          }
+                                                        ],
+                                                        "name": "NODE_0000045",
+                                                        "node_attrs": {
+                                                          "div": 0.01590994420355891,
+                                                          "num_date": {
+                                                            "confidence": [
+                                                              2010.6889073204172,
+                                                              2012.1641009711516
+                                                            ],
+                                                            "value": 2011.5339092023114
+                                                          }
+                                                        }
+                                                      }
+                                                    ],
+                                                    "name": "NODE_0000041",
+                                                    "node_attrs": {
+                                                      "div": 0.015059634117059044,
+                                                      "num_date": {
+                                                        "confidence": [
+                                                          2009.8791645182941,
+                                                          2010.7424864351954
+                                                        ],
+                                                        "value": 2010.1892278144644
+                                                      }
+                                                    }
+                                                  }
+                                                ],
+                                                "name": "NODE_0000037",
+                                                "node_attrs": {
+                                                  "div": 0.014776326011280334,
+                                                  "num_date": {
+                                                    "confidence": [
+                                                      2009.544687871527,
+                                                      2010.2084109842353
+                                                    ],
+                                                    "value": 2009.97588146088
+                                                  }
+                                                }
+                                              }
+                                            ],
+                                            "name": "NODE_0000029",
+                                            "node_attrs": {
+                                              "div": 0.012506449477625147,
+                                              "num_date": {
+                                                "confidence": [
+                                                  2007.6757064691833,
+                                                  2009.0310314758208
+                                                ],
+                                                "value": 2008.2044054072965
+                                              }
+                                            }
+                                          }
+                                        ],
+                                        "name": "NODE_0000027",
+                                        "node_attrs": {
+                                          "div": 0.011655677978200656,
+                                          "num_date": {
+                                            "confidence": [
+                                              2007.2704580726527,
+                                              2008.4146125282646
+                                            ],
+                                            "value": 2008.0260858757476
+                                          }
+                                        }
+                                      }
+                                    ],
+                                    "name": "NODE_0000023",
+                                    "node_attrs": {
+                                      "div": 0.011372104802907559,
+                                      "num_date": {
+                                        "confidence": [
+                                          2006.518115156228,
+                                          2007.9924388666116
+                                        ],
+                                        "value": 2007.3059754338055
+                                      }
+                                    }
+                                  }
+                                ],
+                                "name": "NODE_0000011",
+                                "node_attrs": {
+                                  "div": 0.010237009675395994,
+                                  "num_date": {
+                                    "confidence": [
+                                      2005.1250244360513,
+                                      2005.9924388666116
+                                    ],
+                                    "value": 2005.6952578886182
+                                  }
+                                }
+                              }
+                            ],
+                            "name": "NODE_0000012",
+                            "node_attrs": {
+                              "div": 0.008532705336527717,
+                              "num_date": {
+                                "confidence": [
+                                  2002.8629407664619,
+                                  2005.3394282677107
+                                ],
+                                "value": 2004.7618790975068
+                              }
+                            }
+                          }
+                        ],
+                        "name": "NODE_0000014",
+                        "node_attrs": {
+                          "div": 0.008249242860473648,
+                          "num_date": {
+                            "confidence": [
+                              2001.1744738606596,
+                              2005.313921712185
+                            ],
+                            "value": 2002.7834884872805
+                          }
+                        }
+                      }
+                    ],
+                    "name": "NODE_0000015",
+                    "node_attrs": {
+                      "div": 0.004262792194867062,
+                      "num_date": {
+                        "confidence": [
+                          1992.717081012107,
+                          1993.929502449933
+                        ],
+                        "value": 1993.6285215863686
+                      }
+                    }
+                  }
+                ],
+                "name": "NODE_0000016",
+                "node_attrs": {
+                  "div": 0.003410908360982797,
+                  "num_date": {
+                    "confidence": [
+                      1992.023367588055,
+                      1992.9956438707522
+                    ],
+                    "value": 1992.5531729939548
+                  }
+                }
+              }
+            ],
+            "name": "NODE_0000017",
+            "node_attrs": {
+              "div": 0.0025587509397125632,
+              "num_date": {
+                "confidence": [
+                  1990.5923103305843,
+                  1992.4099515779856
+                ],
+                "value": 1992.0840889766148
+              }
+            }
+          }
+        ],
+        "name": "NODE_0000018",
+        "node_attrs": {
+          "div": 0.0022748706246285885,
+          "num_date": {
+            "confidence": [
+              1989.8802875457393,
+              1992.5666479212632
+            ],
+            "value": 1991.0190680984774
+          }
+        }
+      }
+    ],
+    "name": "NODE_0000001",
+    "node_attrs": {
+      "div": 0,
+      "num_date": {
+        "confidence": [
+          1986.49537400927,
+          1988.893270817595
+        ],
+        "value": 1988.5848135218912
+      }
+    }
+  },
+  "version": "v2"
+}
