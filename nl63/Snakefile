@@ -1,6 +1,6 @@
 
-# GENE = ["full"]
-GENE = ["replicase1ab", "protein3", "envelope", "membrane", "nucleocapsid", "s1", "s2"]
+GENE = ["full"]
+# GENE = ["replicase1ab", "protein3", "envelope", "membrane", "nucleocapsid", "s1", "s2"]
 # GENE = ["spike"]
 # GENE = ["rdrp", "spike", "s1", "s2"]
 
@@ -195,9 +195,9 @@ rule translate:
 #
 # Define clades functions
 #
-def _get_clades_file_for_wildcards(wildcards):
-    if wildcards.gene == 'spike' or wildcards.gene == 'rdrp' or wildcards.gene == 's2' or wildcards.gene == 's1' or wildcards.gene == 'full':
-        return "config/clades_%s.tsv"%wildcards.gene
+# def _get_clades_file_for_wildcards(wildcards):
+#     if wildcards.gene == 'spike' or wildcards.gene == 'rdrp' or wildcards.gene == 's2' or wildcards.gene == 's1' or wildcards.gene == 'full':
+#         return "config/clades_%s.tsv"%wildcards.gene
 
 # rule clades:
 #     message: "Annotating clades"
@@ -218,23 +218,6 @@ def _get_clades_file_for_wildcards(wildcards):
 #                     --output {output.node_data}
 #             """)
 
-#
-# rule traits:
-#     message: "Inferring ancestral traits for country"
-#     input:
-#         tree = rules.refine.output.tree,
-#         metadata = rules.parse.output.metadata
-#     output:
-#         node_data = "results/traits_nl63_{gene}.json",
-#     shell:
-#         """
-#         augur traits \
-#             --tree {input.tree} \
-#             --metadata {input.metadata} \
-#             --output-node-data {output.node_data} \
-#             --columns "country" \
-#             --confidence
-#         """
 
 rule export:
     message: "Exporting data files for for auspice"
