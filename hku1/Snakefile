@@ -1,6 +1,6 @@
 
-GENE = ["full"]
-# GENE = ["spike"]
+# GENE = ["full"]
+GENE = ["spike"]
 # GENE = ["replicase1ab", "he", "nonstructural4", "envelope", "membrane", "nucleocapsid", "nucleocapsid2", "s1", "s2"]
 # GENE = ["rdrp", "spike", "s1", "s2"]
 
@@ -144,6 +144,7 @@ rule refine:
         coalescent = "opt",
         date_inference = "marginal",
         root = "hku14_3/JN874560/HKU1/china/2007"
+
     shell:
         """
         augur refine \
