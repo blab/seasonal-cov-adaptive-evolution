@@ -143,7 +143,8 @@ rule refine:
     params:
         coalescent = "opt",
         date_inference = "marginal",
-        root = "hku14_3/JN874560/HKU1/china/2007"
+        root = "mhv/NC_048217_1/mhv/2006"
+        # --root {params.root} \
 
     shell:
         """
@@ -153,8 +154,8 @@ rule refine:
             --metadata {input.metadata} \
             --output-tree {output.tree} \
             --output-node-data {output.node_data} \
-            --timetree \
             --root {params.root} \
+            --timetree \
             --coalescent {params.coalescent} \
             --date-confidence \
             --date-inference {params.date_inference} \

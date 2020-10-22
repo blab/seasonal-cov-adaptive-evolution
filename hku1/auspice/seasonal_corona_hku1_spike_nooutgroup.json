@@ -1,0 +1,3517 @@
+{
+  "meta": {
+    "colorings": [
+      {
+        "key": "clade_membership",
+        "title": "Clade",
+        "type": "categorical"
+      },
+      {
+        "key": "num_date",
+        "title": "Sampling date",
+        "type": "continuous"
+      },
+      {
+        "key": "gt",
+        "title": "Genotype",
+        "type": "categorical"
+      },
+      {
+        "key": "country",
+        "title": "country",
+        "type": "categorical"
+      }
+    ],
+    "display_defaults": {
+      "color_by": "Sampling date",
+      "map_triplicate": true
+    },
+    "filters": [
+      "host"
+    ],
+    "genome_annotations": {
+      "nuc": {
+        "end": 4071,
+        "seqid": "config/hku1_spike_reference.gb",
+        "start": 1,
+        "strand": "+",
+        "type": "source"
+      },
+      "s1": {
+        "end": 2280,
+        "seqid": "config/hku1_spike_reference.gb",
+        "start": 37,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "s2": {
+        "end": 4071,
+        "seqid": "config/hku1_spike_reference.gb",
+        "start": 2281,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "sigpep": {
+        "end": 36,
+        "seqid": "config/hku1_spike_reference.gb",
+        "start": 1,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "spike": {
+        "end": 4071,
+        "seqid": "config/hku1_spike_reference.gb",
+        "start": 1,
+        "strand": "+",
+        "type": "CDS"
+      }
+    },
+    "maintainers": [
+      {
+        "name": "Katie Kistler"
+      }
+    ],
+    "panels": [
+      "tree"
+    ],
+    "title": "Genetic diversity of seasonal coronaviruses. Data collected by Vipr",
+    "updated": "2020-10-15"
+  },
+  "tree": {
+    "branch_attrs": {
+      "labels": {
+        "clade": "B"
+      },
+      "mutations": {}
+    },
+    "children": [
+      {
+        "branch_attrs": {
+          "mutations": {}
+        },
+        "children": [
+          {
+            "branch_attrs": {
+              "labels": {
+                "aa": "s1: D15H, V27G, R63T, T104I, N239K, N266K, E603D, N633D, Q673K; s2: M488I; spike: D27H, V39G, R75T, T116I, N251K, N278K, E615D, N645D, Q685K, M1248I"
+              },
+              "mutations": {
+                "nuc": [
+                  "G79C",
+                  "T116G",
+                  "G224C",
+                  "T283C",
+                  "C347T",
+                  "C399G",
+                  "T753A",
+                  "T804C",
+                  "T834A",
+                  "C1188T",
+                  "T1368C",
+                  "T1482C",
+                  "A1845C",
+                  "A1933G",
+                  "C2053A",
+                  "T2865A",
+                  "T3624C",
+                  "G3744A",
+                  "T3924C",
+                  "T3981C"
+                ],
+                "s1": [
+                  "D15H",
+                  "V27G",
+                  "R63T",
+                  "T104I",
+                  "N239K",
+                  "N266K",
+                  "E603D",
+                  "N633D",
+                  "Q673K"
+                ],
+                "s2": [
+                  "M488I"
+                ],
+                "spike": [
+                  "D27H",
+                  "V39G",
+                  "R75T",
+                  "T116I",
+                  "N251K",
+                  "N278K",
+                  "E615D",
+                  "N645D",
+                  "Q685K",
+                  "M1248I"
+                ]
+              }
+            },
+            "name": "hku1/MK167038/SC2521/2017",
+            "node_attrs": {
+              "accession": "MK167038",
+              "clade_membership": {
+                "value": "B"
+              },
+              "country": {
+                "value": "USA"
+              },
+              "div": 0.15556931000000002,
+              "host": {
+                "value": "Human"
+              },
+              "num_date": {
+                "confidence": [
+                  2017.0013698630137,
+                  2017.898904109589
+                ],
+                "value": 2017.0013698630137
+              }
+            }
+          },
+          {
+            "branch_attrs": {
+              "labels": {
+                "aa": "s1: T71K, T406I, T407S, A419L, I420L, Y427F, N439G, N440S, L443V, H446Y, S447D, R452D, Y453H, N459S, T460D, K466D, F469V, A470V, S471N, K474V, S475K, H476S, P479L, S482I, I485T; s2: I412R, S550L; sigpep: L2F; spike: L2F, T83K, T418I, T419S, A431L, I432L, Y439F, N451G, N452S, L455V, H458Y, S459D, R464D, Y465H, N471S, T472D, K478D, F481V, A482V, S483N, K486V, S487K, H488S, P491L, S494I, I497T, I1172R, S1310L"
+              },
+              "mutations": {
+                "nuc": [
+                  "A6T",
+                  "T34C",
+                  "T159C",
+                  "C248A",
+                  "C399T",
+                  "C1253T",
+                  "A1255T",
+                  "G1287A",
+                  "G1291T",
+                  "C1292T",
+                  "A1294C",
+                  "T1314C",
+                  "A1316T",
+                  "T1323A",
+                  "A1338G",
+                  "A1351G",
+                  "A1352G",
+                  "A1355G",
+                  "T1363G",
+                  "A1366T",
+                  "G1367C",
+                  "C1372T",
+                  "A1375G",
+                  "G1376A",
+                  "C1386T",
+                  "A1389T",
+                  "C1390G",
+                  "G1391A",
+                  "T1393C",
+                  "T1410C",
+                  "A1412G",
+                  "T1413C",
+                  "A1414G",
+                  "C1415A",
+                  "T1416C",
+                  "T1422C",
+                  "T1431A",
+                  "A1432G",
+                  "A1434T",
+                  "T1437G",
+                  "T1441G",
+                  "C1445T",
+                  "T1447A",
+                  "C1448A",
+                  "A1449T",
+                  "A1450T",
+                  "G1451C",
+                  "C1455T",
+                  "A1456G",
+                  "A1457T",
+                  "G1458T",
+                  "G1460A",
+                  "T1461A",
+                  "C1462T",
+                  "A1463C",
+                  "A1470T",
+                  "C1472T",
+                  "T1479C",
+                  "T1480A",
+                  "C1481T",
+                  "T1490C",
+                  "T2883C",
+                  "T3515G",
+                  "C3929T"
+                ],
+                "s1": [
+                  "T71K",
+                  "T406I",
+                  "T407S",
+                  "A419L",
+                  "I420L",
+                  "Y427F",
+                  "N439G",
+                  "N440S",
+                  "L443V",
+                  "H446Y",
+                  "S447D",
+                  "R452D",
+                  "Y453H",
+                  "N459S",
+                  "T460D",
+                  "K466D",
+                  "F469V",
+                  "A470V",
+                  "S471N",
+                  "K474V",
+                  "S475K",
+                  "H476S",
+                  "P479L",
+                  "S482I",
+                  "I485T"
+                ],
+                "s2": [
+                  "I412R",
+                  "S550L"
+                ],
+                "sigpep": [
+                  "L2F"
+                ],
+                "spike": [
+                  "L2F",
+                  "T83K",
+                  "T418I",
+                  "T419S",
+                  "A431L",
+                  "I432L",
+                  "Y439F",
+                  "N451G",
+                  "N452S",
+                  "L455V",
+                  "H458Y",
+                  "S459D",
+                  "R464D",
+                  "Y465H",
+                  "N471S",
+                  "T472D",
+                  "K478D",
+                  "F481V",
+                  "A482V",
+                  "S483N",
+                  "K486V",
+                  "S487K",
+                  "H488S",
+                  "P491L",
+                  "S494I",
+                  "I497T",
+                  "I1172R",
+                  "S1310L"
+                ]
+              }
+            },
+            "children": [
+              {
+                "branch_attrs": {
+                  "labels": {
+                    "aa": "s1: T237I, N633D; spike: T249I, N645D"
+                  },
+                  "mutations": {
+                    "nuc": [
+                      "C746T",
+                      "T804C",
+                      "C1188T",
+                      "A1933G"
+                    ],
+                    "s1": [
+                      "T237I",
+                      "N633D"
+                    ],
+                    "spike": [
+                      "T249I",
+                      "N645D"
+                    ]
+                  }
+                },
+                "name": "hku1/MF996591/HKU1/2015",
+                "node_attrs": {
+                  "accession": "MF996591",
+                  "clade_membership": {
+                    "value": "B"
+                  },
+                  "country": {
+                    "value": "China"
+                  },
+                  "div": 0.17050313,
+                  "host": {
+                    "value": "Human"
+                  },
+                  "num_date": {
+                    "confidence": [
+                      2015.0013698630137,
+                      2015.898904109589
+                    ],
+                    "value": 2015.0013698630137
+                  }
+                }
+              },
+              {
+                "branch_attrs": {
+                  "labels": {
+                    "aa": "s1: T485A; spike: T497A"
+                  },
+                  "mutations": {
+                    "nuc": [
+                      "A1467G",
+                      "A1489G",
+                      "A2358T"
+                    ],
+                    "s1": [
+                      "T485A"
+                    ],
+                    "spike": [
+                      "T497A"
+                    ]
+                  }
+                },
+                "children": [
+                  {
+                    "branch_attrs": {
+                      "labels": {
+                        "aa": "s1: T237I, G439D, V474D, S476F; spike: T249I, G451D, V486D, S488F"
+                      },
+                      "mutations": {
+                        "nuc": [
+                          "C746T",
+                          "T804C",
+                          "C1188T",
+                          "G1352A",
+                          "T1457A",
+                          "C1463T",
+                          "C2064T"
+                        ],
+                        "s1": [
+                          "T237I",
+                          "G439D",
+                          "V474D",
+                          "S476F"
+                        ],
+                        "spike": [
+                          "T249I",
+                          "G451D",
+                          "V486D",
+                          "S488F"
+                        ]
+                      }
+                    },
+                    "name": "hku1/MF996594/HKU1/2015",
+                    "node_attrs": {
+                      "accession": "MF996594",
+                      "clade_membership": {
+                        "value": "B"
+                      },
+                      "country": {
+                        "value": "China"
+                      },
+                      "div": 0.17333119,
+                      "host": {
+                        "value": "Human"
+                      },
+                      "num_date": {
+                        "confidence": [
+                          2015.0013698630137,
+                          2015.4488483052844
+                        ],
+                        "value": 2015.0013698630137
+                      }
+                    }
+                  },
+                  {
+                    "branch_attrs": {
+                      "mutations": {
+                        "nuc": [
+                          "T666C",
+                          "T1806C"
+                        ]
+                      }
+                    },
+                    "children": [
+                      {
+                        "branch_attrs": {
+                          "labels": {
+                            "aa": "s1: P235S, K236N, L420V, K501N; spike: P247S, K248N, L432V, K513N"
+                          },
+                          "mutations": {
+                            "nuc": [
+                              "C739T",
+                              "G744T",
+                              "C1089T",
+                              "C1294G",
+                              "T1377C",
+                              "A1539T",
+                              "C2556T"
+                            ],
+                            "s1": [
+                              "P235S",
+                              "K236N",
+                              "L420V",
+                              "K501N"
+                            ],
+                            "spike": [
+                              "P247S",
+                              "K248N",
+                              "L432V",
+                              "K513N"
+                            ]
+                          }
+                        },
+                        "children": [
+                          {
+                            "branch_attrs": {
+                              "labels": {
+                                "aa": "s1: N231K; s2: M488I; spike: N243K, M1248I"
+                              },
+                              "mutations": {
+                                "nuc": [
+                                  "T283C",
+                                  "T729G",
+                                  "C2064T",
+                                  "T3624C",
+                                  "G3744A",
+                                  "T3924C"
+                                ],
+                                "s1": [
+                                  "N231K"
+                                ],
+                                "s2": [
+                                  "M488I"
+                                ],
+                                "spike": [
+                                  "N243K",
+                                  "M1248I"
+                                ]
+                              }
+                            },
+                            "name": "hku1/MH940245/SI17244/2017",
+                            "node_attrs": {
+                              "accession": "MH940245",
+                              "clade_membership": {
+                                "value": "B"
+                              },
+                              "country": {
+                                "value": "Thailand"
+                              },
+                              "div": 0.17572195000000002,
+                              "host": {
+                                "value": "Human"
+                              },
+                              "num_date": {
+                                "confidence": [
+                                  2017.4232876712329,
+                                  2017.4232876712329
+                                ],
+                                "value": 2017.4232876712329
+                              }
+                            }
+                          },
+                          {
+                            "branch_attrs": {
+                              "labels": {
+                                "aa": "s1: Y72F, Y146F, S182Y, N236T, F494V; spike: Y84F, Y158F, S194Y, N248T, F506V"
+                              },
+                              "mutations": {
+                                "nuc": [
+                                  "A251T",
+                                  "A473T",
+                                  "C581A",
+                                  "A743C",
+                                  "T1516G",
+                                  "T1704C"
+                                ],
+                                "s1": [
+                                  "Y72F",
+                                  "Y146F",
+                                  "S182Y",
+                                  "N236T",
+                                  "F494V"
+                                ],
+                                "spike": [
+                                  "Y84F",
+                                  "Y158F",
+                                  "S194Y",
+                                  "N248T",
+                                  "F506V"
+                                ]
+                              }
+                            },
+                            "children": [
+                              {
+                                "branch_attrs": {
+                                  "labels": {
+                                    "aa": "s1: S409I, S729G; s2: D426E; spike: S421I, S741G, D1186E"
+                                  },
+                                  "mutations": {
+                                    "nuc": [
+                                      "G1262T",
+                                      "A2221G",
+                                      "T3558G"
+                                    ],
+                                    "s1": [
+                                      "S409I",
+                                      "S729G"
+                                    ],
+                                    "s2": [
+                                      "D426E"
+                                    ],
+                                    "spike": [
+                                      "S421I",
+                                      "S741G",
+                                      "D1186E"
+                                    ]
+                                  }
+                                },
+                                "name": "hku1/KF686338/HKU1/human/USA/HKU1_1/2005/2005",
+                                "node_attrs": {
+                                  "accession": "KF686338",
+                                  "clade_membership": {
+                                    "value": "B"
+                                  },
+                                  "country": {
+                                    "value": "USA"
+                                  },
+                                  "div": 0.17844324,
+                                  "host": {
+                                    "value": "Human"
+                                  },
+                                  "num_date": {
+                                    "confidence": [
+                                      2005.1328767123289,
+                                      2005.1328767123289
+                                    ],
+                                    "value": 2005.1328767123289
+                                  }
+                                }
+                              },
+                              {
+                                "branch_attrs": {
+                                  "mutations": {
+                                    "nuc": [
+                                      "T1395C",
+                                      "T3522C"
+                                    ]
+                                  }
+                                },
+                                "children": [
+                                  {
+                                    "branch_attrs": {
+                                      "labels": {
+                                        "aa": "s1: V474A, T495S; s2: L464F; spike: V486A, T507S, L1224F"
+                                      },
+                                      "mutations": {
+                                        "nuc": [
+                                          "C525T",
+                                          "C1395T",
+                                          "T1457C",
+                                          "A1519T",
+                                          "C3108T",
+                                          "C3522T",
+                                          "C3670T"
+                                        ],
+                                        "s1": [
+                                          "V474A",
+                                          "T495S"
+                                        ],
+                                        "s2": [
+                                          "L464F"
+                                        ],
+                                        "spike": [
+                                          "V486A",
+                                          "T507S",
+                                          "L1224F"
+                                        ]
+                                      }
+                                    },
+                                    "name": "hku1/KY674921/N08_87/2016",
+                                    "node_attrs": {
+                                      "accession": "KY674921",
+                                      "clade_membership": {
+                                        "value": "B"
+                                      },
+                                      "country": {
+                                        "value": "USA"
+                                      },
+                                      "div": 0.17893816,
+                                      "host": {
+                                        "value": "Human"
+                                      },
+                                      "num_date": {
+                                        "confidence": [
+                                          2016.0013661202186,
+                                          2016.8989071038252
+                                        ],
+                                        "value": 2016.0013661202186
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "branch_attrs": {
+                                      "mutations": {}
+                                    },
+                                    "name": "hku1/KF430197/HKU1/HTBEC_lab/BRA/HKU1_22/2007/2007",
+                                    "node_attrs": {
+                                      "accession": "KF430197",
+                                      "clade_membership": {
+                                        "value": "B"
+                                      },
+                                      "country": {
+                                        "value": "Brazil"
+                                      },
+                                      "div": 0.17819555,
+                                      "host": {
+                                        "value": "Human"
+                                      },
+                                      "num_date": {
+                                        "confidence": [
+                                          2007.0013698630137,
+                                          2007.8790963145582
+                                        ],
+                                        "value": 2007.0013698630137
+                                      }
+                                    }
+                                  }
+                                ],
+                                "name": "NODE_0000008",
+                                "node_attrs": {
+                                  "clade_membership": {
+                                    "value": "B"
+                                  },
+                                  "div": 0.17770151,
+                                  "num_date": {
+                                    "confidence": [
+                                      2006.6504101755502,
+                                      2007.777470416185
+                                    ],
+                                    "value": 2007.0365146433378
+                                  }
+                                }
+                              }
+                            ],
+                            "name": "NODE_0000035",
+                            "node_attrs": {
+                              "clade_membership": {
+                                "value": "B"
+                              },
+                              "div": 0.17770151,
+                              "num_date": {
+                                "confidence": [
+                                  2005.0539276173135,
+                                  2005.122292728544
+                                ],
+                                "value": 2005.1019384788256
+                              }
+                            }
+                          }
+                        ],
+                        "name": "NODE_0000034",
+                        "node_attrs": {
+                          "clade_membership": {
+                            "value": "B"
+                          },
+                          "div": 0.17522575,
+                          "num_date": {
+                            "confidence": [
+                              2004.8544357837245,
+                              2005.0286002227735
+                            ],
+                            "value": 2004.951960155862
+                          }
+                        }
+                      },
+                      {
+                        "branch_attrs": {
+                          "labels": {
+                            "aa": "s1: S553T; spike: S565T"
+                          },
+                          "mutations": {
+                            "nuc": [
+                              "T399G",
+                              "T435C",
+                              "C1188T",
+                              "G1694C",
+                              "T2463C"
+                            ],
+                            "s1": [
+                              "S553T"
+                            ],
+                            "spike": [
+                              "S565T"
+                            ]
+                          }
+                        },
+                        "children": [
+                          {
+                            "branch_attrs": {
+                              "mutations": {}
+                            },
+                            "name": "hku1/MF996595/HKU1/2015",
+                            "node_attrs": {
+                              "accession": "MF996595",
+                              "clade_membership": {
+                                "value": "B"
+                              },
+                              "country": {
+                                "value": "China"
+                              },
+                              "div": 0.17395938,
+                              "host": {
+                                "value": "Human"
+                              },
+                              "num_date": {
+                                "confidence": [
+                                  2015.0013698630137,
+                                  2015.2078809743196
+                                ],
+                                "value": 2015.0013698630137
+                              }
+                            }
+                          },
+                          {
+                            "branch_attrs": {
+                              "mutations": {}
+                            },
+                            "name": "hku1/MF996592/HKU1/2015",
+                            "node_attrs": {
+                              "accession": "MF996592",
+                              "clade_membership": {
+                                "value": "B"
+                              },
+                              "country": {
+                                "value": "China"
+                              },
+                              "div": 0.17395938,
+                              "host": {
+                                "value": "Human"
+                              },
+                              "num_date": {
+                                "confidence": [
+                                  2015.0013698630137,
+                                  2015.2078809743196
+                                ],
+                                "value": 2015.0013698630137
+                              }
+                            }
+                          },
+                          {
+                            "branch_attrs": {
+                              "mutations": {
+                                "nuc": [
+                                  "T2292C",
+                                  "T2775G"
+                                ]
+                              }
+                            },
+                            "children": [
+                              {
+                                "branch_attrs": {
+                                  "labels": {
+                                    "aa": "s1: S166Y; s2: T117I; spike: S178Y, T877I"
+                                  },
+                                  "mutations": {
+                                    "nuc": [
+                                      "C533A",
+                                      "C2630T"
+                                    ],
+                                    "s1": [
+                                      "S166Y"
+                                    ],
+                                    "s2": [
+                                      "T117I"
+                                    ],
+                                    "spike": [
+                                      "S178Y",
+                                      "T877I"
+                                    ]
+                                  }
+                                },
+                                "name": "hku1/MF996602/HKU1/2015",
+                                "node_attrs": {
+                                  "accession": "MF996602",
+                                  "clade_membership": {
+                                    "value": "B"
+                                  },
+                                  "country": {
+                                    "value": "China"
+                                  },
+                                  "div": 0.17560818,
+                                  "host": {
+                                    "value": "Human"
+                                  },
+                                  "num_date": {
+                                    "confidence": [
+                                      2015.0013698630137,
+                                      2015.9986301369863
+                                    ],
+                                    "value": 2015.3391949319507
+                                  }
+                                }
+                              },
+                              {
+                                "branch_attrs": {
+                                  "mutations": {}
+                                },
+                                "name": "hku1/MF996601/HKU1/2015",
+                                "node_attrs": {
+                                  "accession": "MF996601",
+                                  "clade_membership": {
+                                    "value": "B"
+                                  },
+                                  "country": {
+                                    "value": "China"
+                                  },
+                                  "div": 0.17477771,
+                                  "host": {
+                                    "value": "Human"
+                                  },
+                                  "num_date": {
+                                    "confidence": [
+                                      2015.0013698630137,
+                                      2015.9986301369863
+                                    ],
+                                    "value": 2015.093661103854
+                                  }
+                                }
+                              },
+                              {
+                                "branch_attrs": {
+                                  "mutations": {}
+                                },
+                                "name": "hku1/MF996599/HKU1/2015",
+                                "node_attrs": {
+                                  "accession": "MF996599",
+                                  "clade_membership": {
+                                    "value": "B"
+                                  },
+                                  "country": {
+                                    "value": "China"
+                                  },
+                                  "div": 0.17477771,
+                                  "host": {
+                                    "value": "Human"
+                                  },
+                                  "num_date": {
+                                    "confidence": [
+                                      2015.0013698630137,
+                                      2015.9986301369863
+                                    ],
+                                    "value": 2015.093661103854
+                                  }
+                                }
+                              },
+                              {
+                                "branch_attrs": {
+                                  "mutations": {}
+                                },
+                                "name": "hku1/MF996600/HKU1/2015",
+                                "node_attrs": {
+                                  "accession": "MF996600",
+                                  "clade_membership": {
+                                    "value": "B"
+                                  },
+                                  "country": {
+                                    "value": "China"
+                                  },
+                                  "div": 0.17477771,
+                                  "host": {
+                                    "value": "Human"
+                                  },
+                                  "num_date": {
+                                    "confidence": [
+                                      2015.0013698630137,
+                                      2015.9986301369863
+                                    ],
+                                    "value": 2015.093661103854
+                                  }
+                                }
+                              }
+                            ],
+                            "name": "NODE_0000039",
+                            "node_attrs": {
+                              "clade_membership": {
+                                "value": "B"
+                              },
+                              "div": 0.1747748,
+                              "num_date": {
+                                "confidence": [
+                                  2014.973146629442,
+                                  2015.311192842378
+                                ],
+                                "value": 2015.0839337068876
+                              }
+                            }
+                          }
+                        ],
+                        "name": "NODE_0000037",
+                        "node_attrs": {
+                          "clade_membership": {
+                            "value": "B"
+                          },
+                          "div": 0.17395647,
+                          "num_date": {
+                            "confidence": [
+                              2014.6577192237394,
+                              2015.0450752184158
+                            ],
+                            "value": 2014.9044304093932
+                          }
+                        }
+                      }
+                    ],
+                    "name": "NODE_0000033",
+                    "node_attrs": {
+                      "clade_membership": {
+                        "value": "B"
+                      },
+                      "div": 0.17272866,
+                      "num_date": {
+                        "confidence": [
+                          2004.6366937365124,
+                          2004.9013808376394
+                        ],
+                        "value": 2004.7742794814017
+                      }
+                    }
+                  }
+                ],
+                "name": "NODE_0000032",
+                "node_attrs": {
+                  "clade_membership": {
+                    "value": "B"
+                  },
+                  "div": 0.17161614,
+                  "num_date": {
+                    "confidence": [
+                      2004.4985546044857,
+                      2004.8303146304283
+                    ],
+                    "value": 2004.675054049088
+                  }
+                }
+              }
+            ],
+            "name": "NODE_0000031",
+            "node_attrs": {
+              "clade_membership": {
+                "value": "B"
+              },
+              "div": 0.17050021,
+              "num_date": {
+                "confidence": [
+                  2004.299588061998,
+                  2004.750203951806
+                ],
+                "value": 2004.5277876103069
+              }
+            }
+          }
+        ],
+        "name": "NODE_0000030",
+        "node_attrs": {
+          "clade_membership": {
+            "value": "B"
+          },
+          "div": 0.15373263,
+          "num_date": {
+            "confidence": [
+              2001.2410081427347,
+              2003.125364299422
+            ],
+            "value": 2001.992231408882
+          }
+        }
+      },
+      {
+        "branch_attrs": {
+          "labels": {
+            "aa": "s1: S11F, F12A, Y16*, K18T, D26Y, L32Y, V39I, N41D, L49I, A66S, S70T, K79Q, P80K, K93R, N103K, V119I, T121N, I133V, V150I, I157S, I164F, S166K, A183T, V196T, V204S, I219L, M226L, P235S, K236N, E243Q, R251K, N257K, E260D, H261R, L275F, Q283K, F285L, A286L, Y306H, N311D, N319K, V324F, S325N, R335K, V353T, L361F, K363E, F367Y, N372K, T375V, V376L, R384S, D387S, K488N, H491S, D493E, F494S, T497V, Y499D, V500H, K501T, N502D, S514T, T515A, S517D, N519R, T520S, P522S, V526S, V527L, I530V, P535A, L537F, I539V, N540D, T546V, E549G, L550S, N551Y, H552N, S553V, S556L, P559T, F567Y, S569T, I571V, F584L, Y599Q, S600P, S605F, G607D, N611D, A629V, N633S, L652V, T658N, L660F, S664A, Y672H, S675A, P678L, F696L, I697A, S698T, L710F, V713D, S717D, D724A, I733V, D736N, L740S, P741S; s2: G1S, S4A, P5S, V23I, T25S, F30Y, Q33K, A41V, H43Q, S50N, A60L, N88D, D92G, I96T, Q100H, N103D, A104T, S121F, D127N, L132V, S137P, Q138H, L146F, L147F, N153D, T197S, V221I, N250T, K254N, T264S, A279S, N311A, T341S, I343V, A345L, S348A, R349L, I351M, I388M, T395I, L408I, I412V, Q424H, S427H, S451T, F461L, I462V, N466H, I468V, N470K, A476S, F478L, L480H, H485Q, M488I, F494L, S496L, V512L, S522N, F524Y, E529D, I543V, V548S, I549F, M556V, I557L, N586H, A592T; spike: S23F, F24A, Y28*, K30T, D38Y, L44Y, V51I, N53D, L61I, A78S, S82T, K91Q, P92K, K105R, N115K, V131I, T133N, I145V, V162I, I169S, I176F, S178K, A195T, V208T, V216S, I231L, M238L, P247S, K248N, E255Q, R263K, N269K, E272D, H273R, L287F, Q295K, F297L, A298L, Y318H, N323D, N331K, V336F, S337N, R347K, V365T, L373F, K375E, F379Y, N384K, T387V, V388L, R396S, D399S, K500N, H503S, D505E, F506S, T509V, Y511D, V512H, K513T, N514D, S526T, T527A, S529D, N531R, T532S, P534S, V538S, V539L, I542V, P547A, L549F, I551V, N552D, T558V, E561G, L562S, N563Y, H564N, S565V, S568L, P571T, F579Y, S581T, I583V, F596L, Y611Q, S612P, S617F, G619D, N623D, A641V, N645S, L664V, T670N, L672F, S676A, Y684H, S687A, P690L, F708L, I709A, S710T, L722F, V725D, S729D, D736A, I745V, D748N, L752S, P753S, G761S, S764A, P765S, V783I, T785S, F790Y, Q793K, A801V, H803Q, S810N, A820L, N848D, D852G, I856T, Q860H, N863D, A864T, S881F, D887N, L892V, S897P, Q898H, L906F, L907F, N913D, T957S, V981I, N1010T, K1014N, T1024S, A1039S, N1071A, T1101S, I1103V, A1105L, S1108A, R1109L, I1111M, I1148M, T1155I, L1168I, I1172V, Q1184H, S1187H, S1211T, F1221L, I1222V, N1226H, I1228V, N1230K, A1236S, F1238L, L1240H, H1245Q, M1248I, F1254L, S1256L, V1272L, S1282N, F1284Y, E1289D, I1303V, V1308S, I1309F, M1316V, I1317L, N1346H, A1352T",
+            "clade": "A"
+          },
+          "mutations": {
+            "nuc": [
+              "C66T",
+              "C68T",
+              "T70G",
+              "T71C",
+              "T84A",
+              "T87C",
+              "A89C",
+              "A90C",
+              "C93A",
+              "G99T",
+              "T102C",
+              "C108T",
+              "G112T",
+              "T120G",
+              "A126T",
+              "C130T",
+              "T131A",
+              "C141T",
+              "G151A",
+              "T153A",
+              "A157G",
+              "C180T",
+              "T181A",
+              "G183A",
+              "A192T",
+              "T201C",
+              "T216C",
+              "A225G",
+              "C228T",
+              "T229C",
+              "G231A",
+              "G232T",
+              "G240A",
+              "T244A",
+              "C264T",
+              "A271C",
+              "A273G",
+              "C274A",
+              "C275A",
+              "T279C",
+              "G285A",
+              "A288T",
+              "A314G",
+              "G315A",
+              "A333G",
+              "T345A",
+              "A360G",
+              "G391A",
+              "T396C",
+              "C398A",
+              "C426T",
+              "A433G",
+              "G456A",
+              "T459C",
+              "A471G",
+              "C480T",
+              "G484A",
+              "G492A",
+              "G498A",
+              "A505T",
+              "T506C",
+              "C525T",
+              "A526T",
+              "T532A",
+              "C533A",
+              "T534A",
+              "G537T",
+              "A546G",
+              "C549T",
+              "T550C",
+              "T555C",
+              "G583A",
+              "C592T",
+              "T621C",
+              "G622A",
+              "T623C",
+              "A633T",
+              "A642T",
+              "G646T",
+              "T647C",
+              "A648T",
+              "T651C",
+              "C660T",
+              "A678G",
+              "T682C",
+              "A684T",
+              "A691C",
+              "A712T",
+              "C739T",
+              "A741T",
+              "G744T",
+              "C750T",
+              "A756G",
+              "G763C",
+              "T774C",
+              "G780T",
+              "C781T",
+              "A783G",
+              "G788A",
+              "T792C",
+              "G795A",
+              "T807A",
+              "T813C",
+              "G816C",
+              "A818G",
+              "C819T",
+              "C837T",
+              "A849T",
+              "T858C",
+              "C859T",
+              "T864C",
+              "C883A",
+              "T891A",
+              "G892T",
+              "C893T",
+              "T915C",
+              "G918A",
+              "A933T",
+              "T951A",
+              "T952C",
+              "G960T",
+              "A967G",
+              "C990T",
+              "C993A",
+              "T1002C",
+              "G1006T",
+              "G1010A",
+              "T1017C",
+              "G1040A",
+              "T1056C",
+              "C1062T",
+              "A1068G",
+              "C1071T",
+              "A1077G",
+              "C1084T",
+              "C1089T",
+              "G1093A",
+              "T1094C",
+              "C1117T",
+              "A1123G",
+              "A1131G",
+              "T1134A",
+              "T1136A",
+              "C1146T",
+              "T1152G",
+              "A1159G",
+              "C1160T",
+              "G1162T",
+              "T1164A",
+              "C1167T",
+              "G1170A",
+              "T1176C",
+              "T1182C",
+              "T1185C",
+              "C1186T",
+              "G1187C",
+              "G1195T",
+              "A1196C",
+              "A1206G",
+              "C1221T",
+              "T1225C",
+              "A1233T",
+              "C1242T",
+              "A1248T",
+              "T1251C",
+              "A1500T",
+              "C1507T",
+              "A1508C",
+              "C1512T",
+              "C1515G",
+              "T1516A",
+              "T1517G",
+              "A1525G",
+              "C1526T",
+              "T1527A",
+              "T1530C",
+              "T1531G",
+              "T1533C",
+              "G1534C",
+              "T1535A",
+              "T1536C",
+              "A1538C",
+              "A1539T",
+              "A1540G",
+              "A1551G",
+              "C1561T",
+              "C1569T",
+              "C1572T",
+              "T1575A",
+              "T1576A",
+              "A1579G",
+              "T1585G",
+              "C1586A",
+              "T1587C",
+              "A1592G",
+              "C1593G",
+              "A1594T",
+              "A1596T",
+              "C1600T",
+              "G1608A",
+              "G1612T",
+              "T1613C",
+              "C1614T",
+              "G1615C",
+              "T1617G",
+              "A1624G",
+              "A1626T",
+              "C1639G",
+              "T1644G",
+              "C1645T",
+              "T1647C",
+              "A1651G",
+              "A1654G",
+              "G1659A",
+              "A1665G",
+              "A1672G",
+              "C1673T",
+              "C1675T",
+              "A1682G",
+              "T1685C",
+              "A1687T",
+              "C1690A",
+              "A1693G",
+              "G1694T",
+              "C1698T",
+              "T1702C",
+              "C1703T",
+              "C1711A",
+              "T1723C",
+              "G1725A",
+              "T1736A",
+              "T1740C",
+              "G1742C",
+              "T1746C",
+              "A1747G",
+              "T1749C",
+              "T1755C",
+              "T1758C",
+              "C1764T",
+              "T1788A",
+              "A1794T",
+              "T1797C",
+              "G1827A",
+              "A1830G",
+              "T1831C",
+              "T1833G",
+              "T1834C",
+              "C1839T",
+              "C1850T",
+              "G1856A",
+              "A1867G",
+              "T1872C",
+              "T1875C",
+              "C1884T",
+              "C1887T",
+              "C1893A",
+              "G1920T",
+              "C1922T",
+              "A1934G",
+              "G1941A",
+              "T1965C",
+              "T1968C",
+              "T1990G",
+              "G1992T",
+              "T2004A",
+              "C2007T",
+              "C2009A",
+              "A2013T",
+              "C2014T",
+              "T2016C",
+              "T2026G",
+              "T2028A",
+              "T2031A",
+              "G2037T",
+              "A2046T",
+              "T2050C",
+              "T2059G",
+              "A2067T",
+              "C2068T",
+              "C2069T",
+              "A2070G",
+              "G2076A",
+              "G2094A",
+              "T2100C",
+              "T2124A",
+              "A2125G",
+              "T2126C",
+              "C2127T",
+              "T2128A",
+              "A2130T",
+              "A2133G",
+              "T2160C",
+              "G2166T",
+              "T2174A",
+              "A2185G",
+              "G2186A",
+              "C2187T",
+              "A2196T",
+              "C2199T",
+              "A2207C",
+              "T2209C",
+              "G2211T",
+              "T2214C",
+              "G2226T",
+              "A2233G",
+              "G2242A",
+              "T2255C",
+              "A2256T",
+              "C2257T",
+              "T2265G",
+              "G2268T",
+              "G2274A",
+              "G2281A",
+              "T2290G",
+              "C2293T",
+              "C2301G",
+              "A2307T",
+              "T2328C",
+              "C2340T",
+              "T2343C",
+              "G2347A",
+              "A2352G",
+              "A2353T",
+              "A2358G",
+              "T2365C",
+              "A2367T",
+              "T2369A",
+              "T2376C",
+              "C2377A",
+              "G2379A",
+              "T2385C",
+              "C2397T",
+              "C2402T",
+              "T2409A",
+              "A2412G",
+              "G2424A",
+              "G2429A",
+              "A2457T",
+              "G2458T",
+              "C2459T",
+              "T2460A",
+              "T2466C",
+              "C2469T",
+              "T2481A",
+              "T2487C",
+              "T2493C",
+              "G2502A",
+              "A2505G",
+              "C2520T",
+              "A2542G",
+              "C2550T",
+              "A2555G",
+              "C2556T",
+              "T2567C",
+              "G2574A",
+              "G2580T",
+              "T2583A",
+              "A2587G",
+              "G2590A",
+              "T2593C",
+              "A2595T",
+              "T2607C",
+              "T2616C",
+              "T2619C",
+              "C2635T",
+              "A2637G",
+              "C2640T",
+              "C2642T",
+              "A2658T",
+              "G2659A",
+              "T2670C",
+              "T2673A",
+              "C2674G",
+              "A2676T",
+              "T2679A",
+              "T2689C",
+              "A2694C",
+              "T2697C",
+              "G2706T",
+              "A2710C",
+              "A2712T",
+              "G2718T",
+              "A2721T",
+              "G2724A",
+              "A2733G",
+              "C2736T",
+              "A2737G",
+              "G2742A",
+              "C2745T",
+              "A2760T",
+              "T2781C",
+              "C2787T",
+              "C2817T",
+              "G2823A",
+              "T2829C",
+              "A2847T",
+              "A2850G",
+              "C2856T",
+              "A2862G",
+              "G2868A",
+              "A2869T",
+              "T2886C",
+              "T2889C",
+              "T2895C",
+              "G2904T",
+              "G2907T",
+              "G2919A",
+              "T2928A",
+              "T2931A",
+              "T2934A",
+              "T2940C",
+              "G2941A",
+              "G3009A",
+              "A3021G",
+              "A3029C",
+              "A3042T",
+              "C3057T",
+              "C3071G",
+              "T3078C",
+              "T3087A",
+              "T3099A",
+              "C3108T",
+              "G3115T",
+              "A3147G",
+              "T3171A",
+              "G3198A",
+              "C3204T",
+              "T3207C",
+              "A3211G",
+              "A3212C",
+              "A3219G",
+              "C3243T",
+              "G3258A",
+              "A3301T",
+              "A3303T",
+              "A3307G",
+              "T3309A",
+              "G3312A",
+              "G3313C",
+              "C3314T",
+              "A3318T",
+              "T3322G",
+              "C3325T",
+              "G3326T",
+              "T3327A",
+              "T3333G",
+              "C3366T",
+              "A3375T",
+              "C3387T",
+              "C3396T",
+              "C3399T",
+              "A3405G",
+              "G3411A",
+              "C3436T",
+              "T3438G",
+              "C3441T",
+              "T3444G",
+              "C3464T",
+              "C3480T",
+              "A3492T",
+              "T3502A",
+              "C3507A",
+              "A3514G",
+              "G3531A",
+              "T3537G",
+              "A3552T",
+              "T3559C",
+              "C3560A",
+              "C3561T",
+              "C3582T",
+              "T3585C",
+              "C3591T",
+              "A3594T",
+              "G3632C",
+              "C3636T",
+              "T3657G",
+              "A3660T",
+              "T3661C",
+              "A3664G",
+              "C3670T",
+              "T3672G",
+              "A3676C",
+              "A3682G",
+              "T3690A",
+              "G3706T",
+              "C3708T",
+              "T3714A",
+              "T3719A",
+              "T3735A",
+              "T3738A",
+              "T3741C",
+              "G3744T",
+              "A3747G",
+              "A3756G",
+              "C3759T",
+              "T3762A",
+              "T3766C",
+              "C3767T",
+              "C3796T",
+              "A3807G",
+              "G3814C",
+              "G3822A",
+              "A3825G",
+              "A3834G",
+              "C3843T",
+              "G3845A",
+              "T3851A",
+              "T3855C",
+              "A3867T",
+              "T3876A",
+              "T3891A",
+              "C3906T",
+              "A3907G",
+              "T3913C",
+              "G3915A",
+              "T3916C",
+              "G3922T",
+              "T3923C",
+              "A3925T",
+              "T3939A",
+              "T3942C",
+              "A3946G",
+              "G3948A",
+              "A3949T",
+              "A3951G",
+              "T3954C",
+              "C3957T",
+              "C3966T",
+              "C3969T",
+              "A3987T",
+              "G4029T",
+              "C4035T",
+              "A4036C",
+              "T4050C",
+              "G4054A"
+            ],
+            "s1": [
+              "S11F",
+              "F12A",
+              "Y16*",
+              "K18T",
+              "D26Y",
+              "L32Y",
+              "V39I",
+              "N41D",
+              "L49I",
+              "A66S",
+              "S70T",
+              "K79Q",
+              "P80K",
+              "K93R",
+              "N103K",
+              "V119I",
+              "T121N",
+              "I133V",
+              "V150I",
+              "I157S",
+              "I164F",
+              "S166K",
+              "A183T",
+              "V196T",
+              "V204S",
+              "I219L",
+              "M226L",
+              "P235S",
+              "K236N",
+              "E243Q",
+              "R251K",
+              "N257K",
+              "E260D",
+              "H261R",
+              "L275F",
+              "Q283K",
+              "F285L",
+              "A286L",
+              "Y306H",
+              "N311D",
+              "N319K",
+              "V324F",
+              "S325N",
+              "R335K",
+              "V353T",
+              "L361F",
+              "K363E",
+              "F367Y",
+              "N372K",
+              "T375V",
+              "V376L",
+              "R384S",
+              "D387S",
+              "K488N",
+              "H491S",
+              "D493E",
+              "F494S",
+              "T497V",
+              "Y499D",
+              "V500H",
+              "K501T",
+              "N502D",
+              "S514T",
+              "T515A",
+              "S517D",
+              "N519R",
+              "T520S",
+              "P522S",
+              "V526S",
+              "V527L",
+              "I530V",
+              "P535A",
+              "L537F",
+              "I539V",
+              "N540D",
+              "T546V",
+              "E549G",
+              "L550S",
+              "N551Y",
+              "H552N",
+              "S553V",
+              "S556L",
+              "P559T",
+              "F567Y",
+              "S569T",
+              "I571V",
+              "F584L",
+              "Y599Q",
+              "S600P",
+              "S605F",
+              "G607D",
+              "N611D",
+              "A629V",
+              "N633S",
+              "L652V",
+              "T658N",
+              "L660F",
+              "S664A",
+              "Y672H",
+              "S675A",
+              "P678L",
+              "F696L",
+              "I697A",
+              "S698T",
+              "L710F",
+              "V713D",
+              "S717D",
+              "D724A",
+              "I733V",
+              "D736N",
+              "L740S",
+              "P741S"
+            ],
+            "s2": [
+              "G1S",
+              "S4A",
+              "P5S",
+              "V23I",
+              "T25S",
+              "F30Y",
+              "Q33K",
+              "A41V",
+              "H43Q",
+              "S50N",
+              "A60L",
+              "N88D",
+              "D92G",
+              "I96T",
+              "Q100H",
+              "N103D",
+              "A104T",
+              "S121F",
+              "D127N",
+              "L132V",
+              "S137P",
+              "Q138H",
+              "L146F",
+              "L147F",
+              "N153D",
+              "T197S",
+              "V221I",
+              "N250T",
+              "K254N",
+              "T264S",
+              "A279S",
+              "N311A",
+              "T341S",
+              "I343V",
+              "A345L",
+              "S348A",
+              "R349L",
+              "I351M",
+              "I388M",
+              "T395I",
+              "L408I",
+              "I412V",
+              "Q424H",
+              "S427H",
+              "S451T",
+              "F461L",
+              "I462V",
+              "N466H",
+              "I468V",
+              "N470K",
+              "A476S",
+              "F478L",
+              "L480H",
+              "H485Q",
+              "M488I",
+              "F494L",
+              "S496L",
+              "V512L",
+              "S522N",
+              "F524Y",
+              "E529D",
+              "I543V",
+              "V548S",
+              "I549F",
+              "M556V",
+              "I557L",
+              "N586H",
+              "A592T"
+            ],
+            "spike": [
+              "S23F",
+              "F24A",
+              "Y28*",
+              "K30T",
+              "D38Y",
+              "L44Y",
+              "V51I",
+              "N53D",
+              "L61I",
+              "A78S",
+              "S82T",
+              "K91Q",
+              "P92K",
+              "K105R",
+              "N115K",
+              "V131I",
+              "T133N",
+              "I145V",
+              "V162I",
+              "I169S",
+              "I176F",
+              "S178K",
+              "A195T",
+              "V208T",
+              "V216S",
+              "I231L",
+              "M238L",
+              "P247S",
+              "K248N",
+              "E255Q",
+              "R263K",
+              "N269K",
+              "E272D",
+              "H273R",
+              "L287F",
+              "Q295K",
+              "F297L",
+              "A298L",
+              "Y318H",
+              "N323D",
+              "N331K",
+              "V336F",
+              "S337N",
+              "R347K",
+              "V365T",
+              "L373F",
+              "K375E",
+              "F379Y",
+              "N384K",
+              "T387V",
+              "V388L",
+              "R396S",
+              "D399S",
+              "K500N",
+              "H503S",
+              "D505E",
+              "F506S",
+              "T509V",
+              "Y511D",
+              "V512H",
+              "K513T",
+              "N514D",
+              "S526T",
+              "T527A",
+              "S529D",
+              "N531R",
+              "T532S",
+              "P534S",
+              "V538S",
+              "V539L",
+              "I542V",
+              "P547A",
+              "L549F",
+              "I551V",
+              "N552D",
+              "T558V",
+              "E561G",
+              "L562S",
+              "N563Y",
+              "H564N",
+              "S565V",
+              "S568L",
+              "P571T",
+              "F579Y",
+              "S581T",
+              "I583V",
+              "F596L",
+              "Y611Q",
+              "S612P",
+              "S617F",
+              "G619D",
+              "N623D",
+              "A641V",
+              "N645S",
+              "L664V",
+              "T670N",
+              "L672F",
+              "S676A",
+              "Y684H",
+              "S687A",
+              "P690L",
+              "F708L",
+              "I709A",
+              "S710T",
+              "L722F",
+              "V725D",
+              "S729D",
+              "D736A",
+              "I745V",
+              "D748N",
+              "L752S",
+              "P753S",
+              "G761S",
+              "S764A",
+              "P765S",
+              "V783I",
+              "T785S",
+              "F790Y",
+              "Q793K",
+              "A801V",
+              "H803Q",
+              "S810N",
+              "A820L",
+              "N848D",
+              "D852G",
+              "I856T",
+              "Q860H",
+              "N863D",
+              "A864T",
+              "S881F",
+              "D887N",
+              "L892V",
+              "S897P",
+              "Q898H",
+              "L906F",
+              "L907F",
+              "N913D",
+              "T957S",
+              "V981I",
+              "N1010T",
+              "K1014N",
+              "T1024S",
+              "A1039S",
+              "N1071A",
+              "T1101S",
+              "I1103V",
+              "A1105L",
+              "S1108A",
+              "R1109L",
+              "I1111M",
+              "I1148M",
+              "T1155I",
+              "L1168I",
+              "I1172V",
+              "Q1184H",
+              "S1187H",
+              "S1211T",
+              "F1221L",
+              "I1222V",
+              "N1226H",
+              "I1228V",
+              "N1230K",
+              "A1236S",
+              "F1238L",
+              "L1240H",
+              "H1245Q",
+              "M1248I",
+              "F1254L",
+              "S1256L",
+              "V1272L",
+              "S1282N",
+              "F1284Y",
+              "E1289D",
+              "I1303V",
+              "V1308S",
+              "I1309F",
+              "M1316V",
+              "I1317L",
+              "N1346H",
+              "A1352T"
+            ]
+          }
+        },
+        "children": [
+          {
+            "branch_attrs": {
+              "labels": {
+                "aa": "s1: *16L, Y72K, K154I, S641F; spike: *28L, Y84K, K166I, S653F"
+              },
+              "mutations": {
+                "nuc": [
+                  "A83T",
+                  "T250A",
+                  "T252A",
+                  "A497T",
+                  "C1958T"
+                ],
+                "s1": [
+                  "*16L",
+                  "Y72K",
+                  "K154I",
+                  "S641F"
+                ],
+                "spike": [
+                  "*28L",
+                  "Y84K",
+                  "K166I",
+                  "S653F"
+                ]
+              }
+            },
+            "name": "hku1/HM034837/Caen1/2005",
+            "node_attrs": {
+              "accession": "HM034837",
+              "clade_membership": {
+                "value": "A"
+              },
+              "country": {
+                "value": "France"
+              },
+              "div": 0.00202422,
+              "host": {
+                "value": "Human"
+              },
+              "num_date": {
+                "confidence": [
+                  2005.1712328767123,
+                  2005.1712328767123
+                ],
+                "value": 2005.1712328767123
+              }
+            }
+          },
+          {
+            "branch_attrs": {
+              "labels": {
+                "aa": "s1: *16K, I20V, D260N; s2: L345F; spike: *28K, I32V, D272N, L1105F"
+              },
+              "mutations": {
+                "nuc": [
+                  "T82A",
+                  "A94G",
+                  "G814A",
+                  "T1368C",
+                  "T1482C",
+                  "T3279C",
+                  "C3313T",
+                  "A3498G",
+                  "T3570C"
+                ],
+                "s1": [
+                  "*16K",
+                  "I20V",
+                  "D260N"
+                ],
+                "s2": [
+                  "L345F"
+                ],
+                "spike": [
+                  "*28K",
+                  "I32V",
+                  "D272N",
+                  "L1105F"
+                ]
+              }
+            },
+            "children": [
+              {
+                "branch_attrs": {
+                  "mutations": {
+                    "nuc": [
+                      "T1836C",
+                      "G2301T",
+                      "T3330C"
+                    ]
+                  }
+                },
+                "children": [
+                  {
+                    "branch_attrs": {
+                      "mutations": {
+                        "nuc": [
+                          "T676C"
+                        ]
+                      }
+                    },
+                    "children": [
+                      {
+                        "branch_attrs": {
+                          "mutations": {}
+                        },
+                        "name": "hku1/KF430198/HKU1/HTBEC_lab/BRA/HKU1_21/2006/2006",
+                        "node_attrs": {
+                          "accession": "KF430198",
+                          "clade_membership": {
+                            "value": "A"
+                          },
+                          "country": {
+                            "value": "Brazil"
+                          },
+                          "div": 0.0012382600000000001,
+                          "host": {
+                            "value": "Human"
+                          },
+                          "num_date": {
+                            "confidence": [
+                              2006.0013698630137,
+                              2006.9986301369863
+                            ],
+                            "value": 2006.9268437292324
+                          }
+                        }
+                      },
+                      {
+                        "branch_attrs": {
+                          "labels": {
+                            "aa": "s1: N674S; spike: N686S"
+                          },
+                          "mutations": {
+                            "nuc": [
+                              "A2057G"
+                            ],
+                            "s1": [
+                              "N674S"
+                            ],
+                            "spike": [
+                              "N686S"
+                            ]
+                          }
+                        },
+                        "name": "hku1/KF430203/HKU1/HTBEC_lab/BRA/HKU1_23/2006/2006",
+                        "node_attrs": {
+                          "accession": "KF430203",
+                          "clade_membership": {
+                            "value": "A"
+                          },
+                          "country": {
+                            "value": "Brazil"
+                          },
+                          "div": 0.0014810300000000002,
+                          "host": {
+                            "value": "Human"
+                          },
+                          "num_date": {
+                            "confidence": [
+                              2006.7516811706735,
+                              2006.9986301369863
+                            ],
+                            "value": 2006.9986301369863
+                          }
+                        }
+                      }
+                    ],
+                    "name": "NODE_0000011",
+                    "node_attrs": {
+                      "clade_membership": {
+                        "value": "A"
+                      },
+                      "div": 0.00123535,
+                      "num_date": {
+                        "confidence": [
+                          2006.6148103470116,
+                          2006.9972179992938
+                        ],
+                        "value": 2006.8574163677306
+                      }
+                    }
+                  },
+                  {
+                    "branch_attrs": {
+                      "mutations": {}
+                    },
+                    "children": [
+                      {
+                        "branch_attrs": {
+                          "labels": {
+                            "aa": "s1: S58A, V375I, H500R, V553A; spike: S70A, V387I, H512R, V565A"
+                          },
+                          "mutations": {
+                            "nuc": [
+                              "T208G",
+                              "G1159A",
+                              "A1535G",
+                              "T1694C",
+                              "T2703C",
+                              "T2715C",
+                              "T2880C"
+                            ],
+                            "s1": [
+                              "S58A",
+                              "V375I",
+                              "H500R",
+                              "V553A"
+                            ],
+                            "spike": [
+                              "S70A",
+                              "V387I",
+                              "H512R",
+                              "V565A"
+                            ]
+                          }
+                        },
+                        "children": [
+                          {
+                            "branch_attrs": {
+                              "labels": {
+                                "aa": "s1: E135D; spike: E147D"
+                              },
+                              "mutations": {
+                                "nuc": [
+                                  "C216T",
+                                  "G441T"
+                                ],
+                                "s1": [
+                                  "E135D"
+                                ],
+                                "spike": [
+                                  "E147D"
+                                ]
+                              }
+                            },
+                            "name": "hku1/KF686344/HKU1/human/USA/HKU1_15/2009/2009",
+                            "node_attrs": {
+                              "accession": "KF686344",
+                              "clade_membership": {
+                                "value": "A"
+                              },
+                              "country": {
+                                "value": "USA"
+                              },
+                              "div": 0.00320538,
+                              "host": {
+                                "value": "Human"
+                              },
+                              "num_date": {
+                                "confidence": [
+                                  2009.990410958904,
+                                  2009.990410958904
+                                ],
+                                "value": 2009.990410958904
+                              }
+                            }
+                          },
+                          {
+                            "branch_attrs": {
+                              "labels": {
+                                "aa": "s1: Y32H, N442I, M727I; s2: F147I; spike: Y44H, N454I, M739I, F907I"
+                              },
+                              "mutations": {
+                                "nuc": [
+                                  "T130C",
+                                  "T582C",
+                                  "T712C",
+                                  "A1361T",
+                                  "G2217T",
+                                  "T2719A",
+                                  "G3141A"
+                                ],
+                                "s1": [
+                                  "Y32H",
+                                  "N442I",
+                                  "M727I"
+                                ],
+                                "s2": [
+                                  "F147I"
+                                ],
+                                "spike": [
+                                  "Y44H",
+                                  "N454I",
+                                  "M739I",
+                                  "F907I"
+                                ]
+                              }
+                            },
+                            "name": "hku1/KY983584/SC2628/2015",
+                            "node_attrs": {
+                              "accession": "KY983584",
+                              "clade_membership": {
+                                "value": "A"
+                              },
+                              "country": {
+                                "value": "USA"
+                              },
+                              "div": 0.00443661,
+                              "host": {
+                                "value": "Human"
+                              },
+                              "num_date": {
+                                "confidence": [
+                                  2015.0013698630137,
+                                  2015.898904109589
+                                ],
+                                "value": 2015.0013698630137
+                              }
+                            }
+                          }
+                        ],
+                        "name": "NODE_0000009",
+                        "node_attrs": {
+                          "clade_membership": {
+                            "value": "A"
+                          },
+                          "div": 0.0027139399999999998,
+                          "num_date": {
+                            "confidence": [
+                              2009.6305635827625,
+                              2009.9601202258527
+                            ],
+                            "value": 2009.8562559576558
+                          }
+                        }
+                      },
+                      {
+                        "branch_attrs": {
+                          "labels": {
+                            "aa": "s1: T48S, S157F; s2: L496F; spike: T60S, S169F, L1256F"
+                          },
+                          "mutations": {
+                            "nuc": [
+                              "C179G",
+                              "A456G",
+                              "C506T",
+                              "T801C",
+                              "C1542T",
+                              "C3766T"
+                            ],
+                            "s1": [
+                              "T48S",
+                              "S157F"
+                            ],
+                            "s2": [
+                              "L496F"
+                            ],
+                            "spike": [
+                              "T60S",
+                              "S169F",
+                              "L1256F"
+                            ]
+                          }
+                        },
+                        "children": [
+                          {
+                            "branch_attrs": {
+                              "mutations": {
+                                "nuc": [
+                                  "T729C"
+                                ]
+                              }
+                            },
+                            "children": [
+                              {
+                                "branch_attrs": {
+                                  "mutations": {}
+                                },
+                                "name": "hku1/KT779555/BJ01_p3/2009",
+                                "node_attrs": {
+                                  "accession": "KT779555",
+                                  "clade_membership": {
+                                    "value": "A"
+                                  },
+                                  "country": {
+                                    "value": "China"
+                                  },
+                                  "div": 0.00271725,
+                                  "host": {
+                                    "value": "Human"
+                                  },
+                                  "num_date": {
+                                    "confidence": [
+                                      2009.3082191780823,
+                                      2009.3082191780823
+                                    ],
+                                    "value": 2009.3082191780823
+                                  }
+                                }
+                              },
+                              {
+                                "branch_attrs": {
+                                  "labels": {
+                                    "aa": "s1: R93I; spike: R105I"
+                                  },
+                                  "mutations": {
+                                    "nuc": [
+                                      "G314T"
+                                    ],
+                                    "s1": [
+                                      "R93I"
+                                    ],
+                                    "spike": [
+                                      "R105I"
+                                    ]
+                                  }
+                                },
+                                "name": "hku1/KT779556/BJ01_p9/2009",
+                                "node_attrs": {
+                                  "accession": "KT779556",
+                                  "clade_membership": {
+                                    "value": "A"
+                                  },
+                                  "country": {
+                                    "value": "China"
+                                  },
+                                  "div": 0.00296002,
+                                  "host": {
+                                    "value": "Human"
+                                  },
+                                  "num_date": {
+                                    "confidence": [
+                                      2009.3082191780823,
+                                      2009.3082191780823
+                                    ],
+                                    "value": 2009.3082191780823
+                                  }
+                                }
+                              }
+                            ],
+                            "name": "NODE_0000000",
+                            "node_attrs": {
+                              "clade_membership": {
+                                "value": "A"
+                              },
+                              "div": 0.00271434,
+                              "num_date": {
+                                "confidence": [
+                                  2009.1762388900859,
+                                  2009.305173626375
+                                ],
+                                "value": 2009.2743443028917
+                              }
+                            }
+                          },
+                          {
+                            "branch_attrs": {
+                              "labels": {
+                                "aa": "s1: H500R, N636Y; spike: H512R, N648Y"
+                              },
+                              "mutations": {
+                                "nuc": [
+                                  "A1535G",
+                                  "A1942T"
+                                ],
+                                "s1": [
+                                  "H500R",
+                                  "N636Y"
+                                ],
+                                "spike": [
+                                  "H512R",
+                                  "N648Y"
+                                ]
+                              }
+                            },
+                            "children": [
+                              {
+                                "branch_attrs": {
+                                  "mutations": {
+                                    "nuc": [
+                                      "T1569C",
+                                      "C1758T"
+                                    ]
+                                  }
+                                },
+                                "name": "hku1/MF996589/HKU1/2014",
+                                "node_attrs": {
+                                  "accession": "MF996589",
+                                  "clade_membership": {
+                                    "value": "A"
+                                  },
+                                  "country": {
+                                    "value": "China"
+                                  },
+                                  "div": 0.00402332,
+                                  "host": {
+                                    "value": "Human"
+                                  },
+                                  "num_date": {
+                                    "confidence": [
+                                      2014.0013698630137,
+                                      2014.9986301369863
+                                    ],
+                                    "value": 2014.130240321021
+                                  }
+                                }
+                              },
+                              {
+                                "branch_attrs": {
+                                  "mutations": {}
+                                },
+                                "children": [
+                                  {
+                                    "branch_attrs": {
+                                      "mutations": {
+                                        "nuc": [
+                                          "C1723T",
+                                          "T1752C",
+                                          "T2013C"
+                                        ]
+                                      }
+                                    },
+                                    "name": "hku1/MF996597/HKU1/2015",
+                                    "node_attrs": {
+                                      "accession": "MF996597",
+                                      "clade_membership": {
+                                        "value": "A"
+                                      },
+                                      "country": {
+                                        "value": "China"
+                                      },
+                                      "div": 0.00444034,
+                                      "host": {
+                                        "value": "Human"
+                                      },
+                                      "num_date": {
+                                        "confidence": [
+                                          2015.0013698630137,
+                                          2015.4692360438187
+                                        ],
+                                        "value": 2015.0013698630137
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "branch_attrs": {
+                                      "mutations": {
+                                        "nuc": [
+                                          "A1641G"
+                                        ]
+                                      }
+                                    },
+                                    "name": "hku1/MF996590/HKU1/2015",
+                                    "node_attrs": {
+                                      "accession": "MF996590",
+                                      "clade_membership": {
+                                        "value": "A"
+                                      },
+                                      "country": {
+                                        "value": "China"
+                                      },
+                                      "div": 0.0036135100000000003,
+                                      "host": {
+                                        "value": "Human"
+                                      },
+                                      "num_date": {
+                                        "confidence": [
+                                          2015.0013698630137,
+                                          2015.3884856497943
+                                        ],
+                                        "value": 2015.0013698630137
+                                      }
+                                    }
+                                  }
+                                ],
+                                "name": "NODE_0000025",
+                                "node_attrs": {
+                                  "clade_membership": {
+                                    "value": "A"
+                                  },
+                                  "div": 0.0031918800000000002,
+                                  "num_date": {
+                                    "confidence": [
+                                      2013.6133493362909,
+                                      2014.9167698784179
+                                    ],
+                                    "value": 2014.5723267915237
+                                  }
+                                }
+                              },
+                              {
+                                "branch_attrs": {
+                                  "labels": {
+                                    "aa": "s1: R261H, N325K; spike: R273H, N337K"
+                                  },
+                                  "mutations": {
+                                    "nuc": [
+                                      "G818A",
+                                      "T1011A",
+                                      "C2670T"
+                                    ],
+                                    "s1": [
+                                      "R261H",
+                                      "N325K"
+                                    ],
+                                    "spike": [
+                                      "R273H",
+                                      "N337K"
+                                    ]
+                                  }
+                                },
+                                "children": [
+                                  {
+                                    "branch_attrs": {
+                                      "mutations": {
+                                        "nuc": [
+                                          "T1737C",
+                                          "T1815C"
+                                        ]
+                                      }
+                                    },
+                                    "name": "hku1/MF996596/HKU1/2015",
+                                    "node_attrs": {
+                                      "accession": "MF996596",
+                                      "clade_membership": {
+                                        "value": "A"
+                                      },
+                                      "country": {
+                                        "value": "China"
+                                      },
+                                      "div": 0.00525218,
+                                      "host": {
+                                        "value": "Human"
+                                      },
+                                      "num_date": {
+                                        "confidence": [
+                                          2015.0013698630137,
+                                          2015.3919158137353
+                                        ],
+                                        "value": 2015.0013698630137
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "branch_attrs": {
+                                      "mutations": {
+                                        "nuc": [
+                                          "T876C",
+                                          "T2211C"
+                                        ]
+                                      }
+                                    },
+                                    "name": "hku1/MF996598/HKU1/2015",
+                                    "node_attrs": {
+                                      "accession": "MF996598",
+                                      "clade_membership": {
+                                        "value": "A"
+                                      },
+                                      "country": {
+                                        "value": "China"
+                                      },
+                                      "div": 0.00527033,
+                                      "host": {
+                                        "value": "Human"
+                                      },
+                                      "num_date": {
+                                        "confidence": [
+                                          2015.0013698630137,
+                                          2015.396248849507
+                                        ],
+                                        "value": 2015.0013698630137
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "branch_attrs": {
+                                      "mutations": {
+                                        "nuc": [
+                                          "G1950A"
+                                        ]
+                                      }
+                                    },
+                                    "children": [
+                                      {
+                                        "branch_attrs": {
+                                          "mutations": {}
+                                        },
+                                        "name": "hku1/MF996593/HKU1/2015",
+                                        "node_attrs": {
+                                          "accession": "MF996593",
+                                          "clade_membership": {
+                                            "value": "A"
+                                          },
+                                          "country": {
+                                            "value": "China"
+                                          },
+                                          "div": 0.0048438100000000005,
+                                          "host": {
+                                            "value": "Human"
+                                          },
+                                          "num_date": {
+                                            "confidence": [
+                                              2015.0013698630137,
+                                              2015.2097472654086
+                                            ],
+                                            "value": 2015.0013698630137
+                                          }
+                                        }
+                                      },
+                                      {
+                                        "branch_attrs": {
+                                          "mutations": {}
+                                        },
+                                        "name": "hku1/MF996603/HKU1/2014",
+                                        "node_attrs": {
+                                          "accession": "MF996603",
+                                          "clade_membership": {
+                                            "value": "A"
+                                          },
+                                          "country": {
+                                            "value": "China"
+                                          },
+                                          "div": 0.0048438100000000005,
+                                          "host": {
+                                            "value": "Human"
+                                          },
+                                          "num_date": {
+                                            "confidence": [
+                                              2014.8141283544526,
+                                              2014.9986301369863
+                                            ],
+                                            "value": 2014.9986301369863
+                                          }
+                                        }
+                                      }
+                                    ],
+                                    "name": "NODE_0000007",
+                                    "node_attrs": {
+                                      "clade_membership": {
+                                        "value": "A"
+                                      },
+                                      "div": 0.0048409,
+                                      "num_date": {
+                                        "confidence": [
+                                          2014.7535479216183,
+                                          2014.9972179992938
+                                        ],
+                                        "value": 2014.9355546533855
+                                      }
+                                    }
+                                  }
+                                ],
+                                "name": "NODE_0000005",
+                                "node_attrs": {
+                                  "clade_membership": {
+                                    "value": "A"
+                                  },
+                                  "div": 0.00442835,
+                                  "num_date": {
+                                    "confidence": [
+                                      2014.5105076360348,
+                                      2014.8765419439146
+                                    ],
+                                    "value": 2014.697721158623
+                                  }
+                                }
+                              }
+                            ],
+                            "name": "NODE_0000002",
+                            "node_attrs": {
+                              "clade_membership": {
+                                "value": "A"
+                              },
+                              "div": 0.0031918800000000002,
+                              "num_date": {
+                                "confidence": [
+                                  2013.6462512486107,
+                                  2014.4196461391966
+                                ],
+                                "value": 2013.8841898131066
+                              }
+                            }
+                          }
+                        ],
+                        "name": "NODE_0000001",
+                        "node_attrs": {
+                          "clade_membership": {
+                            "value": "A"
+                          },
+                          "div": 0.0023706,
+                          "num_date": {
+                            "confidence": [
+                              2008.9653614446124,
+                              2009.2681970959493
+                            ],
+                            "value": 2009.1592299835465
+                          }
+                        }
+                      }
+                    ],
+                    "name": "NODE_0000019",
+                    "node_attrs": {
+                      "clade_membership": {
+                        "value": "A"
+                      },
+                      "div": 0.00098967,
+                      "num_date": {
+                        "confidence": [
+                          2007.6982109573842,
+                          2009.0140334073326
+                        ],
+                        "value": 2007.9256082867537
+                      }
+                    }
+                  }
+                ],
+                "name": "NODE_0000010",
+                "node_attrs": {
+                  "clade_membership": {
+                    "value": "A"
+                  },
+                  "div": 0.00098967,
+                  "num_date": {
+                    "confidence": [
+                      2006.4755544501768,
+                      2006.9739831433326
+                    ],
+                    "value": 2006.758191836089
+                  }
+                }
+              },
+              {
+                "branch_attrs": {
+                  "labels": {
+                    "aa": "s1: W185F, F605Y, S740F; spike: W197F, F617Y, S752F"
+                  },
+                  "mutations": {
+                    "nuc": [
+                      "G590T",
+                      "G591C",
+                      "T645C",
+                      "C864T",
+                      "T1850A",
+                      "C2255T",
+                      "G3288A",
+                      "T3552C"
+                    ],
+                    "s1": [
+                      "W185F",
+                      "F605Y",
+                      "S740F"
+                    ],
+                    "spike": [
+                      "W197F",
+                      "F617Y",
+                      "S752F"
+                    ]
+                  }
+                },
+                "children": [
+                  {
+                    "branch_attrs": {
+                      "mutations": {
+                        "nuc": [
+                          "T78C",
+                          "T1818C",
+                          "T3528C"
+                        ]
+                      }
+                    },
+                    "children": [
+                      {
+                        "branch_attrs": {
+                          "mutations": {}
+                        },
+                        "name": "hku1/KF686339/HKU1/human/USA/HKU1_3/2009/2009",
+                        "node_attrs": {
+                          "accession": "KF686339",
+                          "clade_membership": {
+                            "value": "A"
+                          },
+                          "country": {
+                            "value": "USA"
+                          },
+                          "div": 0.0034523699999999997,
+                          "host": {
+                            "value": "Human"
+                          },
+                          "num_date": {
+                            "confidence": [
+                              2009.831506849315,
+                              2009.831506849315
+                            ],
+                            "value": 2009.831506849315
+                          }
+                        }
+                      },
+                      {
+                        "branch_attrs": {
+                          "mutations": {}
+                        },
+                        "name": "hku1/KF686340/HKU1/human/USA/HKU1_5/2009/2009",
+                        "node_attrs": {
+                          "accession": "KF686340",
+                          "clade_membership": {
+                            "value": "A"
+                          },
+                          "country": {
+                            "value": "USA"
+                          },
+                          "div": 0.0034523699999999997,
+                          "host": {
+                            "value": "Human"
+                          },
+                          "num_date": {
+                            "confidence": [
+                              2009.9082191780822,
+                              2009.9082191780822
+                            ],
+                            "value": 2009.9082191780822
+                          }
+                        }
+                      }
+                    ],
+                    "name": "NODE_0000014",
+                    "node_attrs": {
+                      "clade_membership": {
+                        "value": "A"
+                      },
+                      "div": 0.0034494599999999997,
+                      "num_date": {
+                        "confidence": [
+                          2009.7283210404744,
+                          2009.831506849315
+                        ],
+                        "value": 2009.831506849315
+                      }
+                    }
+                  },
+                  {
+                    "branch_attrs": {
+                      "mutations": {}
+                    },
+                    "children": [
+                      {
+                        "branch_attrs": {
+                          "labels": {
+                            "aa": "s2: L119S; spike: L879S"
+                          },
+                          "mutations": {
+                            "nuc": [
+                              "T1062C",
+                              "T2636C",
+                              "C3207T",
+                              "A3612G"
+                            ],
+                            "s2": [
+                              "L119S"
+                            ],
+                            "spike": [
+                              "L879S"
+                            ]
+                          }
+                        },
+                        "children": [
+                          {
+                            "branch_attrs": {
+                              "mutations": {}
+                            },
+                            "name": "hku1/KF430200/HKU1/human/USA/HKU1_16/2010/2010",
+                            "node_attrs": {
+                              "accession": "KF430200",
+                              "clade_membership": {
+                                "value": "A"
+                              },
+                              "country": {
+                                "value": "USA"
+                              },
+                              "div": 0.0036998099999999996,
+                              "host": {
+                                "value": "Human"
+                              },
+                              "num_date": {
+                                "confidence": [
+                                  2010.0205479452054,
+                                  2010.0205479452054
+                                ],
+                                "value": 2010.0205479452054
+                              }
+                            }
+                          },
+                          {
+                            "branch_attrs": {
+                              "mutations": {}
+                            },
+                            "name": "hku1/KF686345/HKU1/human/USA/HKU1_20/2010/2010",
+                            "node_attrs": {
+                              "accession": "KF686345",
+                              "clade_membership": {
+                                "value": "A"
+                              },
+                              "country": {
+                                "value": "USA"
+                              },
+                              "div": 0.0036998099999999996,
+                              "host": {
+                                "value": "Human"
+                              },
+                              "num_date": {
+                                "confidence": [
+                                  2010.0808219178082,
+                                  2010.0808219178082
+                                ],
+                                "value": 2010.0808219178082
+                              }
+                            }
+                          }
+                        ],
+                        "name": "NODE_0000017",
+                        "node_attrs": {
+                          "clade_membership": {
+                            "value": "A"
+                          },
+                          "div": 0.0036968999999999995,
+                          "num_date": {
+                            "confidence": [
+                              2009.9229486646686,
+                              2010.0205479452054
+                            ],
+                            "value": 2010.0205479452054
+                          }
+                        }
+                      },
+                      {
+                        "branch_attrs": {
+                          "mutations": {}
+                        },
+                        "children": [
+                          {
+                            "branch_attrs": {
+                              "mutations": {
+                                "nuc": [
+                                  "C1615T",
+                                  "G3747T"
+                                ]
+                              }
+                            },
+                            "children": [
+                              {
+                                "branch_attrs": {
+                                  "labels": {
+                                    "aa": "s1: L696S; spike: L708S"
+                                  },
+                                  "mutations": {
+                                    "nuc": [
+                                      "T2123C"
+                                    ],
+                                    "s1": [
+                                      "L696S"
+                                    ],
+                                    "spike": [
+                                      "L708S"
+                                    ]
+                                  }
+                                },
+                                "name": "hku1/KF686343/HKU1/human/USA/HKU1_13/2010/2010",
+                                "node_attrs": {
+                                  "accession": "KF686343",
+                                  "clade_membership": {
+                                    "value": "A"
+                                  },
+                                  "country": {
+                                    "value": "USA"
+                                  },
+                                  "div": 0.0034501199999999997,
+                                  "host": {
+                                    "value": "Human"
+                                  },
+                                  "num_date": {
+                                    "confidence": [
+                                      2010.0205479452054,
+                                      2010.0205479452054
+                                    ],
+                                    "value": 2010.0205479452054
+                                  }
+                                }
+                              },
+                              {
+                                "branch_attrs": {
+                                  "mutations": {}
+                                },
+                                "name": "hku1/KF686342/HKU1/human/USA/HKU1_11/2009/2009",
+                                "node_attrs": {
+                                  "accession": "KF686342",
+                                  "clade_membership": {
+                                    "value": "A"
+                                  },
+                                  "country": {
+                                    "value": "USA"
+                                  },
+                                  "div": 0.00320735,
+                                  "host": {
+                                    "value": "Human"
+                                  },
+                                  "num_date": {
+                                    "confidence": [
+                                      2009.9493150684932,
+                                      2009.9493150684932
+                                    ],
+                                    "value": 2009.9493150684932
+                                  }
+                                }
+                              },
+                              {
+                                "branch_attrs": {
+                                  "mutations": {}
+                                },
+                                "name": "hku1/KF686346/HKU1/human/USA/HKU1_12/2010/2010",
+                                "node_attrs": {
+                                  "accession": "KF686346",
+                                  "clade_membership": {
+                                    "value": "A"
+                                  },
+                                  "country": {
+                                    "value": "USA"
+                                  },
+                                  "div": 0.00320735,
+                                  "host": {
+                                    "value": "Human"
+                                  },
+                                  "num_date": {
+                                    "confidence": [
+                                      2010.0232876712328,
+                                      2010.0232876712328
+                                    ],
+                                    "value": 2010.0232876712328
+                                  }
+                                }
+                              }
+                            ],
+                            "name": "NODE_0000024",
+                            "node_attrs": {
+                              "clade_membership": {
+                                "value": "A"
+                              },
+                              "div": 0.00320444,
+                              "num_date": {
+                                "confidence": [
+                                  2009.8698673690196,
+                                  2009.9493150684932
+                                ],
+                                "value": 2009.9493150684932
+                              }
+                            }
+                          },
+                          {
+                            "branch_attrs": {
+                              "mutations": {}
+                            },
+                            "children": [
+                              {
+                                "branch_attrs": {
+                                  "labels": {
+                                    "aa": "s1: T48I, P467S; spike: T60I, P479S"
+                                  },
+                                  "mutations": {
+                                    "nuc": [
+                                      "C179T",
+                                      "C1435T"
+                                    ],
+                                    "s1": [
+                                      "T48I",
+                                      "P467S"
+                                    ],
+                                    "spike": [
+                                      "T60I",
+                                      "P479S"
+                                    ]
+                                  }
+                                },
+                                "name": "hku1/KF430201/HKU1/human/USA/HKU1_18/2010/2010",
+                                "node_attrs": {
+                                  "accession": "KF430201",
+                                  "clade_membership": {
+                                    "value": "A"
+                                  },
+                                  "country": {
+                                    "value": "USA"
+                                  },
+                                  "div": 0.0032057399999999995,
+                                  "host": {
+                                    "value": "Human"
+                                  },
+                                  "num_date": {
+                                    "confidence": [
+                                      2010.058904109589,
+                                      2010.058904109589
+                                    ],
+                                    "value": 2010.058904109589
+                                  }
+                                }
+                              },
+                              {
+                                "branch_attrs": {
+                                  "mutations": {}
+                                },
+                                "children": [
+                                  {
+                                    "branch_attrs": {
+                                      "mutations": {
+                                        "nuc": [
+                                          "T264C"
+                                        ]
+                                      }
+                                    },
+                                    "name": "hku1/KF430202/HKU1/human/USA/HKU1_7/2010/2010",
+                                    "node_attrs": {
+                                      "accession": "KF430202",
+                                      "clade_membership": {
+                                        "value": "A"
+                                      },
+                                      "country": {
+                                        "value": "USA"
+                                      },
+                                      "div": 0.0029586799999999996,
+                                      "host": {
+                                        "value": "Human"
+                                      },
+                                      "num_date": {
+                                        "confidence": [
+                                          2010.0068493150684,
+                                          2010.0068493150684
+                                        ],
+                                        "value": 2010.0068493150684
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "branch_attrs": {
+                                      "mutations": {}
+                                    },
+                                    "children": [
+                                      {
+                                        "branch_attrs": {
+                                          "mutations": {}
+                                        },
+                                        "name": "hku1/KF430199/HKU1/human/USA/HKU1_14/2009/2009",
+                                        "node_attrs": {
+                                          "accession": "KF430199",
+                                          "clade_membership": {
+                                            "value": "A"
+                                          },
+                                          "country": {
+                                            "value": "USA"
+                                          },
+                                          "div": 0.0027159099999999998,
+                                          "host": {
+                                            "value": "Human"
+                                          },
+                                          "num_date": {
+                                            "confidence": [
+                                              2009.990410958904,
+                                              2009.990410958904
+                                            ],
+                                            "value": 2009.990410958904
+                                          }
+                                        }
+                                      },
+                                      {
+                                        "branch_attrs": {
+                                          "mutations": {}
+                                        },
+                                        "children": [
+                                          {
+                                            "branch_attrs": {
+                                              "mutations": {}
+                                            },
+                                            "name": "hku1/KF686341/HKU1/human/USA/HKU1_10/2010/2010",
+                                            "node_attrs": {
+                                              "accession": "KF686341",
+                                              "clade_membership": {
+                                                "value": "A"
+                                              },
+                                              "country": {
+                                                "value": "USA"
+                                              },
+                                              "div": 0.0027159099999999998,
+                                              "host": {
+                                                "value": "Human"
+                                              },
+                                              "num_date": {
+                                                "confidence": [
+                                                  2010.0424657534247,
+                                                  2010.0424657534247
+                                                ],
+                                                "value": 2010.0424657534247
+                                              }
+                                            }
+                                          },
+                                          {
+                                            "branch_attrs": {
+                                              "mutations": {
+                                                "nuc": [
+                                                  "C2895T"
+                                                ]
+                                              }
+                                            },
+                                            "children": [
+                                              {
+                                                "branch_attrs": {
+                                                  "mutations": {}
+                                                },
+                                                "name": "hku1/KY674942/N09_1627B/2016",
+                                                "node_attrs": {
+                                                  "accession": "KY674942",
+                                                  "clade_membership": {
+                                                    "value": "A"
+                                                  },
+                                                  "country": {
+                                                    "value": "USA"
+                                                  },
+                                                  "div": 0.0029615899999999996,
+                                                  "host": {
+                                                    "value": "Human"
+                                                  },
+                                                  "num_date": {
+                                                    "confidence": [
+                                                      2016.0013661202186,
+                                                      2016.2558072178533
+                                                    ],
+                                                    "value": 2016.0013661202186
+                                                  }
+                                                }
+                                              },
+                                              {
+                                                "branch_attrs": {
+                                                  "mutations": {}
+                                                },
+                                                "children": [
+                                                  {
+                                                    "branch_attrs": {
+                                                      "mutations": {}
+                                                    },
+                                                    "name": "hku1/KY674941/N09_1663B/2016",
+                                                    "node_attrs": {
+                                                      "accession": "KY674941",
+                                                      "clade_membership": {
+                                                        "value": "A"
+                                                      },
+                                                      "country": {
+                                                        "value": "USA"
+                                                      },
+                                                      "div": 0.0029586799999999996,
+                                                      "host": {
+                                                        "value": "Human"
+                                                      },
+                                                      "num_date": {
+                                                        "confidence": [
+                                                          2016.0013661202186,
+                                                          2016.9986338797814
+                                                        ],
+                                                        "value": 2016.0890248883654
+                                                      }
+                                                    }
+                                                  },
+                                                  {
+                                                    "branch_attrs": {
+                                                      "mutations": {}
+                                                    },
+                                                    "name": "hku1/KY674943/N09_1605B/2016",
+                                                    "node_attrs": {
+                                                      "accession": "KY674943",
+                                                      "clade_membership": {
+                                                        "value": "A"
+                                                      },
+                                                      "country": {
+                                                        "value": "USA"
+                                                      },
+                                                      "div": 0.0029586799999999996,
+                                                      "host": {
+                                                        "value": "Human"
+                                                      },
+                                                      "num_date": {
+                                                        "confidence": [
+                                                          2016.0013661202186,
+                                                          2016.9986338797814
+                                                        ],
+                                                        "value": 2016.0890248883654
+                                                      }
+                                                    }
+                                                  }
+                                                ],
+                                                "name": "NODE_0000044",
+                                                "node_attrs": {
+                                                  "clade_membership": {
+                                                    "value": "A"
+                                                  },
+                                                  "div": 0.0029586799999999996,
+                                                  "num_date": {
+                                                    "confidence": [
+                                                      2015.9344534222953,
+                                                      2016.2546337660083
+                                                    ],
+                                                    "value": 2016.0047294129772
+                                                  }
+                                                }
+                                              }
+                                            ],
+                                            "name": "NODE_0000021",
+                                            "node_attrs": {
+                                              "clade_membership": {
+                                                "value": "A"
+                                              },
+                                              "div": 0.0029586799999999996,
+                                              "num_date": {
+                                                "confidence": [
+                                                  2015.772622040283,
+                                                  2016.1623878103037
+                                                ],
+                                                "value": 2015.99817764162
+                                              }
+                                            }
+                                          }
+                                        ],
+                                        "name": "NODE_0000042",
+                                        "node_attrs": {
+                                          "clade_membership": {
+                                            "value": "A"
+                                          },
+                                          "div": 0.0027129999999999997,
+                                          "num_date": {
+                                            "confidence": [
+                                              2009.962775049007,
+                                              2010.0424657534247
+                                            ],
+                                            "value": 2010.0424657534247
+                                          }
+                                        }
+                                      }
+                                    ],
+                                    "name": "NODE_0000041",
+                                    "node_attrs": {
+                                      "clade_membership": {
+                                        "value": "A"
+                                      },
+                                      "div": 0.0027129999999999997,
+                                      "num_date": {
+                                        "confidence": [
+                                          2009.8928049418175,
+                                          2009.990410958904
+                                        ],
+                                        "value": 2009.9834224027898
+                                      }
+                                    }
+                                  }
+                                ],
+                                "name": "NODE_0000040",
+                                "node_attrs": {
+                                  "clade_membership": {
+                                    "value": "A"
+                                  },
+                                  "div": 0.0027129999999999997,
+                                  "num_date": {
+                                    "confidence": [
+                                      2009.7977565499564,
+                                      2009.9761192183773
+                                    ],
+                                    "value": 2009.9070205557355
+                                  }
+                                }
+                              }
+                            ],
+                            "name": "NODE_0000038",
+                            "node_attrs": {
+                              "clade_membership": {
+                                "value": "A"
+                              },
+                              "div": 0.0027129999999999997,
+                              "num_date": {
+                                "confidence": [
+                                  2009.6782978765889,
+                                  2009.9519784811073
+                                ],
+                                "value": 2009.8273478219116
+                              }
+                            }
+                          }
+                        ],
+                        "name": "NODE_0000036",
+                        "node_attrs": {
+                          "clade_membership": {
+                            "value": "A"
+                          },
+                          "div": 0.0027129999999999997,
+                          "num_date": {
+                            "confidence": [
+                              2009.5558189658593,
+                              2009.8626499410561
+                            ],
+                            "value": 2009.720660137485
+                          }
+                        }
+                      }
+                    ],
+                    "name": "NODE_0000026",
+                    "node_attrs": {
+                      "clade_membership": {
+                        "value": "A"
+                      },
+                      "div": 0.0027129999999999997,
+                      "num_date": {
+                        "confidence": [
+                          2009.4012007657573,
+                          2009.788866338907
+                        ],
+                        "value": 2009.611221687408
+                      }
+                    }
+                  }
+                ],
+                "name": "NODE_0000013",
+                "node_attrs": {
+                  "clade_membership": {
+                    "value": "A"
+                  },
+                  "div": 0.0027129999999999997,
+                  "num_date": {
+                    "confidence": [
+                      2009.1766688487965,
+                      2009.7252925318655
+                    ],
+                    "value": 2009.478483386716
+                  }
+                }
+              }
+            ],
+            "name": "NODE_0000012",
+            "node_attrs": {
+              "clade_membership": {
+                "value": "A"
+              },
+              "div": 0.00049564,
+              "num_date": {
+                "confidence": [
+                  2006.062263593484,
+                  2006.847155617494
+                ],
+                "value": 2006.4768869514576
+              }
+            }
+          }
+        ],
+        "name": "NODE_0000015",
+        "node_attrs": {
+          "clade_membership": {
+            "value": "A"
+          },
+          "div": 0.0,
+          "num_date": {
+            "confidence": [
+              2004.2679846494636,
+              2005.0484864038713
+            ],
+            "value": 2004.7121136434114
+          }
+        }
+      }
+    ],
+    "name": "NODE_0000029",
+    "node_attrs": {
+      "clade_membership": {
+        "value": "B"
+      },
+      "div": 0,
+      "num_date": {
+        "confidence": [
+          2001.914040126368,
+          2003.0488107919323
+        ],
+        "value": 2002.587263933427
+      }
+    }
+  },
+  "version": "v2"
+}

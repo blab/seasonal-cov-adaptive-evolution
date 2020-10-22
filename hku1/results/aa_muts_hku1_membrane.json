@@ -23,7 +23,7 @@
     "NODE_0000000": {
       "aa_muts": {},
       "aa_sequences": {
-        "membrane": "MNKSIFPQFTSDQAITFLKEWNFSLGVILLFITIILQFGYTSRSMFVYLIKMIILWLMWPLTIILTIFNCFYALNNVFLGFSIVFTIISIVIWILYFVNSIRLFIRTGSWWSFNPETNNLMCIDMKGKMYVRPVIEDYHTLTATVIRGHLYIQGVKLGTGYTLSDLPVYVTVAKVQVLCTYKRAFLDKLDVNSGFAVFVKSKVGNYRLPSSKSSGMDTALLRA*"
+        "membrane": "MNKSIFPQWTSDQAVTFLKEWNFSLGVILLFITIILQFGYTSRSMFVYLIKMIILWLMWPLTIILTIFNCFYALNNVFLGFSIVFTIISIVIWILYFVNSIRLFIRTGSWWSFNPETNNLMCIDMKGKMYVRPVIEDYHTLTATVIRGHLYIQGVKLGTGYTLSDLPVYVTVAKVQVLCTYKRAFLDKLDVNSGFAVFVKSKVGNYRLPSSKPSGMDTALLRA*"
       }
     },
     "NODE_0000001": {
@@ -45,22 +45,21 @@
     },
     "NODE_0000004": {
       "aa_muts": {
-        "membrane": []
+        "membrane": [
+          "V77A"
+        ]
       }
     },
-    "NODE_0000007": {
+    "NODE_0000005": {
       "aa_muts": {
-        "membrane": [
-          "V77A",
-          "S213P"
-        ]
+        "membrane": []
       }
     },
     "NODE_0000008": {
       "aa_muts": {
         "membrane": [
           "I5F",
-          "I15V",
+          "W9F",
           "I64T",
           "G80A",
           "Y130F"
@@ -77,13 +76,14 @@
         "membrane": [
           "K3E",
           "Q8H",
-          "F9W",
           "T10N",
+          "V15I",
           "F31L",
           "V77I",
           "F81L",
           "V84L",
-          "S164A"
+          "S164A",
+          "P213S"
         ]
       }
     },
@@ -159,7 +159,9 @@
     },
     "hku1/KF430196/HKU1/human/USA/HKU1_4/2005/2005": {
       "aa_muts": {
-        "membrane": []
+        "membrane": [
+          "P213S"
+        ]
       }
     },
     "hku1/KF430200/HKU1/human/USA/HKU1_16/2010/2010": {
@@ -273,51 +275,50 @@
         ]
       }
     },
-    "hku14_3/JN874560/HKU1/china/2007": {
+    "mhv/NC_048217_1/mhv/2006": {
       "aa_muts": {
         "membrane": [
           "N2S",
           "K3S",
-          "S4A",
+          "S4T",
           "I5T",
-          "F6T",
+          "F6L",
+          "P7Y",
+          "S11A",
           "Q13E",
-          "T16K",
+          "T16Q",
           "V27I",
+          "V47I",
           "L49V",
+          "I50V",
+          "I64V",
+          "T66C",
           "F71V",
           "F78Y",
           "I88V",
-          "S89A",
-          "V91I",
-          "I92M",
-          "L95V",
-          "K128R",
+          "L95M",
+          "K128T",
+          "M129V",
           "V134I",
-          "A143V",
           "V145I",
-          "V155I",
+          "I152M",
+          "Y161F",
           "T162S",
           "V168A",
-          "Q176T",
+          "Q176S",
           "V177H",
-          "A184G",
-          "K188R",
-          "L189I",
-          "D190G",
-          "V191D",
-          "N192T",
+          "L189V",
+          "V191G",
+          "N192V",
           "F198Y",
-          "S211T",
-          "S213G",
-          "S214T",
-          "A223N",
-          "*224N"
+          "S211N",
+          "M216A",
+          "A223T"
         ]
       }
     }
   },
   "reference": {
-    "membrane": "MNKSIFPQFTSDQAITFLKEWNFSLGVILLFITIILQFGYTSRSMFVYLIKMIILWLMWPLTIILTIFNCFYALNNVFLGFSIVFTIISIVIWILYFVNSIRLFIRTGSWWSFNPETNNLMCIDMKGKMYVRPVIEDYHTLTATVIRGHLYIQGVKLGTGYTLSDLPVYVTVAKVQVLCTYKRAFLDKLDVNSGFAVFVKSKVGNYRLPSSKSSGMDTALLRA*"
+    "membrane": "MNKSIFPQWTSDQAVTFLKEWNFSLGVILLFITIILQFGYTSRSMFVYLIKMIILWLMWPLTIILTIFNCFYALNNVFLGFSIVFTIISIVIWILYFVNSIRLFIRTGSWWSFNPETNNLMCIDMKGKMYVRPVIEDYHTLTATVIRGHLYIQGVKLGTGYTLSDLPVYVTVAKVQVLCTYKRAFLDKLDVNSGFAVFVKSKVGNYRLPSSKPSGMDTALLRA*"
   }
 }
