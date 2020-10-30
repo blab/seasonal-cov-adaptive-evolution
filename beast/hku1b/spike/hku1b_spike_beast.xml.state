@@ -1,0 +1,30 @@
+<itsabeastystatewerein version='2.0' sample='3174999'>
+<statenode id='Tree.t:aligned_hku1b_spike_1,2'>(((((((2:4.3797739763523005,7:4.3797739763523005)42:22.465383610330097,(14:11.306755044872954,23:17.306755044872954)71:18.538402541809443)80:5.396565618886633,((17:1.8030257095929638,18:1.8030257095929638)44:20.379135342791038,(((25:10.602904112019885,32:10.602904112019885)52:2.0919267331546614,24:11.694830845174547)79:8.02880852593896,((28:2.592513302269629,38:1.5925133022696292)55:5.270637584614996,(33:7.718902764647073,31:7.718902764647073)51:0.14424812223755268)68:12.860488484228881)60:7.4585216812704935)50:13.05956215318503)77:17.02273219223902,((((9:0.8712828470535339,10:0.8712828470535339)45:13.890006984166275,((16:1.5653207395849407,12:0.5653207395849407)74:0.9226220696909166,13:2.4879428092758573)70:13.273347021943952)73:2.067345182923116,(((((22:2.8737351783760774,21:2.8737351783760774)48:2.768207017913581,20:5.6419421962896585)69:4.58139843127373,5:4.223340627563388)76:3.7582815313159994,(11:7.626220847588655,3:6.626220847588655)47:0.3554013112907324)67:2.866915380946539,(4:3.145653241507274,15:3.145653241507274)72:7.7028842983186525)53:6.980097474316999)57:0.9587168511856099,6:18.787351865328535)54:34.47710353247952)43:2.368919946852941,0:50.63337534466099)75:1832.0536537166975,(((((39:28.04316775457488,(19:17.349408955778465,(8:3.150643794216494,1:5.150643794216494)66:3.1987651615619708)63:9.693758798796416)78:11.242333384130944,((27:4.307864259691002,30:4.307864259691002)59:7.5378319066274075,((35:3.2019452924242353,34:3.2019452924242353)62:3.067596692762117,(37:2.9743566704618694,36:2.9743566704618694)61:3.295185314724483)56:5.576154181132058)58:25.439804972387414)64:4.5843999047904305,29:41.869901043496256)49:8.218162105743694,26:50.08806314923995)65:148.34911773219133,40:200.4371808814313)46:1694.2498481799273)81:4850.93456346129,41:6734.621592522649)82:0.0</statenode>
+<statenode id='clockRate.c:aligned_hku1b_spike_3'>clockRate.c:aligned_hku1b_spike_3[1 1] (0.0,Infinity): 1.1425304340793398E-4 </statenode>
+<statenode id='clockRate.c:aligned_hku1b_spike_1,2'>clockRate.c:aligned_hku1b_spike_1,2[1 1] (0.0,Infinity): 3.3613126802167404E-5 </statenode>
+<statenode id='kappa.s:aligned_hku1b_spike_1,2'>kappa.s:aligned_hku1b_spike_1,2[1 1] (0.0,Infinity): 2.46883105511924 </statenode>
+<statenode id='gammaShape.s:aligned_hku1b_spike_1,2'>gammaShape.s:aligned_hku1b_spike_1,2[1 1] (0.001,1000.0): 0.28501764102963423 </statenode>
+<statenode id='kappa.s:aligned_hku1b_spike_3'>kappa.s:aligned_hku1b_spike_3[1 1] (0.0,Infinity): 9.076414933891066 </statenode>
+<statenode id='gammaShape.s:aligned_hku1b_spike_3'>gammaShape.s:aligned_hku1b_spike_3[1 1] (0.001,1000.0): 6.287953419928336 </statenode>
+<statenode id='popSize.t:aligned_hku1b_spike_1,2'>popSize.t:aligned_hku1b_spike_1,2[1 1] (-Infinity,Infinity): 412.14846924430464 </statenode>
+</itsabeastystatewerein>
+<!--
+{"operators":[
+{"id":"StrictClockRateScaler.c:aligned_hku1b_spike_3","p":0.7286791008518586,"accept":25045,"reject":83879,"acceptFC":24813,"rejectFC":83296,"rejectIv":0,"rejectOp":0},
+{"id":"strictClockUpDownOperator.c:aligned_hku1b_spike_3","p":0.7239117727849217,"accept":13085,"reject":95873,"acceptFC":13079,"rejectFC":95058,"rejectIv":53694,"rejectOp":53694},
+{"id":"StrictClockRateScaler.c:aligned_hku1b_spike_1,2","p":0.7178051269508624,"accept":27122,"reject":81939,"acceptFC":26878,"rejectFC":81365,"rejectIv":0,"rejectOp":0},
+{"id":"strictClockUpDownOperator.c:aligned_hku1b_spike_1,2","p":0.6517664223459458,"accept":9095,"reject":99993,"acceptFC":9093,"rejectFC":99131,"rejectIv":59261,"rejectOp":59261},
+{"id":"KappaScaler.s:aligned_hku1b_spike_1,2","p":0.5311236922731631,"accept":658,"reject":2893,"acceptFC":653,"rejectFC":2879,"rejectIv":0,"rejectOp":0},
+{"id":"gammaShapeScaler.s:aligned_hku1b_spike_1,2","p":0.4796019453002992,"accept":807,"reject":2695,"acceptFC":795,"rejectFC":2672,"rejectIv":0,"rejectOp":0},
+{"id":"gammaShapeScaler.s:aligned_hku1b_spike_3","p":0.31867024085445833,"accept":1106,"reject":2656,"acceptFC":1090,"rejectFC":2643,"rejectIv":0,"rejectOp":0},
+{"id":"KappaScaler.s:aligned_hku1b_spike_3","p":0.5318226096642277,"accept":632,"reject":3049,"acceptFC":627,"rejectFC":3033,"rejectIv":0,"rejectOp":0},
+{"id":"CoalescentConstantTreeScaler.t:aligned_hku1b_spike_1,2","p":0.6752983322879584,"accept":8136,"reject":100933,"acceptFC":8134,"rejectFC":100110,"rejectIv":37356,"rejectOp":37356},
+{"id":"CoalescentConstantTreeRootScaler.t:aligned_hku1b_spike_1,2","p":0.7211568342890072,"accept":22398,"reject":86773,"acceptFC":22324,"rejectFC":86040,"rejectIv":20,"rejectOp":20},
+{"id":"CoalescentConstantUniformOperator.t:aligned_hku1b_spike_1,2","p":"NaN","accept":531968,"reject":558432,"acceptFC":527975,"rejectFC":554056,"rejectIv":0,"rejectOp":0},
+{"id":"CoalescentConstantSubtreeSlide.t:aligned_hku1b_spike_1,2","p":12.743544556223986,"accept":172147,"reject":372909,"acceptFC":171011,"rejectFC":369899,"rejectIv":147592,"rejectOp":147592},
+{"id":"CoalescentConstantNarrow.t:aligned_hku1b_spike_1,2","p":"NaN","accept":213250,"reject":330599,"acceptFC":212040,"rejectFC":327615,"rejectIv":15588,"rejectOp":15588},
+{"id":"CoalescentConstantWide.t:aligned_hku1b_spike_1,2","p":"NaN","accept":1234,"reject":107910,"acceptFC":1225,"rejectFC":107111,"rejectIv":68380,"rejectOp":68380},
+{"id":"CoalescentConstantWilsonBalding.t:aligned_hku1b_spike_1,2","p":"NaN","accept":1533,"reject":107177,"acceptFC":1516,"rejectFC":106361,"rejectIv":11467,"rejectOp":11467},
+{"id":"PopSizeScaler.t:aligned_hku1b_spike_1,2","p":0.4503663407358218,"accept":30930,"reject":78144,"acceptFC":30423,"rejectFC":77850,"rejectIv":0,"rejectOp":0}
+]}
+-->
