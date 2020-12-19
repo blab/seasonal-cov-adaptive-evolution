@@ -1,7 +1,7 @@
 
 # GENE = ["full"]
 # GENE = ["replicase1ab", "replicase1a", "spike", "protein4a", "protein4b", "envelope", "membrane", "nucleocapsid", "s1", "s2"]
-GENE = ["spike", "s1", "s2", "rdrp"]
+GENE = ["spike"]
 # GENE = ["rdrp"]
 
 
@@ -189,9 +189,34 @@ rule translate:
             --reference-sequence {input.reference} \
             --output {output.node_data} \
         """
-#
+
+#just so I can pick a certain color for whole tree. 229E doesn't actually have separate clades
+def _get_clades_file_for_wildcards(wildcards):
+    if wildcards.gene == 'spike':
+        return "config/clades_%s.tsv"%wildcards.gene
+
+
+rule clades:
+    message: "Annotating clades"
+    input:
+        tree = rules.refine.output.tree,
+        nt_muts = rules.ancestral.output.node_data,
+        aa_muts = rules.translate.output.node_data,
+        clades = _get_clades_file_for_wildcards
+    output:
+        node_data = "results/clades_{gene}.json"
+    run:
+        if wildcards.gene == 'spike':
+            shell("""
+                augur clades \
+                    --tree {input.tree} \
+                    --mutations {input.nt_muts} {input.aa_muts} \
+                    --clades {input.clades} \
+                    --output {output.node_data}
+            """)
+
 # rule traits:
-#     message: "Inferring ancestral traits for country"
+#     message: "Inferring ancestral traits for host, so coloring will include nodes"
 #     input:
 #         tree = rules.refine.output.tree,
 #         metadata = rules.parse.output.metadata
@@ -203,7 +228,7 @@ rule translate:
 #             --tree {input.tree} \
 #             --metadata {input.metadata} \
 #             --output-node-data {output.node_data} \
-#             --columns "country" \
+#             --columns "host" \
 #             --confidence
 #         """
 
@@ -218,7 +243,8 @@ rule export:
         aa_muts = rules.translate.output.node_data,
         lat_longs = files.lat_longs,
         auspice_config = files.auspice_config,
-        colors = files.colors
+        colors = files.colors,
+        clades = rules.clades.output.node_data
         # description = files.description
     output:
         auspice_json = "auspice/seasonal_corona_229e_{gene}.json"
@@ -228,7 +254,7 @@ rule export:
         augur export v2 \
             --tree {input.tree} \
             --metadata {input.metadata} \
-            --node-data {input.branch_lengths} {input.nt_muts} {input.aa_muts} \
+            --node-data {input.branch_lengths} {input.nt_muts} {input.aa_muts} {input.clades}\
             --include-root-sequence \
             --auspice-config {input.auspice_config} \
             --lat-longs {input.lat_longs} \

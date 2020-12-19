@@ -1,0 +1,24 @@
+{
+  "virus": "oc43",
+  "virus_family": "coronavirus",
+  "subtype": "True",
+  "subtypes": ["a", "b"],
+  "color": {"a": "#208288",
+            "b": "#76C7BE"},
+  "alignment_file": "../seasonal-cov/{virus}/separate_lineages/results/aligned_{virus}_{subtype}_{gene}.fasta",
+  "meta_file": "../seasonal-cov/{virus}/separate_lineages/results/metadata_{virus}_{subtype}_{gene}.tsv",
+  "reference_file": "../seasonal-cov/{virus}/separate_lineages/config/{virus}_{gene}_reference.gb",
+  "ha_protein": {"virus_gene": "spike"},
+  "receptor_binding": {"virus_gene": "s1"},
+  "rbd": {"virus_gene": "s1-rbd", 
+                         "specify_location": {"parent_gene": "s1",
+                         "location_a": "[[969,1821]]",
+                         "location_b": "[[969,1821]]"}},
+  "ntd": {"virus_gene": "s1-ntd", 
+                         "specify_location": {"parent_gene": "s1",
+                         "location_a": "[[0,969]]",
+                         "location_b": "[[0,969]]"}},
+  "membrane_fusion": {"virus_gene": "s2"},
+  "polymerase": {"virus_gene": "rdrp"}
+  
+}

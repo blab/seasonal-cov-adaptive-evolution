@@ -2,11 +2,6 @@
   "meta": {
     "colorings": [
       {
-        "key": "clade_membership",
-        "title": "Clade",
-        "type": "categorical"
-      },
-      {
         "key": "num_date",
         "title": "Sampling date",
         "type": "continuous"
@@ -14,6 +9,21 @@
       {
         "key": "gt",
         "title": "Genotype",
+        "type": "categorical"
+      },
+      {
+        "key": "clade_membership",
+        "scale": [
+          [
+            "A",
+            "#208288"
+          ],
+          [
+            "B",
+            "#76C7BE"
+          ]
+        ],
+        "title": "Lineage",
         "type": "categorical"
       },
       {
@@ -75,7 +85,7 @@
       "tree"
     ],
     "title": "Genetic diversity of seasonal coronaviruses. Data collected by Vipr",
-    "updated": "2020-10-13"
+    "updated": "2020-12-18"
   },
   "tree": {
     "branch_attrs": {
