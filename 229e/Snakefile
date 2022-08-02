@@ -21,27 +21,28 @@ rule files:
 
 files = rules.files.params
 
-rule download:
-    message: "Downloading sequences from fauna"
-    output:
-        sequences = "data/229e_{gene}.fasta"
-    params:
-        fasta_fields = "strain accession strain_name collection_date host country virus subtype type sequence_locus"
-    shell:
-        """
-        python3 ../fauna/vdb/download.py \
-            --database vdb \
-            --virus seasonal_corona \
-            --fasta_fields {params.fasta_fields} \
-            --select sequence_locus:{wildcards.gene} subtype: 229e \
-            --path $(dirname {output.sequences}) \
-            --fstem $(basename {output.sequences} .fasta)
-        """
+# rule download:
+#     message: "Downloading sequences from fauna"
+#     output:
+#         sequences = "data/229e_{gene}.fasta"
+#     params:
+#         fasta_fields = "strain accession strain_name collection_date host country virus subtype type sequence_locus"
+#     shell:
+#         """
+#         python3 ../fauna/vdb/download.py \
+#             --database vdb \
+#             --virus seasonal_corona \
+#             --fasta_fields {params.fasta_fields} \
+#             --select sequence_locus:{wildcards.gene} subtype: 229e \
+#             --path $(dirname {output.sequences}) \
+#             --fstem $(basename {output.sequences} .fasta)
+#         """
 
 rule parse:
     message: "Parsing fasta into sequences and metadata"
     input:
-        sequences = rules.download.output.sequences
+        sequences = 'data/229e_{gene}.fasta'
+        # sequences = rules.download.output.sequences
     output:
         sequences = "results/sequences_229e_{gene}.fasta",
         metadata = "results/metadata_229e_{gene}.tsv"
@@ -169,7 +170,7 @@ rule ancestral:
         augur ancestral \
             --tree {input.tree} \
             --alignment {input.alignment} \
-            --output {output.node_data} \
+            --output-node-data {output.node_data} \
             --inference {params.inference}
         """
 

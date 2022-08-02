@@ -38,7 +38,7 @@
   },
   "generated_by": {
     "program": "augur",
-    "version": "6.4.1"
+    "version": "14.1.0"
   },
   "nodes": {
     "229e/AF304460/229e_ref/Germany/2000": {
@@ -72,7 +72,7 @@
           "R210Y",
           "N213S",
           "G214D",
-          "P216A",
+          "S216A",
           "G226T",
           "T228S",
           "L229V",
@@ -94,7 +94,7 @@
           "Y272F",
           "Q273S",
           "H274S",
-          "N275D",
+          "H275D",
           "S276V",
           "V277L",
           "A278S",
@@ -133,7 +133,7 @@
           "H346T",
           "V347T",
           "T349A",
-          "I353A",
+          "V353A",
           "P356K",
           "I361F",
           "V363I",
@@ -176,7 +176,7 @@
           "D451S",
           "N452V",
           "V453E",
-          "E456V",
+          "D456V",
           "T457S",
           "Y458I",
           "A460S",
@@ -195,7 +195,7 @@
           "Y483F",
           "V484N",
           "K486Y",
-          "R488A",
+          "H488A",
           "Q489G",
           "S493T",
           "L494F",
@@ -231,7 +231,7 @@
           "I551V",
           "T555L",
           "V556K",
-          "E557D",
+          "A557D",
           "V558I",
           "S561G",
           "N563A",
@@ -334,7 +334,7 @@
           "R111L",
           "N112P",
           "I113T",
-          "R114S",
+          "H114S",
           "S115G",
           "I118V",
           "L124I",
@@ -368,7 +368,7 @@
           "Q327H",
           "V328T",
           "N330T",
-          "G337A",
+          "S337A",
           "R340Q",
           "I346V",
           "N355K",
@@ -460,12 +460,14 @@
         "sigpep": [
           "M1I",
           "L3C",
-          "I6V"
+          "I6V",
+          "I9V"
         ],
         "spike": [
           "M1I",
           "L3C",
           "I6V",
+          "I9V",
           "N61Y",
           "G62A",
           "F63L",
@@ -494,7 +496,7 @@
           "R225Y",
           "N228S",
           "G229D",
-          "P231A",
+          "S231A",
           "G241T",
           "T243S",
           "L244V",
@@ -516,7 +518,7 @@
           "Y287F",
           "Q288S",
           "H289S",
-          "N290D",
+          "H290D",
           "S291V",
           "V292L",
           "A293S",
@@ -555,7 +557,7 @@
           "H361T",
           "V362T",
           "T364A",
-          "I368A",
+          "V368A",
           "P371K",
           "I376F",
           "V378I",
@@ -598,7 +600,7 @@
           "D466S",
           "N467V",
           "V468E",
-          "E471V",
+          "D471V",
           "T472S",
           "Y473I",
           "A475S",
@@ -617,7 +619,7 @@
           "Y498F",
           "V499N",
           "K501Y",
-          "R503A",
+          "H503A",
           "Q504G",
           "S508T",
           "L509F",
@@ -653,7 +655,7 @@
           "I566V",
           "T570L",
           "V571K",
-          "E572D",
+          "A572D",
           "V573I",
           "S576G",
           "N578A",
@@ -754,7 +756,7 @@
           "R860L",
           "N861P",
           "I862T",
-          "R863S",
+          "H863S",
           "S864G",
           "I867V",
           "L873I",
@@ -788,7 +790,7 @@
           "Q1076H",
           "V1077T",
           "N1079T",
-          "G1086A",
+          "S1086A",
           "R1089Q",
           "I1095V",
           "N1104K",
@@ -890,58 +892,46 @@
     "NODE_0000001": {
       "aa_muts": {
         "s1": [],
-        "s2": [],
+        "s2": [
+          "V606I"
+        ],
         "sigpep": [],
-        "spike": []
+        "spike": [
+          "V1355I"
+        ]
       }
     },
     "NODE_0000002": {
-      "aa_muts": {
-        "s1": [
-          "R95T"
-        ],
-        "s2": [],
-        "sigpep": [],
-        "spike": [
-          "R110T"
-        ]
+      "aa_muts": {},
+      "aa_sequences": {
+        "s1": "FSTCNSNASISMLQLGVPDNSSTIVTGLLPVHWICANQSTSSYPANGFFYIDVGKHRSAFALHSGYYDANQYYIYLTNKIHLNAPVTLKICKFGINTSFDFLSNVSTSHHCIVNSSFTEQLGVPLGITISGETVRLHLYNATRTFYVPAAYKLTKLSVKCYFSESCVFSVVNATVTVNVTTLNGRIVNYTVCDDCNGYTDNIFSVQQDGRIPNGFSFNNWFLLTNGSTLVDGVSRLYQPLRLTCLWPVPGLKSSTGFVYFNATGSDVNCNGYQHHSVADVMRYNLNFSSNSVDNLKSGVIVFKTLQYDVLFYCSNSSSGVLDTTIPFGPSSQPYYCFINSTINTTHVSTFVGVLPPTVREIVVARTGQFYINGFKYFDLGFIEAVNFNVTTASATDFWTVAFATFVDVLVNVSATNIQNLLYCDSPFEKLQCEHLQFGLQDGFYSANFLDDNVLPDTYVALPIYYQHTDINFTATASFGGSCYVCKPHQVNISLNGNTSVCVRTSHFSIRYIYNRVKSGSPGDSSWHIYLKSGTCPFSFSKLNNFQKFKTICFSTVAVPGSCNFPLEATWHYTSYTIVGALYVTWSEGNSITGVPYPVSGIREFSNLVLNNCTKYNIYDYVGTGIIRSSNQSLAGGITYVSNSGNLLGFKNVSTGNIFIVTPCNQPDQVAVYQQSIIGAMTAVNESRYGLQNLLQLPNFYYVSNGGNNCTTAVMTYSNFGICADGSLIPVRPRN",
+        "s2": "SSDNGISAIITANLSIPSNWTTSVQVEYLQITSTPIVVDCATYVCNGNPRCKNLLKQYTSACKTIEDALRLSAHLETNDVSSMLTFDSNAFSLANVTSFGDYNLSSVLPQRNIHSSRIAGRSALEDLLFSKVVTSGLGTVDVDYKSCTKGLSIADLACAQYYNGIMVLPGVADAERMAMYTGSLIGGMVLGGLTSAAAIPFSLALQARLNYVALQTDVLQENQKILAASFNKAINNIVASFSSVNDAITQTAEAIHTVTIALNKIQDVVNQQGSALNHLTSQLRHNFQAISNSIQAIYDRLDSIQADQQVDRLITGRLAALNAFVSQVLNKYTEVRSSRRLAQQKINECVKSQSNRYGFCGNGTHIFSIVNSAPDGLLFLHTVLLPTDYKNVKAWSGICVDGIYGYVLRQPNLVLYSDNGVFRVTSRVMFQPRLPVLSDFVQIYNCNVTFVNISRVELHTVIPDYVDVNKTLQEFAQNLPKYVKPNFDLTPFNLTYLNLSSELKQLEAKTASLFQTTVELQGLIDQINSTYVDLKLLNRFENYIKWPWWVWLIISVVFVVLLSLLVFCCLSTGCCGCCNCLTSSMRGCCDCGSTKLPYYEFEKVHVQ*",
+        "sigpep": "MKLFLILLILPLVSC",
+        "spike": "MKLFLILLILPLVSCFSTCNSNASISMLQLGVPDNSSTIVTGLLPVHWICANQSTSSYPANGFFYIDVGKHRSAFALHSGYYDANQYYIYLTNKIHLNAPVTLKICKFGINTSFDFLSNVSTSHHCIVNSSFTEQLGVPLGITISGETVRLHLYNATRTFYVPAAYKLTKLSVKCYFSESCVFSVVNATVTVNVTTLNGRIVNYTVCDDCNGYTDNIFSVQQDGRIPNGFSFNNWFLLTNGSTLVDGVSRLYQPLRLTCLWPVPGLKSSTGFVYFNATGSDVNCNGYQHHSVADVMRYNLNFSSNSVDNLKSGVIVFKTLQYDVLFYCSNSSSGVLDTTIPFGPSSQPYYCFINSTINTTHVSTFVGVLPPTVREIVVARTGQFYINGFKYFDLGFIEAVNFNVTTASATDFWTVAFATFVDVLVNVSATNIQNLLYCDSPFEKLQCEHLQFGLQDGFYSANFLDDNVLPDTYVALPIYYQHTDINFTATASFGGSCYVCKPHQVNISLNGNTSVCVRTSHFSIRYIYNRVKSGSPGDSSWHIYLKSGTCPFSFSKLNNFQKFKTICFSTVAVPGSCNFPLEATWHYTSYTIVGALYVTWSEGNSITGVPYPVSGIREFSNLVLNNCTKYNIYDYVGTGIIRSSNQSLAGGITYVSNSGNLLGFKNVSTGNIFIVTPCNQPDQVAVYQQSIIGAMTAVNESRYGLQNLLQLPNFYYVSNGGNNCTTAVMTYSNFGICADGSLIPVRPRNSSDNGISAIITANLSIPSNWTTSVQVEYLQITSTPIVVDCATYVCNGNPRCKNLLKQYTSACKTIEDALRLSAHLETNDVSSMLTFDSNAFSLANVTSFGDYNLSSVLPQRNIHSSRIAGRSALEDLLFSKVVTSGLGTVDVDYKSCTKGLSIADLACAQYYNGIMVLPGVADAERMAMYTGSLIGGMVLGGLTSAAAIPFSLALQARLNYVALQTDVLQENQKILAASFNKAINNIVASFSSVNDAITQTAEAIHTVTIALNKIQDVVNQQGSALNHLTSQLRHNFQAISNSIQAIYDRLDSIQADQQVDRLITGRLAALNAFVSQVLNKYTEVRSSRRLAQQKINECVKSQSNRYGFCGNGTHIFSIVNSAPDGLLFLHTVLLPTDYKNVKAWSGICVDGIYGYVLRQPNLVLYSDNGVFRVTSRVMFQPRLPVLSDFVQIYNCNVTFVNISRVELHTVIPDYVDVNKTLQEFAQNLPKYVKPNFDLTPFNLTYLNLSSELKQLEAKTASLFQTTVELQGLIDQINSTYVDLKLLNRFENYIKWPWWVWLIISVVFVVLLSLLVFCCLSTGCCGCCNCLTSSMRGCCDCGSTKLPYYEFEKVHVQ*"
       }
     },
     "NODE_0000003": {
       "aa_muts": {
         "s1": [
-          "A105S"
+          "T357I"
         ],
         "s2": [],
         "sigpep": [],
         "spike": [
-          "A120S"
+          "T372I"
         ]
-      }
-    },
-    "NODE_0000004": {
-      "aa_muts": {},
-      "aa_sequences": {
-        "s1": "FFTCNSNANLSMLQLGVPDNSSTIVTGLLPTHWICANQSTSVYSANGFFYIDVGNHRSAFALHTGYYDVNQYYIYVTNEIGLNASVTLKICKFGRNTTFDFLSNASSSFDCIVNLLFTEQLGAPLGITISGETVRLHLYNVTRTFYVPAAYKLTKLSVKCYFNYSCVFSVVNATVTVNVTTHNGRVVNYTVCDDCNGYTDNIFSVQQDGRIPNGFPFNNWFLLTNGSTLVDGVSRLYQPLRLTCLWPVPGLKSSTGFVYFNATGSDVNCNGYQHNSVADVMRYNLNFSANSVDNLKSGVIVFKTLQYDVLFYCSNSSSGVLDTTIPFGPSSQPYYCFINSTINTTHVSTFVGILPPTVREIVVARTGQFYINGFKYFDLGFIEAVNFNVTTASATDFWTVAFATFVDVLVNVSATNIQNLLYCDSPFEKLQCEHLQFGLQDGFYSANFLDDNVLPETYVALPIYYQHTDINFTATASFGGSCYVCKPRQVNISLNGNTSVCVRTSHFSIRYIYNRVKSGSPGDSSWHIYLKSGTCPFSFSKLNNFQKFKTICFSTVEVPGSCNFPLEATWHYTSYTIVGALYVTWSEGNSITGVPYPVSGIREFSNLVLNNCTKYNIYDYVGTGIIRSSNQSLAGGITYVSNSGNLLGFKNVSTGNIFIVTPCNQPDQVAVYQQSIIGAMTAVNESRYGLQNLLQLPNFYYVSNGGNNCTTAVMTYSNFGICADGSLIPVRPRN",
-        "s2": "SSDNGISAIITANLSIPSNWTTSVQVEYLQITSTPIVVDCATYVCNGNPRCKNLLKQYTSACKTIEDALRLSAHLETNDVSSMLTFDSNAFSLANVTSFGDYNLSSVLPQRNIRSSRIAGRSALEDLLFSKVVTSGLGTVDVDYKSCTKGLSIADLACAQYYNGIMVLPGVADAERMAMYTGSLIGGMVLGGLTSAAAIPFSLALQARLNYVALQTDVLQENQKILAASFNKAINNIVASFSSVNDAITQTAEAIHTVTIALNKIQDVVNQQGSALNHLTSQLRHNFQAISNSIQAIYDRLDSIQADQQVDRLITGRLAALNAFVSQVLNKYTEVRGSRRLAQQKINECVKSQSNRYGFCGNGTHIFSIVNSAPDGLLFLHTVLLPTDYKNVKAWSGICVDGIYGYVLRQPNLVLYSDNGVFRVTSRVMFQPRLPVLSDFVQIYNCNVTFVNISRVELHTVIPDYVDVNKTLQEFAQNLPKYVKPNFDLTPFNLTYLNLSSELKQLEAKTASLFQTTVELQGLIDQINSTYVDLKLLNRFENYIKWPWWVWLIISVVFVVLLSLLVFCCLSTGCCGCCNCLTSSMRGCCDCGSTKLPYYEFEKVHVQ*",
-        "sigpep": "MKLFLILLVLPLASC",
-        "spike": "MKLFLILLVLPLASCFFTCNSNANLSMLQLGVPDNSSTIVTGLLPTHWICANQSTSVYSANGFFYIDVGNHRSAFALHTGYYDVNQYYIYVTNEIGLNASVTLKICKFGRNTTFDFLSNASSSFDCIVNLLFTEQLGAPLGITISGETVRLHLYNVTRTFYVPAAYKLTKLSVKCYFNYSCVFSVVNATVTVNVTTHNGRVVNYTVCDDCNGYTDNIFSVQQDGRIPNGFPFNNWFLLTNGSTLVDGVSRLYQPLRLTCLWPVPGLKSSTGFVYFNATGSDVNCNGYQHNSVADVMRYNLNFSANSVDNLKSGVIVFKTLQYDVLFYCSNSSSGVLDTTIPFGPSSQPYYCFINSTINTTHVSTFVGILPPTVREIVVARTGQFYINGFKYFDLGFIEAVNFNVTTASATDFWTVAFATFVDVLVNVSATNIQNLLYCDSPFEKLQCEHLQFGLQDGFYSANFLDDNVLPETYVALPIYYQHTDINFTATASFGGSCYVCKPRQVNISLNGNTSVCVRTSHFSIRYIYNRVKSGSPGDSSWHIYLKSGTCPFSFSKLNNFQKFKTICFSTVEVPGSCNFPLEATWHYTSYTIVGALYVTWSEGNSITGVPYPVSGIREFSNLVLNNCTKYNIYDYVGTGIIRSSNQSLAGGITYVSNSGNLLGFKNVSTGNIFIVTPCNQPDQVAVYQQSIIGAMTAVNESRYGLQNLLQLPNFYYVSNGGNNCTTAVMTYSNFGICADGSLIPVRPRNSSDNGISAIITANLSIPSNWTTSVQVEYLQITSTPIVVDCATYVCNGNPRCKNLLKQYTSACKTIEDALRLSAHLETNDVSSMLTFDSNAFSLANVTSFGDYNLSSVLPQRNIRSSRIAGRSALEDLLFSKVVTSGLGTVDVDYKSCTKGLSIADLACAQYYNGIMVLPGVADAERMAMYTGSLIGGMVLGGLTSAAAIPFSLALQARLNYVALQTDVLQENQKILAASFNKAINNIVASFSSVNDAITQTAEAIHTVTIALNKIQDVVNQQGSALNHLTSQLRHNFQAISNSIQAIYDRLDSIQADQQVDRLITGRLAALNAFVSQVLNKYTEVRGSRRLAQQKINECVKSQSNRYGFCGNGTHIFSIVNSAPDGLLFLHTVLLPTDYKNVKAWSGICVDGIYGYVLRQPNLVLYSDNGVFRVTSRVMFQPRLPVLSDFVQIYNCNVTFVNISRVELHTVIPDYVDVNKTLQEFAQNLPKYVKPNFDLTPFNLTYLNLSSELKQLEAKTASLFQTTVELQGLIDQINSTYVDLKLLNRFENYIKWPWWVWLIISVVFVVLLSLLVFCCLSTGCCGCCNCLTSSMRGCCDCGSTKLPYYEFEKVHVQ*"
-      }
-    },
-    "NODE_0000005": {
-      "aa_muts": {
-        "s1": [],
-        "s2": [],
-        "sigpep": [],
-        "spike": []
       }
     },
     "NODE_0000006": {
       "aa_muts": {
-        "s1": [],
+        "s1": [
+          "I34F"
+        ],
         "s2": [],
         "sigpep": [],
-        "spike": []
+        "spike": [
+          "I49F"
+        ]
       }
     },
     "NODE_0000007": {
@@ -956,20 +946,23 @@
       "aa_muts": {
         "s1": [
           "V69A",
-          "G94S"
+          "G94S",
+          "I95R"
         ],
         "s2": [],
         "sigpep": [],
         "spike": [
           "V84A",
-          "G109S"
+          "G109S",
+          "I110R"
         ]
       }
     },
     "NODE_0000009": {
       "aa_muts": {
         "s1": [
-          "L10I"
+          "L10I",
+          "H488R"
         ],
         "s2": [
           "R114H"
@@ -977,6 +970,7 @@
         "sigpep": [],
         "spike": [
           "L25I",
+          "H503R",
           "R863H"
         ]
       }
@@ -1011,34 +1005,71 @@
         "spike": []
       }
     },
+    "NODE_0000013": {
+      "aa_muts": {
+        "s1": [],
+        "s2": [],
+        "sigpep": [],
+        "spike": []
+      }
+    },
+    "NODE_0000014": {
+      "aa_muts": {
+        "s1": [],
+        "s2": [],
+        "sigpep": [],
+        "spike": []
+      }
+    },
+    "NODE_0000015": {
+      "aa_muts": {
+        "s1": [],
+        "s2": [],
+        "sigpep": [],
+        "spike": []
+      }
+    },
     "NODE_0000017": {
       "aa_muts": {
         "s1": [
-          "I34F",
-          "R488H"
+          "S105A",
+          "K416N"
         ],
-        "s2": [],
+        "s2": [
+          "S337G"
+        ],
         "sigpep": [],
         "spike": [
-          "I49F",
-          "R503H"
+          "S120A",
+          "K431N",
+          "S1086G"
         ]
       }
     },
     "NODE_0000018": {
       "aa_muts": {
-        "s1": [],
+        "s1": [
+          "I95T",
+          "H488R"
+        ],
         "s2": [],
         "sigpep": [],
-        "spike": []
+        "spike": [
+          "I110T",
+          "H503R"
+        ]
       }
     },
     "NODE_0000019": {
       "aa_muts": {
-        "s1": [],
+        "s1": [
+          "A105S"
+        ],
         "s2": [],
         "sigpep": [],
-        "spike": []
+        "spike": [
+          "A120S"
+        ]
       }
     },
     "NODE_0000020": {
@@ -1052,13 +1083,9 @@
     "NODE_0000021": {
       "aa_muts": {
         "s1": [],
-        "s2": [
-          "V606I"
-        ],
+        "s2": [],
         "sigpep": [],
-        "spike": [
-          "V1355I"
-        ]
+        "spike": []
       }
     },
     "NODE_0000022": {
@@ -1077,28 +1104,24 @@
         "spike": []
       }
     },
-    "NODE_0000026": {
+    "NODE_0000024": {
       "aa_muts": {
         "s1": [
-          "R95I",
-          "A105S",
-          "N416K",
-          "R488H"
+          "V353I",
+          "L492I"
         ],
         "s2": [
-          "G337S"
+          "H114R"
         ],
         "sigpep": [],
         "spike": [
-          "R110I",
-          "A120S",
-          "N431K",
-          "R503H",
-          "G1086S"
+          "V368I",
+          "L507I",
+          "H863R"
         ]
       }
     },
-    "NODE_0000027": {
+    "NODE_0000025": {
       "aa_muts": {
         "s1": [
           "I34F"
@@ -1115,7 +1138,7 @@
         ]
       }
     },
-    "NODE_0000028": {
+    "NODE_0000026": {
       "aa_muts": {
         "s1": [],
         "s2": [],
@@ -1123,47 +1146,56 @@
         "spike": []
       }
     },
+    "NODE_0000027": {
+      "aa_muts": {
+        "s1": [],
+        "s2": [],
+        "sigpep": [],
+        "spike": []
+      }
+    },
+    "NODE_0000028": {
+      "aa_muts": {
+        "s1": [
+          "A557E",
+          "S706G",
+          "L732P"
+        ],
+        "s2": [],
+        "sigpep": [],
+        "spike": [
+          "A572E",
+          "S721G",
+          "L747P"
+        ]
+      }
+    },
     "NODE_0000029": {
       "aa_muts": {
         "s1": [],
-        "s2": [
-          "V428I"
-        ],
+        "s2": [],
         "sigpep": [],
-        "spike": [
-          "V1177I"
-        ]
+        "spike": []
       }
     },
     "NODE_0000030": {
       "aa_muts": {
         "s1": [
-          "I353V"
+          "F2S"
         ],
-        "s2": [
-          "R114H"
-        ],
+        "s2": [],
         "sigpep": [],
         "spike": [
-          "I368V",
-          "R863H"
+          "F17S"
         ]
       }
     },
     "NODE_0000031": {
       "aa_muts": {
-        "s1": [
-          "E557A",
-          "G706S",
-          "P732L"
-        ],
+        "s1": [],
         "s2": [],
         "sigpep": [],
-        "spike": [
-          "E572A",
-          "G721S",
-          "P747L"
-        ]
+        "spike": []
       }
     },
     "NODE_0000032": {
@@ -1177,14 +1209,12 @@
     "NODE_0000033": {
       "aa_muts": {
         "s1": [
-          "V277F",
-          "S706G"
+          "I492L"
         ],
         "s2": [],
         "sigpep": [],
         "spike": [
-          "V292F",
-          "S721G"
+          "I507L"
         ]
       }
     },
@@ -1196,43 +1226,7 @@
         "spike": []
       }
     },
-    "NODE_0000035": {
-      "aa_muts": {
-        "s1": [],
-        "s2": [],
-        "sigpep": [],
-        "spike": []
-      }
-    },
-    "NODE_0000036": {
-      "aa_muts": {
-        "s1": [
-          "V292L"
-        ],
-        "s2": [],
-        "sigpep": [],
-        "spike": [
-          "V307L"
-        ]
-      }
-    },
-    "NODE_0000037": {
-      "aa_muts": {
-        "s1": [],
-        "s2": [],
-        "sigpep": [],
-        "spike": []
-      }
-    },
     "NODE_0000038": {
-      "aa_muts": {
-        "s1": [],
-        "s2": [],
-        "sigpep": [],
-        "spike": []
-      }
-    },
-    "NODE_0000039": {
       "aa_muts": {
         "s1": [],
         "s2": [],
@@ -1258,26 +1252,22 @@
     },
     "NODE_0000042": {
       "aa_muts": {
-        "s1": [
-          "G226D",
-          "S706G",
-          "L732P"
-        ],
+        "s1": [],
         "s2": [],
         "sigpep": [],
-        "spike": [
-          "G241D",
-          "S721G",
-          "L747P"
-        ]
+        "spike": []
       }
     },
     "NODE_0000043": {
       "aa_muts": {
         "s1": [],
-        "s2": [],
+        "s2": [
+          "V346I"
+        ],
         "sigpep": [],
-        "spike": []
+        "spike": [
+          "V1095I"
+        ]
       }
     },
     "NODE_0000044": {
@@ -1291,13 +1281,9 @@
     "NODE_0000045": {
       "aa_muts": {
         "s1": [],
-        "s2": [
-          "G402D"
-        ],
+        "s2": [],
         "sigpep": [],
-        "spike": [
-          "G1151D"
-        ]
+        "spike": []
       }
     },
     "NODE_0000046": {
@@ -1310,21 +1296,41 @@
     },
     "NODE_0000047": {
       "aa_muts": {
-        "s1": [],
+        "s1": [
+          "S706G"
+        ],
         "s2": [],
         "sigpep": [],
-        "spike": []
+        "spike": [
+          "S721G"
+        ]
       }
     },
     "NODE_0000048": {
       "aa_muts": {
-        "s1": [],
+        "s1": [
+          "V277F"
+        ],
         "s2": [],
         "sigpep": [],
-        "spike": []
+        "spike": [
+          "V292F"
+        ]
       }
     },
     "NODE_0000049": {
+      "aa_muts": {
+        "s1": [
+          "V292L"
+        ],
+        "s2": [],
+        "sigpep": [],
+        "spike": [
+          "V307L"
+        ]
+      }
+    },
+    "NODE_0000050": {
       "aa_muts": {
         "s1": [],
         "s2": [],
@@ -1333,6 +1339,22 @@
       }
     },
     "NODE_0000051": {
+      "aa_muts": {
+        "s1": [],
+        "s2": [],
+        "sigpep": [],
+        "spike": []
+      }
+    },
+    "NODE_0000052": {
+      "aa_muts": {
+        "s1": [],
+        "s2": [],
+        "sigpep": [],
+        "spike": []
+      }
+    },
+    "NODE_0000053": {
       "aa_muts": {
         "s1": [],
         "s2": [],
@@ -1374,10 +1396,18 @@
     },
     "NODE_0000058": {
       "aa_muts": {
-        "s1": [],
+        "s1": [
+          "G226D",
+          "S706G",
+          "L732P"
+        ],
         "s2": [],
         "sigpep": [],
-        "spike": []
+        "spike": [
+          "G241D",
+          "S721G",
+          "L747P"
+        ]
       }
     },
     "NODE_0000059": {
@@ -1399,9 +1429,13 @@
     "NODE_0000061": {
       "aa_muts": {
         "s1": [],
-        "s2": [],
+        "s2": [
+          "G402D"
+        ],
         "sigpep": [],
-        "spike": []
+        "spike": [
+          "G1151D"
+        ]
       }
     },
     "NODE_0000062": {
@@ -1414,39 +1448,13 @@
     },
     "NODE_0000063": {
       "aa_muts": {
-        "s1": [
-          "P426S"
-        ],
-        "s2": [],
-        "sigpep": [],
-        "spike": [
-          "P441S"
-        ]
-      }
-    },
-    "NODE_0000064": {
-      "aa_muts": {
         "s1": [],
         "s2": [],
         "sigpep": [],
         "spike": []
       }
     },
-    "NODE_0000065": {
-      "aa_muts": {
-        "s1": [
-          "F2S",
-          "I492L"
-        ],
-        "s2": [],
-        "sigpep": [],
-        "spike": [
-          "F17S",
-          "I507L"
-        ]
-      }
-    },
-    "NODE_0000066": {
+    "NODE_0000064": {
       "aa_muts": {
         "s1": [],
         "s2": [],
@@ -1470,16 +1478,20 @@
         "spike": []
       }
     },
-    "NODE_0000071": {
+    "NODE_0000069": {
       "aa_muts": {
-        "s1": [
-          "I492L"
-        ],
+        "s1": [],
         "s2": [],
         "sigpep": [],
-        "spike": [
-          "I507L"
-        ]
+        "spike": []
+      }
+    },
+    "NODE_0000070": {
+      "aa_muts": {
+        "s1": [],
+        "s2": [],
+        "sigpep": [],
+        "spike": []
       }
     },
     "NODE_0000072": {
@@ -1506,14 +1518,6 @@
         "spike": []
       }
     },
-    "NODE_0000075": {
-      "aa_muts": {
-        "s1": [],
-        "s2": [],
-        "sigpep": [],
-        "spike": []
-      }
-    },
     "NODE_0000076": {
       "aa_muts": {
         "s1": [],
@@ -1533,21 +1537,21 @@
     "NODE_0000078": {
       "aa_muts": {
         "s1": [],
-        "s2": [
-          "I346V"
-        ],
+        "s2": [],
         "sigpep": [],
-        "spike": [
-          "I1095V"
-        ]
+        "spike": []
       }
     },
     "NODE_0000079": {
       "aa_muts": {
-        "s1": [],
+        "s1": [
+          "P426S"
+        ],
         "s2": [],
         "sigpep": [],
-        "spike": []
+        "spike": [
+          "P441S"
+        ]
       }
     },
     "NODE_0000080": {
@@ -1560,10 +1564,14 @@
     },
     "NODE_0000081": {
       "aa_muts": {
-        "s1": [],
+        "s1": [
+          "P426S"
+        ],
         "s2": [],
         "sigpep": [],
-        "spike": []
+        "spike": [
+          "P441S"
+        ]
       }
     },
     "NODE_0000082": {
@@ -1648,14 +1656,10 @@
     },
     "NODE_0000092": {
       "aa_muts": {
-        "s1": [
-          "P426S"
-        ],
+        "s1": [],
         "s2": [],
         "sigpep": [],
-        "spike": [
-          "P441S"
-        ]
+        "spike": []
       }
     },
     "NODE_0000093": {
@@ -1690,14 +1694,6 @@
         "spike": []
       }
     },
-    "NODE_0000097": {
-      "aa_muts": {
-        "s1": [],
-        "s2": [],
-        "sigpep": [],
-        "spike": []
-      }
-    },
     "NODE_0000098": {
       "aa_muts": {
         "s1": [],
@@ -1714,6 +1710,14 @@
         "spike": []
       }
     },
+    "NODE_0000102": {
+      "aa_muts": {
+        "s1": [],
+        "s2": [],
+        "sigpep": [],
+        "spike": []
+      }
+    },
     "NODE_0000103": {
       "aa_muts": {
         "s1": [],
@@ -1722,39 +1726,7 @@
         "spike": []
       }
     },
-    "NODE_0000104": {
-      "aa_muts": {
-        "s1": [],
-        "s2": [],
-        "sigpep": [],
-        "spike": []
-      }
-    },
-    "NODE_0000105": {
-      "aa_muts": {
-        "s1": [],
-        "s2": [],
-        "sigpep": [],
-        "spike": []
-      }
-    },
-    "NODE_0000106": {
-      "aa_muts": {
-        "s1": [],
-        "s2": [],
-        "sigpep": [],
-        "spike": []
-      }
-    },
     "NODE_0000107": {
-      "aa_muts": {
-        "s1": [],
-        "s2": [],
-        "sigpep": [],
-        "spike": []
-      }
-    },
-    "NODE_0000108": {
       "aa_muts": {
         "s1": [],
         "s2": [],
@@ -1804,10 +1776,26 @@
     },
     "NODE_0000114": {
       "aa_muts": {
-        "s1": [],
+        "s1": [
+          "S163N",
+          "E164Y",
+          "L182H",
+          "I186V",
+          "S216P",
+          "H275N",
+          "S289A"
+        ],
         "s2": [],
         "sigpep": [],
-        "spike": []
+        "spike": [
+          "S178N",
+          "E179Y",
+          "L197H",
+          "I201V",
+          "S231P",
+          "H290N",
+          "S304A"
+        ]
       }
     },
     "NODE_0000115": {
@@ -1820,130 +1808,132 @@
     },
     "NODE_0000116": {
       "aa_muts": {
-        "s1": [],
-        "s2": [],
-        "sigpep": [],
-        "spike": []
+        "s1": [
+          "S2F",
+          "S9N",
+          "I10L",
+          "V31T",
+          "S42V",
+          "P44S",
+          "K55N",
+          "S64T",
+          "A69V",
+          "L76V",
+          "K79E",
+          "H81G",
+          "S98T",
+          "V105S",
+          "T107S",
+          "H109F",
+          "H110D",
+          "S115L",
+          "S116L",
+          "V123A",
+          "A141V",
+          "N416K",
+          "D456E",
+          "G706S",
+          "P732L"
+        ],
+        "s2": [
+          "I346V"
+        ],
+        "sigpep": [
+          "I9V",
+          "V13A"
+        ],
+        "spike": [
+          "I9V",
+          "V13A",
+          "S17F",
+          "S24N",
+          "I25L",
+          "V46T",
+          "S57V",
+          "P59S",
+          "K70N",
+          "S79T",
+          "A84V",
+          "L91V",
+          "K94E",
+          "H96G",
+          "S113T",
+          "V120S",
+          "T122S",
+          "H124F",
+          "H125D",
+          "S130L",
+          "S131L",
+          "V138A",
+          "A156V",
+          "N431K",
+          "D471E",
+          "G721S",
+          "P747L",
+          "I1095V"
+        ]
       }
     },
     "NODE_0000117": {
       "aa_muts": {
         "s1": [
-          "N163S",
-          "Y164E",
-          "H182L",
-          "V186I",
-          "P216S",
-          "N275H",
-          "A289S"
+          "P85S"
         ],
         "s2": [],
         "sigpep": [],
         "spike": [
-          "N178S",
-          "Y179E",
-          "H197L",
-          "V201I",
-          "P231S",
-          "N290H",
-          "A304S"
+          "P100S"
         ]
       }
     },
     "NODE_0000118": {
       "aa_muts": {
-        "s1": [],
-        "s2": [],
+        "s1": [
+          "S42T",
+          "K89R",
+          "I463V",
+          "G519V",
+          "A557E"
+        ],
+        "s2": [
+          "H114R",
+          "E519K"
+        ],
         "sigpep": [],
-        "spike": []
+        "spike": [
+          "S57T",
+          "K104R",
+          "I478V",
+          "G534V",
+          "A572E",
+          "H863R",
+          "E1268K"
+        ]
       }
     },
     "NODE_0000119": {
       "aa_muts": {
         "s1": [
-          "F2S",
-          "N9S",
-          "L10I",
-          "T31V",
-          "V42T",
-          "S44P",
-          "N55K",
-          "T64S",
-          "V69A",
-          "V76L",
-          "E79K",
-          "G81S",
-          "S85P",
-          "T98S",
-          "S105V",
-          "S107T",
-          "F109H",
-          "D110H",
-          "L115S",
-          "L116S",
-          "A123V",
-          "V141A",
-          "T357I",
-          "K416N",
-          "E456D",
-          "S706G",
-          "L732P"
+          "P521A"
         ],
-        "s2": [
-          "V346I"
-        ],
-        "sigpep": [
-          "V9I",
-          "A13V"
-        ],
+        "s2": [],
+        "sigpep": [],
         "spike": [
-          "V9I",
-          "A13V",
-          "F17S",
-          "N24S",
-          "L25I",
-          "T46V",
-          "V57T",
-          "S59P",
-          "N70K",
-          "T79S",
-          "V84A",
-          "V91L",
-          "E94K",
-          "G96S",
-          "S100P",
-          "T113S",
-          "S120V",
-          "S122T",
-          "F124H",
-          "D125H",
-          "L130S",
-          "L131S",
-          "A138V",
-          "V156A",
-          "T372I",
-          "K431N",
-          "E471D",
-          "S721G",
-          "L747P",
-          "V1095I"
+          "P536A"
         ]
       }
     },
     "NODE_0000120": {
       "aa_muts": {
         "s1": [
-          "K79N"
+          "K79Q",
+          "H81R"
         ],
-        "s2": [
-          "H114R",
-          "E457K"
-        ],
+        "s2": [],
         "sigpep": [],
         "spike": [
-          "K94N",
-          "H863R",
-          "E1206K"
+          "K94Q",
+          "H96R"
         ]
       }
     },
@@ -1958,13 +1948,9 @@
     "NODE_0000122": {
       "aa_muts": {
         "s1": [],
-        "s2": [
-          "V424I"
-        ],
+        "s2": [],
         "sigpep": [],
-        "spike": [
-          "V1173I"
-        ]
+        "spike": []
       }
     },
     "NODE_0000123": {
@@ -1977,33 +1963,18 @@
     },
     "NODE_0000124": {
       "aa_muts": {
-        "s1": [
-          "Q691H"
-        ],
-        "s2": [
-          "V428A",
-          "Q515K"
-        ],
+        "s1": [],
+        "s2": [],
         "sigpep": [],
-        "spike": [
-          "Q706H",
-          "V1177A",
-          "Q1264K"
-        ]
+        "spike": []
       }
     },
     "NODE_0000125": {
       "aa_muts": {
-        "s1": [
-          "T42S",
-          "S81H"
-        ],
+        "s1": [],
         "s2": [],
         "sigpep": [],
-        "spike": [
-          "T57S",
-          "S96H"
-        ]
+        "spike": []
       }
     },
     "NODE_0000126": {
@@ -2031,14 +2002,6 @@
       }
     },
     "NODE_0000129": {
-      "aa_muts": {
-        "s1": [],
-        "s2": [],
-        "sigpep": [],
-        "spike": []
-      }
-    },
-    "NODE_0000130": {
       "aa_muts": {
         "s1": [],
         "s2": [],
@@ -2142,16 +2105,20 @@
         "spike": []
       }
     },
+    "NODE_0000143": {
+      "aa_muts": {
+        "s1": [],
+        "s2": [],
+        "sigpep": [],
+        "spike": []
+      }
+    },
     "NODE_0000144": {
       "aa_muts": {
         "s1": [],
-        "s2": [
-          "I10V"
-        ],
+        "s2": [],
         "sigpep": [],
-        "spike": [
-          "I759V"
-        ]
+        "spike": []
       }
     },
     "NODE_0000145": {
@@ -2170,7 +2137,7 @@
         "spike": []
       }
     },
-    "NODE_0000148": {
+    "NODE_0000147": {
       "aa_muts": {
         "s1": [],
         "s2": [],
@@ -2186,72 +2153,71 @@
         "spike": []
       }
     },
-    "NODE_0000150": {
-      "aa_muts": {
-        "s1": [
-          "I357T"
-        ],
-        "s2": [],
-        "sigpep": [],
-        "spike": [
-          "I372T"
-        ]
-      }
-    },
     "NODE_0000151": {
       "aa_muts": {
-        "s1": [
-          "S42T",
-          "P85S",
-          "K89R",
-          "I463V",
-          "G519V",
-          "A557E"
-        ],
+        "s1": [],
         "s2": [],
         "sigpep": [],
-        "spike": [
-          "S57T",
-          "P100S",
-          "K104R",
-          "I478V",
-          "G534V",
-          "A572E"
-        ]
+        "spike": []
       }
     },
     "NODE_0000152": {
       "aa_muts": {
-        "s1": [
-          "P521A"
-        ],
+        "s1": [],
         "s2": [],
         "sigpep": [],
-        "spike": [
-          "P536A"
-        ]
+        "spike": []
       }
     },
     "NODE_0000153": {
       "aa_muts": {
         "s1": [
-          "K79Q",
-          "H81R"
+          "S42T",
+          "H81S"
         ],
-        "s2": [
-          "H114R",
-          "E519K"
-        ],
+        "s2": [],
         "sigpep": [],
         "spike": [
-          "K94Q",
-          "H96R",
-          "H863R",
-          "E1268K"
+          "S57T",
+          "H96S"
         ]
       }
     },
     "NODE_0000154": {
+      "aa_muts": {
+        "s1": [
+          "Q691H"
+        ],
+        "s2": [
+          "V428A",
+          "Q515K"
+        ],
+        "sigpep": [],
+        "spike": [
+          "Q706H",
+          "V1177A",
+          "Q1264K"
+        ]
+      }
+    },
+    "NODE_0000155": {
+      "aa_muts": {
+        "s1": [
+          "K79N"
+        ],
+        "s2": [
+          "H114R",
+          "E457K"
+        ],
+        "sigpep": [],
+        "spike": [
+          "K94N",
+          "H863R",
+          "E1206K"
+        ]
+      }
+    },
+    "NODE_0000156": {
       "aa_muts": {
         "s1": [],
         "s2": [],
@@ -2262,9 +2228,13 @@
     "NODE_0000157": {
       "aa_muts": {
         "s1": [],
-        "s2": [],
+        "s2": [
+          "V424I"
+        ],
         "sigpep": [],
-        "spike": []
+        "spike": [
+          "V1173I"
+        ]
       }
     },
     "NODE_0000158": {
@@ -2299,7 +2269,31 @@
         "spike": []
       }
     },
-    "NODE_0000167": {
+    "NODE_0000162": {
+      "aa_muts": {
+        "s1": [],
+        "s2": [],
+        "sigpep": [],
+        "spike": []
+      }
+    },
+    "NODE_0000163": {
+      "aa_muts": {
+        "s1": [],
+        "s2": [],
+        "sigpep": [],
+        "spike": []
+      }
+    },
+    "NODE_0000164": {
+      "aa_muts": {
+        "s1": [],
+        "s2": [],
+        "sigpep": [],
+        "spike": []
+      }
+    },
+    "NODE_0000165": {
       "aa_muts": {
         "s1": [],
         "s2": [],
@@ -2318,12 +2312,16 @@
     "NODE_0000171": {
       "aa_muts": {
         "s1": [],
-        "s2": [],
+        "s2": [
+          "V428I"
+        ],
         "sigpep": [],
-        "spike": []
+        "spike": [
+          "V1177I"
+        ]
       }
     },
-    "NODE_0000172": {
+    "NODE_0000175": {
       "aa_muts": {
         "s1": [],
         "s2": [],
@@ -2331,7 +2329,7 @@
         "spike": []
       }
     },
-    "NODE_0000181": {
+    "NODE_0000176": {
       "aa_muts": {
         "s1": [],
         "s2": [],
@@ -2339,15 +2337,7 @@
         "spike": []
       }
     },
-    "NODE_0000195": {
-      "aa_muts": {
-        "s1": [],
-        "s2": [],
-        "sigpep": [],
-        "spike": []
-      }
-    },
-    "NODE_0000196": {
+    "NODE_0000177": {
       "aa_muts": {
         "s1": [],
         "s2": [],
@@ -2360,10 +2350,13 @@
         "s1": [
           "A557V"
         ],
-        "s2": [],
+        "s2": [
+          "I10V"
+        ],
         "sigpep": [],
         "spike": [
-          "A572V"
+          "A572V",
+          "I759V"
         ]
       }
     },
@@ -2539,10 +2532,14 @@
     },
     "nl63/JQ900256/NL63/DEN/2009/22/2009": {
       "aa_muts": {
-        "s1": [],
+        "s1": [
+          "T357I"
+        ],
         "s2": [],
         "sigpep": [],
-        "spike": []
+        "spike": [
+          "T372I"
+        ]
       }
     },
     "nl63/JQ900257/NL63/DEN/2009/31/2009": {
@@ -2714,12 +2711,14 @@
     "nl63/KF530112/NL63/human/USA/0111_25/2001/2001": {
       "aa_muts": {
         "s1": [
-          "P44S"
+          "P44S",
+          "I357T"
         ],
         "s2": [],
         "sigpep": [],
         "spike": [
-          "P59S"
+          "P59S",
+          "I372T"
         ]
       }
     },
@@ -2890,9 +2889,13 @@
     "nl63/KM055648/954A_2008/2008": {
       "aa_muts": {
         "s1": [],
-        "s2": [],
+        "s2": [
+          "I346V"
+        ],
         "sigpep": [],
-        "spike": []
+        "spike": [
+          "I1095V"
+        ]
       }
     },
     "nl63/KM055649/996A_2008/2008": {
@@ -2961,15 +2964,12 @@
     },
     "nl63/KX179500/NL63/UF_2/2015/2015": {
       "aa_muts": {
-        "s1": [
-          "F277V"
-        ],
+        "s1": [],
         "s2": [
           "T34I"
         ],
         "sigpep": [],
         "spike": [
-          "F292V",
           "T783I"
         ]
       }
@@ -3149,9 +3149,13 @@
     "nl63/KY862047/NL63/FRA_EPI/Caen/2009/08/2009": {
       "aa_muts": {
         "s1": [],
-        "s2": [],
+        "s2": [
+          "I10V"
+        ],
         "sigpep": [],
-        "spike": []
+        "spike": [
+          "I759V"
+        ]
       }
     },
     "nl63/KY862048/NL63/FRA_EPI/Caen/2009/07/2009": {
@@ -3766,8 +3770,7 @@
           "L236R",
           "P249S",
           "T304N",
-          "T391P",
-          "I492L"
+          "T391P"
         ],
         "s2": [
           "Q250R"
@@ -3780,7 +3783,6 @@
           "P264S",
           "T319N",
           "T406P",
-          "I507L",
           "Q999R"
         ]
       }
@@ -3865,9 +3867,9 @@
     }
   },
   "reference": {
-    "s1": "FFTCNSNANLSMLQLGVPDNSSTIVTGLLPTHWICANQSTSVYSANGFFYIDVGNHRSAFALHTGYYDVNQYYIYVTNEIGLNASVTLKICKFGRNTTFDFLSNASSSFDCIVNLLFTEQLGAPLGITISGETVRLHLYNVTRTFYVPAAYKLTKLSVKCYFNYSCVFSVVNATVTVNVTTHNGRVVNYTVCDDCNGYTDNIFSVQQDGRIPNGFPFNNWFLLTNGSTLVDGVSRLYQPLRLTCLWPVPGLKSSTGFVYFNATGSDVNCNGYQHNSVADVMRYNLNFSANSVDNLKSGVIVFKTLQYDVLFYCSNSSSGVLDTTIPFGPSSQPYYCFINSTINTTHVSTFVGILPPTVREIVVARTGQFYINGFKYFDLGFIEAVNFNVTTASATDFWTVAFATFVDVLVNVSATNIQNLLYCDSPFEKLQCEHLQFGLQDGFYSANFLDDNVLPETYVALPIYYQHTDINFTATASFGGSCYVCKPRQVNISLNGNTSVCVRTSHFSIRYIYNRVKSGSPGDSSWHIYLKSGTCPFSFSKLNNFQKFKTICFSTVEVPGSCNFPLEATWHYTSYTIVGALYVTWSEGNSITGVPYPVSGIREFSNLVLNNCTKYNIYDYVGTGIIRSSNQSLAGGITYVSNSGNLLGFKNVSTGNIFIVTPCNQPDQVAVYQQSIIGAMTAVNESRYGLQNLLQLPNFYYVSNGGNNCTTAVMTYSNFGICADGSLIPVRPRN",
-    "s2": "SSDNGISAIITANLSIPSNWTTSVQVEYLQITSTPIVVDCATYVCNGNPRCKNLLKQYTSACKTIEDALRLSAHLETNDVSSMLTFDSNAFSLANVTSFGDYNLSSVLPQRNIRSSRIAGRSALEDLLFSKVVTSGLGTVDVDYKSCTKGLSIADLACAQYYNGIMVLPGVADAERMAMYTGSLIGGMVLGGLTSAAAIPFSLALQARLNYVALQTDVLQENQKILAASFNKAINNIVASFSSVNDAITQTAEAIHTVTIALNKIQDVVNQQGSALNHLTSQLRHNFQAISNSIQAIYDRLDSIQADQQVDRLITGRLAALNAFVSQVLNKYTEVRGSRRLAQQKINECVKSQSNRYGFCGNGTHIFSIVNSAPDGLLFLHTVLLPTDYKNVKAWSGICVDGIYGYVLRQPNLVLYSDNGVFRVTSRVMFQPRLPVLSDFVQIYNCNVTFVNISRVELHTVIPDYVDVNKTLQEFAQNLPKYVKPNFDLTPFNLTYLNLSSELKQLEAKTASLFQTTVELQGLIDQINSTYVDLKLLNRFENYIKWPWWVWLIISVVFVVLLSLLVFCCLSTGCCGCCNCLTSSMRGCCDCGSTKLPYYEFEKVHVQ*",
-    "sigpep": "MKLFLILLVLPLASC",
-    "spike": "MKLFLILLVLPLASCFFTCNSNANLSMLQLGVPDNSSTIVTGLLPTHWICANQSTSVYSANGFFYIDVGNHRSAFALHTGYYDVNQYYIYVTNEIGLNASVTLKICKFGRNTTFDFLSNASSSFDCIVNLLFTEQLGAPLGITISGETVRLHLYNVTRTFYVPAAYKLTKLSVKCYFNYSCVFSVVNATVTVNVTTHNGRVVNYTVCDDCNGYTDNIFSVQQDGRIPNGFPFNNWFLLTNGSTLVDGVSRLYQPLRLTCLWPVPGLKSSTGFVYFNATGSDVNCNGYQHNSVADVMRYNLNFSANSVDNLKSGVIVFKTLQYDVLFYCSNSSSGVLDTTIPFGPSSQPYYCFINSTINTTHVSTFVGILPPTVREIVVARTGQFYINGFKYFDLGFIEAVNFNVTTASATDFWTVAFATFVDVLVNVSATNIQNLLYCDSPFEKLQCEHLQFGLQDGFYSANFLDDNVLPETYVALPIYYQHTDINFTATASFGGSCYVCKPRQVNISLNGNTSVCVRTSHFSIRYIYNRVKSGSPGDSSWHIYLKSGTCPFSFSKLNNFQKFKTICFSTVEVPGSCNFPLEATWHYTSYTIVGALYVTWSEGNSITGVPYPVSGIREFSNLVLNNCTKYNIYDYVGTGIIRSSNQSLAGGITYVSNSGNLLGFKNVSTGNIFIVTPCNQPDQVAVYQQSIIGAMTAVNESRYGLQNLLQLPNFYYVSNGGNNCTTAVMTYSNFGICADGSLIPVRPRNSSDNGISAIITANLSIPSNWTTSVQVEYLQITSTPIVVDCATYVCNGNPRCKNLLKQYTSACKTIEDALRLSAHLETNDVSSMLTFDSNAFSLANVTSFGDYNLSSVLPQRNIRSSRIAGRSALEDLLFSKVVTSGLGTVDVDYKSCTKGLSIADLACAQYYNGIMVLPGVADAERMAMYTGSLIGGMVLGGLTSAAAIPFSLALQARLNYVALQTDVLQENQKILAASFNKAINNIVASFSSVNDAITQTAEAIHTVTIALNKIQDVVNQQGSALNHLTSQLRHNFQAISNSIQAIYDRLDSIQADQQVDRLITGRLAALNAFVSQVLNKYTEVRGSRRLAQQKINECVKSQSNRYGFCGNGTHIFSIVNSAPDGLLFLHTVLLPTDYKNVKAWSGICVDGIYGYVLRQPNLVLYSDNGVFRVTSRVMFQPRLPVLSDFVQIYNCNVTFVNISRVELHTVIPDYVDVNKTLQEFAQNLPKYVKPNFDLTPFNLTYLNLSSELKQLEAKTASLFQTTVELQGLIDQINSTYVDLKLLNRFENYIKWPWWVWLIISVVFVVLLSLLVFCCLSTGCCGCCNCLTSSMRGCCDCGSTKLPYYEFEKVHVQ*"
+    "s1": "FSTCNSNASISMLQLGVPDNSSTIVTGLLPVHWICANQSTSSYPANGFFYIDVGKHRSAFALHSGYYDANQYYIYLTNKIHLNAPVTLKICKFGINTSFDFLSNVSTSHHCIVNSSFTEQLGVPLGITISGETVRLHLYNATRTFYVPAAYKLTKLSVKCYFSESCVFSVVNATVTVNVTTLNGRIVNYTVCDDCNGYTDNIFSVQQDGRIPNGFSFNNWFLLTNGSTLVDGVSRLYQPLRLTCLWPVPGLKSSTGFVYFNATGSDVNCNGYQHHSVADVMRYNLNFSSNSVDNLKSGVIVFKTLQYDVLFYCSNSSSGVLDTTIPFGPSSQPYYCFINSTINTTHVSTFVGVLPPTVREIVVARTGQFYINGFKYFDLGFIEAVNFNVTTASATDFWTVAFATFVDVLVNVSATNIQNLLYCDSPFEKLQCEHLQFGLQDGFYSANFLDDNVLPDTYVALPIYYQHTDINFTATASFGGSCYVCKPHQVNISLNGNTSVCVRTSHFSIRYIYNRVKSGSPGDSSWHIYLKSGTCPFSFSKLNNFQKFKTICFSTVAVPGSCNFPLEATWHYTSYTIVGALYVTWSEGNSITGVPYPVSGIREFSNLVLNNCTKYNIYDYVGTGIIRSSNQSLAGGITYVSNSGNLLGFKNVSTGNIFIVTPCNQPDQVAVYQQSIIGAMTAVNESRYGLQNLLQLPNFYYVSNGGNNCTTAVMTYSNFGICADGSLIPVRPRN",
+    "s2": "SSDNGISAIITANLSIPSNWTTSVQVEYLQITSTPIVVDCATYVCNGNPRCKNLLKQYTSACKTIEDALRLSAHLETNDVSSMLTFDSNAFSLANVTSFGDYNLSSVLPQRNIHSSRIAGRSALEDLLFSKVVTSGLGTVDVDYKSCTKGLSIADLACAQYYNGIMVLPGVADAERMAMYTGSLIGGMVLGGLTSAAAIPFSLALQARLNYVALQTDVLQENQKILAASFNKAINNIVASFSSVNDAITQTAEAIHTVTIALNKIQDVVNQQGSALNHLTSQLRHNFQAISNSIQAIYDRLDSIQADQQVDRLITGRLAALNAFVSQVLNKYTEVRSSRRLAQQKINECVKSQSNRYGFCGNGTHIFSIVNSAPDGLLFLHTVLLPTDYKNVKAWSGICVDGIYGYVLRQPNLVLYSDNGVFRVTSRVMFQPRLPVLSDFVQIYNCNVTFVNISRVELHTVIPDYVDVNKTLQEFAQNLPKYVKPNFDLTPFNLTYLNLSSELKQLEAKTASLFQTTVELQGLIDQINSTYVDLKLLNRFENYIKWPWWVWLIISVVFVVLLSLLVFCCLSTGCCGCCNCLTSSMRGCCDCGSTKLPYYEFEKVHVQ*",
+    "sigpep": "MKLFLILLILPLVSC",
+    "spike": "MKLFLILLILPLVSCFSTCNSNASISMLQLGVPDNSSTIVTGLLPVHWICANQSTSSYPANGFFYIDVGKHRSAFALHSGYYDANQYYIYLTNKIHLNAPVTLKICKFGINTSFDFLSNVSTSHHCIVNSSFTEQLGVPLGITISGETVRLHLYNATRTFYVPAAYKLTKLSVKCYFSESCVFSVVNATVTVNVTTLNGRIVNYTVCDDCNGYTDNIFSVQQDGRIPNGFSFNNWFLLTNGSTLVDGVSRLYQPLRLTCLWPVPGLKSSTGFVYFNATGSDVNCNGYQHHSVADVMRYNLNFSSNSVDNLKSGVIVFKTLQYDVLFYCSNSSSGVLDTTIPFGPSSQPYYCFINSTINTTHVSTFVGVLPPTVREIVVARTGQFYINGFKYFDLGFIEAVNFNVTTASATDFWTVAFATFVDVLVNVSATNIQNLLYCDSPFEKLQCEHLQFGLQDGFYSANFLDDNVLPDTYVALPIYYQHTDINFTATASFGGSCYVCKPHQVNISLNGNTSVCVRTSHFSIRYIYNRVKSGSPGDSSWHIYLKSGTCPFSFSKLNNFQKFKTICFSTVAVPGSCNFPLEATWHYTSYTIVGALYVTWSEGNSITGVPYPVSGIREFSNLVLNNCTKYNIYDYVGTGIIRSSNQSLAGGITYVSNSGNLLGFKNVSTGNIFIVTPCNQPDQVAVYQQSIIGAMTAVNESRYGLQNLLQLPNFYYVSNGGNNCTTAVMTYSNFGICADGSLIPVRPRNSSDNGISAIITANLSIPSNWTTSVQVEYLQITSTPIVVDCATYVCNGNPRCKNLLKQYTSACKTIEDALRLSAHLETNDVSSMLTFDSNAFSLANVTSFGDYNLSSVLPQRNIHSSRIAGRSALEDLLFSKVVTSGLGTVDVDYKSCTKGLSIADLACAQYYNGIMVLPGVADAERMAMYTGSLIGGMVLGGLTSAAAIPFSLALQARLNYVALQTDVLQENQKILAASFNKAINNIVASFSSVNDAITQTAEAIHTVTIALNKIQDVVNQQGSALNHLTSQLRHNFQAISNSIQAIYDRLDSIQADQQVDRLITGRLAALNAFVSQVLNKYTEVRSSRRLAQQKINECVKSQSNRYGFCGNGTHIFSIVNSAPDGLLFLHTVLLPTDYKNVKAWSGICVDGIYGYVLRQPNLVLYSDNGVFRVTSRVMFQPRLPVLSDFVQIYNCNVTFVNISRVELHTVIPDYVDVNKTLQEFAQNLPKYVKPNFDLTPFNLTYLNLSSELKQLEAKTASLFQTTVELQGLIDQINSTYVDLKLLNRFENYIKWPWWVWLIISVVFVVLLSLLVFCCLSTGCCGCCNCLTSSMRGCCDCGSTKLPYYEFEKVHVQ*"
   }
 }

@@ -1,0 +1,81 @@
+inputfile = orig
+45 x 693 - 693 d
+nthread = 1
+nadd = 0
+inputfile = infile
+thresholdtorev = 0.000000
+reflim = 5000
+mode = a
+generating a scoring matrix for nucleotide (dist=200) ... done
+
+Step 1/2
+1   
+
+Step 2/2
+ 1 / 45 (1 threads)   
+makedirectionlist (nuc) Version 7.490
+alg=m, model=DNA200 (2), 1.53 (4.59), 0.37 (1.11), noshift, amax=0.0
+1 thread(s)
+
+directionfile = _direction
+inputfile = infile
+subalignment = 0
+subalignmentoffset = 0
+45 x 693 - 693 d
+directionfile = _direction
+inputfile = orig
+subalignment = 0
+subalignmentoffset = 0
+45 x 693 - 693 d
+nthread = 1
+nthreadpair = 1
+nthreadtb = 1
+ppenalty_ex = 0
+stacksize: 8176 kb
+generating a scoring matrix for nucleotide (dist=200) ... done
+Gap Penalty = -1.53, +0.00, +0.00
+
+
+
+Making a distance matrix ..
+
+There are 65 ambiguous characters.
+    1 / 45 (thread    0)
+done.
+
+Constructing a UPGMA tree (efffree=0) ... 
+    0 / 45   10 / 45   20 / 45   30 / 45   40 / 45
+done.
+
+Progressive alignment 1/2... 
+STEP     1 / 44 (thread    0) fSTEP     2 / 44 (thread    0) fSTEP     3 / 44 (thread    0) fSTEP     4 / 44 (thread    0) fSTEP     5 / 44 (thread    0) fSTEP     6 / 44 (thread    0) fSTEP     7 / 44 (thread    0) fSTEP     8 / 44 (thread    0) fSTEP     9 / 44 (thread    0) fSTEP    10 / 44 (thread    0) fSTEP    11 / 44 (thread    0) fSTEP    12 / 44 (thread    0) fSTEP    13 / 44 (thread    0) fSTEP    14 / 44 (thread    0) fSTEP    15 / 44 (thread    0) fSTEP    16 / 44 (thread    0) fSTEP    17 / 44 (thread    0) fSTEP    18 / 44 (thread    0) fSTEP    19 / 44 (thread    0) fSTEP    20 / 44 (thread    0) fSTEP    21 / 44 (thread    0) fSTEP    22 / 44 (thread    0) fSTEP    23 / 44 (thread    0) fSTEP    24 / 44 (thread    0) fSTEP    25 / 44 (thread    0) fSTEP    26 / 44 (thread    0) fSTEP    27 / 44 (thread    0) fSTEP    28 / 44 (thread    0) fSTEP    29 / 44 (thread    0) fSTEP    30 / 44 (thread    0) fSTEP    31 / 44 (thread    0) fSTEP    32 / 44 (thread    0) fSTEP    33 / 44 (thread    0) fSTEP    34 / 44 (thread    0) fSTEP    35 / 44 (thread    0) fSTEP    36 / 44 (thread    0) fSTEP    37 / 44 (thread    0) fSTEP    38 / 44 (thread    0) fSTEP    39 / 44 (thread    0) fSTEP    40 / 44 (thread    0) fSTEP    41 / 44 (thread    0) fSTEP    42 / 44 (thread    0) fSTEP    43 / 44 (thread    0) fSTEP    44 / 44 (thread    0) f
+done.
+
+Making a distance matrix from msa.. 
+    0 / 45 (thread    0)
+done.
+
+Constructing a UPGMA tree (efffree=1) ... 
+    0 / 45   10 / 45   20 / 45   30 / 45   40 / 45
+done.
+
+Progressive alignment 2/2... 
+STEP     1 / 44 (thread    0) fSTEP     2 / 44 (thread    0) fSTEP     3 / 44 (thread    0) fSTEP     4 / 44 (thread    0) fSTEP     5 / 44 (thread    0) fSTEP     6 / 44 (thread    0) fSTEP     7 / 44 (thread    0) fSTEP     8 / 44 (thread    0) fSTEP     9 / 44 (thread    0) fSTEP    10 / 44 (thread    0) fSTEP    11 / 44 (thread    0) fSTEP    12 / 44 (thread    0) fSTEP    13 / 44 (thread    0) fSTEP    14 / 44 (thread    0) fSTEP    15 / 44 (thread    0) fSTEP    16 / 44 (thread    0) fSTEP    17 / 44 (thread    0) fSTEP    18 / 44 (thread    0) fSTEP    19 / 44 (thread    0) fSTEP    20 / 44 (thread    0) fSTEP    21 / 44 (thread    0) fSTEP    22 / 44 (thread    0) fSTEP    23 / 44 (thread    0) fSTEP    24 / 44 (thread    0) fSTEP    25 / 44 (thread    0) fSTEP    26 / 44 (thread    0) fSTEP    27 / 44 (thread    0) fSTEP    28 / 44 (thread    0) fSTEP    29 / 44 (thread    0) fSTEP    30 / 44 (thread    0) fSTEP    31 / 44 (thread    0) fSTEP    32 / 44 (thread    0) fSTEP    33 / 44 (thread    0) fSTEP    34 / 44 (thread    0) fSTEP    35 / 44 (thread    0) fSTEP    36 / 44 (thread    0) fSTEP    37 / 44 (thread    0) fSTEP    38 / 44 (thread    0) fSTEP    39 / 44 (thread    0) fSTEP    40 / 44 (thread    0) fSTEP    41 / 44 (thread    0) fSTEP    42 / 44 (thread    0) fSTEP    43 / 44 (thread    0) fSTEP    44 / 44 (thread    0) f
+done.
+
+disttbfast (nuc) Version 7.490
+alg=A, model=DNA200 (2), 1.53 (4.59), -0.00 (-0.00), noshift, amax=0.0
+1 thread(s)
+
+
+Strategy:
+ FFT-NS-2 (Fast but rough)
+ Progressive method (guide trees were built 2 times.)
+
+If unsure which option to use, try 'mafft --auto input > output'.
+For more information, see 'mafft --help', 'mafft --man' and the mafft page.
+
+The default gap scoring scheme has been changed in version 7.110 (2013 Oct).
+It tends to insert more gaps into gap-rich regions than previous versions.
+To disable this change, add the --leavegappyregion option.
+

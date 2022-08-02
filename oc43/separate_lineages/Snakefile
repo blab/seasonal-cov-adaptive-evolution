@@ -1,5 +1,5 @@
 
-GENE = ["s1", "spike", "s2", "rdrp"]
+GENE = ['envelope']
 LINEAGE = ['a', 'b']
 
 
@@ -169,7 +169,7 @@ rule ancestral:
         augur ancestral \
             --tree {input.tree} \
             --alignment {input.alignment} \
-            --output {output.node_data} \
+            --output-node-data {output.node_data} \
             --inference {params.inference}
         """
 

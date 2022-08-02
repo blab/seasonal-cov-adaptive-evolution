@@ -1,0 +1,157 @@
+IQ-TREE multicore version 2.2.0-beta COVID-edition for Mac OS X 64-bit built Mar  3 2022 built Mar  3 2022
+Developed by Bui Quang Minh, James Barbetti, Nguyen Lam Tung,
+Olga Chernomor, Heiko Schmidt, Dominik Schrempf, Michael Woodhams, Ly Trong Nhan.
+
+Host:    MacBook-Pro-2.local (SSE4.2, 8 GB RAM)
+Command: iqtree2 -nt 1 -s results/aligned_229e_spike-delim.fasta -m GTR -ninit 2 -n 2 -me 0.05
+Seed:    600622 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Tue Jun 21 16:13:44 2022
+Kernel:  SSE2 - 1 threads (8 CPU cores detected)
+
+HINT: Use -nt option to specify number of threads because your CPU has 8 cores!
+HINT: -nt AUTO will automatically determine the best number of threads to use.
+
+Reading alignment file results/aligned_229e_spike-delim.fasta ... Fasta format detected
+Reading fasta file: done in 0.012557 secs using 25.77% CPU
+Alignment most likely contains DNA/RNA sequences
+Constructing alignment: done in 0.00314784 secs using 72.43% CPU
+Alignment has 57 sequences with 3522 columns, 199 distinct patterns
+180 parsimony-informative, 84 singleton sites, 3258 constant sites
+                                                                                                                                                                                                                                                   Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 2.81334e-05 secs using 74.64% CPU
+   1  229e_DELIM-LHMDKZVUBCAXYSWFDYIC_KF293664_DELIM-LHMDKZVUBCAXYSWFDYIC_229E_DELIM-LHMDKZVUBCAXYSWFDYIC_NA                                                                                                                                               0.00%    passed     95.18%
+   2  229e_DELIM-LHMDKZVUBCAXYSWFDYIC_KF293665_DELIM-LHMDKZVUBCAXYSWFDYIC_229E_DELIM-LHMDKZVUBCAXYSWFDYIC_NA                                                                                                                                               0.00%    passed     95.18%
+   3  229e_DELIM-LHMDKZVUBCAXYSWFDYIC_KF293666_DELIM-LHMDKZVUBCAXYSWFDYIC_229E_DELIM-LHMDKZVUBCAXYSWFDYIC_NA                                                                                                                                               0.00%    passed     95.18%
+   4  229e_DELIM-LHMDKZVUBCAXYSWFDYIC_JX503060_DELIM-LHMDKZVUBCAXYSWFDYIC_0349_DELIM-LHMDKZVUBCAXYSWFDYIC_2010                                                                                                                                             0.20%    passed     99.06%
+   5  229e_DELIM-LHMDKZVUBCAXYSWFDYIC_KM055532_DELIM-LHMDKZVUBCAXYSWFDYIC_1512A_2009_DELIM-LHMDKZVUBCAXYSWFDYIC_2009                                                                                                                                       8.01%    passed     99.81%
+   6  229e_DELIM-LHMDKZVUBCAXYSWFDYIC_KM055533_DELIM-LHMDKZVUBCAXYSWFDYIC_1518A_2009_DELIM-LHMDKZVUBCAXYSWFDYIC_2009                                                                                                                                       8.01%    passed     99.81%
+   7  229e_DELIM-LHMDKZVUBCAXYSWFDYIC_KM055546_DELIM-LHMDKZVUBCAXYSWFDYIC_8373_2009_DELIM-LHMDKZVUBCAXYSWFDYIC_2009                                                                                                                                        8.01%    passed     99.72%
+   8  229e_DELIM-LHMDKZVUBCAXYSWFDYIC_KM055547_DELIM-LHMDKZVUBCAXYSWFDYIC_8425_2009_DELIM-LHMDKZVUBCAXYSWFDYIC_2009                                                                                                                                        8.01%    passed     99.72%
+   9  229e_DELIM-LHMDKZVUBCAXYSWFDYIC_KM055538_DELIM-LHMDKZVUBCAXYSWFDYIC_1761A_2010_DELIM-LHMDKZVUBCAXYSWFDYIC_2010                                                                                                                                       8.01%    passed     99.40%
+  10  229e_DELIM-LHMDKZVUBCAXYSWFDYIC_KM055545_DELIM-LHMDKZVUBCAXYSWFDYIC_8339_2009_DELIM-LHMDKZVUBCAXYSWFDYIC_2009                                                                                                                                        8.01%    passed     99.72%
+  11  229e_DELIM-LHMDKZVUBCAXYSWFDYIC_KM055543_DELIM-LHMDKZVUBCAXYSWFDYIC_1990A_2010_DELIM-LHMDKZVUBCAXYSWFDYIC_2010                                                                                                                                       8.01%    passed     99.11%
+  12  229e_DELIM-LHMDKZVUBCAXYSWFDYIC_KM055534_DELIM-LHMDKZVUBCAXYSWFDYIC_1546A_2009_DELIM-LHMDKZVUBCAXYSWFDYIC_2009                                                                                                                                       8.01%    passed     99.67%
+  13  229e_DELIM-LHMDKZVUBCAXYSWFDYIC_KM055535_DELIM-LHMDKZVUBCAXYSWFDYIC_1649A_2009_DELIM-LHMDKZVUBCAXYSWFDYIC_2009                                                                                                                                       8.01%    passed     99.71%
+  14  229e_DELIM-LHMDKZVUBCAXYSWFDYIC_KM055536_DELIM-LHMDKZVUBCAXYSWFDYIC_1658A_2009_DELIM-LHMDKZVUBCAXYSWFDYIC_2009                                                                                                                                       8.01%    passed     99.76%
+  15  229e_DELIM-LHMDKZVUBCAXYSWFDYIC_KM055537_DELIM-LHMDKZVUBCAXYSWFDYIC_1667A_2009_DELIM-LHMDKZVUBCAXYSWFDYIC_2009                                                                                                                                       8.01%    passed     99.60%
+  16  229e_DELIM-LHMDKZVUBCAXYSWFDYIC_KM055539_DELIM-LHMDKZVUBCAXYSWFDYIC_1781A_2010_DELIM-LHMDKZVUBCAXYSWFDYIC_2010                                                                                                                                       8.01%    passed     99.60%
+  17  229e_DELIM-LHMDKZVUBCAXYSWFDYIC_KM055540_DELIM-LHMDKZVUBCAXYSWFDYIC_1782A_2010_DELIM-LHMDKZVUBCAXYSWFDYIC_2010                                                                                                                                       8.01%    passed     99.60%
+  18  229e_DELIM-LHMDKZVUBCAXYSWFDYIC_KM055541_DELIM-LHMDKZVUBCAXYSWFDYIC_1827A_2010_DELIM-LHMDKZVUBCAXYSWFDYIC_2010                                                                                                                                       8.01%    passed     99.60%
+  19  229e_DELIM-LHMDKZVUBCAXYSWFDYIC_KM055542_DELIM-LHMDKZVUBCAXYSWFDYIC_1829A_2010_DELIM-LHMDKZVUBCAXYSWFDYIC_2010                                                                                                                                       8.01%    passed     99.60%
+  20  229e_DELIM-LHMDKZVUBCAXYSWFDYIC_KM055544_DELIM-LHMDKZVUBCAXYSWFDYIC_2764A_2011_DELIM-LHMDKZVUBCAXYSWFDYIC_2011                                                                                                                                       8.01%    passed     98.55%
+  21  229e_DELIM-LHMDKZVUBCAXYSWFDYIC_KM055560_DELIM-LHMDKZVUBCAXYSWFDYIC_1424A_2009_DELIM-LHMDKZVUBCAXYSWFDYIC_2009                                                                                                                                       8.09%    passed     99.63%
+  22  229e_DELIM-LHMDKZVUBCAXYSWFDYIC_KM055553_DELIM-LHMDKZVUBCAXYSWFDYIC_1482A_2009_DELIM-LHMDKZVUBCAXYSWFDYIC_2009                                                                                                                                       8.09%    passed     99.79%
+  23  229e_DELIM-LHMDKZVUBCAXYSWFDYIC_KM055552_DELIM-LHMDKZVUBCAXYSWFDYIC_423A_2007_DELIM-LHMDKZVUBCAXYSWFDYIC_2007                                                                                                                                        8.09%    passed     99.63%
+  24  229e_DELIM-LHMDKZVUBCAXYSWFDYIC_KM055554_DELIM-LHMDKZVUBCAXYSWFDYIC_494A_2008_DELIM-LHMDKZVUBCAXYSWFDYIC_2008                                                                                                                                        8.09%    passed     99.63%
+  25  229e_DELIM-LHMDKZVUBCAXYSWFDYIC_KM055557_DELIM-LHMDKZVUBCAXYSWFDYIC_748_2005_DELIM-LHMDKZVUBCAXYSWFDYIC_2005                                                                                                                                         8.09%    passed     99.92%
+  26  229e_DELIM-LHMDKZVUBCAXYSWFDYIC_KM055558_DELIM-LHMDKZVUBCAXYSWFDYIC_8348_2009_DELIM-LHMDKZVUBCAXYSWFDYIC_2009                                                                                                                                        8.09%    passed     99.49%
+  27  229e_DELIM-LHMDKZVUBCAXYSWFDYIC_KM055555_DELIM-LHMDKZVUBCAXYSWFDYIC_507A_2008_DELIM-LHMDKZVUBCAXYSWFDYIC_2008                                                                                                                                        8.09%    passed     99.77%
+  28  229e_DELIM-LHMDKZVUBCAXYSWFDYIC_KM055556_DELIM-LHMDKZVUBCAXYSWFDYIC_693A_2008_DELIM-LHMDKZVUBCAXYSWFDYIC_2008                                                                                                                                        8.09%    passed     99.79%
+  29  229e_DELIM-LHMDKZVUBCAXYSWFDYIC_KM055551_DELIM-LHMDKZVUBCAXYSWFDYIC_359A_2007_DELIM-LHMDKZVUBCAXYSWFDYIC_2007                                                                                                                                        8.09%    passed     99.73%
+  30  229e_DELIM-LHMDKZVUBCAXYSWFDYIC_KM055559_DELIM-LHMDKZVUBCAXYSWFDYIC_857_2005_DELIM-LHMDKZVUBCAXYSWFDYIC_2005                                                                                                                                         8.09%    passed     99.57%
+  31  229e_DELIM-LHMDKZVUBCAXYSWFDYIC_KY674919_DELIM-LHMDKZVUBCAXYSWFDYIC_N08_434B_DELIM-LHMDKZVUBCAXYSWFDYIC_2016                                                                                                                                         0.26%    passed     97.49%
+  32  229e_DELIM-LHMDKZVUBCAXYSWFDYIC_KM055531_DELIM-LHMDKZVUBCAXYSWFDYIC_11949_2011_DELIM-LHMDKZVUBCAXYSWFDYIC_2011                                                                                                                                       8.01%    passed     99.15%
+  33  229e_DELIM-LHMDKZVUBCAXYSWFDYIC_KM055549_DELIM-LHMDKZVUBCAXYSWFDYIC_2961A_2011_DELIM-LHMDKZVUBCAXYSWFDYIC_2011                                                                                                                                       8.01%    passed     98.46%
+  34  229e_DELIM-LHMDKZVUBCAXYSWFDYIC_KM055550_DELIM-LHMDKZVUBCAXYSWFDYIC_2981A_2011_DELIM-LHMDKZVUBCAXYSWFDYIC_2011                                                                                                                                       8.01%    passed     98.46%
+  35  229e_DELIM-LHMDKZVUBCAXYSWFDYIC_KM055548_DELIM-LHMDKZVUBCAXYSWFDYIC_2861A_2011_DELIM-LHMDKZVUBCAXYSWFDYIC_2011                                                                                                                                       8.01%    passed     98.84%
+  36  229e_DELIM-LHMDKZVUBCAXYSWFDYIC_KU291448_DELIM-LHMDKZVUBCAXYSWFDYIC_HCoV_229E_DELIM-LHMDKZVUBCAXYSWFDYIC_BN1_DELIM-LHMDKZVUBCAXYSWFDYIC_GER_DELIM-LHMDKZVUBCAXYSWFDYIC_2015_DELIM-LHMDKZVUBCAXYSWFDYIC_2015                                          0.17%    passed     99.31%
+  37  229e_DELIM-LHMDKZVUBCAXYSWFDYIC_MN306046_DELIM-LHMDKZVUBCAXYSWFDYIC_HCoV_229E_DELIM-LHMDKZVUBCAXYSWFDYIC_Seattle_DELIM-LHMDKZVUBCAXYSWFDYIC_USA_DELIM-LHMDKZVUBCAXYSWFDYIC_SC0865_DELIM-LHMDKZVUBCAXYSWFDYIC_2019_DELIM-LHMDKZVUBCAXYSWFDYIC_2019    0.17%    passed     99.63%
+  38  229e_DELIM-LHMDKZVUBCAXYSWFDYIC_MN369046_DELIM-LHMDKZVUBCAXYSWFDYIC_HCoV_229E_DELIM-LHMDKZVUBCAXYSWFDYIC_Seattle_DELIM-LHMDKZVUBCAXYSWFDYIC_USA_DELIM-LHMDKZVUBCAXYSWFDYIC_SC9724_DELIM-LHMDKZVUBCAXYSWFDYIC_2018_DELIM-LHMDKZVUBCAXYSWFDYIC_2018    0.17%    passed     99.65%
+  39  229e_DELIM-LHMDKZVUBCAXYSWFDYIC_KY369912_DELIM-LHMDKZVUBCAXYSWFDYIC_HCoV_229E_DELIM-LHMDKZVUBCAXYSWFDYIC_Seattle_DELIM-LHMDKZVUBCAXYSWFDYIC_USA_DELIM-LHMDKZVUBCAXYSWFDYIC_SC9731_DELIM-LHMDKZVUBCAXYSWFDYIC_2016_DELIM-LHMDKZVUBCAXYSWFDYIC_2016    0.17%    passed     99.90%
+  40  229e_DELIM-LHMDKZVUBCAXYSWFDYIC_KY369914_DELIM-LHMDKZVUBCAXYSWFDYIC_HCoV_229E_DELIM-LHMDKZVUBCAXYSWFDYIC_Seattle_DELIM-LHMDKZVUBCAXYSWFDYIC_USA_DELIM-LHMDKZVUBCAXYSWFDYIC_SC9773_DELIM-LHMDKZVUBCAXYSWFDYIC_2016_DELIM-LHMDKZVUBCAXYSWFDYIC_2016    0.17%    passed     99.36%
+  41  229e_DELIM-LHMDKZVUBCAXYSWFDYIC_KY369913_DELIM-LHMDKZVUBCAXYSWFDYIC_HCoV_229E_DELIM-LHMDKZVUBCAXYSWFDYIC_Seattle_DELIM-LHMDKZVUBCAXYSWFDYIC_USA_DELIM-LHMDKZVUBCAXYSWFDYIC_SC1073_DELIM-LHMDKZVUBCAXYSWFDYIC_2016_DELIM-LHMDKZVUBCAXYSWFDYIC_2016    0.17%    passed     99.42%
+  42  229e_DELIM-LHMDKZVUBCAXYSWFDYIC_KY967357_DELIM-LHMDKZVUBCAXYSWFDYIC_HCoV_229E_DELIM-LHMDKZVUBCAXYSWFDYIC_Seattle_DELIM-LHMDKZVUBCAXYSWFDYIC_USA_DELIM-LHMDKZVUBCAXYSWFDYIC_SC2872_DELIM-LHMDKZVUBCAXYSWFDYIC_2015_DELIM-LHMDKZVUBCAXYSWFDYIC_2015    0.17%    passed     99.30%
+  43  229e_DELIM-LHMDKZVUBCAXYSWFDYIC_KY983587_DELIM-LHMDKZVUBCAXYSWFDYIC_HCoV_229E_DELIM-LHMDKZVUBCAXYSWFDYIC_Seattle_DELIM-LHMDKZVUBCAXYSWFDYIC_USA_DELIM-LHMDKZVUBCAXYSWFDYIC_SC3112_DELIM-LHMDKZVUBCAXYSWFDYIC_2015_DELIM-LHMDKZVUBCAXYSWFDYIC_2015    0.17%    passed     99.30%
+  44  229e_DELIM-LHMDKZVUBCAXYSWFDYIC_KY369908_DELIM-LHMDKZVUBCAXYSWFDYIC_HCoV_229E_DELIM-LHMDKZVUBCAXYSWFDYIC_Seattle_DELIM-LHMDKZVUBCAXYSWFDYIC_USA_DELIM-LHMDKZVUBCAXYSWFDYIC_SC579_DELIM-LHMDKZVUBCAXYSWFDYIC_2016_DELIM-LHMDKZVUBCAXYSWFDYIC_2016     0.17%    passed     99.09%
+  45  229e_DELIM-LHMDKZVUBCAXYSWFDYIC_KY621348_DELIM-LHMDKZVUBCAXYSWFDYIC_HCoV_229E_DELIM-LHMDKZVUBCAXYSWFDYIC_Seattle_DELIM-LHMDKZVUBCAXYSWFDYIC_USA_DELIM-LHMDKZVUBCAXYSWFDYIC_SC379_DELIM-LHMDKZVUBCAXYSWFDYIC_2016_DELIM-LHMDKZVUBCAXYSWFDYIC_2016     0.17%    passed     99.38%
+  46  229e_DELIM-LHMDKZVUBCAXYSWFDYIC_KY674914_DELIM-LHMDKZVUBCAXYSWFDYIC_HCoV_229E_DELIM-LHMDKZVUBCAXYSWFDYIC_Seattle_DELIM-LHMDKZVUBCAXYSWFDYIC_USA_DELIM-LHMDKZVUBCAXYSWFDYIC_SC399_DELIM-LHMDKZVUBCAXYSWFDYIC_2016_DELIM-LHMDKZVUBCAXYSWFDYIC_2016     0.17%    passed     99.38%
+  47  229e_DELIM-LHMDKZVUBCAXYSWFDYIC_KY369909_DELIM-LHMDKZVUBCAXYSWFDYIC_HCoV_229E_DELIM-LHMDKZVUBCAXYSWFDYIC_Seattle_DELIM-LHMDKZVUBCAXYSWFDYIC_USA_DELIM-LHMDKZVUBCAXYSWFDYIC_SC677_DELIM-LHMDKZVUBCAXYSWFDYIC_2016_DELIM-LHMDKZVUBCAXYSWFDYIC_2016     0.17%    passed     99.38%
+  48  229e_DELIM-LHMDKZVUBCAXYSWFDYIC_KY369910_DELIM-LHMDKZVUBCAXYSWFDYIC_HCoV_229E_DELIM-LHMDKZVUBCAXYSWFDYIC_Seattle_DELIM-LHMDKZVUBCAXYSWFDYIC_USA_DELIM-LHMDKZVUBCAXYSWFDYIC_SC1143_DELIM-LHMDKZVUBCAXYSWFDYIC_2016_DELIM-LHMDKZVUBCAXYSWFDYIC_2016    0.17%    passed     99.78%
+  49  229e_DELIM-LHMDKZVUBCAXYSWFDYIC_KY369911_DELIM-LHMDKZVUBCAXYSWFDYIC_HCoV_229E_DELIM-LHMDKZVUBCAXYSWFDYIC_Seattle_DELIM-LHMDKZVUBCAXYSWFDYIC_USA_DELIM-LHMDKZVUBCAXYSWFDYIC_SC1212_DELIM-LHMDKZVUBCAXYSWFDYIC_2016_DELIM-LHMDKZVUBCAXYSWFDYIC_2016    0.17%    passed     99.78%
+  50  229e_DELIM-LHMDKZVUBCAXYSWFDYIC_MF542265_DELIM-LHMDKZVUBCAXYSWFDYIC_229E_DELIM-LHMDKZVUBCAXYSWFDYIC_Haiti_1_DELIM-LHMDKZVUBCAXYSWFDYIC_2016_DELIM-LHMDKZVUBCAXYSWFDYIC_2016                                                                          0.17%    passed     99.62%
+  51  229e_DELIM-LHMDKZVUBCAXYSWFDYIC_KY684760_DELIM-LHMDKZVUBCAXYSWFDYIC_HCoV_229E_DELIM-LHMDKZVUBCAXYSWFDYIC_Seattle_DELIM-LHMDKZVUBCAXYSWFDYIC_USA_DELIM-LHMDKZVUBCAXYSWFDYIC_SC2282_DELIM-LHMDKZVUBCAXYSWFDYIC_2017_DELIM-LHMDKZVUBCAXYSWFDYIC_2016    0.17%    passed     99.29%
+  52  229e_DELIM-LHMDKZVUBCAXYSWFDYIC_JX503061_DELIM-LHMDKZVUBCAXYSWFDYIC_J0304_DELIM-LHMDKZVUBCAXYSWFDYIC_2009                                                                                                                                            0.26%    passed     95.44%
+  53  229e_DELIM-LHMDKZVUBCAXYSWFDYIC_KF514429_DELIM-LHMDKZVUBCAXYSWFDYIC_229E_DELIM-LHMDKZVUBCAXYSWFDYIC_human_DELIM-LHMDKZVUBCAXYSWFDYIC_USA_DELIM-LHMDKZVUBCAXYSWFDYIC_892_11_DELIM-LHMDKZVUBCAXYSWFDYIC_1989_DELIM-LHMDKZVUBCAXYSWFDYIC_1989           0.26%    passed     98.96%
+  54  229e_DELIM-LHMDKZVUBCAXYSWFDYIC_KF514432_DELIM-LHMDKZVUBCAXYSWFDYIC_229E_DELIM-LHMDKZVUBCAXYSWFDYIC_human_DELIM-LHMDKZVUBCAXYSWFDYIC_USA_DELIM-LHMDKZVUBCAXYSWFDYIC_932_72_DELIM-LHMDKZVUBCAXYSWFDYIC_1993_DELIM-LHMDKZVUBCAXYSWFDYIC_1993           0.26%    passed     97.87%
+  55  229e_DELIM-LHMDKZVUBCAXYSWFDYIC_KF514433_DELIM-LHMDKZVUBCAXYSWFDYIC_229E_DELIM-LHMDKZVUBCAXYSWFDYIC_human_DELIM-LHMDKZVUBCAXYSWFDYIC_USA_DELIM-LHMDKZVUBCAXYSWFDYIC_933_40_DELIM-LHMDKZVUBCAXYSWFDYIC_1993_DELIM-LHMDKZVUBCAXYSWFDYIC_1993           0.26%    passed     97.82%
+  56  229e_DELIM-LHMDKZVUBCAXYSWFDYIC_KF514431_DELIM-LHMDKZVUBCAXYSWFDYIC_229E_DELIM-LHMDKZVUBCAXYSWFDYIC_human_DELIM-LHMDKZVUBCAXYSWFDYIC_USA_DELIM-LHMDKZVUBCAXYSWFDYIC_953_49_DELIM-LHMDKZVUBCAXYSWFDYIC_1995_DELIM-LHMDKZVUBCAXYSWFDYIC_1995           0.26%    passed     98.00%
+  57  229e_DELIM-LHMDKZVUBCAXYSWFDYIC_KF514430_DELIM-LHMDKZVUBCAXYSWFDYIC_229E_DELIM-LHMDKZVUBCAXYSWFDYIC_human_DELIM-LHMDKZVUBCAXYSWFDYIC_USA_DELIM-LHMDKZVUBCAXYSWFDYIC_933_50_DELIM-LHMDKZVUBCAXYSWFDYIC_1993_DELIM-LHMDKZVUBCAXYSWFDYIC_1993           0.26%    passed     98.90%
+****  TOTAL                                                                                                                                                                                                                                                4.31%  0 sequences failed composition chi2 test (p-value<5%; df=3)
+NOTE: 229e_DELIM-LHMDKZVUBCAXYSWFDYIC_KF293665_DELIM-LHMDKZVUBCAXYSWFDYIC_229E_DELIM-LHMDKZVUBCAXYSWFDYIC_NA is identical to 229e_DELIM-LHMDKZVUBCAXYSWFDYIC_KF293664_DELIM-LHMDKZVUBCAXYSWFDYIC_229E_DELIM-LHMDKZVUBCAXYSWFDYIC_NA but kept for subsequent analysis
+NOTE: 229e_DELIM-LHMDKZVUBCAXYSWFDYIC_KM055533_DELIM-LHMDKZVUBCAXYSWFDYIC_1518A_2009_DELIM-LHMDKZVUBCAXYSWFDYIC_2009 is identical to 229e_DELIM-LHMDKZVUBCAXYSWFDYIC_KM055532_DELIM-LHMDKZVUBCAXYSWFDYIC_1512A_2009_DELIM-LHMDKZVUBCAXYSWFDYIC_2009 but kept for subsequent analysis
+NOTE: 229e_DELIM-LHMDKZVUBCAXYSWFDYIC_KM055547_DELIM-LHMDKZVUBCAXYSWFDYIC_8425_2009_DELIM-LHMDKZVUBCAXYSWFDYIC_2009 is identical to 229e_DELIM-LHMDKZVUBCAXYSWFDYIC_KM055546_DELIM-LHMDKZVUBCAXYSWFDYIC_8373_2009_DELIM-LHMDKZVUBCAXYSWFDYIC_2009 but kept for subsequent analysis
+NOTE: 229e_DELIM-LHMDKZVUBCAXYSWFDYIC_KM055539_DELIM-LHMDKZVUBCAXYSWFDYIC_1781A_2010_DELIM-LHMDKZVUBCAXYSWFDYIC_2010 is identical to 229e_DELIM-LHMDKZVUBCAXYSWFDYIC_KM055537_DELIM-LHMDKZVUBCAXYSWFDYIC_1667A_2009_DELIM-LHMDKZVUBCAXYSWFDYIC_2009 but kept for subsequent analysis
+NOTE: 229e_DELIM-LHMDKZVUBCAXYSWFDYIC_KM055554_DELIM-LHMDKZVUBCAXYSWFDYIC_494A_2008_DELIM-LHMDKZVUBCAXYSWFDYIC_2008 is identical to 229e_DELIM-LHMDKZVUBCAXYSWFDYIC_KM055552_DELIM-LHMDKZVUBCAXYSWFDYIC_423A_2007_DELIM-LHMDKZVUBCAXYSWFDYIC_2007 but kept for subsequent analysis
+NOTE: 229e_DELIM-LHMDKZVUBCAXYSWFDYIC_KY674914_DELIM-LHMDKZVUBCAXYSWFDYIC_HCoV_229E_DELIM-LHMDKZVUBCAXYSWFDYIC_Seattle_DELIM-LHMDKZVUBCAXYSWFDYIC_USA_DELIM-LHMDKZVUBCAXYSWFDYIC_SC399_DELIM-LHMDKZVUBCAXYSWFDYIC_2016_DELIM-LHMDKZVUBCAXYSWFDYIC_2016 is identical to 229e_DELIM-LHMDKZVUBCAXYSWFDYIC_KY621348_DELIM-LHMDKZVUBCAXYSWFDYIC_HCoV_229E_DELIM-LHMDKZVUBCAXYSWFDYIC_Seattle_DELIM-LHMDKZVUBCAXYSWFDYIC_USA_DELIM-LHMDKZVUBCAXYSWFDYIC_SC379_DELIM-LHMDKZVUBCAXYSWFDYIC_2016_DELIM-LHMDKZVUBCAXYSWFDYIC_2016 but kept for subsequent analysis
+NOTE: 229e_DELIM-LHMDKZVUBCAXYSWFDYIC_KY369911_DELIM-LHMDKZVUBCAXYSWFDYIC_HCoV_229E_DELIM-LHMDKZVUBCAXYSWFDYIC_Seattle_DELIM-LHMDKZVUBCAXYSWFDYIC_USA_DELIM-LHMDKZVUBCAXYSWFDYIC_SC1212_DELIM-LHMDKZVUBCAXYSWFDYIC_2016_DELIM-LHMDKZVUBCAXYSWFDYIC_2016 is identical to 229e_DELIM-LHMDKZVUBCAXYSWFDYIC_KY369910_DELIM-LHMDKZVUBCAXYSWFDYIC_HCoV_229E_DELIM-LHMDKZVUBCAXYSWFDYIC_Seattle_DELIM-LHMDKZVUBCAXYSWFDYIC_USA_DELIM-LHMDKZVUBCAXYSWFDYIC_SC1143_DELIM-LHMDKZVUBCAXYSWFDYIC_2016_DELIM-LHMDKZVUBCAXYSWFDYIC_2016 but kept for subsequent analysis
+Checking for duplicate sequences: done in 0.000364065 secs using 82.68% CPU
+Identifying sites to remove: done in 0.00235891 secs using 95.81% CPU
+NOTE: 5 identical sequences (see below) will be ignored for subsequent analysis
+NOTE: 229e_DELIM-LHMDKZVUBCAXYSWFDYIC_KF293666_DELIM-LHMDKZVUBCAXYSWFDYIC_229E_DELIM-LHMDKZVUBCAXYSWFDYIC_NA (identical to 229e_DELIM-LHMDKZVUBCAXYSWFDYIC_KF293664_DELIM-LHMDKZVUBCAXYSWFDYIC_229E_DELIM-LHMDKZVUBCAXYSWFDYIC_NA) is ignored but added at the end
+NOTE: 229e_DELIM-LHMDKZVUBCAXYSWFDYIC_KM055540_DELIM-LHMDKZVUBCAXYSWFDYIC_1782A_2010_DELIM-LHMDKZVUBCAXYSWFDYIC_2010 (identical to 229e_DELIM-LHMDKZVUBCAXYSWFDYIC_KM055537_DELIM-LHMDKZVUBCAXYSWFDYIC_1667A_2009_DELIM-LHMDKZVUBCAXYSWFDYIC_2009) is ignored but added at the end
+NOTE: 229e_DELIM-LHMDKZVUBCAXYSWFDYIC_KM055541_DELIM-LHMDKZVUBCAXYSWFDYIC_1827A_2010_DELIM-LHMDKZVUBCAXYSWFDYIC_2010 (identical to 229e_DELIM-LHMDKZVUBCAXYSWFDYIC_KM055537_DELIM-LHMDKZVUBCAXYSWFDYIC_1667A_2009_DELIM-LHMDKZVUBCAXYSWFDYIC_2009) is ignored but added at the end
+NOTE: 229e_DELIM-LHMDKZVUBCAXYSWFDYIC_KM055542_DELIM-LHMDKZVUBCAXYSWFDYIC_1829A_2010_DELIM-LHMDKZVUBCAXYSWFDYIC_2010 (identical to 229e_DELIM-LHMDKZVUBCAXYSWFDYIC_KM055537_DELIM-LHMDKZVUBCAXYSWFDYIC_1667A_2009_DELIM-LHMDKZVUBCAXYSWFDYIC_2009) is ignored but added at the end
+NOTE: 229e_DELIM-LHMDKZVUBCAXYSWFDYIC_KY369909_DELIM-LHMDKZVUBCAXYSWFDYIC_HCoV_229E_DELIM-LHMDKZVUBCAXYSWFDYIC_Seattle_DELIM-LHMDKZVUBCAXYSWFDYIC_USA_DELIM-LHMDKZVUBCAXYSWFDYIC_SC677_DELIM-LHMDKZVUBCAXYSWFDYIC_2016_DELIM-LHMDKZVUBCAXYSWFDYIC_2016 (identical to 229e_DELIM-LHMDKZVUBCAXYSWFDYIC_KY621348_DELIM-LHMDKZVUBCAXYSWFDYIC_HCoV_229E_DELIM-LHMDKZVUBCAXYSWFDYIC_Seattle_DELIM-LHMDKZVUBCAXYSWFDYIC_USA_DELIM-LHMDKZVUBCAXYSWFDYIC_SC379_DELIM-LHMDKZVUBCAXYSWFDYIC_2016_DELIM-LHMDKZVUBCAXYSWFDYIC_2016) is ignored but added at the end
+Alignment was printed to results/aligned_229e_spike-delim.fasta.uniqueseq.phy
+
+For your convenience alignment with unique sequences printed to results/aligned_229e_spike-delim.fasta.uniqueseq.phy
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.002 seconds
+
+NOTE: 0 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.500)
+1. Initial log-likelihood: -11380.562
+2. Current log-likelihood: -11011.834
+3. Current log-likelihood: -11008.022
+Optimal log-likelihood: -11008.019
+Rate parameters:  A-C: 1.38573  A-G: 2.67434  A-T: 0.52069  C-G: 0.52426  C-T: 5.01115  G-T: 1.00000
+Base frequencies:  A: 0.262  C: 0.183  G: 0.203  T: 0.352
+Parameters optimization took 3 rounds (0.059 sec)
+Wrote distance file to... 
+Computing ML distances based on estimated model parameters...
+Calculating distance matrix: done in 0.0043292 secs using 90.62% CPU
+Computing ML distances took 0.004442 sec (of wall-clock time) 0.004004 sec (of CPU time)
+Setting up auxiliary I and S matrices: done in 7.9155e-05 secs using 160.4% CPU
+Constructing RapidNJ tree: done in 0.000169992 secs using 169.4% CPU
+Computing RapidNJ tree took 0.000291 sec (of wall-clock time) 0.000476 sec (of CPU time)
+Log-likelihood of RapidNJ tree: -7271.995
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+
+Do NNI search on 2 best initial trees
+Optimizing NNI: done in 0.013032 secs using 122.4% CPU
+Estimate model parameters (epsilon = 0.500)
+BETTER TREE FOUND at iteration 1: -7250.760
+Optimizing NNI: done in 0.123343 secs using 158.7% CPU
+Finish initializing candidate tree set (4)
+Current best tree score: -7250.760 / CPU time: 0.150
+Number of iterations: 2
+TREE SEARCH COMPLETED AFTER 2 ITERATIONS / Time: 0h:0m:0s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.050)
+1. Initial log-likelihood: -7250.760
+Optimal log-likelihood: -7250.759
+Rate parameters:  A-C: 1.09186  A-G: 1.59125  A-T: 0.31557  C-G: 0.48007  C-T: 4.48439  G-T: 1.00000
+Base frequencies:  A: 0.262  C: 0.183  G: 0.203  T: 0.352
+Parameters optimization took 1 rounds (0.004 sec)
+BEST SCORE FOUND : -7250.759
+Total tree length: 0.097
+
+Total number of iterations: 2
+CPU time used for tree search: 0.231 sec (0h:0m:0s)
+Wall-clock time used for tree search: 0.150 sec (0h:0m:0s)
+Total CPU time used: 0.306 sec (0h:0m:0s)
+Total wall-clock time used: 0.244 sec (0h:0m:0s)
+
+Analysis results written to: 
+  IQ-TREE report:                results/aligned_229e_spike-delim.fasta.iqtree
+  Maximum-likelihood tree:       results/aligned_229e_spike-delim.fasta.treefile
+  Likelihood distances:          results/aligned_229e_spike-delim.fasta.mldist
+  Screen log file:               results/aligned_229e_spike-delim.fasta.log
+
+Date and Time: Tue Jun 21 16:13:44 2022

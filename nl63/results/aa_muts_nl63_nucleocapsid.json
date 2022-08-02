@@ -17,7 +17,7 @@
   },
   "generated_by": {
     "program": "augur",
-    "version": "6.4.1"
+    "version": "14.1.0"
   },
   "nodes": {
     "229e/AF304460/229e_ref/Germany/2000": {
@@ -184,12 +184,12 @@
           "S342P",
           "S343L",
           "H344L",
-          "V345N",
-          "A346P",
+          "A345N",
+          "V346P",
           "Q347*",
           "T349S",
           "V350T",
-          "L351S",
+          "F351S",
           "N352Q",
           "A353T",
           "I355P",
@@ -215,31 +215,17 @@
     "NODE_0000000": {
       "aa_muts": {},
       "aa_sequences": {
-        "nucleocapsid": "MASVNWADDRAARKKFPPPSFYMPLLVSSDKAPYRVIPRNLVPIGKGNKDEQIGYWNVQERWRMRRGQRVDLPPKVHFYYLGTGPHKDLKFRQRSDGVVWVAKEGAKTVNTSLGNRKRNQKPLEPKFSIALPPELSVVEFEDRSNNSSRASSRSSTRNNSRDSSRSTSRQQSRTRSDSNQSSSDLVAAVTLALKNLGFDNQSKSPSSSGTSTPKKPNKPLSQPRADKPSQLKKPRWKRVPTREENVIQCFGPRDFNHNMGDSDLVQNGVDAKGFPQLAELIPNQAALFFDSEVSTDEVGDNVQITYTYKMLVAKDNKNLPKFIEQISAFTKPSSIKEMQSQSSHVAQNTVLNASIPESKPLADDDSAIIEIVNEVLH*"
-      }
-    },
-    "NODE_0000001": {
-      "aa_muts": {
-        "nucleocapsid": []
-      }
-    },
-    "NODE_0000002": {
-      "aa_muts": {
-        "nucleocapsid": []
+        "nucleocapsid": "MASVNWADDRAARKKFPPPSFYMPLLVSSDKAPYRVIPRNLVPIGKGNKDEQIGYWNVQERWRMRRGQRVDLPPKVHFYYLGTGPHKDLKFRQRSDGVVWVAKEGAKTVNTSLGNRKRNQKPLEPKFSIALPPELSVVEFEDRSNNSSRASSRSSTRNNSRDSSRSTSRQQSRTRSDSNQSSSDLVAAVTLALKNLGFDNQSKSPSSSGTSTPKKPNKPLSQPRADKPSQLKKPRWKRVPTREENVIQCFGPRDFNHNMGDSDLVQNGVDAKGFPQLAELIPNQAALFFDSEVSTDEVGDNVQITYTYKMLVAKDNKNLPKFIEQISAFTKPSSIKEMQSQSSHAVQNTVFNASIPESKPLADDDSAIIEIVNEVLH*"
       }
     },
     "NODE_0000003": {
       "aa_muts": {
-        "nucleocapsid": [
-          "A346V"
-        ]
+        "nucleocapsid": []
       }
     },
     "NODE_0000004": {
       "aa_muts": {
-        "nucleocapsid": [
-          "V345A"
-        ]
+        "nucleocapsid": []
       }
     },
     "NODE_0000005": {
@@ -263,11 +249,6 @@
       }
     },
     "NODE_0000009": {
-      "aa_muts": {
-        "nucleocapsid": []
-      }
-    },
-    "NODE_0000010": {
       "aa_muts": {
         "nucleocapsid": []
       }
@@ -324,15 +305,12 @@
     },
     "NODE_0000021": {
       "aa_muts": {
-        "nucleocapsid": []
+        "nucleocapsid": [
+          "S3N"
+        ]
       }
     },
     "NODE_0000022": {
-      "aa_muts": {
-        "nucleocapsid": []
-      }
-    },
-    "NODE_0000023": {
       "aa_muts": {
         "nucleocapsid": []
       }
@@ -344,14 +322,14 @@
     },
     "NODE_0000025": {
       "aa_muts": {
-        "nucleocapsid": []
+        "nucleocapsid": [
+          "D88E"
+        ]
       }
     },
     "NODE_0000026": {
       "aa_muts": {
-        "nucleocapsid": [
-          "N48S"
-        ]
+        "nucleocapsid": []
       }
     },
     "NODE_0000027": {
@@ -449,6 +427,11 @@
         "nucleocapsid": []
       }
     },
+    "NODE_0000046": {
+      "aa_muts": {
+        "nucleocapsid": []
+      }
+    },
     "NODE_0000047": {
       "aa_muts": {
         "nucleocapsid": []
@@ -462,6 +445,20 @@
     "NODE_0000049": {
       "aa_muts": {
         "nucleocapsid": []
+      }
+    },
+    "NODE_0000051": {
+      "aa_muts": {
+        "nucleocapsid": [
+          "V346A"
+        ]
+      }
+    },
+    "NODE_0000052": {
+      "aa_muts": {
+        "nucleocapsid": [
+          "A345V"
+        ]
       }
     },
     "NODE_0000053": {
@@ -489,14 +486,11 @@
         "nucleocapsid": []
       }
     },
-    "NODE_0000058": {
-      "aa_muts": {
-        "nucleocapsid": []
-      }
-    },
     "NODE_0000059": {
       "aa_muts": {
-        "nucleocapsid": []
+        "nucleocapsid": [
+          "F351L"
+        ]
       }
     },
     "NODE_0000060": {
@@ -514,19 +508,16 @@
         "nucleocapsid": []
       }
     },
+    "NODE_0000063": {
+      "aa_muts": {
+        "nucleocapsid": []
+      }
+    },
     "NODE_0000065": {
       "aa_muts": {
-        "nucleocapsid": []
-      }
-    },
-    "NODE_0000066": {
-      "aa_muts": {
-        "nucleocapsid": []
-      }
-    },
-    "NODE_0000067": {
-      "aa_muts": {
-        "nucleocapsid": []
+        "nucleocapsid": [
+          "N48S"
+        ]
       }
     },
     "NODE_0000068": {
@@ -556,10 +547,7 @@
     },
     "NODE_0000073": {
       "aa_muts": {
-        "nucleocapsid": [
-          "S3N",
-          "D88E"
-        ]
+        "nucleocapsid": []
       }
     },
     "NODE_0000074": {
@@ -567,18 +555,19 @@
         "nucleocapsid": []
       }
     },
+    "NODE_0000075": {
+      "aa_muts": {
+        "nucleocapsid": []
+      }
+    },
     "NODE_0000076": {
       "aa_muts": {
-        "nucleocapsid": [
-          "D88E"
-        ]
+        "nucleocapsid": []
       }
     },
     "NODE_0000077": {
       "aa_muts": {
-        "nucleocapsid": [
-          "S3N"
-        ]
+        "nucleocapsid": []
       }
     },
     "NODE_0000078": {
@@ -606,17 +595,24 @@
         "nucleocapsid": []
       }
     },
+    "NODE_0000083": {
+      "aa_muts": {
+        "nucleocapsid": []
+      }
+    },
+    "NODE_0000084": {
+      "aa_muts": {
+        "nucleocapsid": [
+          "A346V"
+        ]
+      }
+    },
+    "NODE_0000085": {
+      "aa_muts": {
+        "nucleocapsid": []
+      }
+    },
     "NODE_0000086": {
-      "aa_muts": {
-        "nucleocapsid": []
-      }
-    },
-    "NODE_0000087": {
-      "aa_muts": {
-        "nucleocapsid": []
-      }
-    },
-    "NODE_0000088": {
       "aa_muts": {
         "nucleocapsid": []
       }
@@ -668,27 +664,27 @@
     },
     "NODE_0000098": {
       "aa_muts": {
-        "nucleocapsid": []
-      }
-    },
-    "NODE_0000099": {
-      "aa_muts": {
         "nucleocapsid": [
           "S95F"
         ]
       }
     },
-    "NODE_0000100": {
+    "NODE_0000099": {
       "aa_muts": {
         "nucleocapsid": []
       }
     },
-    "NODE_0000101": {
+    "NODE_0000100": {
       "aa_muts": {
         "nucleocapsid": [
           "F95L",
           "A346V"
         ]
+      }
+    },
+    "NODE_0000101": {
+      "aa_muts": {
+        "nucleocapsid": []
       }
     },
     "NODE_0000102": {
@@ -731,27 +727,32 @@
         "nucleocapsid": []
       }
     },
+    "NODE_0000110": {
+      "aa_muts": {
+        "nucleocapsid": []
+      }
+    },
+    "NODE_0000111": {
+      "aa_muts": {
+        "nucleocapsid": []
+      }
+    },
+    "NODE_0000112": {
+      "aa_muts": {
+        "nucleocapsid": []
+      }
+    },
+    "NODE_0000113": {
+      "aa_muts": {
+        "nucleocapsid": []
+      }
+    },
     "NODE_0000114": {
       "aa_muts": {
         "nucleocapsid": []
       }
     },
-    "NODE_0000117": {
-      "aa_muts": {
-        "nucleocapsid": []
-      }
-    },
-    "NODE_0000118": {
-      "aa_muts": {
-        "nucleocapsid": []
-      }
-    },
-    "NODE_0000119": {
-      "aa_muts": {
-        "nucleocapsid": []
-      }
-    },
-    "NODE_0000121": {
+    "NODE_0000115": {
       "aa_muts": {
         "nucleocapsid": []
       }
@@ -897,6 +898,26 @@
       }
     },
     "NODE_0000150": {
+      "aa_muts": {
+        "nucleocapsid": []
+      }
+    },
+    "NODE_0000151": {
+      "aa_muts": {
+        "nucleocapsid": []
+      }
+    },
+    "NODE_0000152": {
+      "aa_muts": {
+        "nucleocapsid": []
+      }
+    },
+    "NODE_0000153": {
+      "aa_muts": {
+        "nucleocapsid": []
+      }
+    },
+    "NODE_0000154": {
       "aa_muts": {
         "nucleocapsid": []
       }
@@ -1052,6 +1073,11 @@
         "nucleocapsid": []
       }
     },
+    "nl63/KF530110/NL63/human/USA/838_9/1983/1983": {
+      "aa_muts": {
+        "nucleocapsid": []
+      }
+    },
     "nl63/KF530111/NL63/human/USA/901_24/1990/1990": {
       "aa_muts": {
         "nucleocapsid": []
@@ -1178,10 +1204,7 @@
     },
     "nl63/KM055611/GS05_2009/2009": {
       "aa_muts": {
-        "nucleocapsid": [
-          "S3N",
-          "A346V"
-        ]
+        "nucleocapsid": []
       }
     },
     "nl63/KT266906/HCoV_NL63/Haiti_1/2015/2015": {
@@ -1268,7 +1291,9 @@
     },
     "nl63/KT359844/12MYKL0880/2012": {
       "aa_muts": {
-        "nucleocapsid": []
+        "nucleocapsid": [
+          "N3S"
+        ]
       }
     },
     "nl63/KT359845/12MYKL0903/2012": {
@@ -1510,7 +1535,6 @@
     "nl63/KY862057/NL63/FRA_EPI/Caen/2014/18/2014": {
       "aa_muts": {
         "nucleocapsid": [
-          "L351F",
           "P356S"
         ]
       }
@@ -1560,7 +1584,6 @@
     "nl63/KY862066/NL63/FRA_EPI/Caen/2010/09/2010": {
       "aa_muts": {
         "nucleocapsid": [
-          "S3N",
           "A225S"
         ]
       }
@@ -1664,9 +1687,9 @@
     "nl63/MG772808/CN0601/14/2014": {
       "aa_muts": {
         "nucleocapsid": [
-          "S3N",
           "L220F",
-          "S342P"
+          "S342P",
+          "V346A"
         ]
       }
     },
@@ -1719,6 +1742,6 @@
     }
   },
   "reference": {
-    "nucleocapsid": "MASVNWADDRAARKKFPPPSFYMPLLVSSDKAPYRVIPRNLVPIGKGNKDEQIGYWNVQERWRMRRGQRVDLPPKVHFYYLGTGPHKDLKFRQRSDGVVWVAKEGAKTVNTSLGNRKRNQKPLEPKFSIALPPELSVVEFEDRSNNSSRASSRSSTRNNSRDSSRSTSRQQSRTRSDSNQSSSDLVAAVTLALKNLGFDNQSKSPSSSGTSTPKKPNKPLSQPRADKPSQLKKPRWKRVPTREENVIQCFGPRDFNHNMGDSDLVQNGVDAKGFPQLAELIPNQAALFFDSEVSTDEVGDNVQITYTYKMLVAKDNKNLPKFIEQISAFTKPSSIKEMQSQSSHVAQNTVLNASIPESKPLADDDSAIIEIVNEVLH*"
+    "nucleocapsid": "MASVNWADDRAARKKFPPPSFYMPLLVSSDKAPYRVIPRNLVPIGKGNKDEQIGYWNVQERWRMRRGQRVDLPPKVHFYYLGTGPHKDLKFRQRSDGVVWVAKEGAKTVNTSLGNRKRNQKPLEPKFSIALPPELSVVEFEDRSNNSSRASSRSSTRNNSRDSSRSTSRQQSRTRSDSNQSSSDLVAAVTLALKNLGFDNQSKSPSSSGTSTPKKPNKPLSQPRADKPSQLKKPRWKRVPTREENVIQCFGPRDFNHNMGDSDLVQNGVDAKGFPQLAELIPNQAALFFDSEVSTDEVGDNVQITYTYKMLVAKDNKNLPKFIEQISAFTKPSSIKEMQSQSSHAVQNTVFNASIPESKPLADDDSAIIEIVNEVLH*"
   }
 }

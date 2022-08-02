@@ -4,7 +4,7 @@
 # GENE = ["replicase1ab", "nonstructural2a", "he", "nonstructural2", "envelope", "membrane", "nucleocapsid", "n2protein", "s2"]
 # GENE = ["membrane", "nucleocapsid"]
 # GENE = ["rdrp"]
-GENE = ["spike"]
+GENE = ["he"]
 
 
 rule all:
@@ -173,7 +173,7 @@ rule ancestral:
         augur ancestral \
             --tree {input.tree} \
             --alignment {input.alignment} \
-            --output {output.node_data} \
+            --output-node-data {output.node_data} \
             --inference {params.inference}
         """
 
@@ -195,7 +195,7 @@ rule translate:
         """
 
 def _get_clades_file_for_wildcards(wildcards):
-    if wildcards.gene == 'spike' or wildcards.gene == 's1' or wildcards.gene == 'full' or wildcards.gene == 'replicase1ab' or wildcards.gene == 'rdrp' or wildcards.gene == 's2' or wildcards.gene == 'nucleocapsid' or wildcards.gene == 'membrane':
+    if wildcards.gene == 'spike' or wildcards.gene == 's1' or wildcards.gene == 'full' or wildcards.gene == 'replicase1ab' or wildcards.gene == 'rdrp' or wildcards.gene == 's2' or wildcards.gene == 'nucleocapsid' or wildcards.gene == 'membrane' or wildcards.gene == 'he':
         return "config/clades_%s.tsv"%wildcards.gene
 
 
@@ -209,7 +209,7 @@ rule clades:
     output:
         node_data = "results/clades_{gene}.json"
     run:
-        if wildcards.gene == 'spike' or wildcards.gene == 's1' or wildcards.gene == 'full' or wildcards.gene == 'replicase1ab' or wildcards.gene == 'rdrp' or wildcards.gene == 's2'or wildcards.gene == 'nucleocapsid' or wildcards.gene == 'membrane':
+        if wildcards.gene == 'spike' or wildcards.gene == 's1' or wildcards.gene == 'full' or wildcards.gene == 'replicase1ab' or wildcards.gene == 'rdrp' or wildcards.gene == 's2'or wildcards.gene == 'nucleocapsid' or wildcards.gene == 'membrane' or wildcards.gene == 'he':
             shell("""
                 augur clades \
                     --tree {input.tree} \

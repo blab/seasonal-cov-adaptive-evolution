@@ -1,10 +1,37 @@
 inputfile = orig
 214 x 2202 - 2202 d
 nthread = 1
+nadd = 0
+inputfile = infile
+thresholdtorev = 0.000000
+reflim = 5000
+mode = a
+generating a scoring matrix for nucleotide (dist=200) ... done
+
+Step 1/2
+1   101   201   
+
+Step 2/2
+ 1 / 214 (1 threads)    101 / 214 (1 threads)    201 / 214 (1 threads)   
+makedirectionlist (nuc) Version 7.490
+alg=m, model=DNA200 (2), 1.53 (4.59), 0.37 (1.11), noshift, amax=0.0
+1 thread(s)
+
+directionfile = _direction
+inputfile = infile
+subalignment = 0
+subalignmentoffset = 0
+214 x 2202 - 2202 d
+directionfile = _direction
+inputfile = orig
+subalignment = 0
+subalignmentoffset = 0
+214 x 2202 - 2202 d
+nthread = 1
 nthreadpair = 1
 nthreadtb = 1
 ppenalty_ex = 0
-stacksize: 8192 kb
+stacksize: 8176 kb
 generating a scoring matrix for nucleotide (dist=200) ... done
 Gap Penalty = -1.53, +0.00, +0.00
 
@@ -36,7 +63,7 @@ Progressive alignment 2/2...
 STEP     1 / 213 (thread    0) fSTEP     2 / 213 (thread    0) fSTEP     3 / 213 (thread    0) fSTEP     4 / 213 (thread    0) fSTEP     5 / 213 (thread    0) fSTEP     6 / 213 (thread    0) fSTEP     7 / 213 (thread    0) fSTEP     8 / 213 (thread    0) fSTEP     9 / 213 (thread    0) fSTEP    10 / 213 (thread    0) fSTEP    11 / 213 (thread    0) fSTEP    12 / 213 (thread    0) fSTEP    13 / 213 (thread    0) fSTEP    14 / 213 (thread    0) fSTEP    15 / 213 (thread    0) fSTEP    16 / 213 (thread    0) fSTEP    17 / 213 (thread    0) fSTEP    18 / 213 (thread    0) fSTEP    19 / 213 (thread    0) fSTEP    20 / 213 (thread    0) fSTEP    21 / 213 (thread    0) fSTEP    22 / 213 (thread    0) fSTEP    23 / 213 (thread    0) fSTEP    24 / 213 (thread    0) fSTEP    25 / 213 (thread    0) fSTEP    26 / 213 (thread    0) fSTEP    27 / 213 (thread    0) fSTEP    28 / 213 (thread    0) fSTEP    29 / 213 (thread    0) fSTEP    30 / 213 (thread    0) fSTEP    31 / 213 (thread    0) fSTEP    32 / 213 (thread    0) fSTEP    33 / 213 (thread    0) fSTEP    34 / 213 (thread    0) fSTEP    35 / 213 (thread    0) fSTEP    36 / 213 (thread    0) fSTEP    37 / 213 (thread    0) fSTEP    38 / 213 (thread    0) fSTEP    39 / 213 (thread    0) fSTEP    40 / 213 (thread    0) fSTEP    41 / 213 (thread    0) fSTEP    42 / 213 (thread    0) fSTEP    43 / 213 (thread    0) fSTEP    44 / 213 (thread    0) fSTEP    45 / 213 (thread    0) fSTEP    46 / 213 (thread    0) fSTEP    47 / 213 (thread    0) fSTEP    48 / 213 (thread    0) fSTEP    49 / 213 (thread    0) fSTEP    50 / 213 (thread    0) fSTEP    51 / 213 (thread    0) fSTEP    52 / 213 (thread    0) fSTEP    53 / 213 (thread    0) fSTEP    54 / 213 (thread    0) fSTEP    55 / 213 (thread    0) fSTEP    56 / 213 (thread    0) fSTEP    57 / 213 (thread    0) fSTEP    58 / 213 (thread    0) fSTEP    59 / 213 (thread    0) fSTEP    60 / 213 (thread    0) fSTEP    61 / 213 (thread    0) fSTEP    62 / 213 (thread    0) fSTEP    63 / 213 (thread    0) fSTEP    64 / 213 (thread    0) fSTEP    65 / 213 (thread    0) fSTEP    66 / 213 (thread    0) fSTEP    67 / 213 (thread    0) fSTEP    68 / 213 (thread    0) fSTEP    69 / 213 (thread    0) fSTEP    70 / 213 (thread    0) fSTEP    71 / 213 (thread    0) fSTEP    72 / 213 (thread    0) fSTEP    73 / 213 (thread    0) fSTEP    74 / 213 (thread    0) fSTEP    75 / 213 (thread    0) fSTEP    76 / 213 (thread    0) fSTEP    77 / 213 (thread    0) fSTEP    78 / 213 (thread    0) fSTEP    79 / 213 (thread    0) fSTEP    80 / 213 (thread    0) fSTEP    81 / 213 (thread    0) fSTEP    82 / 213 (thread    0) fSTEP    83 / 213 (thread    0) fSTEP    84 / 213 (thread    0) fSTEP    85 / 213 (thread    0) fSTEP    86 / 213 (thread    0) fSTEP    87 / 213 (thread    0) fSTEP    88 / 213 (thread    0) fSTEP    89 / 213 (thread    0) fSTEP    90 / 213 (thread    0) fSTEP    91 / 213 (thread    0) fSTEP    92 / 213 (thread    0) fSTEP    93 / 213 (thread    0) fSTEP    94 / 213 (thread    0) fSTEP    95 / 213 (thread    0) fSTEP    96 / 213 (thread    0) fSTEP    97 / 213 (thread    0) fSTEP    98 / 213 (thread    0) fSTEP    99 / 213 (thread    0) fSTEP   100 / 213 (thread    0) fSTEP   101 / 213 (thread    0) fSTEP   102 / 213 (thread    0) fSTEP   103 / 213 (thread    0) fSTEP   104 / 213 (thread    0) fSTEP   105 / 213 (thread    0) fSTEP   106 / 213 (thread    0) fSTEP   107 / 213 (thread    0) fSTEP   108 / 213 (thread    0) fSTEP   109 / 213 (thread    0) fSTEP   110 / 213 (thread    0) fSTEP   111 / 213 (thread    0) fSTEP   112 / 213 (thread    0) fSTEP   113 / 213 (thread    0) fSTEP   114 / 213 (thread    0) fSTEP   115 / 213 (thread    0) fSTEP   116 / 213 (thread    0) fSTEP   117 / 213 (thread    0) fSTEP   118 / 213 (thread    0) fSTEP   119 / 213 (thread    0) fSTEP   120 / 213 (thread    0) fSTEP   121 / 213 (thread    0) fSTEP   122 / 213 (thread    0) fSTEP   123 / 213 (thread    0) fSTEP   124 / 213 (thread    0) fSTEP   125 / 213 (thread    0) fSTEP   126 / 213 (thread    0) fSTEP   127 / 213 (thread    0) fSTEP   128 / 213 (thread    0) fSTEP   129 / 213 (thread    0) fSTEP   130 / 213 (thread    0) fSTEP   131 / 213 (thread    0) fSTEP   132 / 213 (thread    0) fSTEP   133 / 213 (thread    0) fSTEP   134 / 213 (thread    0) fSTEP   135 / 213 (thread    0) fSTEP   136 / 213 (thread    0) fSTEP   137 / 213 (thread    0) fSTEP   138 / 213 (thread    0) fSTEP   139 / 213 (thread    0) fSTEP   140 / 213 (thread    0) fSTEP   141 / 213 (thread    0) fSTEP   142 / 213 (thread    0) fSTEP   143 / 213 (thread    0) fSTEP   144 / 213 (thread    0) fSTEP   145 / 213 (thread    0) fSTEP   146 / 213 (thread    0) fSTEP   147 / 213 (thread    0) fSTEP   148 / 213 (thread    0) fSTEP   149 / 213 (thread    0) fSTEP   150 / 213 (thread    0) fSTEP   151 / 213 (thread    0) fSTEP   152 / 213 (thread    0) fSTEP   153 / 213 (thread    0) fSTEP   154 / 213 (thread    0) fSTEP   155 / 213 (thread    0) fSTEP   156 / 213 (thread    0) fSTEP   157 / 213 (thread    0) fSTEP   158 / 213 (thread    0) fSTEP   159 / 213 (thread    0) fSTEP   160 / 213 (thread    0) fSTEP   161 / 213 (thread    0) fSTEP   162 / 213 (thread    0) fSTEP   163 / 213 (thread    0) fSTEP   164 / 213 (thread    0) fSTEP   165 / 213 (thread    0) fSTEP   166 / 213 (thread    0) fSTEP   167 / 213 (thread    0) fSTEP   168 / 213 (thread    0) fSTEP   169 / 213 (thread    0) fSTEP   170 / 213 (thread    0) fSTEP   171 / 213 (thread    0) fSTEP   172 / 213 (thread    0) fSTEP   173 / 213 (thread    0) fSTEP   174 / 213 (thread    0) fSTEP   175 / 213 (thread    0) fSTEP   176 / 213 (thread    0) fSTEP   177 / 213 (thread    0) fSTEP   178 / 213 (thread    0) fSTEP   179 / 213 (thread    0) fSTEP   180 / 213 (thread    0) fSTEP   181 / 213 (thread    0) fSTEP   182 / 213 (thread    0) fSTEP   183 / 213 (thread    0) fSTEP   184 / 213 (thread    0) fSTEP   185 / 213 (thread    0) fSTEP   186 / 213 (thread    0) fSTEP   187 / 213 (thread    0) fSTEP   188 / 213 (thread    0) fSTEP   189 / 213 (thread    0) fSTEP   190 / 213 (thread    0) fSTEP   191 / 213 (thread    0) fSTEP   192 / 213 (thread    0) fSTEP   193 / 213 (thread    0) fSTEP   194 / 213 (thread    0) fSTEP   195 / 213 (thread    0) fSTEP   196 / 213 (thread    0) fSTEP   197 / 213 (thread    0) fSTEP   198 / 213 (thread    0) fSTEP   199 / 213 (thread    0) fSTEP   200 / 213 (thread    0) fSTEP   201 / 213 (thread    0) fSTEP   202 / 213 (thread    0) fSTEP   203 / 213 (thread    0) fSTEP   204 / 213 (thread    0) fSTEP   205 / 213 (thread    0) fSTEP   206 / 213 (thread    0) fSTEP   207 / 213 (thread    0) fSTEP   208 / 213 (thread    0) fSTEP   209 / 213 (thread    0) fSTEP   210 / 213 (thread    0) fSTEP   211 / 213 (thread    0) fSTEP   212 / 213 (thread    0) fSTEP   213 / 213 (thread    0) f
 done.
 
-disttbfast (nuc) Version 7.455
+disttbfast (nuc) Version 7.490
 alg=A, model=DNA200 (2), 1.53 (4.59), -0.00 (-0.00), noshift, amax=0.0
 1 thread(s)
 

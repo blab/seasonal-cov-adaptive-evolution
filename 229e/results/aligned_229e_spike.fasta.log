@@ -1,10 +1,37 @@
 inputfile = orig
 58 x 3522 - 3522 d
 nthread = 1
+nadd = 0
+inputfile = infile
+thresholdtorev = 0.000000
+reflim = 5000
+mode = a
+generating a scoring matrix for nucleotide (dist=200) ... done
+
+Step 1/2
+1   
+
+Step 2/2
+ 1 / 58 (1 threads)   
+makedirectionlist (nuc) Version 7.490
+alg=m, model=DNA200 (2), 1.53 (4.59), 0.37 (1.11), noshift, amax=0.0
+1 thread(s)
+
+directionfile = _direction
+inputfile = infile
+subalignment = 0
+subalignmentoffset = 0
+58 x 3522 - 3522 d
+directionfile = _direction
+inputfile = orig
+subalignment = 0
+subalignmentoffset = 0
+58 x 3522 - 3522 d
+nthread = 1
 nthreadpair = 1
 nthreadtb = 1
 ppenalty_ex = 0
-stacksize: 8192 kb
+stacksize: 8176 kb
 generating a scoring matrix for nucleotide (dist=200) ... done
 Gap Penalty = -1.53, +0.00, +0.00
 
@@ -36,7 +63,7 @@ Progressive alignment 2/2...
 STEP     1 / 57 (thread    0) fSTEP     2 / 57 (thread    0) fSTEP     3 / 57 (thread    0) fSTEP     4 / 57 (thread    0) fSTEP     5 / 57 (thread    0) fSTEP     6 / 57 (thread    0) fSTEP     7 / 57 (thread    0) fSTEP     8 / 57 (thread    0) fSTEP     9 / 57 (thread    0) fSTEP    10 / 57 (thread    0) fSTEP    11 / 57 (thread    0) fSTEP    12 / 57 (thread    0) fSTEP    13 / 57 (thread    0) fSTEP    14 / 57 (thread    0) fSTEP    15 / 57 (thread    0) fSTEP    16 / 57 (thread    0) fSTEP    17 / 57 (thread    0) fSTEP    18 / 57 (thread    0) fSTEP    19 / 57 (thread    0) fSTEP    20 / 57 (thread    0) fSTEP    21 / 57 (thread    0) fSTEP    22 / 57 (thread    0) fSTEP    23 / 57 (thread    0) fSTEP    24 / 57 (thread    0) fSTEP    25 / 57 (thread    0) fSTEP    26 / 57 (thread    0) fSTEP    27 / 57 (thread    0) fSTEP    28 / 57 (thread    0) fSTEP    29 / 57 (thread    0) fSTEP    30 / 57 (thread    0) fSTEP    31 / 57 (thread    0) fSTEP    32 / 57 (thread    0) fSTEP    33 / 57 (thread    0) fSTEP    34 / 57 (thread    0) fSTEP    35 / 57 (thread    0) fSTEP    36 / 57 (thread    0) fSTEP    37 / 57 (thread    0) fSTEP    38 / 57 (thread    0) fSTEP    39 / 57 (thread    0) fSTEP    40 / 57 (thread    0) fSTEP    41 / 57 (thread    0) fSTEP    42 / 57 (thread    0) fSTEP    43 / 57 (thread    0) fSTEP    44 / 57 (thread    0) fSTEP    45 / 57 (thread    0) fSTEP    46 / 57 (thread    0) fSTEP    47 / 57 (thread    0) fSTEP    48 / 57 (thread    0) fSTEP    49 / 57 (thread    0) fSTEP    50 / 57 (thread    0) fSTEP    51 / 57 (thread    0) fSTEP    52 / 57 (thread    0) fSTEP    53 / 57 (thread    0) fSTEP    54 / 57 (thread    0) fSTEP    55 / 57 (thread    0) fSTEP    56 / 57 (thread    0) fSTEP    57 / 57 (thread    0) f
 done.
 
-disttbfast (nuc) Version 7.455
+disttbfast (nuc) Version 7.490
 alg=A, model=DNA200 (2), 1.53 (4.59), -0.00 (-0.00), noshift, amax=0.0
 1 thread(s)
 

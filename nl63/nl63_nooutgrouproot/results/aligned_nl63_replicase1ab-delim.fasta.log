@@ -1,0 +1,156 @@
+IQ-TREE multicore version 2.2.0-beta COVID-edition for Mac OS X 64-bit built Mar  3 2022 built Mar  3 2022
+Developed by Bui Quang Minh, James Barbetti, Nguyen Lam Tung,
+Olga Chernomor, Heiko Schmidt, Dominik Schrempf, Michael Woodhams, Ly Trong Nhan.
+
+Host:    macbook-pro-2.fhcrc.org (SSE4.2, 8 GB RAM)
+Command: iqtree2 -nt 1 -s results/aligned_nl63_replicase1ab-delim.fasta -m GTR -ninit 2 -n 2 -me 0.05
+Seed:    664114 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Thu May 12 17:39:36 2022
+Kernel:  SSE2 - 1 threads (8 CPU cores detected)
+
+HINT: Use -nt option to specify number of threads because your CPU has 8 cores!
+HINT: -nt AUTO will automatically determine the best number of threads to use.
+
+Reading alignment file results/aligned_nl63_replicase1ab-delim.fasta ... Fasta format detected
+Reading fasta file: done in 0.0373409 secs using 73.87% CPU
+Alignment most likely contains DNA/RNA sequences
+Constructing alignment: done in 0.0175681 secs using 78.96% CPU
+Alignment has 64 sequences with 20190 columns, 803 distinct patterns
+488 parsimony-informative, 451 singleton sites, 19251 constant sites
+                                                                                                                                                                                                                                                   Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 9.70364e-05 secs using 88.63% CPU
+   1  nl63_DELIM-CMPDMRLISNZUDKEGLVYD_JX504050_DELIM-CMPDMRLISNZUDKEGLVYD_NL63_DELIM-CMPDMRLISNZUDKEGLVYD_RPTEC_DELIM-CMPDMRLISNZUDKEGLVYD_2004_DELIM-CMPDMRLISNZUDKEGLVYD_2004                                                                            0.00%    passed     99.97%
+   2  nl63_DELIM-CMPDMRLISNZUDKEGLVYD_JQ765573_DELIM-CMPDMRLISNZUDKEGLVYD_NL63_DELIM-CMPDMRLISNZUDKEGLVYD_DEN_DELIM-CMPDMRLISNZUDKEGLVYD_2005_DELIM-CMPDMRLISNZUDKEGLVYD_1062_DELIM-CMPDMRLISNZUDKEGLVYD_2005                                              0.00%    passed     99.97%
+   3  nl63_DELIM-CMPDMRLISNZUDKEGLVYD_JQ765568_DELIM-CMPDMRLISNZUDKEGLVYD_NL63_DELIM-CMPDMRLISNZUDKEGLVYD_DEN_DELIM-CMPDMRLISNZUDKEGLVYD_2005_DELIM-CMPDMRLISNZUDKEGLVYD_193_DELIM-CMPDMRLISNZUDKEGLVYD_2005                                               0.00%    passed     99.87%
+   4  nl63_DELIM-CMPDMRLISNZUDKEGLVYD_JQ900259_DELIM-CMPDMRLISNZUDKEGLVYD_NL63_DELIM-CMPDMRLISNZUDKEGLVYD_DEN_DELIM-CMPDMRLISNZUDKEGLVYD_2005_DELIM-CMPDMRLISNZUDKEGLVYD_449_DELIM-CMPDMRLISNZUDKEGLVYD_2005                                               0.02%    passed     99.99%
+   5  nl63_DELIM-CMPDMRLISNZUDKEGLVYD_JQ765575_DELIM-CMPDMRLISNZUDKEGLVYD_NL63_DELIM-CMPDMRLISNZUDKEGLVYD_DEN_DELIM-CMPDMRLISNZUDKEGLVYD_2005_DELIM-CMPDMRLISNZUDKEGLVYD_1876_DELIM-CMPDMRLISNZUDKEGLVYD_2005                                              0.00%    passed     99.99%
+   6  nl63_DELIM-CMPDMRLISNZUDKEGLVYD_JQ765571_DELIM-CMPDMRLISNZUDKEGLVYD_NL63_DELIM-CMPDMRLISNZUDKEGLVYD_DEN_DELIM-CMPDMRLISNZUDKEGLVYD_2005_DELIM-CMPDMRLISNZUDKEGLVYD_271_DELIM-CMPDMRLISNZUDKEGLVYD_2005                                               0.00%    passed     99.97%
+   7  nl63_DELIM-CMPDMRLISNZUDKEGLVYD_JQ765572_DELIM-CMPDMRLISNZUDKEGLVYD_NL63_DELIM-CMPDMRLISNZUDKEGLVYD_DEN_DELIM-CMPDMRLISNZUDKEGLVYD_2005_DELIM-CMPDMRLISNZUDKEGLVYD_347_DELIM-CMPDMRLISNZUDKEGLVYD_2005                                               0.00%    passed     99.94%
+   8  nl63_DELIM-CMPDMRLISNZUDKEGLVYD_KY554967_DELIM-CMPDMRLISNZUDKEGLVYD_N06_1144B_DELIM-CMPDMRLISNZUDKEGLVYD_2016                                                                                                                                        0.00%    passed     99.47%
+   9  nl63_DELIM-CMPDMRLISNZUDKEGLVYD_KY554968_DELIM-CMPDMRLISNZUDKEGLVYD_N07_185B_DELIM-CMPDMRLISNZUDKEGLVYD_2016                                                                                                                                         0.00%    passed     99.47%
+  10  nl63_DELIM-CMPDMRLISNZUDKEGLVYD_KY674916_DELIM-CMPDMRLISNZUDKEGLVYD_N07_64B_DELIM-CMPDMRLISNZUDKEGLVYD_2016                                                                                                                                          0.00%    passed     99.47%
+  11  nl63_DELIM-CMPDMRLISNZUDKEGLVYD_KY674915_DELIM-CMPDMRLISNZUDKEGLVYD_N07_6B_DELIM-CMPDMRLISNZUDKEGLVYD_2016                                                                                                                                           0.00%    passed     99.47%
+  12  nl63_DELIM-CMPDMRLISNZUDKEGLVYD_KY554970_DELIM-CMPDMRLISNZUDKEGLVYD_N07_324B_182X_DELIM-CMPDMRLISNZUDKEGLVYD_2016                                                                                                                                    0.00%    passed     99.42%
+  13  nl63_DELIM-CMPDMRLISNZUDKEGLVYD_JQ765566_DELIM-CMPDMRLISNZUDKEGLVYD_NL63_DELIM-CMPDMRLISNZUDKEGLVYD_DEN_DELIM-CMPDMRLISNZUDKEGLVYD_2008_DELIM-CMPDMRLISNZUDKEGLVYD_16_DELIM-CMPDMRLISNZUDKEGLVYD_2008                                                0.00%    passed     99.73%
+  14  nl63_DELIM-CMPDMRLISNZUDKEGLVYD_JQ900255_DELIM-CMPDMRLISNZUDKEGLVYD_NL63_DELIM-CMPDMRLISNZUDKEGLVYD_DEN_DELIM-CMPDMRLISNZUDKEGLVYD_2009_DELIM-CMPDMRLISNZUDKEGLVYD_6_DELIM-CMPDMRLISNZUDKEGLVYD_2009                                                 0.00%    passed     99.59%
+  15  nl63_DELIM-CMPDMRLISNZUDKEGLVYD_JQ765567_DELIM-CMPDMRLISNZUDKEGLVYD_NL63_DELIM-CMPDMRLISNZUDKEGLVYD_DEN_DELIM-CMPDMRLISNZUDKEGLVYD_2009_DELIM-CMPDMRLISNZUDKEGLVYD_20_DELIM-CMPDMRLISNZUDKEGLVYD_2009                                                0.00%    passed     99.68%
+  16  nl63_DELIM-CMPDMRLISNZUDKEGLVYD_KT381875_DELIM-CMPDMRLISNZUDKEGLVYD_NL63_DELIM-CMPDMRLISNZUDKEGLVYD_UF_1_DELIM-CMPDMRLISNZUDKEGLVYD_2015_DELIM-CMPDMRLISNZUDKEGLVYD_2015                                                                             0.00%    passed     99.79%
+  17  nl63_DELIM-CMPDMRLISNZUDKEGLVYD_KU521535_DELIM-CMPDMRLISNZUDKEGLVYD_NL63_DELIM-CMPDMRLISNZUDKEGLVYD_UF_2_DELIM-CMPDMRLISNZUDKEGLVYD_2015_DELIM-CMPDMRLISNZUDKEGLVYD_2015                                                                             0.00%    passed     99.73%
+  18  nl63_DELIM-CMPDMRLISNZUDKEGLVYD_KX179500_DELIM-CMPDMRLISNZUDKEGLVYD_NL63_DELIM-CMPDMRLISNZUDKEGLVYD_UF_2_DELIM-CMPDMRLISNZUDKEGLVYD_2015_DELIM-CMPDMRLISNZUDKEGLVYD_2015                                                                             0.00%    passed     99.84%
+  19  nl63_DELIM-CMPDMRLISNZUDKEGLVYD_KY554969_DELIM-CMPDMRLISNZUDKEGLVYD_N07_196B_DELIM-CMPDMRLISNZUDKEGLVYD_2016                                                                                                                                         0.00%    passed     99.92%
+  20  nl63_DELIM-CMPDMRLISNZUDKEGLVYD_KY829118_DELIM-CMPDMRLISNZUDKEGLVYD_N07_262B_DELIM-CMPDMRLISNZUDKEGLVYD_2015                                                                                                                                         0.00%    passed     99.92%
+  21  nl63_DELIM-CMPDMRLISNZUDKEGLVYD_KY554971_DELIM-CMPDMRLISNZUDKEGLVYD_N07_468B_176X_DELIM-CMPDMRLISNZUDKEGLVYD_2016                                                                                                                                    0.00%    passed     99.93%
+  22  nl63_DELIM-CMPDMRLISNZUDKEGLVYD_JQ765574_DELIM-CMPDMRLISNZUDKEGLVYD_NL63_DELIM-CMPDMRLISNZUDKEGLVYD_DEN_DELIM-CMPDMRLISNZUDKEGLVYD_2005_DELIM-CMPDMRLISNZUDKEGLVYD_1862_DELIM-CMPDMRLISNZUDKEGLVYD_2005                                              0.00%    passed     99.93%
+  23  nl63_DELIM-CMPDMRLISNZUDKEGLVYD_KF530105_DELIM-CMPDMRLISNZUDKEGLVYD_NL63_DELIM-CMPDMRLISNZUDKEGLVYD_human_DELIM-CMPDMRLISNZUDKEGLVYD_USA_DELIM-CMPDMRLISNZUDKEGLVYD_012_31_DELIM-CMPDMRLISNZUDKEGLVYD_2001_DELIM-CMPDMRLISNZUDKEGLVYD_2001           0.00%    passed     99.92%
+  24  nl63_DELIM-CMPDMRLISNZUDKEGLVYD_JQ900260_DELIM-CMPDMRLISNZUDKEGLVYD_NL63_DELIM-CMPDMRLISNZUDKEGLVYD_DEN_DELIM-CMPDMRLISNZUDKEGLVYD_2005_DELIM-CMPDMRLISNZUDKEGLVYD_1120_DELIM-CMPDMRLISNZUDKEGLVYD_2005                                              9.40%    passed     96.20%
+  25  nl63_DELIM-CMPDMRLISNZUDKEGLVYD_MK334043_DELIM-CMPDMRLISNZUDKEGLVYD_ChinaGD02_DELIM-CMPDMRLISNZUDKEGLVYD_2018                                                                                                                                        0.00%    passed     99.95%
+  26  nl63_DELIM-CMPDMRLISNZUDKEGLVYD_MK334044_DELIM-CMPDMRLISNZUDKEGLVYD_ChinaGD03_DELIM-CMPDMRLISNZUDKEGLVYD_2018                                                                                                                                        0.00%    passed     99.99%
+  27  nl63_DELIM-CMPDMRLISNZUDKEGLVYD_MN306018_DELIM-CMPDMRLISNZUDKEGLVYD_HCoV_NL63_DELIM-CMPDMRLISNZUDKEGLVYD_Seattle_DELIM-CMPDMRLISNZUDKEGLVYD_USA_DELIM-CMPDMRLISNZUDKEGLVYD_SC0179_DELIM-CMPDMRLISNZUDKEGLVYD_2018_DELIM-CMPDMRLISNZUDKEGLVYD_2018    0.36%    passed     98.88%
+  28  nl63_DELIM-CMPDMRLISNZUDKEGLVYD_KF530110_DELIM-CMPDMRLISNZUDKEGLVYD_NL63_DELIM-CMPDMRLISNZUDKEGLVYD_human_DELIM-CMPDMRLISNZUDKEGLVYD_USA_DELIM-CMPDMRLISNZUDKEGLVYD_838_9_DELIM-CMPDMRLISNZUDKEGLVYD_1983_DELIM-CMPDMRLISNZUDKEGLVYD_1983            0.00%    passed     99.50%
+  29  nl63_DELIM-CMPDMRLISNZUDKEGLVYD_KF530114_DELIM-CMPDMRLISNZUDKEGLVYD_NL63_DELIM-CMPDMRLISNZUDKEGLVYD_human_DELIM-CMPDMRLISNZUDKEGLVYD_USA_DELIM-CMPDMRLISNZUDKEGLVYD_891_4_DELIM-CMPDMRLISNZUDKEGLVYD_1989_DELIM-CMPDMRLISNZUDKEGLVYD_1989            0.00%    passed     99.99%
+  30  nl63_DELIM-CMPDMRLISNZUDKEGLVYD_KF530108_DELIM-CMPDMRLISNZUDKEGLVYD_NL63_DELIM-CMPDMRLISNZUDKEGLVYD_human_DELIM-CMPDMRLISNZUDKEGLVYD_USA_DELIM-CMPDMRLISNZUDKEGLVYD_891_6_DELIM-CMPDMRLISNZUDKEGLVYD_1989_DELIM-CMPDMRLISNZUDKEGLVYD_1989            0.00%    passed    100.00%
+  31  nl63_DELIM-CMPDMRLISNZUDKEGLVYD_KF530104_DELIM-CMPDMRLISNZUDKEGLVYD_NL63_DELIM-CMPDMRLISNZUDKEGLVYD_human_DELIM-CMPDMRLISNZUDKEGLVYD_USA_DELIM-CMPDMRLISNZUDKEGLVYD_904_20_DELIM-CMPDMRLISNZUDKEGLVYD_1990_DELIM-CMPDMRLISNZUDKEGLVYD_1990           0.00%    passed     99.99%
+  32  nl63_DELIM-CMPDMRLISNZUDKEGLVYD_KF530111_DELIM-CMPDMRLISNZUDKEGLVYD_NL63_DELIM-CMPDMRLISNZUDKEGLVYD_human_DELIM-CMPDMRLISNZUDKEGLVYD_USA_DELIM-CMPDMRLISNZUDKEGLVYD_901_24_DELIM-CMPDMRLISNZUDKEGLVYD_1990_DELIM-CMPDMRLISNZUDKEGLVYD_1990           0.00%    passed     99.97%
+  33  nl63_DELIM-CMPDMRLISNZUDKEGLVYD_KF530109_DELIM-CMPDMRLISNZUDKEGLVYD_NL63_DELIM-CMPDMRLISNZUDKEGLVYD_human_DELIM-CMPDMRLISNZUDKEGLVYD_USA_DELIM-CMPDMRLISNZUDKEGLVYD_903_28_DELIM-CMPDMRLISNZUDKEGLVYD_1990_DELIM-CMPDMRLISNZUDKEGLVYD_1990           0.00%    passed     99.98%
+  34  nl63_DELIM-CMPDMRLISNZUDKEGLVYD_KF530107_DELIM-CMPDMRLISNZUDKEGLVYD_NL63_DELIM-CMPDMRLISNZUDKEGLVYD_human_DELIM-CMPDMRLISNZUDKEGLVYD_USA_DELIM-CMPDMRLISNZUDKEGLVYD_911_56_DELIM-CMPDMRLISNZUDKEGLVYD_1991_DELIM-CMPDMRLISNZUDKEGLVYD_1991           0.00%    passed     99.97%
+  35  nl63_DELIM-CMPDMRLISNZUDKEGLVYD_KF530113_DELIM-CMPDMRLISNZUDKEGLVYD_NL63_DELIM-CMPDMRLISNZUDKEGLVYD_human_DELIM-CMPDMRLISNZUDKEGLVYD_USA_DELIM-CMPDMRLISNZUDKEGLVYD_905_25_DELIM-CMPDMRLISNZUDKEGLVYD_1990_DELIM-CMPDMRLISNZUDKEGLVYD_1990           0.00%    passed     99.98%
+  36  nl63_DELIM-CMPDMRLISNZUDKEGLVYD_KY983586_DELIM-CMPDMRLISNZUDKEGLVYD_HCoV_NL63_DELIM-CMPDMRLISNZUDKEGLVYD_Seattle_DELIM-CMPDMRLISNZUDKEGLVYD_USA_DELIM-CMPDMRLISNZUDKEGLVYD_SC2940_DELIM-CMPDMRLISNZUDKEGLVYD_2015_DELIM-CMPDMRLISNZUDKEGLVYD_2015    0.34%    passed     99.97%
+  37  nl63_DELIM-CMPDMRLISNZUDKEGLVYD_JX104161_DELIM-CMPDMRLISNZUDKEGLVYD_CBJ_037_DELIM-CMPDMRLISNZUDKEGLVYD_2008                                                                                                                                          0.08%    passed     99.97%
+  38  nl63_DELIM-CMPDMRLISNZUDKEGLVYD_MG428703_DELIM-CMPDMRLISNZUDKEGLVYD_Kilifi_HH_0511_01_Jun_2010_DELIM-CMPDMRLISNZUDKEGLVYD_2010                                                                                                                       0.18%    passed     99.84%
+  39  nl63_DELIM-CMPDMRLISNZUDKEGLVYD_MG428704_DELIM-CMPDMRLISNZUDKEGLVYD_Kilifi_HH_5402_20_May_2010_DELIM-CMPDMRLISNZUDKEGLVYD_2010                                                                                                                       0.18%    passed     99.80%
+  40  nl63_DELIM-CMPDMRLISNZUDKEGLVYD_MG428699_DELIM-CMPDMRLISNZUDKEGLVYD_Kilifi_HH_5709_19_May_2010_DELIM-CMPDMRLISNZUDKEGLVYD_2010                                                                                                                       0.18%    passed     99.86%
+  41  nl63_DELIM-CMPDMRLISNZUDKEGLVYD_MG428705_DELIM-CMPDMRLISNZUDKEGLVYD_Kilifi_HH_0522_21_May_2010_DELIM-CMPDMRLISNZUDKEGLVYD_2010                                                                                                                       0.18%    passed     99.84%
+  42  nl63_DELIM-CMPDMRLISNZUDKEGLVYD_MG428706_DELIM-CMPDMRLISNZUDKEGLVYD_Kilifi_HH_3808_24_May_2010_DELIM-CMPDMRLISNZUDKEGLVYD_2010                                                                                                                       0.18%    passed     99.67%
+  43  nl63_DELIM-CMPDMRLISNZUDKEGLVYD_MG428700_DELIM-CMPDMRLISNZUDKEGLVYD_Kilifi_HH_1602_01_Jun_2010_DELIM-CMPDMRLISNZUDKEGLVYD_2010                                                                                                                       1.86%    passed     99.57%
+  44  nl63_DELIM-CMPDMRLISNZUDKEGLVYD_MG428702_DELIM-CMPDMRLISNZUDKEGLVYD_Kilifi_HH_3807_11_May_2010_DELIM-CMPDMRLISNZUDKEGLVYD_2010                                                                                                                       0.18%    passed     99.52%
+  45  nl63_DELIM-CMPDMRLISNZUDKEGLVYD_MG428701_DELIM-CMPDMRLISNZUDKEGLVYD_Kilifi_HH_0512_04_Jun_2010_DELIM-CMPDMRLISNZUDKEGLVYD_2010                                                                                                                       0.18%    passed     99.84%
+  46  nl63_DELIM-CMPDMRLISNZUDKEGLVYD_JX524171_DELIM-CMPDMRLISNZUDKEGLVYD_CBJ123_DELIM-CMPDMRLISNZUDKEGLVYD_2009                                                                                                                                           0.07%    passed     99.95%
+  47  nl63_DELIM-CMPDMRLISNZUDKEGLVYD_JQ900257_DELIM-CMPDMRLISNZUDKEGLVYD_NL63_DELIM-CMPDMRLISNZUDKEGLVYD_DEN_DELIM-CMPDMRLISNZUDKEGLVYD_2009_DELIM-CMPDMRLISNZUDKEGLVYD_31_DELIM-CMPDMRLISNZUDKEGLVYD_2009                                                0.32%    passed     99.95%
+  48  nl63_DELIM-CMPDMRLISNZUDKEGLVYD_MG428707_DELIM-CMPDMRLISNZUDKEGLVYD_Kilifi_HH_5401_20_May_2010_DELIM-CMPDMRLISNZUDKEGLVYD_2010                                                                                                                       2.68%    passed     98.33%
+  49  nl63_DELIM-CMPDMRLISNZUDKEGLVYD_KT266906_DELIM-CMPDMRLISNZUDKEGLVYD_HCoV_NL63_DELIM-CMPDMRLISNZUDKEGLVYD_Haiti_1_DELIM-CMPDMRLISNZUDKEGLVYD_2015_DELIM-CMPDMRLISNZUDKEGLVYD_2015                                                                     0.00%    passed     99.94%
+  50  nl63_DELIM-CMPDMRLISNZUDKEGLVYD_MK334045_DELIM-CMPDMRLISNZUDKEGLVYD_ChinaGD05_DELIM-CMPDMRLISNZUDKEGLVYD_2018                                                                                                                                        0.00%    passed     99.84%
+  51  nl63_DELIM-CMPDMRLISNZUDKEGLVYD_MK334046_DELIM-CMPDMRLISNZUDKEGLVYD_ChinaGD01_DELIM-CMPDMRLISNZUDKEGLVYD_2018                                                                                                                                        0.07%    passed     99.98%
+  52  nl63_DELIM-CMPDMRLISNZUDKEGLVYD_MK334047_DELIM-CMPDMRLISNZUDKEGLVYD_ChinaGD04_DELIM-CMPDMRLISNZUDKEGLVYD_2018                                                                                                                                        0.07%    passed     99.88%
+  53  nl63_DELIM-CMPDMRLISNZUDKEGLVYD_MG772808_DELIM-CMPDMRLISNZUDKEGLVYD_CN0601_DELIM-CMPDMRLISNZUDKEGLVYD_14_DELIM-CMPDMRLISNZUDKEGLVYD_2014                                                                                                             0.07%    passed     99.98%
+  54  nl63_DELIM-CMPDMRLISNZUDKEGLVYD_MN026166_DELIM-CMPDMRLISNZUDKEGLVYD_NL63_KLF_01_2018_DELIM-CMPDMRLISNZUDKEGLVYD_2018                                                                                                                                 0.13%    passed     99.90%
+  55  nl63_DELIM-CMPDMRLISNZUDKEGLVYD_JQ765569_DELIM-CMPDMRLISNZUDKEGLVYD_NL63_DELIM-CMPDMRLISNZUDKEGLVYD_DEN_DELIM-CMPDMRLISNZUDKEGLVYD_2005_DELIM-CMPDMRLISNZUDKEGLVYD_232_DELIM-CMPDMRLISNZUDKEGLVYD_2005                                               0.07%    passed     99.88%
+  56  nl63_DELIM-CMPDMRLISNZUDKEGLVYD_KF530112_DELIM-CMPDMRLISNZUDKEGLVYD_NL63_DELIM-CMPDMRLISNZUDKEGLVYD_human_DELIM-CMPDMRLISNZUDKEGLVYD_USA_DELIM-CMPDMRLISNZUDKEGLVYD_0111_25_DELIM-CMPDMRLISNZUDKEGLVYD_2001_DELIM-CMPDMRLISNZUDKEGLVYD_2001          0.07%    passed     99.96%
+  57  nl63_DELIM-CMPDMRLISNZUDKEGLVYD_JQ765570_DELIM-CMPDMRLISNZUDKEGLVYD_NL63_DELIM-CMPDMRLISNZUDKEGLVYD_DEN_DELIM-CMPDMRLISNZUDKEGLVYD_2005_DELIM-CMPDMRLISNZUDKEGLVYD_235_DELIM-CMPDMRLISNZUDKEGLVYD_2005                                               0.07%    passed     99.96%
+  58  nl63_DELIM-CMPDMRLISNZUDKEGLVYD_JQ765563_DELIM-CMPDMRLISNZUDKEGLVYD_NL63_DELIM-CMPDMRLISNZUDKEGLVYD_DEN_DELIM-CMPDMRLISNZUDKEGLVYD_2009_DELIM-CMPDMRLISNZUDKEGLVYD_9_DELIM-CMPDMRLISNZUDKEGLVYD_2009                                                 0.07%    passed     99.91%
+  59  nl63_DELIM-CMPDMRLISNZUDKEGLVYD_JQ765564_DELIM-CMPDMRLISNZUDKEGLVYD_NL63_DELIM-CMPDMRLISNZUDKEGLVYD_DEN_DELIM-CMPDMRLISNZUDKEGLVYD_2009_DELIM-CMPDMRLISNZUDKEGLVYD_14_DELIM-CMPDMRLISNZUDKEGLVYD_2009                                                0.07%    passed     99.97%
+  60  nl63_DELIM-CMPDMRLISNZUDKEGLVYD_JQ765565_DELIM-CMPDMRLISNZUDKEGLVYD_NL63_DELIM-CMPDMRLISNZUDKEGLVYD_DEN_DELIM-CMPDMRLISNZUDKEGLVYD_2009_DELIM-CMPDMRLISNZUDKEGLVYD_15_DELIM-CMPDMRLISNZUDKEGLVYD_2009                                                0.07%    passed     99.76%
+  61  nl63_DELIM-CMPDMRLISNZUDKEGLVYD_JQ900256_DELIM-CMPDMRLISNZUDKEGLVYD_NL63_DELIM-CMPDMRLISNZUDKEGLVYD_DEN_DELIM-CMPDMRLISNZUDKEGLVYD_2009_DELIM-CMPDMRLISNZUDKEGLVYD_22_DELIM-CMPDMRLISNZUDKEGLVYD_2009                                                1.31%    passed     99.22%
+  62  nl63_DELIM-CMPDMRLISNZUDKEGLVYD_JQ900258_DELIM-CMPDMRLISNZUDKEGLVYD_NL63_DELIM-CMPDMRLISNZUDKEGLVYD_DEN_DELIM-CMPDMRLISNZUDKEGLVYD_2005_DELIM-CMPDMRLISNZUDKEGLVYD_291_DELIM-CMPDMRLISNZUDKEGLVYD_2005                                              23.10%    passed     66.78%
+  63  nl63_DELIM-CMPDMRLISNZUDKEGLVYD_MN306040_DELIM-CMPDMRLISNZUDKEGLVYD_HCoV_NL63_DELIM-CMPDMRLISNZUDKEGLVYD_Seattle_DELIM-CMPDMRLISNZUDKEGLVYD_USA_DELIM-CMPDMRLISNZUDKEGLVYD_SC0768_DELIM-CMPDMRLISNZUDKEGLVYD_2019_DELIM-CMPDMRLISNZUDKEGLVYD_2019    1.31%    passed     99.47%
+  64  nl63_DELIM-CMPDMRLISNZUDKEGLVYD_KF530106_DELIM-CMPDMRLISNZUDKEGLVYD_NL63_DELIM-CMPDMRLISNZUDKEGLVYD_human_DELIM-CMPDMRLISNZUDKEGLVYD_USA_DELIM-CMPDMRLISNZUDKEGLVYD_8712_17_DELIM-CMPDMRLISNZUDKEGLVYD_1987_DELIM-CMPDMRLISNZUDKEGLVYD_1987          0.04%    passed     99.91%
+****  TOTAL                                                                                                                                                                                                                                                0.67%  0 sequences failed composition chi2 test (p-value<5%; df=3)
+NOTE: nl63_DELIM-CMPDMRLISNZUDKEGLVYD_KY554968_DELIM-CMPDMRLISNZUDKEGLVYD_N07_185B_DELIM-CMPDMRLISNZUDKEGLVYD_2016 is identical to nl63_DELIM-CMPDMRLISNZUDKEGLVYD_KY554967_DELIM-CMPDMRLISNZUDKEGLVYD_N06_1144B_DELIM-CMPDMRLISNZUDKEGLVYD_2016 but kept for subsequent analysis
+NOTE: nl63_DELIM-CMPDMRLISNZUDKEGLVYD_KY829118_DELIM-CMPDMRLISNZUDKEGLVYD_N07_262B_DELIM-CMPDMRLISNZUDKEGLVYD_2015 is identical to nl63_DELIM-CMPDMRLISNZUDKEGLVYD_KY554969_DELIM-CMPDMRLISNZUDKEGLVYD_N07_196B_DELIM-CMPDMRLISNZUDKEGLVYD_2016 but kept for subsequent analysis
+Checking for duplicate sequences: done in 0.000381947 secs using 71.74% CPU
+Identifying sites to remove: done in 0.0143492 secs using 95.54% CPU
+NOTE: 2 identical sequences (see below) will be ignored for subsequent analysis
+NOTE: nl63_DELIM-CMPDMRLISNZUDKEGLVYD_KY674916_DELIM-CMPDMRLISNZUDKEGLVYD_N07_64B_DELIM-CMPDMRLISNZUDKEGLVYD_2016 (identical to nl63_DELIM-CMPDMRLISNZUDKEGLVYD_KY554967_DELIM-CMPDMRLISNZUDKEGLVYD_N06_1144B_DELIM-CMPDMRLISNZUDKEGLVYD_2016) is ignored but added at the end
+NOTE: nl63_DELIM-CMPDMRLISNZUDKEGLVYD_KY674915_DELIM-CMPDMRLISNZUDKEGLVYD_N07_6B_DELIM-CMPDMRLISNZUDKEGLVYD_2016 (identical to nl63_DELIM-CMPDMRLISNZUDKEGLVYD_KY554967_DELIM-CMPDMRLISNZUDKEGLVYD_N06_1144B_DELIM-CMPDMRLISNZUDKEGLVYD_2016) is ignored but added at the end
+Alignment was printed to results/aligned_nl63_replicase1ab-delim.fasta.uniqueseq.phy
+
+For your convenience alignment with unique sequences printed to results/aligned_nl63_replicase1ab-delim.fasta.uniqueseq.phy
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.003 seconds
+
+NOTE: 1 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.500)
+1. Initial log-likelihood: -67331.016
+2. Current log-likelihood: -62527.823
+3. Current log-likelihood: -62521.227
+Optimal log-likelihood: -62521.103
+Rate parameters:  A-C: 0.46228  A-G: 8.70208  A-T: 0.58033  C-G: 0.37133  C-T: 18.02516  G-T: 1.00000
+Base frequencies:  A: 0.266  C: 0.134  G: 0.204  T: 0.395
+Parameters optimization took 3 rounds (0.210 sec)
+Wrote distance file to... 
+Computing ML distances based on estimated model parameters...
+Calculating distance matrix: done in 0.00956297 secs using 87.37% CPU
+Computing ML distances took 0.009821 sec (of wall-clock time) 0.008556 sec (of CPU time)
+Setting up auxiliary I and S matrices: done in 0.000151157 secs using 160.8% CPU
+Constructing RapidNJ tree: done in 0.000241041 secs using 162.6% CPU
+Computing RapidNJ tree took 0.000450 sec (of wall-clock time) 0.000723 sec (of CPU time)
+Log-likelihood of RapidNJ tree: -38329.840
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+
+Do NNI search on 2 best initial trees
+Optimizing NNI: done in 0.0731359 secs using 148.1% CPU
+Estimate model parameters (epsilon = 0.500)
+BETTER TREE FOUND at iteration 1: -38213.742
+Optimizing NNI: done in 0.466931 secs using 99.3% CPU
+Finish initializing candidate tree set (4)
+Current best tree score: -38213.742 / CPU time: 0.625
+Number of iterations: 2
+TREE SEARCH COMPLETED AFTER 2 ITERATIONS / Time: 0h:0m:0s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.050)
+1. Initial log-likelihood: -38213.742
+Optimal log-likelihood: -38213.740
+Rate parameters:  A-C: 0.91231  A-G: 5.66194  A-T: 0.57699  C-G: 0.51518  C-T: 13.10710  G-T: 1.00000
+Base frequencies:  A: 0.266  C: 0.134  G: 0.204  T: 0.395
+Parameters optimization took 1 rounds (0.013 sec)
+BEST SCORE FOUND : -38213.740
+Total tree length: 0.074
+
+Total number of iterations: 2
+CPU time used for tree search: 0.687 sec (0h:0m:0s)
+Wall-clock time used for tree search: 0.625 sec (0h:0m:0s)
+Total CPU time used: 0.939 sec (0h:0m:0s)
+Total wall-clock time used: 0.912 sec (0h:0m:0s)
+
+Analysis results written to: 
+  IQ-TREE report:                results/aligned_nl63_replicase1ab-delim.fasta.iqtree
+  Maximum-likelihood tree:       results/aligned_nl63_replicase1ab-delim.fasta.treefile
+  Likelihood distances:          results/aligned_nl63_replicase1ab-delim.fasta.mldist
+  Screen log file:               results/aligned_nl63_replicase1ab-delim.fasta.log
+
+Date and Time: Thu May 12 17:39:37 2022

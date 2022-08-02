@@ -1,0 +1,142 @@
+IQ-TREE multicore version 2.1.4-beta COVID-edition for Mac OS X 64-bit built Jun 24 2021
+Developed by Bui Quang Minh, James Barbetti, Nguyen Lam Tung,
+Olga Chernomor, Heiko Schmidt, Dominik Schrempf, Michael Woodhams.
+
+Host:    Kates-MacBook-Pro-3.local (AVX2, FMA3, 8 GB RAM)
+Command: iqtree2 -ninit 2 -n 2 -me 0.05 -nt 1 -s results/aligned_229e_s1-delim.fasta -m GTR
+Seed:    186165 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Mon Jan 10 11:29:23 2022
+Kernel:  AVX+FMA - 1 threads (4 CPU cores detected)
+
+HINT: Use -nt option to specify number of threads because your CPU has 4 cores!
+HINT: -nt AUTO will automatically determine the best number of threads to use.
+
+Reading alignment file results/aligned_229e_s1-delim.fasta ... Fasta format detected
+Alignment most likely contains DNA/RNA sequences
+WARNING: 6 sites contain only gaps or ambiguous characters.
+Alignment has 48 sequences with 1635 columns, 110 distinct patterns
+54 parsimony-informative, 44 singleton sites, 1537 constant sites
+                                                                                                                                                                                                                                                   Gap/Ambiguity  Composition  p-value
+   1  229e_DELIM-ARYSSVVMDNYKFOGYHPZC_JX503060_DELIM-ARYSSVVMDNYKFOGYHPZC_0349_DELIM-ARYSSVVMDNYKFOGYHPZC_2010                                                                                                                                             0.37%    passed     98.69%
+   2  229e_DELIM-ARYSSVVMDNYKFOGYHPZC_KM055538_DELIM-ARYSSVVMDNYKFOGYHPZC_1761A_2010_DELIM-ARYSSVVMDNYKFOGYHPZC_2010                                                                                                                                       6.73%    passed     99.43%
+   3  229e_DELIM-ARYSSVVMDNYKFOGYHPZC_KM055546_DELIM-ARYSSVVMDNYKFOGYHPZC_8373_2009_DELIM-ARYSSVVMDNYKFOGYHPZC_2009                                                                                                                                        6.73%    passed     99.43%
+   4  229e_DELIM-ARYSSVVMDNYKFOGYHPZC_KM055547_DELIM-ARYSSVVMDNYKFOGYHPZC_8425_2009_DELIM-ARYSSVVMDNYKFOGYHPZC_2009                                                                                                                                        6.73%    passed     99.43%
+   5  229e_DELIM-ARYSSVVMDNYKFOGYHPZC_KM055545_DELIM-ARYSSVVMDNYKFOGYHPZC_8339_2009_DELIM-ARYSSVVMDNYKFOGYHPZC_2009                                                                                                                                        6.73%    passed     98.92%
+   6  229e_DELIM-ARYSSVVMDNYKFOGYHPZC_KM055532_DELIM-ARYSSVVMDNYKFOGYHPZC_1512A_2009_DELIM-ARYSSVVMDNYKFOGYHPZC_2009                                                                                                                                       6.73%    passed     98.17%
+   7  229e_DELIM-ARYSSVVMDNYKFOGYHPZC_KM055533_DELIM-ARYSSVVMDNYKFOGYHPZC_1518A_2009_DELIM-ARYSSVVMDNYKFOGYHPZC_2009                                                                                                                                       6.73%    passed     98.17%
+   8  229e_DELIM-ARYSSVVMDNYKFOGYHPZC_KM055543_DELIM-ARYSSVVMDNYKFOGYHPZC_1990A_2010_DELIM-ARYSSVVMDNYKFOGYHPZC_2010                                                                                                                                       6.73%    passed     99.88%
+   9  229e_DELIM-ARYSSVVMDNYKFOGYHPZC_KM055534_DELIM-ARYSSVVMDNYKFOGYHPZC_1546A_2009_DELIM-ARYSSVVMDNYKFOGYHPZC_2009                                                                                                                                       6.73%    passed     98.61%
+  10  229e_DELIM-ARYSSVVMDNYKFOGYHPZC_KM055535_DELIM-ARYSSVVMDNYKFOGYHPZC_1649A_2009_DELIM-ARYSSVVMDNYKFOGYHPZC_2009                                                                                                                                       6.73%    passed     99.52%
+  11  229e_DELIM-ARYSSVVMDNYKFOGYHPZC_JX513245_DELIM-ARYSSVVMDNYKFOGYHPZC_CU_H2869_DELIM-ARYSSVVMDNYKFOGYHPZC_2011_DELIM-ARYSSVVMDNYKFOGYHPZC_2011                                                                                                        33.52%    passed     98.61%
+  12  229e_DELIM-ARYSSVVMDNYKFOGYHPZC_KM055536_DELIM-ARYSSVVMDNYKFOGYHPZC_1658A_2009_DELIM-ARYSSVVMDNYKFOGYHPZC_2009                                                                                                                                       6.73%    passed     99.46%
+  13  229e_DELIM-ARYSSVVMDNYKFOGYHPZC_KM055537_DELIM-ARYSSVVMDNYKFOGYHPZC_1667A_2009_DELIM-ARYSSVVMDNYKFOGYHPZC_2009                                                                                                                                       6.73%    passed     99.46%
+  14  229e_DELIM-ARYSSVVMDNYKFOGYHPZC_KM055539_DELIM-ARYSSVVMDNYKFOGYHPZC_1781A_2010_DELIM-ARYSSVVMDNYKFOGYHPZC_2010                                                                                                                                       6.73%    passed     99.46%
+  15  229e_DELIM-ARYSSVVMDNYKFOGYHPZC_KM055540_DELIM-ARYSSVVMDNYKFOGYHPZC_1782A_2010_DELIM-ARYSSVVMDNYKFOGYHPZC_2010                                                                                                                                       6.73%    passed     99.46%
+  16  229e_DELIM-ARYSSVVMDNYKFOGYHPZC_KM055541_DELIM-ARYSSVVMDNYKFOGYHPZC_1827A_2010_DELIM-ARYSSVVMDNYKFOGYHPZC_2010                                                                                                                                       6.73%    passed     99.46%
+  17  229e_DELIM-ARYSSVVMDNYKFOGYHPZC_KM055542_DELIM-ARYSSVVMDNYKFOGYHPZC_1829A_2010_DELIM-ARYSSVVMDNYKFOGYHPZC_2010                                                                                                                                       6.73%    passed     99.46%
+  18  229e_DELIM-ARYSSVVMDNYKFOGYHPZC_KM055560_DELIM-ARYSSVVMDNYKFOGYHPZC_1424A_2009_DELIM-ARYSSVVMDNYKFOGYHPZC_2009                                                                                                                                       6.91%    passed     99.49%
+  19  229e_DELIM-ARYSSVVMDNYKFOGYHPZC_KM055553_DELIM-ARYSSVVMDNYKFOGYHPZC_1482A_2009_DELIM-ARYSSVVMDNYKFOGYHPZC_2009                                                                                                                                       6.91%    passed     98.54%
+  20  229e_DELIM-ARYSSVVMDNYKFOGYHPZC_KM055558_DELIM-ARYSSVVMDNYKFOGYHPZC_8348_2009_DELIM-ARYSSVVMDNYKFOGYHPZC_2009                                                                                                                                        6.91%    passed     99.20%
+  21  229e_DELIM-ARYSSVVMDNYKFOGYHPZC_KM055544_DELIM-ARYSSVVMDNYKFOGYHPZC_2764A_2011_DELIM-ARYSSVVMDNYKFOGYHPZC_2011                                                                                                                                       6.73%    passed     99.90%
+  22  229e_DELIM-ARYSSVVMDNYKFOGYHPZC_KM055531_DELIM-ARYSSVVMDNYKFOGYHPZC_11949_2011_DELIM-ARYSSVVMDNYKFOGYHPZC_2011                                                                                                                                       6.73%    passed     99.76%
+  23  229e_DELIM-ARYSSVVMDNYKFOGYHPZC_KM055549_DELIM-ARYSSVVMDNYKFOGYHPZC_2961A_2011_DELIM-ARYSSVVMDNYKFOGYHPZC_2011                                                                                                                                       6.73%    passed     99.81%
+  24  229e_DELIM-ARYSSVVMDNYKFOGYHPZC_KJ866102_DELIM-ARYSSVVMDNYKFOGYHPZC_229E_DELIM-ARYSSVVMDNYKFOGYHPZC_2013                                                                                                                                            35.23%    passed     80.33%
+  25  229e_DELIM-ARYSSVVMDNYKFOGYHPZC_KJ866103_DELIM-ARYSSVVMDNYKFOGYHPZC_229E_DELIM-ARYSSVVMDNYKFOGYHPZC_2013                                                                                                                                            35.23%    passed     80.33%
+  26  229e_DELIM-ARYSSVVMDNYKFOGYHPZC_KJ866104_DELIM-ARYSSVVMDNYKFOGYHPZC_229E_DELIM-ARYSSVVMDNYKFOGYHPZC_2012                                                                                                                                            35.23%    passed     80.33%
+  27  229e_DELIM-ARYSSVVMDNYKFOGYHPZC_KJ866105_DELIM-ARYSSVVMDNYKFOGYHPZC_229E_DELIM-ARYSSVVMDNYKFOGYHPZC_2012                                                                                                                                            35.23%    passed     80.33%
+  28  229e_DELIM-ARYSSVVMDNYKFOGYHPZC_KJ866106_DELIM-ARYSSVVMDNYKFOGYHPZC_229E_DELIM-ARYSSVVMDNYKFOGYHPZC_2012                                                                                                                                            35.23%    passed     80.33%
+  29  229e_DELIM-ARYSSVVMDNYKFOGYHPZC_KM055550_DELIM-ARYSSVVMDNYKFOGYHPZC_2981A_2011_DELIM-ARYSSVVMDNYKFOGYHPZC_2011                                                                                                                                       6.73%    passed     99.54%
+  30  229e_DELIM-ARYSSVVMDNYKFOGYHPZC_KM055548_DELIM-ARYSSVVMDNYKFOGYHPZC_2861A_2011_DELIM-ARYSSVVMDNYKFOGYHPZC_2011                                                                                                                                       6.73%    passed     99.88%
+  31  229e_DELIM-ARYSSVVMDNYKFOGYHPZC_KU291448_DELIM-ARYSSVVMDNYKFOGYHPZC_HCoV_229E_DELIM-ARYSSVVMDNYKFOGYHPZC_BN1_DELIM-ARYSSVVMDNYKFOGYHPZC_GER_DELIM-ARYSSVVMDNYKFOGYHPZC_2015_DELIM-ARYSSVVMDNYKFOGYHPZC_2015                                          0.37%    passed     99.06%
+  32  229e_DELIM-ARYSSVVMDNYKFOGYHPZC_KY684760_DELIM-ARYSSVVMDNYKFOGYHPZC_HCoV_229E_DELIM-ARYSSVVMDNYKFOGYHPZC_Seattle_DELIM-ARYSSVVMDNYKFOGYHPZC_USA_DELIM-ARYSSVVMDNYKFOGYHPZC_SC2282_DELIM-ARYSSVVMDNYKFOGYHPZC_2017_DELIM-ARYSSVVMDNYKFOGYHPZC_2016    0.37%    passed     98.62%
+  33  229e_DELIM-ARYSSVVMDNYKFOGYHPZC_MN306046_DELIM-ARYSSVVMDNYKFOGYHPZC_HCoV_229E_DELIM-ARYSSVVMDNYKFOGYHPZC_Seattle_DELIM-ARYSSVVMDNYKFOGYHPZC_USA_DELIM-ARYSSVVMDNYKFOGYHPZC_SC0865_DELIM-ARYSSVVMDNYKFOGYHPZC_2019_DELIM-ARYSSVVMDNYKFOGYHPZC_2019    0.37%    passed     99.38%
+  34  229e_DELIM-ARYSSVVMDNYKFOGYHPZC_MN369046_DELIM-ARYSSVVMDNYKFOGYHPZC_HCoV_229E_DELIM-ARYSSVVMDNYKFOGYHPZC_Seattle_DELIM-ARYSSVVMDNYKFOGYHPZC_USA_DELIM-ARYSSVVMDNYKFOGYHPZC_SC9724_DELIM-ARYSSVVMDNYKFOGYHPZC_2018_DELIM-ARYSSVVMDNYKFOGYHPZC_2018    0.37%    passed     99.66%
+  35  229e_DELIM-ARYSSVVMDNYKFOGYHPZC_KY369912_DELIM-ARYSSVVMDNYKFOGYHPZC_HCoV_229E_DELIM-ARYSSVVMDNYKFOGYHPZC_Seattle_DELIM-ARYSSVVMDNYKFOGYHPZC_USA_DELIM-ARYSSVVMDNYKFOGYHPZC_SC9731_DELIM-ARYSSVVMDNYKFOGYHPZC_2016_DELIM-ARYSSVVMDNYKFOGYHPZC_2016    0.37%    passed     99.89%
+  36  229e_DELIM-ARYSSVVMDNYKFOGYHPZC_KY369914_DELIM-ARYSSVVMDNYKFOGYHPZC_HCoV_229E_DELIM-ARYSSVVMDNYKFOGYHPZC_Seattle_DELIM-ARYSSVVMDNYKFOGYHPZC_USA_DELIM-ARYSSVVMDNYKFOGYHPZC_SC9773_DELIM-ARYSSVVMDNYKFOGYHPZC_2016_DELIM-ARYSSVVMDNYKFOGYHPZC_2016    0.37%    passed     99.57%
+  37  229e_DELIM-ARYSSVVMDNYKFOGYHPZC_KY369913_DELIM-ARYSSVVMDNYKFOGYHPZC_HCoV_229E_DELIM-ARYSSVVMDNYKFOGYHPZC_Seattle_DELIM-ARYSSVVMDNYKFOGYHPZC_USA_DELIM-ARYSSVVMDNYKFOGYHPZC_SC1073_DELIM-ARYSSVVMDNYKFOGYHPZC_2016_DELIM-ARYSSVVMDNYKFOGYHPZC_2016    0.37%    passed     99.75%
+  38  229e_DELIM-ARYSSVVMDNYKFOGYHPZC_KY967357_DELIM-ARYSSVVMDNYKFOGYHPZC_HCoV_229E_DELIM-ARYSSVVMDNYKFOGYHPZC_Seattle_DELIM-ARYSSVVMDNYKFOGYHPZC_USA_DELIM-ARYSSVVMDNYKFOGYHPZC_SC2872_DELIM-ARYSSVVMDNYKFOGYHPZC_2015_DELIM-ARYSSVVMDNYKFOGYHPZC_2015    0.37%    passed     99.88%
+  39  229e_DELIM-ARYSSVVMDNYKFOGYHPZC_KY983587_DELIM-ARYSSVVMDNYKFOGYHPZC_HCoV_229E_DELIM-ARYSSVVMDNYKFOGYHPZC_Seattle_DELIM-ARYSSVVMDNYKFOGYHPZC_USA_DELIM-ARYSSVVMDNYKFOGYHPZC_SC3112_DELIM-ARYSSVVMDNYKFOGYHPZC_2015_DELIM-ARYSSVVMDNYKFOGYHPZC_2015    0.37%    passed     99.80%
+  40  229e_DELIM-ARYSSVVMDNYKFOGYHPZC_KY369908_DELIM-ARYSSVVMDNYKFOGYHPZC_HCoV_229E_DELIM-ARYSSVVMDNYKFOGYHPZC_Seattle_DELIM-ARYSSVVMDNYKFOGYHPZC_USA_DELIM-ARYSSVVMDNYKFOGYHPZC_SC579_DELIM-ARYSSVVMDNYKFOGYHPZC_2016_DELIM-ARYSSVVMDNYKFOGYHPZC_2016     0.37%    passed     99.88%
+  41  229e_DELIM-ARYSSVVMDNYKFOGYHPZC_KY621348_DELIM-ARYSSVVMDNYKFOGYHPZC_HCoV_229E_DELIM-ARYSSVVMDNYKFOGYHPZC_Seattle_DELIM-ARYSSVVMDNYKFOGYHPZC_USA_DELIM-ARYSSVVMDNYKFOGYHPZC_SC379_DELIM-ARYSSVVMDNYKFOGYHPZC_2016_DELIM-ARYSSVVMDNYKFOGYHPZC_2016     0.37%    passed     99.76%
+  42  229e_DELIM-ARYSSVVMDNYKFOGYHPZC_KY674914_DELIM-ARYSSVVMDNYKFOGYHPZC_HCoV_229E_DELIM-ARYSSVVMDNYKFOGYHPZC_Seattle_DELIM-ARYSSVVMDNYKFOGYHPZC_USA_DELIM-ARYSSVVMDNYKFOGYHPZC_SC399_DELIM-ARYSSVVMDNYKFOGYHPZC_2016_DELIM-ARYSSVVMDNYKFOGYHPZC_2016     0.37%    passed     99.76%
+  43  229e_DELIM-ARYSSVVMDNYKFOGYHPZC_KY369909_DELIM-ARYSSVVMDNYKFOGYHPZC_HCoV_229E_DELIM-ARYSSVVMDNYKFOGYHPZC_Seattle_DELIM-ARYSSVVMDNYKFOGYHPZC_USA_DELIM-ARYSSVVMDNYKFOGYHPZC_SC677_DELIM-ARYSSVVMDNYKFOGYHPZC_2016_DELIM-ARYSSVVMDNYKFOGYHPZC_2016     0.37%    passed     99.76%
+  44  229e_DELIM-ARYSSVVMDNYKFOGYHPZC_KY369910_DELIM-ARYSSVVMDNYKFOGYHPZC_HCoV_229E_DELIM-ARYSSVVMDNYKFOGYHPZC_Seattle_DELIM-ARYSSVVMDNYKFOGYHPZC_USA_DELIM-ARYSSVVMDNYKFOGYHPZC_SC1143_DELIM-ARYSSVVMDNYKFOGYHPZC_2016_DELIM-ARYSSVVMDNYKFOGYHPZC_2016    0.37%    passed     99.94%
+  45  229e_DELIM-ARYSSVVMDNYKFOGYHPZC_KY369911_DELIM-ARYSSVVMDNYKFOGYHPZC_HCoV_229E_DELIM-ARYSSVVMDNYKFOGYHPZC_Seattle_DELIM-ARYSSVVMDNYKFOGYHPZC_USA_DELIM-ARYSSVVMDNYKFOGYHPZC_SC1212_DELIM-ARYSSVVMDNYKFOGYHPZC_2016_DELIM-ARYSSVVMDNYKFOGYHPZC_2016    0.37%    passed     99.94%
+  46  229e_DELIM-ARYSSVVMDNYKFOGYHPZC_MF542265_DELIM-ARYSSVVMDNYKFOGYHPZC_229E_DELIM-ARYSSVVMDNYKFOGYHPZC_Haiti_1_DELIM-ARYSSVVMDNYKFOGYHPZC_2016_DELIM-ARYSSVVMDNYKFOGYHPZC_2016                                                                          0.37%    passed     99.27%
+  47  229e_DELIM-ARYSSVVMDNYKFOGYHPZC_JX503061_DELIM-ARYSSVVMDNYKFOGYHPZC_J0304_DELIM-ARYSSVVMDNYKFOGYHPZC_2009                                                                                                                                            0.55%    passed     96.64%
+  48  229e_DELIM-ARYSSVVMDNYKFOGYHPZC_KY674919_DELIM-ARYSSVVMDNYKFOGYHPZC_N08_434B_DELIM-ARYSSVVMDNYKFOGYHPZC_2016                                                                                                                                         0.55%    passed     96.66%
+****  TOTAL                                                                                                                                                                                                                                                7.76%  0 sequences failed composition chi2 test (p-value<5%; df=3)
+NOTE: 229e_DELIM-ARYSSVVMDNYKFOGYHPZC_KM055546_DELIM-ARYSSVVMDNYKFOGYHPZC_8373_2009_DELIM-ARYSSVVMDNYKFOGYHPZC_2009 is identical to 229e_DELIM-ARYSSVVMDNYKFOGYHPZC_KM055538_DELIM-ARYSSVVMDNYKFOGYHPZC_1761A_2010_DELIM-ARYSSVVMDNYKFOGYHPZC_2010 but kept for subsequent analysis
+NOTE: 229e_DELIM-ARYSSVVMDNYKFOGYHPZC_KM055533_DELIM-ARYSSVVMDNYKFOGYHPZC_1518A_2009_DELIM-ARYSSVVMDNYKFOGYHPZC_2009 is identical to 229e_DELIM-ARYSSVVMDNYKFOGYHPZC_KM055532_DELIM-ARYSSVVMDNYKFOGYHPZC_1512A_2009_DELIM-ARYSSVVMDNYKFOGYHPZC_2009 but kept for subsequent analysis
+NOTE: 229e_DELIM-ARYSSVVMDNYKFOGYHPZC_KM055537_DELIM-ARYSSVVMDNYKFOGYHPZC_1667A_2009_DELIM-ARYSSVVMDNYKFOGYHPZC_2009 is identical to 229e_DELIM-ARYSSVVMDNYKFOGYHPZC_KM055536_DELIM-ARYSSVVMDNYKFOGYHPZC_1658A_2009_DELIM-ARYSSVVMDNYKFOGYHPZC_2009 but kept for subsequent analysis
+NOTE: 229e_DELIM-ARYSSVVMDNYKFOGYHPZC_KJ866103_DELIM-ARYSSVVMDNYKFOGYHPZC_229E_DELIM-ARYSSVVMDNYKFOGYHPZC_2013 is identical to 229e_DELIM-ARYSSVVMDNYKFOGYHPZC_KJ866102_DELIM-ARYSSVVMDNYKFOGYHPZC_229E_DELIM-ARYSSVVMDNYKFOGYHPZC_2013 but kept for subsequent analysis
+NOTE: 229e_DELIM-ARYSSVVMDNYKFOGYHPZC_KY674914_DELIM-ARYSSVVMDNYKFOGYHPZC_HCoV_229E_DELIM-ARYSSVVMDNYKFOGYHPZC_Seattle_DELIM-ARYSSVVMDNYKFOGYHPZC_USA_DELIM-ARYSSVVMDNYKFOGYHPZC_SC399_DELIM-ARYSSVVMDNYKFOGYHPZC_2016_DELIM-ARYSSVVMDNYKFOGYHPZC_2016 is identical to 229e_DELIM-ARYSSVVMDNYKFOGYHPZC_KY621348_DELIM-ARYSSVVMDNYKFOGYHPZC_HCoV_229E_DELIM-ARYSSVVMDNYKFOGYHPZC_Seattle_DELIM-ARYSSVVMDNYKFOGYHPZC_USA_DELIM-ARYSSVVMDNYKFOGYHPZC_SC379_DELIM-ARYSSVVMDNYKFOGYHPZC_2016_DELIM-ARYSSVVMDNYKFOGYHPZC_2016 but kept for subsequent analysis
+NOTE: 229e_DELIM-ARYSSVVMDNYKFOGYHPZC_KY369911_DELIM-ARYSSVVMDNYKFOGYHPZC_HCoV_229E_DELIM-ARYSSVVMDNYKFOGYHPZC_Seattle_DELIM-ARYSSVVMDNYKFOGYHPZC_USA_DELIM-ARYSSVVMDNYKFOGYHPZC_SC1212_DELIM-ARYSSVVMDNYKFOGYHPZC_2016_DELIM-ARYSSVVMDNYKFOGYHPZC_2016 is identical to 229e_DELIM-ARYSSVVMDNYKFOGYHPZC_KY369910_DELIM-ARYSSVVMDNYKFOGYHPZC_HCoV_229E_DELIM-ARYSSVVMDNYKFOGYHPZC_Seattle_DELIM-ARYSSVVMDNYKFOGYHPZC_USA_DELIM-ARYSSVVMDNYKFOGYHPZC_SC1143_DELIM-ARYSSVVMDNYKFOGYHPZC_2016_DELIM-ARYSSVVMDNYKFOGYHPZC_2016 but kept for subsequent analysis
+NOTE: 9 identical sequences (see below) will be ignored for subsequent analysis
+NOTE: 229e_DELIM-ARYSSVVMDNYKFOGYHPZC_KM055547_DELIM-ARYSSVVMDNYKFOGYHPZC_8425_2009_DELIM-ARYSSVVMDNYKFOGYHPZC_2009 (identical to 229e_DELIM-ARYSSVVMDNYKFOGYHPZC_KM055538_DELIM-ARYSSVVMDNYKFOGYHPZC_1761A_2010_DELIM-ARYSSVVMDNYKFOGYHPZC_2010) is ignored but added at the end
+NOTE: 229e_DELIM-ARYSSVVMDNYKFOGYHPZC_KM055539_DELIM-ARYSSVVMDNYKFOGYHPZC_1781A_2010_DELIM-ARYSSVVMDNYKFOGYHPZC_2010 (identical to 229e_DELIM-ARYSSVVMDNYKFOGYHPZC_KM055536_DELIM-ARYSSVVMDNYKFOGYHPZC_1658A_2009_DELIM-ARYSSVVMDNYKFOGYHPZC_2009) is ignored but added at the end
+NOTE: 229e_DELIM-ARYSSVVMDNYKFOGYHPZC_KM055540_DELIM-ARYSSVVMDNYKFOGYHPZC_1782A_2010_DELIM-ARYSSVVMDNYKFOGYHPZC_2010 (identical to 229e_DELIM-ARYSSVVMDNYKFOGYHPZC_KM055536_DELIM-ARYSSVVMDNYKFOGYHPZC_1658A_2009_DELIM-ARYSSVVMDNYKFOGYHPZC_2009) is ignored but added at the end
+NOTE: 229e_DELIM-ARYSSVVMDNYKFOGYHPZC_KM055541_DELIM-ARYSSVVMDNYKFOGYHPZC_1827A_2010_DELIM-ARYSSVVMDNYKFOGYHPZC_2010 (identical to 229e_DELIM-ARYSSVVMDNYKFOGYHPZC_KM055536_DELIM-ARYSSVVMDNYKFOGYHPZC_1658A_2009_DELIM-ARYSSVVMDNYKFOGYHPZC_2009) is ignored but added at the end
+NOTE: 229e_DELIM-ARYSSVVMDNYKFOGYHPZC_KM055542_DELIM-ARYSSVVMDNYKFOGYHPZC_1829A_2010_DELIM-ARYSSVVMDNYKFOGYHPZC_2010 (identical to 229e_DELIM-ARYSSVVMDNYKFOGYHPZC_KM055536_DELIM-ARYSSVVMDNYKFOGYHPZC_1658A_2009_DELIM-ARYSSVVMDNYKFOGYHPZC_2009) is ignored but added at the end
+NOTE: 229e_DELIM-ARYSSVVMDNYKFOGYHPZC_KJ866104_DELIM-ARYSSVVMDNYKFOGYHPZC_229E_DELIM-ARYSSVVMDNYKFOGYHPZC_2012 (identical to 229e_DELIM-ARYSSVVMDNYKFOGYHPZC_KJ866102_DELIM-ARYSSVVMDNYKFOGYHPZC_229E_DELIM-ARYSSVVMDNYKFOGYHPZC_2013) is ignored but added at the end
+NOTE: 229e_DELIM-ARYSSVVMDNYKFOGYHPZC_KJ866105_DELIM-ARYSSVVMDNYKFOGYHPZC_229E_DELIM-ARYSSVVMDNYKFOGYHPZC_2012 (identical to 229e_DELIM-ARYSSVVMDNYKFOGYHPZC_KJ866102_DELIM-ARYSSVVMDNYKFOGYHPZC_229E_DELIM-ARYSSVVMDNYKFOGYHPZC_2013) is ignored but added at the end
+NOTE: 229e_DELIM-ARYSSVVMDNYKFOGYHPZC_KJ866106_DELIM-ARYSSVVMDNYKFOGYHPZC_229E_DELIM-ARYSSVVMDNYKFOGYHPZC_2012 (identical to 229e_DELIM-ARYSSVVMDNYKFOGYHPZC_KJ866102_DELIM-ARYSSVVMDNYKFOGYHPZC_229E_DELIM-ARYSSVVMDNYKFOGYHPZC_2013) is ignored but added at the end
+NOTE: 229e_DELIM-ARYSSVVMDNYKFOGYHPZC_KY369909_DELIM-ARYSSVVMDNYKFOGYHPZC_HCoV_229E_DELIM-ARYSSVVMDNYKFOGYHPZC_Seattle_DELIM-ARYSSVVMDNYKFOGYHPZC_USA_DELIM-ARYSSVVMDNYKFOGYHPZC_SC677_DELIM-ARYSSVVMDNYKFOGYHPZC_2016_DELIM-ARYSSVVMDNYKFOGYHPZC_2016 (identical to 229e_DELIM-ARYSSVVMDNYKFOGYHPZC_KY621348_DELIM-ARYSSVVMDNYKFOGYHPZC_HCoV_229E_DELIM-ARYSSVVMDNYKFOGYHPZC_Seattle_DELIM-ARYSSVVMDNYKFOGYHPZC_USA_DELIM-ARYSSVVMDNYKFOGYHPZC_SC379_DELIM-ARYSSVVMDNYKFOGYHPZC_2016_DELIM-ARYSSVVMDNYKFOGYHPZC_2016) is ignored but added at the end
+Alignment was printed to results/aligned_229e_s1-delim.fasta.uniqueseq.phy
+
+For your convenience alignment with unique sequences printed to results/aligned_229e_s1-delim.fasta.uniqueseq.phy
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.005 seconds
+
+NOTE: 0 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.500)
+1. Initial log-likelihood: -3200.369
+2. Current log-likelihood: -3163.805
+Optimal log-likelihood: -3163.804
+Rate parameters:  A-C: 1.21772  A-G: 1.41470  A-T: 0.39619  C-G: 0.68611  C-T: 3.74086  G-T: 1.00000
+Base frequencies:  A: 0.246  C: 0.179  G: 0.200  T: 0.376
+Parameters optimization took 2 rounds (0.019 sec)
+Computing ML distances based on estimated model parameters...
+Computing ML distances took 0.024864 sec (of wall-clock time) 0.022012 sec(of CPU time)
+Computing RapidNJ tree took 0.000254 sec (of wall-clock time) 0.000430 sec (of CPU time)
+Log-likelihood of RapidNJ tree: -3166.629
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+
+Do NNI search on 2 best initial trees
+Estimate model parameters (epsilon = 0.500)
+BETTER TREE FOUND at iteration 1: -3163.597
+Estimate model parameters (epsilon = 0.500)
+BETTER TREE FOUND at iteration 2: -3161.262
+Finish initializing candidate tree set (4)
+Current best tree score: -3161.262 / CPU time: 0.051
+Number of iterations: 2
+TREE SEARCH COMPLETED AFTER 2 ITERATIONS / Time: 0h:0m:0s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.050)
+1. Initial log-likelihood: -3161.262
+Optimal log-likelihood: -3161.260
+Rate parameters:  A-C: 1.20047  A-G: 1.53850  A-T: 0.43858  C-G: 0.69957  C-T: 3.69432  G-T: 1.00000
+Base frequencies:  A: 0.246  C: 0.179  G: 0.200  T: 0.376
+Parameters optimization took 1 rounds (0.003 sec)
+BEST SCORE FOUND : -3161.260
+Total tree length: 0.077
+
+Total number of iterations: 2
+CPU time used for tree search: 0.043 sec (0h:0m:0s)
+Wall-clock time used for tree search: 0.051 sec (0h:0m:0s)
+Total CPU time used: 0.104 sec (0h:0m:0s)
+Total wall-clock time used: 0.158 sec (0h:0m:0s)
+
+Analysis results written to: 
+  IQ-TREE report:                results/aligned_229e_s1-delim.fasta.iqtree
+  Maximum-likelihood tree:       results/aligned_229e_s1-delim.fasta.treefile
+  Likelihood distances:          results/aligned_229e_s1-delim.fasta.mldist
+  Screen log file:               results/aligned_229e_s1-delim.fasta.log
+
+Date and Time: Mon Jan 10 11:29:23 2022
